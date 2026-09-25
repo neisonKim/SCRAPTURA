@@ -44,11 +44,24 @@ import styles
   from "../../new/page.module.css";
 
 
+/* =====================================================
+   TYPES
+   ===================================================== */
+
 type BookSection = {
   number: string;
   title: string;
   scripture: string;
   description: string;
+};
+
+
+type StoryScene = {
+  number: string;
+  title: string;
+  scripture: string;
+  description: string;
+  image: string;
 };
 
 
@@ -195,6 +208,73 @@ function normalizeBookSections(
           typeof source.description ===
           "string"
             ? source.description
+            : "",
+      };
+    }
+  );
+}
+
+
+/* =====================================================
+   STORY SCENE NORMALIZER
+   ===================================================== */
+
+function normalizeStoryScenes(
+  value: unknown
+): StoryScene[] {
+  if (!Array.isArray(value)) {
+    return [];
+  }
+
+  return value.map(
+    (
+      scene,
+      index
+    ) => {
+      const source:
+        Record<string, unknown> =
+        typeof scene === "object" &&
+        scene !== null
+          ? scene as Record<
+              string,
+              unknown
+            >
+          : {};
+
+      return {
+        number:
+          typeof source.number ===
+          "string"
+            ? source.number
+            : String(
+                index + 1
+              ).padStart(
+                2,
+                "0"
+              ),
+
+        title:
+          typeof source.title ===
+          "string"
+            ? source.title
+            : "",
+
+        scripture:
+          typeof source.scripture ===
+          "string"
+            ? source.scripture
+            : "",
+
+        description:
+          typeof source.description ===
+          "string"
+            ? source.description
+            : "",
+
+        image:
+          typeof source.image ===
+          "string"
+            ? source.image
             : "",
       };
     }
@@ -350,7 +430,7 @@ export default function EditContentPage() {
 
 
   /* =====================================================
-     BIBLE FIELDS
+     DETAIL FIELDS
      ===================================================== */
 
   const [
@@ -371,12 +451,30 @@ export default function EditContentPage() {
   ] =
     useState("");
 
+
+  /* =====================================================
+     BIBLE FIELDS
+     ===================================================== */
+
   const [
     bookSections,
     setBookSections,
   ] =
     useState<
       BookSection[]
+    >([]);
+
+
+  /* =====================================================
+     STORY FIELDS
+     ===================================================== */
+
+  const [
+    storyScenes,
+    setStoryScenes,
+  ] =
+    useState<
+      StoryScene[]
     >([]);
 
 
@@ -632,7 +730,7 @@ export default function EditContentPage() {
 
 
             /* =========================
-               BIBLE FIELDS
+               DETAIL FIELDS
                ========================= */
 
             setOverview(
@@ -690,6 +788,17 @@ export default function EditContentPage() {
             setBookSections(
               normalizeBookSections(
                 data.bookSections
+              )
+            );
+
+
+            /* =========================
+               STORY SCENES
+               ========================= */
+
+            setStoryScenes(
+              normalizeStoryScenes(
+                data.scenes
               )
             );
 
@@ -815,6 +924,99 @@ export default function EditContentPage() {
       index: number
     ) => {
       setBookSections(
+        (current) =>
+          current.filter(
+            (
+              _,
+              itemIndex
+            ) =>
+              itemIndex !== index
+          )
+      );
+    };
+
+
+  /* =====================================================
+     STORY SCENE ADD
+     ===================================================== */
+
+  const addStoryScene =
+    () => {
+      setStoryScenes(
+        (current) => [
+          ...current,
+
+          {
+            number:
+              String(
+                current.length + 1
+              ).padStart(
+                2,
+                "0"
+              ),
+
+            title:
+              "",
+
+            scripture:
+              "",
+
+            description:
+              "",
+
+            image:
+              "",
+          },
+        ]
+      );
+    };
+
+
+  /* =====================================================
+     STORY SCENE UPDATE
+     ===================================================== */
+
+  const updateStoryScene =
+    (
+      index: number,
+      field:
+        keyof StoryScene,
+      value: string
+    ) => {
+      setStoryScenes(
+        (current) =>
+          current.map(
+            (
+              scene,
+              itemIndex
+            ) => {
+              if (
+                itemIndex !== index
+              ) {
+                return scene;
+              }
+
+              return {
+                ...scene,
+
+                [field]:
+                  value,
+              };
+            }
+          )
+      );
+    };
+
+
+  /* =====================================================
+     STORY SCENE REMOVE
+     ===================================================== */
+
+  const removeStoryScene =
+    (
+      index: number
+    ) => {
+      setStoryScenes(
         (current) =>
           current.filter(
             (
@@ -1030,26 +1232,31 @@ export default function EditContentPage() {
 
 
         /* =========================
+           SCRIPTURE NORMALIZE
+           ========================= */
+
+        const scripture =
+          scriptureText
+            .split(
+              "\n"
+            )
+            .map(
+              (item) =>
+                item.trim()
+            )
+            .filter(
+              (item) =>
+                item.length > 0
+            );
+
+
+        /* =========================
            BIBLE CONTENT
            ========================= */
 
         if (
           type === "book"
         ) {
-          const scripture =
-            scriptureText
-              .split(
-                "\n"
-              )
-              .map(
-                (item) =>
-                  item.trim()
-              )
-              .filter(
-                (item) =>
-                  item.length > 0
-              );
-
 
           const cleanBookSections =
             bookSections
@@ -1097,6 +1304,69 @@ export default function EditContentPage() {
                 cleanBookSections,
             }
           );
+
+
+        /* =========================
+           STORY CONTENT
+           ========================= */
+
+        } else if (
+          type === "story"
+        ) {
+
+          const cleanStoryScenes =
+            storyScenes
+              .map(
+                (scene) => ({
+                  number:
+                    scene.number
+                      .trim(),
+
+                  title:
+                    scene.title
+                      .trim(),
+
+                  scripture:
+                    scene.scripture
+                      .trim(),
+
+                  description:
+                    scene.description
+                      .trim(),
+
+                  image:
+                    scene.image
+                      .trim(),
+                })
+              )
+              .filter(
+                (scene) =>
+                  scene.title !== "" ||
+                  scene.scripture !== "" ||
+                  scene.description !== "" ||
+                  scene.image !== ""
+              );
+
+
+          await updateDoc(
+            contentRef,
+            {
+              ...commonData,
+
+              overview:
+                overview.trim(),
+
+              scripture,
+
+              scenes:
+                cleanStoryScenes,
+            }
+          );
+
+
+        /* =========================
+           OTHER CONTENT
+           ========================= */
 
         } else {
           await updateDoc(
@@ -1652,6 +1922,354 @@ export default function EditContentPage() {
               </select>
             </div>
           </div>
+
+
+          {/* STORY CONTENT */}
+
+          {type ===
+            "story" && (
+            <>
+              <div
+                className={
+                  styles.sectionDivider
+                }
+              />
+
+
+              <div
+                className={
+                  styles.sectionHeader
+                }
+              >
+                <small>
+                  STORY CONTENT
+                </small>
+
+                <h2>
+                  스토리 상세 정보
+                </h2>
+
+                <p>
+                  이야기의 개요와 성경 범위,
+                  Scene Sequence를 관리합니다.
+                </p>
+              </div>
+
+
+              {/* STORY OVERVIEW */}
+
+              <div
+                className={
+                  styles.field
+                }
+              >
+                <label
+                  htmlFor="storyOverview"
+                >
+                  Overview
+                </label>
+
+                <textarea
+                  id="storyOverview"
+                  value={
+                    overview
+                  }
+                  placeholder="이 스토리의 전체 흐름과 배경을 입력하세요."
+                  onChange={
+                    (event) =>
+                      setOverview(
+                        event.target.value
+                      )
+                  }
+                />
+              </div>
+
+
+              {/* STORY SCRIPTURE */}
+
+              <div
+                className={
+                  styles.field
+                }
+              >
+                <label
+                  htmlFor="storyScripture"
+                >
+                  Scripture
+                </label>
+
+                <textarea
+                  id="storyScripture"
+                  value={
+                    scriptureText
+                  }
+                  placeholder={`1 Samuel 17
+1 Samuel 18:1–5`}
+                  onChange={
+                    (event) =>
+                      setScriptureText(
+                        event.target.value
+                      )
+                  }
+                />
+
+                <small>
+                  성경 범위를 한 줄에
+                  하나씩 입력하세요.
+                </small>
+              </div>
+
+
+              {/* SCENE SEQUENCE */}
+
+              <div
+                className={
+                  styles.bookSectionHead
+                }
+              >
+                <div>
+                  <small>
+                    SCENE SEQUENCE
+                  </small>
+
+                  <h3>
+                    이야기 장면
+                  </h3>
+
+                  <p>
+                    STORY 상세페이지에
+                    순서대로 표시되는 장면을
+                    관리합니다.
+                  </p>
+                </div>
+
+                <button
+                  type="button"
+                  className={
+                    styles.addSectionButton
+                  }
+                  onClick={
+                    addStoryScene
+                  }
+                >
+                  + 장면 추가
+                </button>
+              </div>
+
+
+              <div
+                className={
+                  styles.bookSectionList
+                }
+              >
+                {storyScenes.length ===
+                  0 && (
+                  <div
+                    className={
+                      styles.sectionEmpty
+                    }
+                  >
+                    아직 등록된 Scene이
+                    없습니다.
+                  </div>
+                )}
+
+
+                {storyScenes.map(
+                  (
+                    scene,
+                    index
+                  ) => (
+                    <article
+                      className={
+                        styles.bookSectionCard
+                      }
+                      key={
+                        `story-scene-${index}`
+                      }
+                    >
+
+                      <div
+                        className={
+                          styles.bookSectionTop
+                        }
+                      >
+                        <strong>
+                          SCENE{" "}
+                          {String(
+                            index + 1
+                          ).padStart(
+                            2,
+                            "0"
+                          )}
+                        </strong>
+
+                        <button
+                          type="button"
+                          className={
+                            styles.removeSectionButton
+                          }
+                          onClick={
+                            () =>
+                              removeStoryScene(
+                                index
+                              )
+                          }
+                        >
+                          삭제
+                        </button>
+                      </div>
+
+
+                      <div
+                        className={
+                          styles.sectionFields
+                        }
+                      >
+                        <div
+                          className={
+                            styles.field
+                          }
+                        >
+                          <label>
+                            Number
+                          </label>
+
+                          <input
+                            type="text"
+                            value={
+                              scene.number
+                            }
+                            onChange={
+                              (event) =>
+                                updateStoryScene(
+                                  index,
+                                  "number",
+                                  event.target.value
+                                )
+                            }
+                          />
+                        </div>
+
+
+                        <div
+                          className={
+                            styles.field
+                          }
+                        >
+                          <label>
+                            Title
+                          </label>
+
+                          <input
+                            type="text"
+                            value={
+                              scene.title
+                            }
+                            placeholder="예: THE VALLEY"
+                            onChange={
+                              (event) =>
+                                updateStoryScene(
+                                  index,
+                                  "title",
+                                  event.target.value
+                                )
+                            }
+                          />
+                        </div>
+                      </div>
+
+
+                      <div
+                        className={
+                          styles.field
+                        }
+                      >
+                        <label>
+                          Scripture
+                        </label>
+
+                        <input
+                          type="text"
+                          value={
+                            scene.scripture
+                          }
+                          placeholder="예: 1 Samuel 17:1–3"
+                          onChange={
+                            (event) =>
+                              updateStoryScene(
+                                index,
+                                "scripture",
+                                event.target.value
+                              )
+                          }
+                        />
+                      </div>
+
+
+                      <div
+                        className={
+                          styles.field
+                        }
+                      >
+                        <label>
+                          Description
+                        </label>
+
+                        <textarea
+                          value={
+                            scene.description
+                          }
+                          placeholder="이 장면에서 일어나는 사건을 입력하세요."
+                          onChange={
+                            (event) =>
+                              updateStoryScene(
+                                index,
+                                "description",
+                                event.target.value
+                              )
+                          }
+                        />
+                      </div>
+
+
+                      <div
+                        className={
+                          styles.field
+                        }
+                      >
+                        <label>
+                          Scene Image URL
+                        </label>
+
+                        <input
+                          type="text"
+                          value={
+                            scene.image
+                          }
+                          placeholder="/assets/... 또는 Cloudinary URL"
+                          onChange={
+                            (event) =>
+                              updateStoryScene(
+                                index,
+                                "image",
+                                event.target.value
+                              )
+                          }
+                        />
+
+                        <small>
+                          기존 이미지 경로나
+                          Cloudinary URL을 입력할 수 있습니다.
+                        </small>
+                      </div>
+
+                    </article>
+                  )
+                )}
+              </div>
+            </>
+          )}
 
 
           {/* BIBLE CONTENT */}
