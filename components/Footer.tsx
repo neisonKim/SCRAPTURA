@@ -1,0 +1,1 @@
+export default function Footer(){return <footer><b>SCRAPTURA</b><span>Interactive Biblical Archive · Explore the World of Scripture</span></footer>}

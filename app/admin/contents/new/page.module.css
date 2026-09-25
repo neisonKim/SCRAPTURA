@@ -1,0 +1,505 @@
+.page {
+  min-height: calc(100vh - 66px);
+
+  padding: 54px 40px 110px;
+
+  box-sizing: border-box;
+
+  background: #050c0b;
+
+  color: #f1dfb7;
+}
+
+.container {
+  width: 100%;
+
+  max-width: 960px;
+
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+  padding-bottom: 32px;
+
+  margin-bottom: 36px;
+
+  border-bottom: 1px solid rgba(217, 182, 111, 0.18);
+}
+
+.back {
+  display: inline-block;
+
+  margin-bottom: 34px;
+
+  color: #807b72;
+
+  font-size: 10px;
+
+  letter-spacing: 0.12em;
+
+  text-decoration: none;
+}
+
+.header small {
+  display: block;
+
+  margin-bottom: 10px;
+
+  color: #b99651;
+
+  font-size: 9px;
+  font-weight: 700;
+
+  letter-spacing: 0.19em;
+}
+
+.header h1 {
+  margin: 0 0 12px;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 38px;
+
+  font-weight: 400;
+
+  color: #f1dfb7;
+}
+
+.header p {
+  margin: 0;
+
+  color: #908a81;
+
+  font-size: 13px;
+}
+
+/* FORM */
+
+.form {
+  width: 100%;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 26px;
+}
+
+.twoColumns {
+  display: grid;
+
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  gap: 20px;
+}
+
+.field {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 9px;
+}
+
+.field label {
+  color: #c6ab72;
+
+  font-size: 10px;
+
+  font-weight: 700;
+
+  letter-spacing: 0.08em;
+}
+
+.field input,
+.field select,
+.field textarea {
+  width: 100%;
+
+  box-sizing: border-box;
+
+  background: #07100e;
+
+  border: 1px solid rgba(217, 182, 111, 0.2);
+
+  color: #eee0c1;
+
+  outline: none;
+
+  font-size: 13px;
+}
+
+.field input,
+.field select {
+  height: 48px;
+
+  padding: 0 14px;
+}
+
+.field textarea {
+  min-height: 150px;
+
+  padding: 14px;
+
+  resize: vertical;
+
+  line-height: 1.7;
+}
+
+.field input:focus,
+.field select:focus,
+.field textarea:focus {
+  border-color: rgba(217, 182, 111, 0.7);
+}
+
+.field > small {
+  color: #6f6a63;
+
+  font-size: 10px;
+
+  line-height: 1.6;
+}
+
+/* ACTION */
+
+.actions {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: flex-end;
+
+  gap: 10px;
+
+  padding-top: 20px;
+
+  border-top: 1px solid rgba(217, 182, 111, 0.12);
+}
+
+.cancelButton,
+.saveButton {
+  min-height: 46px;
+
+  padding: 0 22px;
+
+  box-sizing: border-box;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  font-size: 11px;
+
+  text-decoration: none;
+}
+
+.cancelButton {
+  border: 1px solid rgba(217, 182, 111, 0.2);
+
+  color: #8e887f;
+}
+
+.saveButton {
+  cursor: pointer;
+
+  background: transparent;
+
+  border: 1px solid #d9b66f;
+
+  color: #f1dfb7;
+
+  font-weight: 700;
+}
+
+.saveButton:hover {
+  background: #d9b66f;
+
+  color: #07100e;
+}
+
+.saveButton:disabled {
+  opacity: 0.45;
+
+  cursor: wait;
+}
+
+.error {
+  padding: 14px 16px;
+
+  border: 1px solid rgba(210, 110, 110, 0.38);
+
+  background: rgba(210, 110, 110, 0.05);
+
+  color: #dfa0a0;
+
+  font-size: 12px;
+}
+
+.loadingPage {
+  min-height: calc(100vh - 66px);
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background: #050c0b;
+
+  color: #b99651;
+
+  font-size: 12px;
+}
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+  .page {
+    padding: 38px 16px 110px;
+  }
+
+  .twoColumns {
+    grid-template-columns: 1fr;
+  }
+
+  .header h1 {
+    font-size: 32px;
+  }
+
+  .actions {
+    flex-direction: column-reverse;
+  }
+
+  .cancelButton,
+  .saveButton {
+    width: 100%;
+  }
+}
+
+/* ========================================
+   CONTENT EDITOR SECTIONS
+   ======================================== */
+
+.sectionDivider {
+  width: 100%;
+  height: 1px;
+
+  margin: 20px 0 8px;
+
+  background: rgba(217, 182, 111, 0.18);
+}
+
+.sectionHeader {
+  padding-bottom: 4px;
+}
+
+.sectionHeader > small {
+  display: block;
+
+  margin-bottom: 8px;
+
+  color: #b99651;
+
+  font-size: 9px;
+  font-weight: 700;
+
+  letter-spacing: 0.18em;
+}
+
+.sectionHeader h2 {
+  margin: 0 0 8px;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 27px;
+
+  font-weight: 400;
+
+  color: #f1dfb7;
+}
+
+.sectionHeader p {
+  margin: 0;
+
+  color: #827c74;
+
+  font-size: 12px;
+
+  line-height: 1.7;
+}
+
+/* BOOK SECTIONS */
+
+.bookSectionHead {
+  display: flex;
+
+  align-items: flex-end;
+  justify-content: space-between;
+
+  gap: 20px;
+
+  margin-top: 10px;
+
+  padding-bottom: 18px;
+
+  border-bottom: 1px solid rgba(217, 182, 111, 0.13);
+}
+
+.bookSectionHead small {
+  display: block;
+
+  margin-bottom: 7px;
+
+  color: #b99651;
+
+  font-size: 9px;
+
+  letter-spacing: 0.16em;
+}
+
+.bookSectionHead h3 {
+  margin: 0 0 7px;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 22px;
+
+  font-weight: 400;
+
+  color: #f1dfb7;
+}
+
+.bookSectionHead p {
+  margin: 0;
+
+  color: #7c766e;
+
+  font-size: 11px;
+}
+
+.addSectionButton {
+  min-height: 39px;
+
+  padding: 0 16px;
+
+  cursor: pointer;
+
+  background: transparent;
+
+  border: 1px solid rgba(217, 182, 111, 0.55);
+
+  color: #d9b66f;
+
+  font-size: 10px;
+
+  font-weight: 700;
+}
+
+.addSectionButton:hover {
+  background: rgba(217, 182, 111, 0.08);
+}
+
+.bookSectionList {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 14px;
+}
+
+.bookSectionCard {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 18px;
+
+  padding: 22px;
+
+  background: #07100e;
+
+  border: 1px solid rgba(217, 182, 111, 0.15);
+}
+
+.bookSectionTop {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  padding-bottom: 14px;
+
+  border-bottom: 1px solid rgba(217, 182, 111, 0.1);
+}
+
+.bookSectionTop strong {
+  color: #b99651;
+
+  font-size: 10px;
+
+  letter-spacing: 0.12em;
+}
+
+.removeSectionButton {
+  padding: 6px 10px;
+
+  cursor: pointer;
+
+  background: transparent;
+
+  border: 1px solid rgba(190, 94, 94, 0.28);
+
+  color: #c88888;
+
+  font-size: 9px;
+}
+
+.removeSectionButton:hover {
+  border-color: rgba(210, 110, 110, 0.65);
+}
+
+.sectionFields {
+  display: grid;
+
+  grid-template-columns:
+    110px
+    minmax(0, 1fr);
+
+  gap: 16px;
+}
+
+.sectionEmpty {
+  padding: 45px 20px;
+
+  text-align: center;
+
+  border: 1px dashed rgba(217, 182, 111, 0.18);
+
+  color: #716b63;
+
+  font-size: 11px;
+}
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+  .bookSectionHead {
+    align-items: stretch;
+
+    flex-direction: column;
+  }
+
+  .addSectionButton {
+    width: 100%;
+  }
+
+  .sectionFields {
+    grid-template-columns: 1fr;
+  }
+
+  .bookSectionCard {
+    padding: 18px 14px;
+  }
+}

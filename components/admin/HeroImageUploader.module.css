@@ -1,0 +1,200 @@
+.uploader {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+
+  padding: 22px;
+
+  border: 1px solid rgba(217, 182, 111, 0.15);
+
+  background: #07100e;
+}
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  gap: 24px;
+}
+
+.header small {
+  display: block;
+
+  margin-bottom: 7px;
+
+  color: #b99651;
+
+  font-size: 9px;
+  font-weight: 700;
+
+  letter-spacing: 0.17em;
+}
+
+.header h3 {
+  margin: 0 0 7px;
+
+  color: #ead3a0;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.header p {
+  margin: 0;
+
+  color: #777169;
+
+  font-size: 10px;
+  line-height: 1.7;
+}
+
+.uploadButton,
+.uploadButtonDisabled {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 130px;
+  min-height: 40px;
+
+  padding: 0 15px;
+
+  box-sizing: border-box;
+
+  border: 1px solid rgba(217, 182, 111, 0.55);
+
+  color: #d9b66f;
+
+  font-size: 9px;
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+.uploadButton:hover {
+  background: rgba(217, 182, 111, 0.07);
+}
+
+.uploadButtonDisabled {
+  cursor: default;
+  opacity: 0.45;
+}
+
+.uploadButton input,
+.uploadButtonDisabled input {
+  display: none;
+}
+
+.preview {
+  display: grid;
+
+  grid-template-columns:
+    180px
+    minmax(0, 1fr);
+
+  gap: 20px;
+
+  padding-top: 18px;
+
+  border-top: 1px solid rgba(217, 182, 111, 0.1);
+}
+
+.preview img {
+  display: block;
+
+  width: 180px;
+  height: 110px;
+
+  object-fit: cover;
+
+  background: #020806;
+
+  border: 1px solid rgba(217, 182, 111, 0.14);
+}
+
+.preview > div {
+  min-width: 0;
+}
+
+.preview small {
+  display: block;
+
+  margin-bottom: 8px;
+
+  color: #86744e;
+
+  font-size: 8px;
+  letter-spacing: 0.14em;
+}
+
+.preview p {
+  max-width: 100%;
+
+  margin: 0 0 12px;
+
+  overflow-wrap: anywhere;
+
+  color: #756f66;
+
+  font-size: 9px;
+  line-height: 1.6;
+}
+
+.preview button {
+  padding: 6px 10px;
+
+  cursor: pointer;
+
+  border: 1px solid rgba(190, 94, 94, 0.28);
+
+  background: transparent;
+
+  color: #c58484;
+
+  font-size: 8px;
+}
+
+.error,
+.success {
+  padding: 11px 13px;
+
+  font-size: 9px;
+}
+
+.error {
+  border: 1px solid rgba(190, 94, 94, 0.3);
+
+  color: #cb8484;
+}
+
+.success {
+  border: 1px solid rgba(151, 171, 107, 0.25);
+
+  color: #aebe83;
+}
+
+@media (max-width: 700px) {
+  .header {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .uploadButton,
+  .uploadButtonDisabled {
+    width: 100%;
+  }
+
+  .preview {
+    grid-template-columns: 1fr;
+  }
+
+  .preview img {
+    width: 100%;
+    height: auto;
+
+    aspect-ratio: 16 / 9;
+  }
+}
