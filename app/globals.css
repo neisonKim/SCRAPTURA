@@ -1,517 +1,331 @@
+/* =========================================================
+   SCRAPTURA
+   GLOBAL STYLES — CLEANED MASTER
+   ========================================================= */
+
+/* =========================================================
+   01. RESET / ROOT
+   ========================================================= */
+
 * {
   box-sizing: border-box;
 }
+
 html {
   background: #050c0b;
   color: #eee6d6;
 }
+
 body {
   margin: 0;
+
   background: #050c0b;
+
+  color: #eee6d6;
+
   font-family: Arial, "Noto Sans KR", sans-serif;
+
+  overflow-x: hidden;
 }
+
 a {
   color: inherit;
   text-decoration: none;
 }
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
 :root {
   --gold: #d8b36d;
   --gold2: #f0d49b;
+
   --line: rgba(216, 179, 109, 0.25);
+
   --panel: #091310;
+
+  --bg: #050c0b;
+
   --max: 1180px;
 }
+
+/* =========================================================
+   02. HEADER
+   ========================================================= */
+
 .topbar {
-  height: 66px;
-  padding: 0 max(24px, calc((100vw - var(--max)) / 2));
-  display: flex;
-  align-items: center;
-  gap: 38px;
   position: sticky;
+
   top: 0;
+
   z-index: 30;
-  background: rgba(4, 10, 9, 0.95);
-  border-bottom: 1px solid var(--line);
+
+  height: 66px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 34px;
+
+  padding: 0 32px;
+
+  background: rgba(4, 10, 9, 0.97);
+
+  border-bottom: 1px solid rgba(217, 182, 111, 0.12);
+
   backdrop-filter: blur(10px);
+
+  -webkit-backdrop-filter: blur(10px);
 }
+
+/* =========================================================
+   HEADER BRAND
+   ========================================================= */
+
 .brand {
   display: flex;
+
   align-items: center;
-  gap: 10px;
+
+  gap: 0;
+
   margin-right: auto;
+
+  white-space: nowrap;
 }
+
 .cross {
-  font-size: 28px;
-  color: var(--gold);
+  display: none !important;
 }
+
+.brandText,
 .brand span:last-child {
   display: flex;
+
   flex-direction: column;
+
+  align-items: flex-start;
 }
+
 .brand b {
-  font:
-    400 18px Georgia,
-    serif;
-  letter-spacing: 0.17em;
-  color: var(--gold2);
+  display: block;
+
+  margin: 0;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 28px;
+
+  font-weight: 400;
+
+  line-height: 1;
+
+  letter-spacing: 0.18em;
+
+  color: #f1dfb7;
+
+  white-space: nowrap;
 }
+
 .brand small {
-  font-size: 6px;
-  letter-spacing: 0.12em;
-  color: #bdb3a3;
+  display: block;
+
+  margin-top: 5px;
+
+  font-size: 8px;
+
+  font-weight: 400;
+
+  line-height: 1;
+
+  letter-spacing: 0.16em;
+
+  color: #bba77d;
+
+  white-space: nowrap;
 }
+
+/* =========================================================
+   DESKTOP NAV
+   ========================================================= */
+
 .topbar nav {
   display: flex;
-  gap: 27px;
+
+  align-items: center;
+
+  gap: 31px;
+
+  margin-left: auto;
 }
+
 .topbar nav a {
-  font-size: 10px;
-  letter-spacing: 0.12em;
-  color: #d0c8ba;
+  font-size: 11.7px;
+
+  font-weight: 700;
+
+  letter-spacing: 0.09em;
+
+  color: #d6cdbd;
+
+  transition: color 0.2s ease;
 }
+
+.topbar nav a:hover,
+.topbar nav a[aria-current="page"] {
+  color: var(--gold2);
+}
+
 .journeyBtn {
+  flex-shrink: 0;
+
+  padding: 10px 18px;
+
   border: 1px solid var(--gold);
-  padding: 10px 14px;
-  font-size: 9px;
-  letter-spacing: 0.1em;
+
+  border-radius: 22px;
+
   color: var(--gold2);
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 13px;
+
+  font-weight: 700;
+
+  letter-spacing: 0.04em;
 }
-.homeHero,
-.detailHero {
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
+
+/* =========================================================
+   ACCESSIBILITY
+   ========================================================= */
+
+.topbar a:focus-visible,
+.mobileNav a:focus-visible,
+.searchBox input:focus-visible,
+.searchBox button:focus-visible,
+.searchFilters button:focus-visible {
+  outline: 2px solid var(--gold);
+
+  outline-offset: 3px;
 }
-.homeHero {
-  height: calc(100vh - 66px);
-  min-height: 650px;
-  background-image: url("/assets/scraptura-home-clean.jpg");
-}
-.heroShade {
-  position: absolute;
-  inset: 0;
-  background:
-    linear-gradient(90deg, rgba(3, 8, 7, 0.72), rgba(3, 8, 7, 0.15) 68%),
-    linear-gradient(0deg, #050c0b 0%, transparent 45%);
-}
-.homeCopy,
-.heroCopy {
-  position: absolute;
-  z-index: 2;
-  left: max(24px, calc((100vw - var(--max)) / 2));
-  max-width: 590px;
-}
-.homeCopy {
-  top: 50%;
-  transform: translateY(-50%);
-}
-.homeCopy small,
-.heroCopy small,
-.sectionTitle small,
-.pageHead small,
-.overview small,
-.journey small,
-.relations small,
-.archiveCard small {
-  font-size: 10px;
-  letter-spacing: 0.22em;
-  color: var(--gold);
-}
-.homeCopy h1 {
-  font:
-    400 clamp(62px, 8vw, 118px)/0.9 Georgia,
-    serif;
-  letter-spacing: 0.08em;
-  margin: 14px 0;
-  color: var(--gold2);
-}
-.homeCopy h2 {
-  font:
-    400 30px Georgia,
-    serif;
-  margin: 0 0 12px;
-}
-.homeCopy p {
-  color: #c8bfae;
-}
-.homeCopy > a {
-  display: inline-block;
-  margin-top: 22px;
-  border: 1px solid var(--gold);
-  padding: 13px 18px;
-  font-size: 10px;
-  letter-spacing: 0.12em;
-}
-.portal,
+
+/* =========================================================
+   03. SHARED LAYOUT
+   ========================================================= */
+
 .cardGrid,
 .contentWrap,
 .journeyGrid,
 .visualPlaceholder {
   width: min(var(--max), calc(100vw - 48px));
-  margin: auto;
+
+  margin-left: auto;
+  margin-right: auto;
 }
-.portal {
-  padding: 72px 0 90px;
-}
-.sectionTitle h2,
-.pageHead h1,
-.overview h3,
-.journey h3,
-.relations h3 {
-  font:
-    400 34px Georgia,
-    serif;
-}
-.portalGrid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  border-top: 1px solid var(--line);
-  border-left: 1px solid var(--line);
-}
-.portalGrid > a {
-  min-height: 220px;
-  padding: 28px;
-  border-right: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-  background: #08110f;
-}
-.portalGrid h3 {
-  font:
-    400 26px Georgia,
-    serif;
-  margin: 10px 0;
-}
-.portalGrid p {
-  color: #aaa194;
-}
-.portalGrid b {
-  font-size: 9px;
-  color: var(--gold);
-}
+
+/* =========================================================
+   PAGE HEADER
+   ========================================================= */
+
 .pageHead {
   padding: 110px max(24px, calc((100vw - var(--max)) / 2)) 52px;
+
   border-bottom: 1px solid var(--line);
 }
-.pageHead h1 {
-  font:
-    400 clamp(58px, 7vw, 98px)/1 Georgia,
-    serif;
-  color: var(--gold2);
-  margin: 12px 0;
+
+.pageHead small,
+.heroCopy small,
+.overview small,
+.journey small,
+.relations small,
+.archiveCard small {
+  color: var(--gold);
+
+  font-size: 10px;
+
+  letter-spacing: 0.22em;
 }
+
+.pageHead h1 {
+  margin: 12px 0;
+
+  color: var(--gold2);
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: clamp(58px, 7vw, 98px);
+
+  font-weight: 400;
+
+  line-height: 1;
+}
+
 .pageHead p {
   color: #bcb3a5;
-}
-.cardGrid {
-  padding: 54px 0 90px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 14px;
-}
-.archiveCard {
-  border: 1px solid var(--line);
-  background: var(--panel);
-  padding-bottom: 24px;
-}
-.cardImage {
-  height: 230px;
-  background-size: cover;
-  background-position: center;
-  margin-bottom: 22px;
-}
-.archiveCard > *:not(.cardImage) {
-  margin-left: 22px;
-  margin-right: 22px;
-}
-.archiveCard h2 {
-  font:
-    400 26px Georgia,
-    serif;
-  margin-top: 9px;
-  margin-bottom: 4px;
-}
-.archiveCard > b {
-  font:
-    400 14px Georgia,
-    serif;
-  color: #c7b99f;
-}
-.archiveCard p {
-  font-size: 13px;
-  line-height: 1.7;
-  color: #aaa194;
-}
-.detailHero {
-  height: 620px;
-  background-color: #050c0b;
-}
-.detailHero .heroShade {
-  background:
-    linear-gradient(
-      90deg,
-      #050c0b 0%,
-      rgba(5, 12, 11, 0.75) 42%,
-      rgba(5, 12, 11, 0.05) 80%
-    ),
-    linear-gradient(0deg, #050c0b 0%, transparent 38%);
-}
-.heroCopy {
-  bottom: 90px;
-}
-.heroCopy h1 {
-  font:
-    400 clamp(58px, 7vw, 100px)/0.95 Georgia,
-    serif;
-  color: var(--gold2);
-  margin: 10px 0;
-}
-.heroCopy h2 {
-  font:
-    400 23px Georgia,
-    serif;
-  color: #e8dbc1;
-}
-.heroCopy p {
-  max-width: 520px;
-  line-height: 1.8;
-  color: #c6bdad;
-}
-.contentWrap {
-  padding: 65px 0 95px;
-}
-.overview,
-.journey {
-  padding-bottom: 55px;
-  border-bottom: 1px solid var(--line);
-}
-.overview p {
-  max-width: 760px;
-  line-height: 1.85;
-  color: #b9b0a1;
-}
-.journey {
-  padding-top: 55px;
-}
-.relations {
-  display: grid;
-  grid-template-columns: 1.3fr repeat(4, 1fr);
-  gap: 10px;
-  padding-top: 55px;
-}
-.relations > div {
-  padding-right: 20px;
-}
-.relations > a {
-  min-height: 120px;
-  border: 1px solid var(--line);
-  background: var(--panel);
-  padding: 22px;
-  display: flex;
-  flex-direction: column;
-}
-.relations > a b {
-  margin-top: auto;
-  font:
-    400 16px Georgia,
-    serif;
-  color: #e5d7bd;
-}
-.journeyGrid {
-  padding: 55px 0 90px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
-}
-.journeyGrid > a,
-.visualPlaceholder {
-  border: 1px solid var(--line);
-  background: var(--panel);
-  padding: 28px;
-}
-.journeyGrid h2 {
-  font:
-    400 26px Georgia,
-    serif;
-}
-.journeyGrid p,
-.visualPlaceholder p {
-  color: #aaa194;
-}
-.visualPlaceholder {
-  margin-top: 55px;
-  margin-bottom: 90px;
-  min-height: 280px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-footer {
-  border-top: 1px solid var(--line);
-  padding: 28px max(24px, calc((100vw - var(--max)) / 2));
-  display: flex;
-  justify-content: space-between;
-  color: #91897c;
-  font-size: 10px;
-}
-footer b {
-  font:
-    400 15px Georgia,
-    serif;
-  color: var(--gold2);
-  letter-spacing: 0.12em;
-}
-@media (max-width: 950px) {
-  .topbar nav {
-    display: none;
-  }
-  .portalGrid,
-  .cardGrid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .relations {
-    grid-template-columns: 1fr 1fr;
-  }
-  .relations > div {
-    grid-column: 1/-1;
-  }
-  .journeyGrid {
-    grid-template-columns: 1fr;
-  }
-}
-@media (max-width: 650px) {
-  .topbar {
-    height: 58px;
-    padding: 0 16px;
-  }
-  .journeyBtn {
-    display: none;
-  }
-  .homeHero {
-    height: 78svh;
-    min-height: 600px;
-  }
-  .homeCopy,
-  .heroCopy {
-    left: 16px;
-    right: 16px;
-  }
-  .homeCopy h1 {
-    font-size: 54px;
-  }
-  .portal,
-  .cardGrid,
-  .contentWrap,
-  .journeyGrid,
-  .visualPlaceholder {
-    width: calc(100vw - 32px);
-  }
-  .portalGrid,
-  .cardGrid,
-  .relations {
-    grid-template-columns: 1fr;
-  }
-  .pageHead {
-    padding: 80px 16px 40px;
-  }
-  .detailHero {
-    height: 650px;
-  }
-  .heroCopy {
-    bottom: 48px;
-  }
-  .heroCopy h1 {
-    font-size: 54px;
-  }
-  .cardImage {
-    height: 250px;
-  }
-  footer {
-    padding: 25px 16px;
-    gap: 20px;
-    flex-direction: column;
-  }
+
+  line-height: 1.75;
 }
 
-/* ==========================================================
-   SCRAPTURA v2.2 — PROTOTYPE HOME MATCH
-   CSS-only visual correction.
-   React / Next.js / data / routing are unchanged.
-   ========================================================== */
+/* =========================================================
+   04. HOME
+   ========================================================= */
 
-:root {
-  --proto-gold: #d9b66f;
-  --proto-ivory: #f1dfb7;
-  --proto-line: rgba(217, 182, 111, 0.58);
-}
-
-/* Header: closer to the approved prototype */
-.topbar {
-  height: 66px;
-  padding: 0 32px;
-  gap: 34px;
-  background: #050d0c;
-  border-bottom: 1px solid rgba(217, 182, 111, 0.12);
-}
-.brand {
-  gap: 8px;
-}
-.cross {
-  font-size: 27px;
-  line-height: 1;
-  color: var(--proto-gold);
-}
-.brand b {
-  font:
-    400 18px/1 Georgia,
-    "Times New Roman",
-    serif;
-  letter-spacing: 0.18em;
-  color: var(--proto-ivory);
-}
-.brand small {
-  margin-top: 3px;
-  font-size: 5px;
-  letter-spacing: 0.16em;
-  color: #bba77d;
-}
-.topbar nav {
-  margin-left: auto;
-  gap: 31px;
-}
-.topbar nav a {
-  font-size: 9px;
-  font-weight: 700;
-  letter-spacing: 0.09em;
-  color: #d6cdbd;
-}
-.journeyBtn {
-  border: 1px solid var(--proto-gold);
-  border-radius: 22px;
-  padding: 10px 18px;
-  font:
-    700 10px Georgia,
-    "Times New Roman",
-    serif;
-  letter-spacing: 0.04em;
-  color: var(--proto-ivory);
-}
-
-/* HOME: keep the v2.2 JSX, visually reconstruct approved prototype */
 .home {
   position: relative;
+
   min-height: calc(100vh - 66px);
+
   overflow: hidden;
-  background: #050c0b;
+
+  background: #000;
 }
-.homeHero {
-  height: calc(100vh - 66px);
-  min-height: 790px;
-  background-image: url("/assets/scraptura-home-clean.jpg");
-  background-position: center center;
+
+/* =========================================================
+   HOME HERO
+   ========================================================= */
+
+.homeHero,
+.detailHero {
+  position: relative;
+
+  overflow: hidden;
+
+  background-position: center;
+
   background-size: cover;
 }
+
+.homeHero {
+  height: calc(100vh - 66px);
+
+  min-height: 790px;
+
+  background-image: url("/assets/scraptura-home-clean.jpg");
+
+  background-position: center center;
+
+  opacity: 0;
+
+  animation: scrapturaHeroFadeIn 1.5s ease-out 0.15s forwards;
+
+  will-change: opacity;
+}
+
 .homeHero .heroShade {
+  position: absolute;
+
+  inset: 0;
+
   background:
     linear-gradient(
       180deg,
@@ -528,1067 +342,799 @@ footer b {
     );
 }
 
-/* Centered title composition */
+/* =========================================================
+   HOME COPY
+   ========================================================= */
+
 .homeCopy {
-  top: 17%;
-  left: 50%;
-  width: min(720px, 70vw);
-  max-width: none;
-  transform: translateX(-50%);
-  text-align: center;
-}
-.homeCopy small {
-  display: block;
-  color: #e8dcc6;
-  font:
-    400 13px/1.5 Georgia,
-    "Times New Roman",
-    serif;
-  letter-spacing: 0.2em;
-  text-transform: none;
-}
-.homeCopy h1 {
-  position: relative;
-  margin: 8px 0 0;
-  padding-bottom: 13px;
-  font:
-    400 clamp(74px, 7.4vw, 126px)/0.9 Georgia,
-    "Times New Roman",
-    serif;
-  letter-spacing: 0.12em;
-  color: #f0d497;
-  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.55);
-}
-.homeCopy h1:after {
-  content: "EXPLORE THE WORLD OF SCRIPTURE";
   position: absolute;
-  left: 12%;
-  right: 12%;
-  bottom: -9px;
-  padding: 7px 0;
-  border-top: 1px solid rgba(240, 212, 151, 0.45);
-  border-bottom: 1px solid rgba(240, 212, 151, 0.45);
-  color: #f0dfbd;
-  font:
-    600 11px/1 Georgia,
-    "Times New Roman",
-    serif;
-  letter-spacing: 0.38em;
-}
-.homeCopy h2 {
-  margin: 34px 0 0;
-  font:
-    400 21px/1.5 Georgia,
-    "Times New Roman",
-    serif;
-  letter-spacing: 0.16em;
-  color: #f0e3ce;
-}
-.homeCopy p {
-  display: none;
-}
-.homeCopy > a {
-  margin-top: 13px;
-  min-width: 240px;
-  padding: 11px 24px;
-  border: 1px solid rgba(217, 182, 111, 0.7);
-  border-radius: 24px;
-  background: rgba(6, 12, 10, 0.78);
-  color: #f2ddb1;
-  font:
-    700 10px Georgia,
-    "Times New Roman",
-    serif;
-  letter-spacing: 0.04em;
-}
-.homeCopy > a:after {
-  content: "  →";
-  padding-left: 25px;
+
+  z-index: 2;
+
+  top: 50%;
+
+  left: 50%;
+
+  width: min(1100px, 90vw);
+
+  max-width: none;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  margin: 0;
+
+  padding: 0;
+
+  text-align: center;
+
+  transform: translate(-50%, calc(-50% - 100px));
 }
 
-/* Move the existing portal cards over the lower part of the hero */
+.homeCopy > small {
+  display: block;
+
+  width: 100%;
+
+  margin: 0 0 18px;
+
+  color: #f2e5cf;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  line-height: 1.4;
+
+  letter-spacing: 0.18em;
+
+  text-align: center;
+}
+
+/* =========================================================
+   MAIN TITLE
+   ========================================================= */
+
+.homeCopy h1 {
+  position: relative;
+
+  width: 100%;
+
+  margin: 0;
+
+  padding: 0 0 78px;
+
+  color: #f0d497;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: clamp(80px, 9vw, 150px);
+
+  font-weight: 400;
+
+  line-height: 0.9;
+
+  letter-spacing: 0.1em;
+
+  text-align: center;
+
+  text-shadow:
+    0 3px 3px rgba(0, 0, 0, 0.55),
+    0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* =========================================================
+   LARGE SECOND TITLE
+   ========================================================= */
+
+.homeCopy h1::after {
+  content: "EXPLORE THE WORLD OF SCRIPTURE";
+
+  position: absolute;
+
+  left: 50%;
+
+  bottom: 0;
+
+  width: 90%;
+
+  padding: 14px 0;
+
+  border-top: 1px solid rgba(240, 212, 151, 0.55);
+
+  border-bottom: 1px solid rgba(240, 212, 151, 0.55);
+
+  color: #f3e2c1;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 36px;
+
+  font-weight: 600;
+
+  line-height: 1.15;
+
+  letter-spacing: 0.2em;
+
+  text-align: center;
+
+  white-space: nowrap;
+
+  transform: translateX(-50%);
+}
+
+/* =========================================================
+   HOME SUBTITLE
+   ========================================================= */
+
+.homeCopy h2 {
+  width: 100%;
+
+  margin: 30px 0 0;
+
+  color: #f6e8d2;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 27px;
+
+  font-weight: 400;
+
+  line-height: 1.4;
+
+  letter-spacing: 0.08em;
+
+  text-align: center;
+}
+
+.homeCopy p {
+  display: block;
+
+  width: 100%;
+
+  margin: 12px 0 0;
+
+  color: #e8dcc8;
+
+  font-size: 20px;
+
+  line-height: 1.7;
+
+  text-align: center;
+}
+
+/* =========================================================
+   HOME BUTTON
+   ========================================================= */
+
+.homeCopy > a {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  width: 340px;
+
+  min-width: 340px;
+
+  margin: 20px auto 0;
+
+  padding: 14px 30px;
+
+  border: 1px solid #d8b36d;
+
+  border-radius: 30px;
+
+  background: rgba(13, 16, 12, 0.88);
+
+  color: #f1ddb5;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 14.74px;
+
+  font-weight: 700;
+
+  line-height: 1;
+
+  letter-spacing: 0.04em;
+
+  text-align: center;
+
+  white-space: nowrap;
+}
+
+.homeCopy > a::after {
+  content: "→";
+
+  flex-shrink: 0;
+
+  padding-left: 35px;
+}
+
+/* =========================================================
+   HOME SCRIPTURE QUOTE
+   ========================================================= */
+
+.homeHero::after {
+  content: "“주의 말씀은\A 내 발에 등이요\A 내 길에 빛이니이다.”\A 시편 119:105";
+
+  position: absolute;
+
+  z-index: 3;
+
+  top: 21%;
+
+  right: 4.5%;
+
+  color: #403326;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 18px;
+
+  font-weight: 400;
+
+  line-height: 1.75;
+
+  text-align: center;
+
+  white-space: pre;
+
+  opacity: 0;
+
+  animation: scrapturaQuoteFadeIn 1s ease-out 3.05s forwards;
+}
+
+/* =========================================================
+   05. HOME PORTAL
+   ========================================================= */
+
 .portal {
   position: absolute;
+
   z-index: 5;
+
   left: 24px;
+
   right: 24px;
+
   bottom: 50px;
+
   width: auto;
-  padding: 0;
+
   margin: 0;
+
+  padding: 0;
 }
+
 .sectionTitle {
   display: none;
 }
+
 .portalGrid {
   display: grid;
+
   grid-template-columns: repeat(6, minmax(0, 1fr));
+
   gap: 8px;
+
   border: 0;
 }
+
 .portalGrid > a {
   position: relative;
-  min-height: 112px;
+
+  height: 212px;
+
+  min-height: 212px;
+
   padding: 0;
+
   overflow: hidden;
+
   border: 1px solid rgba(217, 182, 111, 0.55);
+
   border-radius: 2px;
-  background-position: center;
-  background-size: cover;
+
   isolation: isolate;
+
+  opacity: 0;
+
+  transform: translateY(22px);
+
+  animation: scrapturaPortalFadeIn 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
-.portalGrid > a:before {
+
+.portalGrid > a::before {
   content: "";
+
   position: absolute;
+
   inset: 0;
+
   z-index: -1;
+
   background:
     linear-gradient(180deg, rgba(4, 9, 8, 0.1), rgba(4, 9, 8, 0.78)),
-    url("/assets/scraptura-home-clean.jpg") center/cover;
+    url("/assets/scraptura-home-clean.jpg") center / cover;
+
   transition:
     transform 0.25s ease,
     filter 0.25s ease;
 }
-.portalGrid > a:nth-child(1):before {
+
+.portalGrid > a:nth-child(1)::before {
   background-image:
     linear-gradient(180deg, rgba(4, 9, 8, 0.08), rgba(4, 9, 8, 0.78)),
     url("/assets/scraptura-exodus.jpg");
 }
-.portalGrid > a:nth-child(2):before {
+
+.portalGrid > a:nth-child(2)::before {
   background-image:
     linear-gradient(180deg, rgba(4, 9, 8, 0.08), rgba(4, 9, 8, 0.78)),
     url("/assets/scraptura-david.jpg");
 }
-.portalGrid > a:nth-child(3):before {
+
+.portalGrid > a:nth-child(3)::before {
   background-image:
     linear-gradient(180deg, rgba(4, 9, 8, 0.08), rgba(4, 9, 8, 0.78)),
     url("/assets/scraptura-jerusalem.jpg");
 }
-.portalGrid > a:nth-child(4):before {
+
+.portalGrid > a:nth-child(4)::before {
   background-image:
     linear-gradient(180deg, rgba(4, 9, 8, 0.08), rgba(4, 9, 8, 0.78)),
     url("/assets/scraptura-moses.jpg");
 }
-.portalGrid > a:nth-child(5):before {
+
+.portalGrid > a:nth-child(5)::before {
   background-image:
     linear-gradient(180deg, rgba(4, 9, 8, 0.08), rgba(4, 9, 8, 0.78)),
     url("/assets/scraptura-resurrection.jpg");
 }
-.portalGrid > a:nth-child(6):before {
+
+.portalGrid > a:nth-child(6)::before {
   background-image:
     linear-gradient(180deg, rgba(4, 9, 8, 0.08), rgba(4, 9, 8, 0.78)),
     url("/assets/scraptura-jesus.jpg");
 }
-.portalGrid > a:hover:before {
-  transform: scale(1.035);
-  filter: brightness(1.08);
-}
+
 .portalGrid > a small {
   display: none;
 }
+
 .portalGrid h3 {
   position: absolute;
-  left: 14px;
-  bottom: 28px;
+
+  left: 18px;
+
+  bottom: 54px;
+
   margin: 0;
+
   color: #f2dfb7;
-  font:
-    400 19px Georgia,
-    "Times New Roman",
-    serif;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 28.5px;
+
+  font-weight: 400;
+
+  line-height: 1.15;
 }
+
 .portalGrid p {
   position: absolute;
-  left: 14px;
-  bottom: 11px;
+
+  left: 18px;
+
+  right: 42px;
+
+  bottom: 24px;
+
   margin: 0;
+
+  overflow: hidden;
+
   color: #efe7d8;
-  font-size: 10px;
+
+  font-size: 15px;
+
+  line-height: 1.35;
+
+  text-overflow: ellipsis;
+
+  white-space: nowrap;
 }
+
 .portalGrid b {
   position: absolute;
-  right: 12px;
-  bottom: 12px;
+
+  right: 18px;
+
+  bottom: 25px;
+
   color: #f2dfb7;
+
   font-size: 0;
 }
-.portalGrid b:after {
+
+.portalGrid b::after {
   content: "→";
-  font-size: 13px;
+
+  font-size: 19.5px;
 }
 
-/* Add the small scripture quote visually without changing JSX */
-.homeHero:after {
-  content: "“주의 말씀은\A 내 발에 등이요\A 내 길에 빛이니이다.”\A 시편 119:105";
-  white-space: pre;
-  position: absolute;
-  z-index: 3;
-  top: 21%;
-  right: 4.5%;
-  color: #403326;
-  text-align: center;
-  font:
-    400 12px/1.75 Georgia,
-    "Times New Roman",
-    serif;
+.portalGrid > a:nth-child(1) {
+  animation-delay: 1.35s;
 }
 
-/* Existing inner-page v2.2 structure remains untouched */
-@media (max-width: 1100px) {
-  .topbar nav {
-    gap: 18px;
-  }
-  .portalGrid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .portalGrid > a {
-    min-height: 105px;
-  }
-  .portal {
-    bottom: 34px;
-  }
+.portalGrid > a:nth-child(2) {
+  animation-delay: 1.47s;
 }
 
-@media (max-width: 700px) {
-  .topbar {
-    height: 58px;
-    padding: 0 16px;
-  }
-  .home {
-    min-height: auto;
-    overflow: visible;
-  }
-  .homeHero {
-    height: 690px;
-    min-height: 690px;
-  }
-  .homeCopy {
-    top: 18%;
-    width: calc(100% - 32px);
-  }
-  .homeCopy h1 {
-    font-size: clamp(46px, 14vw, 68px);
-    letter-spacing: 0.07em;
-  }
-  .homeCopy h1:after {
-    left: 4%;
-    right: 4%;
-    font-size: 7px;
-    letter-spacing: 0.22em;
-  }
-  .homeCopy h2 {
-    margin-top: 30px;
-    font-size: 17px;
-  }
-  .homeHero:after {
-    display: none;
-  }
-  .portal {
-    position: relative;
-    left: auto;
-    right: auto;
-    bottom: auto;
-    width: calc(100% - 32px);
-    margin: -150px auto 0;
-    padding-bottom: 28px;
-  }
-  .portalGrid {
-    grid-template-columns: 1fr 1fr;
-    gap: 7px;
-  }
-  .portalGrid > a {
-    min-height: 105px;
-  }
+.portalGrid > a:nth-child(3) {
+  animation-delay: 1.59s;
 }
 
-/* ==========================================================
-   SCRAPTURA HOME — FINAL POSITION / PORTAL HEIGHT OVERRIDE
-   ========================================================== */
-
-/* 중앙 타이틀을 화면 기준 정중앙에 고정 */
-.homeCopy {
-  left: 50% !important;
-  right: auto !important;
-  width: min(760px, 72vw) !important;
-  max-width: none !important;
-  transform: translateX(-50%) !important;
-  text-align: center !important;
+.portalGrid > a:nth-child(4) {
+  animation-delay: 1.71s;
 }
 
-.homeCopy small,
+.portalGrid > a:nth-child(5) {
+  animation-delay: 1.83s;
+}
+
+.portalGrid > a:nth-child(6) {
+  animation-delay: 1.95s;
+}
+
+/* =========================================================
+   HOME ANIMATION
+   ========================================================= */
+
+.homeCopy > small,
 .homeCopy h1,
 .homeCopy h2,
-.homeCopy p {
-  text-align: center !important;
-}
-
+.homeCopy p,
 .homeCopy > a {
-  display: inline-block !important;
+  opacity: 0;
+
+  transform: translateY(16px);
+
+  animation: scrapturaCenterFadeIn 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
 
-/* 하단 6개 카드: 기존 112px에서 정확히 +100px */
-.portalGrid > a {
-  min-height: 212px !important;
-  height: 212px !important;
-}
-
-/* 높아진 카드에 맞춘 텍스트 위치 */
-.portalGrid h3 {
-  left: 18px !important;
-  bottom: 46px !important;
-}
-
-.portalGrid p {
-  left: 18px !important;
-  bottom: 22px !important;
-}
-
-.portalGrid b {
-  right: 16px !important;
-  bottom: 24px !important;
-}
-
-/* 태블릿에서도 데스크톱 카드 높이 유지 */
-@media (min-width: 701px) and (max-width: 1100px) {
-  .portalGrid > a {
-    min-height: 212px !important;
-    height: 212px !important;
-  }
-}
-
-/* 모바일은 과도하게 커지지 않도록 별도 높이 */
-@media (max-width: 700px) {
-  .homeCopy {
-    left: 50% !important;
-    right: auto !important;
-    width: calc(100% - 32px) !important;
-    transform: translateX(-50%) !important;
-  }
-
-  .portalGrid > a {
-    min-height: 160px !important;
-    height: 160px !important;
-  }
-
-  .portalGrid h3 {
-    bottom: 42px !important;
-  }
-
-  .portalGrid p {
-    bottom: 20px !important;
-  }
-
-  .portalGrid b {
-    bottom: 22px !important;
-  }
-}
-
-/* =========================================================
-   SCRAPTURA HOME HERO
-   중앙 정렬 + 본문 1.4배
-   ========================================================= */
-
-/* Hero 텍스트 그룹 전체 */
-.homeCopy {
-  position: absolute !important;
-
-  top: 50% !important;
-  left: 50% !important;
-  right: auto !important;
-
-  width: min(1100px, 90vw) !important;
-  max-width: none !important;
-
-  transform: translate(-50%, -50%) !important;
-
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  justify-content: center !important;
-
-  text-align: center !important;
-
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-/* INTERACTIVE BIBLICAL ARCHIVE */
 .homeCopy > small {
-  display: block !important;
-
-  width: 100% !important;
-  margin: 0 0 18px !important;
-
-  text-align: center !important;
-
-  font-family: Georgia, "Times New Roman", serif !important;
-  font-size: 14px !important;
-  font-weight: 400 !important;
-
-  letter-spacing: 0.18em !important;
-
-  color: #f2e5cf !important;
+  animation-delay: 2.15s;
 }
 
-/* SCRAPTURA */
 .homeCopy h1 {
-  position: relative !important;
-
-  width: 100% !important;
-
-  margin: 0 !important;
-  padding: 0 0 28px !important;
-
-  text-align: center !important;
-
-  font-family: Georgia, "Times New Roman", serif !important;
-  font-size: clamp(80px, 9vw, 150px) !important;
-  font-weight: 400 !important;
-  line-height: 0.9 !important;
-
-  letter-spacing: 0.1em !important;
-
-  color: #f0d497 !important;
-
-  text-shadow:
-    0 3px 3px rgba(0, 0, 0, 0.55),
-    0 10px 20px rgba(0, 0, 0, 0.2) !important;
+  animation-delay: 2.32s;
 }
 
-/* EXPLORE THE WORLD OF SCRIPTURE */
-.homeCopy h1::after {
-  content: "EXPLORE THE WORLD OF SCRIPTURE" !important;
-
-  position: absolute !important;
-
-  left: 50% !important;
-  bottom: 0 !important;
-
-  width: 70% !important;
-
-  transform: translateX(-50%) !important;
-
-  padding: 8px 0 !important;
-
-  border-top: 1px solid rgba(240, 212, 151, 0.55) !important;
-  border-bottom: 1px solid rgba(240, 212, 151, 0.55) !important;
-
-  text-align: center !important;
-
-  font-family: Georgia, "Times New Roman", serif !important;
-  font-size: 12px !important;
-  font-weight: 600 !important;
-
-  letter-spacing: 0.34em !important;
-
-  color: #f3e2c1 !important;
-}
-
-/* Explore the World of Scripture */
 .homeCopy h2 {
-  width: 100% !important;
-
-  margin: 30px 0 0 !important;
-
-  text-align: center !important;
-
-  font-family: Georgia, "Times New Roman", serif !important;
-  font-size: 27px !important;
-  font-weight: 400 !important;
-
-  line-height: 1.4 !important;
-  letter-spacing: 0.08em !important;
-
-  color: #f6e8d2 !important;
+  animation-delay: 2.52s;
 }
 
-/* =========================================================
-   P 태그 전체 1.4배
-   기존 크기를 유지하면서 1.4배 확대
-   ========================================================= */
-
-p {
-  font-size: 1.4em;
-}
-
-/* Hero 안의 p가 기존 CSS에서 display:none이면 다시 표시 */
 .homeCopy p {
-  display: block !important;
-
-  width: 100% !important;
-
-  margin: 12px 0 0 !important;
-
-  text-align: center !important;
-
-  line-height: 1.7 !important;
-
-  color: #e8dcc8 !important;
+  animation-delay: 2.7s;
 }
-
-/* BEGIN YOUR JOURNEY */
-.homeCopy > a {
-  display: flex !important;
-
-  align-items: center !important;
-  justify-content: center !important;
-
-  width: 280px !important;
-  min-width: 280px !important;
-
-  margin: 20px auto 0 !important;
-  padding: 13px 26px !important;
-
-  border: 1px solid #d8b36d !important;
-  border-radius: 30px !important;
-
-  background: rgba(13, 16, 12, 0.88) !important;
-
-  text-align: center !important;
-
-  font-family: Georgia, "Times New Roman", serif !important;
-  font-size: 11px !important;
-  font-weight: 700 !important;
-
-  letter-spacing: 0.04em !important;
-
-  color: #f1ddb5 !important;
-}
-
-/* 기존 CSS의 ::after 화살표 */
-.homeCopy > a::after {
-  content: "→" !important;
-  padding-left: 34px !important;
-}
-
-/* =========================================================
-   MOBILE
-   ========================================================= */
-
-@media (max-width: 700px) {
-  .homeCopy {
-    top: 45% !important;
-
-    width: calc(100% - 32px) !important;
-
-    left: 50% !important;
-
-    transform: translate(-50%, -50%) !important;
-  }
-
-  .homeCopy > small {
-    font-size: 10px !important;
-    margin-bottom: 14px !important;
-  }
-
-  .homeCopy h1 {
-    font-size: clamp(48px, 15vw, 72px) !important;
-    letter-spacing: 0.06em !important;
-
-    padding-bottom: 25px !important;
-  }
-
-  .homeCopy h1::after {
-    width: 90% !important;
-
-    font-size: 7px !important;
-    letter-spacing: 0.2em !important;
-  }
-
-  .homeCopy h2 {
-    margin-top: 25px !important;
-
-    font-size: 20px !important;
-  }
-
-  .homeCopy > a {
-    width: 230px !important;
-    min-width: 230px !important;
-
-    margin-top: 18px !important;
-  }
-}
-
-/* =========================================================
-   SCRAPTURA FINAL POSITION / FONT SIZE ADJUSTMENT
-   ========================================================= */
-
-/* ---------------------------------------------------------
-   1. HOME 중앙 타이틀 그룹
-   현재 위치에서 정확히 100px 위로 이동
-   --------------------------------------------------------- */
-
-.homeCopy {
-  transform: translate(-50%, calc(-50% - 100px)) !important;
-}
-
-/* ---------------------------------------------------------
-   2. HEADER 메뉴 글씨 1.3배
-   기존 9px → 11.7px
-   --------------------------------------------------------- */
-
-.topbar nav a {
-  font-size: 11.7px !important;
-}
-
-/* 우측 BEGIN A JOURNEY 메뉴도 1.3배 */
-.journeyBtn {
-  font-size: 13px !important;
-}
-
-/* ---------------------------------------------------------
-   3. FOOTER 글씨 1.3배
-   기존 10px → 13px
-   --------------------------------------------------------- */
-
-footer {
-  font-size: 13px !important;
-}
-
-/* Footer SCRAPTURA 로고 글씨
-   기존 15px → 19.5px
-*/
-footer b {
-  font-size: 19.5px !important;
-}
-
-/* ---------------------------------------------------------
-   4. 모바일
-   모바일에서는 100px 이동이 과하므로 별도 조정
-   --------------------------------------------------------- */
-
-@media (max-width: 700px) {
-  .homeCopy {
-    transform: translate(-50%, calc(-50% - 50px)) !important;
-  }
-
-  .topbar nav a {
-    font-size: 11.7px !important;
-  }
-
-  footer {
-    font-size: 13px !important;
-  }
-
-  footer b {
-    font-size: 19.5px !important;
-  }
-}
-
-/* =========================================================
-   SCRAPTURA
-   FOOTER 정렬 + HERO BUTTON FONT 1.34x
-   ========================================================= */
-
-/* ---------------------------------------------------------
-   1. FOOTER
-   HEADER와 동일한 좌우 여백으로 정렬
-   --------------------------------------------------------- */
-
-footer {
-  width: 100% !important;
-
-  /* 현재 Header와 동일한 좌우 여백 */
-  padding-left: 32px !important;
-  padding-right: 32px !important;
-
-  margin: 0 !important;
-
-  display: flex !important;
-  align-items: center !important;
-  justify-content: space-between !important;
-
-  box-sizing: border-box !important;
-}
-
-/* Footer 왼쪽 SCRAPTURA */
-footer b {
-  margin: 0 !important;
-  text-align: left !important;
-}
-
-/* Footer 오른쪽 설명 */
-footer span {
-  margin: 0 !important;
-  text-align: right !important;
-}
-
-/* ---------------------------------------------------------
-   2. HERO의 BEGIN YOUR JOURNEY 버튼
-   글씨 크기 1.34배
-   기존 11px → 14.74px
-   --------------------------------------------------------- */
 
 .homeCopy > a {
-  font-size: 14.74px !important;
-
-  /* 글자가 커진 만큼 버튼도 조금 보정 */
-  min-width: 300px !important;
-  width: 300px !important;
-
-  padding: 14px 28px !important;
+  animation-delay: 2.88s;
 }
 
-/* 화살표 간격 유지 */
-.homeCopy > a::after {
-  padding-left: 34px !important;
-}
+/* =========================================================
+   KEYFRAMES
+   ========================================================= */
 
-/* ---------------------------------------------------------
-   MOBILE
-   --------------------------------------------------------- */
-
-@media (max-width: 700px) {
-  footer {
-    padding-left: 16px !important;
-    padding-right: 16px !important;
+@keyframes scrapturaHeroFadeIn {
+  from {
+    opacity: 0;
   }
 
-  .homeCopy > a {
-    font-size: 13px !important;
-
-    width: 250px !important;
-    min-width: 250px !important;
-
-    padding: 13px 22px !important;
+  to {
+    opacity: 1;
   }
 }
 
-/* =========================================
-   BEGIN YOUR JOURNEY 버튼 한 줄 고정
-   ========================================= */
+@keyframes scrapturaPortalFadeIn {
+  from {
+    opacity: 0;
 
-.homeCopy > a {
-  width: 340px !important;
-  min-width: 340px !important;
-
-  padding: 14px 30px !important;
-
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-
-  white-space: nowrap !important;
-
-  font-size: 14.74px !important;
-  line-height: 1 !important;
-
-  box-sizing: border-box !important;
-}
-
-/* 화살표 */
-.homeCopy > a::after {
-  content: "→" !important;
-
-  padding-left: 35px !important;
-
-  white-space: nowrap !important;
-  flex-shrink: 0 !important;
-}
-
-/* 모바일 */
-@media (max-width: 700px) {
-  .homeCopy > a {
-    width: 280px !important;
-    min-width: 280px !important;
-
-    font-size: 13px !important;
-
-    padding: 13px 22px !important;
-
-    white-space: nowrap !important;
+    transform: translateY(22px);
   }
 
-  .homeCopy > a::after {
-    padding-left: 25px !important;
+  to {
+    opacity: 1;
+
+    transform: translateY(0);
+  }
+}
+
+@keyframes scrapturaCenterFadeIn {
+  from {
+    opacity: 0;
+
+    transform: translateY(16px);
+  }
+
+  to {
+    opacity: 1;
+
+    transform: translateY(0);
+  }
+}
+
+@keyframes scrapturaQuoteFadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
   }
 }
 
 /* =========================================================
-   HOME 하단 6개 메뉴 카드
-   텍스트 전체 1.5배 확대
+   06. SHARED ARCHIVE CARDS
    ========================================================= */
 
-/* STORIES / PEOPLE / PLACES / TIMELINE / BIBLE / VISUAL */
-.portalGrid h3 {
-  font-size: 28.5px !important; /* 기존 19px × 1.5 */
-  line-height: 1.15 !important;
-
-  left: 18px !important;
-  bottom: 54px !important;
-}
-
-/* 카드 하단 설명 */
-.portalGrid p {
-  font-size: 15px !important; /* 기존 10px × 1.5 */
-  line-height: 1.35 !important;
-
-  left: 18px !important;
-  bottom: 24px !important;
-
-  white-space: nowrap !important;
-}
-
-/* 오른쪽 화살표 */
-.portalGrid b::after {
-  font-size: 19.5px !important; /* 기존 13px × 1.5 */
-}
-
-/* 화살표 위치 */
-.portalGrid b {
-  right: 18px !important;
-  bottom: 25px !important;
-}
-
-/* =========================================================
-   모바일에서는 크기를 약간 낮춤
-   ========================================================= */
-
-@media (max-width: 700px) {
-  .portalGrid h3 {
-    font-size: 22px !important;
-    bottom: 48px !important;
-  }
-
-  .portalGrid p {
-    font-size: 12px !important;
-    bottom: 22px !important;
-  }
-
-  .portalGrid b::after {
-    font-size: 16px !important;
-  }
-}
-
-/* =========================================================
-   우측 성경 구절 글씨 1.5배 확대
-   ========================================================= */
-
-.homeHero::after {
-  font-size: 18px !important; /* 기존 12px → 18px */
-  line-height: 1.75 !important;
-
-  /* 글씨가 커져도 현재 위치 유지 */
-  top: 21% !important;
-  right: 4.5% !important;
-
-  text-align: center !important;
-  white-space: pre !important;
-}
-
-/* =========================================================
-   SCRAPTURA — STORY SCENE SEQUENCE
-   ========================================================= */
-
-/* Scene 전체 영역 */
-.storyScenes {
-  width: 100%;
-  margin-top: 38px;
-
+.cardGrid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
 
-  border-top: 1px solid rgba(216, 179, 109, 0.28);
-  border-left: 1px solid rgba(216, 179, 109, 0.28);
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 14px;
+
+  padding: 54px 0 90px;
 }
 
-/* Scene 개별 카드 */
-.storyScene {
-  position: relative;
+.archiveCard {
+  padding-bottom: 24px;
 
-  min-height: 230px;
+  border: 1px solid var(--line);
 
-  padding: 36px 38px;
-
-  display: grid;
-  grid-template-columns: 70px 1fr;
-  gap: 26px;
-
-  background: #07100e;
-
-  border-right: 1px solid rgba(216, 179, 109, 0.28);
-  border-bottom: 1px solid rgba(216, 179, 109, 0.28);
-
-  transition:
-    background 0.25s ease,
-    transform 0.25s ease;
+  background: var(--panel);
 }
 
-/* Hover */
-.storyScene:hover {
-  background: #0c1713;
+.cardImage {
+  height: 230px;
+
+  margin-bottom: 22px;
+
+  background-position: center;
+
+  background-size: cover;
 }
 
-/* 01 / 02 / 03... */
-.storySceneNumber {
-  color: rgba(216, 179, 109, 0.55);
+.archiveCard > *:not(.cardImage) {
+  margin-left: 22px;
+  margin-right: 22px;
+}
+
+.archiveCard h2 {
+  margin-top: 9px;
+  margin-bottom: 4px;
 
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 42px;
+
+  font-size: 26px;
+
   font-weight: 400;
-
-  line-height: 1;
 }
 
-/* 오른쪽 콘텐츠 */
-.storySceneContent {
-  min-width: 0;
-}
-
-/* 성경 구절 */
-.storySceneContent > small {
-  display: block;
-
-  margin-bottom: 14px;
-
-  color: #b99651;
-
-  font-size: 10px;
-  font-weight: 700;
-
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-}
-
-/* THE VALLEY 등 */
-.storySceneContent h4 {
-  margin: 0 0 18px;
-
-  color: #f0d49b;
+.archiveCard > b {
+  color: #c7b99f;
 
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 25px;
-  font-weight: 400;
 
-  line-height: 1.2;
-  letter-spacing: 0.03em;
+  font-size: 14px;
+
+  font-weight: 400;
 }
 
-/* Scene 설명 */
-.storySceneContent p {
-  max-width: 430px;
+.archiveCard p {
+  color: #aaa194;
 
-  margin: 0;
+  font-size: 13px;
 
-  color: #bdb3a3;
+  line-height: 1.7;
+}
 
-  font-size: 15px !important;
+/* =========================================================
+   07. DETAIL HERO
+   ========================================================= */
+
+.detailHero {
+  height: 620px;
+
+  background-color: #050c0b;
+}
+
+.heroShade {
+  position: absolute;
+
+  inset: 0;
+}
+
+.detailHero .heroShade {
+  background:
+    linear-gradient(
+      90deg,
+      #050c0b 0%,
+      rgba(5, 12, 11, 0.75) 42%,
+      rgba(5, 12, 11, 0.05) 80%
+    ),
+    linear-gradient(0deg, #050c0b 0%, transparent 38%);
+}
+
+.heroCopy {
+  position: absolute;
+
+  z-index: 2;
+
+  left: max(24px, calc((100vw - var(--max)) / 2));
+
+  bottom: 90px;
+
+  max-width: 590px;
+}
+
+.heroCopy h1 {
+  margin: 10px 0;
+
+  color: var(--gold2);
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: clamp(58px, 7vw, 100px);
+
+  font-weight: 400;
+
+  line-height: 0.95;
+}
+
+.heroCopy h2 {
+  color: #e8dbc1;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 23px;
+
+  font-weight: 400;
+}
+
+.heroCopy p {
+  max-width: 520px;
+
+  color: #c6bdad;
 
   line-height: 1.8;
 }
 
 /* =========================================================
-   SCENE SEQUENCE 제목 보정
+   DETAIL CONTENT
    ========================================================= */
 
-.journey > h3 {
-  margin-top: 12px;
-  margin-bottom: 0;
+.contentWrap {
+  padding: 65px 0 95px;
+}
 
-  color: #ead5a5;
+.overview,
+.journey {
+  padding-bottom: 55px;
+
+  border-bottom: 1px solid var(--line);
+}
+
+.overview h3,
+.journey h3,
+.relations h3 {
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 34px;
+
+  font-weight: 400;
+}
+
+.overview p {
+  max-width: 760px;
+
+  color: #b9b0a1;
+
+  line-height: 1.85;
+}
+
+.journey {
+  padding-top: 55px;
+}
+
+/* =========================================================
+   RELATIONS
+   ========================================================= */
+
+.relations {
+  display: grid;
+
+  grid-template-columns:
+    1.3fr
+    repeat(4, 1fr);
+
+  gap: 10px;
+
+  padding-top: 55px;
+}
+
+.relations > div {
+  padding-right: 20px;
+}
+
+.relations > a {
+  min-height: 120px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  padding: 22px;
+
+  border: 1px solid var(--line);
+
+  background: var(--panel);
+}
+
+.relations > a b {
+  margin-top: auto;
+
+  color: #e5d7bd;
 
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 34px;
+
+  font-size: 16px;
+
   font-weight: 400;
 }
 
 /* =========================================================
-   TABLET
-   ========================================================= */
-
-@media (max-width: 950px) {
-  .storyScene {
-    grid-template-columns: 55px 1fr;
-
-    padding: 30px;
-
-    gap: 20px;
-  }
-
-  .storySceneNumber {
-    font-size: 34px;
-  }
-
-  .storySceneContent h4 {
-    font-size: 22px;
-  }
-}
-
-/* =========================================================
-   MOBILE
-   ========================================================= */
-
-@media (max-width: 700px) {
-  .storyScenes {
-    grid-template-columns: 1fr;
-
-    margin-top: 28px;
-  }
-
-  .storyScene {
-    min-height: auto;
-
-    grid-template-columns: 48px 1fr;
-
-    padding: 28px 22px;
-
-    gap: 16px;
-  }
-
-  .storySceneNumber {
-    font-size: 30px;
-  }
-
-  .storySceneContent h4 {
-    margin-bottom: 12px;
-
-    font-size: 20px;
-  }
-
-  .storySceneContent p {
-    font-size: 14px !important;
-    line-height: 1.7;
-  }
-
-  .journey > h3 {
-    font-size: 28px;
-  }
-}
-
-/* =========================================================
-   SCRAPTURA — STORY SCENE FINAL
+   08. STORY SCENES
    ========================================================= */
 
 .storyScenes {
   display: grid;
+
   grid-template-columns: repeat(2, minmax(0, 1fr));
 
   width: 100%;
+
   margin-top: 38px;
 
   border-top: 1px solid rgba(216, 179, 109, 0.28);
+
   border-left: 1px solid rgba(216, 179, 109, 0.28);
 }
 
-/* CARD */
-
 .storyScene {
-  display: block !important;
-
   min-width: 0;
-  min-height: 0 !important;
-
-  padding: 0 !important;
 
   overflow: hidden;
 
   background: #07100e;
 
   border-right: 1px solid rgba(216, 179, 109, 0.28);
+
   border-bottom: 1px solid rgba(216, 179, 109, 0.28);
 }
-
-/* IMAGE */
 
 .storySceneImage {
   width: 100%;
@@ -1596,7 +1142,9 @@ footer span {
   aspect-ratio: 16 / 9;
 
   background-position: center;
+
   background-repeat: no-repeat;
+
   background-size: cover;
 
   border-bottom: 1px solid rgba(216, 179, 109, 0.22);
@@ -1606,197 +1154,181 @@ footer span {
     filter 0.4s ease;
 }
 
-/* IMAGE HOVER */
-
-.storyScene:hover .storySceneImage {
-  transform: scale(1.025);
-
-  filter: brightness(1.05);
-}
-
-/* TEXT AREA */
-
 .storySceneBody {
   display: grid;
 
-  grid-template-columns: 64px minmax(0, 1fr);
+  grid-template-columns:
+    64px
+    minmax(0, 1fr);
 
   gap: 24px;
 
   padding: 28px 32px 32px;
 }
 
-/* 01 / 02 / 03 */
-
 .storySceneNumber {
+  color: rgba(216, 179, 109, 0.52);
+
   font-family: Georgia, "Times New Roman", serif;
 
   font-size: 38px;
-  font-weight: 400;
+
   line-height: 1;
-
-  color: rgba(216, 179, 109, 0.52);
 }
-
-/* CONTENT */
 
 .storySceneContent {
   min-width: 0;
 }
-
-/* SCRIPTURE */
 
 .storySceneContent > small {
   display: block;
 
   margin: 0 0 10px;
 
+  color: #b99651;
+
   font-size: 10px;
+
   font-weight: 700;
 
   line-height: 1.4;
 
   letter-spacing: 0.13em;
-
-  color: #b99651;
 }
-
-/* TITLE */
 
 .storySceneContent h4 {
   margin: 0 0 12px;
 
+  color: #f0d49b;
+
   font-family: Georgia, "Times New Roman", serif;
 
   font-size: 25px;
+
   font-weight: 400;
 
   line-height: 1.2;
 
   letter-spacing: 0.025em;
-
-  color: #f0d49b;
 }
-
-/* DESCRIPTION */
 
 .storySceneContent p {
   margin: 0;
 
-  font-size: 14px !important;
+  color: #bdb3a3;
+
+  font-size: 14px;
 
   line-height: 1.75;
-
-  color: #bdb3a3;
 }
 
 /* =========================================================
-   MOBILE
+   STORY SCENE FALLBACK
    ========================================================= */
 
-@media (max-width: 700px) {
-  .storyScenes {
-    grid-template-columns: 1fr;
+.storySceneNoImage {
+  min-height: 260px;
+}
 
-    margin-top: 28px;
-  }
+.storySceneNoImage .storySceneBody {
+  position: relative;
 
-  .storySceneBody {
-    grid-template-columns: 44px minmax(0, 1fr);
+  min-height: 260px;
 
-    gap: 16px;
+  align-items: center;
 
-    padding: 22px 20px 26px;
-  }
+  background:
+    radial-gradient(
+      circle at 86% 16%,
+      rgba(216, 179, 109, 0.07),
+      transparent 28%
+    ),
+    linear-gradient(145deg, #0b1714 0%, #07100e 72%);
+}
 
-  .storySceneNumber {
-    font-size: 29px;
-  }
+.storySceneNoImage .storySceneBody::after {
+  content: "VISUAL RECONSTRUCTION · IN PREPARATION";
 
-  .storySceneContent h4 {
-    font-size: 21px;
-  }
+  position: absolute;
 
-  .storySceneContent p {
-    font-size: 14px !important;
-  }
+  top: 24px;
+
+  right: 26px;
+
+  color: rgba(216, 179, 109, 0.34);
+
+  font-size: 8px;
+
+  font-weight: 700;
+
+  letter-spacing: 0.14em;
 }
 
 /* =========================================================
-   SCRAPTURA — CONNECT THE WORLD
+   09. CONNECT THE WORLD
    ========================================================= */
 
 .connectWorld {
-  display: block !important;
   width: 100%;
+
   margin-top: 80px;
-  padding: 0 !important;
-  background: transparent !important;
-  border: 0 !important;
 }
 
-/* =========================================================
-   HEADER
-   ========================================================= */
-
 .connectWorldHeader {
-  display: block !important;
   margin-bottom: 38px;
-  padding: 0 !important;
 }
 
 .connectWorldHeader > small {
   display: block;
+
   margin-bottom: 12px;
 
-  font-size: 10px;
-  font-weight: 700;
-  line-height: 1.4;
-  letter-spacing: 0.16em;
-
   color: #b99651;
+
+  font-size: 10px;
+
+  font-weight: 700;
+
+  letter-spacing: 0.16em;
 }
 
 .connectWorldHeader h3 {
   margin: 0 0 14px;
 
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 32px;
-  font-weight: 400;
-  line-height: 1.2;
-
   color: #f0d49b;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 32px;
+
+  font-weight: 400;
 }
 
 .connectWorldHeader p {
   max-width: 620px;
+
   margin: 0;
 
-  font-size: 14px;
-  line-height: 1.75;
-
   color: #a9a195;
+
+  font-size: 14px;
+
+  line-height: 1.75;
 }
 
-/* =========================================================
-   GRID
-   ========================================================= */
-
 .connectWorldGrid {
-  display: grid !important;
+  display: grid;
+
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  width: 100%;
 
   border-top: 1px solid rgba(216, 179, 109, 0.28);
+
   border-left: 1px solid rgba(216, 179, 109, 0.28);
 }
 
-/* =========================================================
-   GROUP
-   ========================================================= */
-
 .connectGroup {
   min-width: 0;
+
   padding: 30px 32px 34px;
 
   background: linear-gradient(
@@ -1806,70 +1338,58 @@ footer span {
   );
 
   border-right: 1px solid rgba(216, 179, 109, 0.28);
+
   border-bottom: 1px solid rgba(216, 179, 109, 0.28);
 }
 
-/* =========================================================
-   GROUP TITLE
-   ========================================================= */
-
 .connectGroupTitle {
-  display: flex !important;
+  display: flex;
+
   flex-direction: column;
-  align-items: flex-start !important;
+
+  align-items: flex-start;
 
   margin-bottom: 24px;
 }
 
 .connectGroupTitle small {
-  display: block;
-
   margin-bottom: 7px;
 
+  color: #d8b36d;
+
   font-size: 10px;
+
   font-weight: 700;
-  line-height: 1;
 
   letter-spacing: 0.16em;
-
-  color: #d8b36d;
 }
 
 .connectGroupTitle span {
-  font-size: 13px;
-  line-height: 1.5;
-
   color: #80796f;
-}
 
-/* =========================================================
-   LINKS
-   ========================================================= */
+  font-size: 13px;
+}
 
 .connectLinks {
   display: flex;
+
   flex-direction: column;
 }
 
 .connectLink {
-  display: flex !important;
+  display: flex;
+
   align-items: center;
+
   justify-content: space-between;
 
   width: 100%;
 
   padding: 15px 0;
 
-  color: #d9d2c5 !important;
-
-  text-decoration: none !important;
-
   border-top: 1px solid rgba(255, 255, 255, 0.07);
 
-  transition:
-    padding-left 0.25s ease,
-    color 0.25s ease,
-    border-color 0.25s ease;
+  color: #d9d2c5;
 }
 
 .connectLink:last-child {
@@ -1880,150 +1400,81 @@ footer span {
   font-family: Georgia, "Times New Roman", serif;
 
   font-size: 18px;
-  line-height: 1.3;
-
-  color: inherit;
 }
 
 .connectLink b {
-  margin-left: 20px;
-
-  font-size: 16px;
-  font-weight: 400;
-
   color: #b99651;
-
-  transition: transform 0.25s ease;
 }
 
 /* =========================================================
-   HOVER
-   ========================================================= */
-
-.connectLink:hover {
-  padding-left: 8px;
-
-  color: #f0d49b !important;
-
-  border-color: rgba(216, 179, 109, 0.32);
-}
-
-.connectLink:hover b {
-  transform: translateX(5px);
-}
-
-/* =========================================================
-   MOBILE
-   ========================================================= */
-
-@media (max-width: 700px) {
-  .connectWorld {
-    margin-top: 58px;
-  }
-
-  .connectWorldHeader {
-    margin-bottom: 28px;
-  }
-
-  .connectWorldHeader h3 {
-    font-size: 26px;
-  }
-
-  .connectWorldHeader p {
-    font-size: 13px;
-  }
-
-  .connectWorldGrid {
-    grid-template-columns: 1fr;
-  }
-
-  .connectGroup {
-    padding: 26px 22px 28px;
-  }
-
-  .connectGroupTitle {
-    margin-bottom: 20px;
-  }
-
-  .connectLink {
-    padding: 14px 0;
-  }
-
-  .connectLink span {
-    font-size: 17px;
-  }
-}
-
-/* =========================================================
-   SCRAPTURA — CHARACTER JOURNEY
+   10. CHARACTER JOURNEY
    ========================================================= */
 
 .characterJourney {
-  display: block !important;
   width: 100%;
-  padding-top: 58px !important;
-  padding-bottom: 58px !important;
+
+  padding: 58px 0;
 }
 
-/* HEADER */
-
 .characterJourneyHeader {
-  display: block !important;
   margin-bottom: 42px;
 }
 
 .characterJourneyHeader > small {
   display: block;
+
   margin-bottom: 10px;
 
-  font-size: 10px;
-  font-weight: 700;
-  line-height: 1.4;
-  letter-spacing: 0.16em;
-
   color: #b99651;
+
+  font-size: 10px;
+
+  font-weight: 700;
+
+  letter-spacing: 0.16em;
 }
 
 .characterJourneyHeader h3 {
   margin: 0 0 12px;
 
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 1.25;
-
   color: #f0d49b;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 30px;
+
+  font-weight: 400;
 }
 
 .characterJourneyHeader p {
   max-width: 620px;
+
   margin: 0;
 
-  font-size: 14px;
-  line-height: 1.75;
-
   color: #9d968b;
-}
 
-/* =========================================================
-   JOURNEY LIST
-   ========================================================= */
+  font-size: 14px;
+
+  line-height: 1.75;
+}
 
 .characterJourneyList {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
 
-/* 세로 연결선 */
+  display: flex;
+
+  flex-direction: column;
+}
 
 .characterJourneyList::before {
   content: "";
+
   position: absolute;
 
   top: 0;
+
   bottom: 0;
+
   left: 31px;
 
   width: 1px;
@@ -2036,59 +1487,47 @@ footer span {
   );
 }
 
-/* =========================================================
-   EACH STAGE
-   ========================================================= */
-
 .characterStage {
   position: relative;
 
   display: grid;
-  grid-template-columns: 64px minmax(0, 1fr);
+
+  grid-template-columns:
+    64px
+    minmax(0, 1fr);
+
   gap: 30px;
 
-  width: 100%;
-
-  padding: 0 0 42px;
+  padding-bottom: 42px;
 }
-
-.characterStage:last-child {
-  padding-bottom: 0;
-}
-
-/* NUMBER */
 
 .characterStageNumber {
   position: relative;
+
   z-index: 2;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
   width: 64px;
+
   height: 64px;
 
-  box-sizing: border-box;
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  border: 1px solid rgba(216, 179, 109, 0.48);
+
+  border-radius: 50%;
 
   background: #07100e;
 
-  border: 1px solid rgba(216, 179, 109, 0.48);
-  border-radius: 50%;
-
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 18px;
-  font-weight: 400;
-
   color: #d8b36d;
 
-  transition:
-    background 0.25s ease,
-    border-color 0.25s ease,
-    color 0.25s ease;
-}
+  font-family: Georgia, "Times New Roman", serif;
 
-/* CONTENT */
+  font-size: 18px;
+}
 
 .characterStageContent {
   min-width: 0;
@@ -2103,118 +1542,49 @@ footer span {
 
   margin-bottom: 9px;
 
+  color: #b99651;
+
   font-size: 10px;
+
   font-weight: 700;
-  line-height: 1.4;
 
   letter-spacing: 0.13em;
-
-  color: #b99651;
 }
 
 .characterStageContent h4 {
   margin: 0 0 12px;
 
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 1.25;
-
-  letter-spacing: 0.025em;
-
   color: #eee0c1;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 24px;
+
+  font-weight: 400;
 }
 
 .characterStageContent p {
   max-width: 720px;
+
   margin: 0;
 
-  font-size: 14px !important;
-  line-height: 1.8;
-
   color: #aaa297;
+
+  font-size: 14px;
+
+  line-height: 1.8;
 }
 
 /* =========================================================
-   HOVER
-   ========================================================= */
-
-.characterStage:hover .characterStageNumber {
-  background: rgba(185, 150, 81, 0.12);
-
-  border-color: #d8b36d;
-
-  color: #f0d49b;
-}
-
-.characterStage:hover .characterStageContent h4 {
-  color: #f0d49b;
-}
-
-/* =========================================================
-   MOBILE
-   ========================================================= */
-
-@media (max-width: 700px) {
-  .characterJourney {
-    padding-top: 42px !important;
-    padding-bottom: 42px !important;
-  }
-
-  .characterJourneyHeader {
-    margin-bottom: 32px;
-  }
-
-  .characterJourneyHeader h3 {
-    font-size: 25px;
-  }
-
-  .characterJourneyHeader p {
-    font-size: 13px;
-  }
-
-  .characterJourneyList::before {
-    left: 23px;
-  }
-
-  .characterStage {
-    grid-template-columns: 48px minmax(0, 1fr);
-    gap: 18px;
-
-    padding-bottom: 32px;
-  }
-
-  .characterStageNumber {
-    width: 48px;
-    height: 48px;
-
-    font-size: 14px;
-  }
-
-  .characterStageContent {
-    padding-top: 2px;
-    padding-bottom: 26px;
-  }
-
-  .characterStageContent h4 {
-    font-size: 20px;
-  }
-
-  .characterStageContent p {
-    font-size: 13px !important;
-    line-height: 1.7;
-  }
-}
-
-/* =========================================================
-   SCRAPTURA — STORIES ARCHIVE / FEATURED STORY
-   Scope: STORIES archive classes only
+   11. STORIES ARCHIVE
    ========================================================= */
 
 .archiveFeaturedWrap,
 .archiveAllStories {
   width: min(var(--max), calc(100vw - 48px));
+
   margin-left: auto;
+
   margin-right: auto;
 }
 
@@ -2232,57 +1602,77 @@ footer span {
 
 .archiveSectionHead > small {
   display: block;
+
   margin-bottom: 10px;
+
   color: var(--gold);
+
   font-size: 10px;
+
   font-weight: 700;
-  line-height: 1.4;
+
   letter-spacing: 0.18em;
 }
 
 .archiveSectionHead h2 {
   margin: 0 0 12px;
+
   color: var(--gold2);
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: 32px;
+
   font-weight: 400;
-  line-height: 1.2;
 }
 
 .archiveSectionHead p {
   max-width: 650px;
+
   margin: 0;
+
   color: #aaa194;
-  font-size: 14px !important;
+
+  font-size: 14px;
+
   line-height: 1.75;
 }
 
 .archiveFeatured {
   display: grid;
-  grid-template-columns: minmax(0, 1.55fr) minmax(340px, 0.85fr);
+
+  grid-template-columns:
+    minmax(0, 1.55fr)
+    minmax(340px, 0.85fr);
+
   min-height: 470px;
+
   overflow: hidden;
+
   border: 1px solid rgba(216, 179, 109, 0.34);
+
   background: #07100e;
 }
 
 .archiveFeaturedImage {
   min-height: 470px;
+
   background-position: center;
-  background-repeat: no-repeat;
+
   background-size: cover;
-  transition:
-    transform 0.45s ease,
-    filter 0.45s ease;
 }
 
 .archiveFeaturedContent {
   position: relative;
+
   display: flex;
+
   flex-direction: column;
+
   justify-content: center;
-  min-width: 0;
+
   padding: 52px 48px;
+
   background: linear-gradient(
     145deg,
     rgba(17, 31, 27, 0.96),
@@ -2290,196 +1680,80 @@ footer span {
   );
 }
 
-.archiveFeaturedContent::before {
-  content: "";
-  position: absolute;
-  top: 42px;
-  bottom: 42px;
-  left: 0;
-  width: 1px;
-  background: linear-gradient(
-    to bottom,
-    transparent,
-    rgba(216, 179, 109, 0.55),
-    transparent
-  );
-}
-
 .archiveFeaturedContent > small {
-  display: block;
   margin-bottom: 13px;
+
   color: #b99651;
+
   font-size: 10px;
+
   font-weight: 700;
-  line-height: 1.4;
+
   letter-spacing: 0.16em;
 }
 
 .archiveFeaturedContent h2 {
   margin: 0 0 8px;
+
   color: #f0d49b;
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: clamp(34px, 3.2vw, 50px);
+
   font-weight: 400;
-  line-height: 1.08;
 }
 
 .archiveFeaturedContent > b {
   color: #d0c1a5;
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: 17px;
+
   font-weight: 400;
-  line-height: 1.4;
 }
 
 .archiveFeaturedContent p {
   margin: 24px 0 32px;
+
   color: #aaa297;
-  font-size: 14px !important;
+
+  font-size: 14px;
+
   line-height: 1.8;
 }
 
 .archiveFeaturedContent > span {
   width: fit-content;
-  padding-bottom: 7px;
-  border-bottom: 1px solid rgba(216, 179, 109, 0.45);
+
   color: #d8b36d;
-  font-family: Georgia, "Times New Roman", serif;
+
   font-size: 11px;
+
   font-weight: 700;
+
   letter-spacing: 0.12em;
-  transition:
-    color 0.25s ease,
-    border-color 0.25s ease,
-    transform 0.25s ease;
 }
 
-.archiveFeatured:hover .archiveFeaturedImage {
-  transform: scale(1.025);
-  filter: brightness(1.06);
-}
-
-.archiveFeatured:hover .archiveFeaturedContent > span {
-  color: #f0d49b;
-  border-color: #d8b36d;
-  transform: translateX(5px);
-}
-
-/* ArchiveList_v2 안의 기존 cardGrid padding이 중첩되지 않도록 Stories만 보정 */
 .archiveAllStories > .cardGrid {
   width: 100%;
+
   margin: 0;
+
   padding: 0 0 60px;
 }
 
-.archiveAllStories .archiveCard {
-  transition:
-    transform 0.25s ease,
-    border-color 0.25s ease,
-    background 0.25s ease;
-}
-
-.archiveAllStories .archiveCard:hover {
-  transform: translateY(-4px);
-  border-color: rgba(216, 179, 109, 0.55);
-  background: #0c1713;
-}
-
-/* TABLET */
-@media (max-width: 950px) {
-  .archiveFeatured {
-    grid-template-columns: 1.25fr 1fr;
-    min-height: 420px;
-  }
-
-  .archiveFeaturedImage {
-    min-height: 420px;
-  }
-
-  .archiveFeaturedContent {
-    padding: 40px 34px;
-  }
-}
-
-/* MOBILE */
-@media (max-width: 700px) {
-  .archiveFeaturedWrap,
-  .archiveAllStories {
-    width: calc(100vw - 32px);
-  }
-
-  .archiveFeaturedWrap {
-    padding-top: 42px;
-  }
-
-  .archiveAllStories {
-    padding-top: 24px;
-  }
-
-  .archiveSectionHead {
-    margin-bottom: 24px;
-  }
-
-  .archiveSectionHead h2 {
-    font-size: 26px;
-  }
-
-  .archiveSectionHead p {
-    font-size: 13px !important;
-  }
-
-  .archiveFeatured {
-    grid-template-columns: 1fr;
-    min-height: 0;
-  }
-
-  .archiveFeaturedImage {
-    min-height: 0;
-    aspect-ratio: 16 / 10;
-  }
-
-  .archiveFeaturedContent {
-    padding: 30px 24px 34px;
-  }
-
-  .archiveFeaturedContent::before {
-    top: 0;
-    right: 24px;
-    bottom: auto;
-    left: 24px;
-    width: auto;
-    height: 1px;
-    background: linear-gradient(
-      to right,
-      transparent,
-      rgba(216, 179, 109, 0.55),
-      transparent
-    );
-  }
-
-  .archiveFeaturedContent h2 {
-    font-size: 32px;
-  }
-
-  .archiveFeaturedContent p {
-    margin: 20px 0 26px;
-    font-size: 13px !important;
-  }
-
-  .archiveAllStories > .cardGrid {
-    padding-bottom: 45px;
-  }
-}
-
 /* =========================================================
-   SCRAPTURA — PEOPLE ARCHIVE
-   Scope: PEOPLE archive classes only
+   12. PEOPLE ARCHIVE
    ========================================================= */
 
 .peopleFeaturedWrap,
 .peopleArchive {
   width: min(var(--max), calc(100vw - 48px));
+
   margin-left: auto;
+
   margin-right: auto;
 }
 
@@ -2497,262 +1771,160 @@ footer span {
 
 .peopleSectionHead > small {
   display: block;
+
   margin-bottom: 10px;
+
   color: var(--gold);
+
   font-size: 10px;
+
   font-weight: 700;
-  line-height: 1.4;
+
   letter-spacing: 0.18em;
 }
 
 .peopleSectionHead h2 {
   margin: 0 0 12px;
+
   color: var(--gold2);
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: 32px;
+
   font-weight: 400;
-  line-height: 1.2;
 }
 
 .peopleSectionHead p {
   max-width: 650px;
+
   margin: 0;
+
   color: #aaa194;
-  font-size: 14px !important;
+
+  font-size: 14px;
+
   line-height: 1.75;
 }
 
-/* Featured person */
 .peopleFeatured {
   display: grid;
-  grid-template-columns: minmax(360px, 0.92fr) minmax(0, 1.08fr);
+
+  grid-template-columns:
+    minmax(360px, 0.92fr)
+    minmax(0, 1.08fr);
+
   min-height: 500px;
+
   overflow: hidden;
+
   border: 1px solid rgba(216, 179, 109, 0.34);
+
   background: #07100e;
 }
 
 .peopleFeaturedImage {
   min-height: 500px;
+
   background-position: center top;
-  background-repeat: no-repeat;
+
   background-size: cover;
-  transition:
-    transform 0.45s ease,
-    filter 0.45s ease;
 }
 
 .peopleFeaturedContent {
-  position: relative;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-width: 0;
-  padding: 58px 56px;
-  background:
-    radial-gradient(
-      circle at 0% 50%,
-      rgba(216, 179, 109, 0.08),
-      transparent 42%
-    ),
-    linear-gradient(145deg, rgba(17, 31, 27, 0.96), rgba(6, 15, 13, 1));
-}
 
-.peopleFeaturedContent::before {
-  content: "";
-  position: absolute;
-  top: 44px;
-  bottom: 44px;
-  left: 0;
-  width: 1px;
+  flex-direction: column;
+
+  justify-content: center;
+
+  padding: 58px 56px;
+
   background: linear-gradient(
-    to bottom,
-    transparent,
-    rgba(216, 179, 109, 0.62),
-    transparent
+    145deg,
+    rgba(17, 31, 27, 0.96),
+    rgba(6, 15, 13, 1)
   );
 }
 
 .peopleFeaturedContent > small {
-  display: block;
   margin-bottom: 13px;
+
   color: #b99651;
+
   font-size: 10px;
+
   font-weight: 700;
-  line-height: 1.4;
+
   letter-spacing: 0.16em;
 }
 
 .peopleFeaturedContent h2 {
   margin: 0 0 8px;
+
   color: #f0d49b;
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: clamp(40px, 4vw, 62px);
+
   font-weight: 400;
-  line-height: 1.04;
 }
 
 .peopleFeaturedContent > b {
   color: #d0c1a5;
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: 18px;
+
   font-weight: 400;
-  line-height: 1.4;
 }
 
 .peopleFeaturedContent p {
   max-width: 560px;
+
   margin: 26px 0 34px;
+
   color: #aaa297;
-  font-size: 14px !important;
+
+  font-size: 14px;
+
   line-height: 1.85;
 }
 
 .peopleFeaturedContent > span {
-  width: fit-content;
-  padding-bottom: 7px;
-  border-bottom: 1px solid rgba(216, 179, 109, 0.45);
   color: #d8b36d;
-  font-family: Georgia, "Times New Roman", serif;
+
   font-size: 11px;
+
   font-weight: 700;
+
   letter-spacing: 0.12em;
-  transition:
-    color 0.25s ease,
-    border-color 0.25s ease,
-    transform 0.25s ease;
 }
 
-.peopleFeatured:hover .peopleFeaturedImage {
-  transform: scale(1.025);
-  filter: brightness(1.06);
-}
-
-.peopleFeatured:hover .peopleFeaturedContent > span {
-  color: #f0d49b;
-  border-color: #d8b36d;
-  transform: translateX(5px);
-}
-
-/* Existing shared card grid inside PEOPLE */
 .peopleArchive > .cardGrid {
   width: 100%;
+
   margin: 0;
+
   padding: 0 0 60px;
-}
-
-.peopleArchive .archiveCard {
-  transition:
-    transform 0.25s ease,
-    border-color 0.25s ease,
-    background 0.25s ease;
-}
-
-.peopleArchive .archiveCard:hover {
-  transform: translateY(-4px);
-  border-color: rgba(216, 179, 109, 0.55);
-  background: #0c1713;
 }
 
 .peopleArchive .cardImage {
   background-position: center top;
 }
 
-/* TABLET */
-@media (max-width: 950px) {
-  .peopleFeatured {
-    grid-template-columns: 0.95fr 1.05fr;
-    min-height: 440px;
-  }
-
-  .peopleFeaturedImage {
-    min-height: 440px;
-  }
-
-  .peopleFeaturedContent {
-    padding: 42px 36px;
-  }
-}
-
-/* MOBILE */
-@media (max-width: 700px) {
-  .peopleFeaturedWrap,
-  .peopleArchive {
-    width: calc(100vw - 32px);
-  }
-
-  .peopleFeaturedWrap {
-    padding-top: 42px;
-  }
-
-  .peopleArchive {
-    padding-top: 24px;
-  }
-
-  .peopleSectionHead {
-    margin-bottom: 24px;
-  }
-
-  .peopleSectionHead h2 {
-    font-size: 26px;
-  }
-
-  .peopleSectionHead p {
-    font-size: 13px !important;
-  }
-
-  .peopleFeatured {
-    grid-template-columns: 1fr;
-    min-height: 0;
-  }
-
-  .peopleFeaturedImage {
-    min-height: 0;
-    aspect-ratio: 4 / 5;
-    background-position: center top;
-  }
-
-  .peopleFeaturedContent {
-    padding: 30px 24px 34px;
-  }
-
-  .peopleFeaturedContent::before {
-    top: 0;
-    right: 24px;
-    bottom: auto;
-    left: 24px;
-    width: auto;
-    height: 1px;
-    background: linear-gradient(
-      to right,
-      transparent,
-      rgba(216, 179, 109, 0.55),
-      transparent
-    );
-  }
-
-  .peopleFeaturedContent h2 {
-    font-size: 36px;
-  }
-
-  .peopleFeaturedContent p {
-    margin: 20px 0 26px;
-    font-size: 13px !important;
-  }
-
-  .peopleArchive > .cardGrid {
-    padding-bottom: 45px;
-  }
-}
-
 /* =========================================================
-   SCRAPTURA — PLACES ARCHIVE / LANDSCAPE FEATURED
+   13. PLACES ARCHIVE
    ========================================================= */
 
 .placesFeaturedWrap,
 .placesArchive {
   width: min(var(--max), calc(100vw - 48px));
+
   margin-left: auto;
+
   margin-right: auto;
 }
 
@@ -2770,53 +1942,67 @@ footer span {
 
 .placesSectionHead > small {
   display: block;
+
   margin-bottom: 10px;
+
   color: #b99651;
+
   font-size: 10px;
+
   font-weight: 700;
+
   letter-spacing: 0.16em;
 }
 
 .placesSectionHead h2 {
   margin: 0 0 12px;
+
   color: #f0d49b;
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: 34px;
+
   font-weight: 400;
-  line-height: 1.2;
 }
 
 .placesSectionHead p {
   max-width: 720px;
+
   margin: 0;
+
   color: #aaa194;
-  font-size: 14px !important;
+
+  font-size: 14px;
+
   line-height: 1.8;
 }
 
 .placesFeatured {
-  display: block;
-  width: 100%;
-  border: 1px solid rgba(216, 179, 109, 0.34);
-  background: #07100e;
   overflow: hidden;
+
+  border: 1px solid rgba(216, 179, 109, 0.34);
+
+  background: #07100e;
 }
 
 .placesFeaturedImage {
   position: relative;
-  width: 100%;
+
   min-height: 520px;
-  background-size: cover;
+
   background-position: center;
-  background-repeat: no-repeat;
+
+  background-size: cover;
+
   overflow: hidden;
-  isolation: isolate;
 }
 
 .placesFeaturedShade {
   position: absolute;
+
   inset: 0;
-  z-index: 0;
+
   background:
     linear-gradient(
       90deg,
@@ -2829,165 +2015,83 @@ footer span {
 
 .placesFeaturedContent {
   position: absolute;
+
   z-index: 1;
+
   left: 52px;
+
   bottom: 48px;
+
   width: min(510px, calc(100% - 104px));
 }
 
 .placesFeaturedContent > small {
-  display: block;
-  margin-bottom: 12px;
   color: #d8b36d;
+
   font-size: 10px;
+
   font-weight: 700;
+
   letter-spacing: 0.16em;
 }
 
 .placesFeaturedContent h2 {
-  margin: 0 0 6px;
+  margin: 12px 0 6px;
+
   color: #f0d49b;
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: clamp(40px, 5vw, 68px);
+
   font-weight: 400;
+
   line-height: 1;
 }
 
 .placesFeaturedContent > b {
   display: block;
+
   margin-bottom: 18px;
+
   color: #d8c9ad;
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: 17px;
+
   font-weight: 400;
 }
 
 .placesFeaturedContent p {
-  max-width: 500px;
   margin: 0 0 24px;
+
   color: #c0b7a8;
-  font-size: 14px !important;
+
+  font-size: 14px;
+
   line-height: 1.8;
 }
 
 .placesFeaturedContent span {
-  display: inline-block;
   color: #e3c27d;
+
   font-size: 11px;
+
   font-weight: 700;
+
   letter-spacing: 0.12em;
-  transition:
-    transform 0.25s ease,
-    color 0.25s ease;
-}
-
-.placesFeaturedImage {
-  transition:
-    background-size 0.45s ease,
-    filter 0.35s ease;
-}
-
-.placesFeatured:hover .placesFeaturedContent span {
-  transform: translateX(7px);
-  color: #f0d49b;
-}
-
-.placesArchive > .cardGrid {
-  width: 100%;
-  padding-top: 8px;
-}
-
-.placesArchive .cardImage {
-  background-position: center;
-}
-
-.placesArchive .archiveCard {
-  transition:
-    transform 0.25s ease,
-    border-color 0.25s ease;
-}
-
-.placesArchive .archiveCard:hover {
-  transform: translateY(-4px);
-  border-color: rgba(216, 179, 109, 0.55);
-}
-
-@media (max-width: 950px) {
-  .placesFeaturedImage {
-    min-height: 460px;
-  }
-
-  .placesFeaturedContent {
-    left: 38px;
-    bottom: 38px;
-    width: min(500px, calc(100% - 76px));
-  }
-}
-
-@media (max-width: 700px) {
-  .placesFeaturedWrap,
-  .placesArchive {
-    width: calc(100vw - 32px);
-  }
-
-  .placesFeaturedWrap {
-    padding-top: 42px;
-  }
-
-  .placesArchive {
-    padding-top: 26px;
-  }
-
-  .placesSectionHead {
-    margin-bottom: 24px;
-  }
-
-  .placesSectionHead h2 {
-    font-size: 27px;
-  }
-
-  .placesSectionHead p {
-    font-size: 13px !important;
-  }
-
-  .placesFeaturedImage {
-    min-height: 440px;
-    background-position: center;
-  }
-
-  .placesFeaturedShade {
-    background: linear-gradient(
-      0deg,
-      rgba(3, 9, 7, 0.94) 0%,
-      rgba(3, 9, 7, 0.6) 55%,
-      rgba(3, 9, 7, 0.12) 100%
-    );
-  }
-
-  .placesFeaturedContent {
-    left: 24px;
-    right: 24px;
-    bottom: 28px;
-    width: auto;
-  }
-
-  .placesFeaturedContent h2 {
-    font-size: 38px;
-  }
-
-  .placesFeaturedContent p {
-    font-size: 13px !important;
-    line-height: 1.7;
-  }
 }
 
 /* =========================================================
-   SCRAPTURA — TIMELINE ARCHIVE
+   14. TIMELINE
    ========================================================= */
 
 .timelineArchive {
   width: min(var(--max), calc(100vw - 48px));
+
   margin: 0 auto;
+
   padding: 58px 0 90px;
 }
 
@@ -2997,45 +2101,67 @@ footer span {
 
 .timelineSectionHead > small {
   display: block;
+
   margin-bottom: 10px;
+
   color: #b99651;
+
   font-size: 10px;
+
   font-weight: 700;
+
   letter-spacing: 0.16em;
 }
 
 .timelineSectionHead h2 {
   margin: 0 0 12px;
+
   color: #f0d49b;
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: 34px;
+
   font-weight: 400;
-  line-height: 1.2;
 }
 
 .timelineSectionHead p {
   max-width: 720px;
+
   margin: 0;
+
   color: #aaa194;
-  font-size: 14px !important;
+
+  font-size: 14px;
+
   line-height: 1.8;
 }
 
 .timelineTrack {
   position: relative;
+
   display: flex;
+
   flex-direction: column;
+
   gap: 22px;
+
   padding-left: 52px;
 }
 
 .timelineTrack::before {
   content: "";
+
   position: absolute;
+
   top: 0;
+
   bottom: 0;
+
   left: 17px;
+
   width: 1px;
+
   background: linear-gradient(
     180deg,
     rgba(216, 179, 109, 0.18),
@@ -3047,55 +2173,69 @@ footer span {
 
 .timelineEntry {
   position: relative;
-  display: grid;
-  grid-template-columns: minmax(280px, 0.82fr) minmax(0, 1.18fr);
-  min-height: 300px;
-  overflow: visible;
-  border: 1px solid rgba(216, 179, 109, 0.28);
-  background: #07100e;
-  transition:
-    transform 0.25s ease,
-    border-color 0.25s ease;
-}
 
-.timelineEntry:hover {
-  transform: translateX(6px);
-  border-color: rgba(216, 179, 109, 0.56);
+  display: grid;
+
+  grid-template-columns:
+    minmax(280px, 0.82fr)
+    minmax(0, 1.18fr);
+
+  min-height: 300px;
+
+  border: 1px solid rgba(216, 179, 109, 0.28);
+
+  background: #07100e;
 }
 
 .timelineMarker {
   position: absolute;
+
   z-index: 3;
+
   left: -52px;
+
   top: 34px;
+
   width: 35px;
+
   height: 35px;
+
   display: grid;
+
   place-items: center;
+
   border: 1px solid rgba(216, 179, 109, 0.62);
+
   border-radius: 50%;
+
   background: #050c0b;
 }
 
 .timelineMarker span {
   color: #d8b36d;
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: 10px;
 }
 
 .timelineEntryImage {
   min-height: 300px;
+
   background-position: center;
+
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .timelineEntryContent {
-  position: relative;
-  padding: 38px 42px;
   display: flex;
+
   flex-direction: column;
+
   justify-content: center;
+
+  padding: 38px 42px;
+
   background: linear-gradient(
     135deg,
     rgba(15, 29, 25, 0.96),
@@ -3103,136 +2243,69 @@ footer span {
   );
 }
 
-.timelineEntryContent::before {
-  content: "";
-  position: absolute;
-  top: 38px;
-  bottom: 38px;
-  left: 0;
-  width: 1px;
-  background: rgba(216, 179, 109, 0.22);
-}
-
 .timelineEntryContent > small {
   margin-bottom: 10px;
+
   color: #b99651;
+
   font-size: 10px;
+
   font-weight: 700;
+
   letter-spacing: 0.15em;
 }
 
 .timelineEntryContent h2 {
   margin: 0 0 5px;
+
   color: #f0d49b;
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: 34px;
+
   font-weight: 400;
-  line-height: 1.15;
 }
 
 .timelineEntryContent > b {
   color: #c8b99f;
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: 15px;
+
   font-weight: 400;
 }
 
 .timelineEntryContent p {
-  max-width: 560px;
   margin: 18px 0 24px;
+
   color: #aaa194;
-  font-size: 14px !important;
+
+  font-size: 14px;
+
   line-height: 1.75;
 }
 
 .timelineEntryContent > span {
   color: #d8b36d;
+
   font-size: 10px;
+
   font-weight: 700;
+
   letter-spacing: 0.12em;
-  transition: transform 0.25s ease;
-}
-
-.timelineEntry:hover .timelineEntryContent > span {
-  transform: translateX(6px);
-}
-
-@media (max-width: 800px) {
-  .timelineEntry {
-    grid-template-columns: 1fr;
-  }
-
-  .timelineEntryImage {
-    min-height: 260px;
-  }
-
-  .timelineEntryContent::before {
-    display: none;
-  }
-}
-
-@media (max-width: 700px) {
-  .timelineArchive {
-    width: calc(100vw - 32px);
-    padding-top: 42px;
-  }
-
-  .timelineSectionHead {
-    margin-bottom: 34px;
-  }
-
-  .timelineSectionHead h2 {
-    font-size: 27px;
-  }
-
-  .timelineSectionHead p {
-    font-size: 13px !important;
-  }
-
-  .timelineTrack {
-    padding-left: 34px;
-    gap: 18px;
-  }
-
-  .timelineTrack::before {
-    left: 11px;
-  }
-
-  .timelineMarker {
-    left: -34px;
-    top: 24px;
-    width: 25px;
-    height: 25px;
-  }
-
-  .timelineMarker span {
-    font-size: 8px;
-  }
-
-  .timelineEntryImage {
-    min-height: 220px;
-  }
-
-  .timelineEntryContent {
-    padding: 28px 24px 30px;
-  }
-
-  .timelineEntryContent h2 {
-    font-size: 27px;
-  }
-
-  .timelineEntryContent p {
-    font-size: 13px !important;
-  }
 }
 
 /* =========================================================
-   SCRAPTURA — BIBLE ARCHIVE
+   15. BIBLE ARCHIVE
    ========================================================= */
 
 .bibleArchive {
   width: min(var(--max), calc(100vw - 48px));
+
   margin: 0 auto;
+
   padding: 58px 0 90px;
 }
 
@@ -3242,62 +2315,87 @@ footer span {
 
 .bibleSectionHead > small {
   display: block;
+
   margin-bottom: 10px;
+
   color: #b99651;
+
   font-size: 10px;
+
   font-weight: 700;
+
   letter-spacing: 0.16em;
 }
 
 .bibleSectionHead h2 {
   margin: 0 0 12px;
+
   color: #f0d49b;
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: 34px;
+
   font-weight: 400;
-  line-height: 1.2;
 }
 
 .bibleSectionHead p {
   max-width: 760px;
+
   margin: 0;
+
   color: #aaa194;
-  font-size: 14px !important;
+
+  font-size: 14px;
+
   line-height: 1.8;
 }
 
 .bibleFeatured {
   display: grid;
-  grid-template-columns: minmax(360px, 0.95fr) minmax(0, 1.05fr);
+
+  grid-template-columns:
+    minmax(360px, 0.95fr)
+    minmax(0, 1.05fr);
+
   min-height: 500px;
+
   overflow: hidden;
+
   border: 1px solid rgba(216, 179, 109, 0.34);
+
   background: #07100e;
 }
 
 .bibleFeaturedImage {
   position: relative;
+
   min-height: 500px;
+
   background-position: center;
+
   background-size: cover;
-  background-repeat: no-repeat;
-  overflow: hidden;
 }
 
 .bibleFeaturedShade {
   position: absolute;
+
   inset: 0;
+
   background:
     linear-gradient(90deg, transparent 55%, rgba(5, 12, 11, 0.86) 100%),
     linear-gradient(0deg, rgba(5, 12, 11, 0.38), transparent 55%);
 }
 
 .bibleFeaturedContent {
-  position: relative;
-  padding: 58px 52px;
   display: flex;
+
   flex-direction: column;
+
   justify-content: center;
+
+  padding: 58px 52px;
+
   background: linear-gradient(
     145deg,
     rgba(16, 30, 26, 0.97),
@@ -3305,110 +2403,123 @@ footer span {
   );
 }
 
-.bibleFeaturedContent::before {
-  content: "";
-  position: absolute;
-  top: 48px;
-  bottom: 48px;
-  left: 0;
-  width: 1px;
-  background: rgba(216, 179, 109, 0.24);
-}
-
 .bibleFeaturedContent > small {
   margin-bottom: 12px;
+
   color: #b99651;
+
   font-size: 10px;
+
   font-weight: 700;
+
   letter-spacing: 0.16em;
 }
 
 .bibleFeaturedContent h2 {
   margin: 0 0 6px;
+
   color: #f0d49b;
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: clamp(42px, 5vw, 68px);
+
   font-weight: 400;
-  line-height: 1;
 }
 
 .bibleFeaturedContent > b {
   color: #c8b99f;
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: 17px;
+
   font-weight: 400;
 }
 
 .bibleFeaturedContent > p {
-  max-width: 530px;
   margin: 20px 0 28px;
+
   color: #b8afa1;
-  font-size: 14px !important;
+
+  font-size: 14px;
+
   line-height: 1.8;
 }
 
 .biblePath {
   display: flex;
+
   flex-wrap: wrap;
+
   align-items: center;
+
   gap: 10px;
+
   margin-bottom: 28px;
+
   padding: 15px 0;
+
   border-top: 1px solid rgba(216, 179, 109, 0.18);
+
   border-bottom: 1px solid rgba(216, 179, 109, 0.18);
 }
 
 .biblePath span {
   color: #d8c9ad;
+
   font-size: 9px;
+
   font-weight: 700;
+
   letter-spacing: 0.12em;
 }
 
 .biblePath i {
   color: #8e7441;
-  font-size: 11px;
+
   font-style: normal;
 }
 
 .bibleFeaturedContent > strong {
   color: #d8b36d;
-  font-size: 10px;
-  letter-spacing: 0.12em;
-  transition: transform 0.25s ease;
-}
 
-.bibleFeatured:hover .bibleFeaturedContent > strong {
-  transform: translateX(7px);
+  font-size: 10px;
+
+  letter-spacing: 0.12em;
 }
 
 .bibleBookGrid {
   display: grid;
+
   grid-template-columns: repeat(2, minmax(0, 1fr));
+
   gap: 14px;
+
   margin-top: 28px;
 }
 
 .bibleBookCard {
   display: grid;
-  grid-template-columns: 190px minmax(0, 1fr);
-  min-height: 220px;
-  overflow: hidden;
-  border: 1px solid rgba(216, 179, 109, 0.25);
-  background: #07100e;
-  transition:
-    transform 0.25s ease,
-    border-color 0.25s ease;
-}
 
-.bibleBookCard:hover {
-  transform: translateY(-4px);
-  border-color: rgba(216, 179, 109, 0.52);
+  grid-template-columns:
+    190px
+    minmax(0, 1fr);
+
+  min-height: 220px;
+
+  overflow: hidden;
+
+  border: 1px solid rgba(216, 179, 109, 0.25);
+
+  background: #07100e;
 }
 
 .bibleBookImage {
   min-height: 220px;
+
   background-position: center;
+
   background-size: cover;
 }
 
@@ -3418,112 +2529,63 @@ footer span {
 
 .bibleBookCard small {
   color: #b99651;
+
   font-size: 9px;
+
   font-weight: 700;
+
   letter-spacing: 0.14em;
 }
 
 .bibleBookCard h3 {
   margin: 9px 0 3px;
+
   color: #f0d49b;
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: 26px;
+
   font-weight: 400;
 }
 
 .bibleBookCard b {
   color: #c8b99f;
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: 13px;
+
   font-weight: 400;
 }
 
 .bibleBookCard p {
   margin: 14px 0 18px;
+
   color: #aaa194;
-  font-size: 13px !important;
+
+  font-size: 13px;
+
   line-height: 1.65;
 }
 
 .bibleBookCard span {
   color: #d8b36d;
+
   font-size: 9px;
+
   font-weight: 700;
-  letter-spacing: 0.1em;
-}
-
-@media (max-width: 900px) {
-  .bibleFeatured {
-    grid-template-columns: 1fr;
-  }
-
-  .bibleFeaturedImage {
-    min-height: 380px;
-  }
-
-  .bibleFeaturedShade {
-    background: linear-gradient(0deg, rgba(5, 12, 11, 0.86), transparent 55%);
-  }
-
-  .bibleFeaturedContent::before {
-    display: none;
-  }
-
-  .bibleBookGrid {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 700px) {
-  .bibleArchive {
-    width: calc(100vw - 32px);
-    padding-top: 42px;
-  }
-
-  .bibleSectionHead h2 {
-    font-size: 27px;
-  }
-
-  .bibleSectionHead p {
-    font-size: 13px !important;
-  }
-
-  .bibleFeaturedImage {
-    min-height: 300px;
-  }
-
-  .bibleFeaturedContent {
-    padding: 32px 24px 36px;
-  }
-
-  .bibleFeaturedContent h2 {
-    font-size: 38px;
-  }
-
-  .bibleFeaturedContent > p {
-    font-size: 13px !important;
-  }
-
-  .biblePath {
-    gap: 7px;
-  }
-
-  .bibleBookCard {
-    grid-template-columns: 1fr;
-  }
-
-  .bibleBookImage {
-    min-height: 220px;
-  }
 }
 
 /* =========================================================
-   SCRAPTURA — VISUAL SCRIPTURE ARCHIVE
+   16. VISUAL ARCHIVE
    ========================================================= */
 
 .visualArchive {
   width: min(var(--max), calc(100vw - 48px));
+
   margin: 0 auto;
+
   padding: 58px 0 90px;
 }
 
@@ -3534,41 +2596,59 @@ footer span {
 .visualArchiveHead > small,
 .visualEmptyState > small {
   display: block;
+
   margin-bottom: 10px;
+
   color: #b99651;
+
   font-size: 10px;
+
   font-weight: 700;
+
   letter-spacing: 0.16em;
 }
 
 .visualArchiveHead h2 {
   margin: 0 0 12px;
+
   color: #f0d49b;
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: 34px;
+
   font-weight: 400;
-  line-height: 1.2;
 }
 
 .visualArchiveHead p {
   max-width: 760px;
+
   margin: 0;
+
   color: #aaa194;
-  font-size: 14px !important;
+
+  font-size: 14px;
+
   line-height: 1.8;
 }
 
 .visualMasonry {
   display: grid;
+
   grid-template-columns: repeat(2, minmax(0, 1fr));
+
   grid-auto-rows: 320px;
+
   gap: 12px;
 }
 
 .visualArchiveCard {
   min-width: 0;
+
   overflow: hidden;
+
   border: 1px solid rgba(216, 179, 109, 0.28);
+
   background: #07100e;
 }
 
@@ -3578,21 +2658,21 @@ footer span {
 
 .visualArchiveImage {
   position: relative;
-  width: 100%;
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  overflow: hidden;
-  transition: transform 0.4s ease;
-}
 
-.visualArchiveCard:hover .visualArchiveImage {
-  transform: scale(1.02);
+  width: 100%;
+
+  height: 100%;
+
+  background-position: center;
+
+  background-size: cover;
 }
 
 .visualArchiveShade {
   position: absolute;
+
   inset: 0;
+
   background: linear-gradient(
     0deg,
     rgba(3, 9, 7, 0.94) 0%,
@@ -3603,161 +2683,160 @@ footer span {
 
 .visualArchiveCopy {
   position: absolute;
+
   z-index: 2;
+
   left: 30px;
+
   right: 30px;
+
   bottom: 28px;
 }
 
 .visualArchiveCopy small {
   color: #d8b36d;
+
   font-size: 9px;
+
   font-weight: 700;
+
   letter-spacing: 0.14em;
 }
 
 .visualArchiveCopy h2 {
   margin: 8px 0 3px;
+
   color: #f0d49b;
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: 30px;
+
   font-weight: 400;
 }
 
 .visualArchiveCopy b {
   color: #d2c3a7;
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: 14px;
+
   font-weight: 400;
 }
 
 .visualArchiveCopy p {
-  max-width: 520px;
   margin: 12px 0 18px;
+
   color: #c0b7a8;
-  font-size: 13px !important;
+
+  font-size: 13px;
+
   line-height: 1.65;
 }
 
 .visualArchiveCopy span {
   color: #d8b36d;
+
   font-size: 9px;
+
   font-weight: 700;
-  letter-spacing: 0.11em;
 }
 
 .visualEmptyState {
   padding: 54px 52px;
+
   border: 1px solid rgba(216, 179, 109, 0.28);
-  background:
-    radial-gradient(
-      circle at 80% 20%,
-      rgba(216, 179, 109, 0.08),
-      transparent 30%
-    ),
-    linear-gradient(145deg, #0b1714, #06100e);
+
+  background: linear-gradient(145deg, #0b1714, #06100e);
 }
 
 .visualEmptyState h3 {
   margin: 0 0 14px;
+
   color: #f0d49b;
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: 38px;
+
   font-weight: 400;
 }
 
 .visualEmptyState > p {
   max-width: 680px;
+
   margin: 0;
+
   color: #aaa194;
-  font-size: 14px !important;
+
+  font-size: 14px;
+
   line-height: 1.8;
 }
 
 .visualEmptyGrid {
   display: grid;
+
   grid-template-columns: repeat(3, minmax(0, 1fr));
+
   margin-top: 42px;
-  border-top: 1px solid rgba(216, 179, 109, 0.22);
-  border-left: 1px solid rgba(216, 179, 109, 0.22);
+
+  border-top: 1px solid var(--line);
+
+  border-left: 1px solid var(--line);
 }
 
 .visualEmptyGrid > div {
   min-height: 160px;
+
   padding: 28px;
-  border-right: 1px solid rgba(216, 179, 109, 0.22);
-  border-bottom: 1px solid rgba(216, 179, 109, 0.22);
+
+  border-right: 1px solid var(--line);
+
+  border-bottom: 1px solid var(--line);
 }
 
 .visualEmptyGrid span {
   display: block;
+
   margin-bottom: 24px;
+
   color: rgba(216, 179, 109, 0.48);
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: 30px;
 }
 
 .visualEmptyGrid b {
   display: block;
+
   color: #e8d7b6;
+
   font-size: 11px;
+
   letter-spacing: 0.12em;
 }
 
 .visualEmptyGrid p {
   margin: 8px 0 0;
+
   color: #8f887d;
-  font-size: 12px !important;
-}
 
-@media (max-width: 700px) {
-  .visualArchive {
-    width: calc(100vw - 32px);
-    padding-top: 42px;
-  }
-
-  .visualArchiveHead h2 {
-    font-size: 27px;
-  }
-
-  .visualArchiveHead p {
-    font-size: 13px !important;
-  }
-
-  .visualMasonry {
-    grid-template-columns: 1fr;
-    grid-auto-rows: 380px;
-  }
-
-  .visualArchiveCard1 {
-    grid-row: span 1;
-  }
-
-  .visualEmptyState {
-    padding: 34px 24px;
-  }
-
-  .visualEmptyState h3 {
-    font-size: 30px;
-  }
-
-  .visualEmptyGrid {
-    grid-template-columns: 1fr;
-  }
-
-  .visualEmptyGrid > div {
-    min-height: 130px;
-  }
+  font-size: 12px;
 }
 
 /* =========================================================
-   SCRAPTURA — JOURNEYS
+   17. JOURNEYS
    ========================================================= */
 
 .journeysIntro,
 .journeyFeature {
   width: min(var(--max), calc(100vw - 48px));
+
   margin-left: auto;
+
   margin-right: auto;
 }
 
@@ -3770,27 +2849,39 @@ footer span {
 .journeyRouteHead > small,
 .journeyReturn > small {
   display: block;
+
   margin-bottom: 10px;
+
   color: #b99651;
+
   font-size: 10px;
+
   font-weight: 700;
+
   letter-spacing: 0.16em;
 }
 
 .journeysIntro h2 {
   margin: 0 0 12px;
+
   color: #f0d49b;
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: 34px;
+
   font-weight: 400;
-  line-height: 1.2;
 }
 
 .journeysIntro p {
   max-width: 760px;
+
   margin: 0;
+
   color: #aaa194;
-  font-size: 14px !important;
+
+  font-size: 14px;
+
   line-height: 1.8;
 }
 
@@ -3800,16 +2891,23 @@ footer span {
 
 .journeyFeatureHero {
   position: relative;
+
   min-height: 600px;
-  border: 1px solid rgba(216, 179, 109, 0.34);
-  background-position: center;
-  background-size: cover;
+
   overflow: hidden;
+
+  border: 1px solid rgba(216, 179, 109, 0.34);
+
+  background-position: center;
+
+  background-size: cover;
 }
 
 .journeyFeatureShade {
   position: absolute;
+
   inset: 0;
+
   background:
     linear-gradient(
       90deg,
@@ -3822,49 +2920,68 @@ footer span {
 
 .journeyFeatureCopy {
   position: absolute;
+
   z-index: 2;
+
   left: 54px;
+
   bottom: 54px;
+
   width: min(580px, calc(100% - 108px));
 }
 
 .journeyFeatureCopy > span {
   display: block;
+
   margin-bottom: 20px;
+
   color: rgba(216, 179, 109, 0.55);
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: 46px;
 }
 
 .journeyFeatureCopy h2 {
   margin: 0 0 6px;
+
   color: #f0d49b;
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: clamp(42px, 5vw, 68px);
+
   font-weight: 400;
-  line-height: 1.05;
 }
 
 .journeyFeatureCopy > b {
-  display: block;
   color: #d2c3a7;
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: 17px;
+
   font-weight: 400;
 }
 
 .journeyFeatureCopy p {
   margin: 20px 0 28px;
+
   color: #c0b7a8;
-  font-size: 14px !important;
+
+  font-size: 14px;
+
   line-height: 1.8;
 }
 
 .journeyFeatureCopy > a,
 .journeyReturn a {
   color: #d8b36d;
+
   font-size: 10px;
+
   font-weight: 700;
+
   letter-spacing: 0.12em;
 }
 
@@ -3878,201 +2995,206 @@ footer span {
 
 .journeyRouteHead h3 {
   margin: 0 0 8px;
+
   color: #f0d49b;
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: 32px;
+
   font-weight: 400;
 }
 
 .journeyRouteHead p {
   margin: 0;
+
   color: #8f887d;
-  font-size: 13px !important;
+
+  font-size: 13px;
 }
 
 .journeySteps {
-  position: relative;
   display: grid;
+
   grid-template-columns: repeat(2, minmax(0, 1fr));
+
   gap: 1px;
-  background: rgba(216, 179, 109, 0.2);
+
   border: 1px solid rgba(216, 179, 109, 0.2);
+
+  background: rgba(216, 179, 109, 0.2);
 }
 
 .journeyStep {
   min-height: 112px;
-  padding: 24px 26px;
-  display: grid;
-  grid-template-columns: 48px 1fr 24px;
-  align-items: center;
-  gap: 16px;
-  background: #07100e;
-  transition: background 0.25s ease;
-}
 
-.journeyStep:hover {
-  background: #0d1c18;
+  display: grid;
+
+  grid-template-columns:
+    48px
+    1fr
+    24px;
+
+  align-items: center;
+
+  gap: 16px;
+
+  padding: 24px 26px;
+
+  background: #07100e;
 }
 
 .journeyStep > span {
   color: rgba(216, 179, 109, 0.52);
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: 22px;
 }
 
 .journeyStep small {
   color: #9d824c;
+
   font-size: 8px;
+
   font-weight: 700;
+
   letter-spacing: 0.14em;
 }
 
 .journeyStep h4 {
   margin: 6px 0 0;
+
   color: #e8d7b6;
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: 20px;
+
   font-weight: 400;
 }
 
 .journeyStep > b {
   color: #b99651;
-  font-size: 15px;
-  font-weight: 400;
 }
 
 .journeyReturn {
   margin-top: 26px;
+
   padding: 34px 38px;
+
   border-left: 2px solid rgba(216, 179, 109, 0.58);
+
   background: linear-gradient(90deg, rgba(216, 179, 109, 0.07), transparent);
 }
 
 .journeyReturn p {
-  max-width: 760px;
   margin: 0 0 18px;
+
   color: #aaa194;
-  font-size: 13px !important;
+
+  font-size: 13px;
+
   line-height: 1.75;
 }
 
-@media (max-width: 700px) {
-  .journeysIntro,
-  .journeyFeature {
-    width: calc(100vw - 32px);
-  }
-
-  .journeysIntro {
-    padding-top: 42px;
-  }
-
-  .journeysIntro h2 {
-    font-size: 27px;
-  }
-
-  .journeyFeatureHero {
-    min-height: 560px;
-  }
-
-  .journeyFeatureShade {
-    background: linear-gradient(
-      0deg,
-      rgba(3, 9, 7, 0.95),
-      rgba(3, 9, 7, 0.4) 70%,
-      rgba(3, 9, 7, 0.08)
-    );
-  }
-
-  .journeyFeatureCopy {
-    left: 24px;
-    right: 24px;
-    bottom: 30px;
-    width: auto;
-  }
-
-  .journeyFeatureCopy h2 {
-    font-size: 38px;
-  }
-
-  .journeySteps {
-    grid-template-columns: 1fr;
-  }
-
-  .journeyStep {
-    grid-template-columns: 38px 1fr 20px;
-    padding: 21px 20px;
-  }
-
-  .journeyReturn {
-    padding: 28px 24px;
-  }
-}
-
 /* =========================================================
-   SCRAPTURA — INTEGRATED SEARCH
+   18. SEARCH
    ========================================================= */
 
 .searchArchive {
   width: min(var(--max), calc(100vw - 48px));
+
   margin: 0 auto;
+
   padding: 58px 0 90px;
 }
 
 .searchIntro {
   max-width: 760px;
+
   margin-bottom: 30px;
 }
 
 .searchIntro small,
 .searchEmpty small {
   display: block;
+
   margin-bottom: 10px;
+
   color: #b99651;
+
   font-size: 10px;
+
   font-weight: 700;
+
   letter-spacing: 0.16em;
 }
 
 .searchIntro h2,
 .searchEmpty h2 {
   margin: 0 0 12px;
+
   color: #f0d49b;
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: 34px;
+
   font-weight: 400;
 }
 
 .searchIntro p,
 .searchEmpty p {
   margin: 0;
+
   color: #aaa194;
-  font-size: 14px !important;
+
+  font-size: 14px;
+
   line-height: 1.8;
 }
 
 .searchBox {
   min-height: 74px;
+
   display: grid;
-  grid-template-columns: 34px 1fr auto;
+
+  grid-template-columns:
+    34px
+    1fr
+    auto;
+
   align-items: center;
+
   gap: 14px;
+
   padding: 0 24px;
+
   border: 1px solid rgba(216, 179, 109, 0.42);
+
   background: #07100e;
 }
 
 .searchBox > span {
   color: #d8b36d;
+
   font-size: 24px;
 }
 
 .searchBox input {
   width: 100%;
+
   border: 0;
+
   outline: 0;
+
   background: transparent;
+
   color: #f0dfbd;
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: 20px;
 }
 
@@ -4084,47 +3206,59 @@ footer span {
 .searchFilters button,
 .searchEmpty button {
   border: 0;
+
   background: transparent;
+
   color: #a98b54;
-  cursor: pointer;
+
   font-size: 9px;
+
   font-weight: 700;
+
   letter-spacing: 0.12em;
 }
 
 .searchFilters {
   display: flex;
+
   flex-wrap: wrap;
+
   gap: 8px;
+
   padding: 18px 0 32px;
 }
 
 .searchFilters button {
   min-height: 34px;
+
   padding: 0 15px;
+
   border: 1px solid rgba(216, 179, 109, 0.18);
 }
 
 .searchFilters button:hover,
 .searchFilters button.active {
   border-color: rgba(216, 179, 109, 0.62);
+
   background: rgba(216, 179, 109, 0.08);
+
   color: #e4c889;
 }
 
 .searchMeta {
   display: flex;
-  justify-content: space-between;
-  padding: 0 0 13px;
-  border-bottom: 1px solid rgba(216, 179, 109, 0.18);
-  color: #847c70;
-  font-size: 9px;
-  letter-spacing: 0.12em;
-}
 
-.searchMeta b {
-  color: #b99651;
-  font-weight: 700;
+  justify-content: space-between;
+
+  padding: 0 0 13px;
+
+  border-bottom: 1px solid rgba(216, 179, 109, 0.18);
+
+  color: #847c70;
+
+  font-size: 9px;
+
+  letter-spacing: 0.12em;
 }
 
 .searchResults {
@@ -4133,370 +3267,565 @@ footer span {
 
 .searchResult {
   min-height: 190px;
-  display: grid;
-  grid-template-columns: 250px 1fr 40px;
-  align-items: stretch;
-  border-bottom: 1px solid rgba(216, 179, 109, 0.18);
-  transition: background 0.2s ease;
-}
 
-.searchResult:hover {
-  background: rgba(216, 179, 109, 0.035);
+  display: grid;
+
+  grid-template-columns:
+    250px
+    1fr
+    40px;
+
+  align-items: stretch;
+
+  border-bottom: 1px solid rgba(216, 179, 109, 0.18);
 }
 
 .searchResultImage {
-  margin: 18px 24px 18px 0;
   min-height: 150px;
+
+  margin: 18px 24px 18px 0;
+
   background-position: center;
+
   background-size: cover;
 }
 
 .searchResultCopy {
   align-self: center;
+
   padding: 22px 20px 22px 0;
 }
 
 .searchResultCopy small {
   color: #9d824c;
+
   font-size: 8px;
+
   font-weight: 700;
+
   letter-spacing: 0.13em;
 }
 
 .searchResultCopy h2 {
   margin: 7px 0 2px;
+
   color: #ead5aa;
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: 26px;
+
   font-weight: 400;
 }
 
 .searchResultCopy b {
   color: #9c9488;
+
   font-family: Georgia, "Times New Roman", serif;
+
   font-size: 13px;
+
   font-weight: 400;
 }
 
 .searchResultCopy p {
-  max-width: 760px;
   margin: 12px 0 0;
+
   color: #8e887e;
-  font-size: 12px !important;
+
+  font-size: 12px;
+
   line-height: 1.65;
 }
 
 .searchResult > span {
   align-self: center;
+
   color: #b99651;
+
   font-size: 18px;
 }
 
 .searchEmpty {
   padding: 80px 20px;
+
   text-align: center;
 }
 
-.searchEmpty button {
-  margin-top: 24px;
-  padding: 12px 18px;
-  border: 1px solid rgba(216, 179, 109, 0.45);
-}
+.searchShowAll {
+  display: block;
 
-@media (max-width: 700px) {
-  .searchArchive {
-    width: calc(100vw - 32px);
-    padding-top: 42px;
-  }
+  width: 100%;
 
-  .searchIntro h2 {
-    font-size: 27px;
-  }
+  margin-top: 22px;
 
-  .searchBox {
-    min-height: 62px;
-    grid-template-columns: 26px 1fr auto;
-    padding: 0 16px;
-  }
+  padding: 16px 18px;
 
-  .searchBox input {
-    font-size: 16px;
-  }
+  border: 1px solid rgba(216, 179, 109, 0.32);
 
-  .searchFilters {
-    gap: 6px;
-  }
+  background: rgba(216, 179, 109, 0.04);
 
-  .searchFilters button {
-    padding: 0 11px;
-  }
+  color: #d8b36d;
 
-  .searchResult {
-    grid-template-columns: 110px 1fr 20px;
-    min-height: 150px;
-  }
+  font-size: 9px;
 
-  .searchResultImage {
-    min-height: 110px;
-    margin: 18px 14px 18px 0;
-  }
-
-  .searchResultCopy {
-    padding-right: 8px;
-  }
-
-  .searchResultCopy h2 {
-    font-size: 20px;
-  }
-
-  .searchResultCopy p {
-    display: none;
-  }
-}
-
-/* =========================================================
-   SCRAPTURA — STORY SCENE IMAGE FALLBACK
-   Missing scene assets: keep the scene readable without
-   rendering a broken/empty 16:9 image panel.
-   ========================================================= */
-
-.storySceneNoImage {
-  min-height: 260px !important;
-}
-
-.storySceneNoImage .storySceneBody {
-  min-height: 260px;
-  position: relative;
-  align-items: center;
-  background:
-    radial-gradient(
-      circle at 86% 16%,
-      rgba(216, 179, 109, 0.07),
-      transparent 28%
-    ),
-    linear-gradient(145deg, #0b1714 0%, #07100e 72%);
-}
-
-.storySceneNoImage .storySceneBody::after {
-  content: "VISUAL RECONSTRUCTION · IN PREPARATION";
-  position: absolute;
-  right: 26px;
-  top: 24px;
-  color: rgba(216, 179, 109, 0.34);
-  font-size: 8px;
   font-weight: 700;
-  letter-spacing: 0.14em;
-}
 
-.storySceneNoImage .storySceneNumber {
-  color: rgba(216, 179, 109, 0.42);
-}
-
-@media (max-width: 700px) {
-  .storySceneNoImage,
-  .storySceneNoImage .storySceneBody {
-    min-height: 220px !important;
-  }
-
-  .storySceneNoImage .storySceneBody::after {
-    right: 18px;
-    top: 18px;
-    font-size: 7px;
-  }
+  letter-spacing: 0.12em;
 }
 
 /* =========================================================
-   SCRAPTURA — RESPONSIVE MOBILE PATCH v1
-   적용 위치: app/globals.css 파일의 "맨 마지막"
-   목적:
-   - 기존 Desktop / Tablet 디자인 유지
-   - 700px 이하에서 전용 하단 Navigation 제공
-   - 모바일 터치 영역 / Safe Area / 하단 겹침 보정
-   - 기존 Archive / Search / Detail 구조를 깨지 않고 보완
+   19. FOOTER
    ========================================================= */
 
-/* Desktop / Tablet에서는 모바일 내비게이션을 숨김 */
-.mobileNav {
-  display: none;
+footer {
+  width: 100%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  padding: 28px 32px;
+
+  border-top: 1px solid var(--line);
+
+  color: #91897c;
+
+  font-size: 13px;
 }
 
-/* 현재 페이지 표시 — Desktop */
-.topbar nav a[aria-current="page"] {
+footer b {
+  margin: 0;
+
   color: var(--gold2);
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 19.5px;
+
+  font-weight: 400;
+
+  letter-spacing: 0.12em;
 }
 
-/* 키보드 접근성 */
-.topbar a:focus-visible,
-.mobileNav a:focus-visible,
-.searchBox input:focus-visible,
-.searchBox button:focus-visible,
-.searchFilters button:focus-visible {
-  outline: 2px solid var(--gold);
-  outline-offset: 3px;
+footer span {
+  text-align: right;
 }
 
-/* Tablet: 데스크톱 메뉴가 사라지는 영역에서도 브랜드/CTA 충돌 방지 */
-@media (max-width: 950px) {
-  .topbar {
+/* =========================================================
+   20. TABLET
+   ========================================================= */
+
+@media (max-width: 1100px) {
+  .topbar nav {
     gap: 18px;
   }
 
+  .portal {
+    bottom: 34px;
+  }
+
+  .portalGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 950px) {
   .topbar nav {
     display: none;
   }
 
-  .brand {
-    min-width: 0;
+  .journeyBtn {
+    margin-left: auto;
+  }
+
+  .cardGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .relations {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .relations > div {
+    grid-column: 1 / -1;
+  }
+
+  .archiveFeatured {
+    grid-template-columns: 1.25fr 1fr;
+  }
+
+  .peopleFeatured {
+    grid-template-columns: 0.95fr 1.05fr;
+  }
+}
+
+@media (max-width: 900px) {
+  .bibleFeatured {
+    grid-template-columns: 1fr;
+  }
+
+  .bibleBookGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  .timelineEntry {
+    grid-template-columns: 1fr;
+  }
+
+  .timelineEntryImage {
+    min-height: 260px;
   }
 }
 
 /* =========================================================
-   MOBILE
+   21. MOBILE NAV DEFAULT
    ========================================================= */
+
+.mobileNav {
+  display: none;
+}
+
+/* =========================================================
+   22. MOBILE
+   SINGLE SOURCE OF TRUTH
+   ========================================================= */
+
 @media (max-width: 700px) {
   html {
     scroll-padding-top: 66px;
+
+    scroll-padding-bottom: calc(96px + env(safe-area-inset-bottom));
   }
 
   body {
+    /*
+      Fixed Bottom Nav와 콘텐츠가
+      겹치지 않도록 문서 자체에
+      공간을 한 번만 확보한다.
+    */
+
+    padding-bottom: calc(96px + env(safe-area-inset-bottom));
+
     overflow-x: hidden;
-    padding-bottom: calc(68px + env(safe-area-inset-bottom));
   }
 
   main {
     overflow-x: clip;
+
+    overflow-y: visible;
   }
 
-  /* ---------- TOP HEADER ---------- */
+  /* =======================================================
+     HEADER
+     ======================================================= */
+
   .topbar {
-    height: 58px !important;
-    padding: 0 14px !important;
-    gap: 12px !important;
+    height: 58px;
+
+    padding: 0 14px;
+
+    gap: 12px;
   }
 
   .topbar nav,
   .journeyBtn {
-    display: none !important;
+    display: none;
   }
 
   .brand {
-    gap: 8px !important;
-    margin-right: 0 !important;
-    max-width: calc(100vw - 28px);
-  }
-
-  .cross {
-    flex: 0 0 auto;
-    font-size: 23px !important;
-  }
-
-  .brand span:last-child {
     min-width: 0;
+
+    max-width: calc(100vw - 28px);
+
+    margin-right: 0;
   }
 
   .brand b {
-    font-size: 15px !important;
-    letter-spacing: 0.14em !important;
-    white-space: nowrap;
+    font-size: 20px;
+
+    letter-spacing: 0.13em;
   }
 
   .brand small {
-    max-width: 220px;
-    overflow: hidden;
-    font-size: 5.5px !important;
-    letter-spacing: 0.1em !important;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-
-  /* ---------- FIXED BOTTOM NAV ---------- */
-  .mobileNav {
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 90;
-
-    display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
-
-    min-height: calc(62px + env(safe-area-inset-bottom));
-    padding: 4px 8px env(safe-area-inset-bottom);
-
-    border-top: 1px solid rgba(216, 179, 109, 0.28);
-    background: rgba(4, 10, 9, 0.97);
-    backdrop-filter: blur(14px);
-    -webkit-backdrop-filter: blur(14px);
-  }
-
-  .mobileNav a {
-    position: relative;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    min-width: 0;
-    min-height: 56px;
-    padding: 5px 2px;
-
-    color: #8f887c;
-    text-align: center;
-    transition:
-      color 0.18s ease,
-      background 0.18s ease;
-  }
-
-  .mobileNav a::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 50%;
-
-    width: 0;
-    height: 1px;
-
-    background: var(--gold);
-    transform: translateX(-50%);
-    transition: width 0.18s ease;
-  }
-
-  .mobileNav a.active,
-  .mobileNav a[aria-current="page"] {
-    color: var(--gold2);
-    background: rgba(216, 179, 109, 0.045);
-  }
-
-  .mobileNav a.active::before,
-  .mobileNav a[aria-current="page"]::before {
-    width: 24px;
-  }
-
-  .mobileNavIcon {
-    display: block;
-    min-height: 22px;
-    font-size: 19px;
-    line-height: 1;
-  }
-
-  .mobileNavLabel {
-    display: block;
-    margin-top: 4px;
+    max-width: 250px;
 
     overflow: hidden;
 
     font-size: 7px;
-    font-weight: 700;
-    letter-spacing: 0.09em;
-    line-height: 1.1;
+
+    letter-spacing: 0.11em;
 
     text-overflow: ellipsis;
+  }
+
+  /* =======================================================
+     HOME
+     ======================================================= */
+
+  .home {
+    width: 100%;
+
+    min-height: auto;
+
+    margin: 0;
+
+    padding: 0;
+
+    overflow-x: hidden;
+
+    /*
+      데스크톱 overflow:hidden을
+      모바일에서는 해제한다.
+    */
+
+    overflow-y: visible;
+  }
+
+  .homeHero {
+    height: 650px;
+
+    min-height: 650px;
+  }
+
+  /* =======================================================
+     HOME COPY
+     ======================================================= */
+
+  .homeCopy {
+    top: 105px;
+
+    left: 50%;
+
+    width: calc(100% - 40px);
+
+    max-width: 448px;
+
+    margin: 0;
+
+    padding: 0;
+
+    transform: translateX(-50%);
+  }
+
+  .homeCopy > small {
+    margin: 0 0 18px;
+
+    font-size: 11px;
+
+    letter-spacing: 0.08em;
+
     white-space: nowrap;
   }
 
-  /* ---------- COMMON MOBILE WIDTH ---------- */
-  .portal,
+  .homeCopy h1 {
+    width: calc(100vw - 40px);
+
+    max-width: 448px;
+
+    margin: 0 auto;
+
+    padding: 0 0 60px;
+
+    font-size: clamp(46px, 12.2vw, 59px);
+
+    line-height: 0.95;
+
+    letter-spacing: 0.025em;
+
+    white-space: nowrap;
+  }
+
+  .homeCopy h1::after {
+    left: 50%;
+
+    bottom: 0;
+
+    width: calc(100vw - 40px);
+
+    max-width: 448px;
+
+    padding: 11px 4px;
+
+    overflow: hidden;
+
+    font-size: clamp(13px, 3.25vw, 16px);
+
+    letter-spacing: 0.065em;
+
+    white-space: nowrap;
+
+    transform: translateX(-50%);
+  }
+
+  .homeCopy h2 {
+    margin: 31px 0 0;
+
+    font-size: clamp(21px, 5.5vw, 27px);
+
+    line-height: 1.25;
+
+    letter-spacing: 0;
+  }
+
+  .homeCopy p {
+    margin: 18px 0 0;
+
+    padding: 0 4px;
+
+    font-size: 15px;
+
+    line-height: 1.5;
+
+    word-break: keep-all;
+  }
+
+  .homeCopy > a {
+    width: calc(100% - 24px);
+
+    max-width: 410px;
+
+    min-width: 0;
+
+    min-height: 56px;
+
+    margin: 28px auto 0;
+
+    padding: 12px 22px;
+
+    font-size: 13px;
+  }
+
+  .homeCopy > a::after {
+    padding-left: 24px;
+  }
+
+  .homeHero::after {
+    display: none;
+  }
+
+  /* =======================================================
+     HOME PORTAL
+     ======================================================= */
+
+  .portal {
+    /*
+      모바일에서는 absolute를 해제하고
+      일반 문서 흐름으로 돌린다.
+    */
+
+    position: relative;
+
+    left: auto;
+
+    right: auto;
+
+    top: auto;
+
+    bottom: auto;
+
+    width: calc(100% - 20px);
+
+    margin: -72px auto 24px;
+
+    padding: 0;
+
+    overflow: visible;
+  }
+
+  .portalGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 10px;
+
+    width: 100%;
+
+    margin: 0;
+
+    padding: 0;
+
+    overflow: visible;
+  }
+
+  .portalGrid > a {
+    width: 100%;
+
+    min-width: 0;
+
+    height: 145px;
+
+    min-height: 145px;
+
+    max-height: 145px;
+
+    padding: 0;
+  }
+
+  .portalGrid > a::after {
+    content: "";
+
+    position: absolute;
+
+    z-index: -1;
+
+    left: 0;
+
+    right: 0;
+
+    bottom: 0;
+
+    height: 62%;
+
+    background: linear-gradient(
+      to top,
+      rgba(2, 8, 6, 0.92) 0%,
+      rgba(2, 8, 6, 0.55) 52%,
+      transparent 100%
+    );
+  }
+
+  .portalGrid h3 {
+    left: 14px;
+
+    right: 12px;
+
+    bottom: 41px;
+
+    font-size: 20px;
+
+    line-height: 1;
+  }
+
+  .portalGrid p {
+    left: 14px;
+
+    right: 34px;
+
+    bottom: 15px;
+
+    font-size: 10px;
+
+    line-height: 1.2;
+  }
+
+  .portalGrid b {
+    right: 12px;
+
+    bottom: 14px;
+  }
+
+  .portalGrid b::after {
+    font-size: 16px;
+  }
+
+  /* =======================================================
+     COMMON WIDTH
+     ======================================================= */
+
   .cardGrid,
   .contentWrap,
   .journeyGrid,
@@ -4513,1783 +3842,428 @@ footer span {
   .journeysIntro,
   .journeyFeature,
   .searchArchive {
+    width: calc(100vw - 32px);
+
     max-width: none;
-    width: calc(100vw - 32px) !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+
+    margin-left: auto;
+
+    margin-right: auto;
   }
 
-  /* ---------- PAGE HEADER ---------- */
+  /* =======================================================
+     PAGE HEADER
+     ======================================================= */
+
   .pageHead {
-    padding-left: 16px !important;
-    padding-right: 16px !important;
+    padding: 80px 16px 40px;
   }
 
   .pageHead h1 {
+    font-size: clamp(46px, 14vw, 62px);
+
     overflow-wrap: anywhere;
-    font-size: clamp(46px, 14vw, 62px) !important;
   }
 
-  .pageHead p {
-    max-width: 640px;
-    line-height: 1.7;
-  }
+  /* =======================================================
+     DETAIL HERO
+     ======================================================= */
 
-  /* ---------- DETAIL HERO ---------- */
   .detailHero {
+    height: min(650px, 78svh);
+
     min-height: 560px;
-    height: min(650px, 78svh) !important;
   }
 
   .heroCopy {
-    left: 16px !important;
-    right: 16px !important;
-    width: auto !important;
+    left: 16px;
+
+    right: 16px;
+
+    bottom: 48px;
+
+    width: auto;
+
     max-width: 620px;
   }
 
   .heroCopy h1 {
+    font-size: clamp(44px, 13vw, 58px);
+
     overflow-wrap: anywhere;
-    font-size: clamp(44px, 13vw, 58px) !important;
   }
 
   .heroCopy p {
     font-size: 13px;
+
     line-height: 1.75;
   }
 
-  /* ---------- CARDS / TAP TARGET ---------- */
-  .archiveCard,
-  .portalGrid > a,
-  .journeyGrid > a,
-  .relations > a,
-  .searchResult,
-  .journeyFeature {
-    touch-action: manipulation;
-  }
-
-  .archiveCard,
-  .portalGrid > a,
-  .journeyGrid > a,
-  .relations > a {
-    min-width: 0;
-  }
-
-  .archiveCard h2,
-  .searchResultCopy h2 {
-    overflow-wrap: anywhere;
-  }
-
-  /* ---------- RELATIONS ---------- */
-  .relations {
-    grid-template-columns: 1fr !important;
-  }
-
-  .relations > div {
-    grid-column: auto !important;
-  }
-
-  .relations > a {
-    min-height: 108px;
-  }
-
-  /* ---------- SEARCH ---------- */
-  .searchBox {
-    min-height: 60px !important;
-    grid-template-columns: 24px minmax(0, 1fr) auto !important;
-    gap: 9px !important;
-    padding: 0 13px !important;
-  }
-
-  .searchBox > span {
-    font-size: 20px !important;
-  }
-
-  .searchBox input {
-    min-width: 0;
-    font-size: 16px !important;
-  }
-
-  .searchBox button,
-  .searchFilters button,
-  .searchEmpty button {
-    min-height: 44px;
-  }
-
-  .searchFilters {
-    gap: 7px !important;
-    padding-bottom: 24px !important;
-  }
-
-  .searchFilters button {
-    padding: 0 12px !important;
-  }
-
-  .searchMeta {
-    gap: 12px;
-  }
-
-  .searchResult {
-    grid-template-columns: 104px minmax(0, 1fr) 18px !important;
-    min-height: 146px !important;
-  }
-
-  .searchResultImage {
-    margin: 18px 12px 18px 0 !important;
-    min-height: 108px !important;
-  }
-
-  .searchResultCopy {
-    min-width: 0;
-    padding: 18px 6px 18px 0 !important;
-  }
-
-  .searchResultCopy h2 {
-    font-size: 19px !important;
-    line-height: 1.15;
-  }
-
-  .searchResultCopy b {
-    display: block;
-    overflow: hidden;
-    font-size: 12px !important;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-
-  .searchResultCopy p {
-    display: none !important;
-  }
-
-  /* ---------- FOOTER ---------- */
-  footer {
-    gap: 12px;
-    padding-bottom: 25px !important;
-    flex-wrap: wrap;
-  }
-}
-
-/* 작은 화면 추가 안전장치 */
-@media (max-width: 390px) {
-  .brand small {
-    max-width: 180px;
-  }
-
-  .mobileNavLabel {
-    font-size: 6.5px;
-    letter-spacing: 0.06em;
-  }
-
-  .searchResult {
-    grid-template-columns: 92px minmax(0, 1fr) 16px !important;
-  }
-
-  .searchResultCopy h2 {
-    font-size: 18px !important;
-  }
-}
-
-/* Hover가 실제로 있는 장치에서만 hover 강조 */
-@media (hover: hover) and (pointer: fine) {
-  .mobileNav a:hover {
-    color: var(--gold2);
-  }
-}
-
-/* =========================================================
-   SCRAPTURA MOBILE HOME — HERO STABILIZE v1
-   ========================================================= */
-
-@media (max-width: 700px) {
-  /* HERO 전체 높이 */
-  .homeHero {
-    height: 640px !important;
-    min-height: 640px !important;
-  }
-
-  /* 중앙 카피 영역 */
-  .homeCopy {
-    top: 46% !important;
-    left: 50% !important;
-    right: auto !important;
-
-    width: calc(100% - 32px) !important;
-    max-width: 500px !important;
-
-    transform: translate(-50%, -50%) !important;
-
-    text-align: center !important;
-  }
-
-  /* INTERACTIVE BIBLICAL ARCHIVE */
-  .homeCopy > small {
-    margin-bottom: 12px !important;
-
-    font-size: 9px !important;
-    line-height: 1.4 !important;
-    letter-spacing: 0.14em !important;
-
-    white-space: nowrap !important;
-  }
-
-  /* SCRAPTURA */
-  .homeCopy h1 {
-    width: 100% !important;
-
-    margin: 0 !important;
-    padding-bottom: 24px !important;
-
-    font-size: clamp(44px, 12.5vw, 64px) !important;
-    line-height: 0.94 !important;
-    letter-spacing: 0.045em !important;
-
-    white-space: nowrap !important;
-  }
-
-  /* EXPLORE THE WORLD OF SCRIPTURE */
-  .homeCopy h1::after {
-    width: 82% !important;
-
-    padding: 7px 0 !important;
-
-    font-size: 6.5px !important;
-    letter-spacing: 0.16em !important;
-
-    white-space: nowrap !important;
-  }
-
-  /* Explore the World of Scripture */
-  .homeCopy h2 {
-    margin-top: 28px !important;
-
-    font-size: clamp(18px, 5vw, 23px) !important;
-    line-height: 1.25 !important;
-  }
-
-  /* 한글 설명 */
-  .homeCopy p {
-    max-width: 100% !important;
-
-    margin: 20px auto 0 !important;
-
-    font-size: clamp(16px, 4.5vw, 21px) !important;
-    line-height: 1.5 !important;
-
-    word-break: keep-all !important;
-  }
-
-  /* BEGIN YOUR JOURNEY */
-  .homeCopy > a {
-    width: min(330px, calc(100vw - 64px)) !important;
-    min-width: 0 !important;
-
-    margin-top: 26px !important;
-    padding: 15px 22px !important;
-
-    font-size: 13px !important;
-    white-space: nowrap !important;
-  }
-
-  .homeCopy > a::after {
-    padding-left: 22px !important;
-  }
-}
-
-/* 작은 스마트폰 추가 대응 */
-@media (max-width: 390px) {
-  .homeHero {
-    height: 610px !important;
-    min-height: 610px !important;
-  }
-
-  .homeCopy h1 {
-    font-size: 46px !important;
-    letter-spacing: 0.025em !important;
-  }
-
-  .homeCopy h2 {
-    font-size: 18px !important;
-  }
-
-  .homeCopy p {
-    font-size: 16px !important;
-  }
-}
-
-/* =========================================
-   SCRAPTURA MOBILE NAV — ICON SYSTEM v2
-   ========================================= */
-
-@media (max-width: 700px) {
-  .mobileNav {
-    height: calc(64px + env(safe-area-inset-bottom)) !important;
-
-    background: rgba(3, 10, 8, 0.97) !important;
-
-    border-top: 1px solid rgba(216, 179, 109, 0.18) !important;
-  }
-
-  .mobileNav > a {
-    position: relative !important;
-
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    justify-content: center !important;
-
-    gap: 5px !important;
-
-    background: transparent !important;
-
-    color: rgba(232, 220, 198, 0.58) !important;
-  }
-
-  /* 기존 HOME 사각 배경 제거 */
-  .mobileNav > a.active {
-    background: transparent !important;
-
-    color: #f0d49b !important;
-  }
-
-  /* 상단 금색 active line */
-  .mobileNav > a.active::before {
-    content: "";
-
-    position: absolute;
-
-    top: 0;
-    left: 50%;
-
-    width: 34px;
-    height: 2px;
-
-    transform: translateX(-50%);
-
-    background: #d8b36d;
-
-    border-radius: 0 0 2px 2px;
-  }
-
-  .mobileNavIcon {
-    width: 21px !important;
-    height: 21px !important;
-
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-
-    font-size: 0 !important;
-
-    border: 0 !important;
-    border-radius: 0 !important;
-
-    background: transparent !important;
-  }
-
-  .mobileNavIcon svg {
-    width: 21px;
-    height: 21px;
-
-    fill: none;
-
-    stroke: currentColor;
-    stroke-width: 1.5;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-  }
-
-  .mobileNavLabel {
-    font-size: 9px !important;
-    font-weight: 600 !important;
-
-    line-height: 1 !important;
-
-    letter-spacing: 0.08em !important;
-  }
-
-  .mobileNav > a.active .mobileNavLabel {
-    color: #f0d49b !important;
-  }
-}
-
-/* =========================================================
-   SCRAPTURA MOBILE HOME — PORTAL CARDS v1
-   STORIES / PEOPLE / PLACES / TIMELINE / BIBLE / VISUAL
-   ========================================================= */
-
-@media (max-width: 700px) {
-  /* 카드 전체 영역 */
-  .portal {
-    position: relative !important;
-
-    left: auto !important;
-    right: auto !important;
-    bottom: auto !important;
-
-    width: calc(100% - 24px) !important;
-
-    margin: -72px auto 0 !important;
-    padding: 0 0 92px !important;
-
-    box-sizing: border-box !important;
-  }
-
-  /* 2열 카드 */
-  .portalGrid {
-    display: grid !important;
-
-    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-
-    gap: 8px !important;
-
-    width: 100% !important;
-
-    border: 0 !important;
-  }
-
-  /* 개별 카드 */
-  .portalGrid > a {
-    position: relative !important;
-
-    width: 100% !important;
-
-    min-height: 184px !important;
-    height: 184px !important;
-
-    padding: 0 !important;
-
-    overflow: hidden !important;
-
-    border: 1px solid rgba(216, 179, 109, 0.5) !important;
-
-    border-radius: 3px !important;
-
-    box-sizing: border-box !important;
-
-    isolation: isolate !important;
-  }
-
-  /* 카드 이미지 */
-  .portalGrid > a::before {
-    position: absolute !important;
-    inset: 0 !important;
-
-    z-index: -1 !important;
-
-    background-position: center center !important;
-
-    background-size: cover !important;
-
-    transform: none !important;
-  }
-
-  /* 모바일에서는 hover 확대 금지 */
-  .portalGrid > a:hover::before {
-    transform: none !important;
-    filter: none !important;
-  }
-
-  /* 카드 하단 가독성 강화 */
-  .portalGrid > a::after {
-    content: "" !important;
-
-    position: absolute !important;
-
-    left: 0 !important;
-    right: 0 !important;
-    bottom: 0 !important;
-
-    height: 62% !important;
-
-    z-index: -1 !important;
-
-    background: linear-gradient(
-      to top,
-      rgba(2, 8, 6, 0.92) 0%,
-      rgba(2, 8, 6, 0.55) 52%,
-      rgba(2, 8, 6, 0) 100%
-    ) !important;
-
-    pointer-events: none !important;
-  }
-
-  /* STORIES / PEOPLE 등의 제목 */
-  .portalGrid h3 {
-    position: absolute !important;
-
-    left: 16px !important;
-    right: 14px !important;
-    bottom: 48px !important;
+  /* =======================================================
+     CARD GRID
+     ======================================================= */
 
-    margin: 0 !important;
+  .cardGrid {
+    grid-template-columns: 1fr;
 
-    font-family: Georgia, "Times New Roman", serif !important;
-
-    font-size: 23px !important;
-    font-weight: 400 !important;
-    line-height: 1 !important;
-
-    letter-spacing: 0.015em !important;
-
-    color: #f2dfb7 !important;
-
-    white-space: nowrap !important;
-  }
-
-  /* 한글 설명 */
-  .portalGrid p {
-    position: absolute !important;
-
-    left: 16px !important;
-    right: 38px !important;
-    bottom: 18px !important;
-
-    margin: 0 !important;
-
-    font-size: 11px !important;
-    line-height: 1.25 !important;
-
-    color: rgba(255, 248, 234, 0.88) !important;
-
-    white-space: nowrap !important;
-
-    overflow: hidden !important;
-    text-overflow: ellipsis !important;
-  }
-
-  /* 우측 화살표 */
-  .portalGrid b {
-    position: absolute !important;
-
-    right: 14px !important;
-    bottom: 15px !important;
-
-    margin: 0 !important;
-
-    color: #f0d49b !important;
-  }
-
-  .portalGrid b::after {
-    font-size: 17px !important;
-  }
-}
-
-/* 더 작은 모바일 */
-@media (max-width: 390px) {
-  .portal {
-    width: calc(100% - 20px) !important;
-  }
-
-  .portalGrid {
-    gap: 7px !important;
-  }
-
-  .portalGrid > a {
-    min-height: 170px !important;
-    height: 170px !important;
-  }
-
-  .portalGrid h3 {
-    left: 14px !important;
-
-    bottom: 45px !important;
-
-    font-size: 20px !important;
-  }
-
-  .portalGrid p {
-    left: 14px !important;
-    bottom: 17px !important;
-
-    font-size: 10px !important;
-  }
-
-  .portalGrid b {
-    right: 12px !important;
-    bottom: 14px !important;
-  }
-}
-
-/* =========================================================
-   SCRAPTURA MOBILE HOME — PORTAL FOOTER GAP FIX
-   ========================================================= */
-
-@media (max-width: 700px) {
-  .portal {
-    padding-bottom: 32px !important;
-  }
-}
-
-@media (max-width: 390px) {
-  .portal {
-    padding-bottom: 28px !important;
-  }
-}
-
-/* =========================================================
-   SCRAPTURA MOBILE STORIES — ARCHIVE CARDS v1
-   ========================================================= */
-
-@media (max-width: 700px) {
-  /* STORIES 목록 전체 */
-  .archiveAllStories {
-    width: calc(100% - 24px) !important;
-
-    padding-top: 20px !important;
-    padding-bottom: 20px !important;
-
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-
-  /* 카드 목록 */
-  .archiveAllStories > .cardGrid {
-    width: 100% !important;
-
-    padding: 0 0 24px !important;
-
-    grid-template-columns: 1fr !important;
-
-    gap: 14px !important;
-  }
-
-  /* 개별 Story 카드 */
-  .archiveAllStories .archiveCard {
-    width: 100% !important;
-
-    padding-bottom: 22px !important;
-
-    overflow: hidden !important;
-
-    border: 1px solid rgba(216, 179, 109, 0.32) !important;
-
-    background: #07100e !important;
-
-    box-sizing: border-box !important;
-  }
-
-  /* 카드 이미지 */
-  .archiveAllStories .cardImage {
-    width: 100% !important;
-
-    height: 220px !important;
-
-    margin-bottom: 20px !important;
-
-    background-size: cover !important;
-    background-position: center !important;
-  }
-
-  /* STORIES · 2 SAMUEL 등의 Eyebrow */
-  .archiveAllStories .archiveCard > small {
-    margin-left: 22px !important;
-    margin-right: 22px !important;
-
-    font-size: 9px !important;
-    line-height: 1.4 !important;
-
-    letter-spacing: 0.18em !important;
-  }
-
-  /* 한글 제목 */
-  .archiveAllStories .archiveCard h2 {
-    margin: 10px 22px 5px !important;
-
-    font-size: 29px !important;
-    line-height: 1.15 !important;
-
-    word-break: keep-all !important;
-  }
-
-  /* 영문 제목 */
-  .archiveAllStories .archiveCard > b {
-    display: block !important;
-
-    margin: 0 22px !important;
-
-    font-size: 15px !important;
-    line-height: 1.4 !important;
-  }
-
-  /* 설명 */
-  .archiveAllStories .archiveCard p {
-    margin: 17px 22px 0 !important;
-
-    font-size: 13px !important;
-    line-height: 1.7 !important;
-
-    color: rgba(232, 220, 198, 0.78) !important;
-
-    word-break: keep-all !important;
-
-    display: -webkit-box !important;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-
-    overflow: hidden !important;
-  }
-}
-
-/* 작은 모바일 */
-@media (max-width: 390px) {
-  .archiveAllStories {
-    width: calc(100% - 20px) !important;
-  }
-
-  .archiveAllStories .cardImage {
-    height: 200px !important;
-  }
-
-  .archiveAllStories .archiveCard h2 {
-    font-size: 27px !important;
+    padding: 42px 0 45px;
   }
-}
 
-/* =========================================================
-   SCRAPTURA MOBILE STORIES — PAGE HEADER v1
-   ========================================================= */
-
-@media (max-width: 700px) {
-  /* STORIES 상단 영역 */
-  .pageHead {
-    padding: 72px 16px 52px !important;
-
-    min-height: 0 !important;
-  }
-
-  /* SCRAPTURA ARCHIVE */
-  .pageHead > small {
-    display: block !important;
-
-    margin-bottom: 20px !important;
-
-    font-size: 10px !important;
-    line-height: 1 !important;
-
-    letter-spacing: 0.18em !important;
-  }
-
-  /* STORIES */
-  .pageHead h1 {
-    margin: 0 0 24px !important;
-
-    font-size: clamp(50px, 14vw, 66px) !important;
-
-    line-height: 0.95 !important;
-
-    letter-spacing: 0.015em !important;
-  }
-
-  /* 페이지 설명 */
-  .pageHead p {
-    max-width: 420px !important;
-
-    margin: 0 !important;
-
-    font-size: 18px !important;
-    line-height: 1.65 !important;
-
-    word-break: keep-all !important;
-  }
-
-  /* Featured Story 시작 여백 */
-  .archiveFeaturedWrap {
-    padding-top: 38px !important;
-  }
-
-  .archiveSectionHead {
-    margin-bottom: 26px !important;
-  }
-
-  /* FEATURED STORY */
-  .archiveSectionHead > small {
-    margin-bottom: 14px !important;
-
-    font-size: 9px !important;
-
-    letter-spacing: 0.18em !important;
-  }
-
-  /* 이야기에서 성경의 세계로 들어가세요 */
-  .archiveSectionHead h2 {
-    max-width: 420px !important;
-
-    margin: 0 0 14px !important;
-
-    font-size: 25px !important;
-    line-height: 1.4 !important;
-
-    word-break: keep-all !important;
-  }
-
-  /* 설명 */
-  .archiveSectionHead p {
-    max-width: 420px !important;
-
-    margin: 0 !important;
-
-    font-size: 13px !important;
-    line-height: 1.7 !important;
-
-    word-break: keep-all !important;
-  }
-}
-
-/* 작은 화면 */
-@media (max-width: 390px) {
-  .pageHead {
-    padding: 64px 14px 44px !important;
-  }
-
-  .pageHead h1 {
-    font-size: 50px !important;
-  }
-
-  .pageHead p {
-    font-size: 16px !important;
-  }
-
-  .archiveSectionHead h2 {
-    font-size: 23px !important;
+  .cardImage {
+    height: 250px;
   }
-}
 
-/* =========================================================
-   SCRAPTURA MOBILE DETAIL — COMPACT v1
-   People / Story / Place / Timeline / Bible Detail
-   ========================================================= */
+  /* =======================================================
+     STORY SCENE
+     ======================================================= */
 
-@media (max-width: 700px) {
-  /* -----------------------------------------
-     DETAIL HERO
-     ----------------------------------------- */
+  .storyScenes {
+    grid-template-columns: 1fr;
 
-  .detailHero {
-    height: 540px !important;
-    min-height: 540px !important;
+    margin-top: 28px;
   }
 
-  .heroCopy {
-    left: 18px !important;
-    right: 18px !important;
-    bottom: 38px !important;
-  }
-
-  .heroCopy h1 {
-    font-size: 46px !important;
-    line-height: 1 !important;
-  }
-
-  /* -----------------------------------------
-     DETAIL CONTENT
-     ----------------------------------------- */
-
-  .contentWrap {
-    width: calc(100% - 32px) !important;
-
-    padding-top: 42px !important;
-    padding-bottom: 78px !important;
-
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-
-  /* OVERVIEW */
-  .overview {
-    padding-bottom: 38px !important;
-  }
-
-  .overview h3 {
-    margin-top: 10px !important;
-
-    font-size: 27px !important;
-    line-height: 1.25 !important;
-  }
-
-  .overview p {
-    margin-top: 18px !important;
-
-    font-size: 14px !important;
-    line-height: 1.75 !important;
-
-    word-break: keep-all !important;
-  }
-
-  /* -----------------------------------------
-     CHARACTER JOURNEY
-     ----------------------------------------- */
-
-  .characterJourney {
-    padding-top: 38px !important;
-    padding-bottom: 38px !important;
-  }
-
-  .characterJourneyHeader {
-    margin-bottom: 26px !important;
-  }
-
-  .characterJourneyHeader h3 {
-    margin-bottom: 10px !important;
-
-    font-size: 24px !important;
-    line-height: 1.25 !important;
-  }
-
-  .characterJourneyHeader p {
-    font-size: 12px !important;
-    line-height: 1.65 !important;
-  }
-
-  /* 세로 연결선 */
-  .characterJourneyList::before {
-    left: 20px !important;
-  }
-
-  /* 각 단계 */
-  .characterStage {
-    grid-template-columns: 42px minmax(0, 1fr) !important;
-
-    gap: 14px !important;
-
-    padding-bottom: 24px !important;
-  }
-
-  .characterStageNumber {
-    width: 42px !important;
-    height: 42px !important;
-
-    font-size: 11px !important;
-  }
-
-  .characterStageContent {
-    padding-top: 0 !important;
-    padding-bottom: 18px !important;
-  }
-
-  .characterStageContent > small {
-    font-size: 8px !important;
-
-    letter-spacing: 0.11em !important;
-  }
+  .storySceneBody {
+    grid-template-columns:
+      44px
+      minmax(0, 1fr);
 
-  .characterStageContent h4 {
-    margin-top: 5px !important;
-    margin-bottom: 8px !important;
+    gap: 16px;
 
-    font-size: 18px !important;
-    line-height: 1.2 !important;
+    padding: 22px 20px 26px;
   }
 
-  .characterStageContent p {
-    font-size: 12px !important;
-    line-height: 1.65 !important;
-
-    word-break: keep-all !important;
+  .storySceneNumber {
+    font-size: 29px;
   }
-
-  /* -----------------------------------------
-     일반 JOURNEY / SCRIPTURE
-     ----------------------------------------- */
 
-  .journey {
-    padding-top: 38px !important;
-    padding-bottom: 38px !important;
+  .storySceneContent h4 {
+    font-size: 21px;
   }
 
-  .journey h3 {
-    font-size: 25px !important;
-    line-height: 1.3 !important;
+  .storySceneNoImage,
+  .storySceneNoImage .storySceneBody {
+    min-height: 220px;
   }
 
-  /* -----------------------------------------
-     CONNECT THE WORLD
-     ----------------------------------------- */
+  /* =======================================================
+     CONNECT WORLD
+     ======================================================= */
 
   .connectWorld {
-    margin-top: 48px !important;
-  }
-
-  .connectWorldHeader {
-    margin-bottom: 24px !important;
-  }
-
-  .connectWorldHeader h3 {
-    font-size: 25px !important;
-    line-height: 1.3 !important;
-  }
-
-  .connectWorldHeader p {
-    font-size: 12px !important;
-    line-height: 1.65 !important;
+    margin-top: 58px;
   }
 
   .connectWorldGrid {
-    grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr;
   }
 
   .connectGroup {
-    padding: 20px 18px 22px !important;
+    padding: 26px 22px 28px;
   }
 
-  .connectGroupTitle {
-    margin-bottom: 14px !important;
-  }
+  /* =======================================================
+     CHARACTER JOURNEY
+     ======================================================= */
 
-  .connectLink {
-    padding: 11px 0 !important;
-  }
-
-  .connectLink span {
-    font-size: 15px !important;
-  }
-}
-
-/* =========================================================
-   SCRAPTURA MOBILE DETAIL HERO — v2
-   ========================================================= */
-
-@media (max-width: 700px) {
-  /* Hero 전체 */
-  .detailHero {
-    position: relative !important;
-
-    height: 520px !important;
-    min-height: 520px !important;
-
-    background-size: cover !important;
-    background-position: center 28% !important;
-  }
-
-  /* 이미지 위 그라데이션
-     얼굴은 살리고 텍스트 부분만 어둡게 */
-  .detailHero .heroShade {
-    background: linear-gradient(
-      to bottom,
-      rgba(3, 9, 7, 0.03) 0%,
-      rgba(3, 9, 7, 0.05) 38%,
-      rgba(3, 9, 7, 0.5) 66%,
-      rgba(3, 9, 7, 0.93) 90%,
-      #050c0b 100%
-    ) !important;
-  }
-
-  /* Hero Text */
-  .heroCopy {
-    position: absolute !important;
-
-    left: 18px !important;
-    right: 18px !important;
-
-    bottom: 30px !important;
-
-    max-width: none !important;
-
-    z-index: 3 !important;
-  }
-
-  /* PEOPLE · CHARACTER JOURNEY */
-  .heroCopy > small {
-    display: block !important;
-
-    margin-bottom: 9px !important;
-
-    font-size: 9px !important;
-    font-weight: 600 !important;
-    line-height: 1.3 !important;
-
-    letter-spacing: 0.15em !important;
-
-    color: #d8b36d !important;
-  }
-
-  /* 다윗 */
-  .heroCopy h1 {
-    margin: 0 0 6px !important;
-
-    font-family: Georgia, "Times New Roman", serif !important;
-
-    font-size: 44px !important;
-    font-weight: 400 !important;
-    line-height: 1 !important;
-
-    letter-spacing: -0.01em !important;
-
-    color: #f0d49b !important;
-  }
-
-  /* David */
-  .heroCopy h2 {
-    margin: 0 0 14px !important;
-
-    font-family: Georgia, "Times New Roman", serif !important;
-
-    font-size: 18px !important;
-    font-weight: 400 !important;
-    line-height: 1.3 !important;
-
-    color: #e3d5ba !important;
-  }
-
-  /* 목동에서 왕이 되기까지... */
-  .heroCopy p {
-    max-width: 360px !important;
-
-    margin: 0 !important;
-
-    font-size: 12px !important;
-    line-height: 1.65 !important;
-
-    color: rgba(235, 225, 208, 0.78) !important;
-
-    word-break: keep-all !important;
-  }
-}
-
-/* 작은 스마트폰 */
-@media (max-width: 390px) {
-  .detailHero {
-    height: 490px !important;
-    min-height: 490px !important;
-  }
-
-  .heroCopy {
-    left: 16px !important;
-    right: 16px !important;
-    bottom: 26px !important;
-  }
-
-  .heroCopy h1 {
-    font-size: 40px !important;
-  }
-
-  .heroCopy h2 {
-    font-size: 17px !important;
-  }
-}
-
-/* =========================================================
-   SCRAPTURA MOBILE DETAIL — OVERVIEW v1
-   ========================================================= */
-
-@media (max-width: 700px) {
-  /* Hero 아래 첫 콘텐츠 시작점 */
-  .contentWrap {
-    padding-top: 30px !important;
-  }
-
-  /* Overview 전체 */
-  .overview {
-    margin: 0 !important;
-
-    padding-top: 0 !important;
-    padding-bottom: 32px !important;
-
-    border-bottom: 1px solid rgba(216, 179, 109, 0.18) !important;
-  }
-
-  /* OVERVIEW */
-  .overview > small {
-    display: block !important;
-
-    margin: 0 0 12px !important;
-
-    font-size: 9px !important;
-    font-weight: 600 !important;
-    line-height: 1 !important;
-
-    letter-spacing: 0.17em !important;
-
-    color: #d8b36d !important;
-  }
-
-  /* 다윗 탐험 */
-  .overview h3 {
-    margin: 0 0 16px !important;
-
-    font-family: Georgia, "Times New Roman", serif !important;
-
-    font-size: 27px !important;
-    font-weight: 400 !important;
-    line-height: 1.2 !important;
-
-    color: #f0d49b !important;
-  }
-
-  /* Overview 본문 */
-  .overview p {
-    margin: 0 !important;
-
-    max-width: none !important;
-
-    font-size: 14px !important;
-    line-height: 1.7 !important;
-
-    color: rgba(232, 220, 198, 0.8) !important;
-
-    word-break: keep-all !important;
-  }
-}
-
-/* =========================================================
-   SCRAPTURA MOBILE — CHARACTER JOURNEY v2
-   ========================================================= */
-
-@media (max-width: 700px) {
-  /* Journey 전체 시작 */
   .characterJourney {
-    padding-top: 32px !important;
-    padding-bottom: 34px !important;
+    padding: 32px 0 34px;
   }
 
-  /* CHARACTER JOURNEY 헤더 */
   .characterJourneyHeader {
-    margin-bottom: 24px !important;
-  }
-
-  .characterJourneyHeader > small {
-    margin-bottom: 8px !important;
-
-    font-size: 9px !important;
-    letter-spacing: 0.15em !important;
+    margin-bottom: 24px;
   }
 
   .characterJourneyHeader h3 {
-    margin: 0 0 9px !important;
-
-    font-size: 24px !important;
-    line-height: 1.2 !important;
+    font-size: 24px;
   }
 
-  .characterJourneyHeader p {
-    margin: 0 !important;
-
-    font-size: 12px !important;
-    line-height: 1.65 !important;
-
-    word-break: keep-all !important;
-  }
-
-  /* 세로 연결선 */
   .characterJourneyList::before {
-    left: 19px !important;
+    left: 19px;
   }
 
-  /* 각 Journey 단계 */
   .characterStage {
-    grid-template-columns: 40px minmax(0, 1fr) !important;
+    grid-template-columns:
+      40px
+      minmax(0, 1fr);
 
-    gap: 14px !important;
+    gap: 14px;
 
-    padding-bottom: 20px !important;
+    padding-bottom: 20px;
   }
 
-  .characterStage:last-child {
-    padding-bottom: 0 !important;
-  }
-
-  /* 01 / 02 / 03 원형 */
   .characterStageNumber {
-    width: 40px !important;
-    height: 40px !important;
+    width: 40px;
 
-    font-size: 10px !important;
-    line-height: 40px !important;
+    height: 40px;
+
+    font-size: 10px;
   }
 
-  /* 우측 내용 */
-  .characterStageContent {
-    padding-top: 0 !important;
-    padding-bottom: 18px !important;
-  }
-
-  /* 1 Samuel 16:1–13 */
-  .characterStageContent > small {
-    margin-bottom: 5px !important;
-
-    font-size: 8px !important;
-    line-height: 1.3 !important;
-
-    letter-spacing: 0.1em !important;
-  }
-
-  /* THE SHEPHERD */
   .characterStageContent h4 {
-    margin: 0 0 7px !important;
-
-    font-size: 18px !important;
-    line-height: 1.2 !important;
-
-    letter-spacing: 0.015em !important;
+    font-size: 18px;
   }
 
-  /* 설명 */
   .characterStageContent p {
-    margin: 0 !important;
+    font-size: 12px;
 
-    font-size: 12px !important;
-    line-height: 1.6 !important;
-
-    word-break: keep-all !important;
-  }
-}
-
-/* 작은 스마트폰 */
-@media (max-width: 390px) {
-  .characterStage {
-    grid-template-columns: 38px minmax(0, 1fr) !important;
-
-    gap: 12px !important;
+    line-height: 1.6;
   }
 
-  .characterJourneyList::before {
-    left: 18px !important;
+  /* =======================================================
+     STORIES
+     ======================================================= */
+
+  .archiveFeaturedWrap {
+    padding-top: 42px;
   }
 
-  .characterStageNumber {
-    width: 38px !important;
-    height: 38px !important;
+  .archiveFeatured {
+    grid-template-columns: 1fr;
 
-    line-height: 38px !important;
+    min-height: 0;
   }
 
-  .characterStageContent h4 {
-    font-size: 17px !important;
-  }
-}
+  .archiveFeaturedImage {
+    min-height: 0;
 
-/* =========================================================
-   SCRAPTURA MOBILE DETAIL — FOOTER GAP FIX
-   ========================================================= */
-
-@media (max-width: 700px) {
-  .contentWrap {
-    padding-bottom: 38px !important;
+    aspect-ratio: 16 / 10;
   }
 
-  .connectWorld {
-    margin-bottom: 0 !important;
-  }
-}
-
-/* =========================================================
-   SCRAPTURA MOBILE — PLACE DETAIL TYPOGRAPHY v1
-   ========================================================= */
-
-@media (max-width: 700px) {
-  /* BIBLICAL CONTEXT / KEY EVENT / SCRIPTURE */
-  .placeDetailPage .journey {
-    padding-top: 34px !important;
-    padding-bottom: 34px !important;
+  .archiveFeaturedContent {
+    padding: 30px 24px 34px;
   }
 
-  /* BIBLICAL CONTEXT / KEY EVENT */
-  .placeDetailPage .journey > small {
-    display: block !important;
-
-    margin-bottom: 10px !important;
-
-    font-size: 9px !important;
-    font-weight: 600 !important;
-    line-height: 1 !important;
-
-    letter-spacing: 0.16em !important;
-
-    color: #d8b36d !important;
+  .archiveFeaturedContent h2 {
+    font-size: 32px;
   }
 
-  /* 성경 속 예루살렘 / David Takes Jerusalem / 주요 성경 기록 */
-  .placeDetailPage .journey h3 {
-    margin: 0 0 16px !important;
+  /* =======================================================
+     PEOPLE
+     ======================================================= */
 
-    font-family: Georgia, "Times New Roman", serif !important;
+  .peopleFeatured {
+    grid-template-columns: 1fr;
 
-    font-size: 23px !important;
-    font-weight: 400 !important;
-    line-height: 1.3 !important;
-
-    color: #f0d49b !important;
+    min-height: 0;
   }
 
-  /* 본문 */
-  .placeDetailPage .journey p {
-    margin: 0 0 12px !important;
+  .peopleFeaturedImage {
+    min-height: 0;
 
-    font-size: 14px !important;
-    font-weight: 400 !important;
-    line-height: 1.75 !important;
-
-    color: rgba(232, 220, 198, 0.82) !important;
-
-    word-break: keep-all !important;
+    aspect-ratio: 4 / 5;
   }
 
-  .placeDetailPage .journey p:last-child {
-    margin-bottom: 0 !important;
+  .peopleFeaturedContent {
+    padding: 30px 24px 34px;
   }
 
-  /* 2 Samuel 5:6–12 */
-  .placeDetailPage .journey strong {
-    font-size: 14px !important;
-    font-weight: 600 !important;
-
-    color: #eee0c1 !important;
-  }
-}
-
-/* =========================================================
-   SCRAPTURA MOBILE — PLACE DETAIL SECTION RHYTHM v2
-   ========================================================= */
-
-@media (max-width: 700px) {
-  /* OVERVIEW */
-  .placeDetailPage .overview {
-    padding-bottom: 34px !important;
+  .peopleFeaturedContent h2 {
+    font-size: 36px;
   }
 
-  /* BIBLICAL CONTEXT / KEY EVENT / SCRIPTURE */
-  .placeDetailPage .journey {
-    padding-top: 34px !important;
-    padding-bottom: 34px !important;
+  /* =======================================================
+     PLACES
+     ======================================================= */
 
-    margin: 0 !important;
-
-    border-bottom: 1px solid rgba(216, 179, 109, 0.18) !important;
+  .placesFeaturedImage {
+    min-height: 440px;
   }
 
-  /* 마지막 Scripture 이후 */
-  .placeDetailPage .journey + .connectWorld {
-    margin-top: 38px !important;
+  .placesFeaturedShade {
+    background: linear-gradient(
+      0deg,
+      rgba(3, 9, 7, 0.94) 0%,
+      rgba(3, 9, 7, 0.6) 55%,
+      rgba(3, 9, 7, 0.12) 100%
+    );
   }
 
-  /* Connect the World 제목 영역 */
-  .placeDetailPage .connectWorldHeader {
-    margin-bottom: 24px !important;
+  .placesFeaturedContent {
+    left: 24px;
+
+    right: 24px;
+
+    bottom: 28px;
+
+    width: auto;
   }
-}
 
-/* =========================================================
-   SCRAPTURA MOBILE — TIMELINE INTRO v1
-   ========================================================= */
+  .placesFeaturedContent h2 {
+    font-size: 38px;
+  }
 
-@media (max-width: 700px) {
-  /* TIMELINE 본문 시작 */
+  /* =======================================================
+     TIMELINE
+     ======================================================= */
+
   .timelineArchive {
-    padding-top: 32px !important;
+    padding-top: 32px;
+
+    padding-bottom: 50px;
   }
 
-  /* BIBLICAL TIMELINE 소개 */
   .timelineSectionHead {
-    margin-bottom: 26px !important;
+    margin-bottom: 26px;
   }
 
-  .timelineSectionHead > small {
-    margin-bottom: 9px !important;
+  .timelineTrack {
+    padding-left: 34px;
 
-    font-size: 9px !important;
-    letter-spacing: 0.15em !important;
+    gap: 18px;
   }
 
-  /* 시대의 흐름을 따라... */
-  .timelineSectionHead h2 {
-    margin: 0 0 12px !important;
-
-    font-size: 25px !important;
-    line-height: 1.3 !important;
-
-    word-break: keep-all !important;
+  .timelineTrack::before {
+    left: 11px;
   }
 
-  /* 설명 */
-  .timelineSectionHead p {
-    margin: 0 !important;
+  .timelineMarker {
+    left: -34px;
 
-    font-size: 12px !important;
-    line-height: 1.7 !important;
+    top: 24px;
 
-    word-break: keep-all !important;
+    width: 25px;
+
+    height: 25px;
   }
-}
 
-/* =========================================================
-   SCRAPTURA MOBILE — TIMELINE CARD COMPACT v2
-   ========================================================= */
+  .timelineEntry {
+    grid-template-columns: 1fr;
+  }
 
-@media (max-width: 700px) {
+  .timelineEntryImage {
+    min-height: 220px;
+  }
+
   .timelineEntryContent {
-    padding: 24px 22px 25px !important;
+    padding: 24px 22px 25px;
   }
 
-  /* TIMELINE · EARLY MONARCHY */
-  .timelineEntryContent > small {
-    margin-bottom: 8px !important;
-
-    font-size: 9px !important;
-    line-height: 1.3 !important;
-
-    letter-spacing: 0.13em !important;
-  }
-
-  /* 사울과 다윗의 시대 */
   .timelineEntryContent h2 {
-    margin: 0 0 5px !important;
-
-    font-size: 26px !important;
-    line-height: 1.18 !important;
-
-    word-break: keep-all !important;
+    font-size: 26px;
   }
 
-  /* Saul & The Rise of David */
-  .timelineEntryContent > b {
-    font-size: 14px !important;
-    line-height: 1.4 !important;
-  }
+  /* =======================================================
+     BIBLE
+     ======================================================= */
 
-  /* 설명 */
-  .timelineEntryContent p {
-    margin: 15px 0 19px !important;
-
-    font-size: 12px !important;
-    line-height: 1.65 !important;
-
-    word-break: keep-all !important;
-  }
-
-  /* EXPLORE PERIOD → */
-  .timelineEntryContent > span {
-    font-size: 9px !important;
-    letter-spacing: 0.11em !important;
-  }
-}
-
-/* =========================================================
-   SCRAPTURA MOBILE — BIBLE FEATURED BOOK v1
-   ========================================================= */
-
-@media (max-width: 700px) {
-  /* Featured Book 이미지 */
-  .bibleFeaturedImage {
-    min-height: 260px !important;
-    height: 260px !important;
-
-    background-position: center 30% !important;
-  }
-
-  /* Featured Book 본문 */
-  .bibleFeaturedContent {
-    padding: 26px 22px 28px !important;
-  }
-
-  /* BIBLE · OLD TESTAMENT */
-  .bibleFeaturedContent > small {
-    margin-bottom: 9px !important;
-
-    font-size: 9px !important;
-    letter-spacing: 0.14em !important;
-  }
-
-  /* 사무엘상 */
-  .bibleFeaturedContent h2 {
-    margin: 0 0 5px !important;
-
-    font-size: 34px !important;
-    line-height: 1.05 !important;
-  }
-
-  /* 1 Samuel */
-  .bibleFeaturedContent > b {
-    font-size: 15px !important;
-    line-height: 1.35 !important;
-  }
-
-  /* 설명 */
-  .bibleFeaturedContent > p {
-    margin: 16px 0 20px !important;
-
-    font-size: 12px !important;
-    line-height: 1.7 !important;
-
-    word-break: keep-all !important;
-  }
-
-  /* BOOK → PEOPLE → PLACES → STORIES */
-  .biblePath {
-    gap: 6px !important;
-
-    margin-bottom: 20px !important;
-    padding: 12px 0 !important;
-  }
-
-  .biblePath span {
-    font-size: 8px !important;
-    letter-spacing: 0.1em !important;
-  }
-
-  .biblePath i {
-    font-size: 9px !important;
-  }
-
-  /* EXPLORE BOOK → */
-  .bibleFeaturedContent > strong {
-    font-size: 9px !important;
-    letter-spacing: 0.11em !important;
-  }
-}
-
-/* =========================================================
-   SCRAPTURA MOBILE — BIBLE FOOTER GAP FIX
-   ========================================================= */
-
-@media (max-width: 700px) {
   .bibleArchive {
-    padding-bottom: 36px !important;
+    padding-top: 42px;
+
+    padding-bottom: 36px;
   }
-}
 
-/* =========================================================
-   SCRAPTURA MOBILE — VISUAL EMPTY STATE FINAL
-   ========================================================= */
+  .bibleFeatured {
+    grid-template-columns: 1fr;
+  }
 
-@media (max-width: 700px) {
-  /* 전체 Visual Archive 하단 여백 */
+  .bibleFeaturedImage {
+    height: 260px;
+
+    min-height: 260px;
+
+    background-position: center 30%;
+  }
+
+  .bibleFeaturedContent {
+    padding: 26px 22px 28px;
+  }
+
+  .bibleFeaturedContent h2 {
+    font-size: 34px;
+  }
+
+  .bibleBookGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .bibleBookCard {
+    grid-template-columns: 1fr;
+  }
+
+  /* =======================================================
+     VISUAL
+     ======================================================= */
+
   .visualArchive {
-    padding-bottom: 36px !important;
+    padding-top: 42px;
+
+    padding-bottom: 36px;
   }
 
-  /* 준비중 박스 내부 */
+  .visualMasonry {
+    grid-template-columns: 1fr;
+
+    grid-auto-rows: 380px;
+  }
+
+  .visualArchiveCard1 {
+    grid-row: span 1;
+  }
+
   .visualEmptyState {
-    padding: 28px 24px 28px !important;
+    padding: 28px 24px;
   }
 
-  /* 01 / 02 / 03 목록 */
   .visualEmptyGrid {
-    margin-top: 28px !important;
+    grid-template-columns: 1fr;
+
+    margin-top: 28px;
   }
 
   .visualEmptyGrid > div {
-    min-height: 112px !important;
+    min-height: 112px;
 
-    padding: 20px 24px !important;
-
-    box-sizing: border-box !important;
+    padding: 20px 24px;
   }
 
-  /* 01 / 02 / 03 */
-  .visualEmptyGrid span {
-    margin-bottom: 12px !important;
+  /* =======================================================
+     SEARCH
+     ======================================================= */
 
-    font-size: 26px !important;
-    line-height: 1 !important;
-  }
-
-  /* STORY SCENES / PEOPLE / PLACES */
-  .visualEmptyGrid b {
-    font-size: 10px !important;
-    line-height: 1.3 !important;
-  }
-
-  /* 설명 */
-  .visualEmptyGrid p {
-    margin-top: 6px !important;
-
-    font-size: 11px !important;
-    line-height: 1.4 !important;
-  }
-}
-
-/* =========================================================
-   SCRAPTURA MOBILE — SEARCH INPUT & FILTER v1
-   ========================================================= */
-
-@media (max-width: 700px) {
-  /* SEARCH 본문 시작 */
   .searchArchive {
-    width: calc(100vw - 32px) !important;
+    padding-top: 32px;
 
-    padding-top: 32px !important;
-    padding-bottom: 40px !important;
-
-    margin-left: auto !important;
-    margin-right: auto !important;
+    padding-bottom: 40px;
   }
 
-  /* EXPLORE THE ARCHIVE */
-  .searchIntro {
-    margin-bottom: 22px !important;
-  }
-
-  .searchIntro small {
-    margin-bottom: 9px !important;
-
-    font-size: 9px !important;
-    letter-spacing: 0.15em !important;
-  }
-
-  /* 무엇을 찾고 있나요? */
   .searchIntro h2 {
-    margin: 0 0 10px !important;
-
-    font-size: 25px !important;
-    line-height: 1.25 !important;
+    font-size: 25px;
   }
 
-  .searchIntro p {
-    margin: 0 !important;
-
-    font-size: 12px !important;
-    line-height: 1.7 !important;
-
-    word-break: keep-all !important;
-  }
-
-  /* 검색창 */
   .searchBox {
-    min-height: 58px !important;
+    min-height: 58px;
 
-    grid-template-columns: 22px minmax(0, 1fr) auto !important;
+    grid-template-columns:
+      22px
+      minmax(0, 1fr)
+      auto;
 
-    gap: 10px !important;
+    gap: 10px;
 
-    padding: 0 14px !important;
-
-    box-sizing: border-box !important;
-  }
-
-  .searchBox > span {
-    font-size: 20px !important;
+    padding: 0 14px;
   }
 
   .searchBox input {
-    min-width: 0 !important;
+    min-width: 0;
 
-    font-size: 16px !important;
-    line-height: 1.2 !important;
+    font-size: 16px;
   }
-
-  .searchBox button {
-    min-height: 40px !important;
-
-    padding: 0 4px !important;
-  }
-
-  /* -----------------------------------------
-     FILTER — 모바일 한 줄 가로 스크롤
-     ----------------------------------------- */
 
   .searchFilters {
-    display: flex !important;
-    flex-wrap: nowrap !important;
+    width: 100%;
 
-    gap: 6px !important;
+    display: flex;
 
-    width: 100% !important;
+    flex-wrap: nowrap;
 
-    padding: 14px 0 24px !important;
+    gap: 6px;
 
-    overflow-x: auto !important;
-    overflow-y: hidden !important;
+    padding: 14px 0 24px;
 
-    -webkit-overflow-scrolling: touch;
+    overflow-x: auto;
+
+    overflow-y: hidden;
 
     scrollbar-width: none;
   }
@@ -6299,375 +4273,383 @@ footer span {
   }
 
   .searchFilters button {
-    flex: 0 0 auto !important;
+    flex: 0 0 auto;
 
-    min-height: 36px !important;
+    min-height: 36px;
 
-    padding: 0 12px !important;
+    padding: 0 12px;
 
-    white-space: nowrap !important;
-
-    font-size: 9px !important;
-
-    border: 1px solid rgba(216, 179, 109, 0.22) !important;
+    white-space: nowrap;
   }
 
-  .searchFilters button.active {
-    border-color: rgba(216, 179, 109, 0.7) !important;
+  .searchResult {
+    grid-template-columns:
+      104px
+      minmax(0, 1fr)
+      18px;
 
-    background: rgba(216, 179, 109, 0.09) !important;
-
-    color: #f0d49b !important;
+    min-height: 146px;
   }
-}
-/* =========================================================
-   SCRAPTURA MOBILE SEARCH — SHOW ALL
-   ========================================================= */
 
-.searchShowAll {
-  display: block;
+  .searchResultImage {
+    min-height: 108px;
 
-  width: 100%;
-
-  margin-top: 22px;
-  padding: 16px 18px;
-
-  border: 1px solid rgba(216, 179, 109, 0.32);
-
-  background: rgba(216, 179, 109, 0.04);
-
-  color: #d8b36d;
-
-  font-size: 9px;
-  font-weight: 700;
-
-  letter-spacing: 0.12em;
-
-  cursor: pointer;
-}
-
-@media (max-width: 700px) {
-  .searchShowAll {
-    min-height: 48px;
-
-    margin-top: 18px;
-
-    font-size: 9px;
+    margin: 18px 12px 18px 0;
   }
-}
 
-/* =========================================================
-   SCRAPTURA MOBILE — JOURNEYS INTRO v1
-   ========================================================= */
+  .searchResultCopy {
+    min-width: 0;
 
-@media (max-width: 700px) {
+    padding: 18px 6px 18px 0;
+  }
+
+  .searchResultCopy h2 {
+    font-size: 19px;
+  }
+
+  .searchResultCopy p {
+    display: none;
+  }
+
+  /* =======================================================
+     JOURNEYS
+     ======================================================= */
+
   .journeysIntro {
-    width: calc(100vw - 32px) !important;
+    padding-top: 32px;
 
-    padding-top: 32px !important;
-    padding-bottom: 26px !important;
-
-    margin-left: auto !important;
-    margin-right: auto !important;
+    padding-bottom: 26px;
   }
 
-  /* BEGIN A JOURNEY */
-  .journeysIntro > small {
-    margin-bottom: 9px !important;
-
-    font-size: 9px !important;
-    line-height: 1 !important;
-
-    letter-spacing: 0.15em !important;
-  }
-
-  /* 읽는 순서가 아니라... */
   .journeysIntro h2 {
-    margin: 0 0 12px !important;
-
-    font-size: 25px !important;
-    line-height: 1.35 !important;
-
-    word-break: keep-all !important;
+    font-size: 25px;
   }
 
-  /* 설명 */
-  .journeysIntro p {
-    margin: 0 !important;
-
-    font-size: 12px !important;
-    line-height: 1.7 !important;
-
-    word-break: keep-all !important;
+  .journeyFeature {
+    padding-bottom: 38px;
   }
-}
 
-/* =========================================================
-   SCRAPTURA MOBILE — JOURNEY FEATURE HERO v2
-   ========================================================= */
-
-@media (max-width: 700px) {
-  /* 대표 Journey Hero */
   .journeyFeatureHero {
-    min-height: 500px !important;
+    min-height: 500px;
   }
 
-  /* 하단 텍스트 영역 */
   .journeyFeatureCopy {
-    left: 20px !important;
-    right: 20px !important;
-    bottom: 24px !important;
+    left: 20px;
 
-    width: auto !important;
-  }
+    right: 20px;
 
-  /* FEATURED JOURNEY */
-  .journeyFeatureCopy > small {
-    margin-bottom: 8px !important;
+    bottom: 24px;
 
-    font-size: 8px !important;
-    line-height: 1 !important;
-
-    letter-spacing: 0.14em !important;
-  }
-
-  /* 01 */
-  .journeyFeatureCopy > span {
-    margin-bottom: 10px !important;
-
-    font-size: 34px !important;
-    line-height: 1 !important;
-  }
-
-  /* 다윗의 부르심에서 왕국까지 */
-  .journeyFeatureCopy h2 {
-    max-width: 330px !important;
-
-    margin: 0 0 6px !important;
-
-    font-size: 31px !important;
-    line-height: 1.18 !important;
-
-    letter-spacing: -0.01em !important;
-
-    word-break: keep-all !important;
-  }
-
-  /* THE RISE OF DAVID */
-  .journeyFeatureCopy > b {
-    font-size: 14px !important;
-    line-height: 1.3 !important;
-  }
-
-  /* 설명 */
-  .journeyFeatureCopy p {
-    max-width: 340px !important;
-
-    margin: 15px 0 20px !important;
-
-    font-size: 12px !important;
-    line-height: 1.65 !important;
-
-    word-break: keep-all !important;
-  }
-
-  /* START JOURNEY */
-  .journeyFeatureCopy > a {
-    font-size: 9px !important;
-    letter-spacing: 0.1em !important;
-  }
-}
-
-/* 작은 모바일 */
-@media (max-width: 390px) {
-  .journeyFeatureHero {
-    min-height: 480px !important;
+    width: auto;
   }
 
   .journeyFeatureCopy h2 {
-    font-size: 29px !important;
+    font-size: 31px;
   }
-}
-
-/* =========================================================
-   SCRAPTURA MOBILE — JOURNEY ROUTE & STEPS v2
-   ========================================================= */
-
-@media (max-width: 700px) {
-  /* -----------------------------------------
-     EXPLORATION ROUTE
-     ----------------------------------------- */
 
   .journeyRoute {
-    padding-top: 38px !important;
+    padding-top: 38px;
   }
-
-  .journeyRouteHead {
-    margin-bottom: 20px !important;
-  }
-
-  /* EXPLORATION ROUTE */
-  .journeyRouteHead > small {
-    margin-bottom: 8px !important;
-
-    font-size: 8px !important;
-    line-height: 1 !important;
-
-    letter-spacing: 0.15em !important;
-  }
-
-  /* 탐험 경로 */
-  .journeyRouteHead h3 {
-    margin: 0 0 7px !important;
-
-    font-size: 25px !important;
-    line-height: 1.2 !important;
-  }
-
-  /* 설명 */
-  .journeyRouteHead p {
-    margin: 0 !important;
-
-    font-size: 11px !important;
-    line-height: 1.55 !important;
-  }
-
-  /* -----------------------------------------
-     JOURNEY STEPS
-     ----------------------------------------- */
 
   .journeySteps {
-    grid-template-columns: 1fr !important;
-
-    gap: 1px !important;
+    grid-template-columns: 1fr;
   }
 
   .journeyStep {
-    min-height: 84px !important;
+    min-height: 84px;
 
-    grid-template-columns: 34px minmax(0, 1fr) 18px !important;
+    grid-template-columns:
+      34px
+      minmax(0, 1fr)
+      18px;
 
-    gap: 12px !important;
+    gap: 12px;
 
-    padding: 14px 16px !important;
-
-    box-sizing: border-box !important;
-  }
-
-  /* 01 / 02 / 03 */
-  .journeyStep > span {
-    font-size: 18px !important;
-    line-height: 1 !important;
-  }
-
-  /* PERSON / STORY / PLACE / PERIOD */
-  .journeyStep small {
-    font-size: 7px !important;
-
-    line-height: 1.2 !important;
-
-    letter-spacing: 0.12em !important;
-  }
-
-  /* 다윗 / 다윗의 기름부음 / 엘라 골짜기 ... */
-  .journeyStep h4 {
-    margin: 4px 0 0 !important;
-
-    font-size: 17px !important;
-    line-height: 1.2 !important;
-
-    word-break: keep-all !important;
-  }
-
-  /* → */
-  .journeyStep > b {
-    font-size: 14px !important;
-
-    text-align: right !important;
-  }
-}
-
-/* 더 작은 스마트폰 */
-@media (max-width: 390px) {
-  .journeyStep {
-    min-height: 80px !important;
-
-    grid-template-columns: 32px minmax(0, 1fr) 16px !important;
-
-    gap: 10px !important;
-
-    padding: 13px 14px !important;
+    padding: 14px 16px;
   }
 
   .journeyStep h4 {
-    font-size: 16px !important;
+    font-size: 17px;
+  }
+
+  .journeyReturn {
+    margin-top: 20px;
+
+    padding: 22px 18px 24px;
+  }
+
+  /* =======================================================
+     FOOTER
+     ======================================================= */
+
+  footer {
+    position: relative;
+
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 12px;
+
+    margin: 0;
+
+    padding: 24px 16px;
+
+    font-size: 13px;
+  }
+
+  footer span {
+    text-align: left;
+  }
+
+  /* =======================================================
+     FIXED MOBILE NAV
+     ======================================================= */
+
+  .mobileNav {
+    position: fixed;
+
+    z-index: 1000;
+
+    left: 0;
+
+    right: 0;
+
+    bottom: 0;
+
+    width: 100%;
+
+    height: calc(72px + env(safe-area-inset-bottom));
+
+    min-height: calc(72px + env(safe-area-inset-bottom));
+
+    display: grid;
+
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+
+    padding: 4px 8px env(safe-area-inset-bottom);
+
+    border-top: 1px solid rgba(216, 179, 109, 0.18);
+
+    background: rgba(3, 10, 8, 0.97);
+
+    backdrop-filter: blur(14px);
+
+    -webkit-backdrop-filter: blur(14px);
+  }
+
+  .mobileNav > a {
+    position: relative;
+
+    min-width: 0;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 5px;
+
+    color: rgba(232, 220, 198, 0.58);
+  }
+
+  .mobileNav > a.active,
+  .mobileNav > a[aria-current="page"] {
+    color: #f0d49b;
+  }
+
+  .mobileNav > a.active::before,
+  .mobileNav > a[aria-current="page"]::before {
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+
+    left: 50%;
+
+    width: 34px;
+
+    height: 2px;
+
+    background: #d8b36d;
+
+    transform: translateX(-50%);
+  }
+
+  .mobileNavIcon {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 21px;
+
+    height: 21px;
+
+    font-size: 19px;
+
+    line-height: 1;
+  }
+
+  .mobileNavLabel {
+    display: block;
+
+    margin-top: 3px;
+
+    font-size: 9px;
+
+    font-weight: 600;
+
+    line-height: 1;
+
+    letter-spacing: 0.08em;
   }
 }
 
 /* =========================================================
-   SCRAPTURA MOBILE — JOURNEY RETURN & FOOTER v1
+   23. SMALL MOBILE
    ========================================================= */
 
-@media (max-width: 700px) {
-  /* Journey 전체 마지막 여백 */
-  .journeyFeature {
-    padding-bottom: 38px !important;
+@media (max-width: 390px) {
+  .brand b {
+    font-size: 18px;
   }
 
-  /* -----------------------------------------
-     RETURN TO SCRIPTURE
-     ----------------------------------------- */
+  .brand small {
+    max-width: 190px;
 
-  .journeyReturn {
-    margin-top: 20px !important;
-
-    padding: 22px 18px 24px !important;
-
-    border-left: 2px solid rgba(216, 179, 109, 0.58) !important;
-
-    box-sizing: border-box !important;
+    font-size: 6px;
   }
 
-  /* RETURN TO SCRIPTURE */
-  .journeyReturn > small {
-    margin-bottom: 9px !important;
+  .homeHero {
+    height: 620px;
 
-    font-size: 8px !important;
-    line-height: 1 !important;
-
-    letter-spacing: 0.14em !important;
+    min-height: 620px;
   }
 
-  /* 안내 문장 */
-  .journeyReturn p {
-    margin: 0 0 14px !important;
-
-    max-width: none !important;
-
-    font-size: 11px !important;
-    line-height: 1.7 !important;
-
-    word-break: keep-all !important;
+  .homeCopy {
+    width: calc(100% - 32px);
   }
 
-  /* READ 1 SAMUEL → */
-  .journeyReturn a {
-    display: inline-block !important;
+  .homeCopy h1 {
+    width: calc(100vw - 32px);
 
-    font-size: 9px !important;
-    line-height: 1.3 !important;
+    font-size: 46px;
 
-    letter-spacing: 0.1em !important;
+    letter-spacing: 0.02em;
+  }
+
+  .homeCopy h1::after {
+    width: calc(100vw - 32px);
+
+    font-size: 12px;
+
+    letter-spacing: 0.045em;
+  }
+
+  .portal {
+    width: calc(100% - 16px);
+  }
+
+  .portalGrid {
+    gap: 8px;
+  }
+
+  .portalGrid > a {
+    height: 138px;
+
+    min-height: 138px;
+
+    max-height: 138px;
+  }
+
+  .portalGrid h3 {
+    font-size: 18px;
+  }
+
+  .portalGrid p {
+    font-size: 9px;
+  }
+
+  .journeyFeatureHero {
+    min-height: 480px;
+  }
+
+  .journeyFeatureCopy h2 {
+    font-size: 29px;
+  }
+
+  .journeyStep {
+    min-height: 80px;
+
+    grid-template-columns:
+      32px
+      minmax(0, 1fr)
+      16px;
+
+    gap: 10px;
+
+    padding: 13px 14px;
+  }
+
+  .journeyStep h4 {
+    font-size: 16px;
   }
 }
 
-/* 작은 스마트폰 */
-@media (max-width: 390px) {
-  .journeyFeature {
-    padding-bottom: 32px !important;
+/* =========================================================
+   24. HOVER
+   ========================================================= */
+
+@media (hover: hover) and (pointer: fine) {
+  .portalGrid > a:hover::before {
+    transform: scale(1.035);
+
+    filter: brightness(1.08);
   }
 
-  .journeyReturn {
-    padding: 20px 16px 22px !important;
+  .archiveCard:hover,
+  .bibleBookCard:hover {
+    transform: translateY(-4px);
+  }
+
+  .mobileNav > a:hover {
+    color: var(--gold2);
+  }
+
+  .connectLink:hover {
+    padding-left: 8px;
+
+    color: #f0d49b;
+  }
+}
+
+/* =========================================================
+   25. REDUCED MOTION
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  .homeHero,
+  .portalGrid > a,
+  .homeCopy > small,
+  .homeCopy h1,
+  .homeCopy h2,
+  .homeCopy p,
+  .homeCopy > a,
+  .homeHero::after {
+    animation: none !important;
+
+    opacity: 1 !important;
+
+    transform: none;
   }
 }
