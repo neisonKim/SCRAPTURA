@@ -1,6 +1,7 @@
 "use client";
 
 import {
+  Suspense,
   useEffect,
   useState,
 } from "react";
@@ -44,12 +45,21 @@ import styles
   from "./page.module.css";
 
 
-export default function NewContentPage() {
+/* =====================================================
+   CONTENT PAGE
+   ===================================================== */
+
+function NewContentPageContent() {
   const router =
     useRouter();
 
   const searchParams =
     useSearchParams();
+
+
+  /* =====================================================
+     CONTENT TYPES
+     ===================================================== */
 
   const validTypes = [
     "story",
@@ -60,18 +70,23 @@ export default function NewContentPage() {
     "visual",
   ] as const;
 
+
   const typeLabels:
-  Record<string, string> = {
-    story: "STORIES",
-    person: "PEOPLE",
-    place: "PLACES",
-    period: "TIMELINE",
-    book: "BIBLE",
-    visual: "VISUAL",
-  };
+    Record<string, string> = {
+      story: "STORIES",
+      person: "PEOPLE",
+      place: "PLACES",
+      period: "TIMELINE",
+      book: "BIBLE",
+      visual: "VISUAL",
+    };
+
 
   const requestedType =
-    searchParams.get("type");
+    searchParams.get(
+      "type"
+    );
+
 
   const initialType =
     requestedType &&
@@ -82,12 +97,14 @@ export default function NewContentPage() {
       ? requestedType
       : "story";
 
-    const typeLocked =
-      requestedType !== null &&
-      validTypes.includes(
-        requestedType as
-          (typeof validTypes)[number]
-      );
+
+  const typeLocked =
+    requestedType !== null &&
+    validTypes.includes(
+      requestedType as
+        (typeof validTypes)[number]
+    );
+
 
   /* =====================================================
      PAGE STATE
@@ -116,11 +133,13 @@ export default function NewContentPage() {
      COMMON CONTENT FIELDS
      ===================================================== */
 
-const [
-  type,
-  setType,
-] =
-  useState(initialType);
+  const [
+    type,
+    setType,
+  ] =
+    useState(
+      initialType
+    );
 
   const [
     titleKo,
@@ -162,7 +181,9 @@ const [
     status,
     setStatus,
   ] =
-    useState("draft");
+    useState(
+      "draft"
+    );
 
   const [
     order,
@@ -251,6 +272,7 @@ const [
                 user.email
               );
 
+
             const operatorSnapshot =
               await getDoc(
                 operatorRef
@@ -278,7 +300,8 @@ const [
 
             if (
               operator.active !== true ||
-              operator.role !== "admin"
+              operator.role !==
+                "admin"
             ) {
               await signOut(
                 auth
@@ -302,9 +325,11 @@ const [
               error
             );
 
+
             await signOut(
               auth
             );
+
 
             router.replace(
               "/admin/login"
@@ -334,17 +359,20 @@ const [
           HTMLFormElement
         >
     ) => {
-
       event.preventDefault();
 
-      setErrorMessage("");
+      setErrorMessage(
+        ""
+      );
 
 
       /* =========================
          VALIDATION
          ========================= */
 
-      if (!titleKo.trim()) {
+      if (
+        !titleKo.trim()
+      ) {
         setErrorMessage(
           "한글 제목을 입력하세요."
         );
@@ -353,7 +381,9 @@ const [
       }
 
 
-      if (!titleEn.trim()) {
+      if (
+        !titleEn.trim()
+      ) {
         setErrorMessage(
           "영문 제목을 입력하세요."
         );
@@ -362,7 +392,9 @@ const [
       }
 
 
-      if (!slug.trim()) {
+      if (
+        !slug.trim()
+      ) {
         setErrorMessage(
           "Slug를 입력하세요."
         );
@@ -371,7 +403,9 @@ const [
       }
 
 
-      if (!summary.trim()) {
+      if (
+        !summary.trim()
+      ) {
         setErrorMessage(
           "요약 설명을 입력하세요."
         );
@@ -568,7 +602,7 @@ const [
            SUCCESS
            ========================= */
 
-       router.push(
+        router.push(
           `/admin/contents?type=${type}`
         );
 
@@ -594,7 +628,9 @@ const [
      LOADING
      ===================================================== */
 
-  if (authLoading) {
+  if (
+    authLoading
+  ) {
     return (
       <main
         className={
@@ -637,24 +673,30 @@ const [
           <div>
 
             <Link
-            href={`/admin/contents?type=${type}`}
-            className={
-              styles.back
-            }
-          >
-            ← {typeLabels[type]}
-          </Link>
+              href={
+                `/admin/contents?type=${type}`
+              }
+              className={
+                styles.back
+              }
+            >
+              ← {typeLabels[type]}
+            </Link>
+
 
             <small>
               CONTENT EDITOR
             </small>
 
+
             <h1>
               {typeLabels[type]} 등록
             </h1>
 
+
             <p>
-              SCRAPTURA의 {typeLabels[type]} 콘텐츠를
+              SCRAPTURA의{" "}
+              {typeLabels[type]} 콘텐츠를
               새로 등록합니다.
             </p>
 
@@ -705,6 +747,7 @@ const [
               콘텐츠 유형
             </label>
 
+
             <select
               id="type"
               value={
@@ -719,7 +762,7 @@ const [
                     event.target.value
                   )
               }
-              >
+            >
 
               <option
                 value="story"
@@ -727,11 +770,13 @@ const [
                 STORIES
               </option>
 
+
               <option
                 value="person"
               >
                 PEOPLE
               </option>
+
 
               <option
                 value="place"
@@ -739,17 +784,20 @@ const [
                 PLACES
               </option>
 
+
               <option
                 value="period"
               >
                 TIMELINE
               </option>
 
+
               <option
                 value="book"
               >
                 BIBLE
               </option>
+
 
               <option
                 value="visual"
@@ -758,6 +806,14 @@ const [
               </option>
 
             </select>
+
+
+            {typeLocked && (
+              <small>
+                현재 카테고리에서 진입하여
+                콘텐츠 유형이 고정되어 있습니다.
+              </small>
+            )}
 
           </div>
 
@@ -781,6 +837,7 @@ const [
               >
                 한글 제목
               </label>
+
 
               <input
                 id="titleKo"
@@ -811,6 +868,7 @@ const [
               >
                 영문 제목
               </label>
+
 
               <input
                 id="titleEn"
@@ -846,6 +904,7 @@ const [
               Slug
             </label>
 
+
             <input
               id="slug"
               type="text"
@@ -860,6 +919,7 @@ const [
                   )
               }
             />
+
 
             <small>
               URL에 사용됩니다. Firestore 문서 ID는
@@ -882,6 +942,7 @@ const [
             >
               Eyebrow
             </label>
+
 
             <input
               id="eyebrow"
@@ -914,6 +975,7 @@ const [
             >
               요약
             </label>
+
 
             <textarea
               id="summary"
@@ -948,6 +1010,7 @@ const [
               Hero Image URL
             </label>
 
+
             <input
               id="heroImage"
               type="text"
@@ -962,6 +1025,7 @@ const [
                   )
               }
             />
+
 
             <small>
               직접 이미지 경로를 입력하거나
@@ -1009,6 +1073,7 @@ const [
                 정렬 순서
               </label>
 
+
               <input
                 id="order"
                 type="number"
@@ -1039,6 +1104,7 @@ const [
                 상태
               </label>
 
+
               <select
                 id="status"
                 value={
@@ -1058,17 +1124,20 @@ const [
                   Draft · 임시저장
                 </option>
 
+
                 <option
                   value="review"
                 >
                   Review · 검토대기
                 </option>
 
+
                 <option
                   value="published"
                 >
                   Published · 공개
                 </option>
+
 
                 <option
                   value="hidden"
@@ -1104,9 +1173,11 @@ const [
               VERIFICATION & SOURCES
             </small>
 
+
             <h2>
               검증 및 출처
             </h2>
+
 
             <p>
               성경 본문, 역사적 자료와
@@ -1131,6 +1202,7 @@ const [
               검증 상태
             </label>
 
+
             <select
               id="verificationStatus"
               value={
@@ -1150,11 +1222,13 @@ const [
                 Not Reviewed · 미검토
               </option>
 
+
               <option
                 value="reviewed"
               >
                 Reviewed · 검토완료
               </option>
+
 
               <option
                 value="verified"
@@ -1163,6 +1237,7 @@ const [
               </option>
 
             </select>
+
 
             <small>
               콘텐츠 근거에 대한
@@ -1186,6 +1261,7 @@ const [
               Biblical Source
             </label>
 
+
             <textarea
               id="biblicalSource"
               value={
@@ -1199,6 +1275,7 @@ const [
                   )
               }
             />
+
 
             <small>
               콘텐츠의 직접적인
@@ -1221,6 +1298,7 @@ const [
             >
               Historical Source
             </label>
+
 
             <textarea
               id="historicalSource"
@@ -1253,6 +1331,7 @@ const [
               Interpretation Note
             </label>
 
+
             <textarea
               id="interpretationNote"
               value={
@@ -1284,6 +1363,7 @@ const [
               Visual Reconstruction Note
             </label>
 
+
             <textarea
               id="visualReconstructionNote"
               value={
@@ -1297,6 +1377,7 @@ const [
                   )
               }
             />
+
 
             <small>
               실제 사진·유물이 아니라
@@ -1358,14 +1439,16 @@ const [
             }
           >
 
-          <Link
-            href={`/admin/contents?type=${type}`}
-            className={
-              styles.cancelButton
-            }
-          >
-            취소
-          </Link>
+            <Link
+              href={
+                `/admin/contents?type=${type}`
+              }
+              className={
+                styles.cancelButton
+              }
+            >
+              취소
+            </Link>
 
 
             <button
@@ -1389,5 +1472,29 @@ const [
       </div>
 
     </main>
+  );
+}
+
+
+/* =====================================================
+   PAGE WRAPPER
+   useSearchParams() → Suspense required by Next.js 16
+   ===================================================== */
+
+export default function NewContentPage() {
+  return (
+    <Suspense
+      fallback={
+        <main
+          className={
+            styles.loadingPage
+          }
+        >
+          등록 화면을 준비하고 있습니다.
+        </main>
+      }
+    >
+      <NewContentPageContent />
+    </Suspense>
   );
 }
