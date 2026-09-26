@@ -230,6 +230,29 @@ function NewContentPageContent() {
 
 
   /* =====================================================
+     SEO METADATA
+     ===================================================== */
+
+  const [
+    seoTitle,
+    setSeoTitle,
+  ] =
+    useState("");
+
+  const [
+    seoDescription,
+    setSeoDescription,
+  ] =
+    useState("");
+
+  const [
+    ogImage,
+    setOgImage,
+  ] =
+    useState("");
+
+
+  /* =====================================================
      RELATIONS
      ===================================================== */
 
@@ -585,6 +608,15 @@ function NewContentPageContent() {
 
             visualReconstructionNote:
               visualReconstructionNote.trim(),
+
+            seoTitle:
+              seoTitle.trim(),
+
+            seoDescription:
+              seoDescription.trim(),
+
+            ogImage:
+              ogImage.trim(),
 
             relations:
               safeRelations,
@@ -1384,6 +1416,141 @@ function NewContentPageContent() {
               시각적 재구성인 경우 기록합니다.
             </small>
 
+          </div>
+
+
+          {/* =================================
+              SEO METADATA
+              ================================= */}
+
+          <div
+            className={
+              styles.sectionDivider
+            }
+          />
+
+
+          <div
+            className={
+              styles.sectionHeader
+            }
+          >
+            <small>
+              SEO METADATA
+            </small>
+
+            <h2>
+              검색 및 공유 정보
+            </h2>
+
+            <p>
+              검색 결과와 SNS 공유 시 사용할
+              제목, 설명, 대표 이미지를 관리합니다.
+            </p>
+          </div>
+
+
+          <div
+            className={
+              styles.field
+            }
+          >
+            <label
+              htmlFor="seoTitle"
+            >
+              SEO Title
+            </label>
+
+            <input
+              id="seoTitle"
+              type="text"
+              value={
+                seoTitle
+              }
+              maxLength={
+                70
+              }
+              placeholder="비워두면 한글 제목을 기본값으로 사용할 수 있습니다."
+              onChange={
+                (event) =>
+                  setSeoTitle(
+                    event.target.value
+                  )
+              }
+            />
+
+            <small>
+              최대 70자. 공개 페이지 메타데이터 연결 단계에서
+              비어 있으면 기본 제목을 사용하도록 구성할 수 있습니다.
+            </small>
+          </div>
+
+
+          <div
+            className={
+              styles.field
+            }
+          >
+            <label
+              htmlFor="seoDescription"
+            >
+              SEO Description
+            </label>
+
+            <textarea
+              id="seoDescription"
+              value={
+                seoDescription
+              }
+              maxLength={
+                180
+              }
+              placeholder="검색 결과에 표시할 설명을 입력하세요."
+              onChange={
+                (event) =>
+                  setSeoDescription(
+                    event.target.value
+                  )
+              }
+            />
+
+            <small>
+              최대 180자. 비워두면 추후 Summary를
+              기본 설명으로 사용할 수 있습니다.
+            </small>
+          </div>
+
+
+          <div
+            className={
+              styles.field
+            }
+          >
+            <label
+              htmlFor="ogImage"
+            >
+              OG Image URL
+            </label>
+
+            <input
+              id="ogImage"
+              type="text"
+              value={
+                ogImage
+              }
+              placeholder="/assets/... 또는 Cloudinary URL"
+              onChange={
+                (event) =>
+                  setOgImage(
+                    event.target.value
+                  )
+              }
+            />
+
+            <small>
+              비워두면 추후 Hero Image를
+              공유 대표 이미지로 사용할 수 있습니다.
+            </small>
           </div>
 
 

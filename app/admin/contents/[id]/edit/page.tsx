@@ -430,6 +430,29 @@ export default function EditContentPage() {
 
 
   /* =====================================================
+     SEO METADATA
+     ===================================================== */
+
+  const [
+    seoTitle,
+    setSeoTitle,
+  ] =
+    useState("");
+
+  const [
+    seoDescription,
+    setSeoDescription,
+  ] =
+    useState("");
+
+  const [
+    ogImage,
+    setOgImage,
+  ] =
+    useState("");
+
+
+  /* =====================================================
      DETAIL FIELDS
      ===================================================== */
 
@@ -728,6 +751,32 @@ export default function EditContentPage() {
               typeof data.visualReconstructionNote ===
               "string"
                 ? data.visualReconstructionNote
+                : ""
+            );
+
+
+            /* =========================
+               SEO METADATA
+               ========================= */
+
+            setSeoTitle(
+              typeof data.seoTitle ===
+              "string"
+                ? data.seoTitle
+                : ""
+            );
+
+            setSeoDescription(
+              typeof data.seoDescription ===
+              "string"
+                ? data.seoDescription
+                : ""
+            );
+
+            setOgImage(
+              typeof data.ogImage ===
+              "string"
+                ? data.ogImage
                 : ""
             );
 
@@ -1229,6 +1278,15 @@ export default function EditContentPage() {
 
           visualReconstructionNote:
             visualReconstructionNote.trim(),
+
+          seoTitle:
+            seoTitle.trim(),
+
+          seoDescription:
+            seoDescription.trim(),
+
+          ogImage:
+            ogImage.trim(),
 
           relations:
             safeRelations,
@@ -2884,6 +2942,146 @@ export default function EditContentPage() {
               실제 역사 사진 또는 유물이 아닌
               시각적 재구성 자료라면
               그 기준과 한계를 기록합니다.
+            </small>
+          </div>
+
+
+          {/* =====================================================
+              SEO METADATA
+              ===================================================== */}
+
+          <div
+            className={
+              styles.sectionDivider
+            }
+          />
+
+
+          <div
+            className={
+              styles.sectionHeader
+            }
+          >
+            <small>
+              SEO METADATA
+            </small>
+
+            <h2>
+              검색 및 공유 정보
+            </h2>
+
+            <p>
+              검색 결과와 SNS 공유에 사용할
+              제목, 설명, 대표 이미지를 관리합니다.
+            </p>
+          </div>
+
+
+          {/* SEO TITLE */}
+
+          <div
+            className={
+              styles.field
+            }
+          >
+            <label
+              htmlFor="seoTitle"
+            >
+              SEO Title
+            </label>
+
+            <input
+              id="seoTitle"
+              type="text"
+              value={
+                seoTitle
+              }
+              maxLength={
+                70
+              }
+              placeholder="비워두면 기본 콘텐츠 제목을 사용할 수 있습니다."
+              onChange={
+                (event) =>
+                  setSeoTitle(
+                    event.target.value
+                  )
+              }
+            />
+
+            <small>
+              최대 70자입니다.
+            </small>
+          </div>
+
+
+          {/* SEO DESCRIPTION */}
+
+          <div
+            className={
+              styles.field
+            }
+          >
+            <label
+              htmlFor="seoDescription"
+            >
+              SEO Description
+            </label>
+
+            <textarea
+              id="seoDescription"
+              value={
+                seoDescription
+              }
+              maxLength={
+                180
+              }
+              placeholder="검색 결과에 표시할 설명을 입력하세요."
+              onChange={
+                (event) =>
+                  setSeoDescription(
+                    event.target.value
+                  )
+              }
+            />
+
+            <small>
+              최대 180자입니다.
+              비워두면 Summary를 기본값으로 사용할 수 있습니다.
+            </small>
+          </div>
+
+
+          {/* OG IMAGE */}
+
+          <div
+            className={
+              styles.field
+            }
+          >
+            <label
+              htmlFor="ogImage"
+            >
+              OG Image URL
+            </label>
+
+            <input
+              id="ogImage"
+              type="text"
+              value={
+                ogImage
+              }
+              placeholder="/assets/... 또는 Cloudinary URL"
+              onChange={
+                (event) =>
+                  setOgImage(
+                    event.target.value
+                  )
+              }
+            />
+
+            <small>
+              SNS 공유 대표 이미지입니다.
+              비워두면 Hero Image를 기본값으로 사용할 수 있습니다.
             </small>
           </div>
 
