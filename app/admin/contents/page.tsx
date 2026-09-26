@@ -1040,12 +1040,21 @@ function AdminContentsContent() {
             "active" && (
 
             <Link
-              href="/admin/contents/new"
-              className={
-                styles.newButton
+              href={
+                selectedType === "all"
+                  ? "/admin/contents/new"
+                  : `/admin/contents/new?type=${selectedType}`
               }
+              className={styles.newButton}
             >
-              + 새 콘텐츠
+              {selectedType === "all"
+                ? "+ 새 콘텐츠"
+                : `+ ${
+                    contentTypes.find(
+                      (item) =>
+                        item.value === selectedType
+                    )?.label ?? "CONTENT"
+                  } 등록`}
             </Link>
 
           )}

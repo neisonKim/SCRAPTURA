@@ -540,6 +540,7 @@ export default function EditContentPage() {
                 operatorRef
               );
 
+
             if (
               !operatorSnapshot.exists()
             ) {
@@ -557,6 +558,7 @@ export default function EditContentPage() {
 
             const operator =
               operatorSnapshot.data();
+
 
             if (
               operator.active !== true ||
@@ -589,6 +591,7 @@ export default function EditContentPage() {
               await getDoc(
                 contentRef
               );
+
 
             if (
               !contentSnapshot.exists()
@@ -1057,6 +1060,7 @@ export default function EditContentPage() {
         return;
       }
 
+
       if (!titleKo.trim()) {
         setErrorMessage(
           "한글 제목을 입력하세요."
@@ -1064,6 +1068,7 @@ export default function EditContentPage() {
 
         return;
       }
+
 
       if (!titleEn.trim()) {
         setErrorMessage(
@@ -1073,6 +1078,7 @@ export default function EditContentPage() {
         return;
       }
 
+
       if (!slug.trim()) {
         setErrorMessage(
           "Slug를 입력하세요."
@@ -1080,6 +1086,7 @@ export default function EditContentPage() {
 
         return;
       }
+
 
       if (!summary.trim()) {
         setErrorMessage(
@@ -1257,7 +1264,6 @@ export default function EditContentPage() {
         if (
           type === "book"
         ) {
-
           const cleanBookSections =
             bookSections
               .map(
@@ -1313,7 +1319,6 @@ export default function EditContentPage() {
         } else if (
           type === "story"
         ) {
-
           const cleanStoryScenes =
             storyScenes
               .map(
@@ -1404,7 +1409,6 @@ export default function EditContentPage() {
 
   const handleMoveToTrash =
     async () => {
-
       if (
         !contentId ||
         saving ||
@@ -1924,7 +1928,9 @@ export default function EditContentPage() {
           </div>
 
 
-          {/* STORY CONTENT */}
+          {/* =====================================================
+              STORY CONTENT
+              ===================================================== */}
 
           {type ===
             "story" && (
@@ -2062,6 +2068,7 @@ export default function EditContentPage() {
                   styles.bookSectionList
                 }
               >
+
                 {storyScenes.length ===
                   0 && (
                   <div
@@ -2088,6 +2095,8 @@ export default function EditContentPage() {
                         `story-scene-${index}`
                       }
                     >
+
+                      {/* SCENE HEADER */}
 
                       <div
                         className={
@@ -2120,6 +2129,8 @@ export default function EditContentPage() {
                         </button>
                       </div>
 
+
+                      {/* NUMBER / TITLE */}
 
                       <div
                         className={
@@ -2180,6 +2191,8 @@ export default function EditContentPage() {
                       </div>
 
 
+                      {/* SCRIPTURE */}
+
                       <div
                         className={
                           styles.field
@@ -2207,6 +2220,8 @@ export default function EditContentPage() {
                       </div>
 
 
+                      {/* DESCRIPTION */}
+
                       <div
                         className={
                           styles.field
@@ -2232,6 +2247,8 @@ export default function EditContentPage() {
                         />
                       </div>
 
+
+                      {/* SCENE IMAGE URL */}
 
                       <div
                         className={
@@ -2260,19 +2277,54 @@ export default function EditContentPage() {
 
                         <small>
                           기존 이미지 경로나
-                          Cloudinary URL을 입력할 수 있습니다.
+                          Cloudinary URL을 직접 입력하거나
+                          아래에서 이미지를 업로드할 수 있습니다.
                         </small>
                       </div>
 
+
+                      {/* SCENE IMAGE UPLOAD */}
+
+              <HeroImageUploader
+                        value={
+                          scene.image.startsWith("https://") ||
+                          scene.image.startsWith("http://")
+                            ? scene.image
+                            : ""
+                        }
+                        onChange={
+                          (imageUrl) =>
+                            updateStoryScene(
+                              index,
+                              "image",
+                              imageUrl
+                            )
+                        }
+                        contentType="story"
+                        slug={
+                          `${slug}-scene-${
+                            scene.number ||
+                            String(
+                              index + 1
+                            ).padStart(
+                              2,
+                              "0"
+                            )
+                          }`
+                        }
+                      />
                     </article>
                   )
                 )}
+
               </div>
             </>
           )}
 
 
-          {/* BIBLE CONTENT */}
+          {/* =====================================================
+              BIBLE CONTENT
+              ===================================================== */}
 
           {type ===
             "book" && (
@@ -2439,6 +2491,7 @@ export default function EditContentPage() {
                   styles.bookSectionList
                 }
               >
+
                 {bookSections.length ===
                   0 && (
                   <div
@@ -2503,6 +2556,7 @@ export default function EditContentPage() {
                           styles.sectionFields
                         }
                       >
+
                         <div
                           className={
                             styles.field
@@ -2554,6 +2608,7 @@ export default function EditContentPage() {
                             }
                           />
                         </div>
+
                       </div>
 
 
@@ -2612,12 +2667,15 @@ export default function EditContentPage() {
                     </article>
                   )
                 )}
+
               </div>
             </>
           )}
 
 
-          {/* VERIFICATION / SOURCES */}
+          {/* =====================================================
+              VERIFICATION / SOURCES
+              ===================================================== */}
 
           <div
             className={
@@ -2646,6 +2704,8 @@ export default function EditContentPage() {
             </p>
           </div>
 
+
+          {/* VERIFICATION STATUS */}
 
           <div
             className={
@@ -2696,6 +2756,8 @@ export default function EditContentPage() {
           </div>
 
 
+          {/* BIBLICAL SOURCE */}
+
           <div
             className={
               styles.field
@@ -2727,6 +2789,8 @@ export default function EditContentPage() {
             </small>
           </div>
 
+
+          {/* HISTORICAL SOURCE */}
 
           <div
             className={
@@ -2760,6 +2824,8 @@ export default function EditContentPage() {
           </div>
 
 
+          {/* INTERPRETATION NOTE */}
+
           <div
             className={
               styles.field
@@ -2786,6 +2852,8 @@ export default function EditContentPage() {
             />
           </div>
 
+
+          {/* VISUAL RECONSTRUCTION NOTE */}
 
           <div
             className={
@@ -2820,7 +2888,9 @@ export default function EditContentPage() {
           </div>
 
 
-          {/* RELATION EDITOR */}
+          {/* =====================================================
+              RELATION EDITOR
+              ===================================================== */}
 
           <div
             className={
@@ -2858,7 +2928,9 @@ export default function EditContentPage() {
           )}
 
 
-          {/* ACTIONS */}
+          {/* =====================================================
+              ACTIONS
+              ===================================================== */}
 
           <div
             className={
@@ -2923,6 +2995,7 @@ export default function EditContentPage() {
           </div>
 
         </form>
+
       </div>
     </main>
   );

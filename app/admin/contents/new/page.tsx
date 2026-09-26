@@ -13,6 +13,7 @@ import Link from "next/link";
 
 import {
   useRouter,
+  useSearchParams,
 } from "next/navigation";
 
 import {
@@ -47,6 +48,46 @@ export default function NewContentPage() {
   const router =
     useRouter();
 
+  const searchParams =
+    useSearchParams();
+
+  const validTypes = [
+    "story",
+    "person",
+    "place",
+    "period",
+    "book",
+    "visual",
+  ] as const;
+
+  const typeLabels:
+  Record<string, string> = {
+    story: "STORIES",
+    person: "PEOPLE",
+    place: "PLACES",
+    period: "TIMELINE",
+    book: "BIBLE",
+    visual: "VISUAL",
+  };
+
+  const requestedType =
+    searchParams.get("type");
+
+  const initialType =
+    requestedType &&
+    validTypes.includes(
+      requestedType as
+        (typeof validTypes)[number]
+    )
+      ? requestedType
+      : "story";
+
+    const typeLocked =
+      requestedType !== null &&
+      validTypes.includes(
+        requestedType as
+          (typeof validTypes)[number]
+      );
 
   /* =====================================================
      PAGE STATE
@@ -75,11 +116,11 @@ export default function NewContentPage() {
      COMMON CONTENT FIELDS
      ===================================================== */
 
-  const [
-    type,
-    setType,
-  ] =
-    useState("book");
+const [
+  type,
+  setType,
+] =
+  useState(initialType);
 
   const [
     titleKo,
@@ -527,8 +568,8 @@ export default function NewContentPage() {
            SUCCESS
            ========================= */
 
-        router.push(
-          "/admin/contents"
+       router.push(
+          `/admin/contents?type=${type}`
         );
 
       } catch (error) {
@@ -596,25 +637,25 @@ export default function NewContentPage() {
           <div>
 
             <Link
-              href="/admin/contents"
-              className={
-                styles.back
-              }
-            >
-              ← CONTENTS
-            </Link>
+            href={`/admin/contents?type=${type}`}
+            className={
+              styles.back
+            }
+          >
+            ← {typeLabels[type]}
+          </Link>
 
             <small>
               CONTENT EDITOR
             </small>
 
             <h1>
-              새 콘텐츠 등록
+              {typeLabels[type]} 등록
             </h1>
 
             <p>
-              SCRAPTURA에 새로운 콘텐츠를
-              등록합니다.
+              SCRAPTURA의 {typeLabels[type]} 콘텐츠를
+              새로 등록합니다.
             </p>
 
           </div>
@@ -669,13 +710,16 @@ export default function NewContentPage() {
               value={
                 type
               }
+              disabled={
+                typeLocked
+              }
               onChange={
                 (event) =>
                   setType(
                     event.target.value
                   )
               }
-            >
+              >
 
               <option
                 value="story"
@@ -1314,14 +1358,14 @@ export default function NewContentPage() {
             }
           >
 
-            <Link
-              href="/admin/contents"
-              className={
-                styles.cancelButton
-              }
-            >
-              취소
-            </Link>
+          <Link
+            href={`/admin/contents?type=${type}`}
+            className={
+              styles.cancelButton
+            }
+          >
+            취소
+          </Link>
 
 
             <button
