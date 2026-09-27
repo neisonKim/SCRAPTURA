@@ -11,10 +11,41 @@ import type {
 } from "next";
 
 
-const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ??
-  "http://localhost:3000";
+/* =====================================================
+   SITE CONFIG
+   ===================================================== */
 
+const siteUrl = (
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  "https://scraptura.vercel.app"
+).replace(
+  /\/$/,
+  ""
+);
+
+
+const siteDescription =
+  "성경의 이야기, 인물, 장소, 시대와 본문을 서로 연결하며 탐험하는 인터랙티브 Biblical Archive.";
+
+
+/*
+ * 현재 프로젝트에 이미 존재하는 이미지를
+ * 우선 OG 대표 이미지로 사용합니다.
+ *
+ * 이후 1200 × 630 전용 이미지를 만들면
+ *
+ * /assets/scraptura-og.jpg
+ *
+ * 로 교체하면 됩니다.
+ */
+
+const defaultOgImage =
+  "/assets/scraptura-home-clean.jpg";
+
+
+/* =====================================================
+   ROOT METADATA
+   ===================================================== */
 
 export const metadata: Metadata = {
 
@@ -36,7 +67,7 @@ export const metadata: Metadata = {
 
 
   description:
-    "성경의 이야기, 인물, 장소, 시대와 본문을 서로 연결하며 탐험하는 인터랙티브 Biblical Archive.",
+    siteDescription,
 
 
   applicationName:
@@ -68,6 +99,10 @@ export const metadata: Metadata = {
   ],
 
 
+  /* ===================================================
+     OPEN GRAPH
+     =================================================== */
+
   openGraph: {
 
     type:
@@ -83,27 +118,60 @@ export const metadata: Metadata = {
       "SCRAPTURA — Explore the World of Scripture",
 
     description:
-      "성경의 이야기, 인물, 장소, 시대와 본문을 서로 연결하며 탐험하는 인터랙티브 Biblical Archive.",
+      siteDescription,
 
     url:
-      "/",
+      siteUrl,
+
+
+    images: [
+
+      {
+
+        url:
+          defaultOgImage,
+
+        width:
+          1200,
+
+        height:
+          630,
+
+        alt:
+          "SCRAPTURA — Explore the World of Scripture",
+
+      },
+
+    ],
 
   },
 
 
+  /* ===================================================
+     TWITTER / SOCIAL CARD
+     =================================================== */
+
   twitter: {
 
     card:
-      "summary",
+      "summary_large_image",
 
     title:
       "SCRAPTURA — Explore the World of Scripture",
 
     description:
-      "성경의 이야기, 인물, 장소, 시대와 본문을 서로 연결하며 탐험하는 인터랙티브 Biblical Archive.",
+      siteDescription,
+
+    images: [
+      defaultOgImage,
+    ],
 
   },
 
+
+  /* ===================================================
+     ROBOTS
+     =================================================== */
 
   robots: {
 
@@ -128,6 +196,10 @@ export const metadata: Metadata = {
 
 };
 
+
+/* =====================================================
+   ROOT LAYOUT
+   ===================================================== */
 
 export default function RootLayout({
 
