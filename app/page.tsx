@@ -184,11 +184,6 @@ export default function Home() {
             <small>
               EXPLORE THE WORLD
             </small>
-
-            <span>
-              01
-            </span>
-
           </div>
 
 
