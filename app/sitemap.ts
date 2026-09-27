@@ -10,6 +10,10 @@ import type {
   ContentType,
 } from "../data/content";
 
+import {
+  journeys,
+} from "../data/journeys";
+
 
 const SITE_URL =
   (
@@ -50,16 +54,31 @@ const ROUTE_PREFIX:
 export default function sitemap():
   MetadataRoute.Sitemap {
 
+
+  /* =====================================================
+     STATIC ROUTES
+     ===================================================== */
+
   const staticPaths = [
+
     "/",
-    "/bible",
+
     "/stories",
+
     "/people",
+
     "/places",
+
     "/timeline",
+
+    "/bible",
+
     "/visual",
+
     "/journeys",
+
     "/search",
+
   ];
 
 
@@ -67,45 +86,85 @@ export default function sitemap():
     MetadataRoute.Sitemap =
     staticPaths.map(
       (path) => ({
+
         url:
           `${SITE_URL}${path}`,
+
       })
     );
 
 
-  const detailPaths =
+  /* =====================================================
+     CONTENT ROUTES
+     ===================================================== */
+
+  const contentPaths =
     nodes.map(
       (node) =>
         `${
           ROUTE_PREFIX[
             node.type
           ]
-        }/${encodeURIComponent(
-          node.slug
-        )}`
+        }/${
+          encodeURIComponent(
+            node.slug
+          )
+        }`
     );
 
 
-  const uniqueDetailPaths =
+  const uniqueContentPaths =
     Array.from(
       new Set(
-        detailPaths
+        contentPaths
       )
     );
 
 
-  const detailEntries:
+  const contentEntries:
     MetadataRoute.Sitemap =
-    uniqueDetailPaths.map(
+    uniqueContentPaths.map(
       (path) => ({
+
         url:
           `${SITE_URL}${path}`,
+
       })
     );
 
 
+  /* =====================================================
+     JOURNEY ROUTES
+     ===================================================== */
+
+  const journeyEntries:
+    MetadataRoute.Sitemap =
+    journeys.map(
+      (journey) => ({
+
+        url:
+          `${SITE_URL}/journeys/${
+            encodeURIComponent(
+              journey.slug
+            )
+          }`,
+
+      })
+    );
+
+
+  /* =====================================================
+     RESULT
+     ===================================================== */
+
   return [
+
     ...staticEntries,
-    ...detailEntries,
+
+    ...contentEntries,
+
+    ...journeyEntries,
+
   ];
+
 }

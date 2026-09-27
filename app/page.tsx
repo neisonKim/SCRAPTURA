@@ -155,7 +155,6 @@ export default function Home() {
 
       </section>
 
-
       {/* =====================================================
           FEATURED JOURNEY
           ===================================================== */}
@@ -208,6 +207,19 @@ export default function Home() {
               <br />
               끝없이 이어지는 성경의 세계
             </h3>
+
+
+            <div className="homeJourneyLinkWrap">
+
+            <Link
+              href="/journeys"
+              className="homeJourneyLink"
+            >
+              EXPLORE JOURNEYS
+              <span>→</span>
+            </Link>
+
+          </div>
 
 
             <p>

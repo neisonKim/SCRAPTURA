@@ -12,8 +12,9 @@ const routes = [
   "/timeline/united-kingdom",
   "/bible/1-samuel",
   "/visual/noah-ark-visual",
+  "/journeys/rise-of-david",
+  "/journeys/birth-of-the-kingdom",
 ];
-
 
 function extract(
   html,

@@ -184,14 +184,8 @@ export const nodes: ContentNode[] = [
       "1 Samuel 17",
     ],
 
-    /* =================================================
-       RELATIONS
-       ================================================= */
-
 
     relations: [
-
-      /* PEOPLE */
 
       {
         targetType: "person",
@@ -214,9 +208,6 @@ export const nodes: ContentNode[] = [
         label: "사울",
       },
 
-
-      /* PLACES */
-
       {
         targetType: "place",
         targetSlug: "valley-of-elah",
@@ -238,18 +229,12 @@ export const nodes: ContentNode[] = [
         label: "가드",
       },
 
-
-      /* PERIOD */
-
       {
         targetType: "period",
         targetSlug: "rise-of-david",
         relationType: "RELATED_PERIOD",
         label: "사울과 다윗의 시대",
       },
-
-
-      /* BIBLE */
 
       {
         targetType: "book",
@@ -260,17 +245,22 @@ export const nodes: ContentNode[] = [
 
     ],
 
-  }, // ← 빠져 있던 David & Goliath 객체 종료
+  },
 
-    /* =====================================================
+
+  /* =====================================================
      STORY — DAVID IS ANOINTED
      ===================================================== */
 
   {
     type: "story",
+
     slug: "david-is-anointed",
+
     titleKo: "다윗의 기름 부음",
+
     titleEn: "David Is Anointed",
+
     eyebrow: "STORIES · 1 SAMUEL 16",
 
     summary:
@@ -287,6 +277,7 @@ export const nodes: ContentNode[] = [
         description:
           "사무엘은 베들레헴으로 가서 이새와 그의 아들들을 제사에 초대합니다.",
       },
+
       {
         number: "02",
         title: "THE SONS OF JESSE",
@@ -294,6 +285,7 @@ export const nodes: ContentNode[] = [
         description:
           "사무엘은 이새의 아들들을 차례로 보지만 그들 가운데 선택된 사람을 찾지 못합니다.",
       },
+
       {
         number: "03",
         title: "THE YOUNGEST SON",
@@ -301,6 +293,7 @@ export const nodes: ContentNode[] = [
         description:
           "사무엘은 다른 아들이 있는지 묻고, 들에서 양을 돌보던 막내 다윗이 불려옵니다.",
       },
+
       {
         number: "04",
         title: "THE ANOINTING",
@@ -310,18 +303,62 @@ export const nodes: ContentNode[] = [
       },
     ],
 
-    heroImage: "/assets/scraptura-david.jpg",
+    heroImage:
+      "/assets/scraptura-david.jpg",
 
-    scripture: ["1 Samuel 16:1–13"],
+    scripture: [
+      "1 Samuel 16:1–13",
+    ],
 
     relations: [
-      { targetType: "person", targetSlug: "david", relationType: "RELATED_PERSON", label: "다윗" },
-      { targetType: "person", targetSlug: "samuel", relationType: "RELATED_PERSON", label: "사무엘" },
-      { targetType: "person", targetSlug: "jesse", relationType: "RELATED_PERSON", label: "이새" },
-      { targetType: "person", targetSlug: "eliab", relationType: "RELATED_PERSON", label: "엘리압" },
-      { targetType: "place", targetSlug: "bethlehem", relationType: "RELATED_PLACE", label: "베들레헴" },
-      { targetType: "period", targetSlug: "rise-of-david", relationType: "RELATED_PERIOD", label: "사울과 다윗의 시대" },
-      { targetType: "book", targetSlug: "1-samuel", relationType: "RELATED_BOOK", label: "사무엘상" },
+      {
+        targetType: "person",
+        targetSlug: "david",
+        relationType: "RELATED_PERSON",
+        label: "다윗",
+      },
+
+      {
+        targetType: "person",
+        targetSlug: "samuel",
+        relationType: "RELATED_PERSON",
+        label: "사무엘",
+      },
+
+      {
+        targetType: "person",
+        targetSlug: "jesse",
+        relationType: "RELATED_PERSON",
+        label: "이새",
+      },
+
+      {
+        targetType: "person",
+        targetSlug: "eliab",
+        relationType: "RELATED_PERSON",
+        label: "엘리압",
+      },
+
+      {
+        targetType: "place",
+        targetSlug: "bethlehem",
+        relationType: "RELATED_PLACE",
+        label: "베들레헴",
+      },
+
+      {
+        targetType: "period",
+        targetSlug: "rise-of-david",
+        relationType: "RELATED_PERIOD",
+        label: "사울과 다윗의 시대",
+      },
+
+      {
+        targetType: "book",
+        targetSlug: "1-samuel",
+        relationType: "RELATED_BOOK",
+        label: "사무엘상",
+      },
     ],
   },
 
@@ -332,9 +369,13 @@ export const nodes: ContentNode[] = [
 
   {
     type: "story",
+
     slug: "david-and-jonathan",
+
     titleKo: "다윗과 요나단",
+
     titleEn: "David & Jonathan",
+
     eyebrow: "STORIES · 1 SAMUEL 18–20",
 
     summary:
@@ -351,6 +392,7 @@ export const nodes: ContentNode[] = [
         description:
           "요나단과 다윗은 깊은 관계를 맺고 언약을 세웁니다.",
       },
+
       {
         number: "02",
         title: "SAUL'S HOSTILITY",
@@ -358,6 +400,7 @@ export const nodes: ContentNode[] = [
         description:
           "사울이 다윗을 죽이려 하자 요나단은 다윗에게 위험을 알리고 사울에게 다윗을 변호합니다.",
       },
+
       {
         number: "03",
         title: "THE WARNING",
@@ -365,6 +408,7 @@ export const nodes: ContentNode[] = [
         description:
           "다윗과 요나단은 사울의 의도를 확인하기 위한 계획을 세우고 상황이 위험하다는 사실을 확인합니다.",
       },
+
       {
         number: "04",
         title: "THE FAREWELL",
@@ -374,7 +418,8 @@ export const nodes: ContentNode[] = [
       },
     ],
 
-    heroImage: "/assets/scraptura-david.jpg",
+    heroImage:
+      "/assets/scraptura-david.jpg",
 
     scripture: [
       "1 Samuel 18:1–4",
@@ -383,11 +428,40 @@ export const nodes: ContentNode[] = [
     ],
 
     relations: [
-      { targetType: "person", targetSlug: "david", relationType: "RELATED_PERSON", label: "다윗" },
-      { targetType: "person", targetSlug: "jonathan", relationType: "RELATED_PERSON", label: "요나단" },
-      { targetType: "person", targetSlug: "saul", relationType: "RELATED_PERSON", label: "사울" },
-      { targetType: "period", targetSlug: "rise-of-david", relationType: "RELATED_PERIOD", label: "사울과 다윗의 시대" },
-      { targetType: "book", targetSlug: "1-samuel", relationType: "RELATED_BOOK", label: "사무엘상" },
+      {
+        targetType: "person",
+        targetSlug: "david",
+        relationType: "RELATED_PERSON",
+        label: "다윗",
+      },
+
+      {
+        targetType: "person",
+        targetSlug: "jonathan",
+        relationType: "RELATED_PERSON",
+        label: "요나단",
+      },
+
+      {
+        targetType: "person",
+        targetSlug: "saul",
+        relationType: "RELATED_PERSON",
+        label: "사울",
+      },
+
+      {
+        targetType: "period",
+        targetSlug: "rise-of-david",
+        relationType: "RELATED_PERIOD",
+        label: "사울과 다윗의 시대",
+      },
+
+      {
+        targetType: "book",
+        targetSlug: "1-samuel",
+        relationType: "RELATED_BOOK",
+        label: "사무엘상",
+      },
     ],
   },
 
@@ -398,9 +472,13 @@ export const nodes: ContentNode[] = [
 
   {
     type: "story",
+
     slug: "david-becomes-king",
+
     titleKo: "다윗이 왕이 되다",
+
     titleEn: "David Becomes King",
+
     eyebrow: "STORIES · 2 SAMUEL 2–5",
 
     summary:
@@ -417,6 +495,7 @@ export const nodes: ContentNode[] = [
         description:
           "다윗은 헤브론으로 올라가고 유다 사람들이 그에게 기름을 부어 유다의 왕으로 세웁니다.",
       },
+
       {
         number: "02",
         title: "THE YEARS OF TRANSITION",
@@ -424,6 +503,7 @@ export const nodes: ContentNode[] = [
         description:
           "사울 왕가와 다윗의 집 사이에 긴장이 이어지며 왕권의 전환 과정이 전개됩니다.",
       },
+
       {
         number: "03",
         title: "KING OVER ISRAEL",
@@ -431,6 +511,7 @@ export const nodes: ContentNode[] = [
         description:
           "이스라엘의 장로들이 헤브론에서 다윗을 왕으로 세웁니다.",
       },
+
       {
         number: "04",
         title: "JERUSALEM",
@@ -440,7 +521,8 @@ export const nodes: ContentNode[] = [
       },
     ],
 
-    heroImage: "/assets/scraptura-jerusalem.jpg",
+    heroImage:
+      "/assets/scraptura-jerusalem.jpg",
 
     scripture: [
       "2 Samuel 2:1–4",
@@ -448,11 +530,40 @@ export const nodes: ContentNode[] = [
     ],
 
     relations: [
-      { targetType: "person", targetSlug: "david", relationType: "RELATED_PERSON", label: "다윗" },
-      { targetType: "place", targetSlug: "hebron", relationType: "RELATED_PLACE", label: "헤브론" },
-      { targetType: "place", targetSlug: "jerusalem", relationType: "RELATED_PLACE", label: "예루살렘" },
-      { targetType: "period", targetSlug: "rise-of-david", relationType: "RELATED_PERIOD", label: "사울과 다윗의 시대" },
-      { targetType: "period", targetSlug: "united-kingdom", relationType: "RELATED_PERIOD", label: "통일 왕국" },
+      {
+        targetType: "person",
+        targetSlug: "david",
+        relationType: "RELATED_PERSON",
+        label: "다윗",
+      },
+
+      {
+        targetType: "place",
+        targetSlug: "hebron",
+        relationType: "RELATED_PLACE",
+        label: "헤브론",
+      },
+
+      {
+        targetType: "place",
+        targetSlug: "jerusalem",
+        relationType: "RELATED_PLACE",
+        label: "예루살렘",
+      },
+
+      {
+        targetType: "period",
+        targetSlug: "rise-of-david",
+        relationType: "RELATED_PERIOD",
+        label: "사울과 다윗의 시대",
+      },
+
+      {
+        targetType: "period",
+        targetSlug: "united-kingdom",
+        relationType: "RELATED_PERIOD",
+        label: "통일 왕국",
+      },
     ],
   },
 
@@ -475,9 +586,6 @@ export const nodes: ContentNode[] = [
 
     summary:
       "가드 출신의 블레셋 전사로, 엘라 골짜기에서 이스라엘 군대를 향해 일대일 전투를 요구한 인물입니다.",
- 
-
-
 
     characterJourney: [
       {
@@ -487,6 +595,7 @@ export const nodes: ContentNode[] = [
         description:
           "골리앗은 가드 출신의 블레셋 전사로 등장합니다. 본문은 그의 무장과 전투 장비를 상세하게 묘사합니다.",
       },
+
       {
         number: "02",
         title: "THE CHALLENGE",
@@ -494,6 +603,7 @@ export const nodes: ContentNode[] = [
         description:
           "골리앗은 이스라엘 진영을 향해 한 사람을 선택해 자신과 싸우게 하라고 요구하며 반복적으로 도전합니다.",
       },
+
       {
         number: "03",
         title: "THE CONFRONTATION",
@@ -501,6 +611,7 @@ export const nodes: ContentNode[] = [
         description:
           "골리앗과 다윗이 서로 마주합니다. 두 사람의 대화는 이 대결을 단순한 무력의 충돌을 넘어 서로 다른 확신이 맞서는 장면으로 보여줍니다.",
       },
+
       {
         number: "04",
         title: "THE FALL",
@@ -518,14 +629,48 @@ export const nodes: ContentNode[] = [
     ],
 
     relations: [
-      { targetType: "person", targetSlug: "david", relationType: "RELATED_PERSON", label: "다윗" },
-      { targetType: "person", targetSlug: "saul", relationType: "RELATED_PERSON", label: "사울" },
-      { targetType: "place", targetSlug: "gath", relationType: "RELATED_PLACE", label: "가드" },
-      { targetType: "place", targetSlug: "valley-of-elah", relationType: "RELATED_PLACE", label: "엘라 골짜기" },
-      { targetType: "story", targetSlug: "david-and-goliath", relationType: "RELATED_STORY", label: "다윗과 골리앗" },
-      { targetType: "book", targetSlug: "1-samuel", relationType: "RELATED_BOOK", label: "사무엘상" },
-    ],
+      {
+        targetType: "person",
+        targetSlug: "david",
+        relationType: "RELATED_PERSON",
+        label: "다윗",
+      },
 
+      {
+        targetType: "person",
+        targetSlug: "saul",
+        relationType: "RELATED_PERSON",
+        label: "사울",
+      },
+
+      {
+        targetType: "place",
+        targetSlug: "gath",
+        relationType: "RELATED_PLACE",
+        label: "가드",
+      },
+
+      {
+        targetType: "place",
+        targetSlug: "valley-of-elah",
+        relationType: "RELATED_PLACE",
+        label: "엘라 골짜기",
+      },
+
+      {
+        targetType: "story",
+        targetSlug: "david-and-goliath",
+        relationType: "RELATED_STORY",
+        label: "다윗과 골리앗",
+      },
+
+      {
+        targetType: "book",
+        targetSlug: "1-samuel",
+        relationType: "RELATED_BOOK",
+        label: "사무엘상",
+      },
+    ],
   },
 
 
@@ -556,6 +701,7 @@ export const nodes: ContentNode[] = [
         description:
           "사울은 베냐민 지파 출신으로 등장하며, 사무엘을 통해 기름 부음을 받고 이스라엘의 왕으로 세워집니다.",
       },
+
       {
         number: "02",
         title: "THE KINGDOM",
@@ -563,6 +709,7 @@ export const nodes: ContentNode[] = [
         description:
           "왕이 된 사울은 이스라엘을 이끌고 주변 세력과 전쟁을 벌입니다. 그의 통치 초기에는 군사적 승리와 왕권의 확립이 이어집니다.",
       },
+
       {
         number: "03",
         title: "THE REJECTION",
@@ -570,6 +717,7 @@ export const nodes: ContentNode[] = [
         description:
           "아말렉과의 전쟁 이후 사무엘은 사울의 행동을 책망합니다. 이 사건은 사울의 통치와 이후 다윗의 등장 사이를 연결하는 중요한 전환점이 됩니다.",
       },
+
       {
         number: "04",
         title: "THE RISE OF DAVID",
@@ -577,6 +725,7 @@ export const nodes: ContentNode[] = [
         description:
           "다윗이 등장하고 골리앗과의 대결 이후 명성을 얻으면서 사울과 다윗의 관계에도 변화가 시작됩니다.",
       },
+
       {
         number: "05",
         title: "THE PURSUIT",
@@ -584,6 +733,7 @@ export const nodes: ContentNode[] = [
         description:
           "사울은 다윗을 위협적인 존재로 여기며 여러 차례 그를 추격합니다. 다윗의 도피 생활과 사울의 통치 후반부가 이 시기에 서로 얽혀 전개됩니다.",
       },
+
       {
         number: "06",
         title: "THE FINAL BATTLE",
@@ -607,30 +757,35 @@ export const nodes: ContentNode[] = [
         relationType: "RELATED_PERSON",
         label: "다윗",
       },
+
       {
         targetType: "person",
         targetSlug: "goliath",
         relationType: "RELATED_PERSON",
         label: "골리앗",
       },
+
       {
         targetType: "place",
         targetSlug: "valley-of-elah",
         relationType: "RELATED_PLACE",
         label: "엘라 골짜기",
       },
+
       {
         targetType: "story",
         targetSlug: "david-and-goliath",
         relationType: "RELATED_STORY",
         label: "다윗과 골리앗",
       },
+
       {
         targetType: "period",
         targetSlug: "rise-of-david",
         relationType: "RELATED_PERIOD",
         label: "사울과 다윗의 시대",
       },
+
       {
         targetType: "book",
         targetSlug: "1-samuel",
@@ -638,7 +793,6 @@ export const nodes: ContentNode[] = [
         label: "사무엘상",
       },
     ],
-
   },
 
 
@@ -648,10 +802,15 @@ export const nodes: ContentNode[] = [
 
   {
     type: "person",
+
     slug: "samuel",
+
     titleKo: "사무엘",
+
     titleEn: "Samuel",
-    eyebrow: "PEOPLE · PROPHET & JUDGE",
+
+    eyebrow:
+      "PEOPLE · PROPHET & JUDGE",
 
     summary:
       "이스라엘의 사사이자 예언자로 활동하며 사울과 다윗의 왕정 전환을 연결하는 핵심 인물입니다.",
@@ -667,6 +826,7 @@ export const nodes: ContentNode[] = [
         description:
           "한나의 아들로 태어나 실로에서 성장하며 하나님의 부르심을 받습니다.",
       },
+
       {
         number: "02",
         title: "THE JUDGE",
@@ -674,6 +834,7 @@ export const nodes: ContentNode[] = [
         description:
           "이스라엘을 이끌며 미스바에서 백성을 모으고 블레셋과의 위기 속에서 지도력을 발휘합니다.",
       },
+
       {
         number: "03",
         title: "THE REQUEST FOR A KING",
@@ -681,6 +842,7 @@ export const nodes: ContentNode[] = [
         description:
           "이스라엘 백성이 왕을 요구하자 왕정이 가져올 결과를 설명합니다.",
       },
+
       {
         number: "04",
         title: "SAUL IS ANOINTED",
@@ -688,6 +850,7 @@ export const nodes: ContentNode[] = [
         description:
           "사울을 만나 그에게 기름을 붓고 이스라엘의 왕으로 세워지는 과정에 참여합니다.",
       },
+
       {
         number: "05",
         title: "THE REJECTION OF SAUL",
@@ -695,6 +858,7 @@ export const nodes: ContentNode[] = [
         description:
           "사울의 행동을 책망하며 그의 왕권과 관련된 중요한 선언을 전합니다.",
       },
+
       {
         number: "06",
         title: "DAVID IS ANOINTED",
@@ -704,17 +868,55 @@ export const nodes: ContentNode[] = [
       },
     ],
 
-    heroImage: "/assets/scraptura-david.jpg",
+    heroImage:
+      "/assets/scraptura-david.jpg",
 
-    scripture: ["1 Samuel 1–16"],
+    scripture: [
+      "1 Samuel 1–16",
+    ],
 
     relations: [
-      { targetType: "person", targetSlug: "saul", relationType: "RELATED_PERSON", label: "사울" },
-      { targetType: "person", targetSlug: "david", relationType: "RELATED_PERSON", label: "다윗" },
-      { targetType: "person", targetSlug: "jesse", relationType: "RELATED_PERSON", label: "이새" },
-      { targetType: "place", targetSlug: "bethlehem", relationType: "RELATED_PLACE", label: "베들레헴" },
-      { targetType: "period", targetSlug: "rise-of-david", relationType: "RELATED_PERIOD", label: "사울과 다윗의 시대" },
-      { targetType: "book", targetSlug: "1-samuel", relationType: "RELATED_BOOK", label: "사무엘상" },
+      {
+        targetType: "person",
+        targetSlug: "saul",
+        relationType: "RELATED_PERSON",
+        label: "사울",
+      },
+
+      {
+        targetType: "person",
+        targetSlug: "david",
+        relationType: "RELATED_PERSON",
+        label: "다윗",
+      },
+
+      {
+        targetType: "person",
+        targetSlug: "jesse",
+        relationType: "RELATED_PERSON",
+        label: "이새",
+      },
+
+      {
+        targetType: "place",
+        targetSlug: "bethlehem",
+        relationType: "RELATED_PLACE",
+        label: "베들레헴",
+      },
+
+      {
+        targetType: "period",
+        targetSlug: "rise-of-david",
+        relationType: "RELATED_PERIOD",
+        label: "사울과 다윗의 시대",
+      },
+
+      {
+        targetType: "book",
+        targetSlug: "1-samuel",
+        relationType: "RELATED_BOOK",
+        label: "사무엘상",
+      },
     ],
   },
 
@@ -725,10 +927,15 @@ export const nodes: ContentNode[] = [
 
   {
     type: "person",
+
     slug: "jonathan",
+
     titleKo: "요나단",
+
     titleEn: "Jonathan",
-    eyebrow: "PEOPLE · HOUSE OF SAUL",
+
+    eyebrow:
+      "PEOPLE · HOUSE OF SAUL",
 
     summary:
       "사울의 아들이자 다윗과 깊은 관계를 맺으며 사울 왕가와 다윗의 이야기를 연결하는 인물입니다.",
@@ -744,6 +951,7 @@ export const nodes: ContentNode[] = [
         description:
           "블레셋과의 전투에서 적극적으로 행동하며 사울 왕정 초기의 주요 전사로 등장합니다.",
       },
+
       {
         number: "02",
         title: "DAVID",
@@ -751,6 +959,7 @@ export const nodes: ContentNode[] = [
         description:
           "다윗과 깊은 관계를 맺고 언약을 세우며 자신의 의복과 무기를 다윗에게 줍니다.",
       },
+
       {
         number: "03",
         title: "BETWEEN SAUL & DAVID",
@@ -758,6 +967,7 @@ export const nodes: ContentNode[] = [
         description:
           "사울의 위협 속에서 다윗을 보호하고 두 사람 사이의 갈등을 중재하려 합니다.",
       },
+
       {
         number: "04",
         title: "THE COVENANT",
@@ -765,6 +975,7 @@ export const nodes: ContentNode[] = [
         description:
           "다윗과 다시 언약을 확인하며 서로의 관계와 미래의 가족에 대한 약속을 나눕니다.",
       },
+
       {
         number: "05",
         title: "THE FINAL MEETING",
@@ -772,6 +983,7 @@ export const nodes: ContentNode[] = [
         description:
           "다윗이 도피 중일 때 그를 만나 격려하고 두 사람의 언약을 다시 확인합니다.",
       },
+
       {
         number: "06",
         title: "MOUNT GILBOA",
@@ -781,7 +993,8 @@ export const nodes: ContentNode[] = [
       },
     ],
 
-    heroImage: "/assets/scraptura-david.jpg",
+    heroImage:
+      "/assets/scraptura-david.jpg",
 
     scripture: [
       "1 Samuel 13–14",
@@ -791,11 +1004,40 @@ export const nodes: ContentNode[] = [
     ],
 
     relations: [
-      { targetType: "story", targetSlug: "david-and-jonathan", relationType: "RELATED_STORY", label: "다윗과 요나단" },
-      { targetType: "person", targetSlug: "saul", relationType: "RELATED_PERSON", label: "사울" },
-      { targetType: "person", targetSlug: "david", relationType: "RELATED_PERSON", label: "다윗" },
-      { targetType: "period", targetSlug: "rise-of-david", relationType: "RELATED_PERIOD", label: "사울과 다윗의 시대" },
-      { targetType: "book", targetSlug: "1-samuel", relationType: "RELATED_BOOK", label: "사무엘상" },
+      {
+        targetType: "story",
+        targetSlug: "david-and-jonathan",
+        relationType: "RELATED_STORY",
+        label: "다윗과 요나단",
+      },
+
+      {
+        targetType: "person",
+        targetSlug: "saul",
+        relationType: "RELATED_PERSON",
+        label: "사울",
+      },
+
+      {
+        targetType: "person",
+        targetSlug: "david",
+        relationType: "RELATED_PERSON",
+        label: "다윗",
+      },
+
+      {
+        targetType: "period",
+        targetSlug: "rise-of-david",
+        relationType: "RELATED_PERIOD",
+        label: "사울과 다윗의 시대",
+      },
+
+      {
+        targetType: "book",
+        targetSlug: "1-samuel",
+        relationType: "RELATED_BOOK",
+        label: "사무엘상",
+      },
     ],
   },
 
@@ -806,10 +1048,15 @@ export const nodes: ContentNode[] = [
 
   {
     type: "person",
+
     slug: "jesse",
+
     titleKo: "이새",
+
     titleEn: "Jesse",
-    eyebrow: "PEOPLE · HOUSE OF BETHLEHEM",
+
+    eyebrow:
+      "PEOPLE · HOUSE OF BETHLEHEM",
 
     summary:
       "베들레헴에 살던 다윗의 아버지로, 다윗의 초기 이야기와 가족 배경을 연결하는 인물입니다.",
@@ -825,6 +1072,7 @@ export const nodes: ContentNode[] = [
         description:
           "베들레헴 사람으로 소개되며 그의 가정이 다윗의 초기 서사의 중심 배경이 됩니다.",
       },
+
       {
         number: "02",
         title: "SAMUEL ARRIVES",
@@ -832,6 +1080,7 @@ export const nodes: ContentNode[] = [
         description:
           "사무엘이 그의 집을 찾아와 아들들을 살펴보는 장면에 등장합니다.",
       },
+
       {
         number: "03",
         title: "DAVID IS CALLED",
@@ -839,6 +1088,7 @@ export const nodes: ContentNode[] = [
         description:
           "들에서 양을 돌보던 다윗이 불려오고 사무엘이 그에게 기름을 붓습니다.",
       },
+
       {
         number: "04",
         title: "THE ROAD TO THE VALLEY",
@@ -848,17 +1098,55 @@ export const nodes: ContentNode[] = [
       },
     ],
 
-    heroImage: "/assets/scraptura-david.jpg",
+    heroImage:
+      "/assets/scraptura-david.jpg",
 
-    scripture: ["1 Samuel 16–17"],
+    scripture: [
+      "1 Samuel 16–17",
+    ],
 
     relations: [
-      { targetType: "person", targetSlug: "david", relationType: "RELATED_PERSON", label: "다윗" },
-      { targetType: "person", targetSlug: "eliab", relationType: "RELATED_PERSON", label: "엘리압" },
-      { targetType: "person", targetSlug: "samuel", relationType: "RELATED_PERSON", label: "사무엘" },
-      { targetType: "place", targetSlug: "bethlehem", relationType: "RELATED_PLACE", label: "베들레헴" },
-      { targetType: "story", targetSlug: "david-and-goliath", relationType: "RELATED_STORY", label: "다윗과 골리앗" },
-      { targetType: "book", targetSlug: "1-samuel", relationType: "RELATED_BOOK", label: "사무엘상" },
+      {
+        targetType: "person",
+        targetSlug: "david",
+        relationType: "RELATED_PERSON",
+        label: "다윗",
+      },
+
+      {
+        targetType: "person",
+        targetSlug: "eliab",
+        relationType: "RELATED_PERSON",
+        label: "엘리압",
+      },
+
+      {
+        targetType: "person",
+        targetSlug: "samuel",
+        relationType: "RELATED_PERSON",
+        label: "사무엘",
+      },
+
+      {
+        targetType: "place",
+        targetSlug: "bethlehem",
+        relationType: "RELATED_PLACE",
+        label: "베들레헴",
+      },
+
+      {
+        targetType: "story",
+        targetSlug: "david-and-goliath",
+        relationType: "RELATED_STORY",
+        label: "다윗과 골리앗",
+      },
+
+      {
+        targetType: "book",
+        targetSlug: "1-samuel",
+        relationType: "RELATED_BOOK",
+        label: "사무엘상",
+      },
     ],
   },
 
@@ -869,10 +1157,15 @@ export const nodes: ContentNode[] = [
 
   {
     type: "person",
+
     slug: "eliab",
+
     titleKo: "엘리압",
+
     titleEn: "Eliab",
-    eyebrow: "PEOPLE · HOUSE OF JESSE",
+
+    eyebrow:
+      "PEOPLE · HOUSE OF JESSE",
 
     summary:
       "이새의 장남이자 다윗의 형으로, 다윗의 기름 부음과 엘라 골짜기 이야기에서 등장합니다.",
@@ -888,6 +1181,7 @@ export const nodes: ContentNode[] = [
         description:
           "사무엘이 이새의 아들들을 살펴볼 때 가장 먼저 주목받지만 왕으로 선택되지는 않습니다.",
       },
+
       {
         number: "02",
         title: "THE ARMY",
@@ -895,6 +1189,7 @@ export const nodes: ContentNode[] = [
         description:
           "사울을 따라 전쟁에 나간 이새의 세 아들 가운데 첫째로 언급됩니다.",
       },
+
       {
         number: "03",
         title: "DAVID ARRIVES",
@@ -904,7 +1199,8 @@ export const nodes: ContentNode[] = [
       },
     ],
 
-    heroImage: "/assets/scraptura-david-goliath.jpg",
+    heroImage:
+      "/assets/scraptura-david-goliath.jpg",
 
     scripture: [
       "1 Samuel 16:6–7",
@@ -913,12 +1209,47 @@ export const nodes: ContentNode[] = [
     ],
 
     relations: [
-      { targetType: "person", targetSlug: "david", relationType: "RELATED_PERSON", label: "다윗" },
-      { targetType: "person", targetSlug: "jesse", relationType: "RELATED_PERSON", label: "이새" },
-      { targetType: "place", targetSlug: "bethlehem", relationType: "RELATED_PLACE", label: "베들레헴" },
-      { targetType: "place", targetSlug: "valley-of-elah", relationType: "RELATED_PLACE", label: "엘라 골짜기" },
-      { targetType: "story", targetSlug: "david-and-goliath", relationType: "RELATED_STORY", label: "다윗과 골리앗" },
-      { targetType: "book", targetSlug: "1-samuel", relationType: "RELATED_BOOK", label: "사무엘상" },
+      {
+        targetType: "person",
+        targetSlug: "david",
+        relationType: "RELATED_PERSON",
+        label: "다윗",
+      },
+
+      {
+        targetType: "person",
+        targetSlug: "jesse",
+        relationType: "RELATED_PERSON",
+        label: "이새",
+      },
+
+      {
+        targetType: "place",
+        targetSlug: "bethlehem",
+        relationType: "RELATED_PLACE",
+        label: "베들레헴",
+      },
+
+      {
+        targetType: "place",
+        targetSlug: "valley-of-elah",
+        relationType: "RELATED_PLACE",
+        label: "엘라 골짜기",
+      },
+
+      {
+        targetType: "story",
+        targetSlug: "david-and-goliath",
+        relationType: "RELATED_STORY",
+        label: "다윗과 골리앗",
+      },
+
+      {
+        targetType: "book",
+        targetSlug: "1-samuel",
+        relationType: "RELATED_BOOK",
+        label: "사무엘상",
+      },
     ],
   },
 
@@ -965,50 +1296,69 @@ export const nodes: ContentNode[] = [
     ],
 
     relations: [
-      { targetType: "place", targetSlug: "socoh", relationType: "RELATED_PLACE", label: "소고" },
-      { targetType: "place", targetSlug: "azekah", relationType: "RELATED_PLACE", label: "아세가" },
+      {
+        targetType: "place",
+        targetSlug: "socoh",
+        relationType: "RELATED_PLACE",
+        label: "소고",
+      },
+
+      {
+        targetType: "place",
+        targetSlug: "azekah",
+        relationType: "RELATED_PLACE",
+        label: "아세가",
+      },
+
       {
         targetType: "person",
         targetSlug: "david",
         relationType: "RELATED_PERSON",
         label: "다윗",
       },
+
       {
         targetType: "person",
         targetSlug: "goliath",
         relationType: "RELATED_PERSON",
         label: "골리앗",
       },
+
       {
         targetType: "person",
         targetSlug: "saul",
         relationType: "RELATED_PERSON",
         label: "사울",
       },
+
       {
         targetType: "place",
         targetSlug: "bethlehem",
         relationType: "RELATED_PLACE",
         label: "베들레헴",
       },
+
       {
         targetType: "place",
         targetSlug: "gath",
         relationType: "RELATED_PLACE",
         label: "가드",
       },
+
       {
         targetType: "story",
         targetSlug: "david-and-goliath",
         relationType: "RELATED_STORY",
         label: "다윗과 골리앗",
       },
+
       {
         targetType: "period",
         targetSlug: "rise-of-david",
         relationType: "RELATED_PERIOD",
         label: "사울과 다윗의 시대",
       },
+
       {
         targetType: "book",
         targetSlug: "1-samuel",
@@ -1025,10 +1375,15 @@ export const nodes: ContentNode[] = [
 
   {
     type: "place",
+
     slug: "bethlehem",
+
     titleKo: "베들레헴",
+
     titleEn: "Bethlehem",
-    eyebrow: "PLACES · CITY",
+
+    eyebrow:
+      "PLACES · CITY",
 
     summary:
       "다윗의 가족이 살았던 유다 지역의 성읍으로, 다윗의 초기 이야기에서 중요한 출발점이 되는 장소입니다.",
@@ -1046,7 +1401,8 @@ export const nodes: ContentNode[] = [
         "사무엘이 베들레헴에 있는 이새의 집을 찾아가고, 이새의 아들들 가운데 다윗에게 기름을 붓습니다. 이 장면은 다윗의 인물 여정에서 중요한 출발점입니다.",
     },
 
-    heroImage: "/assets/scraptura-david.jpg",
+    heroImage:
+      "/assets/scraptura-david.jpg",
 
     scripture: [
       "1 Samuel 16:1–13",
@@ -1054,12 +1410,47 @@ export const nodes: ContentNode[] = [
     ],
 
     relations: [
-      { targetType: "story", targetSlug: "david-is-anointed", relationType: "RELATED_STORY", label: "다윗의 기름 부음" },
-      { targetType: "person", targetSlug: "david", relationType: "RELATED_PERSON", label: "다윗" },
-      { targetType: "place", targetSlug: "valley-of-elah", relationType: "RELATED_PLACE", label: "엘라 골짜기" },
-      { targetType: "story", targetSlug: "david-and-goliath", relationType: "RELATED_STORY", label: "다윗과 골리앗" },
-      { targetType: "period", targetSlug: "rise-of-david", relationType: "RELATED_PERIOD", label: "사울과 다윗의 시대" },
-      { targetType: "book", targetSlug: "1-samuel", relationType: "RELATED_BOOK", label: "사무엘상" },
+      {
+        targetType: "story",
+        targetSlug: "david-is-anointed",
+        relationType: "RELATED_STORY",
+        label: "다윗의 기름 부음",
+      },
+
+      {
+        targetType: "person",
+        targetSlug: "david",
+        relationType: "RELATED_PERSON",
+        label: "다윗",
+      },
+
+      {
+        targetType: "place",
+        targetSlug: "valley-of-elah",
+        relationType: "RELATED_PLACE",
+        label: "엘라 골짜기",
+      },
+
+      {
+        targetType: "story",
+        targetSlug: "david-and-goliath",
+        relationType: "RELATED_STORY",
+        label: "다윗과 골리앗",
+      },
+
+      {
+        targetType: "period",
+        targetSlug: "rise-of-david",
+        relationType: "RELATED_PERIOD",
+        label: "사울과 다윗의 시대",
+      },
+
+      {
+        targetType: "book",
+        targetSlug: "1-samuel",
+        relationType: "RELATED_BOOK",
+        label: "사무엘상",
+      },
     ],
   },
 
@@ -1070,10 +1461,15 @@ export const nodes: ContentNode[] = [
 
   {
     type: "place",
+
     slug: "gath",
+
     titleKo: "가드",
+
     titleEn: "Gath",
-    eyebrow: "PLACES · PHILISTINE CITY",
+
+    eyebrow:
+      "PLACES · PHILISTINE CITY",
 
     summary:
       "블레셋의 주요 성읍 가운데 하나이며, 사무엘상 17장에서 골리앗의 출신지로 언급됩니다.",
@@ -1091,7 +1487,8 @@ export const nodes: ContentNode[] = [
         "사무엘상 17장은 이스라엘 군대에 도전한 골리앗을 가드 출신으로 소개합니다. 가드는 골리앗의 배경과 블레셋 진영을 연결하는 핵심 장소입니다.",
     },
 
-    heroImage: "/assets/scraptura-david-goliath.jpg",
+    heroImage:
+      "/assets/scraptura-david-goliath.jpg",
 
     scripture: [
       "1 Samuel 17:4",
@@ -1100,12 +1497,47 @@ export const nodes: ContentNode[] = [
     ],
 
     relations: [
-      { targetType: "person", targetSlug: "goliath", relationType: "RELATED_PERSON", label: "골리앗" },
-      { targetType: "person", targetSlug: "david", relationType: "RELATED_PERSON", label: "다윗" },
-      { targetType: "place", targetSlug: "valley-of-elah", relationType: "RELATED_PLACE", label: "엘라 골짜기" },
-      { targetType: "story", targetSlug: "david-and-goliath", relationType: "RELATED_STORY", label: "다윗과 골리앗" },
-      { targetType: "period", targetSlug: "rise-of-david", relationType: "RELATED_PERIOD", label: "사울과 다윗의 시대" },
-      { targetType: "book", targetSlug: "1-samuel", relationType: "RELATED_BOOK", label: "사무엘상" },
+      {
+        targetType: "person",
+        targetSlug: "goliath",
+        relationType: "RELATED_PERSON",
+        label: "골리앗",
+      },
+
+      {
+        targetType: "person",
+        targetSlug: "david",
+        relationType: "RELATED_PERSON",
+        label: "다윗",
+      },
+
+      {
+        targetType: "place",
+        targetSlug: "valley-of-elah",
+        relationType: "RELATED_PLACE",
+        label: "엘라 골짜기",
+      },
+
+      {
+        targetType: "story",
+        targetSlug: "david-and-goliath",
+        relationType: "RELATED_STORY",
+        label: "다윗과 골리앗",
+      },
+
+      {
+        targetType: "period",
+        targetSlug: "rise-of-david",
+        relationType: "RELATED_PERIOD",
+        label: "사울과 다윗의 시대",
+      },
+
+      {
+        targetType: "book",
+        targetSlug: "1-samuel",
+        relationType: "RELATED_BOOK",
+        label: "사무엘상",
+      },
     ],
   },
 
@@ -1116,10 +1548,15 @@ export const nodes: ContentNode[] = [
 
   {
     type: "place",
+
     slug: "socoh",
+
     titleKo: "소고",
+
     titleEn: "Socoh",
-    eyebrow: "PLACES · JUDAH",
+
+    eyebrow:
+      "PLACES · JUDAH",
 
     summary:
       "사무엘상 17장에서 블레셋 군대가 진을 친 지역을 설명할 때 언급되는 유다의 장소입니다.",
@@ -1137,16 +1574,48 @@ export const nodes: ContentNode[] = [
         "블레셋 군대가 유다에 속한 소고에 모이고 소고와 아세가 사이에 진을 치면서 다윗과 골리앗 이야기의 전장 배경이 형성됩니다.",
     },
 
-    heroImage: "/assets/scraptura-david-goliath.jpg",
+    heroImage:
+      "/assets/scraptura-david-goliath.jpg",
 
-    scripture: ["1 Samuel 17:1"],
+    scripture: [
+      "1 Samuel 17:1",
+    ],
 
     relations: [
-      { targetType: "place", targetSlug: "valley-of-elah", relationType: "RELATED_PLACE", label: "엘라 골짜기" },
-      { targetType: "place", targetSlug: "azekah", relationType: "RELATED_PLACE", label: "아세가" },
-      { targetType: "story", targetSlug: "david-and-goliath", relationType: "RELATED_STORY", label: "다윗과 골리앗" },
-      { targetType: "period", targetSlug: "rise-of-david", relationType: "RELATED_PERIOD", label: "사울과 다윗의 시대" },
-      { targetType: "book", targetSlug: "1-samuel", relationType: "RELATED_BOOK", label: "사무엘상" },
+      {
+        targetType: "place",
+        targetSlug: "valley-of-elah",
+        relationType: "RELATED_PLACE",
+        label: "엘라 골짜기",
+      },
+
+      {
+        targetType: "place",
+        targetSlug: "azekah",
+        relationType: "RELATED_PLACE",
+        label: "아세가",
+      },
+
+      {
+        targetType: "story",
+        targetSlug: "david-and-goliath",
+        relationType: "RELATED_STORY",
+        label: "다윗과 골리앗",
+      },
+
+      {
+        targetType: "period",
+        targetSlug: "rise-of-david",
+        relationType: "RELATED_PERIOD",
+        label: "사울과 다윗의 시대",
+      },
+
+      {
+        targetType: "book",
+        targetSlug: "1-samuel",
+        relationType: "RELATED_BOOK",
+        label: "사무엘상",
+      },
     ],
   },
 
@@ -1157,10 +1626,15 @@ export const nodes: ContentNode[] = [
 
   {
     type: "place",
+
     slug: "azekah",
+
     titleKo: "아세가",
+
     titleEn: "Azekah",
-    eyebrow: "PLACES · JUDAH",
+
+    eyebrow:
+      "PLACES · JUDAH",
 
     summary:
       "사무엘상 17장에서 소고와 함께 블레셋 진영의 위치를 설명하는 데 사용되는 장소입니다.",
@@ -1178,16 +1652,48 @@ export const nodes: ContentNode[] = [
         "소고와 아세가 사이에 블레셋 진영이 자리하면서 사무엘상 17장의 대치 상황이 시작됩니다.",
     },
 
-    heroImage: "/assets/scraptura-david-goliath.jpg",
+    heroImage:
+      "/assets/scraptura-david-goliath.jpg",
 
-    scripture: ["1 Samuel 17:1"],
+    scripture: [
+      "1 Samuel 17:1",
+    ],
 
     relations: [
-      { targetType: "place", targetSlug: "socoh", relationType: "RELATED_PLACE", label: "소고" },
-      { targetType: "place", targetSlug: "valley-of-elah", relationType: "RELATED_PLACE", label: "엘라 골짜기" },
-      { targetType: "story", targetSlug: "david-and-goliath", relationType: "RELATED_STORY", label: "다윗과 골리앗" },
-      { targetType: "period", targetSlug: "rise-of-david", relationType: "RELATED_PERIOD", label: "사울과 다윗의 시대" },
-      { targetType: "book", targetSlug: "1-samuel", relationType: "RELATED_BOOK", label: "사무엘상" },
+      {
+        targetType: "place",
+        targetSlug: "socoh",
+        relationType: "RELATED_PLACE",
+        label: "소고",
+      },
+
+      {
+        targetType: "place",
+        targetSlug: "valley-of-elah",
+        relationType: "RELATED_PLACE",
+        label: "엘라 골짜기",
+      },
+
+      {
+        targetType: "story",
+        targetSlug: "david-and-goliath",
+        relationType: "RELATED_STORY",
+        label: "다윗과 골리앗",
+      },
+
+      {
+        targetType: "period",
+        targetSlug: "rise-of-david",
+        relationType: "RELATED_PERIOD",
+        label: "사울과 다윗의 시대",
+      },
+
+      {
+        targetType: "book",
+        targetSlug: "1-samuel",
+        relationType: "RELATED_BOOK",
+        label: "사무엘상",
+      },
     ],
   },
 
@@ -1198,10 +1704,15 @@ export const nodes: ContentNode[] = [
 
   {
     type: "place",
+
     slug: "hebron",
+
     titleKo: "헤브론",
+
     titleEn: "Hebron",
-    eyebrow: "PLACES · ROYAL CITY",
+
+    eyebrow:
+      "PLACES · ROYAL CITY",
 
     summary:
       "사울 사후 다윗이 유다의 왕으로 기름 부음을 받고 통치한 장소로, 다윗 왕권의 중요한 전환점입니다.",
@@ -1219,7 +1730,8 @@ export const nodes: ContentNode[] = [
         "유다 사람들이 헤브론에서 다윗에게 기름을 부어 유다 족속의 왕으로 세웁니다. 다윗의 왕권이 실제 통치 단계로 들어가는 핵심 장면입니다.",
     },
 
-    heroImage: "/assets/scraptura-david.jpg",
+    heroImage:
+      "/assets/scraptura-david.jpg",
 
     scripture: [
       "2 Samuel 2:1–4",
@@ -1227,11 +1739,40 @@ export const nodes: ContentNode[] = [
     ],
 
     relations: [
-      { targetType: "story", targetSlug: "david-becomes-king", relationType: "RELATED_STORY", label: "다윗이 왕이 되다" },
-      { targetType: "person", targetSlug: "david", relationType: "RELATED_PERSON", label: "다윗" },
-      { targetType: "place", targetSlug: "jerusalem", relationType: "RELATED_PLACE", label: "예루살렘" },
-      { targetType: "period", targetSlug: "rise-of-david", relationType: "RELATED_PERIOD", label: "사울과 다윗의 시대" },
-      { targetType: "period", targetSlug: "united-kingdom", relationType: "RELATED_PERIOD", label: "통일 왕국" },
+      {
+        targetType: "story",
+        targetSlug: "david-becomes-king",
+        relationType: "RELATED_STORY",
+        label: "다윗이 왕이 되다",
+      },
+
+      {
+        targetType: "person",
+        targetSlug: "david",
+        relationType: "RELATED_PERSON",
+        label: "다윗",
+      },
+
+      {
+        targetType: "place",
+        targetSlug: "jerusalem",
+        relationType: "RELATED_PLACE",
+        label: "예루살렘",
+      },
+
+      {
+        targetType: "period",
+        targetSlug: "rise-of-david",
+        relationType: "RELATED_PERIOD",
+        label: "사울과 다윗의 시대",
+      },
+
+      {
+        targetType: "period",
+        targetSlug: "united-kingdom",
+        relationType: "RELATED_PERIOD",
+        label: "통일 왕국",
+      },
     ],
   },
 
@@ -1242,10 +1783,15 @@ export const nodes: ContentNode[] = [
 
   {
     type: "place",
+
     slug: "mount-gilboa",
+
     titleKo: "길보아산",
+
     titleEn: "Mount Gilboa",
-    eyebrow: "PLACES · BATTLEFIELD",
+
+    eyebrow:
+      "PLACES · BATTLEFIELD",
 
     summary:
       "사무엘상 마지막 장에서 사울과 그의 아들들이 블레셋과 전투를 벌이는 장소입니다.",
@@ -1263,15 +1809,41 @@ export const nodes: ContentNode[] = [
         "이스라엘과 블레셋의 전투에서 사울의 아들들이 죽고 사울의 통치도 끝을 맞습니다. 사무엘상의 마지막 국면을 이루는 사건입니다.",
     },
 
-    heroImage: "/assets/scraptura-david-goliath.jpg",
+    heroImage:
+      "/assets/scraptura-david-goliath.jpg",
 
-    scripture: ["1 Samuel 31:1–6"],
+    scripture: [
+      "1 Samuel 31:1–6",
+    ],
 
     relations: [
-      { targetType: "person", targetSlug: "saul", relationType: "RELATED_PERSON", label: "사울" },
-      { targetType: "person", targetSlug: "jonathan", relationType: "RELATED_PERSON", label: "요나단" },
-      { targetType: "period", targetSlug: "rise-of-david", relationType: "RELATED_PERIOD", label: "사울과 다윗의 시대" },
-      { targetType: "book", targetSlug: "1-samuel", relationType: "RELATED_BOOK", label: "사무엘상" },
+      {
+        targetType: "person",
+        targetSlug: "saul",
+        relationType: "RELATED_PERSON",
+        label: "사울",
+      },
+
+      {
+        targetType: "person",
+        targetSlug: "jonathan",
+        relationType: "RELATED_PERSON",
+        label: "요나단",
+      },
+
+      {
+        targetType: "period",
+        targetSlug: "rise-of-david",
+        relationType: "RELATED_PERIOD",
+        label: "사울과 다윗의 시대",
+      },
+
+      {
+        targetType: "book",
+        targetSlug: "1-samuel",
+        relationType: "RELATED_BOOK",
+        label: "사무엘상",
+      },
     ],
   },
 
@@ -1282,10 +1854,15 @@ export const nodes: ContentNode[] = [
 
   {
     type: "period",
+
     slug: "rise-of-david",
+
     titleKo: "사울과 다윗의 시대",
+
     titleEn: "Saul & The Rise of David",
-    eyebrow: "TIMELINE · EARLY MONARCHY",
+
+    eyebrow:
+      "TIMELINE · EARLY MONARCHY",
 
     summary:
       "사울의 통치와 다윗의 등장이 교차하며 이스라엘 왕정의 초기 역사가 전개되는 시기입니다.",
@@ -1304,6 +1881,7 @@ export const nodes: ContentNode[] = [
         description:
           "사울이 사무엘을 만나 기름 부음을 받고 이스라엘의 왕으로 세워집니다.",
       },
+
       {
         number: "02",
         title: "DAVID IS ANOINTED",
@@ -1311,6 +1889,7 @@ export const nodes: ContentNode[] = [
         description:
           "사무엘이 베들레헴에서 이새의 아들 다윗에게 기름을 붓습니다.",
       },
+
       {
         number: "03",
         title: "THE VALLEY OF ELAH",
@@ -1318,6 +1897,7 @@ export const nodes: ContentNode[] = [
         description:
           "이스라엘과 블레셋이 엘라 골짜기에서 대치하고 다윗이 골리앗과 맞섭니다.",
       },
+
       {
         number: "04",
         title: "SAUL & DAVID",
@@ -1325,6 +1905,7 @@ export const nodes: ContentNode[] = [
         description:
           "다윗의 명성이 높아지는 가운데 사울과 다윗의 관계가 점차 갈등으로 변합니다.",
       },
+
       {
         number: "05",
         title: "DAVID THE FUGITIVE",
@@ -1332,6 +1913,7 @@ export const nodes: ContentNode[] = [
         description:
           "다윗은 사울을 피해 여러 지역을 이동하며 도피 생활을 이어갑니다.",
       },
+
       {
         number: "06",
         title: "THE END OF SAUL",
@@ -1349,18 +1931,89 @@ export const nodes: ContentNode[] = [
     ],
 
     relations: [
-      { targetType: "place", targetSlug: "hebron", relationType: "RELATED_PLACE", label: "헤브론" },
-      { targetType: "place", targetSlug: "mount-gilboa", relationType: "RELATED_PLACE", label: "길보아산" },
-      { targetType: "person", targetSlug: "saul", relationType: "RELATED_PERSON", label: "사울" },
-      { targetType: "person", targetSlug: "david", relationType: "RELATED_PERSON", label: "다윗" },
-      { targetType: "person", targetSlug: "goliath", relationType: "RELATED_PERSON", label: "골리앗" },
-      { targetType: "place", targetSlug: "bethlehem", relationType: "RELATED_PLACE", label: "베들레헴" },
-      { targetType: "place", targetSlug: "valley-of-elah", relationType: "RELATED_PLACE", label: "엘라 골짜기" },
-      { targetType: "place", targetSlug: "gath", relationType: "RELATED_PLACE", label: "가드" },
-      { targetType: "place", targetSlug: "jerusalem", relationType: "RELATED_PLACE", label: "예루살렘" },
-      { targetType: "story", targetSlug: "david-and-goliath", relationType: "RELATED_STORY", label: "다윗과 골리앗" },
-      { targetType: "period", targetSlug: "united-kingdom", relationType: "RELATED_PERIOD", label: "통일 왕국" },
-      { targetType: "book", targetSlug: "1-samuel", relationType: "RELATED_BOOK", label: "사무엘상" },
+      {
+        targetType: "place",
+        targetSlug: "hebron",
+        relationType: "RELATED_PLACE",
+        label: "헤브론",
+      },
+
+      {
+        targetType: "place",
+        targetSlug: "mount-gilboa",
+        relationType: "RELATED_PLACE",
+        label: "길보아산",
+      },
+
+      {
+        targetType: "person",
+        targetSlug: "saul",
+        relationType: "RELATED_PERSON",
+        label: "사울",
+      },
+
+      {
+        targetType: "person",
+        targetSlug: "david",
+        relationType: "RELATED_PERSON",
+        label: "다윗",
+      },
+
+      {
+        targetType: "person",
+        targetSlug: "goliath",
+        relationType: "RELATED_PERSON",
+        label: "골리앗",
+      },
+
+      {
+        targetType: "place",
+        targetSlug: "bethlehem",
+        relationType: "RELATED_PLACE",
+        label: "베들레헴",
+      },
+
+      {
+        targetType: "place",
+        targetSlug: "valley-of-elah",
+        relationType: "RELATED_PLACE",
+        label: "엘라 골짜기",
+      },
+
+      {
+        targetType: "place",
+        targetSlug: "gath",
+        relationType: "RELATED_PLACE",
+        label: "가드",
+      },
+
+      {
+        targetType: "place",
+        targetSlug: "jerusalem",
+        relationType: "RELATED_PLACE",
+        label: "예루살렘",
+      },
+
+      {
+        targetType: "story",
+        targetSlug: "david-and-goliath",
+        relationType: "RELATED_STORY",
+        label: "다윗과 골리앗",
+      },
+
+      {
+        targetType: "period",
+        targetSlug: "united-kingdom",
+        relationType: "RELATED_PERIOD",
+        label: "통일 왕국",
+      },
+
+      {
+        targetType: "book",
+        targetSlug: "1-samuel",
+        relationType: "RELATED_BOOK",
+        label: "사무엘상",
+      },
     ],
   },
 
@@ -1385,13 +2038,61 @@ export const nodes: ContentNode[] = [
       "목동에서 왕이 되기까지 이어지는 다윗의 인물 여정.",
 
     characterJourney: [
-      { number: "01", title: "THE SHEPHERD", scripture: "1 Samuel 16:1–13", description: "다윗은 베들레헴의 이새의 아들로 등장합니다. 형들과 달리 양을 돌보고 있던 다윗은 사무엘에게 기름 부음을 받습니다." },
-      { number: "02", title: "THE WARRIOR", scripture: "1 Samuel 17", description: "엘라 골짜기에서 다윗은 골리앗의 도전을 듣고 그와 맞섭니다. 이 사건을 통해 다윗은 이스라엘 사람들에게 알려지기 시작합니다." },
-      { number: "03", title: "THE FUGITIVE", scripture: "1 Samuel 18–31", description: "사울과 다윗의 관계가 악화되면서 다윗은 사울을 피해 여러 지역을 이동합니다. 이 시기는 다윗이 왕이 되기 전 겪는 긴 도피의 시기를 구성합니다." },
-      { number: "04", title: "THE KING", scripture: "2 Samuel 2:1–7; 5:1–5", description: "사울의 죽음 이후 다윗은 먼저 유다의 왕이 되고, 이후 이스라엘 전체의 왕으로 세워집니다." },
-      { number: "05", title: "JERUSALEM", scripture: "2 Samuel 5:6–12", description: "다윗은 예루살렘을 점령하고 자신의 통치 중심지로 삼습니다. 예루살렘은 이후 이스라엘 왕국의 중요한 중심지가 됩니다." },
-      { number: "06", title: "CONFLICT & CONSEQUENCE", scripture: "2 Samuel 11–18", description: "다윗의 통치 후반에는 밧세바 사건과 왕실 내부의 갈등, 압살롬의 반역 등 심각한 사건들이 이어집니다." },
-      { number: "07", title: "THE LEGACY", scripture: "2 Samuel 23:1–7", description: "다윗의 이야기는 개인의 생애를 넘어 왕조와 언약의 역사로 이어집니다. 이후 성경의 여러 본문에서도 다윗과 그의 왕조가 중요한 기준점으로 등장합니다." },
+      {
+        number: "01",
+        title: "THE SHEPHERD",
+        scripture: "1 Samuel 16:1–13",
+        description:
+          "다윗은 베들레헴의 이새의 아들로 등장합니다. 형들과 달리 양을 돌보고 있던 다윗은 사무엘에게 기름 부음을 받습니다.",
+      },
+
+      {
+        number: "02",
+        title: "THE WARRIOR",
+        scripture: "1 Samuel 17",
+        description:
+          "엘라 골짜기에서 다윗은 골리앗의 도전을 듣고 그와 맞섭니다. 이 사건을 통해 다윗은 이스라엘 사람들에게 알려지기 시작합니다.",
+      },
+
+      {
+        number: "03",
+        title: "THE FUGITIVE",
+        scripture: "1 Samuel 18–31",
+        description:
+          "사울과 다윗의 관계가 악화되면서 다윗은 사울을 피해 여러 지역을 이동합니다. 이 시기는 다윗이 왕이 되기 전 겪는 긴 도피의 시기를 구성합니다.",
+      },
+
+      {
+        number: "04",
+        title: "THE KING",
+        scripture: "2 Samuel 2:1–7; 5:1–5",
+        description:
+          "사울의 죽음 이후 다윗은 먼저 유다의 왕이 되고, 이후 이스라엘 전체의 왕으로 세워집니다.",
+      },
+
+      {
+        number: "05",
+        title: "JERUSALEM",
+        scripture: "2 Samuel 5:6–12",
+        description:
+          "다윗은 예루살렘을 점령하고 자신의 통치 중심지로 삼습니다. 예루살렘은 이후 이스라엘 왕국의 중요한 중심지가 됩니다.",
+      },
+
+      {
+        number: "06",
+        title: "CONFLICT & CONSEQUENCE",
+        scripture: "2 Samuel 11–18",
+        description:
+          "다윗의 통치 후반에는 밧세바 사건과 왕실 내부의 갈등, 압살롬의 반역 등 심각한 사건들이 이어집니다.",
+      },
+
+      {
+        number: "07",
+        title: "THE LEGACY",
+        scripture: "2 Samuel 23:1–7",
+        description:
+          "다윗의 이야기는 개인의 생애를 넘어 왕조와 언약의 역사로 이어집니다. 이후 성경의 여러 본문에서도 다윗과 그의 왕조가 중요한 기준점으로 등장합니다.",
+      },
     ],
 
     heroImage:
@@ -1404,51 +2105,76 @@ export const nodes: ContentNode[] = [
     ],
 
     relations: [
-      { targetType: "story", targetSlug: "david-is-anointed", relationType: "RELATED_STORY", label: "다윗의 기름 부음" },
-      { targetType: "story", targetSlug: "david-and-jonathan", relationType: "RELATED_STORY", label: "다윗과 요나단" },
-      { targetType: "story", targetSlug: "david-becomes-king", relationType: "RELATED_STORY", label: "다윗이 왕이 되다" },
+      {
+        targetType: "story",
+        targetSlug: "david-is-anointed",
+        relationType: "RELATED_STORY",
+        label: "다윗의 기름 부음",
+      },
+
+      {
+        targetType: "story",
+        targetSlug: "david-and-jonathan",
+        relationType: "RELATED_STORY",
+        label: "다윗과 요나단",
+      },
+
+      {
+        targetType: "story",
+        targetSlug: "david-becomes-king",
+        relationType: "RELATED_STORY",
+        label: "다윗이 왕이 되다",
+      },
+
       {
         targetType: "person",
         targetSlug: "goliath",
         relationType: "RELATED_PERSON",
         label: "골리앗",
       },
+
       {
         targetType: "person",
         targetSlug: "saul",
         relationType: "RELATED_PERSON",
         label: "사울",
       },
+
       {
         targetType: "place",
         targetSlug: "bethlehem",
         relationType: "RELATED_PLACE",
         label: "베들레헴",
       },
+
       {
         targetType: "place",
         targetSlug: "valley-of-elah",
         relationType: "RELATED_PLACE",
         label: "엘라 골짜기",
       },
+
       {
         targetType: "place",
         targetSlug: "jerusalem",
         relationType: "RELATED_PLACE",
         label: "예루살렘",
       },
+
       {
         targetType: "story",
         targetSlug: "david-and-goliath",
         relationType: "RELATED_STORY",
         label: "다윗과 골리앗",
       },
+
       {
         targetType: "period",
         targetSlug: "rise-of-david",
         relationType: "RELATED_PERIOD",
         label: "사울과 다윗의 시대",
       },
+
       {
         targetType: "book",
         targetSlug: "1-samuel",
@@ -1456,7 +2182,6 @@ export const nodes: ContentNode[] = [
         label: "사무엘상",
       },
     ],
-
   },
 
 
@@ -1466,10 +2191,15 @@ export const nodes: ContentNode[] = [
 
   {
     type: "place",
+
     slug: "jerusalem",
+
     titleKo: "예루살렘",
+
     titleEn: "Jerusalem",
-    eyebrow: "PLACES · HISTORICAL LAYERS",
+
+    eyebrow:
+      "PLACES · HISTORICAL LAYERS",
 
     summary:
       "왕국과 성전, 멸망과 회복, 복음서의 사건이 중첩되는 핵심 장소.",
@@ -1487,17 +2217,41 @@ export const nodes: ContentNode[] = [
         "다윗은 예루살렘을 점령하고 자신의 통치 중심지로 삼습니다. 이 사건은 다윗의 개인 서사와 이스라엘 왕국의 중심지가 연결되는 중요한 전환점입니다.",
     },
 
-    heroImage: "/assets/scraptura-jerusalem.jpg",
+    heroImage:
+      "/assets/scraptura-jerusalem.jpg",
 
     scripture: [
       "2 Samuel 5:6–12",
     ],
 
     relations: [
-      { targetType: "story", targetSlug: "david-becomes-king", relationType: "RELATED_STORY", label: "다윗이 왕이 되다" },
-      { targetType: "person", targetSlug: "david", relationType: "RELATED_PERSON", label: "다윗" },
-      { targetType: "period", targetSlug: "rise-of-david", relationType: "RELATED_PERIOD", label: "사울과 다윗의 시대" },
-      { targetType: "period", targetSlug: "united-kingdom", relationType: "RELATED_PERIOD", label: "통일 왕국" },
+      {
+        targetType: "story",
+        targetSlug: "david-becomes-king",
+        relationType: "RELATED_STORY",
+        label: "다윗이 왕이 되다",
+      },
+
+      {
+        targetType: "person",
+        targetSlug: "david",
+        relationType: "RELATED_PERSON",
+        label: "다윗",
+      },
+
+      {
+        targetType: "period",
+        targetSlug: "rise-of-david",
+        relationType: "RELATED_PERIOD",
+        label: "사울과 다윗의 시대",
+      },
+
+      {
+        targetType: "period",
+        targetSlug: "united-kingdom",
+        relationType: "RELATED_PERIOD",
+        label: "통일 왕국",
+      },
     ],
   },
 
@@ -1508,10 +2262,15 @@ export const nodes: ContentNode[] = [
 
   {
     type: "period",
+
     slug: "united-kingdom",
+
     titleKo: "통일 왕국",
+
     titleEn: "United Kingdom",
-    eyebrow: "TIMELINE · MONARCHY",
+
+    eyebrow:
+      "TIMELINE · MONARCHY",
 
     summary:
       "이스라엘의 왕정이 형성되고 사울에서 다윗으로 왕권이 이어지며 예루살렘이 왕국의 중심지로 자리 잡아 가는 시대입니다.",
@@ -1530,6 +2289,7 @@ export const nodes: ContentNode[] = [
         description:
           "사울이 이스라엘의 왕으로 세워지며 왕정의 초기 단계가 시작됩니다.",
       },
+
       {
         number: "02",
         title: "THE RISE OF DAVID",
@@ -1537,6 +2297,7 @@ export const nodes: ContentNode[] = [
         description:
           "다윗이 기름 부음을 받고 등장하며 사울의 통치 후반부와 새로운 왕권의 서사가 교차합니다.",
       },
+
       {
         number: "03",
         title: "KING OVER JUDAH",
@@ -1544,6 +2305,7 @@ export const nodes: ContentNode[] = [
         description:
           "사울 사후 다윗은 헤브론에서 유다 족속의 왕으로 기름 부음을 받습니다.",
       },
+
       {
         number: "04",
         title: "KING OVER ISRAEL",
@@ -1551,6 +2313,7 @@ export const nodes: ContentNode[] = [
         description:
           "이스라엘의 장로들이 헤브론에서 다윗에게 나아오고 다윗은 이스라엘의 왕으로 세워집니다.",
       },
+
       {
         number: "05",
         title: "JERUSALEM",
@@ -1558,6 +2321,7 @@ export const nodes: ContentNode[] = [
         description:
           "다윗이 예루살렘을 점령하고 이곳을 통치의 중심지로 삼습니다.",
       },
+
       {
         number: "06",
         title: "THE ARK IN JERUSALEM",
@@ -1577,37 +2341,48 @@ export const nodes: ContentNode[] = [
     ],
 
     relations: [
-      { targetType: "place", targetSlug: "hebron", relationType: "RELATED_PLACE", label: "헤브론" },
+      {
+        targetType: "place",
+        targetSlug: "hebron",
+        relationType: "RELATED_PLACE",
+        label: "헤브론",
+      },
+
       {
         targetType: "person",
         targetSlug: "saul",
         relationType: "RELATED_PERSON",
         label: "사울",
       },
+
       {
         targetType: "person",
         targetSlug: "david",
         relationType: "RELATED_PERSON",
         label: "다윗",
       },
+
       {
         targetType: "place",
         targetSlug: "jerusalem",
         relationType: "RELATED_PLACE",
         label: "예루살렘",
       },
+
       {
         targetType: "place",
         targetSlug: "bethlehem",
         relationType: "RELATED_PLACE",
         label: "베들레헴",
       },
+
       {
         targetType: "period",
         targetSlug: "rise-of-david",
         relationType: "RELATED_PERIOD",
         label: "사울과 다윗의 시대",
       },
+
       {
         targetType: "book",
         targetSlug: "1-samuel",
@@ -1624,10 +2399,15 @@ export const nodes: ContentNode[] = [
 
   {
     type: "book",
+
     slug: "1-samuel",
+
     titleKo: "사무엘상",
+
     titleEn: "1 Samuel",
-    eyebrow: "BIBLE · OLD TESTAMENT",
+
+    eyebrow:
+      "BIBLE · OLD TESTAMENT",
 
     summary:
       "사사 시대의 마지막 국면에서 이스라엘 왕정의 시작, 사울의 통치, 그리고 다윗의 등장을 연결하는 성경의 책입니다.",
@@ -1646,6 +2426,7 @@ export const nodes: ContentNode[] = [
         description:
           "사무엘의 출생과 성장, 엘리 가문, 언약궤 이야기와 사무엘의 지도력이 전개됩니다.",
       },
+
       {
         number: "02",
         title: "ISRAEL ASKS FOR A KING",
@@ -1653,6 +2434,7 @@ export const nodes: ContentNode[] = [
         description:
           "이스라엘 백성이 왕을 요구하면서 왕정의 시작을 향한 중요한 전환이 일어납니다.",
       },
+
       {
         number: "03",
         title: "SAUL",
@@ -1660,6 +2442,7 @@ export const nodes: ContentNode[] = [
         description:
           "사울이 왕으로 세워지고 초기 통치를 시작하지만 이후 사무엘과의 갈등과 책망이 이어집니다.",
       },
+
       {
         number: "04",
         title: "DAVID APPEARS",
@@ -1667,6 +2450,7 @@ export const nodes: ContentNode[] = [
         description:
           "사무엘이 베들레헴에서 다윗에게 기름을 부으면서 다윗의 이야기가 본격적으로 시작됩니다.",
       },
+
       {
         number: "05",
         title: "DAVID & GOLIATH",
@@ -1674,6 +2458,7 @@ export const nodes: ContentNode[] = [
         description:
           "엘라 골짜기에서 다윗과 골리앗의 이야기가 전개되며 다윗이 이스라엘 안에서 크게 부각됩니다.",
       },
+
       {
         number: "06",
         title: "SAUL & DAVID",
@@ -1681,6 +2466,7 @@ export const nodes: ContentNode[] = [
         description:
           "다윗의 명성이 높아지는 가운데 사울과 다윗의 갈등이 깊어지고 다윗의 도피 생활이 이어집니다.",
       },
+
       {
         number: "07",
         title: "THE END OF SAUL",
@@ -1698,85 +2484,304 @@ export const nodes: ContentNode[] = [
     ],
 
     relations: [
-      { targetType: "story", targetSlug: "david-is-anointed", relationType: "RELATED_STORY", label: "다윗의 기름 부음" },
-      { targetType: "story", targetSlug: "david-and-jonathan", relationType: "RELATED_STORY", label: "다윗과 요나단" },
+      {
+        targetType: "story",
+        targetSlug: "david-is-anointed",
+        relationType: "RELATED_STORY",
+        label: "다윗의 기름 부음",
+      },
+
+      {
+        targetType: "story",
+        targetSlug: "david-and-jonathan",
+        relationType: "RELATED_STORY",
+        label: "다윗과 요나단",
+      },
+
       {
         targetType: "person",
         targetSlug: "samuel",
         relationType: "RELATED_PERSON",
         label: "사무엘",
       },
+
       {
         targetType: "person",
         targetSlug: "jonathan",
         relationType: "RELATED_PERSON",
         label: "요나단",
       },
+
       {
         targetType: "person",
         targetSlug: "jesse",
         relationType: "RELATED_PERSON",
         label: "이새",
       },
+
       {
         targetType: "person",
         targetSlug: "eliab",
         relationType: "RELATED_PERSON",
         label: "엘리압",
       },
+
       {
         targetType: "person",
         targetSlug: "saul",
         relationType: "RELATED_PERSON",
         label: "사울",
       },
+
       {
         targetType: "person",
         targetSlug: "david",
         relationType: "RELATED_PERSON",
         label: "다윗",
       },
+
       {
         targetType: "person",
         targetSlug: "goliath",
         relationType: "RELATED_PERSON",
         label: "골리앗",
       },
+
       {
         targetType: "place",
         targetSlug: "bethlehem",
         relationType: "RELATED_PLACE",
         label: "베들레헴",
       },
+
       {
         targetType: "place",
         targetSlug: "valley-of-elah",
         relationType: "RELATED_PLACE",
         label: "엘라 골짜기",
       },
+
       {
         targetType: "place",
         targetSlug: "gath",
         relationType: "RELATED_PLACE",
         label: "가드",
       },
+
       {
         targetType: "story",
         targetSlug: "david-and-goliath",
         relationType: "RELATED_STORY",
         label: "다윗과 골리앗",
       },
+
       {
         targetType: "period",
         targetSlug: "rise-of-david",
         relationType: "RELATED_PERIOD",
         label: "사울과 다윗의 시대",
       },
+
       {
         targetType: "period",
         targetSlug: "united-kingdom",
         relationType: "RELATED_PERIOD",
         label: "통일 왕국",
+      },
+    ],
+  },
+
+
+  /* =====================================================
+     BOOK — GENESIS
+     ===================================================== */
+
+  {
+    type: "book",
+
+    slug: "genesis",
+
+    titleKo: "창세기",
+
+    titleEn: "Genesis",
+
+    eyebrow:
+      "BIBLE · OLD TESTAMENT · PENTATEUCH",
+
+    summary:
+      "창조와 타락, 홍수와 바벨, 그리고 아브라함·이삭·야곱·요셉으로 이어지는 족장들의 이야기를 통해 성경 역사의 시작을 보여주는 책입니다.",
+
+    overview:
+      "창세기는 성경 전체 이야기의 출발점입니다. 창세기 1–11장은 창조, 인간의 타락, 홍수와 바벨을 통해 초기 인류의 이야기를 보여줍니다. 창세기 12장부터는 아브라함을 시작으로 이삭, 야곱, 요셉의 이야기가 이어지며 하나의 가족을 중심으로 성경의 서사가 전개됩니다.",
+
+    biblicalContext:
+      "창세기는 세계와 인간의 기원에서 시작해 아브라함 한 사람의 부르심과 그의 가족 이야기로 초점을 좁혀 갑니다. 창조, 인간의 불순종, 심판과 회복, 언약이라는 주제가 반복되며 마지막에는 야곱의 가족이 이집트로 이동하면서 출애굽기의 역사적·서사적 배경이 형성됩니다.",
+
+    bookSections: [
+      {
+        number: "01",
+        title: "CREATION",
+        scripture: "Genesis 1–2",
+        description:
+          "하늘과 땅, 생명과 인간의 창조가 기록되며 성경 전체의 이야기가 시작됩니다.",
+      },
+
+      {
+        number: "02",
+        title: "EDEN & THE FALL",
+        scripture: "Genesis 3",
+        description:
+          "에덴동산에서 인간의 불순종이 일어나고 창조 세계에 새로운 갈등이 시작됩니다.",
+      },
+
+      {
+        number: "03",
+        title: "THE FLOOD",
+        scripture: "Genesis 6–9",
+        description:
+          "노아와 홍수의 이야기가 전개되고 홍수 이후 하나님과 노아 사이의 언약이 기록됩니다.",
+      },
+
+      {
+        number: "04",
+        title: "BABEL",
+        scripture: "Genesis 11",
+        description:
+          "사람들이 도시와 탑을 세우는 바벨 이야기를 통해 창세기 1–11장의 초기 인류 서사가 마무리됩니다.",
+      },
+
+      {
+        number: "05",
+        title: "ABRAHAM",
+        scripture: "Genesis 12–25",
+        description:
+          "아브람이 고향을 떠나라는 부르심을 받고 가나안으로 이동하며 언약과 약속의 이야기가 본격적으로 시작됩니다.",
+      },
+
+      {
+        number: "06",
+        title: "ISAAC & JACOB",
+        scripture: "Genesis 25–36",
+        description:
+          "아브라함의 후손인 이삭과 야곱의 이야기가 이어지며 족장 가문의 역사가 확장됩니다.",
+      },
+
+      {
+        number: "07",
+        title: "JOSEPH",
+        scripture: "Genesis 37–50",
+        description:
+          "요셉이 이집트로 가게 된 뒤 새로운 삶을 시작하고 결국 야곱의 가족 전체가 이집트로 이동하게 됩니다.",
+      },
+    ],
+
+    heroImage:
+      "/assets/scraptura-home-clean.jpg",
+
+    scripture: [
+      "Genesis 1–50",
+    ],
+
+    relations: [
+      {
+        targetType: "story",
+        targetSlug: "creation",
+        relationType: "RELATED_STORY",
+        label: "창조 이야기",
+      },
+    ],
+  },
+
+
+  /* =====================================================
+     STORY — CREATION
+     ===================================================== */
+
+  {
+    type: "story",
+
+    slug: "creation",
+
+    titleKo: "창조 이야기",
+
+    titleEn: "Creation",
+
+    eyebrow:
+      "STORIES · GENESIS 1–2",
+
+    summary:
+      "창세기 1–2장은 하늘과 땅, 생명과 인간이 창조되는 성경 이야기의 시작을 기록합니다.",
+
+    overview:
+      "창세기의 첫 장면은 세계의 창조로 시작합니다. 빛과 하늘, 땅과 바다, 식물과 천체, 생물과 인간이 순서에 따라 등장하며 창세기 2장은 인간과 에덴동산의 이야기를 보다 가까이에서 보여줍니다.",
+
+    biblicalContext:
+      "창조 이야기는 성경 전체의 출발점으로 기능합니다. 이후 등장하는 인간, 땅, 생명과 안식 같은 주제들은 성경의 다른 이야기에서도 계속 연결됩니다.",
+
+    scenes: [
+      {
+        number: "01",
+        title: "LIGHT",
+        scripture: "Genesis 1:1–5",
+        description:
+          "창세기의 이야기가 시작되고 빛과 어둠이 구분됩니다.",
+      },
+
+      {
+        number: "02",
+        title: "SKY, LAND & SEA",
+        scripture: "Genesis 1:6–10",
+        description:
+          "하늘과 물, 땅과 바다가 구분되며 세계의 공간이 형성됩니다.",
+      },
+
+      {
+        number: "03",
+        title: "LIFE",
+        scripture: "Genesis 1:11–25",
+        description:
+          "식물과 천체, 바다와 하늘의 생물, 땅의 생물이 차례로 등장합니다.",
+      },
+
+      {
+        number: "04",
+        title: "HUMANKIND",
+        scripture: "Genesis 1:26–31",
+        description:
+          "창조 이야기의 후반부에서 인간의 창조가 기록됩니다.",
+      },
+
+      {
+        number: "05",
+        title: "REST",
+        scripture: "Genesis 2:1–3",
+        description:
+          "창조의 과정이 마무리되고 일곱째 날의 안식이 기록됩니다.",
+      },
+
+      {
+        number: "06",
+        title: "EDEN",
+        scripture: "Genesis 2:4–25",
+        description:
+          "창세기 2장은 인간과 에덴동산의 이야기를 보다 구체적으로 전개합니다.",
+      },
+    ],
+
+    heroImage:
+      "/assets/scraptura-home-clean.jpg",
+
+    scripture: [
+      "Genesis 1",
+      "Genesis 2",
+    ],
+
+    relations: [
+      {
+        targetType: "book",
+        targetSlug: "genesis",
+        relationType: "RELATED_BOOK",
+        label: "창세기",
       },
     ],
   },
