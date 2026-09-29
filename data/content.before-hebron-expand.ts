@@ -1702,16 +1702,16 @@ export const nodes: ContentNode[] = [
     titleEn: "Hebron",
 
     eyebrow:
-      "PLACES · PATRIARCHAL & ROYAL CITY",
+      "PLACES · ROYAL CITY",
 
     summary:
-      "아브라함이 머물며 제단을 세우고 가족의 매장지를 마련한 장소이자, 훗날 다윗이 유다의 왕으로 세워져 통치한 성읍으로 족장 시대와 왕정 시대를 연결하는 중요한 장소입니다.",
+      "사울 사후 다윗이 유다의 왕으로 기름 부음을 받고 통치한 장소로, 다윗 왕권의 중요한 전환점입니다.",
 
     overview:
-      "헤브론은 창세기에서 아브라함의 이동과 정착 이야기 속에 등장합니다. 아브라함은 헤브론 인근 마므레 지역에 머물며 제단을 세웠고, 이후 사라가 죽은 뒤 막벨라 밭과 굴을 매입합니다. 수백 년 뒤 사무엘하에서는 다윗이 헤브론으로 올라가 유다의 왕으로 세워지고 이곳에서 통치를 시작합니다.",
+      "사무엘하 2장에서 다윗은 헤브론으로 올라가라는 지시를 받고 그곳에 정착합니다. 이후 유다 사람들이 헤브론에서 다윗에게 기름을 부어 유다 족속의 왕으로 세웁니다.",
 
     biblicalContext:
-      "헤브론은 SCRAPTURA에서 여러 시대가 겹치는 대표적인 장소입니다. 창세기에서는 아브라함과 사라, 족장들의 이야기와 연결되고, 사무엘하에서는 다윗의 왕권 형성과 연결됩니다. 따라서 헤브론은 족장 시대의 가족 서사와 이스라엘 왕정의 형성을 하나의 지리적 공간에서 이어주는 장소입니다.",
+      "헤브론은 다윗의 도피 생활과 예루살렘 통치 사이를 연결하는 장소입니다. 사무엘하 5장은 다윗이 헤브론에서 유다를 7년 6개월 동안 다스렸으며, 이후 이스라엘 전체의 왕으로 세워졌다고 기록합니다.",
 
     keyEvent: {
       title: "David Becomes King in Hebron",
@@ -1724,8 +1724,6 @@ export const nodes: ContentNode[] = [
       "/assets/scraptura-david.jpg",
 
     scripture: [
-      "Genesis 13:18",
-      "Genesis 23:1–20",
       "2 Samuel 2:1–4",
       "2 Samuel 5:1–5",
     ],
@@ -1771,27 +1769,6 @@ export const nodes: ContentNode[] = [
         targetSlug: "united-kingdom",
         relationType: "RELATED_PERIOD",
         label: "통일 왕국",
-      },
-
-      {
-        targetType: "place",
-        targetSlug: "bethel",
-        relationType: "RELATED_PLACE",
-        label: "벧엘",
-      },
-
-      {
-        targetType: "story",
-        targetSlug: "call-of-abraham",
-        relationType: "RELATED_STORY",
-        label: "아브라함의 부르심",
-      },
-
-      {
-        targetType: "book",
-        targetSlug: "genesis",
-        relationType: "RELATED_BOOK",
-        label: "창세기",
       },
     ],
   },
@@ -3556,13 +3533,6 @@ export const nodes: ContentNode[] = [
         targetSlug: "genesis",
         relationType: "RELATED_BOOK",
         label: "창세기",
-      },
-
-      {
-        targetType: "place",
-        targetSlug: "hebron",
-        relationType: "RELATED_PLACE",
-        label: "헤브론",
       },
     ],
   },
