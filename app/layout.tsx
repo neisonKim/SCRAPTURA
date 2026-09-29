@@ -40,7 +40,7 @@ const siteDescription =
  */
 
 const defaultOgImage =
-  "/assets/scraptura-home-clean.jpg";
+  `${siteUrl}/assets/scraptura-home-clean.jpg`;
 
 
 /* =====================================================

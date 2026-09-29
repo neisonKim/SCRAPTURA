@@ -3330,14 +3330,6 @@ export const nodes: ContentNode[] = [
     relations: [
 
       {
-        targetType: "place",
-        targetSlug: "bethel",
-        relationType: "RELATED_PLACE",
-        label: "벧엘",
-      },
-
-
-      {
         targetType:
           "book",
 
@@ -3420,14 +3412,6 @@ export const nodes: ContentNode[] = [
     ],
 
     relations: [
-
-      {
-        targetType: "place",
-        targetSlug: "bethel",
-        relationType: "RELATED_PLACE",
-        label: "벧엘",
-      },
-
       {
         targetType: "person",
         targetSlug: "abraham",
@@ -3447,85 +3431,6 @@ export const nodes: ContentNode[] = [
         targetSlug: "canaan",
         relationType: "RELATED_PLACE",
         label: "가나안",
-      },
-
-      {
-        targetType: "book",
-        targetSlug: "genesis",
-        relationType: "RELATED_BOOK",
-        label: "창세기",
-      },
-    ],
-  },
-
-
-
-  /* =====================================================
-     PLACE — BETHEL
-     ===================================================== */
-
-  {
-    type: "place",
-
-    slug: "bethel",
-
-    titleKo: "벧엘",
-
-    titleEn: "Bethel",
-
-    eyebrow:
-      "PLACES · CANAAN · PATRIARCHAL JOURNEY",
-
-    summary:
-      "아브람이 세겜을 지나 가나안 산지로 이동하면서 장막을 치고 제단을 세운 장소로, 창세기 족장 이야기에서 반복적으로 등장하는 중요한 지역입니다.",
-
-    overview:
-      "창세기 12장에서 아브람은 세겜을 지난 뒤 벧엘 동쪽 산지로 이동합니다. 그는 벧엘과 아이 사이에 장막을 치고 그곳에 제단을 세웁니다. 이후 창세기에서는 야곱의 이야기에서도 벧엘이 중요한 장소로 다시 등장합니다.",
-
-    biblicalContext:
-      "벧엘은 아브라함의 가나안 초기 이동 경로와 야곱의 여정을 함께 연결하는 장소입니다. 아브라함은 이 지역에서 제단을 세웠고, 이후 야곱은 이곳에서 중요한 사건을 경험합니다. 따라서 SCRAPTURA에서는 벧엘을 세겜과 함께 족장 시대의 지리적 연결점으로 구성합니다.",
-
-    keyEvent: {
-      title:
-        "Abraham Reaches Bethel",
-
-      scripture:
-        "Genesis 12:8",
-
-      description:
-        "아브람은 세겜을 떠나 벧엘 동쪽 산지로 이동하고 벧엘과 아이 사이에 장막을 친 뒤 제단을 세웁니다.",
-    },
-
-    heroImage:
-      "/assets/scraptura-home-clean.jpg",
-
-    scripture: [
-      "Genesis 12:8",
-      "Genesis 13:3–4",
-      "Genesis 28:10–22",
-      "Genesis 35:1–15",
-    ],
-
-    relations: [
-      {
-        targetType: "person",
-        targetSlug: "abraham",
-        relationType: "RELATED_PERSON",
-        label: "아브라함",
-      },
-
-      {
-        targetType: "place",
-        targetSlug: "shechem",
-        relationType: "RELATED_PLACE",
-        label: "세겜",
-      },
-
-      {
-        targetType: "story",
-        targetSlug: "call-of-abraham",
-        relationType: "RELATED_STORY",
-        label: "아브라함의 부르심",
       },
 
       {

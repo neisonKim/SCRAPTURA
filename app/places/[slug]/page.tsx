@@ -20,6 +20,10 @@ import {
   adminDb,
 } from "../../../lib/firebaseAdmin";
 
+import {
+  getNode,
+} from "../../../data/content";
+
 
 /*
  * =====================================
@@ -69,29 +73,41 @@ type Relation = {
 type PlaceRecord = {
   id: string;
 
-  type: "place";
+  type:
+    "place";
 
-  slug: string;
+  slug:
+    string;
 
-  titleKo: string;
+  titleKo:
+    string;
 
-  titleEn: string;
+  titleEn:
+    string;
 
-  eyebrow: string;
+  eyebrow:
+    string;
 
-  summary: string;
+  summary:
+    string;
 
-  overview?: string;
+  overview?:
+    string;
 
-  biblicalContext?: string;
+  biblicalContext?:
+    string;
 
-  keyEvent?: KeyEvent;
+  keyEvent?:
+    KeyEvent;
 
-  heroImage: string;
+  heroImage:
+    string;
 
-  scripture: string[];
+  scripture:
+    string[];
 
-  relations: Relation[];
+  relations:
+    Relation[];
 };
 
 
@@ -114,11 +130,12 @@ function normalizeScripture(
   value: unknown
 ) {
   if (
-    !Array.isArray(value)
+    !Array.isArray(
+      value
+    )
   ) {
     return [];
   }
-
 
   return value
     .filter(
@@ -126,13 +143,15 @@ function normalizeScripture(
         item
       ): item is string =>
         typeof item ===
-          "string"
+        "string"
     )
     .map(
       (item) =>
         item.trim()
     )
-    .filter(Boolean);
+    .filter(
+      Boolean
+    );
 }
 
 
@@ -218,7 +237,9 @@ function normalizeRelations(
 ): Relation[] {
 
   if (
-    !Array.isArray(value)
+    !Array.isArray(
+      value
+    )
   ) {
     return [];
   }
@@ -312,7 +333,9 @@ function normalizeRelations(
   return Array.from(
     new Map(
       normalized.map(
-        (relation) => [
+        (
+          relation
+        ) => [
           `${relation.targetType}__${relation.targetSlug}`,
           relation,
         ]
@@ -324,7 +347,85 @@ function normalizeRelations(
 
 /*
  * =====================================
- * FIRESTORE PLACE
+ * LOCAL CONTENT FALLBACK
+ * =====================================
+ */
+
+function getLocalPlace(
+  slugValue: string
+): PlaceRecord | null {
+
+  const slug =
+    slugValue
+      .trim()
+      .toLowerCase();
+
+
+  if (!slug) {
+    return null;
+  }
+
+
+  const local =
+    getNode(
+      "place",
+      slug
+    );
+
+
+  if (!local) {
+    return null;
+  }
+
+
+  return {
+    id:
+      `local__${local.slug}`,
+
+    type:
+      "place",
+
+    slug:
+      local.slug,
+
+    titleKo:
+      local.titleKo,
+
+    titleEn:
+      local.titleEn,
+
+    eyebrow:
+      local.eyebrow,
+
+    summary:
+      local.summary,
+
+    overview:
+      local.overview,
+
+    biblicalContext:
+      local.biblicalContext,
+
+    keyEvent:
+      local.keyEvent,
+
+    heroImage:
+      local.heroImage,
+
+    scripture:
+      local.scripture ??
+      [],
+
+    relations:
+      local.relations ??
+      [],
+  };
+}
+
+
+/*
+ * =====================================
+ * FIRESTORE + LOCAL PLACE
  * =====================================
  */
 
@@ -348,10 +449,24 @@ const getPlace =
 
 
       /*
+       * 먼저 local content 확보
+       *
+       * Firestore 문서가 없을 경우
+       * 이 데이터를 fallback으로 사용합니다.
+       */
+
+      const localPlace =
+        getLocalPlace(
+          slug
+        );
+
+
+      /*
        * Importer 문서 ID
        *
        * place__valley-of-elah
        * place__jerusalem
+       * place__shechem
        * ...
        */
 
@@ -359,108 +474,200 @@ const getPlace =
         `place__${slug}`;
 
 
-      const snapshot =
-        await adminDb
-          .collection(
-            "contents"
-          )
-          .doc(
-            documentId
-          )
-          .get();
+      try {
+
+        const snapshot =
+          await adminDb
+            .collection(
+              "contents"
+            )
+            .doc(
+              documentId
+            )
+            .get();
 
 
-      if (
-        !snapshot.exists
+        /*
+         * Firestore 문서가 없으면
+         * content.ts fallback 사용
+         */
+
+        if (
+          !snapshot.exists
+        ) {
+
+          return localPlace;
+        }
+
+
+        const data =
+          snapshot.data();
+
+
+        if (!data) {
+          return localPlace;
+        }
+
+
+        /*
+         * Firestore 문서가 실제로 존재하지만
+         * 비공개 상태라면 공개하지 않습니다.
+         */
+
+        if (
+          data.type !==
+            "place" ||
+          data.status !==
+            "published"
+        ) {
+
+          return null;
+        }
+
+
+        /*
+         * Published Firestore 데이터 우선
+         */
+
+        return {
+          id:
+            snapshot.id,
+
+          type:
+            "place",
+
+          slug,
+
+          titleKo:
+            normalizeString(
+              data.titleKo
+            ) ||
+            localPlace?.titleKo ||
+            "",
+
+          titleEn:
+            normalizeString(
+              data.titleEn
+            ) ||
+            localPlace?.titleEn ||
+            "",
+
+          eyebrow:
+            normalizeString(
+              data.eyebrow
+            ) ||
+            localPlace?.eyebrow ||
+            "",
+
+          summary:
+            normalizeString(
+              data.summary
+            ) ||
+            localPlace?.summary ||
+            "",
+
+          overview:
+            normalizeString(
+              data.overview
+            ) ||
+            localPlace?.overview ||
+            undefined,
+
+          biblicalContext:
+            normalizeString(
+              data.biblicalContext
+            ) ||
+            localPlace
+              ?.biblicalContext ||
+            undefined,
+
+          keyEvent:
+            normalizeKeyEvent(
+              data.keyEvent
+            ) ||
+            localPlace?.keyEvent,
+
+          heroImage:
+            normalizeString(
+              data.heroImage
+            ) ||
+            localPlace?.heroImage ||
+            "",
+
+          scripture: (() => {
+
+            const firestore =
+              normalizeScripture(
+                data.scripture
+              );
+
+            if (
+              firestore.length >
+              0
+            ) {
+              return firestore;
+            }
+
+            return (
+              localPlace
+                ?.scripture ??
+              []
+            );
+          })(),
+
+          relations: (() => {
+
+            const firestore =
+              normalizeRelations(
+                data.relations
+              );
+
+            if (
+              firestore.length >
+              0
+            ) {
+              return firestore;
+            }
+
+            return (
+              localPlace
+                ?.relations ??
+              []
+            );
+          })(),
+        };
+
+      }
+      catch (
+        error
       ) {
+
+        /*
+         * Firestore 접근에 문제가 있어도
+         * local content가 존재하면 페이지 유지
+         */
+
+        if (
+          localPlace
+        ) {
+
+          console.warn(
+            `[SCRAPTURA] Firestore place fallback: ${slug}`,
+            error
+          );
+
+          return localPlace;
+        }
+
+
+        console.error(
+          `[SCRAPTURA] Failed to load place: ${slug}`,
+          error
+        );
+
+
         return null;
       }
-
-
-      const data =
-        snapshot.data();
-
-
-      if (!data) {
-        return null;
-      }
-
-
-      /*
-       * 공개된 place만 허용
-       */
-
-      if (
-        data.type !==
-          "place" ||
-        data.status !==
-          "published"
-      ) {
-        return null;
-      }
-
-
-      return {
-        id:
-          snapshot.id,
-
-        type:
-          "place",
-
-        slug,
-
-        titleKo:
-          normalizeString(
-            data.titleKo
-          ),
-
-        titleEn:
-          normalizeString(
-            data.titleEn
-          ),
-
-        eyebrow:
-          normalizeString(
-            data.eyebrow
-          ),
-
-        summary:
-          normalizeString(
-            data.summary
-          ),
-
-        overview:
-          normalizeString(
-            data.overview
-          ) ||
-          undefined,
-
-        biblicalContext:
-          normalizeString(
-            data.biblicalContext
-          ) ||
-          undefined,
-
-        keyEvent:
-          normalizeKeyEvent(
-            data.keyEvent
-          ),
-
-        heroImage:
-          normalizeString(
-            data.heroImage
-          ),
-
-        scripture:
-          normalizeScripture(
-            data.scripture
-          ),
-
-        relations:
-          normalizeRelations(
-            data.relations
-          ),
-      };
     }
   );
 
@@ -493,6 +700,7 @@ export async function generateMetadata({
 
 
   if (!place) {
+
     return {
       title:
         "Place Not Found",
@@ -607,6 +815,7 @@ export default async function Page({
 
 
   if (!place) {
+
     return notFound();
   }
 
@@ -755,34 +964,38 @@ export default async function Page({
             SCRIPTURE
         ================================= */}
 
-        {place
-          .scripture
-          .length >
-          0 && (
+        {
+          place
+            .scripture
+            .length >
+            0 && (
 
-          <section
-            className="journey"
-          >
+            <section
+              className="journey"
+            >
 
-            <small>
-              SCRIPTURE
-            </small>
+              <small>
+                SCRIPTURE
+              </small>
 
-            <h3>
-              주요 성경 기록
-            </h3>
+              <h3>
+                주요 성경 기록
+              </h3>
 
-            <p>
-              {place
-                .scripture
-                .join(
-                  " · "
-                )}
-            </p>
+              <p>
+                {
+                  place
+                    .scripture
+                    .join(
+                      " · "
+                    )
+                }
+              </p>
 
-          </section>
+            </section>
 
-        )}
+          )
+        }
 
 
         {/* =================================

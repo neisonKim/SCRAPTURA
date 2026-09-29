@@ -19,6 +19,10 @@ import {
   db,
 } from "../lib/firebase";
 
+import {
+  getNode,
+} from "../data/content";
+
 
 type BookSection = {
   number: string;
@@ -84,6 +88,73 @@ type BibleBook = {
   relations:
     BibleRelation[];
 };
+
+
+/*
+ * =====================================
+ * STRING CHECK
+ * =====================================
+ */
+
+function hasText(
+  value: unknown
+):
+  value is string {
+
+  return (
+    typeof value ===
+      "string" &&
+    value.trim().length >
+      0
+  );
+}
+
+
+/*
+ * =====================================
+ * STRING ARRAY NORMALIZER
+ * =====================================
+ */
+
+function normalizeStringArray(
+  value: unknown
+):
+  string[] {
+
+  if (
+    !Array.isArray(
+      value
+    )
+  ) {
+
+    return [];
+
+  }
+
+
+  return value
+    .filter(
+      (
+        item
+      ):
+        item is string =>
+          typeof item ===
+          "string"
+    )
+    .map(
+      (
+        item
+      ) =>
+        item.trim()
+    )
+    .filter(
+      (
+        item
+      ) =>
+        item.length >
+        0
+    );
+}
 
 
 /*
@@ -163,7 +234,97 @@ function normalizeBookSections(
         };
 
       }
+    )
+    .filter(
+      (
+        section
+      ) =>
+        section.title.trim() !==
+          "" ||
+        section.scripture.trim() !==
+          "" ||
+        section.description.trim() !==
+          ""
     );
+}
+
+
+/*
+ * =====================================
+ * BOOK SECTION MERGER
+ *
+ * LOCAL 데이터를 먼저 넣고
+ * FIRESTORE 데이터가 있으면
+ * 같은 번호를 덮어씁니다.
+ *
+ * 따라서 Firestore가 우선이며
+ * 누락된 Section만 local에서
+ * 보완합니다.
+ * =====================================
+ */
+
+function mergeBookSections(
+  firebaseSections:
+    BookSection[],
+  localSections:
+    BookSection[]
+):
+  BookSection[] {
+
+  const sectionMap =
+    new Map<
+      string,
+      BookSection
+    >();
+
+
+  localSections.forEach(
+    (
+      section,
+      index
+    ) => {
+
+      const key =
+        section.number.trim() ||
+        String(
+          index + 1
+        );
+
+
+      sectionMap.set(
+        key,
+        section
+      );
+
+    }
+  );
+
+
+  firebaseSections.forEach(
+    (
+      section,
+      index
+    ) => {
+
+      const key =
+        section.number.trim() ||
+        String(
+          index + 1
+        );
+
+
+      sectionMap.set(
+        key,
+        section
+      );
+
+    }
+  );
+
+
+  return Array.from(
+    sectionMap.values()
+  );
 }
 
 
@@ -262,6 +423,95 @@ function normalizeRelations(
 
 /*
  * =====================================
+ * RELATION MERGER
+ *
+ * Firestore + local 관계를 합치고
+ * 같은 관계는 중복 제거합니다.
+ * =====================================
+ */
+
+function mergeRelations(
+  firebaseRelations:
+    BibleRelation[],
+  localRelations:
+    BibleRelation[]
+):
+  BibleRelation[] {
+
+  const relationMap =
+    new Map<
+      string,
+      BibleRelation
+    >();
+
+
+  /*
+   * LOCAL
+   */
+
+  localRelations.forEach(
+    (
+      relation
+    ) => {
+
+      const key =
+        [
+          relation.targetType,
+          relation.targetSlug,
+          relation.relationType,
+        ].join(
+          "::"
+        );
+
+
+      relationMap.set(
+        key,
+        relation
+      );
+
+    }
+  );
+
+
+  /*
+   * FIRESTORE
+   *
+   * 동일 관계는 Firestore 값을
+   * 최종 우선합니다.
+   */
+
+  firebaseRelations.forEach(
+    (
+      relation
+    ) => {
+
+      const key =
+        [
+          relation.targetType,
+          relation.targetSlug,
+          relation.relationType,
+        ].join(
+          "::"
+        );
+
+
+      relationMap.set(
+        key,
+        relation
+      );
+
+    }
+  );
+
+
+  return Array.from(
+    relationMap.values()
+  );
+}
+
+
+/*
+ * =====================================
  * COMPONENT
  * =====================================
  */
@@ -322,8 +572,45 @@ export default function BibleDetailFirebase({
 
 
           /*
-           * 일반 사용자는
-           * published 콘텐츠만 조회
+           * ---------------------------------
+           * LOCAL FALLBACK
+           *
+           * data/content.ts
+           * ---------------------------------
+           */
+
+          const localNode =
+            getNode(
+              "book",
+              slug
+            );
+
+
+          const localScripture =
+            normalizeStringArray(
+              localNode?.scripture
+            );
+
+
+          const localBookSections =
+            normalizeBookSections(
+              localNode?.bookSections
+            );
+
+
+          const localRelations =
+            normalizeRelations(
+              localNode?.relations
+            );
+
+
+          /*
+           * ---------------------------------
+           * FIRESTORE
+           *
+           * 일반 사용자는 published
+           * 콘텐츠만 조회
+           * ---------------------------------
            */
 
           const bookQuery =
@@ -386,6 +673,14 @@ export default function BibleDetailFirebase({
             );
 
 
+          /*
+           * Firestore Published 문서가
+           * 존재해야 공개 페이지 노출.
+           *
+           * local content는 상세 필드
+           * 보완 용도로만 사용합니다.
+           */
+
           if (
             !documentSnapshot
           ) {
@@ -429,23 +724,60 @@ export default function BibleDetailFirebase({
 
 
           /*
-           * SCRIPTURE
+           * ---------------------------------
+           * FIRESTORE NORMALIZE
+           * ---------------------------------
            */
 
-          const scripture =
-            Array.isArray(
+          const firebaseScripture =
+            normalizeStringArray(
               data.scripture
-            )
-              ? data.scripture
-                  .filter(
-                    (
-                      item
-                    ):
-                      item is string =>
-                        typeof item ===
-                        "string"
-                  )
-              : [];
+            );
+
+
+          const firebaseBookSections =
+            normalizeBookSections(
+              data.bookSections
+            );
+
+
+          const firebaseRelations =
+            normalizeRelations(
+              data.relations
+            );
+
+
+          /*
+           * ---------------------------------
+           * MERGED DETAIL
+           *
+           * 우선순위:
+           *
+           * 1. Firestore
+           * 2. data/content.ts
+           * 3. 기본값
+           * ---------------------------------
+           */
+
+          const mergedBookSections =
+            mergeBookSections(
+              firebaseBookSections,
+              localBookSections
+            );
+
+
+          const mergedRelations =
+            mergeRelations(
+              firebaseRelations,
+              localRelations
+            );
+
+
+          const mergedScripture =
+            firebaseScripture.length >
+            0
+              ? firebaseScripture
+              : localScripture;
 
 
           /*
@@ -458,59 +790,168 @@ export default function BibleDetailFirebase({
             slug:
               data.slug,
 
+
             titleKo:
-              data.titleKo,
+              hasText(
+                data.titleKo
+              )
+                ? data.titleKo
+                : localNode?.titleKo ??
+                  "",
+
 
             titleEn:
-              data.titleEn,
+              hasText(
+                data.titleEn
+              )
+                ? data.titleEn
+                : localNode?.titleEn ??
+                  "",
+
 
             eyebrow:
-              typeof data.eyebrow ===
-              "string"
+              hasText(
+                data.eyebrow
+              )
                 ? data.eyebrow
-                : "BIBLE",
+                : localNode?.eyebrow ??
+                  "BIBLE",
+
 
             summary:
-              data.summary,
+              hasText(
+                data.summary
+              )
+                ? data.summary
+                : localNode?.summary ??
+                  "",
+
 
             heroImage:
-              typeof data.heroImage ===
-                "string" &&
-              data.heroImage.trim()
+              hasText(
+                data.heroImage
+              )
                 ? data.heroImage
-                : "/assets/scraptura-home-clean.jpg",
+                : localNode?.heroImage ??
+                  "/assets/scraptura-home-clean.jpg",
+
 
             overview:
-              typeof data.overview ===
-                "string" &&
-              data.overview.trim()
+              hasText(
+                data.overview
+              )
                 ? data.overview
-                : undefined,
+                : localNode?.overview &&
+                  localNode.overview.trim()
+                    ? localNode.overview
+                    : undefined,
+
 
             biblicalContext:
-              typeof data.biblicalContext ===
-                "string" &&
-              data.biblicalContext.trim()
+              hasText(
+                data.biblicalContext
+              )
                 ? data.biblicalContext
-                : undefined,
+                : localNode?.biblicalContext &&
+                  localNode.biblicalContext.trim()
+                    ? localNode.biblicalContext
+                    : undefined,
 
-            scripture,
+
+            scripture:
+              mergedScripture,
+
 
             bookSections:
-              normalizeBookSections(
-                data.bookSections
-              ),
+              mergedBookSections,
+
 
             relations:
-              normalizeRelations(
-                data.relations
-              ),
+              mergedRelations,
+
           };
 
 
-          setBook(
-            firebaseBook
-          );
+          /*
+           * 개발 중 어떤 데이터가
+           * fallback 되었는지 확인용
+           */
+
+          if (
+            process.env.NODE_ENV ===
+            "development"
+          ) {
+
+            console.info(
+              "[SCRAPTURA Bible Detail]",
+              {
+                slug,
+
+                source:
+                  "Firestore + local fallback",
+
+                firestore: {
+                  overview:
+                    hasText(
+                      data.overview
+                    ),
+
+                  biblicalContext:
+                    hasText(
+                      data.biblicalContext
+                    ),
+
+                  bookSections:
+                    firebaseBookSections.length,
+
+                  scripture:
+                    firebaseScripture.length,
+
+                  relations:
+                    firebaseRelations.length,
+                },
+
+                local: {
+                  found:
+                    Boolean(
+                      localNode
+                    ),
+
+                  bookSections:
+                    localBookSections.length,
+
+                  scripture:
+                    localScripture.length,
+
+                  relations:
+                    localRelations.length,
+                },
+
+                merged: {
+                  bookSections:
+                    mergedBookSections.length,
+
+                  scripture:
+                    mergedScripture.length,
+
+                  relations:
+                    mergedRelations.length,
+                },
+              }
+            );
+
+          }
+
+
+          if (
+            !cancelled
+          ) {
+
+            setBook(
+              firebaseBook
+            );
+
+          }
 
         } catch (
           error
