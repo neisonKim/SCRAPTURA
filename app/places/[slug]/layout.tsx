@@ -34,13 +34,13 @@ export async function generateMetadata({
 
 
   return buildContentMetadata(
-    "place",
+    "person",
     slug
   );
 }
 
 
-export default function PlaceDetailLayout({
+export default function PersonDetailLayout({
   children,
 }: LayoutProps) {
 

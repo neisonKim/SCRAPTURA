@@ -20,6 +20,10 @@ import {
   adminDb,
 } from "../../../lib/firebaseAdmin";
 
+import {
+  getNode,
+} from "../../../data/content";
+
 
 /*
  * =====================================
@@ -70,21 +74,29 @@ type Relation = {
 type PersonRecord = {
   id: string;
 
-  type: "person";
+  type:
+    "person";
 
-  slug: string;
+  slug:
+    string;
 
-  titleKo: string;
+  titleKo:
+    string;
 
-  titleEn: string;
+  titleEn:
+    string;
 
-  eyebrow: string;
+  eyebrow:
+    string;
 
-  summary: string;
+  summary:
+    string;
 
-  overview?: string;
+  overview?:
+    string;
 
-  heroImage: string;
+  heroImage:
+    string;
 
   characterJourney:
     CharacterStage[];
@@ -118,7 +130,9 @@ function normalizeCharacterJourney(
 ): CharacterStage[] {
 
   if (
-    !Array.isArray(value)
+    !Array.isArray(
+      value
+    )
   ) {
     return [];
   }
@@ -141,7 +155,10 @@ function normalizeCharacterJourney(
 
         const data =
           item as
-            Record<string, unknown>;
+            Record<
+              string,
+              unknown
+            >;
 
 
         return {
@@ -179,8 +196,11 @@ function normalizeCharacterJourney(
 function normalizeScripture(
   value: unknown
 ) {
+
   if (
-    !Array.isArray(value)
+    !Array.isArray(
+      value
+    )
   ) {
     return [];
   }
@@ -198,7 +218,9 @@ function normalizeScripture(
       (item) =>
         item.trim()
     )
-    .filter(Boolean);
+    .filter(
+      Boolean
+    );
 }
 
 
@@ -228,7 +250,9 @@ function normalizeRelations(
 ): Relation[] {
 
   if (
-    !Array.isArray(value)
+    !Array.isArray(
+      value
+    )
   ) {
     return [];
   }
@@ -315,14 +339,12 @@ function normalizeRelations(
       );
 
 
-  /*
-   * 동일 대상 Relation 중복 제거
-   */
-
   return Array.from(
     new Map(
       normalized.map(
-        (relation) => [
+        (
+          relation
+        ) => [
           `${relation.targetType}__${relation.targetSlug}`,
           relation,
         ]
@@ -334,12 +356,84 @@ function normalizeRelations(
 
 /*
  * =====================================
- * FIRESTORE PERSON
+ * LOCAL PERSON FALLBACK
  * =====================================
- *
- * Importer에서 문서 ID를
- * person__slug 형식으로 저장했기 때문에
- * 직접 문서를 조회합니다.
+ */
+
+function getLocalPerson(
+  slugValue: string
+): PersonRecord | null {
+
+  const slug =
+    slugValue
+      .trim()
+      .toLowerCase();
+
+
+  if (!slug) {
+    return null;
+  }
+
+
+  const local =
+    getNode(
+      "person",
+      slug
+    );
+
+
+  if (!local) {
+    return null;
+  }
+
+
+  return {
+    id:
+      `local__${local.slug}`,
+
+    type:
+      "person",
+
+    slug:
+      local.slug,
+
+    titleKo:
+      local.titleKo,
+
+    titleEn:
+      local.titleEn,
+
+    eyebrow:
+      local.eyebrow,
+
+    summary:
+      local.summary,
+
+    overview:
+      local.overview,
+
+    heroImage:
+      local.heroImage,
+
+    characterJourney:
+      local.characterJourney ??
+      [],
+
+    scripture:
+      local.scripture ??
+      [],
+
+    relations:
+      local.relations ??
+      [],
+  };
+}
+
+
+/*
+ * =====================================
+ * FIRESTORE + LOCAL PERSON
+ * =====================================
  */
 
 const getPerson =
@@ -361,105 +455,243 @@ const getPerson =
       }
 
 
+      /*
+       * 먼저 content.ts에서
+       * fallback 데이터를 확보합니다.
+       */
+
+      const localPerson =
+        getLocalPerson(
+          slug
+        );
+
+
+      /*
+       * Firestore importer
+       *
+       * person__david
+       * person__saul
+       * person__abraham
+       * person__isaac
+       * ...
+       */
+
       const documentId =
         `person__${slug}`;
 
 
-      const snapshot =
-        await adminDb
-          .collection(
-            "contents"
-          )
-          .doc(
-            documentId
-          )
-          .get();
+      try {
+
+        const snapshot =
+          await adminDb
+            .collection(
+              "contents"
+            )
+            .doc(
+              documentId
+            )
+            .get();
 
 
-      if (
-        !snapshot.exists
+        /*
+         * Firestore 문서가 없으면
+         * content.ts 사용
+         */
+
+        if (
+          !snapshot.exists
+        ) {
+          return localPerson;
+        }
+
+
+        const data =
+          snapshot.data();
+
+
+        if (!data) {
+          return localPerson;
+        }
+
+
+        /*
+         * 실제 Firestore 문서가 존재하지만
+         * published가 아니라면 공개하지 않습니다.
+         */
+
+        if (
+          data.type !==
+            "person" ||
+          data.status !==
+            "published"
+        ) {
+          return null;
+        }
+
+
+        /*
+         * Firestore 값 우선
+         * 비어 있는 값만 local fallback
+         */
+
+        return {
+          id:
+            snapshot.id,
+
+          type:
+            "person",
+
+          slug,
+
+          titleKo:
+            normalizeString(
+              data.titleKo
+            ) ||
+            localPerson?.titleKo ||
+            "",
+
+          titleEn:
+            normalizeString(
+              data.titleEn
+            ) ||
+            localPerson?.titleEn ||
+            "",
+
+          eyebrow:
+            normalizeString(
+              data.eyebrow
+            ) ||
+            localPerson?.eyebrow ||
+            "",
+
+          summary:
+            normalizeString(
+              data.summary
+            ) ||
+            localPerson?.summary ||
+            "",
+
+          overview:
+            normalizeString(
+              data.overview
+            ) ||
+            localPerson?.overview ||
+            undefined,
+
+          heroImage:
+            normalizeString(
+              data.heroImage
+            ) ||
+            localPerson?.heroImage ||
+            "",
+
+
+          characterJourney:
+            (() => {
+
+              const firestoreJourney =
+                normalizeCharacterJourney(
+                  data.characterJourney
+                );
+
+
+              if (
+                firestoreJourney.length >
+                0
+              ) {
+                return firestoreJourney;
+              }
+
+
+              return (
+                localPerson
+                  ?.characterJourney ??
+                []
+              );
+            })(),
+
+
+          scripture:
+            (() => {
+
+              const firestoreScripture =
+                normalizeScripture(
+                  data.scripture
+                );
+
+
+              if (
+                firestoreScripture.length >
+                0
+              ) {
+                return firestoreScripture;
+              }
+
+
+              return (
+                localPerson
+                  ?.scripture ??
+                []
+              );
+            })(),
+
+
+          relations:
+            (() => {
+
+              const firestoreRelations =
+                normalizeRelations(
+                  data.relations
+                );
+
+
+              if (
+                firestoreRelations.length >
+                0
+              ) {
+                return firestoreRelations;
+              }
+
+
+              return (
+                localPerson
+                  ?.relations ??
+                []
+              );
+            })(),
+        };
+
+      }
+      catch (
+        error
       ) {
+
+        /*
+         * Firestore 연결 문제 발생 시에도
+         * local person이 있다면 페이지 유지
+         */
+
+        if (
+          localPerson
+        ) {
+
+          console.warn(
+            `[SCRAPTURA] Firestore person fallback: ${slug}`,
+            error
+          );
+
+          return localPerson;
+        }
+
+
+        console.error(
+          `[SCRAPTURA] Failed to load person: ${slug}`,
+          error
+        );
+
+
         return null;
       }
-
-
-      const data =
-        snapshot.data();
-
-
-      if (!data) {
-        return null;
-      }
-
-
-      /*
-       * 공개된 person만 허용
-       */
-
-      if (
-        data.type !==
-          "person" ||
-        data.status !==
-          "published"
-      ) {
-        return null;
-      }
-
-
-      return {
-        id:
-          snapshot.id,
-
-        type:
-          "person",
-
-        slug,
-
-        titleKo:
-          normalizeString(
-            data.titleKo
-          ),
-
-        titleEn:
-          normalizeString(
-            data.titleEn
-          ),
-
-        eyebrow:
-          normalizeString(
-            data.eyebrow
-          ),
-
-        summary:
-          normalizeString(
-            data.summary
-          ),
-
-        overview:
-          normalizeString(
-            data.overview
-          ) || undefined,
-
-        heroImage:
-          normalizeString(
-            data.heroImage
-          ),
-
-        characterJourney:
-          normalizeCharacterJourney(
-            data.characterJourney
-          ),
-
-        scripture:
-          normalizeScripture(
-            data.scripture
-          ),
-
-        relations:
-          normalizeRelations(
-            data.relations
-          ),
-      };
     }
   );
 
@@ -492,6 +724,7 @@ export async function generateMetadata({
 
 
   if (!person) {
+
     return {
       title:
         "Person Not Found",
@@ -606,6 +839,7 @@ export default async function Page({
 
 
   if (!person) {
+
     return notFound();
   }
 
@@ -672,134 +906,144 @@ export default async function Page({
             CHARACTER JOURNEY
         ================================= */}
 
-        {person
-          .characterJourney
-          .length >
+        {
+          person
+            .characterJourney
+            .length >
           0 && (
 
-          <section
-            className="journey characterJourney"
-          >
-
-            <div
-              className="characterJourneyHeader"
+            <section
+              className="journey characterJourney"
             >
 
-              <small>
-                CHARACTER JOURNEY
-              </small>
+              <div
+                className="characterJourneyHeader"
+              >
 
-              <h3>
-                {person.titleKo}
-                의 여정
-              </h3>
+                <small>
+                  CHARACTER JOURNEY
+                </small>
 
-              <p>
-                성경 본문을 따라
-                인물의 주요 장면과
-                변화를 순서대로
-                살펴봅니다.
-              </p>
+                <h3>
+                  {
+                    person.titleKo
+                  }
+                  의 여정
+                </h3>
 
-            </div>
+                <p>
+                  성경 본문을 따라
+                  인물의 주요 장면과
+                  변화를 순서대로
+                  살펴봅니다.
+                </p>
 
-
-            <div
-              className="characterJourneyList"
-            >
-
-              {person
-                .characterJourney
-                .map(
-                  (
-                    stage,
-                    index
-                  ) => (
-
-                    <article
-                      className="characterStage"
-                      key={
-                        `${stage.number}-${index}`
-                      }
-                    >
-
-                      <div
-                        className="characterStageNumber"
-                      >
-                        {
-                          stage.number
-                        }
-                      </div>
+              </div>
 
 
-                      <div
-                        className="characterStageContent"
-                      >
+              <div
+                className="characterJourneyList"
+              >
 
-                        <small>
-                          {
-                            stage.scripture
+                {
+                  person
+                    .characterJourney
+                    .map(
+                      (
+                        stage,
+                        index
+                      ) => (
+
+                        <article
+                          className="characterStage"
+                          key={
+                            `${stage.number}-${index}`
                           }
-                        </small>
+                        >
 
-                        <h4>
-                          {
-                            stage.title
-                          }
-                        </h4>
+                          <div
+                            className="characterStageNumber"
+                          >
+                            {
+                              stage.number
+                            }
+                          </div>
 
-                        <p>
-                          {
-                            stage.description
-                          }
-                        </p>
 
-                      </div>
+                          <div
+                            className="characterStageContent"
+                          >
 
-                    </article>
+                            <small>
+                              {
+                                stage.scripture
+                              }
+                            </small>
 
-                  )
-                )}
+                            <h4>
+                              {
+                                stage.title
+                              }
+                            </h4>
 
-            </div>
+                            <p>
+                              {
+                                stage.description
+                              }
+                            </p>
 
-          </section>
+                          </div>
 
-        )}
+                        </article>
+
+                      )
+                    )
+                }
+
+              </div>
+
+            </section>
+
+          )
+        }
 
 
         {/* =================================
             SCRIPTURE
         ================================= */}
 
-        {person
-          .scripture
-          .length >
+        {
+          person
+            .scripture
+            .length >
           0 && (
 
-          <section
-            className="journey"
-          >
+            <section
+              className="journey"
+            >
 
-            <small>
-              SCRIPTURE
-            </small>
+              <small>
+                SCRIPTURE
+              </small>
 
-            <h3>
-              주요 성경 기록
-            </h3>
+              <h3>
+                주요 성경 기록
+              </h3>
 
-            <p>
-              {person
-                .scripture
-                .join(
-                  " · "
-                )}
-            </p>
+              <p>
+                {
+                  person
+                    .scripture
+                    .join(
+                      " · "
+                    )
+                }
+              </p>
 
-          </section>
+            </section>
 
-        )}
+          )
+        }
 
 
         {/* =================================
