@@ -28,6 +28,10 @@ import {
   adminDb,
 } from "../../../lib/firebaseAdmin";
 
+import {
+  getNode,
+} from "../../../data/content";
+
 
 /*
  * =====================================
@@ -79,21 +83,29 @@ type Relation = {
 type StoryRecord = {
   id: string;
 
-  type: "story";
+  type:
+    "story";
 
-  slug: string;
+  slug:
+    string;
 
-  titleKo: string;
+  titleKo:
+    string;
 
-  titleEn: string;
+  titleEn:
+    string;
 
-  eyebrow: string;
+  eyebrow:
+    string;
 
-  summary: string;
+  summary:
+    string;
 
-  overview?: string;
+  overview?:
+    string;
 
-  heroImage: string;
+  heroImage:
+    string;
 
   scenes:
     StoryScene[];
@@ -115,7 +127,9 @@ type StoryRecord = {
 function normalizeString(
   value: unknown
 ) {
-  return typeof value === "string"
+
+  return typeof value ===
+    "string"
     ? value
     : "";
 }
@@ -126,7 +140,9 @@ function normalizeScenes(
 ): StoryScene[] {
 
   if (
-    !Array.isArray(value)
+    !Array.isArray(
+      value
+    )
   ) {
     return [];
   }
@@ -202,7 +218,9 @@ function normalizeScripture(
 ) {
 
   if (
-    !Array.isArray(value)
+    !Array.isArray(
+      value
+    )
   ) {
     return [];
   }
@@ -220,7 +238,9 @@ function normalizeScripture(
       (item) =>
         item.trim()
     )
-    .filter(Boolean);
+    .filter(
+      Boolean
+    );
 }
 
 
@@ -250,7 +270,9 @@ function normalizeRelations(
 ): Relation[] {
 
   if (
-    !Array.isArray(value)
+    !Array.isArray(
+      value
+    )
   ) {
     return [];
   }
@@ -338,13 +360,15 @@ function normalizeRelations(
 
 
   /*
-   * 같은 대상 Relation 중복 제거
+   * 동일 대상 Relation 중복 제거
    */
 
   return Array.from(
     new Map(
       normalized.map(
-        (relation) => [
+        (
+          relation
+        ) => [
           `${relation.targetType}__${relation.targetSlug}`,
           relation,
         ]
@@ -412,7 +436,83 @@ function sceneImageExists(
 
 /*
  * =====================================
- * FIRESTORE STORY
+ * LOCAL STORY FALLBACK
+ * =====================================
+ */
+
+function getLocalStory(
+  slugValue: string
+): StoryRecord | null {
+
+  const slug =
+    slugValue
+      .trim()
+      .toLowerCase();
+
+
+  if (!slug) {
+    return null;
+  }
+
+
+  const local =
+    getNode(
+      "story",
+      slug
+    );
+
+
+  if (!local) {
+    return null;
+  }
+
+
+  return {
+    id:
+      `local__${local.slug}`,
+
+    type:
+      "story",
+
+    slug:
+      local.slug,
+
+    titleKo:
+      local.titleKo,
+
+    titleEn:
+      local.titleEn,
+
+    eyebrow:
+      local.eyebrow,
+
+    summary:
+      local.summary,
+
+    overview:
+      local.overview,
+
+    heroImage:
+      local.heroImage,
+
+    scenes:
+      local.scenes ??
+      [],
+
+    scripture:
+      local.scripture ??
+      [],
+
+    relations:
+      local.relations ??
+      [],
+  };
+}
+
+
+/*
+ * =====================================
+ * FIRESTORE + LOCAL STORY
  * =====================================
  */
 
@@ -436,10 +536,22 @@ const getStory =
 
 
       /*
-       * Importer 문서 ID
+       * 먼저 content.ts에서
+       * fallback Story 확보
+       */
+
+      const localStory =
+        getLocalStory(
+          slug
+        );
+
+
+      /*
+       * Firestore importer 문서 ID
        *
        * story__david-and-goliath
        * story__david-is-anointed
+       * story__ten-commandments
        * ...
        */
 
@@ -447,102 +559,225 @@ const getStory =
         `story__${slug}`;
 
 
-      const snapshot =
-        await adminDb
-          .collection(
-            "contents"
-          )
-          .doc(
-            documentId
-          )
-          .get();
+      try {
+
+        const snapshot =
+          await adminDb
+            .collection(
+              "contents"
+            )
+            .doc(
+              documentId
+            )
+            .get();
 
 
-      if (
-        !snapshot.exists
+        /*
+         * Firestore 문서가 없다면
+         * content.ts Story 사용
+         */
+
+        if (
+          !snapshot.exists
+        ) {
+
+          return localStory;
+        }
+
+
+        const data =
+          snapshot.data();
+
+
+        if (!data) {
+
+          return localStory;
+        }
+
+
+        /*
+         * Firestore에 실제 문서가 존재하지만
+         * 비공개 상태라면 공개하지 않음
+         */
+
+        if (
+          data.type !==
+            "story" ||
+          data.status !==
+            "published"
+        ) {
+
+          return null;
+        }
+
+
+        /*
+         * Firestore 우선
+         * 빈 데이터는 local fallback
+         */
+
+        return {
+          id:
+            snapshot.id,
+
+          type:
+            "story",
+
+          slug,
+
+          titleKo:
+            normalizeString(
+              data.titleKo
+            ) ||
+            localStory?.titleKo ||
+            "",
+
+          titleEn:
+            normalizeString(
+              data.titleEn
+            ) ||
+            localStory?.titleEn ||
+            "",
+
+          eyebrow:
+            normalizeString(
+              data.eyebrow
+            ) ||
+            localStory?.eyebrow ||
+            "",
+
+          summary:
+            normalizeString(
+              data.summary
+            ) ||
+            localStory?.summary ||
+            "",
+
+          overview:
+            normalizeString(
+              data.overview
+            ) ||
+            localStory?.overview ||
+            undefined,
+
+          heroImage:
+            normalizeString(
+              data.heroImage
+            ) ||
+            localStory?.heroImage ||
+            "",
+
+
+          scenes:
+            (() => {
+
+              const firestoreScenes =
+                normalizeScenes(
+                  data.scenes
+                );
+
+
+              if (
+                firestoreScenes.length >
+                0
+              ) {
+
+                return firestoreScenes;
+              }
+
+
+              return (
+                localStory
+                  ?.scenes ??
+                []
+              );
+            })(),
+
+
+          scripture:
+            (() => {
+
+              const firestoreScripture =
+                normalizeScripture(
+                  data.scripture
+                );
+
+
+              if (
+                firestoreScripture.length >
+                0
+              ) {
+
+                return firestoreScripture;
+              }
+
+
+              return (
+                localStory
+                  ?.scripture ??
+                []
+              );
+            })(),
+
+
+          relations:
+            (() => {
+
+              const firestoreRelations =
+                normalizeRelations(
+                  data.relations
+                );
+
+
+              if (
+                firestoreRelations.length >
+                0
+              ) {
+
+                return firestoreRelations;
+              }
+
+
+              return (
+                localStory
+                  ?.relations ??
+                []
+              );
+            })(),
+        };
+
+      }
+      catch (
+        error
       ) {
+
+        /*
+         * Firestore 접근 오류가 있어도
+         * content.ts Story가 있으면 페이지 유지
+         */
+
+        if (
+          localStory
+        ) {
+
+          console.warn(
+            `[SCRAPTURA] Firestore story fallback: ${slug}`,
+            error
+          );
+
+
+          return localStory;
+        }
+
+
+        console.error(
+          `[SCRAPTURA] Failed to load story: ${slug}`,
+          error
+        );
+
+
         return null;
       }
-
-
-      const data =
-        snapshot.data();
-
-
-      if (!data) {
-        return null;
-      }
-
-
-      /*
-       * Published Story만 공개
-       */
-
-      if (
-        data.type !==
-          "story" ||
-        data.status !==
-          "published"
-      ) {
-        return null;
-      }
-
-
-      return {
-        id:
-          snapshot.id,
-
-        type:
-          "story",
-
-        slug,
-
-        titleKo:
-          normalizeString(
-            data.titleKo
-          ),
-
-        titleEn:
-          normalizeString(
-            data.titleEn
-          ),
-
-        eyebrow:
-          normalizeString(
-            data.eyebrow
-          ),
-
-        summary:
-          normalizeString(
-            data.summary
-          ),
-
-        overview:
-          normalizeString(
-            data.overview
-          ) ||
-          undefined,
-
-        heroImage:
-          normalizeString(
-            data.heroImage
-          ),
-
-        scenes:
-          normalizeScenes(
-            data.scenes
-          ),
-
-        scripture:
-          normalizeScripture(
-            data.scripture
-          ),
-
-        relations:
-          normalizeRelations(
-            data.relations
-          ),
-      };
     }
   );
 
@@ -575,6 +810,7 @@ export async function generateMetadata({
 
 
   if (!story) {
+
     return {
       title:
         "Story Not Found",
@@ -689,6 +925,7 @@ export default async function Page({
 
 
   if (!story) {
+
     return notFound();
   }
 
@@ -736,7 +973,9 @@ export default async function Page({
           </small>
 
           <h3>
-            {story.titleKo}
+            {
+              story.titleKo
+            }
             {" "}
             탐험
           </h3>
@@ -755,154 +994,164 @@ export default async function Page({
             SCENE SEQUENCE
         ================================= */}
 
-        {story
-          .scenes
-          .length >
+        {
+          story
+            .scenes
+            .length >
           0 && (
 
-          <section
-            className="journey"
-          >
-
-            <small>
-              SCENE SEQUENCE
-            </small>
-
-            <h3>
-              이야기의 흐름을
-              장면별로 따라가세요
-            </h3>
-
-
-            <div
-              className="storyScenes"
+            <section
+              className="journey"
             >
 
-              {story.scenes.map(
-                (
-                  scene,
-                  index
-                ) => {
+              <small>
+                SCENE SEQUENCE
+              </small>
 
-                  const hasImage =
-                    sceneImageExists(
-                      scene.image
-                    );
+              <h3>
+                이야기의 흐름을
+                장면별로 따라가세요
+              </h3>
 
 
-                  return (
+              <div
+                className="storyScenes"
+              >
 
-                    <article
-                      className={
-                        `storyScene${
-                          hasImage
-                            ? ""
-                            : " storySceneNoImage"
-                        }`
-                      }
-                      key={
-                        `${scene.number}-${scene.title}-${index}`
-                      }
-                    >
+                {
+                  story.scenes.map(
+                    (
+                      scene,
+                      index
+                    ) => {
 
-                      {hasImage && (
-
-                        <div
-                          className="storySceneImage"
-                          style={{
-                            backgroundImage:
-                              `url("${scene.image}")`,
-                          }}
-                          aria-hidden="true"
-                        />
-
-                      )}
+                      const hasImage =
+                        sceneImageExists(
+                          scene.image
+                        );
 
 
-                      <div
-                        className="storySceneBody"
-                      >
+                      return (
 
-                        <div
-                          className="storySceneNumber"
-                        >
-                          {
-                            scene.number
+                        <article
+                          className={
+                            `storyScene${
+                              hasImage
+                                ? ""
+                                : " storySceneNoImage"
+                            }`
                           }
-                        </div>
-
-
-                        <div
-                          className="storySceneContent"
+                          key={
+                            `${scene.number}-${scene.title}-${index}`
+                          }
                         >
 
-                          <small>
-                            {
-                              scene.scripture
-                            }
-                          </small>
+                          {
+                            hasImage && (
 
-                          <h4>
-                            {
-                              scene.title
-                            }
-                          </h4>
+                              <div
+                                className="storySceneImage"
+                                style={{
+                                  backgroundImage:
+                                    `url("${scene.image}")`,
+                                }}
+                                aria-hidden="true"
+                              />
 
-                          <p>
-                            {
-                              scene.description
-                            }
-                          </p>
+                            )
+                          }
 
-                        </div>
 
-                      </div>
+                          <div
+                            className="storySceneBody"
+                          >
 
-                    </article>
+                            <div
+                              className="storySceneNumber"
+                            >
+                              {
+                                scene.number
+                              }
+                            </div>
 
-                  );
+
+                            <div
+                              className="storySceneContent"
+                            >
+
+                              <small>
+                                {
+                                  scene.scripture
+                                }
+                              </small>
+
+                              <h4>
+                                {
+                                  scene.title
+                                }
+                              </h4>
+
+                              <p>
+                                {
+                                  scene.description
+                                }
+                              </p>
+
+                            </div>
+
+                          </div>
+
+                        </article>
+
+                      );
+                    }
+                  )
                 }
-              )}
 
-            </div>
+              </div>
 
-          </section>
+            </section>
 
-        )}
+          )
+        }
 
 
         {/* =================================
             SCRIPTURE
         ================================= */}
 
-        {story
-          .scripture
-          .length >
+        {
+          story
+            .scripture
+            .length >
           0 && (
 
-          <section
-            className="scriptureBlock"
-          >
+            <section
+              className="scriptureBlock"
+            >
 
-            <small>
-              SCRIPTURE
-            </small>
+              <small>
+                SCRIPTURE
+              </small>
 
-            <h3>
-              본문으로 돌아가기
-            </h3>
+              <h3>
+                본문으로 돌아가기
+              </h3>
 
-            <p>
-              {story
-                .scripture
-                .join(
-                  " · "
-                )}
-            </p>
+              <p>
+                {
+                  story
+                    .scripture
+                    .join(
+                      " · "
+                    )
+                }
+              </p>
 
-          </section>
+            </section>
 
-        )}
+          )
+        }
 
 
         {/* =================================
