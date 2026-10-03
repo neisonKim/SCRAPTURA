@@ -3590,13 +3590,6 @@ export const nodes: ContentNode[] = [
         relationType: "RELATED_STORY",
         label: "에발산과 그리심산의 언약",
       },
-
-      {
-        targetType: "story",
-        targetSlug: "final-covenant-at-shechem",
-        relationType: "RELATED_STORY",
-        label: "세겜에서의 마지막 언약",
-      },
     ],
   },
 
@@ -4410,13 +4403,6 @@ export const nodes: ContentNode[] = [
         targetSlug: "egypt",
         relationType: "RELATED_PLACE",
         label: "이집트",
-      },
-
-      {
-        targetType: "story",
-        targetSlug: "final-covenant-at-shechem",
-        relationType: "RELATED_STORY",
-        label: "세겜에서의 마지막 언약",
       },
     ],
 
@@ -5731,13 +5717,6 @@ export const nodes: ContentNode[] = [
         relationType: "RELATED_STORY",
         label: "요단 동쪽 지파들과 제단",
       },
-
-      {
-        targetType: "story",
-        targetSlug: "final-covenant-at-shechem",
-        relationType: "RELATED_STORY",
-        label: "세겜에서의 마지막 언약",
-      },
     ],
 
   },
@@ -6085,13 +6064,6 @@ export const nodes: ContentNode[] = [
         targetSlug: "eastern-tribes",
         relationType: "RELATED_STORY",
         label: "요단 동쪽 지파들과 제단",
-      },
-
-      {
-        targetType: "story",
-        targetSlug: "final-covenant-at-shechem",
-        relationType: "RELATED_STORY",
-        label: "세겜에서의 마지막 언약",
       },
     ],
 
@@ -9468,283 +9440,6 @@ export const nodes: ContentNode[] = [
         targetSlug: "jordan-river",
         relationType: "RELATED_PLACE",
         label: "요단강",
-      },
-
-
-      {
-        targetType: "story",
-        targetSlug: "final-covenant-at-shechem",
-        relationType: "RELATED_STORY",
-        label: "세겜에서의 마지막 언약",
-      },
-    ],
-
-  },
-
-
-
-  /* =====================================================
-     STORY — FINAL COVENANT AT SHECHEM
-     ===================================================== */
-
-  {
-    type: "story",
-
-    slug:
-      "final-covenant-at-shechem",
-
-    titleKo:
-      "세겜에서의 마지막 언약",
-
-    titleEn:
-      "The Final Covenant at Shechem",
-
-    eyebrow:
-      "STORIES · JOSHUA 23–24 · SHECHEM",
-
-    summary:
-      "여호수아가 생애 말년에 이스라엘 공동체에게 마지막 권면을 전하고, 세겜에서 이스라엘의 역사를 되돌아보며 언약을 새롭게 한 뒤 그의 죽음으로 여호수아서가 마무리되는 이야기입니다.",
-
-    overview:
-      "여호수아 23–24장은 여호수아서 전체를 마무리하는 구간입니다. 여호수아는 지도자들에게 하나님을 따르며 율법에서 떠나지 말 것을 권면합니다. 이후 세겜에 이스라엘 지파들을 모으고 아브라함 이전의 시대부터 출애굽, 요단강 도하, 가나안 진입까지 공동체의 역사를 다시 이야기합니다. 백성은 하나님을 섬기겠다고 응답하고 세겜에서 언약이 새롭게 확인됩니다. 이후 여호수아의 죽음과 요셉의 유골 매장, 엘르아살의 죽음이 기록되면서 책이 끝납니다.",
-
-    biblicalContext:
-      "SCRAPTURA에서는 여호수아 23장의 마지막 권면과 24장의 세겜 언약을 하나의 Final Covenant Story로 구성합니다. 이 Story는 여호수아서 전체에서 분리된 독립 사건이라기보다 출애굽과 광야, 요단강, 가나안 정복과 땅 분배의 모든 이야기를 다시 회고하고 다음 세대로 넘기는 종결점입니다.",
-
-
-    /* =================================================
-       STORY SCENES
-       ================================================= */
-
-    scenes: [
-
-      {
-        number:
-          "01",
-
-        title:
-          "JOSHUA'S FINAL WORDS",
-
-        scripture:
-          "Joshua 23:1–11",
-
-        description:
-          "나이가 든 여호수아는 이스라엘의 장로와 지도자들을 불러 지금까지의 일을 되돌아보고 하나님을 사랑하며 율법을 지킬 것을 권면합니다.",
-      },
-
-
-      {
-        number:
-          "02",
-
-        title:
-          "A FINAL WARNING",
-
-        scripture:
-          "Joshua 23:12–16",
-
-        description:
-          "여호수아는 다른 민족들의 신을 따르거나 언약에서 떠나지 말 것을 공동체에 경고합니다.",
-      },
-
-
-      {
-        number:
-          "03",
-
-        title:
-          "THE ASSEMBLY AT SHECHEM",
-
-        scripture:
-          "Joshua 24:1",
-
-        description:
-          "여호수아는 이스라엘의 모든 지파와 지도자들을 세겜으로 불러 공동체를 다시 한자리에 모읍니다.",
-      },
-
-
-      {
-        number:
-          "04",
-
-        title:
-          "REMEMBER THE JOURNEY",
-
-        scripture:
-          "Joshua 24:2–13",
-
-        description:
-          "아브라함의 조상들부터 이집트와 출애굽, 광야, 요단강을 거쳐 가나안에 이르기까지 이스라엘의 역사가 다시 이야기됩니다.",
-      },
-
-
-      {
-        number:
-          "05",
-
-        title:
-          "CHOOSE WHOM YOU WILL SERVE",
-
-        scripture:
-          "Joshua 24:14–15",
-
-        description:
-          "여호수아는 공동체에게 누구를 섬길 것인지 선택하라고 요구하며 자신과 자신의 집은 하나님을 섬기겠다고 선언합니다.",
-      },
-
-
-      {
-        number:
-          "06",
-
-        title:
-          "ISRAEL RESPONDS",
-
-        scripture:
-          "Joshua 24:16–24",
-
-        description:
-          "이스라엘 백성은 자신들도 하나님을 섬기겠다고 응답하고 여호수아와 백성 사이의 대화가 이어집니다.",
-      },
-
-
-      {
-        number:
-          "07",
-
-        title:
-          "THE COVENANT AT SHECHEM",
-
-        scripture:
-          "Joshua 24:25–27",
-
-        description:
-          "여호수아는 세겜에서 백성과 언약을 맺고 율례와 법도를 세우며 큰 돌을 증거로 세웁니다.",
-      },
-
-
-      {
-        number:
-          "08",
-
-        title:
-          "RETURN TO THE INHERITANCE",
-
-        scripture:
-          "Joshua 24:28",
-
-        description:
-          "언약 장면이 끝난 뒤 여호수아는 백성을 각자의 기업으로 돌려보냅니다.",
-      },
-
-
-      {
-        number:
-          "09",
-
-        title:
-          "THE DEATH OF JOSHUA",
-
-        scripture:
-          "Joshua 24:29–31",
-
-        description:
-          "여호수아는 백십 세에 죽고 자신의 기업에 장사됩니다. 본문은 여호수아와 그 시대의 장로들이 살아 있는 동안 이스라엘이 하나님을 섬겼다고 기록합니다.",
-      },
-
-
-      {
-        number:
-          "10",
-
-        title:
-          "JOSEPH'S BONES",
-
-        scripture:
-          "Joshua 24:32",
-
-        description:
-          "이스라엘이 이집트에서 가져온 요셉의 유골은 세겜에 묻히며 창세기와 출애굽기에서 시작된 오랜 이야기가 다시 연결됩니다.",
-      },
-
-
-      {
-        number:
-          "11",
-
-        title:
-          "THE END OF AN ERA",
-
-        scripture:
-          "Joshua 24:33",
-
-        description:
-          "대제사장 엘르아살의 죽음이 기록되며 여호수아서와 한 시대의 이야기가 마무리됩니다.",
-      },
-
-    ],
-
-
-    heroImage:
-      "/assets/scraptura-home-clean.jpg",
-
-
-    scripture: [
-      "Joshua 23",
-      "Joshua 24:1–28",
-      "Joshua 24:29–33",
-    ],
-
-
-    relations: [
-
-      {
-        targetType: "person",
-        targetSlug: "joshua",
-        relationType: "RELATED_PERSON",
-        label: "여호수아",
-      },
-
-      {
-        targetType: "place",
-        targetSlug: "shechem",
-        relationType: "RELATED_PLACE",
-        label: "세겜",
-      },
-
-      {
-        targetType: "story",
-        targetSlug: "eastern-tribes",
-        relationType: "RELATED_STORY",
-        label: "요단 동쪽 지파들과 제단",
-      },
-
-      {
-        targetType: "book",
-        targetSlug: "book-of-joshua",
-        relationType: "RELATED_BOOK",
-        label: "여호수아",
-      },
-
-      {
-        targetType: "person",
-        targetSlug: "joseph",
-        relationType: "RELATED_PERSON",
-        label: "요셉",
-      },
-
-      {
-        targetType: "place",
-        targetSlug: "mount-ebal",
-        relationType: "RELATED_PLACE",
-        label: "에발산",
-      },
-
-      {
-        targetType: "place",
-        targetSlug: "mount-gerizim",
-        relationType: "RELATED_PLACE",
-        label: "그리심산",
       },
 
     ],
