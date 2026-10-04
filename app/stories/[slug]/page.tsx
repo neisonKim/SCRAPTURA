@@ -32,6 +32,10 @@ import {
   getNode,
 } from "../../../data/content";
 
+import {
+  getBiblePackageNode,
+} from "../../../data/bible/package-loader";
+
 
 /*
  * =====================================
@@ -440,6 +444,7 @@ function sceneImageExists(
  * =====================================
  */
 
+
 function getLocalStory(
   slugValue: string
 ): StoryRecord | null {
@@ -449,11 +454,77 @@ function getLocalStory(
       .trim()
       .toLowerCase();
 
-
   if (!slug) {
     return null;
   }
 
+  const packageNode =
+    getBiblePackageNode(
+      "story",
+      slug
+    );
+
+  if (packageNode) {
+
+    return {
+      id:
+        "package__" + slug,
+
+      type:
+        "story",
+
+      slug:
+        normalizeString(
+          packageNode.slug
+        ) || slug,
+
+      titleKo:
+        normalizeString(
+          packageNode.titleKo
+        ),
+
+      titleEn:
+        normalizeString(
+          packageNode.titleEn
+        ),
+
+      eyebrow:
+        normalizeString(
+          packageNode.eyebrow
+        ),
+
+      summary:
+        normalizeString(
+          packageNode.summary
+        ),
+
+      overview:
+        normalizeString(
+          packageNode.overview
+        ) || undefined,
+
+      heroImage:
+        normalizeString(
+          packageNode.heroImage
+        ) ||
+        "/assets/scraptura-home-clean.jpg",
+
+      scenes:
+        normalizeScenes(
+          packageNode.scenes
+        ),
+
+      scripture:
+        normalizeScripture(
+          packageNode.scripture
+        ),
+
+      relations:
+        normalizeRelations(
+          packageNode.relations
+        ),
+    };
+  }
 
   const local =
     getNode(
@@ -461,15 +532,13 @@ function getLocalStory(
       slug
     );
 
-
   if (!local) {
     return null;
   }
 
-
   return {
     id:
-      `local__${local.slug}`,
+      "local__" + local.slug,
 
     type:
       "story",
@@ -496,23 +565,20 @@ function getLocalStory(
       local.heroImage,
 
     scenes:
-      local.scenes ??
-      [],
+      local.scenes ?? [],
 
     scripture:
-      local.scripture ??
-      [],
+      local.scripture ?? [],
 
     relations:
-      local.relations ??
-      [],
+      local.relations ?? [],
   };
 }
 
 
 /*
  * =====================================
- * FIRESTORE + LOCAL STORY
+ * FIRESTORE + PACKAGE/LOCAL STORY
  * =====================================
  */
 

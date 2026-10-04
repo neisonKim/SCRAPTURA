@@ -24,10 +24,6 @@ import {
   getNode,
 } from "../../../data/content";
 
-import {
-  getBiblePackageNode,
-} from "../../../data/bible/package-loader";
-
 
 /*
  * =====================================
@@ -364,7 +360,6 @@ function normalizeRelations(
  * =====================================
  */
 
-
 function getLocalPerson(
   slugValue: string
 ): PersonRecord | null {
@@ -374,77 +369,11 @@ function getLocalPerson(
       .trim()
       .toLowerCase();
 
+
   if (!slug) {
     return null;
   }
 
-  const packageNode =
-    getBiblePackageNode(
-      "person",
-      slug
-    );
-
-  if (packageNode) {
-
-    return {
-      id:
-        "package__" + slug,
-
-      type:
-        "person",
-
-      slug:
-        normalizeString(
-          packageNode.slug
-        ) || slug,
-
-      titleKo:
-        normalizeString(
-          packageNode.titleKo
-        ),
-
-      titleEn:
-        normalizeString(
-          packageNode.titleEn
-        ),
-
-      eyebrow:
-        normalizeString(
-          packageNode.eyebrow
-        ),
-
-      summary:
-        normalizeString(
-          packageNode.summary
-        ),
-
-      overview:
-        normalizeString(
-          packageNode.overview
-        ) || undefined,
-
-      heroImage:
-        normalizeString(
-          packageNode.heroImage
-        ) ||
-        "/assets/scraptura-home-clean.jpg",
-
-      characterJourney:
-        normalizeCharacterJourney(
-          packageNode.characterJourney
-        ),
-
-      scripture:
-        normalizeScripture(
-          packageNode.scripture
-        ),
-
-      relations:
-        normalizeRelations(
-          packageNode.relations
-        ),
-    };
-  }
 
   const local =
     getNode(
@@ -452,13 +381,15 @@ function getLocalPerson(
       slug
     );
 
+
   if (!local) {
     return null;
   }
 
+
   return {
     id:
-      "local__" + local.slug,
+      `local__${local.slug}`,
 
     type:
       "person",
@@ -485,20 +416,23 @@ function getLocalPerson(
       local.heroImage,
 
     characterJourney:
-      local.characterJourney ?? [],
+      local.characterJourney ??
+      [],
 
     scripture:
-      local.scripture ?? [],
+      local.scripture ??
+      [],
 
     relations:
-      local.relations ?? [],
+      local.relations ??
+      [],
   };
 }
 
 
 /*
  * =====================================
- * FIRESTORE + PACKAGE/LOCAL PERSON
+ * FIRESTORE + LOCAL PERSON
  * =====================================
  */
 

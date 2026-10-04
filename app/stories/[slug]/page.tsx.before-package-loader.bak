@@ -3,6 +3,14 @@ import type {
 } from "next";
 
 import {
+  existsSync,
+} from "fs";
+
+import {
+  join,
+} from "path";
+
+import {
   notFound,
 } from "next/navigation";
 
@@ -24,10 +32,6 @@ import {
   getNode,
 } from "../../../data/content";
 
-import {
-  getBiblePackageNode,
-} from "../../../data/bible/package-loader";
-
 
 /*
  * =====================================
@@ -35,11 +39,12 @@ import {
  * =====================================
  */
 
-type CharacterStage = {
+type StoryScene = {
   number: string;
   title: string;
   scripture: string;
   description: string;
+  image?: string;
 };
 
 
@@ -75,11 +80,11 @@ type Relation = {
 };
 
 
-type PersonRecord = {
+type StoryRecord = {
   id: string;
 
   type:
-    "person";
+    "story";
 
   slug:
     string;
@@ -102,8 +107,8 @@ type PersonRecord = {
   heroImage:
     string;
 
-  characterJourney:
-    CharacterStage[];
+  scenes:
+    StoryScene[];
 
   scripture:
     string[];
@@ -122,6 +127,7 @@ type PersonRecord = {
 function normalizeString(
   value: unknown
 ) {
+
   return typeof value ===
     "string"
     ? value
@@ -129,9 +135,9 @@ function normalizeString(
 }
 
 
-function normalizeCharacterJourney(
+function normalizeScenes(
   value: unknown
-): CharacterStage[] {
+): StoryScene[] {
 
   if (
     !Array.isArray(
@@ -146,7 +152,7 @@ function normalizeCharacterJourney(
     .map(
       (
         item
-      ): CharacterStage | null => {
+      ): StoryScene | null => {
 
         if (
           typeof item !==
@@ -163,6 +169,12 @@ function normalizeCharacterJourney(
               string,
               unknown
             >;
+
+
+        const image =
+          normalizeString(
+            data.image
+          ).trim();
 
 
         return {
@@ -185,13 +197,17 @@ function normalizeCharacterJourney(
             normalizeString(
               data.description
             ),
+
+          image:
+            image ||
+            undefined,
         };
       }
     )
     .filter(
       (
         item
-      ): item is CharacterStage =>
+      ): item is StoryScene =>
         item !== null
     );
 }
@@ -343,6 +359,10 @@ function normalizeRelations(
       );
 
 
+  /*
+   * 동일 대상 Relation 중복 제거
+   */
+
   return Array.from(
     new Map(
       normalized.map(
@@ -360,108 +380,99 @@ function normalizeRelations(
 
 /*
  * =====================================
- * LOCAL PERSON FALLBACK
+ * SCENE IMAGE
  * =====================================
  */
 
+function sceneImageExists(
+  src?: string
+) {
 
-function getLocalPerson(
+  if (!src) {
+    return false;
+  }
+
+
+  /*
+   * Cloudinary 등 외부 이미지
+   */
+
+  if (
+    src.startsWith(
+      "https://"
+    ) ||
+    src.startsWith(
+      "http://"
+    )
+  ) {
+    return true;
+  }
+
+
+  /*
+   * public 폴더 로컬 이미지
+   */
+
+  if (
+    src.startsWith("/")
+  ) {
+
+    return existsSync(
+      join(
+        process.cwd(),
+        "public",
+        src.replace(
+          /^\//,
+          ""
+        )
+      )
+    );
+  }
+
+
+  return false;
+}
+
+
+/*
+ * =====================================
+ * LOCAL STORY FALLBACK
+ * =====================================
+ */
+
+function getLocalStory(
   slugValue: string
-): PersonRecord | null {
+): StoryRecord | null {
 
   const slug =
     slugValue
       .trim()
       .toLowerCase();
 
+
   if (!slug) {
     return null;
   }
 
-  const packageNode =
-    getBiblePackageNode(
-      "person",
-      slug
-    );
-
-  if (packageNode) {
-
-    return {
-      id:
-        "package__" + slug,
-
-      type:
-        "person",
-
-      slug:
-        normalizeString(
-          packageNode.slug
-        ) || slug,
-
-      titleKo:
-        normalizeString(
-          packageNode.titleKo
-        ),
-
-      titleEn:
-        normalizeString(
-          packageNode.titleEn
-        ),
-
-      eyebrow:
-        normalizeString(
-          packageNode.eyebrow
-        ),
-
-      summary:
-        normalizeString(
-          packageNode.summary
-        ),
-
-      overview:
-        normalizeString(
-          packageNode.overview
-        ) || undefined,
-
-      heroImage:
-        normalizeString(
-          packageNode.heroImage
-        ) ||
-        "/assets/scraptura-home-clean.jpg",
-
-      characterJourney:
-        normalizeCharacterJourney(
-          packageNode.characterJourney
-        ),
-
-      scripture:
-        normalizeScripture(
-          packageNode.scripture
-        ),
-
-      relations:
-        normalizeRelations(
-          packageNode.relations
-        ),
-    };
-  }
 
   const local =
     getNode(
-      "person",
+      "story",
       slug
     );
+
 
   if (!local) {
     return null;
   }
 
+
   return {
     id:
-      "local__" + local.slug,
+      `local__${local.slug}`,
 
     type:
-      "person",
+      "story",
 
     slug:
       local.slug,
@@ -484,30 +495,33 @@ function getLocalPerson(
     heroImage:
       local.heroImage,
 
-    characterJourney:
-      local.characterJourney ?? [],
+    scenes:
+      local.scenes ??
+      [],
 
     scripture:
-      local.scripture ?? [],
+      local.scripture ??
+      [],
 
     relations:
-      local.relations ?? [],
+      local.relations ??
+      [],
   };
 }
 
 
 /*
  * =====================================
- * FIRESTORE + PACKAGE/LOCAL PERSON
+ * FIRESTORE + LOCAL STORY
  * =====================================
  */
 
-const getPerson =
+const getStory =
   cache(
     async (
       slugValue: string
     ): Promise<
-      PersonRecord | null
+      StoryRecord | null
     > => {
 
       const slug =
@@ -523,27 +537,26 @@ const getPerson =
 
       /*
        * 먼저 content.ts에서
-       * fallback 데이터를 확보합니다.
+       * fallback Story 확보
        */
 
-      const localPerson =
-        getLocalPerson(
+      const localStory =
+        getLocalStory(
           slug
         );
 
 
       /*
-       * Firestore importer
+       * Firestore importer 문서 ID
        *
-       * person__david
-       * person__saul
-       * person__abraham
-       * person__isaac
+       * story__david-and-goliath
+       * story__david-is-anointed
+       * story__ten-commandments
        * ...
        */
 
       const documentId =
-        `person__${slug}`;
+        `story__${slug}`;
 
 
       try {
@@ -560,14 +573,15 @@ const getPerson =
 
 
         /*
-         * Firestore 문서가 없으면
-         * content.ts 사용
+         * Firestore 문서가 없다면
+         * content.ts Story 사용
          */
 
         if (
           !snapshot.exists
         ) {
-          return localPerson;
+
+          return localStory;
         }
 
 
@@ -576,28 +590,30 @@ const getPerson =
 
 
         if (!data) {
-          return localPerson;
+
+          return localStory;
         }
 
 
         /*
-         * 실제 Firestore 문서가 존재하지만
-         * published가 아니라면 공개하지 않습니다.
+         * Firestore에 실제 문서가 존재하지만
+         * 비공개 상태라면 공개하지 않음
          */
 
         if (
           data.type !==
-            "person" ||
+            "story" ||
           data.status !==
             "published"
         ) {
+
           return null;
         }
 
 
         /*
-         * Firestore 값 우선
-         * 비어 있는 값만 local fallback
+         * Firestore 우선
+         * 빈 데이터는 local fallback
          */
 
         return {
@@ -605,7 +621,7 @@ const getPerson =
             snapshot.id,
 
           type:
-            "person",
+            "story",
 
           slug,
 
@@ -613,65 +629,66 @@ const getPerson =
             normalizeString(
               data.titleKo
             ) ||
-            localPerson?.titleKo ||
+            localStory?.titleKo ||
             "",
 
           titleEn:
             normalizeString(
               data.titleEn
             ) ||
-            localPerson?.titleEn ||
+            localStory?.titleEn ||
             "",
 
           eyebrow:
             normalizeString(
               data.eyebrow
             ) ||
-            localPerson?.eyebrow ||
+            localStory?.eyebrow ||
             "",
 
           summary:
             normalizeString(
               data.summary
             ) ||
-            localPerson?.summary ||
+            localStory?.summary ||
             "",
 
           overview:
             normalizeString(
               data.overview
             ) ||
-            localPerson?.overview ||
+            localStory?.overview ||
             undefined,
 
           heroImage:
             normalizeString(
               data.heroImage
             ) ||
-            localPerson?.heroImage ||
+            localStory?.heroImage ||
             "",
 
 
-          characterJourney:
+          scenes:
             (() => {
 
-              const firestoreJourney =
-                normalizeCharacterJourney(
-                  data.characterJourney
+              const firestoreScenes =
+                normalizeScenes(
+                  data.scenes
                 );
 
 
               if (
-                firestoreJourney.length >
+                firestoreScenes.length >
                 0
               ) {
-                return firestoreJourney;
+
+                return firestoreScenes;
               }
 
 
               return (
-                localPerson
-                  ?.characterJourney ??
+                localStory
+                  ?.scenes ??
                 []
               );
             })(),
@@ -690,12 +707,13 @@ const getPerson =
                 firestoreScripture.length >
                 0
               ) {
+
                 return firestoreScripture;
               }
 
 
               return (
-                localPerson
+                localStory
                   ?.scripture ??
                 []
               );
@@ -715,12 +733,13 @@ const getPerson =
                 firestoreRelations.length >
                 0
               ) {
+
                 return firestoreRelations;
               }
 
 
               return (
-                localPerson
+                localStory
                   ?.relations ??
                 []
               );
@@ -733,25 +752,26 @@ const getPerson =
       ) {
 
         /*
-         * Firestore 연결 문제 발생 시에도
-         * local person이 있다면 페이지 유지
+         * Firestore 접근 오류가 있어도
+         * content.ts Story가 있으면 페이지 유지
          */
 
         if (
-          localPerson
+          localStory
         ) {
 
           console.warn(
-            `[SCRAPTURA] Firestore person fallback: ${slug}`,
+            `[SCRAPTURA] Firestore story fallback: ${slug}`,
             error
           );
 
-          return localPerson;
+
+          return localStory;
         }
 
 
         console.error(
-          `[SCRAPTURA] Failed to load person: ${slug}`,
+          `[SCRAPTURA] Failed to load story: ${slug}`,
           error
         );
 
@@ -783,17 +803,17 @@ export async function generateMetadata({
     await params;
 
 
-  const person =
-    await getPerson(
+  const story =
+    await getStory(
       slug
     );
 
 
-  if (!person) {
+  if (!story) {
 
     return {
       title:
-        "Person Not Found",
+        "Story Not Found",
 
       robots: {
         index:
@@ -807,18 +827,18 @@ export async function generateMetadata({
 
 
   const title =
-    `${person.titleKo} — ${person.titleEn}`;
+    `${story.titleKo} — ${story.titleEn}`;
 
 
   return {
     title,
 
     description:
-      person.summary,
+      story.summary,
 
     alternates: {
       canonical:
-        `/people/${person.slug}`,
+        `/stories/${story.slug}`,
     },
 
     openGraph: {
@@ -835,17 +855,17 @@ export async function generateMetadata({
         `${title} | SCRAPTURA`,
 
       description:
-        person.summary,
+        story.summary,
 
       url:
-        `/people/${person.slug}`,
+        `/stories/${story.slug}`,
 
       images:
-        person.heroImage
+        story.heroImage
           ? [
               {
                 url:
-                  person.heroImage,
+                  story.heroImage,
 
                 alt:
                   title,
@@ -856,7 +876,7 @@ export async function generateMetadata({
 
     twitter: {
       card:
-        person.heroImage
+        story.heroImage
           ? "summary_large_image"
           : "summary",
 
@@ -864,12 +884,12 @@ export async function generateMetadata({
         `${title} | SCRAPTURA`,
 
       description:
-        person.summary,
+        story.summary,
 
       images:
-        person.heroImage
+        story.heroImage
           ? [
-              person.heroImage,
+              story.heroImage,
             ]
           : undefined,
     },
@@ -898,13 +918,13 @@ export default async function Page({
     await params;
 
 
-  const person =
-    await getPerson(
+  const story =
+    await getStory(
       slug
     );
 
 
-  if (!person) {
+  if (!story) {
 
     return notFound();
   }
@@ -919,19 +939,19 @@ export default async function Page({
 
       <Hero
         eyebrow={
-          person.eyebrow
+          story.eyebrow
         }
         titleKo={
-          person.titleKo
+          story.titleKo
         }
         titleEn={
-          person.titleEn
+          story.titleEn
         }
         summary={
-          person.summary
+          story.summary
         }
         image={
-          person.heroImage
+          story.heroImage
         }
       />
 
@@ -953,15 +973,17 @@ export default async function Page({
           </small>
 
           <h3>
-            {person.titleKo}
+            {
+              story.titleKo
+            }
             {" "}
             탐험
           </h3>
 
           <p>
             {
-              person.overview ??
-              person.summary
+              story.overview ??
+              story.summary
             }
           </p>
 
@@ -969,101 +991,121 @@ export default async function Page({
 
 
         {/* =================================
-            CHARACTER JOURNEY
+            SCENE SEQUENCE
         ================================= */}
 
         {
-          person
-            .characterJourney
+          story
+            .scenes
             .length >
           0 && (
 
             <section
-              className="journey characterJourney"
+              className="journey"
             >
 
-              <div
-                className="characterJourneyHeader"
-              >
+              <small>
+                SCENE SEQUENCE
+              </small>
 
-                <small>
-                  CHARACTER JOURNEY
-                </small>
-
-                <h3>
-                  {
-                    person.titleKo
-                  }
-                  의 여정
-                </h3>
-
-                <p>
-                  성경 본문을 따라
-                  인물의 주요 장면과
-                  변화를 순서대로
-                  살펴봅니다.
-                </p>
-
-              </div>
+              <h3>
+                이야기의 흐름을
+                장면별로 따라가세요
+              </h3>
 
 
               <div
-                className="characterJourneyList"
+                className="storyScenes"
               >
 
                 {
-                  person
-                    .characterJourney
-                    .map(
-                      (
-                        stage,
-                        index
-                      ) => (
+                  story.scenes.map(
+                    (
+                      scene,
+                      index
+                    ) => {
+
+                      const hasImage =
+                        sceneImageExists(
+                          scene.image
+                        );
+
+
+                      return (
 
                         <article
-                          className="characterStage"
+                          className={
+                            `storyScene${
+                              hasImage
+                                ? ""
+                                : " storySceneNoImage"
+                            }`
+                          }
                           key={
-                            `${stage.number}-${index}`
+                            `${scene.number}-${scene.title}-${index}`
                           }
                         >
 
-                          <div
-                            className="characterStageNumber"
-                          >
-                            {
-                              stage.number
-                            }
-                          </div>
+                          {
+                            hasImage && (
+
+                              <div
+                                className="storySceneImage"
+                                style={{
+                                  backgroundImage:
+                                    `url("${scene.image}")`,
+                                }}
+                                aria-hidden="true"
+                              />
+
+                            )
+                          }
 
 
                           <div
-                            className="characterStageContent"
+                            className="storySceneBody"
                           >
 
-                            <small>
+                            <div
+                              className="storySceneNumber"
+                            >
                               {
-                                stage.scripture
+                                scene.number
                               }
-                            </small>
+                            </div>
 
-                            <h4>
-                              {
-                                stage.title
-                              }
-                            </h4>
 
-                            <p>
-                              {
-                                stage.description
-                              }
-                            </p>
+                            <div
+                              className="storySceneContent"
+                            >
+
+                              <small>
+                                {
+                                  scene.scripture
+                                }
+                              </small>
+
+                              <h4>
+                                {
+                                  scene.title
+                                }
+                              </h4>
+
+                              <p>
+                                {
+                                  scene.description
+                                }
+                              </p>
+
+                            </div>
 
                           </div>
 
                         </article>
 
-                      )
-                    )
+                      );
+                    }
+                  )
                 }
 
               </div>
@@ -1079,13 +1121,13 @@ export default async function Page({
         ================================= */}
 
         {
-          person
+          story
             .scripture
             .length >
           0 && (
 
             <section
-              className="journey"
+              className="scriptureBlock"
             >
 
               <small>
@@ -1093,12 +1135,12 @@ export default async function Page({
               </small>
 
               <h3>
-                주요 성경 기록
+                본문으로 돌아가기
               </h3>
 
               <p>
                 {
-                  person
+                  story
                     .scripture
                     .join(
                       " · "
@@ -1118,7 +1160,7 @@ export default async function Page({
 
         <RelationCards
           items={
-            person.relations
+            story.relations
           }
         />
 
