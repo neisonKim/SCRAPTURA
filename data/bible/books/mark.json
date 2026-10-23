@@ -1,0 +1,276 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/MRK01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "mark",
+      "titleKo": "마가복음",
+      "titleEn": "Mark",
+      "eyebrow": "BIBLE · NEW TESTAMENT",
+      "summary": "예수의 권능 있는 사역과 십자가의 길을 빠른 전개로 따라가며 제자도의 의미를 묻습니다.",
+      "overview": "예수의 권능 있는 사역과 십자가의 길을 빠른 전개로 따라가며 제자도의 의미를 묻습니다. 세례와 시험 뒤에 예수는 하나님 나라를 선포하고 제자들을 부르며 가르치고 치유하십니다. 죄 사함과 식탁, 안식일을 둘러싼 논쟁 속에서 열두 제자가 세워집니다. 비유와 풍랑을 잠잠하게 하심, 귀신 들린 사람과 여인 및 아이를 회복시키는 장면이 이어집니다. 제자들의 파송과 무리를 먹이심, 정결 논쟁과 치유 속에서도 제자들의 이해는 더딥니다. 베드로의 고백 뒤에 수난이 예고되고 자기를 부인하며 섬기는 길을 가르치십니다. 입성과 성전의 행동, 지도자들과의 논쟁 및 깨어 있으라는 말씀이 이어집니다. 만찬과 체포, 베드로의 부인과 재판을 거쳐 예수가 십자가에서 죽으십니다. 여인들이 무덤에서 부활의 소식을 듣습니다. 9–20절의 긴 결말은 번역본의 본문 주를 함께 살펴 읽을 수 있습니다.",
+      "biblicalContext": "예수의 정체성을 둘러싼 질문이 치유와 논쟁, 제자들의 오해 속에서 전개됩니다. 힘과 성공에 대한 기대는 섬김과 고난의 길 앞에서 다시 해석됩니다.",
+      "heroImage": "/assets/bible/mark.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "복음과 첫 부르심",
+          "scripture": "Mark 1",
+          "description": "세례와 시험 뒤에 예수는 하나님 나라를 선포하고 제자들을 부르며 가르치고 치유하십니다."
+        },
+        {
+          "number": "02",
+          "title": "권위와 갈등",
+          "scripture": "Mark 2–3",
+          "description": "죄 사함과 식탁, 안식일을 둘러싼 논쟁 속에서 열두 제자가 세워집니다."
+        },
+        {
+          "number": "03",
+          "title": "말씀과 권능",
+          "scripture": "Mark 4–5",
+          "description": "비유와 풍랑을 잠잠하게 하심, 귀신 들린 사람과 여인 및 아이를 회복시키는 장면이 이어집니다."
+        },
+        {
+          "number": "04",
+          "title": "먹이심과 깨닫지 못함",
+          "scripture": "Mark 6–8:26",
+          "description": "제자들의 파송과 무리를 먹이심, 정결 논쟁과 치유 속에서도 제자들의 이해는 더딥니다."
+        },
+        {
+          "number": "05",
+          "title": "십자가를 향한 제자의 길",
+          "scripture": "Mark 8:27–10:52",
+          "description": "베드로의 고백 뒤에 수난이 예고되고 자기를 부인하며 섬기는 길을 가르치십니다."
+        },
+        {
+          "number": "06",
+          "title": "성전과 예루살렘",
+          "scripture": "Mark 11–13",
+          "description": "입성과 성전의 행동, 지도자들과의 논쟁 및 깨어 있으라는 말씀이 이어집니다."
+        },
+        {
+          "number": "07",
+          "title": "버림받음과 십자가",
+          "scripture": "Mark 14–15",
+          "description": "만찬과 체포, 베드로의 부인과 재판을 거쳐 예수가 십자가에서 죽으십니다."
+        },
+        {
+          "number": "08",
+          "title": "빈 무덤과 부활의 소식",
+          "scripture": "Mark 16",
+          "description": "여인들이 무덤에서 부활의 소식을 듣습니다. 9–20절의 긴 결말은 번역본의 본문 주를 함께 살펴 읽을 수 있습니다."
+        }
+      ],
+      "scripture": [
+        "Mark 1–16"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "jesus",
+          "relationType": "RELATED_PERSON",
+          "label": "예수 그리스도"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "peter",
+          "relationType": "RELATED_PERSON",
+          "label": "베드로"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "john-the-baptist",
+          "relationType": "RELATED_PERSON",
+          "label": "세례 요한"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "galilee",
+          "relationType": "RELATED_PLACE",
+          "label": "갈릴리"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "mark-authority-and-mercy",
+          "relationType": "RELATED_STORY",
+          "label": "가르침과 치유에서 드러나는 권위"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "mark-way-of-the-cross",
+          "relationType": "RELATED_STORY",
+          "label": "섬김과 십자가의 길"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "matthew",
+          "relationType": "RELATED_BOOK",
+          "label": "마태복음"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "luke",
+          "relationType": "RELATED_BOOK",
+          "label": "누가복음"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "mark-authority-and-mercy",
+      "titleKo": "가르침과 치유에서 드러나는 권위",
+      "titleEn": "Mark Authority And Mercy",
+      "eyebrow": "SCRIPTURE STUDY · MARK",
+      "summary": "세례와 시험 뒤에 예수는 하나님 나라를 선포하고 제자들을 부르며 가르치고 치유하십니다. 죄 사함과 식탁, 안식일을 둘러싼 논쟁 속에서 열두 제자가 세워집니다. 비유와 풍랑을 잠잠하게 하심, 귀신 들린 사람과 여인 및 아이를 회복시키는 장면이 이어집니다.",
+      "overview": "마가복음의 1, 2–3, 4–5 본문을 따라 가르침과 치유에서 드러나는 권위의 내용을 살펴봅니다. 예수의 정체성을 둘러싼 질문이 치유와 논쟁, 제자들의 오해 속에서 전개됩니다. 힘과 성공에 대한 기대는 섬김과 고난의 길 앞에서 다시 해석됩니다.",
+      "heroImage": "/assets/bible/mark.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "복음과 첫 부르심",
+          "scripture": "Mark 1",
+          "description": "세례와 시험 뒤에 예수는 하나님 나라를 선포하고 제자들을 부르며 가르치고 치유하십니다."
+        },
+        {
+          "number": "02",
+          "title": "권위와 갈등",
+          "scripture": "Mark 2–3",
+          "description": "죄 사함과 식탁, 안식일을 둘러싼 논쟁 속에서 열두 제자가 세워집니다."
+        },
+        {
+          "number": "03",
+          "title": "말씀과 권능",
+          "scripture": "Mark 4–5",
+          "description": "비유와 풍랑을 잠잠하게 하심, 귀신 들린 사람과 여인 및 아이를 회복시키는 장면이 이어집니다."
+        }
+      ],
+      "scripture": [
+        "Mark 1",
+        "Mark 2–3",
+        "Mark 4–5"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "mark",
+          "relationType": "RELATED_BOOK",
+          "label": "마가복음"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "jesus",
+          "relationType": "RELATED_PERSON",
+          "label": "예수 그리스도"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "peter",
+          "relationType": "RELATED_PERSON",
+          "label": "베드로"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "john-the-baptist",
+          "relationType": "RELATED_PERSON",
+          "label": "세례 요한"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "galilee",
+          "relationType": "RELATED_PLACE",
+          "label": "갈릴리"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "mark-way-of-the-cross",
+      "titleKo": "섬김과 십자가의 길",
+      "titleEn": "Mark Way Of The Cross",
+      "eyebrow": "SCRIPTURE STUDY · MARK",
+      "summary": "베드로의 고백 뒤에 수난이 예고되고 자기를 부인하며 섬기는 길을 가르치십니다. 입성과 성전의 행동, 지도자들과의 논쟁 및 깨어 있으라는 말씀이 이어집니다. 만찬과 체포, 베드로의 부인과 재판을 거쳐 예수가 십자가에서 죽으십니다.",
+      "overview": "마가복음의 8:27–10:52, 11–13, 14–15 본문을 따라 섬김과 십자가의 길의 내용을 살펴봅니다. 예수의 정체성을 둘러싼 질문이 치유와 논쟁, 제자들의 오해 속에서 전개됩니다. 힘과 성공에 대한 기대는 섬김과 고난의 길 앞에서 다시 해석됩니다.",
+      "heroImage": "/assets/bible/mark.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "십자가를 향한 제자의 길",
+          "scripture": "Mark 8:27–10:52",
+          "description": "베드로의 고백 뒤에 수난이 예고되고 자기를 부인하며 섬기는 길을 가르치십니다."
+        },
+        {
+          "number": "02",
+          "title": "성전과 예루살렘",
+          "scripture": "Mark 11–13",
+          "description": "입성과 성전의 행동, 지도자들과의 논쟁 및 깨어 있으라는 말씀이 이어집니다."
+        },
+        {
+          "number": "03",
+          "title": "버림받음과 십자가",
+          "scripture": "Mark 14–15",
+          "description": "만찬과 체포, 베드로의 부인과 재판을 거쳐 예수가 십자가에서 죽으십니다."
+        }
+      ],
+      "scripture": [
+        "Mark 8:27–10:52",
+        "Mark 11–13",
+        "Mark 14–15"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "mark",
+          "relationType": "RELATED_BOOK",
+          "label": "마가복음"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "jesus",
+          "relationType": "RELATED_PERSON",
+          "label": "예수 그리스도"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "peter",
+          "relationType": "RELATED_PERSON",
+          "label": "베드로"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "john-the-baptist",
+          "relationType": "RELATED_PERSON",
+          "label": "세례 요한"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "galilee",
+          "relationType": "RELATED_PLACE",
+          "label": "갈릴리"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        }
+      ]
+    }
+  ]
+}

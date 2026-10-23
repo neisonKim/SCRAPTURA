@@ -1,0 +1,437 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/1KI01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "1-kings",
+      "titleKo": "열왕기상",
+      "titleEn": "1 Kings",
+      "eyebrow": "BIBLE · OLD TESTAMENT",
+      "summary": "솔로몬의 왕위와 성전 건축에서 분열 왕국, 엘리야의 예언 활동까지 이어집니다.",
+      "overview": "솔로몬의 왕위와 성전 건축에서 분열 왕국, 엘리야의 예언 활동까지 이어집니다. 다윗 말년의 왕위 경쟁 뒤에 솔로몬이 왕권을 굳힙니다. 솔로몬의 지혜를 구하는 기도와 재판, 왕국의 행정과 번영이 소개됩니다. 성전 건축과 기구 제작, 언약궤의 안치와 봉헌 기도가 이어집니다. 솔로몬의 업적과 스바 여왕의 방문 뒤에 우상 숭배와 왕국 분열의 예고가 나옵니다. 르호보암과 여로보암의 선택으로 왕국이 갈리고 북왕국의 예배가 변질됩니다. 유다와 북이스라엘 왕들의 통치가 평가되고 오므리와 아합의 시대가 시작됩니다. 가뭄 속에서 엘리야가 활동하고 갈멜산의 대결 뒤에 호렙에서 새로운 사명을 받습니다. 아람과의 전쟁, 나봇의 포도원과 미가야의 예언 뒤에 아합이 전사합니다.",
+      "biblicalContext": "왕의 지혜와 성전의 영광이 기록되지만 이방 신을 따르는 선택과 권력의 남용도 함께 드러납니다. 분열 이후 북이스라엘과 유다의 왕들을 언약의 기준으로 평가합니다.",
+      "heroImage": "/assets/bible/1-kings.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "솔로몬의 즉위",
+          "scripture": "1 Kings 1–2",
+          "description": "다윗 말년의 왕위 경쟁 뒤에 솔로몬이 왕권을 굳힙니다."
+        },
+        {
+          "number": "02",
+          "title": "지혜를 구하는 왕",
+          "scripture": "1 Kings 3–4",
+          "description": "솔로몬의 지혜를 구하는 기도와 재판, 왕국의 행정과 번영이 소개됩니다."
+        },
+        {
+          "number": "03",
+          "title": "성전을 세우다",
+          "scripture": "1 Kings 5–8",
+          "description": "성전 건축과 기구 제작, 언약궤의 안치와 봉헌 기도가 이어집니다."
+        },
+        {
+          "number": "04",
+          "title": "영광과 이탈",
+          "scripture": "1 Kings 9–11",
+          "description": "솔로몬의 업적과 스바 여왕의 방문 뒤에 우상 숭배와 왕국 분열의 예고가 나옵니다."
+        },
+        {
+          "number": "05",
+          "title": "갈라진 왕국",
+          "scripture": "1 Kings 12–14",
+          "description": "르호보암과 여로보암의 선택으로 왕국이 갈리고 북왕국의 예배가 변질됩니다."
+        },
+        {
+          "number": "06",
+          "title": "두 왕국의 왕들",
+          "scripture": "1 Kings 15–16",
+          "description": "유다와 북이스라엘 왕들의 통치가 평가되고 오므리와 아합의 시대가 시작됩니다."
+        },
+        {
+          "number": "07",
+          "title": "엘리야와 갈멜산",
+          "scripture": "1 Kings 17–19",
+          "description": "가뭄 속에서 엘리야가 활동하고 갈멜산의 대결 뒤에 호렙에서 새로운 사명을 받습니다."
+        },
+        {
+          "number": "08",
+          "title": "왕권과 예언의 충돌",
+          "scripture": "1 Kings 20–22",
+          "description": "아람과의 전쟁, 나봇의 포도원과 미가야의 예언 뒤에 아합이 전사합니다."
+        }
+      ],
+      "scripture": [
+        "1 Kings 1–22"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "solomon",
+          "relationType": "RELATED_PERSON",
+          "label": "솔로몬"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "elijah",
+          "relationType": "RELATED_PERSON",
+          "label": "엘리야"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "samaria",
+          "relationType": "RELATED_PLACE",
+          "label": "사마리아"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "mount-carmel",
+          "relationType": "RELATED_PLACE",
+          "label": "갈멜산"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "solomon-temple",
+          "relationType": "RELATED_STORY",
+          "label": "지혜와 성전의 봉헌"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "elijah-and-ahab",
+          "relationType": "RELATED_STORY",
+          "label": "엘리야와 왕권에 대한 말씀"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-samuel",
+          "relationType": "RELATED_BOOK",
+          "label": "사무엘하"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-kings",
+          "relationType": "RELATED_BOOK",
+          "label": "열왕기하"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "solomon-temple",
+      "titleKo": "지혜와 성전의 봉헌",
+      "titleEn": "Solomon Temple",
+      "eyebrow": "SCRIPTURE STUDY · 1 KINGS",
+      "summary": "솔로몬의 지혜를 구하는 기도와 재판, 왕국의 행정과 번영이 소개됩니다. 성전 건축과 기구 제작, 언약궤의 안치와 봉헌 기도가 이어집니다. 솔로몬의 업적과 스바 여왕의 방문 뒤에 우상 숭배와 왕국 분열의 예고가 나옵니다.",
+      "overview": "열왕기상의 3–4, 5–8, 9–11 본문을 따라 지혜와 성전의 봉헌의 내용을 살펴봅니다. 왕의 지혜와 성전의 영광이 기록되지만 이방 신을 따르는 선택과 권력의 남용도 함께 드러납니다. 분열 이후 북이스라엘과 유다의 왕들을 언약의 기준으로 평가합니다.",
+      "heroImage": "/assets/bible/1-kings.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "지혜를 구하는 왕",
+          "scripture": "1 Kings 3–4",
+          "description": "솔로몬의 지혜를 구하는 기도와 재판, 왕국의 행정과 번영이 소개됩니다."
+        },
+        {
+          "number": "02",
+          "title": "성전을 세우다",
+          "scripture": "1 Kings 5–8",
+          "description": "성전 건축과 기구 제작, 언약궤의 안치와 봉헌 기도가 이어집니다."
+        },
+        {
+          "number": "03",
+          "title": "영광과 이탈",
+          "scripture": "1 Kings 9–11",
+          "description": "솔로몬의 업적과 스바 여왕의 방문 뒤에 우상 숭배와 왕국 분열의 예고가 나옵니다."
+        }
+      ],
+      "scripture": [
+        "1 Kings 3–4",
+        "1 Kings 5–8",
+        "1 Kings 9–11"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "1-kings",
+          "relationType": "RELATED_BOOK",
+          "label": "열왕기상"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "solomon",
+          "relationType": "RELATED_PERSON",
+          "label": "솔로몬"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "elijah",
+          "relationType": "RELATED_PERSON",
+          "label": "엘리야"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "samaria",
+          "relationType": "RELATED_PLACE",
+          "label": "사마리아"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "mount-carmel",
+          "relationType": "RELATED_PLACE",
+          "label": "갈멜산"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "elijah-and-ahab",
+      "titleKo": "엘리야와 왕권에 대한 말씀",
+      "titleEn": "Elijah And Ahab",
+      "eyebrow": "SCRIPTURE STUDY · 1 KINGS",
+      "summary": "가뭄 속에서 엘리야가 활동하고 갈멜산의 대결 뒤에 호렙에서 새로운 사명을 받습니다. 아람과의 전쟁, 나봇의 포도원과 미가야의 예언 뒤에 아합이 전사합니다.",
+      "overview": "열왕기상의 17–19, 20–22 본문을 따라 엘리야와 왕권에 대한 말씀의 내용을 살펴봅니다. 왕의 지혜와 성전의 영광이 기록되지만 이방 신을 따르는 선택과 권력의 남용도 함께 드러납니다. 분열 이후 북이스라엘과 유다의 왕들을 언약의 기준으로 평가합니다.",
+      "heroImage": "/assets/bible/1-kings.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "엘리야와 갈멜산",
+          "scripture": "1 Kings 17–19",
+          "description": "가뭄 속에서 엘리야가 활동하고 갈멜산의 대결 뒤에 호렙에서 새로운 사명을 받습니다."
+        },
+        {
+          "number": "02",
+          "title": "왕권과 예언의 충돌",
+          "scripture": "1 Kings 20–22",
+          "description": "아람과의 전쟁, 나봇의 포도원과 미가야의 예언 뒤에 아합이 전사합니다."
+        }
+      ],
+      "scripture": [
+        "1 Kings 17–19",
+        "1 Kings 20–22"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "1-kings",
+          "relationType": "RELATED_BOOK",
+          "label": "열왕기상"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "solomon",
+          "relationType": "RELATED_PERSON",
+          "label": "솔로몬"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "elijah",
+          "relationType": "RELATED_PERSON",
+          "label": "엘리야"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "samaria",
+          "relationType": "RELATED_PLACE",
+          "label": "사마리아"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "mount-carmel",
+          "relationType": "RELATED_PLACE",
+          "label": "갈멜산"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "solomon",
+      "titleKo": "솔로몬",
+      "titleEn": "Solomon",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "다윗을 이어 왕위에 올라 지혜와 성전 건축으로 알려졌으나 왕국 분열의 원인도 남긴 왕입니다.",
+      "overview": "다윗을 이어 왕위에 올라 지혜와 성전 건축으로 알려졌으나 왕국 분열의 원인도 남긴 왕입니다. 지혜를 구하고 예루살렘 성전을 건축하여 봉헌합니다. 왕국이 번영하지만 이방 신을 따르며 언약의 책임을 저버립니다.",
+      "heroImage": "/assets/people/solomon.webp",
+      "scripture": [
+        "1 Kings 3–8",
+        "1 Kings 9–11"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "1-kings",
+          "relationType": "RELATED_BOOK",
+          "label": "열왕기상"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "1-chronicles",
+          "relationType": "RELATED_BOOK",
+          "label": "역대상"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-chronicles",
+          "relationType": "RELATED_BOOK",
+          "label": "역대하"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "proverbs",
+          "relationType": "RELATED_BOOK",
+          "label": "잠언"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "지혜와 성전",
+          "scripture": "1 Kings 3–8",
+          "description": "지혜를 구하고 예루살렘 성전을 건축하여 봉헌합니다."
+        },
+        {
+          "number": "02",
+          "title": "번영과 불성실",
+          "scripture": "1 Kings 9–11",
+          "description": "왕국이 번영하지만 이방 신을 따르며 언약의 책임을 저버립니다."
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "elijah",
+      "titleKo": "엘리야",
+      "titleEn": "Elijah",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "아합 시대 북이스라엘에서 바알 숭배와 왕의 불의를 책망한 예언자입니다.",
+      "overview": "아합 시대 북이스라엘에서 바알 숭배와 왕의 불의를 책망한 예언자입니다. 가뭄 속에서 사역하고 갈멜산 대결 이후 호렙에서 말씀을 듣습니다. 나봇 사건을 책망하고 마지막에는 엘리사에게 사역이 이어집니다.",
+      "heroImage": "/assets/people/elijah.webp",
+      "scripture": [
+        "1 Kings 17–19",
+        "1 Kings 21; 2 Kings 2"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "1-kings",
+          "relationType": "RELATED_BOOK",
+          "label": "열왕기상"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "가뭄과 갈멜산",
+          "scripture": "1 Kings 17–19",
+          "description": "가뭄 속에서 사역하고 갈멜산 대결 이후 호렙에서 말씀을 듣습니다."
+        },
+        {
+          "number": "02",
+          "title": "책망과 사역의 계승",
+          "scripture": "1 Kings 21; 2 Kings 2",
+          "description": "나봇 사건을 책망하고 마지막에는 엘리사에게 사역이 이어집니다."
+        }
+      ]
+    },
+    {
+      "type": "place",
+      "slug": "samaria",
+      "titleKo": "사마리아",
+      "titleEn": "Samaria",
+      "eyebrow": "PLACES · BIBLICAL WORLD",
+      "summary": "오므리가 세운 북이스라엘의 수도이며 왕정의 역사와 예언자들의 책망에 등장합니다.",
+      "overview": "오므리가 세운 북이스라엘의 수도이며 왕정의 역사와 예언자들의 책망에 등장합니다.",
+      "heroImage": "/assets/scraptura-home-clean.jpg",
+      "scripture": [
+        "1 Kings 16; 2 Kings 17"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "1-kings",
+          "relationType": "RELATED_BOOK",
+          "label": "열왕기상"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-kings",
+          "relationType": "RELATED_BOOK",
+          "label": "열왕기하"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "hosea",
+          "relationType": "RELATED_BOOK",
+          "label": "호세아"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "amos",
+          "relationType": "RELATED_BOOK",
+          "label": "아모스"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "micah",
+          "relationType": "RELATED_BOOK",
+          "label": "미가"
+        }
+      ],
+      "biblicalContext": "오므리가 세운 북이스라엘의 수도이며 왕정의 역사와 예언자들의 책망에 등장합니다.",
+      "keyEvent": {
+        "title": "사마리아의 성경 속 배경",
+        "scripture": "1 Kings 16; 2 Kings 17",
+        "description": "오므리가 세운 북이스라엘의 수도이며 왕정의 역사와 예언자들의 책망에 등장합니다."
+      }
+    },
+    {
+      "type": "place",
+      "slug": "mount-carmel",
+      "titleKo": "갈멜산",
+      "titleEn": "Mount Carmel",
+      "eyebrow": "PLACES · BIBLICAL WORLD",
+      "summary": "엘리야가 바알 예언자들과 대결하고 가뭄의 끝을 기다린 장면의 무대입니다.",
+      "overview": "엘리야가 바알 예언자들과 대결하고 가뭄의 끝을 기다린 장면의 무대입니다.",
+      "heroImage": "/assets/scraptura-home-clean.jpg",
+      "scripture": [
+        "1 Kings 18"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "1-kings",
+          "relationType": "RELATED_BOOK",
+          "label": "열왕기상"
+        }
+      ],
+      "biblicalContext": "엘리야가 바알 예언자들과 대결하고 가뭄의 끝을 기다린 장면의 무대입니다.",
+      "keyEvent": {
+        "title": "갈멜산의 성경 속 배경",
+        "scripture": "1 Kings 18",
+        "description": "엘리야가 바알 예언자들과 대결하고 가뭄의 끝을 기다린 장면의 무대입니다."
+      }
+    }
+  ]
+}

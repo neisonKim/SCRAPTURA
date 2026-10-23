@@ -1,0 +1,259 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/OBA01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "obadiah",
+      "titleKo": "오바댜",
+      "titleEn": "Obadiah",
+      "eyebrow": "BIBLE · OLD TESTAMENT",
+      "summary": "형제 민족의 재난을 이용한 에돔의 교만과 폭력을 책망하고 시온의 회복을 바라봅니다.",
+      "overview": "형제 민족의 재난을 이용한 에돔의 교만과 폭력을 책망하고 시온의 회복을 바라봅니다. 높은 바위에 거하는 에돔의 자신감과 동맹에 대한 신뢰가 무너질 것이라고 경고합니다. 유다의 재난을 기뻐하고 약탈하며 도망자를 넘긴 행동을 구체적으로 책망합니다. 열방이 행한 대로 돌려받을 날을 말하며 시온의 구원과 하나님의 왕권을 바라봅니다.",
+      "biblicalContext": "예루살렘이 겪은 재난에 대한 에돔의 태도가 심판의 이유로 제시됩니다. 높은 거처와 동맹에 의지한 자부심을 무너뜨리며 열방의 책임과 하나님의 다스림을 전합니다.",
+      "heroImage": "/assets/bible/obadiah.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "에돔의 교만",
+          "scripture": "Obadiah 1:1–9",
+          "description": "높은 바위에 거하는 에돔의 자신감과 동맹에 대한 신뢰가 무너질 것이라고 경고합니다."
+        },
+        {
+          "number": "02",
+          "title": "형제의 재난 앞에서",
+          "scripture": "Obadiah 1:10–14",
+          "description": "유다의 재난을 기뻐하고 약탈하며 도망자를 넘긴 행동을 구체적으로 책망합니다."
+        },
+        {
+          "number": "03",
+          "title": "여호와의 날과 시온",
+          "scripture": "Obadiah 1:15–21",
+          "description": "열방이 행한 대로 돌려받을 날을 말하며 시온의 구원과 하나님의 왕권을 바라봅니다."
+        }
+      ],
+      "scripture": [
+        "Obadiah 1"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "obadiah",
+          "relationType": "RELATED_PERSON",
+          "label": "오바댜"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "edom",
+          "relationType": "RELATED_PLACE",
+          "label": "에돔"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "edom-pride-and-violence",
+          "relationType": "RELATED_STORY",
+          "label": "에돔의 교만과 형제의 고통"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "obadiah-day-and-kingdom",
+          "relationType": "RELATED_STORY",
+          "label": "열방의 책임과 하나님의 나라"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "amos",
+          "relationType": "RELATED_BOOK",
+          "label": "아모스"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "jonah",
+          "relationType": "RELATED_BOOK",
+          "label": "요나"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "edom-pride-and-violence",
+      "titleKo": "에돔의 교만과 형제의 고통",
+      "titleEn": "Edom Pride And Violence",
+      "eyebrow": "SCRIPTURE STUDY · OBADIAH",
+      "summary": "높은 바위에 거하는 에돔의 자신감과 동맹에 대한 신뢰가 무너질 것이라고 경고합니다. 유다의 재난을 기뻐하고 약탈하며 도망자를 넘긴 행동을 구체적으로 책망합니다.",
+      "overview": "오바댜의 1:1–9, 1:10–14 본문을 따라 에돔의 교만과 형제의 고통의 내용을 살펴봅니다. 예루살렘이 겪은 재난에 대한 에돔의 태도가 심판의 이유로 제시됩니다. 높은 거처와 동맹에 의지한 자부심을 무너뜨리며 열방의 책임과 하나님의 다스림을 전합니다.",
+      "heroImage": "/assets/bible/obadiah.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "에돔의 교만",
+          "scripture": "Obadiah 1:1–9",
+          "description": "높은 바위에 거하는 에돔의 자신감과 동맹에 대한 신뢰가 무너질 것이라고 경고합니다."
+        },
+        {
+          "number": "02",
+          "title": "형제의 재난 앞에서",
+          "scripture": "Obadiah 1:10–14",
+          "description": "유다의 재난을 기뻐하고 약탈하며 도망자를 넘긴 행동을 구체적으로 책망합니다."
+        }
+      ],
+      "scripture": [
+        "Obadiah 1:1–9",
+        "Obadiah 1:10–14"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "obadiah",
+          "relationType": "RELATED_BOOK",
+          "label": "오바댜"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "obadiah",
+          "relationType": "RELATED_PERSON",
+          "label": "오바댜"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "edom",
+          "relationType": "RELATED_PLACE",
+          "label": "에돔"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "obadiah-day-and-kingdom",
+      "titleKo": "열방의 책임과 하나님의 나라",
+      "titleEn": "Obadiah Day And Kingdom",
+      "eyebrow": "SCRIPTURE STUDY · OBADIAH",
+      "summary": "유다의 재난을 기뻐하고 약탈하며 도망자를 넘긴 행동을 구체적으로 책망합니다. 열방이 행한 대로 돌려받을 날을 말하며 시온의 구원과 하나님의 왕권을 바라봅니다.",
+      "overview": "오바댜의 1:10–14, 1:15–21 본문을 따라 열방의 책임과 하나님의 나라의 내용을 살펴봅니다. 예루살렘이 겪은 재난에 대한 에돔의 태도가 심판의 이유로 제시됩니다. 높은 거처와 동맹에 의지한 자부심을 무너뜨리며 열방의 책임과 하나님의 다스림을 전합니다.",
+      "heroImage": "/assets/bible/obadiah.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "형제의 재난 앞에서",
+          "scripture": "Obadiah 1:10–14",
+          "description": "유다의 재난을 기뻐하고 약탈하며 도망자를 넘긴 행동을 구체적으로 책망합니다."
+        },
+        {
+          "number": "02",
+          "title": "여호와의 날과 시온",
+          "scripture": "Obadiah 1:15–21",
+          "description": "열방이 행한 대로 돌려받을 날을 말하며 시온의 구원과 하나님의 왕권을 바라봅니다."
+        }
+      ],
+      "scripture": [
+        "Obadiah 1:10–14",
+        "Obadiah 1:15–21"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "obadiah",
+          "relationType": "RELATED_BOOK",
+          "label": "오바댜"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "obadiah",
+          "relationType": "RELATED_PERSON",
+          "label": "오바댜"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "edom",
+          "relationType": "RELATED_PLACE",
+          "label": "에돔"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "obadiah",
+      "titleKo": "오바댜",
+      "titleEn": "Obadiah",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "에돔의 교만과 형제 민족을 향한 폭력을 책망하는 환상을 전한 이름의 예언자입니다.",
+      "overview": "에돔의 교만과 형제 민족을 향한 폭력을 책망하는 환상을 전한 이름의 예언자입니다. 에돔의 자만과 유다의 재난에 가담한 행동을 드러냅니다. 열방의 책임과 시온의 구원, 하나님의 다스림을 바라봅니다.",
+      "heroImage": "/assets/people/obadiah.webp",
+      "scripture": [
+        "Obadiah 1:1–14",
+        "Obadiah 1:15–21"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "obadiah",
+          "relationType": "RELATED_BOOK",
+          "label": "오바댜"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "교만과 폭력의 고발",
+          "scripture": "Obadiah 1:1–14",
+          "description": "에돔의 자만과 유다의 재난에 가담한 행동을 드러냅니다."
+        },
+        {
+          "number": "02",
+          "title": "시온의 회복",
+          "scripture": "Obadiah 1:15–21",
+          "description": "열방의 책임과 시온의 구원, 하나님의 다스림을 바라봅니다."
+        }
+      ]
+    },
+    {
+      "type": "place",
+      "slug": "edom",
+      "titleKo": "에돔",
+      "titleEn": "Edom",
+      "eyebrow": "PLACES · BIBLICAL WORLD",
+      "summary": "이스라엘과 형제 민족으로 관계 맺지만 여러 갈등을 겪으며 오바댜의 심판 말씀에 등장하는 지역입니다.",
+      "overview": "이스라엘과 형제 민족으로 관계 맺지만 여러 갈등을 겪으며 오바댜의 심판 말씀에 등장하는 지역입니다.",
+      "heroImage": "/assets/scraptura-home-clean.jpg",
+      "scripture": [
+        "Numbers 20; Obadiah 1"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "obadiah",
+          "relationType": "RELATED_BOOK",
+          "label": "오바댜"
+        }
+      ],
+      "biblicalContext": "이스라엘과 형제 민족으로 관계 맺지만 여러 갈등을 겪으며 오바댜의 심판 말씀에 등장하는 지역입니다.",
+      "keyEvent": {
+        "title": "에돔의 성경 속 배경",
+        "scripture": "Numbers 20; Obadiah 1",
+        "description": "이스라엘과 형제 민족으로 관계 맺지만 여러 갈등을 겪으며 오바댜의 심판 말씀에 등장하는 지역입니다."
+      }
+    }
+  ]
+}

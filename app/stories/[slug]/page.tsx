@@ -20,6 +20,7 @@ import {
 
 import Hero
   from "../../../components/Hero";
+import { preferDedicatedImage } from "../../../lib/content-images";
 
 import RelationCards
   from "../../../components/RelationCards";
@@ -726,12 +727,7 @@ const getStory =
             localStory?.overview ||
             undefined,
 
-          heroImage:
-            normalizeString(
-              data.heroImage
-            ) ||
-            localStory?.heroImage ||
-            "",
+          heroImage: preferDedicatedImage(normalizeString(data.heroImage), localStory?.heroImage || ""),
 
 
           scenes:

@@ -6,6 +6,7 @@ import {
 } from "react";
 
 import Link from "next/link";
+import { mergeArchiveRecords } from "../lib/archive-merge";
 
 import {
   collection,
@@ -60,20 +61,20 @@ function normalizeNumber(
 }
 
 
-export default function PlacesArchiveFirebase() {
+export default function PlacesArchiveFirebase({ initialRecords }: { initialRecords: PlaceRecord[] }) {
 
   const [
     places,
     setPlaces,
   ] =
-    useState<PlaceRecord[]>([]);
+    useState<PlaceRecord[]>(initialRecords);
 
 
   const [
     loading,
     setLoading,
   ] =
-    useState(true);
+    useState(initialRecords.length === 0);
 
 
   const [
@@ -92,7 +93,7 @@ export default function PlacesArchiveFirebase() {
 
       try {
 
-        setLoading(true);
+        setLoading(initialRecords.length === 0);
         setErrorMessage("");
 
 
@@ -243,7 +244,7 @@ export default function PlacesArchiveFirebase() {
 
 
         setPlaces(
-          records
+          mergeArchiveRecords(initialRecords, records)
         );
 
 
@@ -260,9 +261,7 @@ export default function PlacesArchiveFirebase() {
         }
 
 
-        setErrorMessage(
-          "장소 데이터를 불러오지 못했습니다."
-        );
+        if (initialRecords.length === 0) setErrorMessage("장소 데이터를 불러오지 못했습니다.");
 
 
       } finally {
@@ -281,7 +280,7 @@ export default function PlacesArchiveFirebase() {
       active = false;
     };
 
-  }, []);
+  }, [initialRecords]);
 
 
   /*

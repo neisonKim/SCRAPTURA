@@ -9,6 +9,8 @@ import type {
 import {
   buildContentMetadata,
 } from "../../../lib/contentMetadata";
+import { visualEntries } from "../../../data/exploration";
+import { buildNodeMetadata } from "../../../lib/seo";
 
 
 type MetadataProps = {
@@ -33,6 +35,7 @@ export async function generateMetadata({
     await params;
 
 
+  if (visualEntries.some(visual => visual.slug === slug)) return buildNodeMetadata("visual", slug);
   return buildContentMetadata(
     "visual",
     slug

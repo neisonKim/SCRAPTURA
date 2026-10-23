@@ -1,0 +1,288 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/PSA01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "psalms",
+      "titleKo": "시편",
+      "titleEn": "Psalms",
+      "eyebrow": "BIBLE · OLD TESTAMENT",
+      "summary": "찬양과 탄식, 감사와 간구를 모은 시편은 개인과 공동체가 하나님께 말을 건네는 여러 목소리를 담습니다.",
+      "overview": "찬양과 탄식, 감사와 간구를 모은 시편은 개인과 공동체가 하나님께 말을 건네는 여러 목소리를 담습니다. 의인의 길을 말하는 첫 시와 왕에 관한 두 번째 시가 시편 전체를 읽는 출발점을 이룹니다. 대적과 두려움 가운데 보호를 구하는 탄식과 구원에 대한 감사가 이어집니다. 창조와 율법을 찬양하며 하나님을 목자로 고백하고 성전과 회복을 사모합니다. 하나님을 갈망하는 노래와 회개, 왕의 정의와 가난한 이를 위한 기도가 둘째 권을 이룹니다. 악인의 번영과 성소의 파괴, 다윗 언약에 관한 질문들이 셋째 권에 모입니다. 인간의 짧은 생과 하나님의 다스림, 출애굽과 광야의 기억을 노래합니다. 여러 위기에서 건짐받은 이들의 감사와 출애굽 찬양, 율법을 묵상하는 긴 시가 이어집니다. 순례자의 간구와 예루살렘의 평화, 가정과 공동체의 복을 노래하는 시들이 모입니다. 하나님의 역사와 바벨론에서의 슬픔을 기억하며 개인의 기도와 왕권 찬양이 이어집니다. 약한 이를 돌보시는 하나님을 찬양하며 모든 피조물을 찬양에 초대하는 노래로 끝납니다.",
+      "biblicalContext": "다섯 권으로 편집된 시 모음으로, 모든 시를 다윗 한 사람의 작품이나 하나의 연속 사건으로 읽지 않습니다. 표제와 시의 형식, 왕권과 성전, 포로와 예배의 기억을 함께 살핍니다.",
+      "heroImage": "/assets/bible/psalms.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "시편의 문을 열다",
+          "scripture": "Psalms 1–2",
+          "description": "의인의 길을 말하는 첫 시와 왕에 관한 두 번째 시가 시편 전체를 읽는 출발점을 이룹니다."
+        },
+        {
+          "number": "02",
+          "title": "위기 속의 기도",
+          "scripture": "Psalms 3–18",
+          "description": "대적과 두려움 가운데 보호를 구하는 탄식과 구원에 대한 감사가 이어집니다."
+        },
+        {
+          "number": "03",
+          "title": "창조와 말씀, 목자와 예배",
+          "scripture": "Psalms 19–41",
+          "description": "창조와 율법을 찬양하며 하나님을 목자로 고백하고 성전과 회복을 사모합니다."
+        },
+        {
+          "number": "04",
+          "title": "갈망과 왕의 정의",
+          "scripture": "Psalms 42–72",
+          "description": "하나님을 갈망하는 노래와 회개, 왕의 정의와 가난한 이를 위한 기도가 둘째 권을 이룹니다."
+        },
+        {
+          "number": "05",
+          "title": "흔들리는 신뢰와 언약",
+          "scripture": "Psalms 73–89",
+          "description": "악인의 번영과 성소의 파괴, 다윗 언약에 관한 질문들이 셋째 권에 모입니다."
+        },
+        {
+          "number": "06",
+          "title": "영원한 왕과 백성의 기억",
+          "scripture": "Psalms 90–106",
+          "description": "인간의 짧은 생과 하나님의 다스림, 출애굽과 광야의 기억을 노래합니다."
+        },
+        {
+          "number": "07",
+          "title": "감사와 말씀의 길",
+          "scripture": "Psalms 107–119",
+          "description": "여러 위기에서 건짐받은 이들의 감사와 출애굽 찬양, 율법을 묵상하는 긴 시가 이어집니다."
+        },
+        {
+          "number": "08",
+          "title": "성전에 오르는 노래",
+          "scripture": "Psalms 120–134",
+          "description": "순례자의 간구와 예루살렘의 평화, 가정과 공동체의 복을 노래하는 시들이 모입니다."
+        },
+        {
+          "number": "09",
+          "title": "포로의 기억과 찬양",
+          "scripture": "Psalms 135–145",
+          "description": "하나님의 역사와 바벨론에서의 슬픔을 기억하며 개인의 기도와 왕권 찬양이 이어집니다."
+        },
+        {
+          "number": "10",
+          "title": "모든 생명의 찬양",
+          "scripture": "Psalms 146–150",
+          "description": "약한 이를 돌보시는 하나님을 찬양하며 모든 피조물을 찬양에 초대하는 노래로 끝납니다."
+        }
+      ],
+      "scripture": [
+        "Psalms 1–150"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "david",
+          "relationType": "RELATED_PERSON",
+          "label": "다윗"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "asaph",
+          "relationType": "RELATED_PERSON",
+          "label": "아삽"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "psalms-lament-and-trust",
+          "relationType": "RELATED_STORY",
+          "label": "탄식에서 신뢰로 드리는 기도"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "songs-of-ascent-and-praise",
+          "relationType": "RELATED_STORY",
+          "label": "순례자의 노래와 마지막 찬양"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "job",
+          "relationType": "RELATED_BOOK",
+          "label": "욥기"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "proverbs",
+          "relationType": "RELATED_BOOK",
+          "label": "잠언"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "psalms-lament-and-trust",
+      "titleKo": "탄식에서 신뢰로 드리는 기도",
+      "titleEn": "Psalms Lament And Trust",
+      "eyebrow": "SCRIPTURE STUDY · PSALMS",
+      "summary": "의인의 길을 말하는 첫 시와 왕에 관한 두 번째 시가 시편 전체를 읽는 출발점을 이룹니다. 대적과 두려움 가운데 보호를 구하는 탄식과 구원에 대한 감사가 이어집니다. 창조와 율법을 찬양하며 하나님을 목자로 고백하고 성전과 회복을 사모합니다.",
+      "overview": "시편의 1–2, 3–18, 19–41 본문을 따라 탄식에서 신뢰로 드리는 기도의 내용을 살펴봅니다. 다섯 권으로 편집된 시 모음으로, 모든 시를 다윗 한 사람의 작품이나 하나의 연속 사건으로 읽지 않습니다. 표제와 시의 형식, 왕권과 성전, 포로와 예배의 기억을 함께 살핍니다.",
+      "heroImage": "/assets/bible/psalms.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "시편의 문을 열다",
+          "scripture": "Psalms 1–2",
+          "description": "의인의 길을 말하는 첫 시와 왕에 관한 두 번째 시가 시편 전체를 읽는 출발점을 이룹니다."
+        },
+        {
+          "number": "02",
+          "title": "위기 속의 기도",
+          "scripture": "Psalms 3–18",
+          "description": "대적과 두려움 가운데 보호를 구하는 탄식과 구원에 대한 감사가 이어집니다."
+        },
+        {
+          "number": "03",
+          "title": "창조와 말씀, 목자와 예배",
+          "scripture": "Psalms 19–41",
+          "description": "창조와 율법을 찬양하며 하나님을 목자로 고백하고 성전과 회복을 사모합니다."
+        }
+      ],
+      "scripture": [
+        "Psalms 1–2",
+        "Psalms 3–18",
+        "Psalms 19–41"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "psalms",
+          "relationType": "RELATED_BOOK",
+          "label": "시편"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "david",
+          "relationType": "RELATED_PERSON",
+          "label": "다윗"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "asaph",
+          "relationType": "RELATED_PERSON",
+          "label": "아삽"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "songs-of-ascent-and-praise",
+      "titleKo": "순례자의 노래와 마지막 찬양",
+      "titleEn": "Songs Of Ascent And Praise",
+      "eyebrow": "SCRIPTURE STUDY · PSALMS",
+      "summary": "순례자의 간구와 예루살렘의 평화, 가정과 공동체의 복을 노래하는 시들이 모입니다. 하나님의 역사와 바벨론에서의 슬픔을 기억하며 개인의 기도와 왕권 찬양이 이어집니다. 약한 이를 돌보시는 하나님을 찬양하며 모든 피조물을 찬양에 초대하는 노래로 끝납니다.",
+      "overview": "시편의 120–134, 135–145, 146–150 본문을 따라 순례자의 노래와 마지막 찬양의 내용을 살펴봅니다. 다섯 권으로 편집된 시 모음으로, 모든 시를 다윗 한 사람의 작품이나 하나의 연속 사건으로 읽지 않습니다. 표제와 시의 형식, 왕권과 성전, 포로와 예배의 기억을 함께 살핍니다.",
+      "heroImage": "/assets/bible/psalms.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "성전에 오르는 노래",
+          "scripture": "Psalms 120–134",
+          "description": "순례자의 간구와 예루살렘의 평화, 가정과 공동체의 복을 노래하는 시들이 모입니다."
+        },
+        {
+          "number": "02",
+          "title": "포로의 기억과 찬양",
+          "scripture": "Psalms 135–145",
+          "description": "하나님의 역사와 바벨론에서의 슬픔을 기억하며 개인의 기도와 왕권 찬양이 이어집니다."
+        },
+        {
+          "number": "03",
+          "title": "모든 생명의 찬양",
+          "scripture": "Psalms 146–150",
+          "description": "약한 이를 돌보시는 하나님을 찬양하며 모든 피조물을 찬양에 초대하는 노래로 끝납니다."
+        }
+      ],
+      "scripture": [
+        "Psalms 120–134",
+        "Psalms 135–145",
+        "Psalms 146–150"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "psalms",
+          "relationType": "RELATED_BOOK",
+          "label": "시편"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "david",
+          "relationType": "RELATED_PERSON",
+          "label": "다윗"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "asaph",
+          "relationType": "RELATED_PERSON",
+          "label": "아삽"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "asaph",
+      "titleKo": "아삽",
+      "titleEn": "Asaph",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "역대기에 찬양을 맡은 레위인으로 등장하며 그의 이름은 시편의 여러 표제에도 붙어 있습니다.",
+      "overview": "역대기에 찬양을 맡은 레위인으로 등장하며 그의 이름은 시편의 여러 표제에도 붙어 있습니다. 아삽과 동료들이 언약궤 앞에서 찬양과 감사의 직무를 맡습니다. 아삽의 이름이 붙은 시는 악인의 번영을 묻고 성소에서 시선을 새롭게 합니다.",
+      "heroImage": "/assets/people/asaph.webp",
+      "scripture": [
+        "1 Chronicles 16",
+        "Psalms 73"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "psalms",
+          "relationType": "RELATED_BOOK",
+          "label": "시편"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "언약궤 앞의 찬양",
+          "scripture": "1 Chronicles 16",
+          "description": "아삽과 동료들이 언약궤 앞에서 찬양과 감사의 직무를 맡습니다."
+        },
+        {
+          "number": "02",
+          "title": "흔들리는 신뢰의 시",
+          "scripture": "Psalms 73",
+          "description": "아삽의 이름이 붙은 시는 악인의 번영을 묻고 성소에서 시선을 새롭게 합니다."
+        }
+      ]
+    }
+  ]
+}

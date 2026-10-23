@@ -6,6 +6,7 @@ import {
 } from "react";
 
 import Link from "next/link";
+import { mergeArchiveRecords } from "../lib/archive-merge";
 
 import {
   collection,
@@ -35,20 +36,20 @@ type BibleBook = {
 };
 
 
-export default function BibleArchiveFirebase() {
+export default function BibleArchiveFirebase({ initialRecords }: { initialRecords: BibleBook[] }) {
 
   const [
     books,
     setBooks,
   ] =
-    useState<BibleBook[]>([]);
+    useState<BibleBook[]>(initialRecords);
 
 
   const [
     loading,
     setLoading,
   ] =
-    useState(true);
+    useState(initialRecords.length === 0);
 
 
   const [
@@ -75,9 +76,7 @@ export default function BibleArchiveFirebase() {
 
         try {
 
-          setLoading(
-            true
-          );
+          setLoading(initialRecords.length === 0);
 
           setErrorMessage(
             ""
@@ -214,7 +213,7 @@ export default function BibleArchiveFirebase() {
 
 
           setBooks(
-            firebaseBooks
+            mergeArchiveRecords(initialRecords, firebaseBooks)
           );
 
         } catch (
@@ -231,9 +230,7 @@ export default function BibleArchiveFirebase() {
             !cancelled
           ) {
 
-            setErrorMessage(
-              "성경 콘텐츠를 불러오지 못했습니다."
-            );
+            if (initialRecords.length === 0) setErrorMessage("성경 콘텐츠를 불러오지 못했습니다.");
 
           }
 
@@ -264,7 +261,7 @@ export default function BibleArchiveFirebase() {
 
     };
 
-  }, []);
+  }, [initialRecords]);
 
 
   /*

@@ -1,3 +1,8 @@
+import { biblePackageNodes } from "./bible/package-loader";
+import { applyBookCover } from "./bible/images";
+import { explorationNodes } from "./exploration";
+import { applyPersonPortrait } from "./people/images";
+
 export type ContentType =
   | "story"
   | "person"
@@ -92,7 +97,7 @@ export type ContentNode = {
    CONTENT DATA
    ===================================================== */
 
-export const nodes: ContentNode[] = [
+const legacyNodes: ContentNode[] = [
 
   /* =====================================================
      STORY — DAVID & GOLIATH
@@ -9757,6 +9762,11 @@ export const nodes: ContentNode[] = [
 /* =====================================================
    GET CONTENT
    ===================================================== */
+
+// Keep existing detailed content when a package refers to the same node.
+export const nodes: ContentNode[] = Array.from(
+  new Map([...biblePackageNodes, ...legacyNodes, ...explorationNodes].map(node => [`${node.type}:${node.slug}`, node])).values()
+).map(applyBookCover).map(applyPersonPortrait);
 
 export const getNode = (
   type: ContentType,

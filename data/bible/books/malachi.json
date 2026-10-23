@@ -1,0 +1,220 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/MAL01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "malachi",
+      "titleKo": "말라기",
+      "titleEn": "Malachi",
+      "eyebrow": "BIBLE · OLD TESTAMENT",
+      "summary": "예배와 혼인, 정의와 헌물의 문제를 문답으로 다루며 언약에 충실할 것을 요청합니다.",
+      "overview": "예배와 혼인, 정의와 헌물의 문제를 문답으로 다루며 언약에 충실할 것을 요청합니다. 하나님의 사랑에 대한 질문에 답하고 흠 있는 제물과 경외 없는 예배를 책망합니다. 제사장의 가르침과 공동체의 관계, 혼인에서 드러나는 언약의 불성실을 다룹니다. 사자의 길 준비와 정결의 심판을 말하고 공동체가 하나님께 돌아오도록 요청합니다. 하나님을 섬기는 일이 헛되다는 말을 다루고 경외하는 이들의 소망과 엘리야의 약속을 전합니다.",
+      "biblicalContext": "성전이 재건된 이후에도 남은 공동체의 냉소와 불성실을 다룹니다. 하나님의 사랑을 묻는 질문에서 시작해 제사장과 백성의 책임, 다가올 날과 사자의 약속으로 이어집니다.",
+      "heroImage": "/assets/bible/malachi.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "사랑의 질문과 훼손된 예배",
+          "scripture": "Malachi 1",
+          "description": "하나님의 사랑에 대한 질문에 답하고 흠 있는 제물과 경외 없는 예배를 책망합니다."
+        },
+        {
+          "number": "02",
+          "title": "제사장과 언약의 신실함",
+          "scripture": "Malachi 2",
+          "description": "제사장의 가르침과 공동체의 관계, 혼인에서 드러나는 언약의 불성실을 다룹니다."
+        },
+        {
+          "number": "03",
+          "title": "정결하게 하시는 주와 돌아옴",
+          "scripture": "Malachi 3:1–12",
+          "description": "사자의 길 준비와 정결의 심판을 말하고 공동체가 하나님께 돌아오도록 요청합니다."
+        },
+        {
+          "number": "04",
+          "title": "여호와의 날을 기다리며",
+          "scripture": "Malachi 3:13–4:6",
+          "description": "하나님을 섬기는 일이 헛되다는 말을 다루고 경외하는 이들의 소망과 엘리야의 약속을 전합니다."
+        }
+      ],
+      "scripture": [
+        "Malachi 1–4"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "malachi",
+          "relationType": "RELATED_PERSON",
+          "label": "말라기"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "malachi-covenant-faithfulness",
+          "relationType": "RELATED_STORY",
+          "label": "예배와 일상에서 지키는 언약"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "malachi-messenger-and-day",
+          "relationType": "RELATED_STORY",
+          "label": "사자의 약속과 다가오는 날"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "zechariah",
+          "relationType": "RELATED_BOOK",
+          "label": "스가랴"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "matthew",
+          "relationType": "RELATED_BOOK",
+          "label": "마태복음"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "malachi-covenant-faithfulness",
+      "titleKo": "예배와 일상에서 지키는 언약",
+      "titleEn": "Malachi Covenant Faithfulness",
+      "eyebrow": "SCRIPTURE STUDY · MALACHI",
+      "summary": "하나님의 사랑에 대한 질문에 답하고 흠 있는 제물과 경외 없는 예배를 책망합니다. 제사장의 가르침과 공동체의 관계, 혼인에서 드러나는 언약의 불성실을 다룹니다.",
+      "overview": "말라기의 1, 2 본문을 따라 예배와 일상에서 지키는 언약의 내용을 살펴봅니다. 성전이 재건된 이후에도 남은 공동체의 냉소와 불성실을 다룹니다. 하나님의 사랑을 묻는 질문에서 시작해 제사장과 백성의 책임, 다가올 날과 사자의 약속으로 이어집니다.",
+      "heroImage": "/assets/bible/malachi.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "사랑의 질문과 훼손된 예배",
+          "scripture": "Malachi 1",
+          "description": "하나님의 사랑에 대한 질문에 답하고 흠 있는 제물과 경외 없는 예배를 책망합니다."
+        },
+        {
+          "number": "02",
+          "title": "제사장과 언약의 신실함",
+          "scripture": "Malachi 2",
+          "description": "제사장의 가르침과 공동체의 관계, 혼인에서 드러나는 언약의 불성실을 다룹니다."
+        }
+      ],
+      "scripture": [
+        "Malachi 1",
+        "Malachi 2"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "malachi",
+          "relationType": "RELATED_BOOK",
+          "label": "말라기"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "malachi",
+          "relationType": "RELATED_PERSON",
+          "label": "말라기"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "malachi-messenger-and-day",
+      "titleKo": "사자의 약속과 다가오는 날",
+      "titleEn": "Malachi Messenger And Day",
+      "eyebrow": "SCRIPTURE STUDY · MALACHI",
+      "summary": "사자의 길 준비와 정결의 심판을 말하고 공동체가 하나님께 돌아오도록 요청합니다. 하나님을 섬기는 일이 헛되다는 말을 다루고 경외하는 이들의 소망과 엘리야의 약속을 전합니다.",
+      "overview": "말라기의 3:1–12, 3:13–4:6 본문을 따라 사자의 약속과 다가오는 날의 내용을 살펴봅니다. 성전이 재건된 이후에도 남은 공동체의 냉소와 불성실을 다룹니다. 하나님의 사랑을 묻는 질문에서 시작해 제사장과 백성의 책임, 다가올 날과 사자의 약속으로 이어집니다.",
+      "heroImage": "/assets/bible/malachi.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "정결하게 하시는 주와 돌아옴",
+          "scripture": "Malachi 3:1–12",
+          "description": "사자의 길 준비와 정결의 심판을 말하고 공동체가 하나님께 돌아오도록 요청합니다."
+        },
+        {
+          "number": "02",
+          "title": "여호와의 날을 기다리며",
+          "scripture": "Malachi 3:13–4:6",
+          "description": "하나님을 섬기는 일이 헛되다는 말을 다루고 경외하는 이들의 소망과 엘리야의 약속을 전합니다."
+        }
+      ],
+      "scripture": [
+        "Malachi 3:1–12",
+        "Malachi 3:13–4:6"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "malachi",
+          "relationType": "RELATED_BOOK",
+          "label": "말라기"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "malachi",
+          "relationType": "RELATED_PERSON",
+          "label": "말라기"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "malachi",
+      "titleKo": "말라기",
+      "titleEn": "Malachi",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "예배와 공동체의 불성실을 책망하며 하나님께 돌아오라고 요청하는 책의 예언자 이름입니다.",
+      "overview": "예배와 공동체의 불성실을 책망하며 하나님께 돌아오라고 요청하는 책의 예언자 이름입니다. 제사장과 공동체에게 예배와 관계의 책임을 묻습니다. 정결과 회복, 다가오는 날과 길을 준비할 사자의 약속을 전합니다.",
+      "heroImage": "/assets/people/malachi.webp",
+      "scripture": [
+        "Malachi 1–2",
+        "Malachi 3–4"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "malachi",
+          "relationType": "RELATED_BOOK",
+          "label": "말라기"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "예배와 언약의 책망",
+          "scripture": "Malachi 1–2",
+          "description": "제사장과 공동체에게 예배와 관계의 책임을 묻습니다."
+        },
+        {
+          "number": "02",
+          "title": "돌아옴과 사자의 약속",
+          "scripture": "Malachi 3–4",
+          "description": "정결과 회복, 다가오는 날과 길을 준비할 사자의 약속을 전합니다."
+        }
+      ]
+    }
+  ]
+}

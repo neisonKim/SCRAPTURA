@@ -1,0 +1,179 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/LAM01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "lamentations",
+      "titleKo": "예레미야애가",
+      "titleEn": "Lamentations",
+      "eyebrow": "BIBLE · OLD TESTAMENT",
+      "summary": "무너진 예루살렘의 고통을 다섯 편의 시로 애도하며 탄식 가운데 자비와 회복을 구합니다.",
+      "overview": "무너진 예루살렘의 고통을 다섯 편의 시로 애도하며 탄식 가운데 자비와 회복을 구합니다. 사람들로 가득했던 예루살렘이 외로운 여인으로 그려지고 상실과 고백의 목소리가 들립니다. 성벽과 성소의 붕괴, 굶주리는 아이들의 고통을 묘사하며 눈물의 기도를 요청합니다. 깊은 절망의 고백 속에서도 매일 새로워지는 긍휼을 기억하고 구원을 기다립니다. 귀하게 여겨지던 이들의 몰락과 기근, 지도자들의 책임을 돌아봅니다. 남은 공동체의 수치와 고난을 함께 아뢰며 하나님께 회복을 구합니다.",
+      "biblicalContext": "성읍의 파괴와 굶주림, 상실을 여러 목소리로 표현하는 애가 모음입니다. 비극을 성급하게 해소하지 않고 공동체가 고통을 말하고 하나님께 돌아설 언어를 마련합니다.",
+      "heroImage": "/assets/bible/lamentations.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "외로운 성읍의 울음",
+          "scripture": "Lamentations 1",
+          "description": "사람들로 가득했던 예루살렘이 외로운 여인으로 그려지고 상실과 고백의 목소리가 들립니다."
+        },
+        {
+          "number": "02",
+          "title": "무너진 성소와 거리",
+          "scripture": "Lamentations 2",
+          "description": "성벽과 성소의 붕괴, 굶주리는 아이들의 고통을 묘사하며 눈물의 기도를 요청합니다."
+        },
+        {
+          "number": "03",
+          "title": "고통 가운데 붙드는 자비",
+          "scripture": "Lamentations 3",
+          "description": "깊은 절망의 고백 속에서도 매일 새로워지는 긍휼을 기억하고 구원을 기다립니다."
+        },
+        {
+          "number": "04",
+          "title": "변해 버린 성읍",
+          "scripture": "Lamentations 4",
+          "description": "귀하게 여겨지던 이들의 몰락과 기근, 지도자들의 책임을 돌아봅니다."
+        },
+        {
+          "number": "05",
+          "title": "우리를 돌이켜 주소서",
+          "scripture": "Lamentations 5",
+          "description": "남은 공동체의 수치와 고난을 함께 아뢰며 하나님께 회복을 구합니다."
+        }
+      ],
+      "scripture": [
+        "Lamentations 1–5"
+      ],
+      "relations": [
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "lament-for-zion",
+          "relationType": "RELATED_STORY",
+          "label": "무너진 성읍의 탄식"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "lament-and-mercies",
+          "relationType": "RELATED_STORY",
+          "label": "자비를 기억하며 회복을 구하다"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "jeremiah",
+          "relationType": "RELATED_BOOK",
+          "label": "예레미야"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "ezekiel",
+          "relationType": "RELATED_BOOK",
+          "label": "에스겔"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "lament-for-zion",
+      "titleKo": "무너진 성읍의 탄식",
+      "titleEn": "Lament For Zion",
+      "eyebrow": "SCRIPTURE STUDY · LAMENTATIONS",
+      "summary": "사람들로 가득했던 예루살렘이 외로운 여인으로 그려지고 상실과 고백의 목소리가 들립니다. 성벽과 성소의 붕괴, 굶주리는 아이들의 고통을 묘사하며 눈물의 기도를 요청합니다.",
+      "overview": "예레미야애가의 1, 2 본문을 따라 무너진 성읍의 탄식의 내용을 살펴봅니다. 성읍의 파괴와 굶주림, 상실을 여러 목소리로 표현하는 애가 모음입니다. 비극을 성급하게 해소하지 않고 공동체가 고통을 말하고 하나님께 돌아설 언어를 마련합니다.",
+      "heroImage": "/assets/bible/lamentations.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "외로운 성읍의 울음",
+          "scripture": "Lamentations 1",
+          "description": "사람들로 가득했던 예루살렘이 외로운 여인으로 그려지고 상실과 고백의 목소리가 들립니다."
+        },
+        {
+          "number": "02",
+          "title": "무너진 성소와 거리",
+          "scripture": "Lamentations 2",
+          "description": "성벽과 성소의 붕괴, 굶주리는 아이들의 고통을 묘사하며 눈물의 기도를 요청합니다."
+        }
+      ],
+      "scripture": [
+        "Lamentations 1",
+        "Lamentations 2"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "lamentations",
+          "relationType": "RELATED_BOOK",
+          "label": "예레미야애가"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "lament-and-mercies",
+      "titleKo": "자비를 기억하며 회복을 구하다",
+      "titleEn": "Lament And Mercies",
+      "eyebrow": "SCRIPTURE STUDY · LAMENTATIONS",
+      "summary": "깊은 절망의 고백 속에서도 매일 새로워지는 긍휼을 기억하고 구원을 기다립니다. 귀하게 여겨지던 이들의 몰락과 기근, 지도자들의 책임을 돌아봅니다. 남은 공동체의 수치와 고난을 함께 아뢰며 하나님께 회복을 구합니다.",
+      "overview": "예레미야애가의 3, 4, 5 본문을 따라 자비를 기억하며 회복을 구하다의 내용을 살펴봅니다. 성읍의 파괴와 굶주림, 상실을 여러 목소리로 표현하는 애가 모음입니다. 비극을 성급하게 해소하지 않고 공동체가 고통을 말하고 하나님께 돌아설 언어를 마련합니다.",
+      "heroImage": "/assets/bible/lamentations.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "고통 가운데 붙드는 자비",
+          "scripture": "Lamentations 3",
+          "description": "깊은 절망의 고백 속에서도 매일 새로워지는 긍휼을 기억하고 구원을 기다립니다."
+        },
+        {
+          "number": "02",
+          "title": "변해 버린 성읍",
+          "scripture": "Lamentations 4",
+          "description": "귀하게 여겨지던 이들의 몰락과 기근, 지도자들의 책임을 돌아봅니다."
+        },
+        {
+          "number": "03",
+          "title": "우리를 돌이켜 주소서",
+          "scripture": "Lamentations 5",
+          "description": "남은 공동체의 수치와 고난을 함께 아뢰며 하나님께 회복을 구합니다."
+        }
+      ],
+      "scripture": [
+        "Lamentations 3",
+        "Lamentations 4",
+        "Lamentations 5"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "lamentations",
+          "relationType": "RELATED_BOOK",
+          "label": "예레미야애가"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        }
+      ]
+    }
+  ]
+}

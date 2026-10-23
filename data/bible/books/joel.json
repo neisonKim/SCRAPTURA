@@ -1,0 +1,220 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/JOL01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "joel",
+      "titleKo": "요엘",
+      "titleEn": "Joel",
+      "eyebrow": "BIBLE · OLD TESTAMENT",
+      "summary": "메뚜기 재앙과 황폐한 땅을 출발점으로 회개, 회복과 하나님의 영을 부으시는 약속을 전합니다.",
+      "overview": "메뚜기 재앙과 황폐한 땅을 출발점으로 회개, 회복과 하나님의 영을 부으시는 약속을 전합니다. 메뚜기가 휩쓴 농토와 끊어진 제사를 바라보며 농부와 제사장, 온 공동체에 애도를 요청합니다. 다가오는 날을 경고하며 겉옷만 아니라 마음을 돌이키고 공동체가 함께 기도하도록 부릅니다. 땅의 풍요를 회복시키시고 나이와 신분을 넘어 하나님의 영을 부으실 것을 약속합니다. 열방에 대한 심판과 시온의 안전, 땅의 풍성함으로 책이 마무리됩니다.",
+      "biblicalContext": "공동체 전체가 재난 앞에서 탄식하고 하나님께 돌아오도록 요청받습니다. 여호와의 날은 경고와 구원의 전망을 함께 담으며 마지막에는 시온의 회복을 바라봅니다.",
+      "heroImage": "/assets/bible/joel.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "황폐해진 땅의 탄식",
+          "scripture": "Joel 1",
+          "description": "메뚜기가 휩쓴 농토와 끊어진 제사를 바라보며 농부와 제사장, 온 공동체에 애도를 요청합니다."
+        },
+        {
+          "number": "02",
+          "title": "마음을 찢고 돌아오라",
+          "scripture": "Joel 2:1–17",
+          "description": "다가오는 날을 경고하며 겉옷만 아니라 마음을 돌이키고 공동체가 함께 기도하도록 부릅니다."
+        },
+        {
+          "number": "03",
+          "title": "회복과 영의 약속",
+          "scripture": "Joel 2:18–32",
+          "description": "땅의 풍요를 회복시키시고 나이와 신분을 넘어 하나님의 영을 부으실 것을 약속합니다."
+        },
+        {
+          "number": "04",
+          "title": "열방의 심판과 시온",
+          "scripture": "Joel 3",
+          "description": "열방에 대한 심판과 시온의 안전, 땅의 풍성함으로 책이 마무리됩니다."
+        }
+      ],
+      "scripture": [
+        "Joel 1–3"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "joel",
+          "relationType": "RELATED_PERSON",
+          "label": "요엘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "joel-call-to-return",
+          "relationType": "RELATED_STORY",
+          "label": "재난 앞에서 함께 돌아오다"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "joel-spirit-and-restoration",
+          "relationType": "RELATED_STORY",
+          "label": "회복과 성령의 약속"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "hosea",
+          "relationType": "RELATED_BOOK",
+          "label": "호세아"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "amos",
+          "relationType": "RELATED_BOOK",
+          "label": "아모스"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "joel-call-to-return",
+      "titleKo": "재난 앞에서 함께 돌아오다",
+      "titleEn": "Joel Call To Return",
+      "eyebrow": "SCRIPTURE STUDY · JOEL",
+      "summary": "메뚜기가 휩쓴 농토와 끊어진 제사를 바라보며 농부와 제사장, 온 공동체에 애도를 요청합니다. 다가오는 날을 경고하며 겉옷만 아니라 마음을 돌이키고 공동체가 함께 기도하도록 부릅니다.",
+      "overview": "요엘의 1, 2:1–17 본문을 따라 재난 앞에서 함께 돌아오다의 내용을 살펴봅니다. 공동체 전체가 재난 앞에서 탄식하고 하나님께 돌아오도록 요청받습니다. 여호와의 날은 경고와 구원의 전망을 함께 담으며 마지막에는 시온의 회복을 바라봅니다.",
+      "heroImage": "/assets/bible/joel.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "황폐해진 땅의 탄식",
+          "scripture": "Joel 1",
+          "description": "메뚜기가 휩쓴 농토와 끊어진 제사를 바라보며 농부와 제사장, 온 공동체에 애도를 요청합니다."
+        },
+        {
+          "number": "02",
+          "title": "마음을 찢고 돌아오라",
+          "scripture": "Joel 2:1–17",
+          "description": "다가오는 날을 경고하며 겉옷만 아니라 마음을 돌이키고 공동체가 함께 기도하도록 부릅니다."
+        }
+      ],
+      "scripture": [
+        "Joel 1",
+        "Joel 2:1–17"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "joel",
+          "relationType": "RELATED_BOOK",
+          "label": "요엘"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "joel",
+          "relationType": "RELATED_PERSON",
+          "label": "요엘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "joel-spirit-and-restoration",
+      "titleKo": "회복과 성령의 약속",
+      "titleEn": "Joel Spirit And Restoration",
+      "eyebrow": "SCRIPTURE STUDY · JOEL",
+      "summary": "땅의 풍요를 회복시키시고 나이와 신분을 넘어 하나님의 영을 부으실 것을 약속합니다. 열방에 대한 심판과 시온의 안전, 땅의 풍성함으로 책이 마무리됩니다.",
+      "overview": "요엘의 2:18–32, 3 본문을 따라 회복과 성령의 약속의 내용을 살펴봅니다. 공동체 전체가 재난 앞에서 탄식하고 하나님께 돌아오도록 요청받습니다. 여호와의 날은 경고와 구원의 전망을 함께 담으며 마지막에는 시온의 회복을 바라봅니다.",
+      "heroImage": "/assets/bible/joel.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "회복과 영의 약속",
+          "scripture": "Joel 2:18–32",
+          "description": "땅의 풍요를 회복시키시고 나이와 신분을 넘어 하나님의 영을 부으실 것을 약속합니다."
+        },
+        {
+          "number": "02",
+          "title": "열방의 심판과 시온",
+          "scripture": "Joel 3",
+          "description": "열방에 대한 심판과 시온의 안전, 땅의 풍성함으로 책이 마무리됩니다."
+        }
+      ],
+      "scripture": [
+        "Joel 2:18–32",
+        "Joel 3"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "joel",
+          "relationType": "RELATED_BOOK",
+          "label": "요엘"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "joel",
+          "relationType": "RELATED_PERSON",
+          "label": "요엘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "joel",
+      "titleKo": "요엘",
+      "titleEn": "Joel",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "공동체의 재난 앞에서 회개를 요청하고 회복과 하나님의 영을 약속하는 이름의 예언자입니다.",
+      "overview": "공동체의 재난 앞에서 회개를 요청하고 회복과 하나님의 영을 약속하는 이름의 예언자입니다. 땅의 황폐함 앞에서 온 공동체에 탄식과 기도를 요청합니다. 마음을 돌이키라는 부름과 함께 회복과 영을 부으실 약속을 전합니다.",
+      "heroImage": "/assets/people/joel.webp",
+      "scripture": [
+        "Joel 1",
+        "Joel 2"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "joel",
+          "relationType": "RELATED_BOOK",
+          "label": "요엘"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "재난을 함께 애도하다",
+          "scripture": "Joel 1",
+          "description": "땅의 황폐함 앞에서 온 공동체에 탄식과 기도를 요청합니다."
+        },
+        {
+          "number": "02",
+          "title": "회개와 영의 약속",
+          "scripture": "Joel 2",
+          "description": "마음을 돌이키라는 부름과 함께 회복과 영을 부으실 약속을 전합니다."
+        }
+      ]
+    }
+  ]
+}

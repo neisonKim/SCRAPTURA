@@ -1,0 +1,202 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/JUD01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "jude",
+      "titleKo": "유다서",
+      "titleEn": "Jude",
+      "eyebrow": "BIBLE · NEW TESTAMENT",
+      "summary": "은혜를 방종의 구실로 바꾸는 가르침을 경계하고 믿음과 사랑 안에서 서로를 돌보도록 권합니다.",
+      "overview": "은혜를 방종의 구실로 바꾸는 가르침을 경계하고 믿음과 사랑 안에서 서로를 돌보도록 권합니다. 수신자들에게 긍휼과 평강을 빌고 은혜를 왜곡하는 이들 때문에 믿음을 위해 힘쓸 것을 요청합니다. 과거의 불신과 반역을 예로 들며 탐욕과 방종으로 공동체를 해치는 이들의 모습을 드러냅니다. 사도들의 경고를 기억하고 기도와 사랑으로 자신을 세우며 의심하는 이들을 돌보도록 권합니다. 넘어지지 않도록 보호하시고 기쁨으로 서게 하시는 하나님께 영광을 돌립니다.",
+      "biblicalContext": "공동체 안으로 들어온 해로운 가르침과 행실에 대응하는 짧은 권면입니다. 이스라엘의 기억과 여러 전승을 예로 들며 분별과 긍휼, 하나님의 보호에 대한 찬양으로 마칩니다.",
+      "heroImage": "/assets/bible/jude.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "맡겨진 믿음을 지키라",
+          "scripture": "Jude 1:1–4",
+          "description": "수신자들에게 긍휼과 평강을 빌고 은혜를 왜곡하는 이들 때문에 믿음을 위해 힘쓸 것을 요청합니다."
+        },
+        {
+          "number": "02",
+          "title": "잊지 말아야 할 경고",
+          "scripture": "Jude 1:5–16",
+          "description": "과거의 불신과 반역을 예로 들며 탐욕과 방종으로 공동체를 해치는 이들의 모습을 드러냅니다."
+        },
+        {
+          "number": "03",
+          "title": "서로를 세우고 긍휼을 베풀라",
+          "scripture": "Jude 1:17–23",
+          "description": "사도들의 경고를 기억하고 기도와 사랑으로 자신을 세우며 의심하는 이들을 돌보도록 권합니다."
+        },
+        {
+          "number": "04",
+          "title": "지키시는 하나님을 찬양하다",
+          "scripture": "Jude 1:24–25",
+          "description": "넘어지지 않도록 보호하시고 기쁨으로 서게 하시는 하나님께 영광을 돌립니다."
+        }
+      ],
+      "scripture": [
+        "Jude 1"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "jude",
+          "relationType": "RELATED_PERSON",
+          "label": "유다"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "jude-guard-the-faith",
+          "relationType": "RELATED_STORY",
+          "label": "은혜를 왜곡하는 가르침의 경계"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "jude-mercy-and-praise",
+          "relationType": "RELATED_STORY",
+          "label": "서로를 세우는 긍휼과 찬양"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "3-john",
+          "relationType": "RELATED_BOOK",
+          "label": "요한삼서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "revelation",
+          "relationType": "RELATED_BOOK",
+          "label": "요한계시록"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "jude-guard-the-faith",
+      "titleKo": "은혜를 왜곡하는 가르침의 경계",
+      "titleEn": "Jude Guard The Faith",
+      "eyebrow": "SCRIPTURE STUDY · JUDE",
+      "summary": "수신자들에게 긍휼과 평강을 빌고 은혜를 왜곡하는 이들 때문에 믿음을 위해 힘쓸 것을 요청합니다. 과거의 불신과 반역을 예로 들며 탐욕과 방종으로 공동체를 해치는 이들의 모습을 드러냅니다.",
+      "overview": "유다서의 1:1–4, 1:5–16 본문을 따라 은혜를 왜곡하는 가르침의 경계의 내용을 살펴봅니다. 공동체 안으로 들어온 해로운 가르침과 행실에 대응하는 짧은 권면입니다. 이스라엘의 기억과 여러 전승을 예로 들며 분별과 긍휼, 하나님의 보호에 대한 찬양으로 마칩니다.",
+      "heroImage": "/assets/bible/jude.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "맡겨진 믿음을 지키라",
+          "scripture": "Jude 1:1–4",
+          "description": "수신자들에게 긍휼과 평강을 빌고 은혜를 왜곡하는 이들 때문에 믿음을 위해 힘쓸 것을 요청합니다."
+        },
+        {
+          "number": "02",
+          "title": "잊지 말아야 할 경고",
+          "scripture": "Jude 1:5–16",
+          "description": "과거의 불신과 반역을 예로 들며 탐욕과 방종으로 공동체를 해치는 이들의 모습을 드러냅니다."
+        }
+      ],
+      "scripture": [
+        "Jude 1:1–4",
+        "Jude 1:5–16"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "jude",
+          "relationType": "RELATED_BOOK",
+          "label": "유다서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "jude",
+          "relationType": "RELATED_PERSON",
+          "label": "유다"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "jude-mercy-and-praise",
+      "titleKo": "서로를 세우는 긍휼과 찬양",
+      "titleEn": "Jude Mercy And Praise",
+      "eyebrow": "SCRIPTURE STUDY · JUDE",
+      "summary": "사도들의 경고를 기억하고 기도와 사랑으로 자신을 세우며 의심하는 이들을 돌보도록 권합니다. 넘어지지 않도록 보호하시고 기쁨으로 서게 하시는 하나님께 영광을 돌립니다.",
+      "overview": "유다서의 1:17–23, 1:24–25 본문을 따라 서로를 세우는 긍휼과 찬양의 내용을 살펴봅니다. 공동체 안으로 들어온 해로운 가르침과 행실에 대응하는 짧은 권면입니다. 이스라엘의 기억과 여러 전승을 예로 들며 분별과 긍휼, 하나님의 보호에 대한 찬양으로 마칩니다.",
+      "heroImage": "/assets/bible/jude.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "서로를 세우고 긍휼을 베풀라",
+          "scripture": "Jude 1:17–23",
+          "description": "사도들의 경고를 기억하고 기도와 사랑으로 자신을 세우며 의심하는 이들을 돌보도록 권합니다."
+        },
+        {
+          "number": "02",
+          "title": "지키시는 하나님을 찬양하다",
+          "scripture": "Jude 1:24–25",
+          "description": "넘어지지 않도록 보호하시고 기쁨으로 서게 하시는 하나님께 영광을 돌립니다."
+        }
+      ],
+      "scripture": [
+        "Jude 1:17–23",
+        "Jude 1:24–25"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "jude",
+          "relationType": "RELATED_BOOK",
+          "label": "유다서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "jude",
+          "relationType": "RELATED_PERSON",
+          "label": "유다"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "jude",
+      "titleKo": "유다",
+      "titleEn": "Jude",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "유다서에서 예수 그리스도의 종이자 야고보의 형제라고 자신을 소개하는 인물입니다.",
+      "overview": "유다서에서 예수 그리스도의 종이자 야고보의 형제라고 자신을 소개하는 인물입니다. 수신자들에게 인사하고 맡겨진 믿음을 지키도록 편지의 목적을 밝힙니다. 서로를 돌보며 기도할 것을 권하고 지키시는 하나님께 영광을 돌립니다.",
+      "heroImage": "/assets/people/jude.webp",
+      "scripture": [
+        "Jude 1:1–4",
+        "Jude 1:17–25"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "jude",
+          "relationType": "RELATED_BOOK",
+          "label": "유다서"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "믿음을 위한 권면",
+          "scripture": "Jude 1:1–4",
+          "description": "수신자들에게 인사하고 맡겨진 믿음을 지키도록 편지의 목적을 밝힙니다."
+        },
+        {
+          "number": "02",
+          "title": "긍휼과 찬양",
+          "scripture": "Jude 1:17–25",
+          "description": "서로를 돌보며 기도할 것을 권하고 지키시는 하나님께 영광을 돌립니다."
+        }
+      ]
+    }
+  ]
+}

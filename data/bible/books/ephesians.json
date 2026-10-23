@@ -1,0 +1,309 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/EPH01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "ephesians",
+      "titleKo": "에베소서",
+      "titleEn": "Ephesians",
+      "eyebrow": "BIBLE · NEW TESTAMENT",
+      "summary": "그리스도 안에서 하나 된 새 공동체의 정체성과 그에 어울리는 사랑과 화평의 삶을 전합니다.",
+      "overview": "그리스도 안에서 하나 된 새 공동체의 정체성과 그에 어울리는 사랑과 화평의 삶을 전합니다. 구원의 복을 찬양하고 신자들이 부르심의 소망과 하나님의 능력을 알도록 기도합니다. 은혜로 주어진 구원과 허물어진 장벽, 함께 지어져 가는 성전의 이미지를 설명합니다. 이방인도 함께 상속받는 복음의 비밀을 말하고 그리스도의 사랑을 알도록 기도합니다. 서로 다른 은사로 한 몸을 세우고 거짓과 분노를 버려 새 사람으로 살아갈 것을 권합니다. 빛의 자녀로 살며 가정과 노동의 관계에서 서로에게 책임 있는 삶을 권합니다. 하나님의 전신 갑주라는 비유로 진리와 의, 믿음과 기도의 준비를 말합니다.",
+      "biblicalContext": "구원의 은혜와 유대인·이방인의 하나 됨을 교회의 삶으로 연결합니다. 기도와 찬양, 한 몸의 은사와 새 사람의 삶, 가정과 일상 및 영적 싸움의 권면이 이어집니다.",
+      "heroImage": "/assets/bible/ephesians.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "그리스도 안의 복과 기도",
+          "scripture": "Ephesians 1",
+          "description": "구원의 복을 찬양하고 신자들이 부르심의 소망과 하나님의 능력을 알도록 기도합니다."
+        },
+        {
+          "number": "02",
+          "title": "은혜와 화평의 새 공동체",
+          "scripture": "Ephesians 2",
+          "description": "은혜로 주어진 구원과 허물어진 장벽, 함께 지어져 가는 성전의 이미지를 설명합니다."
+        },
+        {
+          "number": "03",
+          "title": "열방을 향한 비밀과 사랑",
+          "scripture": "Ephesians 3",
+          "description": "이방인도 함께 상속받는 복음의 비밀을 말하고 그리스도의 사랑을 알도록 기도합니다."
+        },
+        {
+          "number": "04",
+          "title": "한 몸과 새 사람",
+          "scripture": "Ephesians 4",
+          "description": "서로 다른 은사로 한 몸을 세우고 거짓과 분노를 버려 새 사람으로 살아갈 것을 권합니다."
+        },
+        {
+          "number": "05",
+          "title": "사랑과 일상의 관계",
+          "scripture": "Ephesians 5:1–6:9",
+          "description": "빛의 자녀로 살며 가정과 노동의 관계에서 서로에게 책임 있는 삶을 권합니다."
+        },
+        {
+          "number": "06",
+          "title": "깨어 기도하는 공동체",
+          "scripture": "Ephesians 6:10–24",
+          "description": "하나님의 전신 갑주라는 비유로 진리와 의, 믿음과 기도의 준비를 말합니다."
+        }
+      ],
+      "scripture": [
+        "Ephesians 1–6"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "tychicus",
+          "relationType": "RELATED_PERSON",
+          "label": "두기고"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "ephesus",
+          "relationType": "RELATED_PLACE",
+          "label": "에베소"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "one-new-humanity",
+          "relationType": "RELATED_STORY",
+          "label": "은혜로 세워지는 하나의 공동체"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "walk-in-love",
+          "relationType": "RELATED_STORY",
+          "label": "새 사람으로 걷는 사랑의 길"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "galatians",
+          "relationType": "RELATED_BOOK",
+          "label": "갈라디아서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "philippians",
+          "relationType": "RELATED_BOOK",
+          "label": "빌립보서"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "one-new-humanity",
+      "titleKo": "은혜로 세워지는 하나의 공동체",
+      "titleEn": "One New Humanity",
+      "eyebrow": "SCRIPTURE STUDY · EPHESIANS",
+      "summary": "구원의 복을 찬양하고 신자들이 부르심의 소망과 하나님의 능력을 알도록 기도합니다. 은혜로 주어진 구원과 허물어진 장벽, 함께 지어져 가는 성전의 이미지를 설명합니다. 이방인도 함께 상속받는 복음의 비밀을 말하고 그리스도의 사랑을 알도록 기도합니다.",
+      "overview": "에베소서의 1, 2, 3 본문을 따라 은혜로 세워지는 하나의 공동체의 내용을 살펴봅니다. 구원의 은혜와 유대인·이방인의 하나 됨을 교회의 삶으로 연결합니다. 기도와 찬양, 한 몸의 은사와 새 사람의 삶, 가정과 일상 및 영적 싸움의 권면이 이어집니다.",
+      "heroImage": "/assets/bible/ephesians.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "그리스도 안의 복과 기도",
+          "scripture": "Ephesians 1",
+          "description": "구원의 복을 찬양하고 신자들이 부르심의 소망과 하나님의 능력을 알도록 기도합니다."
+        },
+        {
+          "number": "02",
+          "title": "은혜와 화평의 새 공동체",
+          "scripture": "Ephesians 2",
+          "description": "은혜로 주어진 구원과 허물어진 장벽, 함께 지어져 가는 성전의 이미지를 설명합니다."
+        },
+        {
+          "number": "03",
+          "title": "열방을 향한 비밀과 사랑",
+          "scripture": "Ephesians 3",
+          "description": "이방인도 함께 상속받는 복음의 비밀을 말하고 그리스도의 사랑을 알도록 기도합니다."
+        }
+      ],
+      "scripture": [
+        "Ephesians 1",
+        "Ephesians 2",
+        "Ephesians 3"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "ephesians",
+          "relationType": "RELATED_BOOK",
+          "label": "에베소서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "tychicus",
+          "relationType": "RELATED_PERSON",
+          "label": "두기고"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "ephesus",
+          "relationType": "RELATED_PLACE",
+          "label": "에베소"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "walk-in-love",
+      "titleKo": "새 사람으로 걷는 사랑의 길",
+      "titleEn": "Walk In Love",
+      "eyebrow": "SCRIPTURE STUDY · EPHESIANS",
+      "summary": "서로 다른 은사로 한 몸을 세우고 거짓과 분노를 버려 새 사람으로 살아갈 것을 권합니다. 빛의 자녀로 살며 가정과 노동의 관계에서 서로에게 책임 있는 삶을 권합니다. 하나님의 전신 갑주라는 비유로 진리와 의, 믿음과 기도의 준비를 말합니다.",
+      "overview": "에베소서의 4, 5:1–6:9, 6:10–24 본문을 따라 새 사람으로 걷는 사랑의 길의 내용을 살펴봅니다. 구원의 은혜와 유대인·이방인의 하나 됨을 교회의 삶으로 연결합니다. 기도와 찬양, 한 몸의 은사와 새 사람의 삶, 가정과 일상 및 영적 싸움의 권면이 이어집니다.",
+      "heroImage": "/assets/bible/ephesians.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "한 몸과 새 사람",
+          "scripture": "Ephesians 4",
+          "description": "서로 다른 은사로 한 몸을 세우고 거짓과 분노를 버려 새 사람으로 살아갈 것을 권합니다."
+        },
+        {
+          "number": "02",
+          "title": "사랑과 일상의 관계",
+          "scripture": "Ephesians 5:1–6:9",
+          "description": "빛의 자녀로 살며 가정과 노동의 관계에서 서로에게 책임 있는 삶을 권합니다."
+        },
+        {
+          "number": "03",
+          "title": "깨어 기도하는 공동체",
+          "scripture": "Ephesians 6:10–24",
+          "description": "하나님의 전신 갑주라는 비유로 진리와 의, 믿음과 기도의 준비를 말합니다."
+        }
+      ],
+      "scripture": [
+        "Ephesians 4",
+        "Ephesians 5:1–6:9",
+        "Ephesians 6:10–24"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "ephesians",
+          "relationType": "RELATED_BOOK",
+          "label": "에베소서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "tychicus",
+          "relationType": "RELATED_PERSON",
+          "label": "두기고"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "ephesus",
+          "relationType": "RELATED_PLACE",
+          "label": "에베소"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "tychicus",
+      "titleKo": "두기고",
+      "titleEn": "Tychicus",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "공동체들 사이에서 소식을 전하고 위로를 나눈 바울의 신실한 동역자로 소개됩니다.",
+      "overview": "공동체들 사이에서 소식을 전하고 위로를 나눈 바울의 신실한 동역자로 소개됩니다. 신자들이 사정을 알고 위로를 받도록 보냄받습니다. 오네시모와 함께 공동체에 소식을 전하도록 소개됩니다.",
+      "heroImage": "/assets/people/tychicus.webp",
+      "scripture": [
+        "Ephesians 6:21–22",
+        "Colossians 4:7–9"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "ephesians",
+          "relationType": "RELATED_BOOK",
+          "label": "에베소서"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "소식을 전하는 사역",
+          "scripture": "Ephesians 6:21–22",
+          "description": "신자들이 사정을 알고 위로를 받도록 보냄받습니다."
+        },
+        {
+          "number": "02",
+          "title": "오네시모와의 방문",
+          "scripture": "Colossians 4:7–9",
+          "description": "오네시모와 함께 공동체에 소식을 전하도록 소개됩니다."
+        }
+      ]
+    },
+    {
+      "type": "place",
+      "slug": "ephesus",
+      "titleKo": "에베소",
+      "titleEn": "Ephesus",
+      "eyebrow": "PLACES · BIBLICAL WORLD",
+      "summary": "소아시아의 도시로 바울의 사역과 소요, 장로들을 향한 권면 및 계시록의 일곱 교회에 등장합니다.",
+      "overview": "소아시아의 도시로 바울의 사역과 소요, 장로들을 향한 권면 및 계시록의 일곱 교회에 등장합니다.",
+      "heroImage": "/assets/scraptura-home-clean.jpg",
+      "scripture": [
+        "Acts 19–20; Revelation 2:1–7"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "ephesians",
+          "relationType": "RELATED_BOOK",
+          "label": "에베소서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "1-timothy",
+          "relationType": "RELATED_BOOK",
+          "label": "디모데전서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-timothy",
+          "relationType": "RELATED_BOOK",
+          "label": "디모데후서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "revelation",
+          "relationType": "RELATED_BOOK",
+          "label": "요한계시록"
+        }
+      ],
+      "biblicalContext": "소아시아의 도시로 바울의 사역과 소요, 장로들을 향한 권면 및 계시록의 일곱 교회에 등장합니다.",
+      "keyEvent": {
+        "title": "에베소의 성경 속 배경",
+        "scripture": "Acts 19–20; Revelation 2:1–7",
+        "description": "소아시아의 도시로 바울의 사역과 소요, 장로들을 향한 권면 및 계시록의 일곱 교회에 등장합니다."
+      }
+    }
+  ]
+}

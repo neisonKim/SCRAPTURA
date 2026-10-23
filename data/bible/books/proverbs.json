@@ -1,0 +1,197 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/PRO01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "proverbs",
+      "titleKo": "잠언",
+      "titleEn": "Proverbs",
+      "eyebrow": "BIBLE · OLD TESTAMENT",
+      "summary": "여호와를 경외하는 지혜가 말과 노동, 돈과 관계, 정의를 어떻게 빚는지 가르치는 잠언 모음입니다.",
+      "overview": "여호와를 경외하는 지혜가 말과 노동, 돈과 관계, 정의를 어떻게 빚는지 가르치는 잠언 모음입니다. 책의 목적과 여호와 경외를 소개하고 부모의 훈계와 지혜의 초대를 들려줍니다. 성적 신실함과 성실한 삶을 권하고 지혜와 미련의 서로 다른 초대를 대비합니다. 의인과 악인, 부지런함과 게으름, 말의 힘과 훈계를 짧은 격언으로 비교합니다. 인간의 계획과 하나님의 판단, 왕의 책임과 이웃 관계 및 부와 가난을 다룹니다. 가난한 이를 억압하지 말라는 권면과 절제, 정의와 부지런함에 관한 지혜를 전합니다. 왕과 재판, 갈등과 자기 절제, 가정과 공동체를 다루는 격언들이 이어집니다. 인간 지식의 한계와 창조 세계에 대한 관찰을 수와 비유의 형식으로 전합니다. 약한 이들을 위한 왕의 책임과 가정과 경제를 돌보는 지혜로운 여성의 모습을 그립니다.",
+      "biblicalContext": "솔로몬과 지혜자들, 아굴과 르무엘의 이름이 등장하는 여러 모음으로 구성됩니다. 짧은 격언은 상황과 맥락을 분별하도록 돕는 지혜이며 모든 경우의 결과를 보장하는 공식으로 단순화하지 않습니다.",
+      "heroImage": "/assets/bible/proverbs.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "지혜를 구하는 길",
+          "scripture": "Proverbs 1–4",
+          "description": "책의 목적과 여호와 경외를 소개하고 부모의 훈계와 지혜의 초대를 들려줍니다."
+        },
+        {
+          "number": "02",
+          "title": "두 갈래의 초대",
+          "scripture": "Proverbs 5–9",
+          "description": "성적 신실함과 성실한 삶을 권하고 지혜와 미련의 서로 다른 초대를 대비합니다."
+        },
+        {
+          "number": "03",
+          "title": "말과 일상의 선택",
+          "scripture": "Proverbs 10–15",
+          "description": "의인과 악인, 부지런함과 게으름, 말의 힘과 훈계를 짧은 격언으로 비교합니다."
+        },
+        {
+          "number": "04",
+          "title": "공정함과 삶의 분별",
+          "scripture": "Proverbs 16–22:16",
+          "description": "인간의 계획과 하나님의 판단, 왕의 책임과 이웃 관계 및 부와 가난을 다룹니다."
+        },
+        {
+          "number": "05",
+          "title": "지혜자들의 말",
+          "scripture": "Proverbs 22:17–24:34",
+          "description": "가난한 이를 억압하지 말라는 권면과 절제, 정의와 부지런함에 관한 지혜를 전합니다."
+        },
+        {
+          "number": "06",
+          "title": "다시 모은 솔로몬의 잠언",
+          "scripture": "Proverbs 25–29",
+          "description": "왕과 재판, 갈등과 자기 절제, 가정과 공동체를 다루는 격언들이 이어집니다."
+        },
+        {
+          "number": "07",
+          "title": "아굴의 관찰",
+          "scripture": "Proverbs 30",
+          "description": "인간 지식의 한계와 창조 세계에 대한 관찰을 수와 비유의 형식으로 전합니다."
+        },
+        {
+          "number": "08",
+          "title": "왕의 책임과 지혜로운 삶",
+          "scripture": "Proverbs 31",
+          "description": "약한 이들을 위한 왕의 책임과 가정과 경제를 돌보는 지혜로운 여성의 모습을 그립니다."
+        }
+      ],
+      "scripture": [
+        "Proverbs 1–31"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "solomon",
+          "relationType": "RELATED_PERSON",
+          "label": "솔로몬"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "wisdom-invitation",
+          "relationType": "RELATED_STORY",
+          "label": "지혜와 미련의 두 초대"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "wisdom-speech-and-justice",
+          "relationType": "RELATED_STORY",
+          "label": "말과 정의를 분별하는 삶"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "psalms",
+          "relationType": "RELATED_BOOK",
+          "label": "시편"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "ecclesiastes",
+          "relationType": "RELATED_BOOK",
+          "label": "전도서"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "wisdom-invitation",
+      "titleKo": "지혜와 미련의 두 초대",
+      "titleEn": "Wisdom Invitation",
+      "eyebrow": "SCRIPTURE STUDY · PROVERBS",
+      "summary": "책의 목적과 여호와 경외를 소개하고 부모의 훈계와 지혜의 초대를 들려줍니다. 성적 신실함과 성실한 삶을 권하고 지혜와 미련의 서로 다른 초대를 대비합니다.",
+      "overview": "잠언의 1–4, 5–9 본문을 따라 지혜와 미련의 두 초대의 내용을 살펴봅니다. 솔로몬과 지혜자들, 아굴과 르무엘의 이름이 등장하는 여러 모음으로 구성됩니다. 짧은 격언은 상황과 맥락을 분별하도록 돕는 지혜이며 모든 경우의 결과를 보장하는 공식으로 단순화하지 않습니다.",
+      "heroImage": "/assets/bible/proverbs.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "지혜를 구하는 길",
+          "scripture": "Proverbs 1–4",
+          "description": "책의 목적과 여호와 경외를 소개하고 부모의 훈계와 지혜의 초대를 들려줍니다."
+        },
+        {
+          "number": "02",
+          "title": "두 갈래의 초대",
+          "scripture": "Proverbs 5–9",
+          "description": "성적 신실함과 성실한 삶을 권하고 지혜와 미련의 서로 다른 초대를 대비합니다."
+        }
+      ],
+      "scripture": [
+        "Proverbs 1–4",
+        "Proverbs 5–9"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "proverbs",
+          "relationType": "RELATED_BOOK",
+          "label": "잠언"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "solomon",
+          "relationType": "RELATED_PERSON",
+          "label": "솔로몬"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "wisdom-speech-and-justice",
+      "titleKo": "말과 정의를 분별하는 삶",
+      "titleEn": "Wisdom Speech And Justice",
+      "eyebrow": "SCRIPTURE STUDY · PROVERBS",
+      "summary": "의인과 악인, 부지런함과 게으름, 말의 힘과 훈계를 짧은 격언으로 비교합니다. 인간의 계획과 하나님의 판단, 왕의 책임과 이웃 관계 및 부와 가난을 다룹니다. 가난한 이를 억압하지 말라는 권면과 절제, 정의와 부지런함에 관한 지혜를 전합니다.",
+      "overview": "잠언의 10–15, 16–22:16, 22:17–24:34 본문을 따라 말과 정의를 분별하는 삶의 내용을 살펴봅니다. 솔로몬과 지혜자들, 아굴과 르무엘의 이름이 등장하는 여러 모음으로 구성됩니다. 짧은 격언은 상황과 맥락을 분별하도록 돕는 지혜이며 모든 경우의 결과를 보장하는 공식으로 단순화하지 않습니다.",
+      "heroImage": "/assets/bible/proverbs.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "말과 일상의 선택",
+          "scripture": "Proverbs 10–15",
+          "description": "의인과 악인, 부지런함과 게으름, 말의 힘과 훈계를 짧은 격언으로 비교합니다."
+        },
+        {
+          "number": "02",
+          "title": "공정함과 삶의 분별",
+          "scripture": "Proverbs 16–22:16",
+          "description": "인간의 계획과 하나님의 판단, 왕의 책임과 이웃 관계 및 부와 가난을 다룹니다."
+        },
+        {
+          "number": "03",
+          "title": "지혜자들의 말",
+          "scripture": "Proverbs 22:17–24:34",
+          "description": "가난한 이를 억압하지 말라는 권면과 절제, 정의와 부지런함에 관한 지혜를 전합니다."
+        }
+      ],
+      "scripture": [
+        "Proverbs 10–15",
+        "Proverbs 16–22:16",
+        "Proverbs 22:17–24:34"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "proverbs",
+          "relationType": "RELATED_BOOK",
+          "label": "잠언"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "solomon",
+          "relationType": "RELATED_PERSON",
+          "label": "솔로몬"
+        }
+      ]
+    }
+  ]
+}

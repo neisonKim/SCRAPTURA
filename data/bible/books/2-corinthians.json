@@ -1,0 +1,270 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/2CO01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "2-corinthians",
+      "titleKo": "고린도후서",
+      "titleEn": "2 Corinthians",
+      "eyebrow": "BIBLE · NEW TESTAMENT",
+      "summary": "상처 입은 관계의 회복을 구하며 약함 속에 드러나는 사역과 관대한 나눔을 설명합니다.",
+      "overview": "상처 입은 관계의 회복을 구하며 약함 속에 드러나는 사역과 관대한 나눔을 설명합니다. 고난 중의 위로와 방문 계획의 변경을 설명하고 용서와 사랑을 권합니다. 성령의 사역과 질그릇의 보배, 부활의 소망 및 화해의 직분을 설명합니다. 사역의 고난을 말하며 열린 관계를 요청하고 공동체의 회개 소식을 기뻐합니다. 마게도냐 교회의 나눔을 소개하고 자발적이며 책임 있는 연보를 권합니다. 외적 인상과 자랑에 근거한 판단을 비판하고 자신의 고난을 말합니다. 육체의 가시와 은혜를 이야기하고 공동체가 자신을 살피며 온전해질 것을 권합니다.",
+      "biblicalContext": "바울과 고린도 공동체 사이의 긴장과 화해가 배경에 놓입니다. 사도의 권위는 외적 자랑보다 고난과 섬김 속에서 드러나며 예루살렘 성도들을 위한 연보가 중요한 실천으로 제시됩니다.",
+      "heroImage": "/assets/bible/2-corinthians.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "위로와 관계의 회복",
+          "scripture": "2 Corinthians 1–2",
+          "description": "고난 중의 위로와 방문 계획의 변경을 설명하고 용서와 사랑을 권합니다."
+        },
+        {
+          "number": "02",
+          "title": "새 언약과 화해의 사역",
+          "scripture": "2 Corinthians 3–5",
+          "description": "성령의 사역과 질그릇의 보배, 부활의 소망 및 화해의 직분을 설명합니다."
+        },
+        {
+          "number": "03",
+          "title": "마음을 넓히라",
+          "scripture": "2 Corinthians 6–7",
+          "description": "사역의 고난을 말하며 열린 관계를 요청하고 공동체의 회개 소식을 기뻐합니다."
+        },
+        {
+          "number": "04",
+          "title": "기꺼이 나누는 은혜",
+          "scripture": "2 Corinthians 8–9",
+          "description": "마게도냐 교회의 나눔을 소개하고 자발적이며 책임 있는 연보를 권합니다."
+        },
+        {
+          "number": "05",
+          "title": "참된 권위의 기준",
+          "scripture": "2 Corinthians 10–11",
+          "description": "외적 인상과 자랑에 근거한 판단을 비판하고 자신의 고난을 말합니다."
+        },
+        {
+          "number": "06",
+          "title": "약함 속의 능력",
+          "scripture": "2 Corinthians 12–13",
+          "description": "육체의 가시와 은혜를 이야기하고 공동체가 자신을 살피며 온전해질 것을 권합니다."
+        }
+      ],
+      "scripture": [
+        "2 Corinthians 1–13"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "titus",
+          "relationType": "RELATED_PERSON",
+          "label": "디도"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "corinth",
+          "relationType": "RELATED_PLACE",
+          "label": "고린도"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "jars-of-clay-and-reconciliation",
+          "relationType": "RELATED_STORY",
+          "label": "질그릇의 보배와 화해의 사역"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "generosity-and-weakness",
+          "relationType": "RELATED_STORY",
+          "label": "나눔과 약함 속의 은혜"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "1-corinthians",
+          "relationType": "RELATED_BOOK",
+          "label": "고린도전서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "galatians",
+          "relationType": "RELATED_BOOK",
+          "label": "갈라디아서"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "jars-of-clay-and-reconciliation",
+      "titleKo": "질그릇의 보배와 화해의 사역",
+      "titleEn": "Jars Of Clay And Reconciliation",
+      "eyebrow": "SCRIPTURE STUDY · 2 CORINTHIANS",
+      "summary": "고난 중의 위로와 방문 계획의 변경을 설명하고 용서와 사랑을 권합니다. 성령의 사역과 질그릇의 보배, 부활의 소망 및 화해의 직분을 설명합니다. 사역의 고난을 말하며 열린 관계를 요청하고 공동체의 회개 소식을 기뻐합니다.",
+      "overview": "고린도후서의 1–2, 3–5, 6–7 본문을 따라 질그릇의 보배와 화해의 사역의 내용을 살펴봅니다. 바울과 고린도 공동체 사이의 긴장과 화해가 배경에 놓입니다. 사도의 권위는 외적 자랑보다 고난과 섬김 속에서 드러나며 예루살렘 성도들을 위한 연보가 중요한 실천으로 제시됩니다.",
+      "heroImage": "/assets/bible/2-corinthians.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "위로와 관계의 회복",
+          "scripture": "2 Corinthians 1–2",
+          "description": "고난 중의 위로와 방문 계획의 변경을 설명하고 용서와 사랑을 권합니다."
+        },
+        {
+          "number": "02",
+          "title": "새 언약과 화해의 사역",
+          "scripture": "2 Corinthians 3–5",
+          "description": "성령의 사역과 질그릇의 보배, 부활의 소망 및 화해의 직분을 설명합니다."
+        },
+        {
+          "number": "03",
+          "title": "마음을 넓히라",
+          "scripture": "2 Corinthians 6–7",
+          "description": "사역의 고난을 말하며 열린 관계를 요청하고 공동체의 회개 소식을 기뻐합니다."
+        }
+      ],
+      "scripture": [
+        "2 Corinthians 1–2",
+        "2 Corinthians 3–5",
+        "2 Corinthians 6–7"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "2-corinthians",
+          "relationType": "RELATED_BOOK",
+          "label": "고린도후서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "titus",
+          "relationType": "RELATED_PERSON",
+          "label": "디도"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "corinth",
+          "relationType": "RELATED_PLACE",
+          "label": "고린도"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "generosity-and-weakness",
+      "titleKo": "나눔과 약함 속의 은혜",
+      "titleEn": "Generosity And Weakness",
+      "eyebrow": "SCRIPTURE STUDY · 2 CORINTHIANS",
+      "summary": "마게도냐 교회의 나눔을 소개하고 자발적이며 책임 있는 연보를 권합니다. 외적 인상과 자랑에 근거한 판단을 비판하고 자신의 고난을 말합니다. 육체의 가시와 은혜를 이야기하고 공동체가 자신을 살피며 온전해질 것을 권합니다.",
+      "overview": "고린도후서의 8–9, 10–11, 12–13 본문을 따라 나눔과 약함 속의 은혜의 내용을 살펴봅니다. 바울과 고린도 공동체 사이의 긴장과 화해가 배경에 놓입니다. 사도의 권위는 외적 자랑보다 고난과 섬김 속에서 드러나며 예루살렘 성도들을 위한 연보가 중요한 실천으로 제시됩니다.",
+      "heroImage": "/assets/bible/2-corinthians.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "기꺼이 나누는 은혜",
+          "scripture": "2 Corinthians 8–9",
+          "description": "마게도냐 교회의 나눔을 소개하고 자발적이며 책임 있는 연보를 권합니다."
+        },
+        {
+          "number": "02",
+          "title": "참된 권위의 기준",
+          "scripture": "2 Corinthians 10–11",
+          "description": "외적 인상과 자랑에 근거한 판단을 비판하고 자신의 고난을 말합니다."
+        },
+        {
+          "number": "03",
+          "title": "약함 속의 능력",
+          "scripture": "2 Corinthians 12–13",
+          "description": "육체의 가시와 은혜를 이야기하고 공동체가 자신을 살피며 온전해질 것을 권합니다."
+        }
+      ],
+      "scripture": [
+        "2 Corinthians 8–9",
+        "2 Corinthians 10–11",
+        "2 Corinthians 12–13"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "2-corinthians",
+          "relationType": "RELATED_BOOK",
+          "label": "고린도후서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "titus",
+          "relationType": "RELATED_PERSON",
+          "label": "디도"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "corinth",
+          "relationType": "RELATED_PLACE",
+          "label": "고린도"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "titus",
+      "titleKo": "디도",
+      "titleEn": "Titus",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "바울의 동역자로 공동체의 소식을 전하고 연보와 교회 정비의 책임을 맡은 인물입니다.",
+      "overview": "바울의 동역자로 공동체의 소식을 전하고 연보와 교회 정비의 책임을 맡은 인물입니다. 고린도 공동체의 소식으로 바울을 위로하고 연보의 일을 돕습니다. 공동체를 정비하고 지도자를 세우라는 부탁을 받습니다.",
+      "heroImage": "/assets/people/titus.webp",
+      "scripture": [
+        "2 Corinthians 7–8",
+        "Titus 1"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "2-corinthians",
+          "relationType": "RELATED_BOOK",
+          "label": "고린도후서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "titus",
+          "relationType": "RELATED_BOOK",
+          "label": "디도서"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "위로와 나눔의 동역",
+          "scripture": "2 Corinthians 7–8",
+          "description": "고린도 공동체의 소식으로 바울을 위로하고 연보의 일을 돕습니다."
+        },
+        {
+          "number": "02",
+          "title": "그레데의 책임",
+          "scripture": "Titus 1",
+          "description": "공동체를 정비하고 지도자를 세우라는 부탁을 받습니다."
+        }
+      ]
+    }
+  ]
+}

@@ -15,6 +15,8 @@ import Hero
 
 import RelationCards
   from "../../../components/RelationCards";
+import { timelinePeriods } from "../../../data/exploration";
+import ExplorationPager from "../../../components/ExplorationPager";
 
 import {
   adminDb,
@@ -361,6 +363,12 @@ const getPeriod =
         return null;
       }
 
+      const curated = timelinePeriods.find(period => period.slug === slug);
+      if (curated) return {
+        ...curated, id: `local__period__${slug}`,
+        periodStages: curated.periodStages ?? [], scripture: curated.scripture ?? [], relations: curated.relations ?? [],
+      };
+
 
       /*
        * Importer 문서 ID
@@ -381,11 +389,14 @@ const getPeriod =
           .doc(
             documentId
           )
-          .get();
+          .get().catch(error => {
+            console.error("[Timeline] Public content lookup failed", error);
+            return null;
+          });
 
 
       if (
-        !snapshot.exists
+        !snapshot?.exists
       ) {
         return null;
       }
@@ -854,6 +865,7 @@ export default async function Page({
             period.relations
           }
         />
+        <ExplorationPager type="period" slug={period.slug} />
 
       </div>
 

@@ -1,0 +1,253 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/JON01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "jonah",
+      "titleKo": "요나",
+      "titleEn": "Jonah",
+      "eyebrow": "BIBLE · OLD TESTAMENT",
+      "summary": "도망가는 예언자 요나와 회개하는 니느웨를 통해 하나님의 긍휼을 받아들이는 문제를 묻습니다.",
+      "overview": "도망가는 예언자 요나와 회개하는 니느웨를 통해 하나님의 긍휼을 받아들이는 문제를 묻습니다. 니느웨로 가라는 명령을 받은 요나가 배를 타고 도망가다가 폭풍을 만납니다. 큰 물고기 안에서 요나가 구원을 구하며 기도하고 다시 육지에 이릅니다. 요나의 선포를 들은 니느웨 왕과 백성이 악한 길에서 돌이키고 재앙이 거두어집니다. 요나는 긍휼을 못마땅하게 여기고 하나님은 박넝쿨을 통해 그에게 질문하십니다.",
+      "biblicalContext": "다른 예언서들과 달리 예언자의 행동과 하나님과의 대화가 이야기의 중심입니다. 바다와 물고기, 이방 성읍과 박넝쿨을 거치며 요나의 분노와 하나님의 돌봄이 대비됩니다.",
+      "heroImage": "/assets/bible/jonah.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "반대 방향으로 도망가다",
+          "scripture": "Jonah 1",
+          "description": "니느웨로 가라는 명령을 받은 요나가 배를 타고 도망가다가 폭풍을 만납니다."
+        },
+        {
+          "number": "02",
+          "title": "깊은 곳에서의 기도",
+          "scripture": "Jonah 2",
+          "description": "큰 물고기 안에서 요나가 구원을 구하며 기도하고 다시 육지에 이릅니다."
+        },
+        {
+          "number": "03",
+          "title": "니느웨의 돌이킴",
+          "scripture": "Jonah 3",
+          "description": "요나의 선포를 들은 니느웨 왕과 백성이 악한 길에서 돌이키고 재앙이 거두어집니다."
+        },
+        {
+          "number": "04",
+          "title": "분노하는 예언자와 하나님의 질문",
+          "scripture": "Jonah 4",
+          "description": "요나는 긍휼을 못마땅하게 여기고 하나님은 박넝쿨을 통해 그에게 질문하십니다."
+        }
+      ],
+      "scripture": [
+        "Jonah 1–4"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "jonah",
+          "relationType": "RELATED_PERSON",
+          "label": "요나"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "nineveh",
+          "relationType": "RELATED_PLACE",
+          "label": "니느웨"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "jonah-flight-and-prayer",
+          "relationType": "RELATED_STORY",
+          "label": "도망과 깊은 곳의 기도"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "nineveh-and-compassion",
+          "relationType": "RELATED_STORY",
+          "label": "니느웨의 회개와 긍휼의 질문"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "obadiah",
+          "relationType": "RELATED_BOOK",
+          "label": "오바댜"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "micah",
+          "relationType": "RELATED_BOOK",
+          "label": "미가"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "jonah-flight-and-prayer",
+      "titleKo": "도망과 깊은 곳의 기도",
+      "titleEn": "Jonah Flight And Prayer",
+      "eyebrow": "SCRIPTURE STUDY · JONAH",
+      "summary": "니느웨로 가라는 명령을 받은 요나가 배를 타고 도망가다가 폭풍을 만납니다. 큰 물고기 안에서 요나가 구원을 구하며 기도하고 다시 육지에 이릅니다.",
+      "overview": "요나의 1, 2 본문을 따라 도망과 깊은 곳의 기도의 내용을 살펴봅니다. 다른 예언서들과 달리 예언자의 행동과 하나님과의 대화가 이야기의 중심입니다. 바다와 물고기, 이방 성읍과 박넝쿨을 거치며 요나의 분노와 하나님의 돌봄이 대비됩니다.",
+      "heroImage": "/assets/bible/jonah.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "반대 방향으로 도망가다",
+          "scripture": "Jonah 1",
+          "description": "니느웨로 가라는 명령을 받은 요나가 배를 타고 도망가다가 폭풍을 만납니다."
+        },
+        {
+          "number": "02",
+          "title": "깊은 곳에서의 기도",
+          "scripture": "Jonah 2",
+          "description": "큰 물고기 안에서 요나가 구원을 구하며 기도하고 다시 육지에 이릅니다."
+        }
+      ],
+      "scripture": [
+        "Jonah 1",
+        "Jonah 2"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "jonah",
+          "relationType": "RELATED_BOOK",
+          "label": "요나"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "jonah",
+          "relationType": "RELATED_PERSON",
+          "label": "요나"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "nineveh",
+          "relationType": "RELATED_PLACE",
+          "label": "니느웨"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "nineveh-and-compassion",
+      "titleKo": "니느웨의 회개와 긍휼의 질문",
+      "titleEn": "Nineveh And Compassion",
+      "eyebrow": "SCRIPTURE STUDY · JONAH",
+      "summary": "요나의 선포를 들은 니느웨 왕과 백성이 악한 길에서 돌이키고 재앙이 거두어집니다. 요나는 긍휼을 못마땅하게 여기고 하나님은 박넝쿨을 통해 그에게 질문하십니다.",
+      "overview": "요나의 3, 4 본문을 따라 니느웨의 회개와 긍휼의 질문의 내용을 살펴봅니다. 다른 예언서들과 달리 예언자의 행동과 하나님과의 대화가 이야기의 중심입니다. 바다와 물고기, 이방 성읍과 박넝쿨을 거치며 요나의 분노와 하나님의 돌봄이 대비됩니다.",
+      "heroImage": "/assets/bible/jonah.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "니느웨의 돌이킴",
+          "scripture": "Jonah 3",
+          "description": "요나의 선포를 들은 니느웨 왕과 백성이 악한 길에서 돌이키고 재앙이 거두어집니다."
+        },
+        {
+          "number": "02",
+          "title": "분노하는 예언자와 하나님의 질문",
+          "scripture": "Jonah 4",
+          "description": "요나는 긍휼을 못마땅하게 여기고 하나님은 박넝쿨을 통해 그에게 질문하십니다."
+        }
+      ],
+      "scripture": [
+        "Jonah 3",
+        "Jonah 4"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "jonah",
+          "relationType": "RELATED_BOOK",
+          "label": "요나"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "jonah",
+          "relationType": "RELATED_PERSON",
+          "label": "요나"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "nineveh",
+          "relationType": "RELATED_PLACE",
+          "label": "니느웨"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "jonah",
+      "titleKo": "요나",
+      "titleEn": "Jonah",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "니느웨로 가라는 부르심에서 도망했으며 이방 성읍에 베푸는 하나님의 긍휼과 씨름한 예언자입니다.",
+      "overview": "니느웨로 가라는 부르심에서 도망했으며 이방 성읍에 베푸는 하나님의 긍휼과 씨름한 예언자입니다. 반대 방향으로 떠났다가 폭풍과 큰 물고기 안에서 기도합니다. 니느웨에 말씀을 전하고 그 성읍을 아끼시는 하나님의 질문을 듣습니다.",
+      "heroImage": "/assets/people/jonah.webp",
+      "scripture": [
+        "Jonah 1–2",
+        "Jonah 3–4"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "jonah",
+          "relationType": "RELATED_BOOK",
+          "label": "요나"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "도망과 기도",
+          "scripture": "Jonah 1–2",
+          "description": "반대 방향으로 떠났다가 폭풍과 큰 물고기 안에서 기도합니다."
+        },
+        {
+          "number": "02",
+          "title": "선포와 하나님의 질문",
+          "scripture": "Jonah 3–4",
+          "description": "니느웨에 말씀을 전하고 그 성읍을 아끼시는 하나님의 질문을 듣습니다."
+        }
+      ]
+    },
+    {
+      "type": "place",
+      "slug": "nineveh",
+      "titleKo": "니느웨",
+      "titleEn": "Nineveh",
+      "eyebrow": "PLACES · BIBLICAL WORLD",
+      "summary": "앗수르의 주요 성읍으로 요나서에서는 회개의 도시, 나훔서에서는 심판받는 폭력의 도시로 나타납니다.",
+      "overview": "앗수르의 주요 성읍으로 요나서에서는 회개의 도시, 나훔서에서는 심판받는 폭력의 도시로 나타납니다.",
+      "heroImage": "/assets/scraptura-home-clean.jpg",
+      "scripture": [
+        "Jonah 3–4; Nahum 1–3"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "jonah",
+          "relationType": "RELATED_BOOK",
+          "label": "요나"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "nahum",
+          "relationType": "RELATED_BOOK",
+          "label": "나훔"
+        }
+      ],
+      "biblicalContext": "앗수르의 주요 성읍으로 요나서에서는 회개의 도시, 나훔서에서는 심판받는 폭력의 도시로 나타납니다.",
+      "keyEvent": {
+        "title": "니느웨의 성경 속 배경",
+        "scripture": "Jonah 3–4; Nahum 1–3",
+        "description": "앗수르의 주요 성읍으로 요나서에서는 회개의 도시, 나훔서에서는 심판받는 폭력의 도시로 나타납니다."
+      }
+    }
+  ]
+}

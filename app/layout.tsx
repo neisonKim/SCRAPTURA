@@ -1,4 +1,5 @@
 import "./globals.css";
+import "./exploration.css";
 
 import Header
   from "../components/Header";
@@ -40,7 +41,7 @@ const siteDescription =
  */
 
 const defaultOgImage =
-  `${siteUrl}/assets/scraptura-home-clean.jpg`;
+  `${siteUrl}/assets/editorial/home-world-v2.webp`;
 
 
 /* =====================================================

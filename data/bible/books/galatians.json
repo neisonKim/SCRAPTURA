@@ -1,0 +1,255 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/GAL01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "galatians",
+      "titleKo": "갈라디아서",
+      "titleEn": "Galatians",
+      "eyebrow": "BIBLE · NEW TESTAMENT",
+      "summary": "이방인 신자들에게 율법을 강요하는 문제에 맞서 복음의 자유와 성령 안에서의 삶을 말합니다.",
+      "overview": "이방인 신자들에게 율법을 강요하는 문제에 맞서 복음의 자유와 성령 안에서의 삶을 말합니다. 다른 복음을 따르는 일을 경고하고 바울 자신의 부르심과 사명의 기원을 설명합니다. 예루살렘의 만남과 안디옥의 갈등을 말하며 그리스도를 믿는 믿음을 강조합니다. 성령의 경험과 아브라함의 약속을 통해 율법과 믿음의 관계를 논합니다. 하나님의 자녀라는 신분과 약속의 상속을 설명하며 다시 종의 자리로 돌아가지 말 것을 권합니다. 사랑으로 서로 섬기고 육체의 일 대신 성령의 열매를 맺도록 권합니다. 넘어진 이를 온유하게 돕고 선을 행하며 십자가와 새로운 창조를 말합니다.",
+      "biblicalContext": "할례와 공동체 소속을 둘러싼 갈등 속에서 믿음과 약속의 의미를 논합니다. 자유는 자기 욕망의 구실이 아니라 사랑으로 서로 종이 되고 짐을 지는 삶으로 이어집니다.",
+      "heroImage": "/assets/bible/galatians.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "복음과 부르심",
+          "scripture": "Galatians 1",
+          "description": "다른 복음을 따르는 일을 경고하고 바울 자신의 부르심과 사명의 기원을 설명합니다."
+        },
+        {
+          "number": "02",
+          "title": "공동체의 진실과 믿음",
+          "scripture": "Galatians 2",
+          "description": "예루살렘의 만남과 안디옥의 갈등을 말하며 그리스도를 믿는 믿음을 강조합니다."
+        },
+        {
+          "number": "03",
+          "title": "아브라함과 약속",
+          "scripture": "Galatians 3",
+          "description": "성령의 경험과 아브라함의 약속을 통해 율법과 믿음의 관계를 논합니다."
+        },
+        {
+          "number": "04",
+          "title": "종에서 자녀로",
+          "scripture": "Galatians 4",
+          "description": "하나님의 자녀라는 신분과 약속의 상속을 설명하며 다시 종의 자리로 돌아가지 말 것을 권합니다."
+        },
+        {
+          "number": "05",
+          "title": "자유와 성령의 열매",
+          "scripture": "Galatians 5",
+          "description": "사랑으로 서로 섬기고 육체의 일 대신 성령의 열매를 맺도록 권합니다."
+        },
+        {
+          "number": "06",
+          "title": "서로의 짐과 새로운 창조",
+          "scripture": "Galatians 6",
+          "description": "넘어진 이를 온유하게 돕고 선을 행하며 십자가와 새로운 창조를 말합니다."
+        }
+      ],
+      "scripture": [
+        "Galatians 1–6"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "abraham",
+          "relationType": "RELATED_PERSON",
+          "label": "아브라함"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "galatia",
+          "relationType": "RELATED_PLACE",
+          "label": "갈라디아"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "galatians-promise-and-faith",
+          "relationType": "RELATED_STORY",
+          "label": "복음과 아브라함의 약속"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "freedom-and-fruit",
+          "relationType": "RELATED_STORY",
+          "label": "자유로 서로 섬기며 맺는 열매"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-corinthians",
+          "relationType": "RELATED_BOOK",
+          "label": "고린도후서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "ephesians",
+          "relationType": "RELATED_BOOK",
+          "label": "에베소서"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "galatians-promise-and-faith",
+      "titleKo": "복음과 아브라함의 약속",
+      "titleEn": "Galatians Promise And Faith",
+      "eyebrow": "SCRIPTURE STUDY · GALATIANS",
+      "summary": "다른 복음을 따르는 일을 경고하고 바울 자신의 부르심과 사명의 기원을 설명합니다. 예루살렘의 만남과 안디옥의 갈등을 말하며 그리스도를 믿는 믿음을 강조합니다. 성령의 경험과 아브라함의 약속을 통해 율법과 믿음의 관계를 논합니다. 하나님의 자녀라는 신분과 약속의 상속을 설명하며 다시 종의 자리로 돌아가지 말 것을 권합니다.",
+      "overview": "갈라디아서의 1, 2, 3, 4 본문을 따라 복음과 아브라함의 약속의 내용을 살펴봅니다. 할례와 공동체 소속을 둘러싼 갈등 속에서 믿음과 약속의 의미를 논합니다. 자유는 자기 욕망의 구실이 아니라 사랑으로 서로 종이 되고 짐을 지는 삶으로 이어집니다.",
+      "heroImage": "/assets/bible/galatians.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "복음과 부르심",
+          "scripture": "Galatians 1",
+          "description": "다른 복음을 따르는 일을 경고하고 바울 자신의 부르심과 사명의 기원을 설명합니다."
+        },
+        {
+          "number": "02",
+          "title": "공동체의 진실과 믿음",
+          "scripture": "Galatians 2",
+          "description": "예루살렘의 만남과 안디옥의 갈등을 말하며 그리스도를 믿는 믿음을 강조합니다."
+        },
+        {
+          "number": "03",
+          "title": "아브라함과 약속",
+          "scripture": "Galatians 3",
+          "description": "성령의 경험과 아브라함의 약속을 통해 율법과 믿음의 관계를 논합니다."
+        },
+        {
+          "number": "04",
+          "title": "종에서 자녀로",
+          "scripture": "Galatians 4",
+          "description": "하나님의 자녀라는 신분과 약속의 상속을 설명하며 다시 종의 자리로 돌아가지 말 것을 권합니다."
+        }
+      ],
+      "scripture": [
+        "Galatians 1",
+        "Galatians 2",
+        "Galatians 3",
+        "Galatians 4"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "galatians",
+          "relationType": "RELATED_BOOK",
+          "label": "갈라디아서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "abraham",
+          "relationType": "RELATED_PERSON",
+          "label": "아브라함"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "galatia",
+          "relationType": "RELATED_PLACE",
+          "label": "갈라디아"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "freedom-and-fruit",
+      "titleKo": "자유로 서로 섬기며 맺는 열매",
+      "titleEn": "Freedom And Fruit",
+      "eyebrow": "SCRIPTURE STUDY · GALATIANS",
+      "summary": "사랑으로 서로 섬기고 육체의 일 대신 성령의 열매를 맺도록 권합니다. 넘어진 이를 온유하게 돕고 선을 행하며 십자가와 새로운 창조를 말합니다.",
+      "overview": "갈라디아서의 5, 6 본문을 따라 자유로 서로 섬기며 맺는 열매의 내용을 살펴봅니다. 할례와 공동체 소속을 둘러싼 갈등 속에서 믿음과 약속의 의미를 논합니다. 자유는 자기 욕망의 구실이 아니라 사랑으로 서로 종이 되고 짐을 지는 삶으로 이어집니다.",
+      "heroImage": "/assets/bible/galatians.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "자유와 성령의 열매",
+          "scripture": "Galatians 5",
+          "description": "사랑으로 서로 섬기고 육체의 일 대신 성령의 열매를 맺도록 권합니다."
+        },
+        {
+          "number": "02",
+          "title": "서로의 짐과 새로운 창조",
+          "scripture": "Galatians 6",
+          "description": "넘어진 이를 온유하게 돕고 선을 행하며 십자가와 새로운 창조를 말합니다."
+        }
+      ],
+      "scripture": [
+        "Galatians 5",
+        "Galatians 6"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "galatians",
+          "relationType": "RELATED_BOOK",
+          "label": "갈라디아서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "abraham",
+          "relationType": "RELATED_PERSON",
+          "label": "아브라함"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "galatia",
+          "relationType": "RELATED_PLACE",
+          "label": "갈라디아"
+        }
+      ]
+    },
+    {
+      "type": "place",
+      "slug": "galatia",
+      "titleKo": "갈라디아",
+      "titleEn": "Galatia",
+      "eyebrow": "PLACES · BIBLICAL WORLD",
+      "summary": "신약의 여러 공동체와 선교 여정에 연결되는 지역으로 갈라디아서의 수신 공동체들이 자리했습니다.",
+      "overview": "신약의 여러 공동체와 선교 여정에 연결되는 지역으로 갈라디아서의 수신 공동체들이 자리했습니다.",
+      "heroImage": "/assets/scraptura-home-clean.jpg",
+      "scripture": [
+        "Acts 16:6; Galatians 1"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "galatians",
+          "relationType": "RELATED_BOOK",
+          "label": "갈라디아서"
+        }
+      ],
+      "biblicalContext": "신약의 여러 공동체와 선교 여정에 연결되는 지역으로 갈라디아서의 수신 공동체들이 자리했습니다.",
+      "keyEvent": {
+        "title": "갈라디아의 성경 속 배경",
+        "scripture": "Acts 16:6; Galatians 1",
+        "description": "신약의 여러 공동체와 선교 여정에 연결되는 지역으로 갈라디아서의 수신 공동체들이 자리했습니다."
+      }
+    }
+  ]
+}

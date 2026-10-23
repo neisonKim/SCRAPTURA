@@ -4,6 +4,8 @@ import type {
 
 import VisualArchiveFirebase
   from "../../components/VisualArchiveFirebase";
+import { getLocalArchiveRecords } from "../../data/archive";
+import { visualEntries } from "../../data/exploration";
 
 
 export const metadata: Metadata = {
@@ -31,10 +33,13 @@ export const metadata: Metadata = {
 
 
 export default function Page() {
+  const collectionBySlug = new Map(visualEntries.map(visual => [visual.slug, visual.collection]));
+  const initialRecords = getLocalArchiveRecords("visual").map(record => ({ ...record, collection: collectionBySlug.get(record.slug) }));
 
   return (
 
     <VisualArchiveFirebase
+      initialRecords={initialRecords}
 
       title="VISUAL"
 

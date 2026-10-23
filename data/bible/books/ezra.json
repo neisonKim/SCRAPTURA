@@ -1,0 +1,336 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/EZR01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "ezra",
+      "titleKo": "에스라",
+      "titleEn": "Ezra",
+      "eyebrow": "BIBLE · OLD TESTAMENT",
+      "summary": "포로에서 돌아온 공동체가 성전을 재건하고 에스라를 통해 율법 앞에서 삶을 돌아봅니다.",
+      "overview": "포로에서 돌아온 공동체가 성전을 재건하고 에스라를 통해 율법 앞에서 삶을 돌아봅니다. 고레스의 조서로 성전 기구와 귀환자들이 예루살렘으로 돌아옵니다. 제단에서 제사를 다시 드리고 성전 기초를 놓자 기쁨과 울음이 함께 터져 나옵니다. 주변의 반대와 행정적 고발로 재건 사업에 어려움이 생깁니다. 학개와 스가랴의 격려 속에 공사를 재개하고 성전 봉헌과 유월절을 지킵니다. 율법에 익숙한 에스라가 왕의 지원을 받아 귀환자들과 함께 예루살렘으로 옵니다. 에스라의 탄식과 기도 뒤에 공동체가 혼인 문제를 다루며 율법에 응답하려 합니다.",
+      "biblicalContext": "페르시아 왕들의 통치 아래 귀환과 재건이 진행됩니다. 성전의 회복뿐 아니라 공동체의 정체성과 율법에 대한 응답이 중심 과제로 나타납니다.",
+      "heroImage": "/assets/bible/ezra.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "돌아오는 사람들",
+          "scripture": "Ezra 1–2",
+          "description": "고레스의 조서로 성전 기구와 귀환자들이 예루살렘으로 돌아옵니다."
+        },
+        {
+          "number": "02",
+          "title": "제단과 기초",
+          "scripture": "Ezra 3",
+          "description": "제단에서 제사를 다시 드리고 성전 기초를 놓자 기쁨과 울음이 함께 터져 나옵니다."
+        },
+        {
+          "number": "03",
+          "title": "재건을 막는 반대",
+          "scripture": "Ezra 4",
+          "description": "주변의 반대와 행정적 고발로 재건 사업에 어려움이 생깁니다."
+        },
+        {
+          "number": "04",
+          "title": "다시 세운 성전",
+          "scripture": "Ezra 5–6",
+          "description": "학개와 스가랴의 격려 속에 공사를 재개하고 성전 봉헌과 유월절을 지킵니다."
+        },
+        {
+          "number": "05",
+          "title": "에스라의 귀환",
+          "scripture": "Ezra 7–8",
+          "description": "율법에 익숙한 에스라가 왕의 지원을 받아 귀환자들과 함께 예루살렘으로 옵니다."
+        },
+        {
+          "number": "06",
+          "title": "공동체의 회개",
+          "scripture": "Ezra 9–10",
+          "description": "에스라의 탄식과 기도 뒤에 공동체가 혼인 문제를 다루며 율법에 응답하려 합니다."
+        }
+      ],
+      "scripture": [
+        "Ezra 1–10"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "zerubbabel",
+          "relationType": "RELATED_PERSON",
+          "label": "스룹바벨"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "ezra",
+          "relationType": "RELATED_PERSON",
+          "label": "에스라"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "babylon",
+          "relationType": "RELATED_PLACE",
+          "label": "바벨론"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "return-and-second-temple",
+          "relationType": "RELATED_STORY",
+          "label": "귀환과 두 번째 성전"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "ezra-and-the-law",
+          "relationType": "RELATED_STORY",
+          "label": "에스라와 공동체의 회개"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-chronicles",
+          "relationType": "RELATED_BOOK",
+          "label": "역대하"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "nehemiah",
+          "relationType": "RELATED_BOOK",
+          "label": "느헤미야"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "return-and-second-temple",
+      "titleKo": "귀환과 두 번째 성전",
+      "titleEn": "Return And Second Temple",
+      "eyebrow": "SCRIPTURE STUDY · EZRA",
+      "summary": "고레스의 조서로 성전 기구와 귀환자들이 예루살렘으로 돌아옵니다. 제단에서 제사를 다시 드리고 성전 기초를 놓자 기쁨과 울음이 함께 터져 나옵니다. 주변의 반대와 행정적 고발로 재건 사업에 어려움이 생깁니다. 학개와 스가랴의 격려 속에 공사를 재개하고 성전 봉헌과 유월절을 지킵니다.",
+      "overview": "에스라의 1–2, 3, 4, 5–6 본문을 따라 귀환과 두 번째 성전의 내용을 살펴봅니다. 페르시아 왕들의 통치 아래 귀환과 재건이 진행됩니다. 성전의 회복뿐 아니라 공동체의 정체성과 율법에 대한 응답이 중심 과제로 나타납니다.",
+      "heroImage": "/assets/bible/ezra.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "돌아오는 사람들",
+          "scripture": "Ezra 1–2",
+          "description": "고레스의 조서로 성전 기구와 귀환자들이 예루살렘으로 돌아옵니다."
+        },
+        {
+          "number": "02",
+          "title": "제단과 기초",
+          "scripture": "Ezra 3",
+          "description": "제단에서 제사를 다시 드리고 성전 기초를 놓자 기쁨과 울음이 함께 터져 나옵니다."
+        },
+        {
+          "number": "03",
+          "title": "재건을 막는 반대",
+          "scripture": "Ezra 4",
+          "description": "주변의 반대와 행정적 고발로 재건 사업에 어려움이 생깁니다."
+        },
+        {
+          "number": "04",
+          "title": "다시 세운 성전",
+          "scripture": "Ezra 5–6",
+          "description": "학개와 스가랴의 격려 속에 공사를 재개하고 성전 봉헌과 유월절을 지킵니다."
+        }
+      ],
+      "scripture": [
+        "Ezra 1–2",
+        "Ezra 3",
+        "Ezra 4",
+        "Ezra 5–6"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "ezra",
+          "relationType": "RELATED_BOOK",
+          "label": "에스라"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "zerubbabel",
+          "relationType": "RELATED_PERSON",
+          "label": "스룹바벨"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "ezra",
+          "relationType": "RELATED_PERSON",
+          "label": "에스라"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "babylon",
+          "relationType": "RELATED_PLACE",
+          "label": "바벨론"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "ezra-and-the-law",
+      "titleKo": "에스라와 공동체의 회개",
+      "titleEn": "Ezra And The Law",
+      "eyebrow": "SCRIPTURE STUDY · EZRA",
+      "summary": "율법에 익숙한 에스라가 왕의 지원을 받아 귀환자들과 함께 예루살렘으로 옵니다. 에스라의 탄식과 기도 뒤에 공동체가 혼인 문제를 다루며 율법에 응답하려 합니다.",
+      "overview": "에스라의 7–8, 9–10 본문을 따라 에스라와 공동체의 회개의 내용을 살펴봅니다. 페르시아 왕들의 통치 아래 귀환과 재건이 진행됩니다. 성전의 회복뿐 아니라 공동체의 정체성과 율법에 대한 응답이 중심 과제로 나타납니다.",
+      "heroImage": "/assets/bible/ezra.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "에스라의 귀환",
+          "scripture": "Ezra 7–8",
+          "description": "율법에 익숙한 에스라가 왕의 지원을 받아 귀환자들과 함께 예루살렘으로 옵니다."
+        },
+        {
+          "number": "02",
+          "title": "공동체의 회개",
+          "scripture": "Ezra 9–10",
+          "description": "에스라의 탄식과 기도 뒤에 공동체가 혼인 문제를 다루며 율법에 응답하려 합니다."
+        }
+      ],
+      "scripture": [
+        "Ezra 7–8",
+        "Ezra 9–10"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "ezra",
+          "relationType": "RELATED_BOOK",
+          "label": "에스라"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "zerubbabel",
+          "relationType": "RELATED_PERSON",
+          "label": "스룹바벨"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "ezra",
+          "relationType": "RELATED_PERSON",
+          "label": "에스라"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "babylon",
+          "relationType": "RELATED_PLACE",
+          "label": "바벨론"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "zerubbabel",
+      "titleKo": "스룹바벨",
+      "titleEn": "Zerubbabel",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "바벨론 포로 이후 귀환 공동체의 지도자로 성전 재건을 이끌었습니다.",
+      "overview": "바벨론 포로 이후 귀환 공동체의 지도자로 성전 재건을 이끌었습니다. 귀환자들과 제단과 성전 기초를 세우고 반대 속에서도 공사를 이어갑니다. 학개와 스가랴의 말씀을 통해 맡은 일을 완수하라는 격려를 받습니다.",
+      "heroImage": "/assets/people/zerubbabel.webp",
+      "scripture": [
+        "Ezra 3–6",
+        "Haggai 2; Zechariah 4"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "ezra",
+          "relationType": "RELATED_BOOK",
+          "label": "에스라"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "haggai",
+          "relationType": "RELATED_BOOK",
+          "label": "학개"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "zechariah",
+          "relationType": "RELATED_BOOK",
+          "label": "스가랴"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "성전의 기초와 재건",
+          "scripture": "Ezra 3–6",
+          "description": "귀환자들과 제단과 성전 기초를 세우고 반대 속에서도 공사를 이어갑니다."
+        },
+        {
+          "number": "02",
+          "title": "재건의 격려",
+          "scripture": "Haggai 2; Zechariah 4",
+          "description": "학개와 스가랴의 말씀을 통해 맡은 일을 완수하라는 격려를 받습니다."
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "ezra",
+      "titleKo": "에스라",
+      "titleEn": "Ezra",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "율법을 연구하고 가르친 제사장이자 서기관으로 귀환 공동체를 말씀 앞에 세웠습니다.",
+      "overview": "율법을 연구하고 가르친 제사장이자 서기관으로 귀환 공동체를 말씀 앞에 세웠습니다. 에스라는 귀환자들과 예루살렘에 와 공동체의 문제를 놓고 기도합니다. 백성 앞에서 율법을 낭독하고 사람들이 말씀을 이해하도록 돕습니다.",
+      "heroImage": "/assets/people/ezra.webp",
+      "scripture": [
+        "Ezra 7–10",
+        "Nehemiah 8"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "ezra",
+          "relationType": "RELATED_BOOK",
+          "label": "에스라"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "nehemiah",
+          "relationType": "RELATED_BOOK",
+          "label": "느헤미야"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "귀환과 공동체의 회개",
+          "scripture": "Ezra 7–10",
+          "description": "에스라는 귀환자들과 예루살렘에 와 공동체의 문제를 놓고 기도합니다."
+        },
+        {
+          "number": "02",
+          "title": "율법을 읽어 주다",
+          "scripture": "Nehemiah 8",
+          "description": "백성 앞에서 율법을 낭독하고 사람들이 말씀을 이해하도록 돕습니다."
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { timelinePeriods, visualEntries } from "../data/exploration";
 
 
 const cards = [
@@ -87,6 +88,22 @@ export default function Home() {
 
         </div>
 
+      </section>
+
+
+      <section className="homeArchiveHighlights" aria-labelledby="home-highlights-title">
+        <div className="sectionTitle">
+          <small>CONTINUE EXPLORING</small>
+          <h2 id="home-highlights-title">시대와 장면으로 이어지는 탐험</h2>
+        </div>
+        <div className="homeHighlightGrid">
+          <Link href="/timeline" className="homeHighlightCard" style={{ backgroundImage: 'url("/assets/editorial/timeline-world-v2.webp")' }}>
+            <div><small>TIMELINE · {timelinePeriods.length} PERIODS</small><h3>창조에서 초대교회까지</h3><p>13개 시대와 주요 전환점을 따라 성경의 흐름을 연결하세요.</p><span>시대 탐험하기 →</span></div>
+          </Link>
+          <Link href="/visual" className="homeHighlightCard" style={{ backgroundImage: 'url("/assets/bible/ruth.webp")' }}>
+            <div><small>VISUAL · {visualEntries.length} SCENES</small><h3>한 장면에서 본문으로</h3><p>24개 장면의 감상 포인트와 연결된 성경 이야기를 만나보세요.</p><span>장면 살펴보기 →</span></div>
+          </Link>
+        </div>
       </section>
 
 

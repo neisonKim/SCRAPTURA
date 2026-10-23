@@ -1,0 +1,316 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/1CO01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "1-corinthians",
+      "titleKo": "고린도전서",
+      "titleEn": "1 Corinthians",
+      "eyebrow": "BIBLE · NEW TESTAMENT",
+      "summary": "분열과 윤리, 예배와 은사, 부활을 둘러싼 고린도 공동체의 문제에 답합니다.",
+      "overview": "분열과 윤리, 예배와 은사, 부활을 둘러싼 고린도 공동체의 문제에 답합니다. 지도자를 내세운 파벌과 자랑을 책망하고 십자가와 섬김의 관점으로 공동체를 보게 합니다. 성적 부정과 소송을 다루며 몸과 관계에서 공동체가 지켜야 할 책임을 말합니다. 결혼과 독신, 여러 삶의 형편에 관한 질문에 신중한 권면을 전합니다. 우상 제물과 지식, 사도의 권리를 다루며 이웃과 공동체를 위한 절제를 권합니다. 예배의 질서와 주의 만찬에서 드러난 빈부 격차를 다룹니다. 다양한 은사를 한 몸의 비유로 설명하고 사랑과 공동체를 세우는 예배를 강조합니다. 그리스도의 부활과 죽은 이들의 부활을 논하며 수고가 헛되지 않음을 권합니다. 성도들을 위한 연보와 여행 계획, 동역자들에 대한 권면과 인사를 전합니다.",
+      "biblicalContext": "공동체의 자랑과 경쟁을 십자가의 관점에서 다시 보게 하는 편지입니다. 자유와 지식은 약한 이웃을 배려하는 사랑으로 제한되며 다양한 은사는 한 몸을 세우는 일을 향합니다.",
+      "heroImage": "/assets/bible/1-corinthians.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "분열과 십자가의 지혜",
+          "scripture": "1 Corinthians 1–4",
+          "description": "지도자를 내세운 파벌과 자랑을 책망하고 십자가와 섬김의 관점으로 공동체를 보게 합니다."
+        },
+        {
+          "number": "02",
+          "title": "몸과 공동체의 책임",
+          "scripture": "1 Corinthians 5–6",
+          "description": "성적 부정과 소송을 다루며 몸과 관계에서 공동체가 지켜야 할 책임을 말합니다."
+        },
+        {
+          "number": "03",
+          "title": "혼인과 부르심",
+          "scripture": "1 Corinthians 7",
+          "description": "결혼과 독신, 여러 삶의 형편에 관한 질문에 신중한 권면을 전합니다."
+        },
+        {
+          "number": "04",
+          "title": "자유와 이웃의 유익",
+          "scripture": "1 Corinthians 8–10",
+          "description": "우상 제물과 지식, 사도의 권리를 다루며 이웃과 공동체를 위한 절제를 권합니다."
+        },
+        {
+          "number": "05",
+          "title": "모일 때의 책임",
+          "scripture": "1 Corinthians 11",
+          "description": "예배의 질서와 주의 만찬에서 드러난 빈부 격차를 다룹니다."
+        },
+        {
+          "number": "06",
+          "title": "한 몸과 사랑의 은사",
+          "scripture": "1 Corinthians 12–14",
+          "description": "다양한 은사를 한 몸의 비유로 설명하고 사랑과 공동체를 세우는 예배를 강조합니다."
+        },
+        {
+          "number": "07",
+          "title": "부활의 소망",
+          "scripture": "1 Corinthians 15",
+          "description": "그리스도의 부활과 죽은 이들의 부활을 논하며 수고가 헛되지 않음을 권합니다."
+        },
+        {
+          "number": "08",
+          "title": "연보와 동역",
+          "scripture": "1 Corinthians 16",
+          "description": "성도들을 위한 연보와 여행 계획, 동역자들에 대한 권면과 인사를 전합니다."
+        }
+      ],
+      "scripture": [
+        "1 Corinthians 1–16"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "apollos",
+          "relationType": "RELATED_PERSON",
+          "label": "아볼로"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "corinth",
+          "relationType": "RELATED_PLACE",
+          "label": "고린도"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "corinth-cross-and-freedom",
+          "relationType": "RELATED_STORY",
+          "label": "분열을 넘어 이웃의 유익으로"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "love-gifts-resurrection",
+          "relationType": "RELATED_STORY",
+          "label": "사랑의 은사와 부활의 소망"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "romans",
+          "relationType": "RELATED_BOOK",
+          "label": "로마서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-corinthians",
+          "relationType": "RELATED_BOOK",
+          "label": "고린도후서"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "corinth-cross-and-freedom",
+      "titleKo": "분열을 넘어 이웃의 유익으로",
+      "titleEn": "Corinth Cross And Freedom",
+      "eyebrow": "SCRIPTURE STUDY · 1 CORINTHIANS",
+      "summary": "지도자를 내세운 파벌과 자랑을 책망하고 십자가와 섬김의 관점으로 공동체를 보게 합니다. 성적 부정과 소송을 다루며 몸과 관계에서 공동체가 지켜야 할 책임을 말합니다. 결혼과 독신, 여러 삶의 형편에 관한 질문에 신중한 권면을 전합니다. 우상 제물과 지식, 사도의 권리를 다루며 이웃과 공동체를 위한 절제를 권합니다.",
+      "overview": "고린도전서의 1–4, 5–6, 7, 8–10 본문을 따라 분열을 넘어 이웃의 유익으로의 내용을 살펴봅니다. 공동체의 자랑과 경쟁을 십자가의 관점에서 다시 보게 하는 편지입니다. 자유와 지식은 약한 이웃을 배려하는 사랑으로 제한되며 다양한 은사는 한 몸을 세우는 일을 향합니다.",
+      "heroImage": "/assets/bible/1-corinthians.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "분열과 십자가의 지혜",
+          "scripture": "1 Corinthians 1–4",
+          "description": "지도자를 내세운 파벌과 자랑을 책망하고 십자가와 섬김의 관점으로 공동체를 보게 합니다."
+        },
+        {
+          "number": "02",
+          "title": "몸과 공동체의 책임",
+          "scripture": "1 Corinthians 5–6",
+          "description": "성적 부정과 소송을 다루며 몸과 관계에서 공동체가 지켜야 할 책임을 말합니다."
+        },
+        {
+          "number": "03",
+          "title": "혼인과 부르심",
+          "scripture": "1 Corinthians 7",
+          "description": "결혼과 독신, 여러 삶의 형편에 관한 질문에 신중한 권면을 전합니다."
+        },
+        {
+          "number": "04",
+          "title": "자유와 이웃의 유익",
+          "scripture": "1 Corinthians 8–10",
+          "description": "우상 제물과 지식, 사도의 권리를 다루며 이웃과 공동체를 위한 절제를 권합니다."
+        }
+      ],
+      "scripture": [
+        "1 Corinthians 1–4",
+        "1 Corinthians 5–6",
+        "1 Corinthians 7",
+        "1 Corinthians 8–10"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "1-corinthians",
+          "relationType": "RELATED_BOOK",
+          "label": "고린도전서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "apollos",
+          "relationType": "RELATED_PERSON",
+          "label": "아볼로"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "corinth",
+          "relationType": "RELATED_PLACE",
+          "label": "고린도"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "love-gifts-resurrection",
+      "titleKo": "사랑의 은사와 부활의 소망",
+      "titleEn": "Love Gifts Resurrection",
+      "eyebrow": "SCRIPTURE STUDY · 1 CORINTHIANS",
+      "summary": "예배의 질서와 주의 만찬에서 드러난 빈부 격차를 다룹니다. 다양한 은사를 한 몸의 비유로 설명하고 사랑과 공동체를 세우는 예배를 강조합니다. 그리스도의 부활과 죽은 이들의 부활을 논하며 수고가 헛되지 않음을 권합니다.",
+      "overview": "고린도전서의 11, 12–14, 15 본문을 따라 사랑의 은사와 부활의 소망의 내용을 살펴봅니다. 공동체의 자랑과 경쟁을 십자가의 관점에서 다시 보게 하는 편지입니다. 자유와 지식은 약한 이웃을 배려하는 사랑으로 제한되며 다양한 은사는 한 몸을 세우는 일을 향합니다.",
+      "heroImage": "/assets/bible/1-corinthians.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "모일 때의 책임",
+          "scripture": "1 Corinthians 11",
+          "description": "예배의 질서와 주의 만찬에서 드러난 빈부 격차를 다룹니다."
+        },
+        {
+          "number": "02",
+          "title": "한 몸과 사랑의 은사",
+          "scripture": "1 Corinthians 12–14",
+          "description": "다양한 은사를 한 몸의 비유로 설명하고 사랑과 공동체를 세우는 예배를 강조합니다."
+        },
+        {
+          "number": "03",
+          "title": "부활의 소망",
+          "scripture": "1 Corinthians 15",
+          "description": "그리스도의 부활과 죽은 이들의 부활을 논하며 수고가 헛되지 않음을 권합니다."
+        }
+      ],
+      "scripture": [
+        "1 Corinthians 11",
+        "1 Corinthians 12–14",
+        "1 Corinthians 15"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "1-corinthians",
+          "relationType": "RELATED_BOOK",
+          "label": "고린도전서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "apollos",
+          "relationType": "RELATED_PERSON",
+          "label": "아볼로"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "corinth",
+          "relationType": "RELATED_PLACE",
+          "label": "고린도"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "apollos",
+      "titleKo": "아볼로",
+      "titleEn": "Apollos",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "성경에 능숙한 가르치는 이로 소개되며 브리스길라와 아굴라의 설명을 듣고 아가야에서 사역합니다.",
+      "overview": "성경에 능숙한 가르치는 이로 소개되며 브리스길라와 아굴라의 설명을 듣고 아가야에서 사역합니다. 에베소에서 더 자세한 가르침을 듣고 아가야에서 신자들을 돕습니다. 바울은 자신과 아볼로를 경쟁자가 아니라 심고 물을 주는 동역자로 설명합니다.",
+      "heroImage": "/assets/people/apollos.webp",
+      "scripture": [
+        "Acts 18:24–28",
+        "1 Corinthians 3"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "1-corinthians",
+          "relationType": "RELATED_BOOK",
+          "label": "고린도전서"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "배우며 가르치다",
+          "scripture": "Acts 18:24–28",
+          "description": "에베소에서 더 자세한 가르침을 듣고 아가야에서 신자들을 돕습니다."
+        },
+        {
+          "number": "02",
+          "title": "함께 일하는 일꾼",
+          "scripture": "1 Corinthians 3",
+          "description": "바울은 자신과 아볼로를 경쟁자가 아니라 심고 물을 주는 동역자로 설명합니다."
+        }
+      ]
+    },
+    {
+      "type": "place",
+      "slug": "corinth",
+      "titleKo": "고린도",
+      "titleEn": "Corinth",
+      "eyebrow": "PLACES · BIBLICAL WORLD",
+      "summary": "바울이 머물며 복음을 전했고 공동체의 여러 질문에 답하는 편지들이 보내진 아가야의 도시입니다.",
+      "overview": "바울이 머물며 복음을 전했고 공동체의 여러 질문에 답하는 편지들이 보내진 아가야의 도시입니다.",
+      "heroImage": "/assets/scraptura-home-clean.jpg",
+      "scripture": [
+        "Acts 18; 1 Corinthians 1"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "1-corinthians",
+          "relationType": "RELATED_BOOK",
+          "label": "고린도전서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-corinthians",
+          "relationType": "RELATED_BOOK",
+          "label": "고린도후서"
+        }
+      ],
+      "biblicalContext": "바울이 머물며 복음을 전했고 공동체의 여러 질문에 답하는 편지들이 보내진 아가야의 도시입니다.",
+      "keyEvent": {
+        "title": "고린도의 성경 속 배경",
+        "scripture": "Acts 18; 1 Corinthians 1",
+        "description": "바울이 머물며 복음을 전했고 공동체의 여러 질문에 답하는 편지들이 보내진 아가야의 도시입니다."
+      }
+    }
+  ]
+}

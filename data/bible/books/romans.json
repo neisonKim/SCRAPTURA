@@ -1,0 +1,282 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/ROM01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "romans",
+      "titleKo": "로마서",
+      "titleEn": "Romans",
+      "eyebrow": "BIBLE · NEW TESTAMENT",
+      "summary": "죄 아래 있는 인간에게 주어지는 하나님의 의와 믿음, 새로운 삶과 공동체의 환대를 논합니다.",
+      "overview": "죄 아래 있는 인간에게 주어지는 하나님의 의와 믿음, 새로운 삶과 공동체의 환대를 논합니다. 바울이 자신의 사명과 로마 방문의 소망을 밝히며 복음에 드러나는 하나님의 의를 말합니다. 이방인과 유대인 모두가 죄의 현실과 하나님의 판단 앞에 있음을 논합니다. 그리스도를 통한 의와 믿음을 말하고 아브라함을 약속을 믿는 사람으로 제시합니다. 아담과 그리스도를 대비하고 그리스도와 함께 죽고 사는 삶을 설명합니다. 율법과 죄의 갈등을 다룬 뒤 성령의 삶과 피조물의 탄식, 끊을 수 없는 사랑을 말합니다. 이스라엘의 역사와 하나님의 신실함, 이방인의 참여와 교만에 대한 경고를 함께 다룹니다. 서로 섬기는 은사와 사랑, 원수에 대한 태도와 사회적 책임을 권합니다. 음식과 날에 대한 차이 속에서 서로 판단하지 않고 이웃의 유익을 구하도록 권합니다. 앞으로의 여정을 설명하고 뵈뵈와 여러 동역자들을 소개하며 인사와 찬양으로 마칩니다.",
+      "biblicalContext": "로마의 신자들을 향한 편지로 유대인과 이방인의 관계를 함께 다룹니다. 복음의 논증은 삶과 예배, 권세와 양심, 서로 다른 신자들이 받아들이는 실제 문제로 이어집니다.",
+      "heroImage": "/assets/bible/romans.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "복음과 방문의 소망",
+          "scripture": "Romans 1:1–17",
+          "description": "바울이 자신의 사명과 로마 방문의 소망을 밝히며 복음에 드러나는 하나님의 의를 말합니다."
+        },
+        {
+          "number": "02",
+          "title": "모두의 책임",
+          "scripture": "Romans 1:18–3:20",
+          "description": "이방인과 유대인 모두가 죄의 현실과 하나님의 판단 앞에 있음을 논합니다."
+        },
+        {
+          "number": "03",
+          "title": "믿음으로 주어지는 의",
+          "scripture": "Romans 3:21–4:25",
+          "description": "그리스도를 통한 의와 믿음을 말하고 아브라함을 약속을 믿는 사람으로 제시합니다."
+        },
+        {
+          "number": "04",
+          "title": "은혜와 새로운 삶",
+          "scripture": "Romans 5–6",
+          "description": "아담과 그리스도를 대비하고 그리스도와 함께 죽고 사는 삶을 설명합니다."
+        },
+        {
+          "number": "05",
+          "title": "율법과 성령, 흔들리지 않는 사랑",
+          "scripture": "Romans 7–8",
+          "description": "율법과 죄의 갈등을 다룬 뒤 성령의 삶과 피조물의 탄식, 끊을 수 없는 사랑을 말합니다."
+        },
+        {
+          "number": "06",
+          "title": "이스라엘과 열방",
+          "scripture": "Romans 9–11",
+          "description": "이스라엘의 역사와 하나님의 신실함, 이방인의 참여와 교만에 대한 경고를 함께 다룹니다."
+        },
+        {
+          "number": "07",
+          "title": "삶으로 드리는 예배",
+          "scripture": "Romans 12–13",
+          "description": "서로 섬기는 은사와 사랑, 원수에 대한 태도와 사회적 책임을 권합니다."
+        },
+        {
+          "number": "08",
+          "title": "서로를 받아들이라",
+          "scripture": "Romans 14:1–15:13",
+          "description": "음식과 날에 대한 차이 속에서 서로 판단하지 않고 이웃의 유익을 구하도록 권합니다."
+        },
+        {
+          "number": "09",
+          "title": "선교와 동역자들",
+          "scripture": "Romans 15:14–16:27",
+          "description": "앞으로의 여정을 설명하고 뵈뵈와 여러 동역자들을 소개하며 인사와 찬양으로 마칩니다."
+        }
+      ],
+      "scripture": [
+        "Romans 1–16"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "phoebe",
+          "relationType": "RELATED_PERSON",
+          "label": "뵈뵈"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "rome",
+          "relationType": "RELATED_PLACE",
+          "label": "로마"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "romans-grace-and-faith",
+          "relationType": "RELATED_STORY",
+          "label": "죄의 현실과 믿음의 선물"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "romans-spirit-and-welcome",
+          "relationType": "RELATED_STORY",
+          "label": "성령 안의 삶과 공동체의 환대"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "acts",
+          "relationType": "RELATED_BOOK",
+          "label": "사도행전"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "1-corinthians",
+          "relationType": "RELATED_BOOK",
+          "label": "고린도전서"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "romans-grace-and-faith",
+      "titleKo": "죄의 현실과 믿음의 선물",
+      "titleEn": "Romans Grace And Faith",
+      "eyebrow": "SCRIPTURE STUDY · ROMANS",
+      "summary": "이방인과 유대인 모두가 죄의 현실과 하나님의 판단 앞에 있음을 논합니다. 그리스도를 통한 의와 믿음을 말하고 아브라함을 약속을 믿는 사람으로 제시합니다. 아담과 그리스도를 대비하고 그리스도와 함께 죽고 사는 삶을 설명합니다.",
+      "overview": "로마서의 1:18–3:20, 3:21–4:25, 5–6 본문을 따라 죄의 현실과 믿음의 선물의 내용을 살펴봅니다. 로마의 신자들을 향한 편지로 유대인과 이방인의 관계를 함께 다룹니다. 복음의 논증은 삶과 예배, 권세와 양심, 서로 다른 신자들이 받아들이는 실제 문제로 이어집니다.",
+      "heroImage": "/assets/bible/romans.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "모두의 책임",
+          "scripture": "Romans 1:18–3:20",
+          "description": "이방인과 유대인 모두가 죄의 현실과 하나님의 판단 앞에 있음을 논합니다."
+        },
+        {
+          "number": "02",
+          "title": "믿음으로 주어지는 의",
+          "scripture": "Romans 3:21–4:25",
+          "description": "그리스도를 통한 의와 믿음을 말하고 아브라함을 약속을 믿는 사람으로 제시합니다."
+        },
+        {
+          "number": "03",
+          "title": "은혜와 새로운 삶",
+          "scripture": "Romans 5–6",
+          "description": "아담과 그리스도를 대비하고 그리스도와 함께 죽고 사는 삶을 설명합니다."
+        }
+      ],
+      "scripture": [
+        "Romans 1:18–3:20",
+        "Romans 3:21–4:25",
+        "Romans 5–6"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "romans",
+          "relationType": "RELATED_BOOK",
+          "label": "로마서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "phoebe",
+          "relationType": "RELATED_PERSON",
+          "label": "뵈뵈"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "rome",
+          "relationType": "RELATED_PLACE",
+          "label": "로마"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "romans-spirit-and-welcome",
+      "titleKo": "성령 안의 삶과 공동체의 환대",
+      "titleEn": "Romans Spirit And Welcome",
+      "eyebrow": "SCRIPTURE STUDY · ROMANS",
+      "summary": "율법과 죄의 갈등을 다룬 뒤 성령의 삶과 피조물의 탄식, 끊을 수 없는 사랑을 말합니다. 이스라엘의 역사와 하나님의 신실함, 이방인의 참여와 교만에 대한 경고를 함께 다룹니다. 서로 섬기는 은사와 사랑, 원수에 대한 태도와 사회적 책임을 권합니다. 음식과 날에 대한 차이 속에서 서로 판단하지 않고 이웃의 유익을 구하도록 권합니다.",
+      "overview": "로마서의 7–8, 9–11, 12–13, 14:1–15:13 본문을 따라 성령 안의 삶과 공동체의 환대의 내용을 살펴봅니다. 로마의 신자들을 향한 편지로 유대인과 이방인의 관계를 함께 다룹니다. 복음의 논증은 삶과 예배, 권세와 양심, 서로 다른 신자들이 받아들이는 실제 문제로 이어집니다.",
+      "heroImage": "/assets/bible/romans.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "율법과 성령, 흔들리지 않는 사랑",
+          "scripture": "Romans 7–8",
+          "description": "율법과 죄의 갈등을 다룬 뒤 성령의 삶과 피조물의 탄식, 끊을 수 없는 사랑을 말합니다."
+        },
+        {
+          "number": "02",
+          "title": "이스라엘과 열방",
+          "scripture": "Romans 9–11",
+          "description": "이스라엘의 역사와 하나님의 신실함, 이방인의 참여와 교만에 대한 경고를 함께 다룹니다."
+        },
+        {
+          "number": "03",
+          "title": "삶으로 드리는 예배",
+          "scripture": "Romans 12–13",
+          "description": "서로 섬기는 은사와 사랑, 원수에 대한 태도와 사회적 책임을 권합니다."
+        },
+        {
+          "number": "04",
+          "title": "서로를 받아들이라",
+          "scripture": "Romans 14:1–15:13",
+          "description": "음식과 날에 대한 차이 속에서 서로 판단하지 않고 이웃의 유익을 구하도록 권합니다."
+        }
+      ],
+      "scripture": [
+        "Romans 7–8",
+        "Romans 9–11",
+        "Romans 12–13",
+        "Romans 14:1–15:13"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "romans",
+          "relationType": "RELATED_BOOK",
+          "label": "로마서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "phoebe",
+          "relationType": "RELATED_PERSON",
+          "label": "뵈뵈"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "rome",
+          "relationType": "RELATED_PLACE",
+          "label": "로마"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "phoebe",
+      "titleKo": "뵈뵈",
+      "titleEn": "Phoebe",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "로마서 마지막에 소개되는 겐그레아 교회의 일꾼으로 여러 사람을 도운 인물입니다.",
+      "overview": "로마서 마지막에 소개되는 겐그레아 교회의 일꾼으로 여러 사람을 도운 인물입니다. 바울은 로마 신자들이 뵈뵈를 합당하게 맞이하고 필요한 일을 돕도록 부탁합니다.",
+      "heroImage": "/assets/people/phoebe.webp",
+      "scripture": [
+        "Romans 16:1–2"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "romans",
+          "relationType": "RELATED_BOOK",
+          "label": "로마서"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "공동체가 맞아들일 동역자",
+          "scripture": "Romans 16:1–2",
+          "description": "바울은 로마 신자들이 뵈뵈를 합당하게 맞이하고 필요한 일을 돕도록 부탁합니다."
+        }
+      ]
+    }
+  ]
+}

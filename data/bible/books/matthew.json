@@ -1,0 +1,531 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/MAT01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "matthew",
+      "titleKo": "마태복음",
+      "titleEn": "Matthew",
+      "eyebrow": "BIBLE · NEW TESTAMENT",
+      "summary": "예수의 탄생과 하나님 나라의 가르침, 십자가와 부활을 통해 제자들을 향한 부르심을 전합니다.",
+      "overview": "예수의 탄생과 하나님 나라의 가르침, 십자가와 부활을 통해 제자들을 향한 부르심을 전합니다. 예수의 계보와 탄생, 동방 박사들의 방문과 이집트 피난이 기록됩니다. 세례 요한의 선포와 예수의 세례, 시험 및 갈릴리에서 제자들을 부르시는 장면이 이어집니다. 복과 기도, 이웃과 원수 사랑, 삶으로 실천하는 의를 가르치십니다. 예수는 병든 이들을 고치고 제자들을 불러 하나님 나라의 소식을 전하도록 보내십니다. 예수를 둘러싼 반응과 논쟁 속에 씨 뿌리는 이와 여러 하나님 나라의 비유가 전해집니다. 무리를 먹이시는 사건과 베드로의 고백, 변화산 및 공동체의 겸손과 용서가 이어집니다. 제자도와 섬김을 가르치고 예루살렘에 입성하여 지도자들의 위선을 책망하십니다. 성전과 마지막 때에 관한 말씀, 준비와 책임을 묻는 비유들이 전해집니다. 마지막 만찬과 겟세마네, 체포와 재판을 거쳐 예수가 십자가에서 죽으십니다. 빈 무덤의 소식과 부활하신 예수의 만남 뒤에 모든 민족을 향한 제자들의 사명이 주어집니다.",
+      "biblicalContext": "이스라엘 성경의 약속과 예수의 사역을 연결하며 긴 가르침과 사건들을 함께 배열합니다. 율법과 의, 자비와 공동체의 책임을 다루고 모든 민족을 제자로 삼으라는 위임으로 끝납니다.",
+      "heroImage": "/assets/bible/matthew.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "탄생과 피난",
+          "scripture": "Matthew 1–2",
+          "description": "예수의 계보와 탄생, 동방 박사들의 방문과 이집트 피난이 기록됩니다."
+        },
+        {
+          "number": "02",
+          "title": "세례와 사역의 시작",
+          "scripture": "Matthew 3–4",
+          "description": "세례 요한의 선포와 예수의 세례, 시험 및 갈릴리에서 제자들을 부르시는 장면이 이어집니다."
+        },
+        {
+          "number": "03",
+          "title": "산 위의 가르침",
+          "scripture": "Matthew 5–7",
+          "description": "복과 기도, 이웃과 원수 사랑, 삶으로 실천하는 의를 가르치십니다."
+        },
+        {
+          "number": "04",
+          "title": "치유와 파송",
+          "scripture": "Matthew 8–10",
+          "description": "예수는 병든 이들을 고치고 제자들을 불러 하나님 나라의 소식을 전하도록 보내십니다."
+        },
+        {
+          "number": "05",
+          "title": "응답과 하나님 나라의 비유",
+          "scripture": "Matthew 11–13",
+          "description": "예수를 둘러싼 반응과 논쟁 속에 씨 뿌리는 이와 여러 하나님 나라의 비유가 전해집니다."
+        },
+        {
+          "number": "06",
+          "title": "제자의 고백과 공동체",
+          "scripture": "Matthew 14–18",
+          "description": "무리를 먹이시는 사건과 베드로의 고백, 변화산 및 공동체의 겸손과 용서가 이어집니다."
+        },
+        {
+          "number": "07",
+          "title": "예루살렘으로 가는 길",
+          "scripture": "Matthew 19–23",
+          "description": "제자도와 섬김을 가르치고 예루살렘에 입성하여 지도자들의 위선을 책망하십니다."
+        },
+        {
+          "number": "08",
+          "title": "깨어 기다리는 삶",
+          "scripture": "Matthew 24–25",
+          "description": "성전과 마지막 때에 관한 말씀, 준비와 책임을 묻는 비유들이 전해집니다."
+        },
+        {
+          "number": "09",
+          "title": "만찬과 십자가",
+          "scripture": "Matthew 26–27",
+          "description": "마지막 만찬과 겟세마네, 체포와 재판을 거쳐 예수가 십자가에서 죽으십니다."
+        },
+        {
+          "number": "10",
+          "title": "부활과 위임",
+          "scripture": "Matthew 28",
+          "description": "빈 무덤의 소식과 부활하신 예수의 만남 뒤에 모든 민족을 향한 제자들의 사명이 주어집니다."
+        }
+      ],
+      "scripture": [
+        "Matthew 1–28"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "jesus",
+          "relationType": "RELATED_PERSON",
+          "label": "예수 그리스도"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "peter",
+          "relationType": "RELATED_PERSON",
+          "label": "베드로"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "john-the-baptist",
+          "relationType": "RELATED_PERSON",
+          "label": "세례 요한"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "galilee",
+          "relationType": "RELATED_PLACE",
+          "label": "갈릴리"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "bethlehem",
+          "relationType": "RELATED_PLACE",
+          "label": "베들레헴"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "sermon-on-the-mount",
+          "relationType": "RELATED_STORY",
+          "label": "산 위에서 배우는 하나님 나라"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "matthew-cross-and-commission",
+          "relationType": "RELATED_STORY",
+          "label": "십자가에서 모든 민족을 향한 위임까지"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "malachi",
+          "relationType": "RELATED_BOOK",
+          "label": "말라기"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "mark",
+          "relationType": "RELATED_BOOK",
+          "label": "마가복음"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "sermon-on-the-mount",
+      "titleKo": "산 위에서 배우는 하나님 나라",
+      "titleEn": "Sermon On The Mount",
+      "eyebrow": "SCRIPTURE STUDY · MATTHEW",
+      "summary": "복과 기도, 이웃과 원수 사랑, 삶으로 실천하는 의를 가르치십니다. 예수는 병든 이들을 고치고 제자들을 불러 하나님 나라의 소식을 전하도록 보내십니다.",
+      "overview": "마태복음의 5–7, 8–10 본문을 따라 산 위에서 배우는 하나님 나라의 내용을 살펴봅니다. 이스라엘 성경의 약속과 예수의 사역을 연결하며 긴 가르침과 사건들을 함께 배열합니다. 율법과 의, 자비와 공동체의 책임을 다루고 모든 민족을 제자로 삼으라는 위임으로 끝납니다.",
+      "heroImage": "/assets/bible/matthew.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "산 위의 가르침",
+          "scripture": "Matthew 5–7",
+          "description": "복과 기도, 이웃과 원수 사랑, 삶으로 실천하는 의를 가르치십니다."
+        },
+        {
+          "number": "02",
+          "title": "치유와 파송",
+          "scripture": "Matthew 8–10",
+          "description": "예수는 병든 이들을 고치고 제자들을 불러 하나님 나라의 소식을 전하도록 보내십니다."
+        }
+      ],
+      "scripture": [
+        "Matthew 5–7",
+        "Matthew 8–10"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "matthew",
+          "relationType": "RELATED_BOOK",
+          "label": "마태복음"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "jesus",
+          "relationType": "RELATED_PERSON",
+          "label": "예수 그리스도"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "peter",
+          "relationType": "RELATED_PERSON",
+          "label": "베드로"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "john-the-baptist",
+          "relationType": "RELATED_PERSON",
+          "label": "세례 요한"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "galilee",
+          "relationType": "RELATED_PLACE",
+          "label": "갈릴리"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "bethlehem",
+          "relationType": "RELATED_PLACE",
+          "label": "베들레헴"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "matthew-cross-and-commission",
+      "titleKo": "십자가에서 모든 민족을 향한 위임까지",
+      "titleEn": "Matthew Cross And Commission",
+      "eyebrow": "SCRIPTURE STUDY · MATTHEW",
+      "summary": "마지막 만찬과 겟세마네, 체포와 재판을 거쳐 예수가 십자가에서 죽으십니다. 빈 무덤의 소식과 부활하신 예수의 만남 뒤에 모든 민족을 향한 제자들의 사명이 주어집니다.",
+      "overview": "마태복음의 26–27, 28 본문을 따라 십자가에서 모든 민족을 향한 위임까지의 내용을 살펴봅니다. 이스라엘 성경의 약속과 예수의 사역을 연결하며 긴 가르침과 사건들을 함께 배열합니다. 율법과 의, 자비와 공동체의 책임을 다루고 모든 민족을 제자로 삼으라는 위임으로 끝납니다.",
+      "heroImage": "/assets/bible/matthew.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "만찬과 십자가",
+          "scripture": "Matthew 26–27",
+          "description": "마지막 만찬과 겟세마네, 체포와 재판을 거쳐 예수가 십자가에서 죽으십니다."
+        },
+        {
+          "number": "02",
+          "title": "부활과 위임",
+          "scripture": "Matthew 28",
+          "description": "빈 무덤의 소식과 부활하신 예수의 만남 뒤에 모든 민족을 향한 제자들의 사명이 주어집니다."
+        }
+      ],
+      "scripture": [
+        "Matthew 26–27",
+        "Matthew 28"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "matthew",
+          "relationType": "RELATED_BOOK",
+          "label": "마태복음"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "jesus",
+          "relationType": "RELATED_PERSON",
+          "label": "예수 그리스도"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "peter",
+          "relationType": "RELATED_PERSON",
+          "label": "베드로"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "john-the-baptist",
+          "relationType": "RELATED_PERSON",
+          "label": "세례 요한"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "galilee",
+          "relationType": "RELATED_PLACE",
+          "label": "갈릴리"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "bethlehem",
+          "relationType": "RELATED_PLACE",
+          "label": "베들레헴"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "jesus",
+      "titleKo": "예수 그리스도",
+      "titleEn": "Jesus Christ",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "복음서의 중심 인물로 하나님 나라를 선포하고 병든 이와 죄인들을 만나며 십자가와 부활을 통해 증언됩니다.",
+      "overview": "복음서의 중심 인물로 하나님 나라를 선포하고 병든 이와 죄인들을 만나며 십자가와 부활을 통해 증언됩니다. 세례와 시험 후 갈릴리에서 성령의 능력으로 기쁜 소식을 선포하십니다. 제자들에게 하나님 나라의 의와 사랑, 실천하는 삶을 가르치십니다. 재판과 십자가를 거쳐 부활하신 예수가 제자들을 만나고 사명을 맡기십니다.",
+      "heroImage": "/assets/scraptura-jesus.jpg",
+      "scripture": [
+        "Luke 3–4",
+        "Matthew 5–7",
+        "John 18–21"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "matthew",
+          "relationType": "RELATED_BOOK",
+          "label": "마태복음"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "mark",
+          "relationType": "RELATED_BOOK",
+          "label": "마가복음"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "luke",
+          "relationType": "RELATED_BOOK",
+          "label": "누가복음"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "john",
+          "relationType": "RELATED_BOOK",
+          "label": "요한복음"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "hebrews",
+          "relationType": "RELATED_BOOK",
+          "label": "히브리서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "1-john",
+          "relationType": "RELATED_BOOK",
+          "label": "요한일서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "revelation",
+          "relationType": "RELATED_BOOK",
+          "label": "요한계시록"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "사역의 시작",
+          "scripture": "Luke 3–4",
+          "description": "세례와 시험 후 갈릴리에서 성령의 능력으로 기쁜 소식을 선포하십니다."
+        },
+        {
+          "number": "02",
+          "title": "하나님 나라의 가르침",
+          "scripture": "Matthew 5–7",
+          "description": "제자들에게 하나님 나라의 의와 사랑, 실천하는 삶을 가르치십니다."
+        },
+        {
+          "number": "03",
+          "title": "십자가와 부활",
+          "scripture": "John 18–21",
+          "description": "재판과 십자가를 거쳐 부활하신 예수가 제자들을 만나고 사명을 맡기십니다."
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "peter",
+      "titleKo": "베드로",
+      "titleEn": "Peter",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "예수의 제자로 부름받아 고백과 실패를 겪고 부활 이후 초기 공동체의 증인으로 활동한 인물입니다.",
+      "overview": "예수의 제자로 부름받아 고백과 실패를 겪고 부활 이후 초기 공동체의 증인으로 활동한 인물입니다. 예수를 그리스도로 고백하지만 십자가와 섬김의 길을 배워야 합니다. 예수를 부인한 뒤 부활하신 주를 만나 양들을 돌보라는 부탁을 받습니다. 예수를 증언하고 이방인에게도 성령이 임하심을 경험합니다.",
+      "heroImage": "/assets/people/peter.webp",
+      "scripture": [
+        "Mark 8–10",
+        "John 18–21",
+        "Acts 2; 10"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "matthew",
+          "relationType": "RELATED_BOOK",
+          "label": "마태복음"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "mark",
+          "relationType": "RELATED_BOOK",
+          "label": "마가복음"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "john",
+          "relationType": "RELATED_BOOK",
+          "label": "요한복음"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "acts",
+          "relationType": "RELATED_BOOK",
+          "label": "사도행전"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "1-peter",
+          "relationType": "RELATED_BOOK",
+          "label": "베드로전서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-peter",
+          "relationType": "RELATED_BOOK",
+          "label": "베드로후서"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "고백과 배움",
+          "scripture": "Mark 8–10",
+          "description": "예수를 그리스도로 고백하지만 십자가와 섬김의 길을 배워야 합니다."
+        },
+        {
+          "number": "02",
+          "title": "부인 이후의 돌봄",
+          "scripture": "John 18–21",
+          "description": "예수를 부인한 뒤 부활하신 주를 만나 양들을 돌보라는 부탁을 받습니다."
+        },
+        {
+          "number": "03",
+          "title": "오순절과 고넬료",
+          "scripture": "Acts 2; 10",
+          "description": "예수를 증언하고 이방인에게도 성령이 임하심을 경험합니다."
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "john-the-baptist",
+      "titleKo": "세례 요한",
+      "titleEn": "John the Baptist",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "광야에서 회개를 선포하며 예수의 오심을 준비하고 그를 증언한 인물입니다.",
+      "overview": "광야에서 회개를 선포하며 예수의 오심을 준비하고 그를 증언한 인물입니다. 사가랴와 엘리사벳에게 요한의 탄생과 길을 준비할 사명이 전해집니다. 요단강에서 세례를 베풀며 예수를 자신보다 크신 이로 증언합니다.",
+      "heroImage": "/assets/people/john-the-baptist.webp",
+      "scripture": [
+        "Luke 1",
+        "Matthew 3; John 1"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "matthew",
+          "relationType": "RELATED_BOOK",
+          "label": "마태복음"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "mark",
+          "relationType": "RELATED_BOOK",
+          "label": "마가복음"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "luke",
+          "relationType": "RELATED_BOOK",
+          "label": "누가복음"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "탄생의 약속",
+          "scripture": "Luke 1",
+          "description": "사가랴와 엘리사벳에게 요한의 탄생과 길을 준비할 사명이 전해집니다."
+        },
+        {
+          "number": "02",
+          "title": "회개와 증언",
+          "scripture": "Matthew 3; John 1",
+          "description": "요단강에서 세례를 베풀며 예수를 자신보다 크신 이로 증언합니다."
+        }
+      ]
+    },
+    {
+      "type": "place",
+      "slug": "galilee",
+      "titleKo": "갈릴리",
+      "titleEn": "Galilee",
+      "eyebrow": "PLACES · BIBLICAL WORLD",
+      "summary": "예수가 제자들을 부르고 여러 성읍과 마을에서 가르치며 치유하신 북쪽 지역입니다.",
+      "overview": "예수가 제자들을 부르고 여러 성읍과 마을에서 가르치며 치유하신 북쪽 지역입니다.",
+      "heroImage": "/assets/scraptura-home-clean.jpg",
+      "scripture": [
+        "Matthew 4; Mark 1"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "matthew",
+          "relationType": "RELATED_BOOK",
+          "label": "마태복음"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "mark",
+          "relationType": "RELATED_BOOK",
+          "label": "마가복음"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "john",
+          "relationType": "RELATED_BOOK",
+          "label": "요한복음"
+        }
+      ],
+      "biblicalContext": "예수가 제자들을 부르고 여러 성읍과 마을에서 가르치며 치유하신 북쪽 지역입니다.",
+      "keyEvent": {
+        "title": "갈릴리의 성경 속 배경",
+        "scripture": "Matthew 4; Mark 1",
+        "description": "예수가 제자들을 부르고 여러 성읍과 마을에서 가르치며 치유하신 북쪽 지역입니다."
+      }
+    }
+  ]
+}

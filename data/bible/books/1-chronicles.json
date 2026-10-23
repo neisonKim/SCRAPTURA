@@ -1,0 +1,245 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/1CH01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "1-chronicles",
+      "titleKo": "역대상",
+      "titleEn": "1 Chronicles",
+      "eyebrow": "BIBLE · OLD TESTAMENT",
+      "summary": "계보와 다윗의 통치를 통해 이스라엘의 기억을 정리하고 성전 예배의 기반을 보여 줍니다.",
+      "overview": "계보와 다윗의 통치를 통해 이스라엘의 기억을 정리하고 성전 예배의 기반을 보여 줍니다. 아담에서 족장과 지파, 다윗 왕가에 이르는 계보를 정리합니다. 이스라엘 지파들의 계보와 포로 이후 예루살렘에 거주한 사람들을 기록합니다. 사울의 죽음에 이어 다윗의 즉위와 그에게 모인 용사들을 소개합니다. 언약궤를 옮기는 과정과 레위인의 직무, 다윗의 감사 찬양이 기록됩니다. 다윗에게 주어진 약속과 전쟁, 인구 조사 및 제단의 이야기를 다룹니다. 다윗이 성전 재료를 마련하고 제사장, 레위인, 찬양대와 문지기의 직무를 정합니다. 행정 조직을 기록하고 다윗이 솔로몬과 회중에게 성전 건축을 부탁하며 기도합니다.",
+      "biblicalContext": "아담에서 시작하는 계보는 왕정과 포로 이후 공동체를 이어 줍니다. 다윗의 이야기는 언약궤, 레위인과 성전 준비를 중심으로 전개됩니다.",
+      "heroImage": "/assets/bible/1-chronicles.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "조상들과 다윗의 집",
+          "scripture": "1 Chronicles 1–3",
+          "description": "아담에서 족장과 지파, 다윗 왕가에 이르는 계보를 정리합니다."
+        },
+        {
+          "number": "02",
+          "title": "지파와 귀환 공동체",
+          "scripture": "1 Chronicles 4–9",
+          "description": "이스라엘 지파들의 계보와 포로 이후 예루살렘에 거주한 사람들을 기록합니다."
+        },
+        {
+          "number": "03",
+          "title": "사울 이후의 다윗",
+          "scripture": "1 Chronicles 10–12",
+          "description": "사울의 죽음에 이어 다윗의 즉위와 그에게 모인 용사들을 소개합니다."
+        },
+        {
+          "number": "04",
+          "title": "언약궤와 찬양",
+          "scripture": "1 Chronicles 13–16",
+          "description": "언약궤를 옮기는 과정과 레위인의 직무, 다윗의 감사 찬양이 기록됩니다."
+        },
+        {
+          "number": "05",
+          "title": "언약과 왕의 책임",
+          "scripture": "1 Chronicles 17–21",
+          "description": "다윗에게 주어진 약속과 전쟁, 인구 조사 및 제단의 이야기를 다룹니다."
+        },
+        {
+          "number": "06",
+          "title": "성전과 섬김의 준비",
+          "scripture": "1 Chronicles 22–26",
+          "description": "다윗이 성전 재료를 마련하고 제사장, 레위인, 찬양대와 문지기의 직무를 정합니다."
+        },
+        {
+          "number": "07",
+          "title": "다음 세대를 위한 위임",
+          "scripture": "1 Chronicles 27–29",
+          "description": "행정 조직을 기록하고 다윗이 솔로몬과 회중에게 성전 건축을 부탁하며 기도합니다."
+        }
+      ],
+      "scripture": [
+        "1 Chronicles 1–29"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "david",
+          "relationType": "RELATED_PERSON",
+          "label": "다윗"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "solomon",
+          "relationType": "RELATED_PERSON",
+          "label": "솔로몬"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "hebron",
+          "relationType": "RELATED_PLACE",
+          "label": "헤브론"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "chronicles-david-worship",
+          "relationType": "RELATED_STORY",
+          "label": "다윗과 언약궤의 예배"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "chronicles-temple-preparation",
+          "relationType": "RELATED_STORY",
+          "label": "다음 세대를 위한 성전 준비"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-kings",
+          "relationType": "RELATED_BOOK",
+          "label": "열왕기하"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-chronicles",
+          "relationType": "RELATED_BOOK",
+          "label": "역대하"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "chronicles-david-worship",
+      "titleKo": "다윗과 언약궤의 예배",
+      "titleEn": "Chronicles David Worship",
+      "eyebrow": "SCRIPTURE STUDY · 1 CHRONICLES",
+      "summary": "사울의 죽음에 이어 다윗의 즉위와 그에게 모인 용사들을 소개합니다. 언약궤를 옮기는 과정과 레위인의 직무, 다윗의 감사 찬양이 기록됩니다. 다윗에게 주어진 약속과 전쟁, 인구 조사 및 제단의 이야기를 다룹니다.",
+      "overview": "역대상의 10–12, 13–16, 17–21 본문을 따라 다윗과 언약궤의 예배의 내용을 살펴봅니다. 아담에서 시작하는 계보는 왕정과 포로 이후 공동체를 이어 줍니다. 다윗의 이야기는 언약궤, 레위인과 성전 준비를 중심으로 전개됩니다.",
+      "heroImage": "/assets/bible/1-chronicles.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "사울 이후의 다윗",
+          "scripture": "1 Chronicles 10–12",
+          "description": "사울의 죽음에 이어 다윗의 즉위와 그에게 모인 용사들을 소개합니다."
+        },
+        {
+          "number": "02",
+          "title": "언약궤와 찬양",
+          "scripture": "1 Chronicles 13–16",
+          "description": "언약궤를 옮기는 과정과 레위인의 직무, 다윗의 감사 찬양이 기록됩니다."
+        },
+        {
+          "number": "03",
+          "title": "언약과 왕의 책임",
+          "scripture": "1 Chronicles 17–21",
+          "description": "다윗에게 주어진 약속과 전쟁, 인구 조사 및 제단의 이야기를 다룹니다."
+        }
+      ],
+      "scripture": [
+        "1 Chronicles 10–12",
+        "1 Chronicles 13–16",
+        "1 Chronicles 17–21"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "1-chronicles",
+          "relationType": "RELATED_BOOK",
+          "label": "역대상"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "david",
+          "relationType": "RELATED_PERSON",
+          "label": "다윗"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "solomon",
+          "relationType": "RELATED_PERSON",
+          "label": "솔로몬"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "hebron",
+          "relationType": "RELATED_PLACE",
+          "label": "헤브론"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "chronicles-temple-preparation",
+      "titleKo": "다음 세대를 위한 성전 준비",
+      "titleEn": "Chronicles Temple Preparation",
+      "eyebrow": "SCRIPTURE STUDY · 1 CHRONICLES",
+      "summary": "다윗이 성전 재료를 마련하고 제사장, 레위인, 찬양대와 문지기의 직무를 정합니다. 행정 조직을 기록하고 다윗이 솔로몬과 회중에게 성전 건축을 부탁하며 기도합니다.",
+      "overview": "역대상의 22–26, 27–29 본문을 따라 다음 세대를 위한 성전 준비의 내용을 살펴봅니다. 아담에서 시작하는 계보는 왕정과 포로 이후 공동체를 이어 줍니다. 다윗의 이야기는 언약궤, 레위인과 성전 준비를 중심으로 전개됩니다.",
+      "heroImage": "/assets/bible/1-chronicles.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "성전과 섬김의 준비",
+          "scripture": "1 Chronicles 22–26",
+          "description": "다윗이 성전 재료를 마련하고 제사장, 레위인, 찬양대와 문지기의 직무를 정합니다."
+        },
+        {
+          "number": "02",
+          "title": "다음 세대를 위한 위임",
+          "scripture": "1 Chronicles 27–29",
+          "description": "행정 조직을 기록하고 다윗이 솔로몬과 회중에게 성전 건축을 부탁하며 기도합니다."
+        }
+      ],
+      "scripture": [
+        "1 Chronicles 22–26",
+        "1 Chronicles 27–29"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "1-chronicles",
+          "relationType": "RELATED_BOOK",
+          "label": "역대상"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "david",
+          "relationType": "RELATED_PERSON",
+          "label": "다윗"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "solomon",
+          "relationType": "RELATED_PERSON",
+          "label": "솔로몬"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "hebron",
+          "relationType": "RELATED_PLACE",
+          "label": "헤브론"
+        }
+      ]
+    }
+  ]
+}

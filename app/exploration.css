@@ -1,0 +1,80 @@
+/* Fresh artwork and the expanded Timeline / Visual reading paths. */
+.home { display: flex; flex-direction: column; }
+.home .homeHero { order: 0; flex: none; background-image: url("/assets/editorial/home-world-v2.webp"); }
+.home .homeHero .heroShade {
+  background: linear-gradient(180deg, rgba(5,12,11,.1), rgba(5,12,11,.24) 50%, #050c0b), linear-gradient(90deg, rgba(5,12,11,.22), transparent 70%);
+}
+.home .homeHero::after { color: #f2e5cf; text-shadow: 0 1px 8px #050c0b; background: rgba(5,12,11,.52); padding: 14px 18px; font-size: 15px; }
+.home .portal {
+  order: 1; position: relative; inset: auto;
+  width: min(1320px, calc(100% - 48px)); margin: 0 auto 40px; padding: 0;
+}
+.home .portalGrid > a::before { background-color: #10251d; }
+.home .portalGrid > a:nth-child(1)::before { background-image: linear-gradient(180deg, transparent, rgba(4,9,8,.85)), url("/assets/bible/numbers.webp"); }
+.home .portalGrid > a:nth-child(2)::before { background-image: linear-gradient(180deg, transparent, rgba(4,9,8,.85)), url("/assets/editorial/timeline-early-monarchy-v2.webp"); }
+.home .portalGrid > a:nth-child(3)::before { background-image: linear-gradient(180deg, transparent, rgba(4,9,8,.85)), url("/assets/bible/nehemiah.webp"); }
+.home .portalGrid > a:nth-child(4)::before { background-image: linear-gradient(180deg, transparent, rgba(4,9,8,.85)), url("/assets/editorial/timeline-world-v2.webp"); }
+.home .portalGrid > a:nth-child(5)::before { background-image: linear-gradient(180deg, transparent, rgba(4,9,8,.85)), url("/assets/bible/proverbs.webp"); }
+.home .portalGrid > a:nth-child(6)::before { background-image: linear-gradient(180deg, transparent, rgba(4,9,8,.85)), url("/assets/bible/revelation.webp"); }
+.homeArchiveHighlights { order: 2; width: min(1180px, calc(100% - 48px)); margin: 70px auto 30px; }
+.homeArchiveHighlights .sectionTitle { display: block; margin-bottom: 28px; }
+.homeArchiveHighlights small, .visualObservations > small { color: #b99651; font-size: 10px; letter-spacing: .16em; }
+.homeArchiveHighlights .sectionTitle h2 { color: #f0d49b; font-size: clamp(26px, 3vw, 38px); font-weight: 400; }
+.homeHighlightGrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.homeHighlightCard { position: relative; min-height: 360px; display: flex; align-items: flex-end; background-size: cover; background-position: center; border: 1px solid #514931; }
+.homeHighlightCard::before { content: ""; position: absolute; inset: 0; background: linear-gradient(0deg, #050c0b, rgba(5,12,11,.2) 90%); }
+.homeHighlightCard > div { position: relative; padding: 30px; }
+.homeHighlightCard h3 { font-size: 30px; color: #f0d49b; font-weight: 400; margin: 12px 0; }
+.homeHighlightCard p { color: #c6bdad; line-height: 1.75; }
+.homeHighlightCard span { font-size: 12px; color: #e2c07e; }
+.home .featuredJourney { order: 3; }
+.timelinePage .detailHero { height: 540px; background-position: center; }
+.timelinePage .heroCopy { bottom: 65px; }
+.timelineEntry { scroll-margin-top: 100px; }
+.timelineEntry:focus-visible, .homeHighlightCard:focus-visible, .visualArchiveCard:focus-visible { outline: 2px solid #f0d49b; outline-offset: 5px; }
+.explorationTabs { display: flex; gap: 10px; flex-wrap: wrap; margin: 30px 0 16px; }
+.explorationTabs button, .explorationTabs a { border: 1px solid #4f4935; background: transparent; color: #d1c3a8; border-radius: 999px; padding: 11px 18px; font: inherit; font-size: 12px; cursor: pointer; text-decoration: none; }
+.explorationTabs button[aria-pressed="true"], .explorationTabs a:hover, .explorationTabs button:hover { background: #d8b36d; border-color: #d8b36d; color: #08120e; }
+.explorationTabs button:focus-visible, .explorationTabs a:focus-visible { outline: 2px solid #f0d49b; outline-offset: 4px; }
+.explorationTabs span { margin-left: 7px; opacity: .75; font-variant-numeric: tabular-nums; }
+.timelineChapters { margin-bottom: 42px; }
+.explorationResult { color: #aaa194; font-size: 12px; margin: 0 0 24px; }
+.visualDetailGallery, .visualObservations { width: min(1180px, calc(100% - 48px)); margin: 0 auto 60px; }
+.visualDetailGallery img { display: block; width: 100%; height: auto; border: 1px solid #3f412e; }
+.visualDetailGallery figcaption { margin-top: 14px; color: #a99f8e; font-size: 12px; line-height: 1.7; }
+.visualObservations > h3 { color: #f0d49b; font-size: 32px; font-weight: 400; margin: 14px 0 28px; }
+.visualObservationGrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.visualObservationGrid article { padding-top: 24px; border-top: 1px solid #4e4937; }
+.visualObservationGrid small { color: #b99651; font-size: 11px; }
+.visualObservationGrid h4 { color: #e8dbc1; font-size: 20px; font-weight: 400; margin: 14px 0; }
+.visualObservationGrid p { color: #b9b1a3; font-size: 14px; line-height: 1.85; }
+.explorationPager { width: min(1180px, calc(100% - 48px)); margin: 60px auto 0; padding-top: 30px; border-top: 1px solid #3e3c2c; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 24px; }
+.explorationPager a { display: flex; flex-direction: column; gap: 12px; max-width: 30%; }
+.explorationPager small { color: #b99651; font-size: 10px; letter-spacing: .08em; }
+.explorationPager span { color: #e8dbc1; font-size: 14px; line-height: 1.65; }
+@media (max-width: 1000px) {
+  .home .portalGrid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .visualObservationGrid { gap: 18px; }
+}
+@media (max-width: 700px) {
+  .home .homeHero { min-height: 680px; background-position: 58% center; }
+  .home .portal { width: calc(100% - 32px); margin: 24px auto; }
+  .home .portalGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .homeArchiveHighlights { width: calc(100% - 40px); margin-top: 40px; }
+  .homeHighlightGrid, .visualObservationGrid { grid-template-columns: 1fr; }
+  .homeHighlightCard { min-height: 330px; }
+  .homeHighlightCard > div { padding: 24px; }
+  .homeHighlightCard h3 { font-size: 27px; }
+  .timelinePage .detailHero { height: 510px; background-position: 60% center; }
+  .timelinePage .heroCopy { bottom: 45px; }
+  .timelinePage .heroCopy h1 { font-size: clamp(45px, 12vw, 64px); }
+  .timelinePage .heroCopy p { max-width: calc(100vw - 48px); }
+  .explorationTabs { gap: 8px; }
+  .explorationTabs button, .explorationTabs a { padding: 10px 13px; }
+  .visualDetailGallery, .visualObservations, .explorationPager { width: calc(100% - 40px); }
+  .visualObservationGrid { gap: 28px; }
+  .explorationPager a { max-width: 44%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .home .homeHero, .home .homeCopy > *, .home .portalGrid > a { animation: none; opacity: 1; transform: none; }
+}

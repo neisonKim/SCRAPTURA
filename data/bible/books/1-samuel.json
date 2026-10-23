@@ -1,0 +1,306 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/1SA01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "1-samuel",
+      "titleKo": "사무엘상",
+      "titleEn": "1 Samuel",
+      "eyebrow": "BIBLE · OLD TESTAMENT",
+      "summary": "사무엘의 부르심에서 사울의 몰락까지, 이스라엘 왕정의 시작과 다윗의 등장을 따라갑니다.",
+      "overview": "사무엘의 부르심에서 사울의 몰락까지, 이스라엘 왕정의 시작과 다윗의 등장을 따라갑니다. 한나의 기도와 사무엘의 출생 뒤에 실로의 쇠퇴와 사무엘의 부르심이 기록됩니다. 블레셋에 빼앗긴 언약궤가 돌아오고 사무엘은 미스바에서 백성을 회개로 이끕니다. 백성의 왕 요구에 따라 사울이 세워지고 사무엘은 왕과 백성의 언약적 책임을 말합니다. 전쟁과 제사, 아말렉에 관한 사건을 통해 사울의 왕권이 흔들립니다. 사무엘이 다윗에게 기름을 붓고 다윗은 엘라 골짜기에서 골리앗과 맞섭니다. 사울의 적대가 커지는 가운데 요나단은 다윗을 돕고 둘은 언약을 맺습니다. 다윗은 여러 피난처를 옮겨 다니며 엔게디에서 사울을 죽일 기회를 포기합니다. 아비가일이 보복을 막고 다윗은 다시 사울의 목숨을 살린 뒤 블레셋 땅으로 갑니다. 사울은 엔돌에서 절망을 드러내고 다윗은 약탈당한 시글락의 가족들을 되찾습니다. 블레셋과의 전투에서 사울과 아들들이 죽으며 한 왕의 시대가 끝납니다.",
+      "biblicalContext": "사사 시대에서 왕정으로 넘어가는 전환기입니다. 왕을 요구하는 백성의 기대와 하나님 앞에서의 책임이 사울과 다윗의 서로 다른 선택 속에서 드러납니다.",
+      "heroImage": "/assets/scraptura-david.jpg",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "한나와 사무엘의 부르심",
+          "scripture": "1 Samuel 1–3",
+          "description": "한나의 기도와 사무엘의 출생 뒤에 실로의 쇠퇴와 사무엘의 부르심이 기록됩니다."
+        },
+        {
+          "number": "02",
+          "title": "언약궤와 돌아옴",
+          "scripture": "1 Samuel 4–7",
+          "description": "블레셋에 빼앗긴 언약궤가 돌아오고 사무엘은 미스바에서 백성을 회개로 이끕니다."
+        },
+        {
+          "number": "03",
+          "title": "왕정의 시작",
+          "scripture": "1 Samuel 8–12",
+          "description": "백성의 왕 요구에 따라 사울이 세워지고 사무엘은 왕과 백성의 언약적 책임을 말합니다."
+        },
+        {
+          "number": "04",
+          "title": "사울의 불순종",
+          "scripture": "1 Samuel 13–15",
+          "description": "전쟁과 제사, 아말렉에 관한 사건을 통해 사울의 왕권이 흔들립니다."
+        },
+        {
+          "number": "05",
+          "title": "다윗의 등장",
+          "scripture": "1 Samuel 16–17",
+          "description": "사무엘이 다윗에게 기름을 붓고 다윗은 엘라 골짜기에서 골리앗과 맞섭니다."
+        },
+        {
+          "number": "06",
+          "title": "왕궁의 갈등과 우정",
+          "scripture": "1 Samuel 18–20",
+          "description": "사울의 적대가 커지는 가운데 요나단은 다윗을 돕고 둘은 언약을 맺습니다."
+        },
+        {
+          "number": "07",
+          "title": "도피와 엔게디",
+          "scripture": "1 Samuel 21–24",
+          "description": "다윗은 여러 피난처를 옮겨 다니며 엔게디에서 사울을 죽일 기회를 포기합니다."
+        },
+        {
+          "number": "08",
+          "title": "아비가일과 다시 피한 칼",
+          "scripture": "1 Samuel 25–27",
+          "description": "아비가일이 보복을 막고 다윗은 다시 사울의 목숨을 살린 뒤 블레셋 땅으로 갑니다."
+        },
+        {
+          "number": "09",
+          "title": "엔돌과 시글락",
+          "scripture": "1 Samuel 28–30",
+          "description": "사울은 엔돌에서 절망을 드러내고 다윗은 약탈당한 시글락의 가족들을 되찾습니다."
+        },
+        {
+          "number": "10",
+          "title": "길보아의 패전",
+          "scripture": "1 Samuel 31",
+          "description": "블레셋과의 전투에서 사울과 아들들이 죽으며 한 왕의 시대가 끝납니다."
+        }
+      ],
+      "scripture": [
+        "1 Samuel 1–31"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "samuel",
+          "relationType": "RELATED_PERSON",
+          "label": "사무엘"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "saul",
+          "relationType": "RELATED_PERSON",
+          "label": "사울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "david",
+          "relationType": "RELATED_PERSON",
+          "label": "다윗"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "shiloh",
+          "relationType": "RELATED_PLACE",
+          "label": "실로"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "bethlehem",
+          "relationType": "RELATED_PLACE",
+          "label": "베들레헴"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "valley-of-elah",
+          "relationType": "RELATED_PLACE",
+          "label": "엘라 골짜기"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "samuel-and-kingship",
+          "relationType": "RELATED_STORY",
+          "label": "사무엘과 왕정의 시작"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "david-as-fugitive",
+          "relationType": "RELATED_STORY",
+          "label": "도망자의 길에서 보복을 멈추다"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "ruth",
+          "relationType": "RELATED_BOOK",
+          "label": "룻기"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-samuel",
+          "relationType": "RELATED_BOOK",
+          "label": "사무엘하"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "samuel-and-kingship",
+      "titleKo": "사무엘과 왕정의 시작",
+      "titleEn": "Samuel And Kingship",
+      "eyebrow": "SCRIPTURE STUDY · 1 SAMUEL",
+      "summary": "한나의 기도와 사무엘의 출생 뒤에 실로의 쇠퇴와 사무엘의 부르심이 기록됩니다. 블레셋에 빼앗긴 언약궤가 돌아오고 사무엘은 미스바에서 백성을 회개로 이끕니다. 백성의 왕 요구에 따라 사울이 세워지고 사무엘은 왕과 백성의 언약적 책임을 말합니다.",
+      "overview": "사무엘상의 1–3, 4–7, 8–12 본문을 따라 사무엘과 왕정의 시작의 내용을 살펴봅니다. 사사 시대에서 왕정으로 넘어가는 전환기입니다. 왕을 요구하는 백성의 기대와 하나님 앞에서의 책임이 사울과 다윗의 서로 다른 선택 속에서 드러납니다.",
+      "heroImage": "/assets/scraptura-david.jpg",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "한나와 사무엘의 부르심",
+          "scripture": "1 Samuel 1–3",
+          "description": "한나의 기도와 사무엘의 출생 뒤에 실로의 쇠퇴와 사무엘의 부르심이 기록됩니다."
+        },
+        {
+          "number": "02",
+          "title": "언약궤와 돌아옴",
+          "scripture": "1 Samuel 4–7",
+          "description": "블레셋에 빼앗긴 언약궤가 돌아오고 사무엘은 미스바에서 백성을 회개로 이끕니다."
+        },
+        {
+          "number": "03",
+          "title": "왕정의 시작",
+          "scripture": "1 Samuel 8–12",
+          "description": "백성의 왕 요구에 따라 사울이 세워지고 사무엘은 왕과 백성의 언약적 책임을 말합니다."
+        }
+      ],
+      "scripture": [
+        "1 Samuel 1–3",
+        "1 Samuel 4–7",
+        "1 Samuel 8–12"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "1-samuel",
+          "relationType": "RELATED_BOOK",
+          "label": "사무엘상"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "samuel",
+          "relationType": "RELATED_PERSON",
+          "label": "사무엘"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "saul",
+          "relationType": "RELATED_PERSON",
+          "label": "사울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "david",
+          "relationType": "RELATED_PERSON",
+          "label": "다윗"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "shiloh",
+          "relationType": "RELATED_PLACE",
+          "label": "실로"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "bethlehem",
+          "relationType": "RELATED_PLACE",
+          "label": "베들레헴"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "valley-of-elah",
+          "relationType": "RELATED_PLACE",
+          "label": "엘라 골짜기"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "david-as-fugitive",
+      "titleKo": "도망자의 길에서 보복을 멈추다",
+      "titleEn": "David As Fugitive",
+      "eyebrow": "SCRIPTURE STUDY · 1 SAMUEL",
+      "summary": "다윗은 여러 피난처를 옮겨 다니며 엔게디에서 사울을 죽일 기회를 포기합니다. 아비가일이 보복을 막고 다윗은 다시 사울의 목숨을 살린 뒤 블레셋 땅으로 갑니다. 사울은 엔돌에서 절망을 드러내고 다윗은 약탈당한 시글락의 가족들을 되찾습니다.",
+      "overview": "사무엘상의 21–24, 25–27, 28–30 본문을 따라 도망자의 길에서 보복을 멈추다의 내용을 살펴봅니다. 사사 시대에서 왕정으로 넘어가는 전환기입니다. 왕을 요구하는 백성의 기대와 하나님 앞에서의 책임이 사울과 다윗의 서로 다른 선택 속에서 드러납니다.",
+      "heroImage": "/assets/scraptura-david.jpg",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "도피와 엔게디",
+          "scripture": "1 Samuel 21–24",
+          "description": "다윗은 여러 피난처를 옮겨 다니며 엔게디에서 사울을 죽일 기회를 포기합니다."
+        },
+        {
+          "number": "02",
+          "title": "아비가일과 다시 피한 칼",
+          "scripture": "1 Samuel 25–27",
+          "description": "아비가일이 보복을 막고 다윗은 다시 사울의 목숨을 살린 뒤 블레셋 땅으로 갑니다."
+        },
+        {
+          "number": "03",
+          "title": "엔돌과 시글락",
+          "scripture": "1 Samuel 28–30",
+          "description": "사울은 엔돌에서 절망을 드러내고 다윗은 약탈당한 시글락의 가족들을 되찾습니다."
+        }
+      ],
+      "scripture": [
+        "1 Samuel 21–24",
+        "1 Samuel 25–27",
+        "1 Samuel 28–30"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "1-samuel",
+          "relationType": "RELATED_BOOK",
+          "label": "사무엘상"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "samuel",
+          "relationType": "RELATED_PERSON",
+          "label": "사무엘"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "saul",
+          "relationType": "RELATED_PERSON",
+          "label": "사울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "david",
+          "relationType": "RELATED_PERSON",
+          "label": "다윗"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "shiloh",
+          "relationType": "RELATED_PLACE",
+          "label": "실로"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "bethlehem",
+          "relationType": "RELATED_PLACE",
+          "label": "베들레헴"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "valley-of-elah",
+          "relationType": "RELATED_PLACE",
+          "label": "엘라 골짜기"
+        }
+      ]
+    }
+  ]
+}

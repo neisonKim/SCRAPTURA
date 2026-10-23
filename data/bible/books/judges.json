@@ -1,0 +1,444 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/JDG01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "judges",
+      "titleKo": "사사기",
+      "titleEn": "Judges",
+      "eyebrow": "BIBLE · OLD TESTAMENT",
+      "summary": "왕이 없던 시대의 이스라엘이 반복되는 배신과 압제, 구원 속에서 공동체의 붕괴를 겪습니다.",
+      "overview": "왕이 없던 시대의 이스라엘이 반복되는 배신과 압제, 구원 속에서 공동체의 붕괴를 겪습니다. 가나안 정착의 미완성과 새로운 세대의 배신, 압제와 구원의 반복이 소개됩니다. 옷니엘과 에훗을 통해 압제에서 벗어나는 이야기가 이어지고 삼갈이 짧게 언급됩니다. 드보라와 바락의 전투, 야엘의 행동과 승리를 노래하는 시가 기록됩니다. 기드온은 적은 수의 군사로 미디안과 싸우지만 이후 그의 에봇은 공동체의 덫이 됩니다. 아비멜렉의 폭력적 지배, 입다의 서원과 지파 간 갈등이 전개됩니다. 나실인으로 부름받은 삼손이 블레셋과 충돌하며 개인적 욕망과 사명의 긴장을 드러냅니다. 개인의 신상과 제사장이 단 지파의 이동에 편입되며 예배의 혼란이 확대됩니다. 기브아의 폭력 사건이 베냐민 지파와의 내전으로 번지고 공동체의 도덕적 혼란이 드러납니다.",
+      "biblicalContext": "여호수아 이후 정착한 지파들의 삶을 다루며 사사들의 구원과 한계를 함께 보여 줍니다. 마지막 이야기들은 우상 숭배와 폭력이 개인을 넘어 지파 전체로 번지는 모습을 드러냅니다.",
+      "heroImage": "/assets/bible/judges.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "정착과 반복의 시작",
+          "scripture": "Judges 1–2",
+          "description": "가나안 정착의 미완성과 새로운 세대의 배신, 압제와 구원의 반복이 소개됩니다."
+        },
+        {
+          "number": "02",
+          "title": "옷니엘과 에훗",
+          "scripture": "Judges 3",
+          "description": "옷니엘과 에훗을 통해 압제에서 벗어나는 이야기가 이어지고 삼갈이 짧게 언급됩니다."
+        },
+        {
+          "number": "03",
+          "title": "드보라와 바락",
+          "scripture": "Judges 4–5",
+          "description": "드보라와 바락의 전투, 야엘의 행동과 승리를 노래하는 시가 기록됩니다."
+        },
+        {
+          "number": "04",
+          "title": "기드온의 부르심과 한계",
+          "scripture": "Judges 6–8",
+          "description": "기드온은 적은 수의 군사로 미디안과 싸우지만 이후 그의 에봇은 공동체의 덫이 됩니다."
+        },
+        {
+          "number": "05",
+          "title": "아비멜렉과 입다",
+          "scripture": "Judges 9–12",
+          "description": "아비멜렉의 폭력적 지배, 입다의 서원과 지파 간 갈등이 전개됩니다."
+        },
+        {
+          "number": "06",
+          "title": "삼손의 삶",
+          "scripture": "Judges 13–16",
+          "description": "나실인으로 부름받은 삼손이 블레셋과 충돌하며 개인적 욕망과 사명의 긴장을 드러냅니다."
+        },
+        {
+          "number": "07",
+          "title": "미가의 신상과 단 지파",
+          "scripture": "Judges 17–18",
+          "description": "개인의 신상과 제사장이 단 지파의 이동에 편입되며 예배의 혼란이 확대됩니다."
+        },
+        {
+          "number": "08",
+          "title": "공동체의 내전",
+          "scripture": "Judges 19–21",
+          "description": "기브아의 폭력 사건이 베냐민 지파와의 내전으로 번지고 공동체의 도덕적 혼란이 드러납니다."
+        }
+      ],
+      "scripture": [
+        "Judges 1–21"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "deborah",
+          "relationType": "RELATED_PERSON",
+          "label": "드보라"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "gideon",
+          "relationType": "RELATED_PERSON",
+          "label": "기드온"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "samson",
+          "relationType": "RELATED_PERSON",
+          "label": "삼손"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "canaan",
+          "relationType": "RELATED_PLACE",
+          "label": "가나안"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "shiloh",
+          "relationType": "RELATED_PLACE",
+          "label": "실로"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "deborah-and-barak",
+          "relationType": "RELATED_STORY",
+          "label": "드보라와 바락의 구원 이야기"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "samson-and-fragmented-israel",
+          "relationType": "RELATED_STORY",
+          "label": "삼손 이후 무너지는 공동체"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "joshua",
+          "relationType": "RELATED_BOOK",
+          "label": "여호수아"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "ruth",
+          "relationType": "RELATED_BOOK",
+          "label": "룻기"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "deborah-and-barak",
+      "titleKo": "드보라와 바락의 구원 이야기",
+      "titleEn": "Deborah And Barak",
+      "eyebrow": "SCRIPTURE STUDY · JUDGES",
+      "summary": "옷니엘과 에훗을 통해 압제에서 벗어나는 이야기가 이어지고 삼갈이 짧게 언급됩니다. 드보라와 바락의 전투, 야엘의 행동과 승리를 노래하는 시가 기록됩니다. 기드온은 적은 수의 군사로 미디안과 싸우지만 이후 그의 에봇은 공동체의 덫이 됩니다.",
+      "overview": "사사기의 3, 4–5, 6–8 본문을 따라 드보라와 바락의 구원 이야기의 내용을 살펴봅니다. 여호수아 이후 정착한 지파들의 삶을 다루며 사사들의 구원과 한계를 함께 보여 줍니다. 마지막 이야기들은 우상 숭배와 폭력이 개인을 넘어 지파 전체로 번지는 모습을 드러냅니다.",
+      "heroImage": "/assets/bible/judges.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "옷니엘과 에훗",
+          "scripture": "Judges 3",
+          "description": "옷니엘과 에훗을 통해 압제에서 벗어나는 이야기가 이어지고 삼갈이 짧게 언급됩니다."
+        },
+        {
+          "number": "02",
+          "title": "드보라와 바락",
+          "scripture": "Judges 4–5",
+          "description": "드보라와 바락의 전투, 야엘의 행동과 승리를 노래하는 시가 기록됩니다."
+        },
+        {
+          "number": "03",
+          "title": "기드온의 부르심과 한계",
+          "scripture": "Judges 6–8",
+          "description": "기드온은 적은 수의 군사로 미디안과 싸우지만 이후 그의 에봇은 공동체의 덫이 됩니다."
+        }
+      ],
+      "scripture": [
+        "Judges 3",
+        "Judges 4–5",
+        "Judges 6–8"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "judges",
+          "relationType": "RELATED_BOOK",
+          "label": "사사기"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "deborah",
+          "relationType": "RELATED_PERSON",
+          "label": "드보라"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "gideon",
+          "relationType": "RELATED_PERSON",
+          "label": "기드온"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "samson",
+          "relationType": "RELATED_PERSON",
+          "label": "삼손"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "canaan",
+          "relationType": "RELATED_PLACE",
+          "label": "가나안"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "shiloh",
+          "relationType": "RELATED_PLACE",
+          "label": "실로"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "samson-and-fragmented-israel",
+      "titleKo": "삼손 이후 무너지는 공동체",
+      "titleEn": "Samson And Fragmented Israel",
+      "eyebrow": "SCRIPTURE STUDY · JUDGES",
+      "summary": "나실인으로 부름받은 삼손이 블레셋과 충돌하며 개인적 욕망과 사명의 긴장을 드러냅니다. 개인의 신상과 제사장이 단 지파의 이동에 편입되며 예배의 혼란이 확대됩니다. 기브아의 폭력 사건이 베냐민 지파와의 내전으로 번지고 공동체의 도덕적 혼란이 드러납니다.",
+      "overview": "사사기의 13–16, 17–18, 19–21 본문을 따라 삼손 이후 무너지는 공동체의 내용을 살펴봅니다. 여호수아 이후 정착한 지파들의 삶을 다루며 사사들의 구원과 한계를 함께 보여 줍니다. 마지막 이야기들은 우상 숭배와 폭력이 개인을 넘어 지파 전체로 번지는 모습을 드러냅니다.",
+      "heroImage": "/assets/bible/judges.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "삼손의 삶",
+          "scripture": "Judges 13–16",
+          "description": "나실인으로 부름받은 삼손이 블레셋과 충돌하며 개인적 욕망과 사명의 긴장을 드러냅니다."
+        },
+        {
+          "number": "02",
+          "title": "미가의 신상과 단 지파",
+          "scripture": "Judges 17–18",
+          "description": "개인의 신상과 제사장이 단 지파의 이동에 편입되며 예배의 혼란이 확대됩니다."
+        },
+        {
+          "number": "03",
+          "title": "공동체의 내전",
+          "scripture": "Judges 19–21",
+          "description": "기브아의 폭력 사건이 베냐민 지파와의 내전으로 번지고 공동체의 도덕적 혼란이 드러납니다."
+        }
+      ],
+      "scripture": [
+        "Judges 13–16",
+        "Judges 17–18",
+        "Judges 19–21"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "judges",
+          "relationType": "RELATED_BOOK",
+          "label": "사사기"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "deborah",
+          "relationType": "RELATED_PERSON",
+          "label": "드보라"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "gideon",
+          "relationType": "RELATED_PERSON",
+          "label": "기드온"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "samson",
+          "relationType": "RELATED_PERSON",
+          "label": "삼손"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "canaan",
+          "relationType": "RELATED_PLACE",
+          "label": "가나안"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "shiloh",
+          "relationType": "RELATED_PLACE",
+          "label": "실로"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "deborah",
+      "titleKo": "드보라",
+      "titleEn": "Deborah",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "이스라엘의 사사이자 예언자로 바락을 불러 공동체의 구원에 참여하게 합니다.",
+      "overview": "이스라엘의 사사이자 예언자로 바락을 불러 공동체의 구원에 참여하게 합니다. 드보라는 바락에게 시스라의 군대와 맞설 것을 전하고 함께 길을 갑니다. 드보라와 바락의 노래가 참여한 지파들과 야엘의 행동을 기억합니다.",
+      "heroImage": "/assets/people/deborah.webp",
+      "scripture": [
+        "Judges 4",
+        "Judges 5"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "judges",
+          "relationType": "RELATED_BOOK",
+          "label": "사사기"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "바락을 부르다",
+          "scripture": "Judges 4",
+          "description": "드보라는 바락에게 시스라의 군대와 맞설 것을 전하고 함께 길을 갑니다."
+        },
+        {
+          "number": "02",
+          "title": "승리의 노래",
+          "scripture": "Judges 5",
+          "description": "드보라와 바락의 노래가 참여한 지파들과 야엘의 행동을 기억합니다."
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "gideon",
+      "titleKo": "기드온",
+      "titleEn": "Gideon",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "미디안의 압제에서 이스라엘을 구하도록 부름받았으나 말년에는 공동체에 걸림돌도 남긴 사사입니다.",
+      "overview": "미디안의 압제에서 이스라엘을 구하도록 부름받았으나 말년에는 공동체에 걸림돌도 남긴 사사입니다. 기드온은 미디안을 두려워하는 가운데 부름받고 바알의 제단을 허뭅니다. 적은 군사로 싸운 뒤 왕권 제안을 거절하지만 그가 만든 에봇은 덫이 됩니다.",
+      "heroImage": "/assets/people/gideon.webp",
+      "scripture": [
+        "Judges 6",
+        "Judges 7–8"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "judges",
+          "relationType": "RELATED_BOOK",
+          "label": "사사기"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "두려움 속의 부르심",
+          "scripture": "Judges 6",
+          "description": "기드온은 미디안을 두려워하는 가운데 부름받고 바알의 제단을 허뭅니다."
+        },
+        {
+          "number": "02",
+          "title": "승리와 남은 한계",
+          "scripture": "Judges 7–8",
+          "description": "적은 군사로 싸운 뒤 왕권 제안을 거절하지만 그가 만든 에봇은 덫이 됩니다."
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "samson",
+      "titleKo": "삼손",
+      "titleEn": "Samson",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "나실인으로 구별되어 블레셋과 충돌하며 힘과 욕망, 사명의 긴장을 드러내는 사사입니다.",
+      "overview": "나실인으로 구별되어 블레셋과 충돌하며 힘과 욕망, 사명의 긴장을 드러내는 사사입니다. 탄생이 예고된 삼손은 블레셋 여인과의 혼인 과정에서 갈등을 겪습니다. 여러 충돌 끝에 붙잡힌 삼손은 마지막에 하나님께 힘을 구합니다.",
+      "heroImage": "/assets/people/samson.webp",
+      "scripture": [
+        "Judges 13–14",
+        "Judges 15–16"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "judges",
+          "relationType": "RELATED_BOOK",
+          "label": "사사기"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "탄생과 첫 갈등",
+          "scripture": "Judges 13–14",
+          "description": "탄생이 예고된 삼손은 블레셋 여인과의 혼인 과정에서 갈등을 겪습니다."
+        },
+        {
+          "number": "02",
+          "title": "힘과 마지막 기도",
+          "scripture": "Judges 15–16",
+          "description": "여러 충돌 끝에 붙잡힌 삼손은 마지막에 하나님께 힘을 구합니다."
+        }
+      ]
+    },
+    {
+      "type": "place",
+      "slug": "canaan",
+      "titleKo": "가나안",
+      "titleEn": "Canaan",
+      "eyebrow": "PLACES · BIBLICAL WORLD",
+      "summary": "족장들의 여정과 이스라엘의 정착 이야기에서 약속의 땅으로 나타나는 지역입니다.",
+      "overview": "족장들의 여정과 이스라엘의 정착 이야기에서 약속의 땅으로 나타나는 지역입니다.",
+      "heroImage": "/assets/scraptura-home-clean.jpg",
+      "scripture": [
+        "Genesis 12; Joshua 1–24"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "judges",
+          "relationType": "RELATED_BOOK",
+          "label": "사사기"
+        }
+      ],
+      "biblicalContext": "족장들의 여정과 이스라엘의 정착 이야기에서 약속의 땅으로 나타나는 지역입니다.",
+      "keyEvent": {
+        "title": "가나안의 성경 속 배경",
+        "scripture": "Genesis 12; Joshua 1–24",
+        "description": "족장들의 여정과 이스라엘의 정착 이야기에서 약속의 땅으로 나타나는 지역입니다."
+      }
+    },
+    {
+      "type": "place",
+      "slug": "shiloh",
+      "titleKo": "실로",
+      "titleEn": "Shiloh",
+      "eyebrow": "PLACES · BIBLICAL WORLD",
+      "summary": "성막과 공동체의 예배가 자리했던 곳으로 땅 분배와 사무엘의 어린 시절 이야기에 등장합니다.",
+      "overview": "성막과 공동체의 예배가 자리했던 곳으로 땅 분배와 사무엘의 어린 시절 이야기에 등장합니다.",
+      "heroImage": "/assets/scraptura-home-clean.jpg",
+      "scripture": [
+        "Joshua 18; 1 Samuel 1–4"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "judges",
+          "relationType": "RELATED_BOOK",
+          "label": "사사기"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "1-samuel",
+          "relationType": "RELATED_BOOK",
+          "label": "사무엘상"
+        }
+      ],
+      "biblicalContext": "성막과 공동체의 예배가 자리했던 곳으로 땅 분배와 사무엘의 어린 시절 이야기에 등장합니다.",
+      "keyEvent": {
+        "title": "실로의 성경 속 배경",
+        "scripture": "Joshua 18; 1 Samuel 1–4",
+        "description": "성막과 공동체의 예배가 자리했던 곳으로 땅 분배와 사무엘의 어린 시절 이야기에 등장합니다."
+      }
+    }
+  ]
+}

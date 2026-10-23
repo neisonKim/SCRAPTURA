@@ -1,0 +1,269 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/EZK01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "ezekiel",
+      "titleKo": "에스겔",
+      "titleEn": "Ezekiel",
+      "eyebrow": "BIBLE · OLD TESTAMENT",
+      "summary": "포로지에서 받은 환상과 상징 행동을 통해 예루살렘의 심판과 새 마음, 회복의 소망을 전합니다.",
+      "overview": "포로지에서 받은 환상과 상징 행동을 통해 예루살렘의 심판과 새 마음, 회복의 소망을 전합니다. 그발 강가의 에스겔이 하나님의 영광을 보고 말씀을 받아 파수꾼으로 세워집니다. 상징 행동과 성전 환상을 통해 심판을 전하고 하나님의 영광이 성읍을 떠납니다. 거짓된 확신을 깨뜨리고 개인과 공동체의 책임, 예루살렘의 부패를 드러냅니다. 암몬과 모압, 에돔과 블레셋, 두로와 이집트의 교만에 대해 선포합니다. 함락 소식 이후 파수꾼의 책임을 확인하고 악한 목자 대신 백성을 돌보실 하나님을 말합니다. 정결하게 하심과 새 영의 약속, 마른 뼈가 살아나는 환상과 두 막대기의 표징이 이어집니다. 곡의 침략에 대한 묵시적 장면을 통해 하나님이 백성을 지키시고 거룩함을 드러내심을 전합니다. 회복된 성전과 예배, 성전에서 흐르는 강과 새롭게 분배되는 땅을 환상으로 보여 줍니다.",
+      "biblicalContext": "바벨론 포로 공동체의 자리에서 예언이 시작됩니다. 성전을 떠나는 영광과 다시 돌아오는 영광이 책을 감싸고, 새 영과 목자, 마른 뼈의 환상이 회복을 표현합니다.",
+      "heroImage": "/assets/bible/ezekiel.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "영광의 환상과 파수꾼",
+          "scripture": "Ezekiel 1–3",
+          "description": "그발 강가의 에스겔이 하나님의 영광을 보고 말씀을 받아 파수꾼으로 세워집니다."
+        },
+        {
+          "number": "02",
+          "title": "예루살렘의 죄와 떠나는 영광",
+          "scripture": "Ezekiel 4–11",
+          "description": "상징 행동과 성전 환상을 통해 심판을 전하고 하나님의 영광이 성읍을 떠납니다."
+        },
+        {
+          "number": "03",
+          "title": "책임과 심판의 말씀",
+          "scripture": "Ezekiel 12–24",
+          "description": "거짓된 확신을 깨뜨리고 개인과 공동체의 책임, 예루살렘의 부패를 드러냅니다."
+        },
+        {
+          "number": "04",
+          "title": "주변 나라들에 대한 심판",
+          "scripture": "Ezekiel 25–32",
+          "description": "암몬과 모압, 에돔과 블레셋, 두로와 이집트의 교만에 대해 선포합니다."
+        },
+        {
+          "number": "05",
+          "title": "새로운 파수꾼과 목자",
+          "scripture": "Ezekiel 33–34",
+          "description": "함락 소식 이후 파수꾼의 책임을 확인하고 악한 목자 대신 백성을 돌보실 하나님을 말합니다."
+        },
+        {
+          "number": "06",
+          "title": "새 마음과 살아나는 뼈",
+          "scripture": "Ezekiel 35–37",
+          "description": "정결하게 하심과 새 영의 약속, 마른 뼈가 살아나는 환상과 두 막대기의 표징이 이어집니다."
+        },
+        {
+          "number": "07",
+          "title": "마지막 위협과 보호",
+          "scripture": "Ezekiel 38–39",
+          "description": "곡의 침략에 대한 묵시적 장면을 통해 하나님이 백성을 지키시고 거룩함을 드러내심을 전합니다."
+        },
+        {
+          "number": "08",
+          "title": "새 성전과 생명의 강",
+          "scripture": "Ezekiel 40–48",
+          "description": "회복된 성전과 예배, 성전에서 흐르는 강과 새롭게 분배되는 땅을 환상으로 보여 줍니다."
+        }
+      ],
+      "scripture": [
+        "Ezekiel 1–48"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "ezekiel",
+          "relationType": "RELATED_PERSON",
+          "label": "에스겔"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "babylon",
+          "relationType": "RELATED_PLACE",
+          "label": "바벨론"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "ezekiel-glory-and-exile",
+          "relationType": "RELATED_STORY",
+          "label": "포로지에서 본 영광과 심판"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "dry-bones-and-new-heart",
+          "relationType": "RELATED_STORY",
+          "label": "새 마음과 살아나는 뼈"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "lamentations",
+          "relationType": "RELATED_BOOK",
+          "label": "예레미야애가"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "daniel",
+          "relationType": "RELATED_BOOK",
+          "label": "다니엘"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "ezekiel-glory-and-exile",
+      "titleKo": "포로지에서 본 영광과 심판",
+      "titleEn": "Ezekiel Glory And Exile",
+      "eyebrow": "SCRIPTURE STUDY · EZEKIEL",
+      "summary": "그발 강가의 에스겔이 하나님의 영광을 보고 말씀을 받아 파수꾼으로 세워집니다. 상징 행동과 성전 환상을 통해 심판을 전하고 하나님의 영광이 성읍을 떠납니다. 거짓된 확신을 깨뜨리고 개인과 공동체의 책임, 예루살렘의 부패를 드러냅니다.",
+      "overview": "에스겔의 1–3, 4–11, 12–24 본문을 따라 포로지에서 본 영광과 심판의 내용을 살펴봅니다. 바벨론 포로 공동체의 자리에서 예언이 시작됩니다. 성전을 떠나는 영광과 다시 돌아오는 영광이 책을 감싸고, 새 영과 목자, 마른 뼈의 환상이 회복을 표현합니다.",
+      "heroImage": "/assets/bible/ezekiel.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "영광의 환상과 파수꾼",
+          "scripture": "Ezekiel 1–3",
+          "description": "그발 강가의 에스겔이 하나님의 영광을 보고 말씀을 받아 파수꾼으로 세워집니다."
+        },
+        {
+          "number": "02",
+          "title": "예루살렘의 죄와 떠나는 영광",
+          "scripture": "Ezekiel 4–11",
+          "description": "상징 행동과 성전 환상을 통해 심판을 전하고 하나님의 영광이 성읍을 떠납니다."
+        },
+        {
+          "number": "03",
+          "title": "책임과 심판의 말씀",
+          "scripture": "Ezekiel 12–24",
+          "description": "거짓된 확신을 깨뜨리고 개인과 공동체의 책임, 예루살렘의 부패를 드러냅니다."
+        }
+      ],
+      "scripture": [
+        "Ezekiel 1–3",
+        "Ezekiel 4–11",
+        "Ezekiel 12–24"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "ezekiel",
+          "relationType": "RELATED_BOOK",
+          "label": "에스겔"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "ezekiel",
+          "relationType": "RELATED_PERSON",
+          "label": "에스겔"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "babylon",
+          "relationType": "RELATED_PLACE",
+          "label": "바벨론"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "dry-bones-and-new-heart",
+      "titleKo": "새 마음과 살아나는 뼈",
+      "titleEn": "Dry Bones And New Heart",
+      "eyebrow": "SCRIPTURE STUDY · EZEKIEL",
+      "summary": "함락 소식 이후 파수꾼의 책임을 확인하고 악한 목자 대신 백성을 돌보실 하나님을 말합니다. 정결하게 하심과 새 영의 약속, 마른 뼈가 살아나는 환상과 두 막대기의 표징이 이어집니다.",
+      "overview": "에스겔의 33–34, 35–37 본문을 따라 새 마음과 살아나는 뼈의 내용을 살펴봅니다. 바벨론 포로 공동체의 자리에서 예언이 시작됩니다. 성전을 떠나는 영광과 다시 돌아오는 영광이 책을 감싸고, 새 영과 목자, 마른 뼈의 환상이 회복을 표현합니다.",
+      "heroImage": "/assets/bible/ezekiel.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "새로운 파수꾼과 목자",
+          "scripture": "Ezekiel 33–34",
+          "description": "함락 소식 이후 파수꾼의 책임을 확인하고 악한 목자 대신 백성을 돌보실 하나님을 말합니다."
+        },
+        {
+          "number": "02",
+          "title": "새 마음과 살아나는 뼈",
+          "scripture": "Ezekiel 35–37",
+          "description": "정결하게 하심과 새 영의 약속, 마른 뼈가 살아나는 환상과 두 막대기의 표징이 이어집니다."
+        }
+      ],
+      "scripture": [
+        "Ezekiel 33–34",
+        "Ezekiel 35–37"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "ezekiel",
+          "relationType": "RELATED_BOOK",
+          "label": "에스겔"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "ezekiel",
+          "relationType": "RELATED_PERSON",
+          "label": "에스겔"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "babylon",
+          "relationType": "RELATED_PLACE",
+          "label": "바벨론"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "ezekiel",
+      "titleKo": "에스겔",
+      "titleEn": "Ezekiel",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "바벨론 포로 공동체에서 환상과 상징 행동으로 심판과 회복을 전한 제사장이자 예언자입니다.",
+      "overview": "바벨론 포로 공동체에서 환상과 상징 행동으로 심판과 회복을 전한 제사장이자 예언자입니다. 그발 강가에서 하나님의 영광을 보고 파수꾼으로 부름받습니다. 마른 뼈와 새 성전의 환상을 통해 백성의 회복을 전합니다.",
+      "heroImage": "/assets/people/ezekiel.webp",
+      "scripture": [
+        "Ezekiel 1–3",
+        "Ezekiel 37; 40"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "ezekiel",
+          "relationType": "RELATED_BOOK",
+          "label": "에스겔"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "포로지의 부르심",
+          "scripture": "Ezekiel 1–3",
+          "description": "그발 강가에서 하나님의 영광을 보고 파수꾼으로 부름받습니다."
+        },
+        {
+          "number": "02",
+          "title": "회복을 보여 주는 환상",
+          "scripture": "Ezekiel 37; 40",
+          "description": "마른 뼈와 새 성전의 환상을 통해 백성의 회복을 전합니다."
+        }
+      ]
+    }
+  ]
+}

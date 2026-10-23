@@ -1,0 +1,245 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/1JN01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "1-john",
+      "titleKo": "요한일서",
+      "titleEn": "1 John",
+      "eyebrow": "BIBLE · NEW TESTAMENT",
+      "summary": "생명의 말씀을 증언하며 빛 가운데 걷는 삶, 예수에 대한 고백과 형제 사랑을 함께 말합니다.",
+      "overview": "생명의 말씀을 증언하며 빛 가운데 걷는 삶, 예수에 대한 고백과 형제 사랑을 함께 말합니다. 생명의 말씀을 증언하고 하나님과의 사귐, 죄의 고백과 용서를 설명합니다. 서로 사랑하는 계명을 지키며 세상을 향한 욕망과 미혹하는 가르침을 경계합니다. 자녀의 정체성을 말하고 말만 아니라 행함과 진실함으로 사랑할 것을 권합니다. 예수에 대한 고백으로 가르침을 분별하고 먼저 사랑하신 하나님 때문에 서로 사랑하게 합니다. 예수에 대한 증언과 믿음, 기도의 담대함과 영생의 확신을 말합니다.",
+      "biblicalContext": "공동체의 갈등과 잘못된 가르침 속에서 사귐과 확신의 근거를 묻는 글입니다. 죄의 고백과 용서, 예수의 성육신에 대한 고백과 구체적인 이웃 사랑이 함께 강조됩니다.",
+      "heroImage": "/assets/bible/1-john.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "생명의 말씀과 빛",
+          "scripture": "1 John 1:1–2:2",
+          "description": "생명의 말씀을 증언하고 하나님과의 사귐, 죄의 고백과 용서를 설명합니다."
+        },
+        {
+          "number": "02",
+          "title": "계명과 분별",
+          "scripture": "1 John 2:3–27",
+          "description": "서로 사랑하는 계명을 지키며 세상을 향한 욕망과 미혹하는 가르침을 경계합니다."
+        },
+        {
+          "number": "03",
+          "title": "하나님의 자녀와 사랑",
+          "scripture": "1 John 2:28–3:24",
+          "description": "자녀의 정체성을 말하고 말만 아니라 행함과 진실함으로 사랑할 것을 권합니다."
+        },
+        {
+          "number": "04",
+          "title": "영을 분별하고 서로 사랑하라",
+          "scripture": "1 John 4",
+          "description": "예수에 대한 고백으로 가르침을 분별하고 먼저 사랑하신 하나님 때문에 서로 사랑하게 합니다."
+        },
+        {
+          "number": "05",
+          "title": "믿음과 생명의 확신",
+          "scripture": "1 John 5",
+          "description": "예수에 대한 증언과 믿음, 기도의 담대함과 영생의 확신을 말합니다."
+        }
+      ],
+      "scripture": [
+        "1 John 1–5"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "john-apostle",
+          "relationType": "RELATED_PERSON",
+          "label": "사도 요한"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "jesus",
+          "relationType": "RELATED_PERSON",
+          "label": "예수 그리스도"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "john-light-and-love",
+          "relationType": "RELATED_STORY",
+          "label": "빛 가운데 걷고 사랑을 행하다"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "john-confession-and-assurance",
+          "relationType": "RELATED_STORY",
+          "label": "고백과 사랑, 생명의 확신"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-peter",
+          "relationType": "RELATED_BOOK",
+          "label": "베드로후서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-john",
+          "relationType": "RELATED_BOOK",
+          "label": "요한이서"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "john-light-and-love",
+      "titleKo": "빛 가운데 걷고 사랑을 행하다",
+      "titleEn": "John Light And Love",
+      "eyebrow": "SCRIPTURE STUDY · 1 JOHN",
+      "summary": "생명의 말씀을 증언하고 하나님과의 사귐, 죄의 고백과 용서를 설명합니다. 서로 사랑하는 계명을 지키며 세상을 향한 욕망과 미혹하는 가르침을 경계합니다. 자녀의 정체성을 말하고 말만 아니라 행함과 진실함으로 사랑할 것을 권합니다.",
+      "overview": "요한일서의 1:1–2:2, 2:3–27, 2:28–3:24 본문을 따라 빛 가운데 걷고 사랑을 행하다의 내용을 살펴봅니다. 공동체의 갈등과 잘못된 가르침 속에서 사귐과 확신의 근거를 묻는 글입니다. 죄의 고백과 용서, 예수의 성육신에 대한 고백과 구체적인 이웃 사랑이 함께 강조됩니다.",
+      "heroImage": "/assets/bible/1-john.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "생명의 말씀과 빛",
+          "scripture": "1 John 1:1–2:2",
+          "description": "생명의 말씀을 증언하고 하나님과의 사귐, 죄의 고백과 용서를 설명합니다."
+        },
+        {
+          "number": "02",
+          "title": "계명과 분별",
+          "scripture": "1 John 2:3–27",
+          "description": "서로 사랑하는 계명을 지키며 세상을 향한 욕망과 미혹하는 가르침을 경계합니다."
+        },
+        {
+          "number": "03",
+          "title": "하나님의 자녀와 사랑",
+          "scripture": "1 John 2:28–3:24",
+          "description": "자녀의 정체성을 말하고 말만 아니라 행함과 진실함으로 사랑할 것을 권합니다."
+        }
+      ],
+      "scripture": [
+        "1 John 1:1–2:2",
+        "1 John 2:3–27",
+        "1 John 2:28–3:24"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "1-john",
+          "relationType": "RELATED_BOOK",
+          "label": "요한일서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "john-apostle",
+          "relationType": "RELATED_PERSON",
+          "label": "사도 요한"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "jesus",
+          "relationType": "RELATED_PERSON",
+          "label": "예수 그리스도"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "john-confession-and-assurance",
+      "titleKo": "고백과 사랑, 생명의 확신",
+      "titleEn": "John Confession And Assurance",
+      "eyebrow": "SCRIPTURE STUDY · 1 JOHN",
+      "summary": "예수에 대한 고백으로 가르침을 분별하고 먼저 사랑하신 하나님 때문에 서로 사랑하게 합니다. 예수에 대한 증언과 믿음, 기도의 담대함과 영생의 확신을 말합니다.",
+      "overview": "요한일서의 4, 5 본문을 따라 고백과 사랑, 생명의 확신의 내용을 살펴봅니다. 공동체의 갈등과 잘못된 가르침 속에서 사귐과 확신의 근거를 묻는 글입니다. 죄의 고백과 용서, 예수의 성육신에 대한 고백과 구체적인 이웃 사랑이 함께 강조됩니다.",
+      "heroImage": "/assets/bible/1-john.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "영을 분별하고 서로 사랑하라",
+          "scripture": "1 John 4",
+          "description": "예수에 대한 고백으로 가르침을 분별하고 먼저 사랑하신 하나님 때문에 서로 사랑하게 합니다."
+        },
+        {
+          "number": "02",
+          "title": "믿음과 생명의 확신",
+          "scripture": "1 John 5",
+          "description": "예수에 대한 증언과 믿음, 기도의 담대함과 영생의 확신을 말합니다."
+        }
+      ],
+      "scripture": [
+        "1 John 4",
+        "1 John 5"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "1-john",
+          "relationType": "RELATED_BOOK",
+          "label": "요한일서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "john-apostle",
+          "relationType": "RELATED_PERSON",
+          "label": "사도 요한"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "jesus",
+          "relationType": "RELATED_PERSON",
+          "label": "예수 그리스도"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "john-apostle",
+      "titleKo": "사도 요한",
+      "titleEn": "John the Apostle",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "세베대의 아들로 예수께 부름받은 제자이며 초기 예루살렘 공동체에서 베드로와 함께 활동합니다.",
+      "overview": "세베대의 아들로 예수께 부름받은 제자이며 초기 예루살렘 공동체에서 베드로와 함께 활동합니다. 예수를 따르도록 부름받고 다른 제자들과 변화산의 장면에 참여합니다. 베드로와 함께 성전에서 사역하고 공회 앞에서 증언합니다.",
+      "heroImage": "/assets/people/john-apostle.webp",
+      "scripture": [
+        "Mark 1; 9",
+        "Acts 3–4"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "1-john",
+          "relationType": "RELATED_BOOK",
+          "label": "요한일서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-john",
+          "relationType": "RELATED_BOOK",
+          "label": "요한이서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "3-john",
+          "relationType": "RELATED_BOOK",
+          "label": "요한삼서"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "부르심과 변화산",
+          "scripture": "Mark 1; 9",
+          "description": "예수를 따르도록 부름받고 다른 제자들과 변화산의 장면에 참여합니다."
+        },
+        {
+          "number": "02",
+          "title": "성전과 공동체의 증언",
+          "scripture": "Acts 3–4",
+          "description": "베드로와 함께 성전에서 사역하고 공회 앞에서 증언합니다."
+        }
+      ]
+    }
+  ]
+}

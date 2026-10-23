@@ -1,0 +1,214 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/HAB01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "habakkuk",
+      "titleKo": "하박국",
+      "titleEn": "Habakkuk",
+      "eyebrow": "BIBLE · OLD TESTAMENT",
+      "summary": "폭력과 불의 앞에서 예언자가 던지는 질문과 하나님의 응답, 기다림의 기도를 담습니다.",
+      "overview": "폭력과 불의 앞에서 예언자가 던지는 질문과 하나님의 응답, 기다림의 기도를 담습니다. 하박국은 해결되지 않는 폭력을 묻고 바벨론을 일으키신다는 응답에 다시 질문합니다. 응답을 기다리라는 말씀과 믿음으로 사는 의인, 탐욕과 폭력을 향한 화 선언이 이어집니다. 하나님의 구원 행위를 노래하며 수확이 없어도 하나님을 기뻐하겠다고 기도합니다.",
+      "biblicalContext": "예언자가 백성에게만 말하는 것이 아니라 하나님께 현실의 모순을 묻습니다. 바벨론을 통한 심판과 그 제국의 책임을 함께 바라보며 상황이 달라지지 않아도 신뢰하는 기도로 끝납니다.",
+      "heroImage": "/assets/bible/habakkuk.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "불의를 보고 묻다",
+          "scripture": "Habakkuk 1",
+          "description": "하박국은 해결되지 않는 폭력을 묻고 바벨론을 일으키신다는 응답에 다시 질문합니다."
+        },
+        {
+          "number": "02",
+          "title": "파수하는 자리에서",
+          "scripture": "Habakkuk 2",
+          "description": "응답을 기다리라는 말씀과 믿음으로 사는 의인, 탐욕과 폭력을 향한 화 선언이 이어집니다."
+        },
+        {
+          "number": "03",
+          "title": "두려움 속의 신뢰",
+          "scripture": "Habakkuk 3",
+          "description": "하나님의 구원 행위를 노래하며 수확이 없어도 하나님을 기뻐하겠다고 기도합니다."
+        }
+      ],
+      "scripture": [
+        "Habakkuk 1–3"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "habakkuk",
+          "relationType": "RELATED_PERSON",
+          "label": "하박국"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "babylon",
+          "relationType": "RELATED_PLACE",
+          "label": "바벨론"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "habakkuk-questions",
+          "relationType": "RELATED_STORY",
+          "label": "예언자의 질문과 기다림"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "habakkuk-prayer",
+          "relationType": "RELATED_STORY",
+          "label": "폭력의 끝과 신뢰의 기도"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "nahum",
+          "relationType": "RELATED_BOOK",
+          "label": "나훔"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "zephaniah",
+          "relationType": "RELATED_BOOK",
+          "label": "스바냐"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "habakkuk-questions",
+      "titleKo": "예언자의 질문과 기다림",
+      "titleEn": "Habakkuk Questions",
+      "eyebrow": "SCRIPTURE STUDY · HABAKKUK",
+      "summary": "하박국은 해결되지 않는 폭력을 묻고 바벨론을 일으키신다는 응답에 다시 질문합니다. 응답을 기다리라는 말씀과 믿음으로 사는 의인, 탐욕과 폭력을 향한 화 선언이 이어집니다.",
+      "overview": "하박국의 1, 2 본문을 따라 예언자의 질문과 기다림의 내용을 살펴봅니다. 예언자가 백성에게만 말하는 것이 아니라 하나님께 현실의 모순을 묻습니다. 바벨론을 통한 심판과 그 제국의 책임을 함께 바라보며 상황이 달라지지 않아도 신뢰하는 기도로 끝납니다.",
+      "heroImage": "/assets/bible/habakkuk.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "불의를 보고 묻다",
+          "scripture": "Habakkuk 1",
+          "description": "하박국은 해결되지 않는 폭력을 묻고 바벨론을 일으키신다는 응답에 다시 질문합니다."
+        },
+        {
+          "number": "02",
+          "title": "파수하는 자리에서",
+          "scripture": "Habakkuk 2",
+          "description": "응답을 기다리라는 말씀과 믿음으로 사는 의인, 탐욕과 폭력을 향한 화 선언이 이어집니다."
+        }
+      ],
+      "scripture": [
+        "Habakkuk 1",
+        "Habakkuk 2"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "habakkuk",
+          "relationType": "RELATED_BOOK",
+          "label": "하박국"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "habakkuk",
+          "relationType": "RELATED_PERSON",
+          "label": "하박국"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "babylon",
+          "relationType": "RELATED_PLACE",
+          "label": "바벨론"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "habakkuk-prayer",
+      "titleKo": "폭력의 끝과 신뢰의 기도",
+      "titleEn": "Habakkuk Prayer",
+      "eyebrow": "SCRIPTURE STUDY · HABAKKUK",
+      "summary": "응답을 기다리라는 말씀과 믿음으로 사는 의인, 탐욕과 폭력을 향한 화 선언이 이어집니다. 하나님의 구원 행위를 노래하며 수확이 없어도 하나님을 기뻐하겠다고 기도합니다.",
+      "overview": "하박국의 2, 3 본문을 따라 폭력의 끝과 신뢰의 기도의 내용을 살펴봅니다. 예언자가 백성에게만 말하는 것이 아니라 하나님께 현실의 모순을 묻습니다. 바벨론을 통한 심판과 그 제국의 책임을 함께 바라보며 상황이 달라지지 않아도 신뢰하는 기도로 끝납니다.",
+      "heroImage": "/assets/bible/habakkuk.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "파수하는 자리에서",
+          "scripture": "Habakkuk 2",
+          "description": "응답을 기다리라는 말씀과 믿음으로 사는 의인, 탐욕과 폭력을 향한 화 선언이 이어집니다."
+        },
+        {
+          "number": "02",
+          "title": "두려움 속의 신뢰",
+          "scripture": "Habakkuk 3",
+          "description": "하나님의 구원 행위를 노래하며 수확이 없어도 하나님을 기뻐하겠다고 기도합니다."
+        }
+      ],
+      "scripture": [
+        "Habakkuk 2",
+        "Habakkuk 3"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "habakkuk",
+          "relationType": "RELATED_BOOK",
+          "label": "하박국"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "habakkuk",
+          "relationType": "RELATED_PERSON",
+          "label": "하박국"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "babylon",
+          "relationType": "RELATED_PLACE",
+          "label": "바벨론"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "habakkuk",
+      "titleKo": "하박국",
+      "titleEn": "Habakkuk",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "불의와 폭력의 현실을 하나님께 묻고 응답을 기다리며 신뢰의 기도를 드린 예언자입니다.",
+      "overview": "불의와 폭력의 현실을 하나님께 묻고 응답을 기다리며 신뢰의 기도를 드린 예언자입니다. 폭력을 묻고 하나님의 응답과 경고를 기다립니다. 수확이 없는 상황까지 내다보며 하나님을 신뢰하는 기도를 드립니다.",
+      "heroImage": "/assets/people/habakkuk.webp",
+      "scripture": [
+        "Habakkuk 1–2",
+        "Habakkuk 3"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "habakkuk",
+          "relationType": "RELATED_BOOK",
+          "label": "하박국"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "질문하고 기다리다",
+          "scripture": "Habakkuk 1–2",
+          "description": "폭력을 묻고 하나님의 응답과 경고를 기다립니다."
+        },
+        {
+          "number": "02",
+          "title": "흔들리지 않는 기쁨",
+          "scripture": "Habakkuk 3",
+          "description": "수확이 없는 상황까지 내다보며 하나님을 신뢰하는 기도를 드립니다."
+        }
+      ]
+    }
+  ]
+}

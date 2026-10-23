@@ -1,0 +1,542 @@
+{
+  "local": [
+    {
+      "slug": "aaron",
+      "titleKo": "아론",
+      "titleEn": "Aaron",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "balaam",
+      "titleKo": "발람",
+      "titleEn": "Balaam",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "deborah",
+      "titleKo": "드보라",
+      "titleEn": "Deborah",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "gideon",
+      "titleKo": "기드온",
+      "titleEn": "Gideon",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "samson",
+      "titleKo": "삼손",
+      "titleEn": "Samson",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "ruth",
+      "titleKo": "룻",
+      "titleEn": "Ruth",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "naomi",
+      "titleKo": "나오미",
+      "titleEn": "Naomi",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "boaz",
+      "titleKo": "보아스",
+      "titleEn": "Boaz",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "nathan",
+      "titleKo": "나단",
+      "titleEn": "Nathan",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "absalom",
+      "titleKo": "압살롬",
+      "titleEn": "Absalom",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "solomon",
+      "titleKo": "솔로몬",
+      "titleEn": "Solomon",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "elijah",
+      "titleKo": "엘리야",
+      "titleEn": "Elijah",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "elisha",
+      "titleKo": "엘리사",
+      "titleEn": "Elisha",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "hezekiah",
+      "titleKo": "히스기야",
+      "titleEn": "Hezekiah",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "josiah",
+      "titleKo": "요시야",
+      "titleEn": "Josiah",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "zerubbabel",
+      "titleKo": "스룹바벨",
+      "titleEn": "Zerubbabel",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "ezra",
+      "titleKo": "에스라",
+      "titleEn": "Ezra",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "nehemiah",
+      "titleKo": "느헤미야",
+      "titleEn": "Nehemiah",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "esther",
+      "titleKo": "에스더",
+      "titleEn": "Esther",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "mordecai",
+      "titleKo": "모르드개",
+      "titleEn": "Mordecai",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "job",
+      "titleKo": "욥",
+      "titleEn": "Job",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "asaph",
+      "titleKo": "아삽",
+      "titleEn": "Asaph",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "qoheleth",
+      "titleKo": "전도자",
+      "titleEn": "Qoheleth",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "shulammite",
+      "titleKo": "술람미 여인",
+      "titleEn": "The Shulammite",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "isaiah",
+      "titleKo": "이사야",
+      "titleEn": "Isaiah",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "jeremiah",
+      "titleKo": "예레미야",
+      "titleEn": "Jeremiah",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "baruch",
+      "titleKo": "바룩",
+      "titleEn": "Baruch",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "ezekiel",
+      "titleKo": "에스겔",
+      "titleEn": "Ezekiel",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "daniel",
+      "titleKo": "다니엘",
+      "titleEn": "Daniel",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "hosea",
+      "titleKo": "호세아",
+      "titleEn": "Hosea",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "joel",
+      "titleKo": "요엘",
+      "titleEn": "Joel",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "amos",
+      "titleKo": "아모스",
+      "titleEn": "Amos",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "obadiah",
+      "titleKo": "오바댜",
+      "titleEn": "Obadiah",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "jonah",
+      "titleKo": "요나",
+      "titleEn": "Jonah",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "micah",
+      "titleKo": "미가",
+      "titleEn": "Micah",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "nahum",
+      "titleKo": "나훔",
+      "titleEn": "Nahum",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "habakkuk",
+      "titleKo": "하박국",
+      "titleEn": "Habakkuk",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "zephaniah",
+      "titleKo": "스바냐",
+      "titleEn": "Zephaniah",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "haggai",
+      "titleKo": "학개",
+      "titleEn": "Haggai",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "zechariah",
+      "titleKo": "스가랴",
+      "titleEn": "Zechariah",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "malachi",
+      "titleKo": "말라기",
+      "titleEn": "Malachi",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "jesus",
+      "titleKo": "예수 그리스도",
+      "titleEn": "Jesus Christ",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "peter",
+      "titleKo": "베드로",
+      "titleEn": "Peter",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "john-the-baptist",
+      "titleKo": "세례 요한",
+      "titleEn": "John the Baptist",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "mary-mother-of-jesus",
+      "titleKo": "예수의 어머니 마리아",
+      "titleEn": "Mary, Mother of Jesus",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "mary-magdalene",
+      "titleKo": "막달라 마리아",
+      "titleEn": "Mary Magdalene",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "paul",
+      "titleKo": "바울",
+      "titleEn": "Paul",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "barnabas",
+      "titleKo": "바나바",
+      "titleEn": "Barnabas",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "stephen",
+      "titleKo": "스데반",
+      "titleEn": "Stephen",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "phoebe",
+      "titleKo": "뵈뵈",
+      "titleEn": "Phoebe",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "apollos",
+      "titleKo": "아볼로",
+      "titleEn": "Apollos",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "titus",
+      "titleKo": "디도",
+      "titleEn": "Titus",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "tychicus",
+      "titleKo": "두기고",
+      "titleEn": "Tychicus",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "timothy",
+      "titleKo": "디모데",
+      "titleEn": "Timothy",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "epaphroditus",
+      "titleKo": "에바브로디도",
+      "titleEn": "Epaphroditus",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "epaphras",
+      "titleKo": "에바브라",
+      "titleEn": "Epaphras",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "onesimus",
+      "titleKo": "오네시모",
+      "titleEn": "Onesimus",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "silas",
+      "titleKo": "실라",
+      "titleEn": "Silas",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "philemon",
+      "titleKo": "빌레몬",
+      "titleEn": "Philemon",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "melchizedek",
+      "titleKo": "멜기세덱",
+      "titleEn": "Melchizedek",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "james",
+      "titleKo": "야고보",
+      "titleEn": "James",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "john-apostle",
+      "titleKo": "사도 요한",
+      "titleEn": "John the Apostle",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "gaius",
+      "titleKo": "가이오",
+      "titleEn": "Gaius",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "jude",
+      "titleKo": "유다",
+      "titleEn": "Jude",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "john-of-patmos",
+      "titleKo": "밧모섬의 요한",
+      "titleEn": "John of Patmos",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "goliath",
+      "titleKo": "골리앗",
+      "titleEn": "Goliath",
+      "heroImage": "/assets/scraptura-david-goliath.jpg"
+    },
+    {
+      "slug": "saul",
+      "titleKo": "사울",
+      "titleEn": "Saul",
+      "heroImage": "/assets/scraptura-david-goliath.jpg"
+    },
+    {
+      "slug": "samuel",
+      "titleKo": "사무엘",
+      "titleEn": "Samuel",
+      "heroImage": "/assets/scraptura-david.jpg"
+    },
+    {
+      "slug": "jonathan",
+      "titleKo": "요나단",
+      "titleEn": "Jonathan",
+      "heroImage": "/assets/scraptura-david.jpg"
+    },
+    {
+      "slug": "jesse",
+      "titleKo": "이새",
+      "titleEn": "Jesse",
+      "heroImage": "/assets/scraptura-david.jpg"
+    },
+    {
+      "slug": "eliab",
+      "titleKo": "엘리압",
+      "titleEn": "Eliab",
+      "heroImage": "/assets/scraptura-david-goliath.jpg"
+    },
+    {
+      "slug": "david",
+      "titleKo": "다윗",
+      "titleEn": "David",
+      "heroImage": "/assets/scraptura-david.jpg"
+    },
+    {
+      "slug": "noah",
+      "titleKo": "노아",
+      "titleEn": "Noah",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "abraham",
+      "titleKo": "아브라함",
+      "titleEn": "Abraham",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "isaac",
+      "titleKo": "이삭",
+      "titleEn": "Isaac",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "jacob",
+      "titleKo": "야곱",
+      "titleEn": "Jacob",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "joseph",
+      "titleKo": "요셉",
+      "titleEn": "Joseph",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "moses",
+      "titleKo": "모세",
+      "titleEn": "Moses",
+      "heroImage": "/assets/scraptura-moses.jpg"
+    },
+    {
+      "slug": "joshua",
+      "titleKo": "여호수아",
+      "titleEn": "Joshua",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "rahab",
+      "titleKo": "라합",
+      "titleEn": "Rahab",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "achan",
+      "titleKo": "아간",
+      "titleEn": "Achan",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    }
+  ],
+  "remote": [
+    {
+      "slug": "abraham",
+      "titleKo": "아브라함",
+      "heroImage": "https://res.cloudinary.com/yg6rudcn/image/upload/v1790419323/scraptura/content/person/abraham/1790419320049-image-1790419320049.png"
+    },
+    {
+      "slug": "adam",
+      "titleKo": "아담",
+      "heroImage": "https://res.cloudinary.com/yg6rudcn/image/upload/v1790419071/scraptura/content/person/adam/1790419068198-image-1790419068198.png"
+    },
+    {
+      "slug": "david",
+      "titleKo": "다윗",
+      "heroImage": "https://res.cloudinary.com/yg6rudcn/image/upload/v1790384810/scraptura/content/person/david/1790384809562-image-1790384809562.png"
+    },
+    {
+      "slug": "eliab",
+      "titleKo": "엘리압",
+      "heroImage": "https://res.cloudinary.com/yg6rudcn/image/upload/v1790384667/scraptura/content/person/eliab/1790384667327-image-1790384667327.png"
+    },
+    {
+      "slug": "goliath",
+      "titleKo": "골리앗",
+      "heroImage": "https://res.cloudinary.com/yg6rudcn/image/upload/v1790384113/scraptura/content/person/goliath/1790384112887-image-1790384112887.png"
+    },
+    {
+      "slug": "jesse",
+      "titleKo": "이새",
+      "heroImage": "https://res.cloudinary.com/yg6rudcn/image/upload/v1790384578/scraptura/content/person/jesse/1790384578196-image-1790384578196.png"
+    },
+    {
+      "slug": "jonathan",
+      "titleKo": "요나단",
+      "heroImage": "https://res.cloudinary.com/yg6rudcn/image/upload/v1790384481/scraptura/content/person/jonathan/1790384481811-image-1790384481811.png"
+    },
+    {
+      "slug": "noah",
+      "titleKo": "노아",
+      "heroImage": "https://res.cloudinary.com/yg6rudcn/image/upload/v1790419166/scraptura/content/person/noah/1790419163124-image-1790419163124.png"
+    },
+    {
+      "slug": "samuel",
+      "titleKo": "사무엘",
+      "heroImage": "https://res.cloudinary.com/yg6rudcn/image/upload/v1790384291/scraptura/content/person/samuel/1790384291133-image-1790384291133.png"
+    },
+    {
+      "slug": "saul",
+      "titleKo": "사울",
+      "heroImage": "https://res.cloudinary.com/yg6rudcn/image/upload/v1790384188/scraptura/content/person/saul/1790384188622-image-1790384188622.png"
+    }
+  ]
+}

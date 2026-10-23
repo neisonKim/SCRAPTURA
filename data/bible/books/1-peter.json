@@ -1,0 +1,197 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/1PE01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "1-peter",
+      "titleKo": "베드로전서",
+      "titleEn": "1 Peter",
+      "eyebrow": "BIBLE · NEW TESTAMENT",
+      "summary": "흩어진 나그네 같은 신자들에게 살아 있는 소망과 거룩함, 고난 속의 선한 삶을 권합니다.",
+      "overview": "흩어진 나그네 같은 신자들에게 살아 있는 소망과 거룩함, 고난 속의 선한 삶을 권합니다. 부활로 주어진 소망을 찬양하며 시련 속에서도 거룩함과 진실한 사랑을 권합니다. 신자들을 함께 세워지는 집과 하나님의 백성으로 묘사합니다. 나그네로서의 삶과 사회적 관계, 서로를 존중하며 악을 악으로 갚지 않는 태도를 말합니다. 선한 일을 하며 겪는 고난을 다루고 소망을 온유하게 설명하며 서로 섬길 것을 권합니다. 장로들에게 강요와 이익이 아닌 자원함으로 돌볼 것을 부탁하고 겸손과 깨어 있음을 권합니다.",
+      "biblicalContext": "주변 사회의 적대와 어려움을 겪는 공동체를 향한 편지입니다. 그리스도의 고난과 부활을 바탕으로 공동체의 정체성과 증언, 지도자와 신자들의 서로에 대한 책임을 말합니다.",
+      "heroImage": "/assets/bible/1-peter.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "산 소망과 거룩한 부르심",
+          "scripture": "1 Peter 1",
+          "description": "부활로 주어진 소망을 찬양하며 시련 속에서도 거룩함과 진실한 사랑을 권합니다."
+        },
+        {
+          "number": "02",
+          "title": "살아 있는 돌과 백성",
+          "scripture": "1 Peter 2:1–10",
+          "description": "신자들을 함께 세워지는 집과 하나님의 백성으로 묘사합니다."
+        },
+        {
+          "number": "03",
+          "title": "세상 속의 선한 삶",
+          "scripture": "1 Peter 2:11–3:12",
+          "description": "나그네로서의 삶과 사회적 관계, 서로를 존중하며 악을 악으로 갚지 않는 태도를 말합니다."
+        },
+        {
+          "number": "04",
+          "title": "고난과 소망의 증언",
+          "scripture": "1 Peter 3:13–4:19",
+          "description": "선한 일을 하며 겪는 고난을 다루고 소망을 온유하게 설명하며 서로 섬길 것을 권합니다."
+        },
+        {
+          "number": "05",
+          "title": "목자와 공동체의 겸손",
+          "scripture": "1 Peter 5",
+          "description": "장로들에게 강요와 이익이 아닌 자원함으로 돌볼 것을 부탁하고 겸손과 깨어 있음을 권합니다."
+        }
+      ],
+      "scripture": [
+        "1 Peter 1–5"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "peter",
+          "relationType": "RELATED_PERSON",
+          "label": "베드로"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "silas",
+          "relationType": "RELATED_PERSON",
+          "label": "실라"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "peter-living-hope",
+          "relationType": "RELATED_STORY",
+          "label": "산 소망과 새로운 백성"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "peter-suffering-and-service",
+          "relationType": "RELATED_STORY",
+          "label": "고난 속의 증언과 서로의 돌봄"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "james",
+          "relationType": "RELATED_BOOK",
+          "label": "야고보서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-peter",
+          "relationType": "RELATED_BOOK",
+          "label": "베드로후서"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "peter-living-hope",
+      "titleKo": "산 소망과 새로운 백성",
+      "titleEn": "Peter Living Hope",
+      "eyebrow": "SCRIPTURE STUDY · 1 PETER",
+      "summary": "부활로 주어진 소망을 찬양하며 시련 속에서도 거룩함과 진실한 사랑을 권합니다. 신자들을 함께 세워지는 집과 하나님의 백성으로 묘사합니다.",
+      "overview": "베드로전서의 1, 2:1–10 본문을 따라 산 소망과 새로운 백성의 내용을 살펴봅니다. 주변 사회의 적대와 어려움을 겪는 공동체를 향한 편지입니다. 그리스도의 고난과 부활을 바탕으로 공동체의 정체성과 증언, 지도자와 신자들의 서로에 대한 책임을 말합니다.",
+      "heroImage": "/assets/bible/1-peter.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "산 소망과 거룩한 부르심",
+          "scripture": "1 Peter 1",
+          "description": "부활로 주어진 소망을 찬양하며 시련 속에서도 거룩함과 진실한 사랑을 권합니다."
+        },
+        {
+          "number": "02",
+          "title": "살아 있는 돌과 백성",
+          "scripture": "1 Peter 2:1–10",
+          "description": "신자들을 함께 세워지는 집과 하나님의 백성으로 묘사합니다."
+        }
+      ],
+      "scripture": [
+        "1 Peter 1",
+        "1 Peter 2:1–10"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "1-peter",
+          "relationType": "RELATED_BOOK",
+          "label": "베드로전서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "peter",
+          "relationType": "RELATED_PERSON",
+          "label": "베드로"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "silas",
+          "relationType": "RELATED_PERSON",
+          "label": "실라"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "peter-suffering-and-service",
+      "titleKo": "고난 속의 증언과 서로의 돌봄",
+      "titleEn": "Peter Suffering And Service",
+      "eyebrow": "SCRIPTURE STUDY · 1 PETER",
+      "summary": "나그네로서의 삶과 사회적 관계, 서로를 존중하며 악을 악으로 갚지 않는 태도를 말합니다. 선한 일을 하며 겪는 고난을 다루고 소망을 온유하게 설명하며 서로 섬길 것을 권합니다. 장로들에게 강요와 이익이 아닌 자원함으로 돌볼 것을 부탁하고 겸손과 깨어 있음을 권합니다.",
+      "overview": "베드로전서의 2:11–3:12, 3:13–4:19, 5 본문을 따라 고난 속의 증언과 서로의 돌봄의 내용을 살펴봅니다. 주변 사회의 적대와 어려움을 겪는 공동체를 향한 편지입니다. 그리스도의 고난과 부활을 바탕으로 공동체의 정체성과 증언, 지도자와 신자들의 서로에 대한 책임을 말합니다.",
+      "heroImage": "/assets/bible/1-peter.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "세상 속의 선한 삶",
+          "scripture": "1 Peter 2:11–3:12",
+          "description": "나그네로서의 삶과 사회적 관계, 서로를 존중하며 악을 악으로 갚지 않는 태도를 말합니다."
+        },
+        {
+          "number": "02",
+          "title": "고난과 소망의 증언",
+          "scripture": "1 Peter 3:13–4:19",
+          "description": "선한 일을 하며 겪는 고난을 다루고 소망을 온유하게 설명하며 서로 섬길 것을 권합니다."
+        },
+        {
+          "number": "03",
+          "title": "목자와 공동체의 겸손",
+          "scripture": "1 Peter 5",
+          "description": "장로들에게 강요와 이익이 아닌 자원함으로 돌볼 것을 부탁하고 겸손과 깨어 있음을 권합니다."
+        }
+      ],
+      "scripture": [
+        "1 Peter 2:11–3:12",
+        "1 Peter 3:13–4:19",
+        "1 Peter 5"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "1-peter",
+          "relationType": "RELATED_BOOK",
+          "label": "베드로전서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "peter",
+          "relationType": "RELATED_PERSON",
+          "label": "베드로"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "silas",
+          "relationType": "RELATED_PERSON",
+          "label": "실라"
+        }
+      ]
+    }
+  ]
+}

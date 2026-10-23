@@ -9,6 +9,8 @@ import type {
 import {
   buildContentMetadata,
 } from "../../../lib/contentMetadata";
+import { timelinePeriods } from "../../../data/exploration";
+import { buildNodeMetadata } from "../../../lib/seo";
 
 
 type MetadataProps = {
@@ -33,6 +35,7 @@ export async function generateMetadata({
     await params;
 
 
+  if (timelinePeriods.some(period => period.slug === slug)) return buildNodeMetadata("period", slug);
   return buildContentMetadata(
     "period",
     slug

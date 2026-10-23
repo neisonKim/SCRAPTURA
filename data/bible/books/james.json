@@ -1,0 +1,215 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/JAS01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "james",
+      "titleKo": "야고보서",
+      "titleEn": "James",
+      "eyebrow": "BIBLE · NEW TESTAMENT",
+      "summary": "시험과 말, 부와 차별, 믿음과 행동을 다루며 들은 말씀을 실제 삶으로 옮기도록 권합니다.",
+      "overview": "시험과 말, 부와 차별, 믿음과 행동을 다루며 들은 말씀을 실제 삶으로 옮기도록 권합니다. 시험 가운데 지혜를 구하고 듣기만 하는 사람이 아니라 말씀을 행하는 사람이 되도록 권합니다. 부자에게만 호의를 보이는 차별을 책망하고 행동 없는 믿음의 문제를 설명합니다. 작은 혀의 큰 영향력을 경계하며 시기와 다툼 대신 온유와 평화의 지혜를 말합니다. 다툼의 근원과 세상에 대한 집착을 지적하고 겸손과 삶의 불확실성을 기억하게 합니다. 품삯을 빼앗는 부자를 경고하고 인내와 정직, 병든 이를 위한 기도를 권합니다.",
+      "biblicalContext": "흩어진 공동체를 향한 지혜의 권면으로 형식적 신앙을 경계합니다. 가난한 이들을 대하는 태도와 혀의 사용, 하나님께 받은 지혜가 삶에서 어떻게 드러나는지를 묻습니다.",
+      "heroImage": "/assets/bible/james.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "시험과 말씀의 실천",
+          "scripture": "James 1",
+          "description": "시험 가운데 지혜를 구하고 듣기만 하는 사람이 아니라 말씀을 행하는 사람이 되도록 권합니다."
+        },
+        {
+          "number": "02",
+          "title": "차별과 살아 있는 믿음",
+          "scripture": "James 2",
+          "description": "부자에게만 호의를 보이는 차별을 책망하고 행동 없는 믿음의 문제를 설명합니다."
+        },
+        {
+          "number": "03",
+          "title": "혀와 위로부터 난 지혜",
+          "scripture": "James 3",
+          "description": "작은 혀의 큰 영향력을 경계하며 시기와 다툼 대신 온유와 평화의 지혜를 말합니다."
+        },
+        {
+          "number": "04",
+          "title": "욕망과 겸손",
+          "scripture": "James 4",
+          "description": "다툼의 근원과 세상에 대한 집착을 지적하고 겸손과 삶의 불확실성을 기억하게 합니다."
+        },
+        {
+          "number": "05",
+          "title": "정의와 인내, 서로의 기도",
+          "scripture": "James 5",
+          "description": "품삯을 빼앗는 부자를 경고하고 인내와 정직, 병든 이를 위한 기도를 권합니다."
+        }
+      ],
+      "scripture": [
+        "James 1–5"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "james",
+          "relationType": "RELATED_PERSON",
+          "label": "야고보"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "james-faith-in-action",
+          "relationType": "RELATED_STORY",
+          "label": "차별을 넘어 행동하는 믿음"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "james-speech-and-prayer",
+          "relationType": "RELATED_STORY",
+          "label": "말과 겸손, 서로를 위한 기도"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "hebrews",
+          "relationType": "RELATED_BOOK",
+          "label": "히브리서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "1-peter",
+          "relationType": "RELATED_BOOK",
+          "label": "베드로전서"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "james-faith-in-action",
+      "titleKo": "차별을 넘어 행동하는 믿음",
+      "titleEn": "James Faith In Action",
+      "eyebrow": "SCRIPTURE STUDY · JAMES",
+      "summary": "시험 가운데 지혜를 구하고 듣기만 하는 사람이 아니라 말씀을 행하는 사람이 되도록 권합니다. 부자에게만 호의를 보이는 차별을 책망하고 행동 없는 믿음의 문제를 설명합니다.",
+      "overview": "야고보서의 1, 2 본문을 따라 차별을 넘어 행동하는 믿음의 내용을 살펴봅니다. 흩어진 공동체를 향한 지혜의 권면으로 형식적 신앙을 경계합니다. 가난한 이들을 대하는 태도와 혀의 사용, 하나님께 받은 지혜가 삶에서 어떻게 드러나는지를 묻습니다.",
+      "heroImage": "/assets/bible/james.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "시험과 말씀의 실천",
+          "scripture": "James 1",
+          "description": "시험 가운데 지혜를 구하고 듣기만 하는 사람이 아니라 말씀을 행하는 사람이 되도록 권합니다."
+        },
+        {
+          "number": "02",
+          "title": "차별과 살아 있는 믿음",
+          "scripture": "James 2",
+          "description": "부자에게만 호의를 보이는 차별을 책망하고 행동 없는 믿음의 문제를 설명합니다."
+        }
+      ],
+      "scripture": [
+        "James 1",
+        "James 2"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "james",
+          "relationType": "RELATED_BOOK",
+          "label": "야고보서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "james",
+          "relationType": "RELATED_PERSON",
+          "label": "야고보"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "james-speech-and-prayer",
+      "titleKo": "말과 겸손, 서로를 위한 기도",
+      "titleEn": "James Speech And Prayer",
+      "eyebrow": "SCRIPTURE STUDY · JAMES",
+      "summary": "작은 혀의 큰 영향력을 경계하며 시기와 다툼 대신 온유와 평화의 지혜를 말합니다. 다툼의 근원과 세상에 대한 집착을 지적하고 겸손과 삶의 불확실성을 기억하게 합니다. 품삯을 빼앗는 부자를 경고하고 인내와 정직, 병든 이를 위한 기도를 권합니다.",
+      "overview": "야고보서의 3, 4, 5 본문을 따라 말과 겸손, 서로를 위한 기도의 내용을 살펴봅니다. 흩어진 공동체를 향한 지혜의 권면으로 형식적 신앙을 경계합니다. 가난한 이들을 대하는 태도와 혀의 사용, 하나님께 받은 지혜가 삶에서 어떻게 드러나는지를 묻습니다.",
+      "heroImage": "/assets/bible/james.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "혀와 위로부터 난 지혜",
+          "scripture": "James 3",
+          "description": "작은 혀의 큰 영향력을 경계하며 시기와 다툼 대신 온유와 평화의 지혜를 말합니다."
+        },
+        {
+          "number": "02",
+          "title": "욕망과 겸손",
+          "scripture": "James 4",
+          "description": "다툼의 근원과 세상에 대한 집착을 지적하고 겸손과 삶의 불확실성을 기억하게 합니다."
+        },
+        {
+          "number": "03",
+          "title": "정의와 인내, 서로의 기도",
+          "scripture": "James 5",
+          "description": "품삯을 빼앗는 부자를 경고하고 인내와 정직, 병든 이를 위한 기도를 권합니다."
+        }
+      ],
+      "scripture": [
+        "James 3",
+        "James 4",
+        "James 5"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "james",
+          "relationType": "RELATED_BOOK",
+          "label": "야고보서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "james",
+          "relationType": "RELATED_PERSON",
+          "label": "야고보"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "james",
+      "titleKo": "야고보",
+      "titleEn": "James",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "예수의 형제로 신약에 등장하며 예루살렘 공동체의 지도자로 활동한 인물입니다.",
+      "overview": "예수의 형제로 신약에 등장하며 예루살렘 공동체의 지도자로 활동한 인물입니다. 이방인 신자들에 관한 논의에서 말씀을 들어 판단을 제시합니다. 예루살렘에 온 바울을 장로들과 함께 맞고 공동체의 형편을 논합니다.",
+      "heroImage": "/assets/people/james.webp",
+      "scripture": [
+        "Acts 15",
+        "Acts 21:17–26"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "james",
+          "relationType": "RELATED_BOOK",
+          "label": "야고보서"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "공동체의 논의",
+          "scripture": "Acts 15",
+          "description": "이방인 신자들에 관한 논의에서 말씀을 들어 판단을 제시합니다."
+        },
+        {
+          "number": "02",
+          "title": "예루살렘의 만남",
+          "scripture": "Acts 21:17–26",
+          "description": "예루살렘에 온 바울을 장로들과 함께 맞고 공동체의 형편을 논합니다."
+        }
+      ]
+    }
+  ]
+}

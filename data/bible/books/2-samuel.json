@@ -1,0 +1,354 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/2SA01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "2-samuel",
+      "titleKo": "사무엘하",
+      "titleEn": "2 Samuel",
+      "eyebrow": "BIBLE · OLD TESTAMENT",
+      "summary": "다윗 왕국의 형성과 언약, 왕의 죄와 가족 및 나라에 닥친 갈등을 함께 기록합니다.",
+      "overview": "다윗 왕국의 형성과 언약, 왕의 죄와 가족 및 나라에 닥친 갈등을 함께 기록합니다. 다윗이 사울과 요나단을 애도하고 헤브론의 유다 왕국과 사울 가문 사이의 갈등이 이어집니다. 다윗이 온 이스라엘의 왕이 되어 예루살렘을 차지하고 언약궤를 옮깁니다. 나단을 통해 다윗의 집과 왕위에 관한 약속이 전해지고 다윗은 기도로 응답합니다. 전쟁과 행정, 므비보셋을 향한 호의와 암몬과의 갈등을 기록합니다. 다윗이 밧세바를 취하고 우리아를 죽게 하자 나단이 비유로 그를 책망합니다. 암논의 폭력과 압살롬의 복수 이후 왕실의 관계가 무너집니다. 압살롬이 왕권을 빼앗으려 하고 예루살렘을 떠난 다윗은 내전과 아들의 죽음을 겪습니다. 다윗의 귀환 과정에서 지파들의 갈등이 드러나고 세바의 반란이 일어납니다. 기근과 전쟁의 기억, 다윗의 노래와 용사 명단, 인구 조사와 제단 이야기가 책을 마칩니다.",
+      "biblicalContext": "다윗이 왕위에 오른 뒤 예루살렘을 중심으로 왕국을 세웁니다. 왕에게 주어진 약속과 함께 밧세바와 우리아 사건, 왕실의 폭력과 압살롬의 반역이 서사의 중심을 이룹니다.",
+      "heroImage": "/assets/bible/2-samuel.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "사울 이후의 분열",
+          "scripture": "2 Samuel 1–4",
+          "description": "다윗이 사울과 요나단을 애도하고 헤브론의 유다 왕국과 사울 가문 사이의 갈등이 이어집니다."
+        },
+        {
+          "number": "02",
+          "title": "예루살렘과 언약궤",
+          "scripture": "2 Samuel 5–6",
+          "description": "다윗이 온 이스라엘의 왕이 되어 예루살렘을 차지하고 언약궤를 옮깁니다."
+        },
+        {
+          "number": "03",
+          "title": "다윗에게 주어진 약속",
+          "scripture": "2 Samuel 7",
+          "description": "나단을 통해 다윗의 집과 왕위에 관한 약속이 전해지고 다윗은 기도로 응답합니다."
+        },
+        {
+          "number": "04",
+          "title": "왕국과 이웃",
+          "scripture": "2 Samuel 8–10",
+          "description": "전쟁과 행정, 므비보셋을 향한 호의와 암몬과의 갈등을 기록합니다."
+        },
+        {
+          "number": "05",
+          "title": "왕의 죄와 나단의 책망",
+          "scripture": "2 Samuel 11–12",
+          "description": "다윗이 밧세바를 취하고 우리아를 죽게 하자 나단이 비유로 그를 책망합니다."
+        },
+        {
+          "number": "06",
+          "title": "왕실에 번지는 폭력",
+          "scripture": "2 Samuel 13–14",
+          "description": "암논의 폭력과 압살롬의 복수 이후 왕실의 관계가 무너집니다."
+        },
+        {
+          "number": "07",
+          "title": "압살롬의 반역",
+          "scripture": "2 Samuel 15–18",
+          "description": "압살롬이 왕권을 빼앗으려 하고 예루살렘을 떠난 다윗은 내전과 아들의 죽음을 겪습니다."
+        },
+        {
+          "number": "08",
+          "title": "귀환과 갈라진 지파",
+          "scripture": "2 Samuel 19–20",
+          "description": "다윗의 귀환 과정에서 지파들의 갈등이 드러나고 세바의 반란이 일어납니다."
+        },
+        {
+          "number": "09",
+          "title": "왕의 노래와 마지막 장면들",
+          "scripture": "2 Samuel 21–24",
+          "description": "기근과 전쟁의 기억, 다윗의 노래와 용사 명단, 인구 조사와 제단 이야기가 책을 마칩니다."
+        }
+      ],
+      "scripture": [
+        "2 Samuel 1–24"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "david",
+          "relationType": "RELATED_PERSON",
+          "label": "다윗"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "nathan",
+          "relationType": "RELATED_PERSON",
+          "label": "나단"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "absalom",
+          "relationType": "RELATED_PERSON",
+          "label": "압살롬"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "hebron",
+          "relationType": "RELATED_PLACE",
+          "label": "헤브론"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "david-covenant",
+          "relationType": "RELATED_STORY",
+          "label": "예루살렘과 다윗의 언약"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "david-sin-and-rebellion",
+          "relationType": "RELATED_STORY",
+          "label": "책망받는 왕과 갈라진 집"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "1-samuel",
+          "relationType": "RELATED_BOOK",
+          "label": "사무엘상"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "1-kings",
+          "relationType": "RELATED_BOOK",
+          "label": "열왕기상"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "david-covenant",
+      "titleKo": "예루살렘과 다윗의 언약",
+      "titleEn": "David Covenant",
+      "eyebrow": "SCRIPTURE STUDY · 2 SAMUEL",
+      "summary": "다윗이 온 이스라엘의 왕이 되어 예루살렘을 차지하고 언약궤를 옮깁니다. 나단을 통해 다윗의 집과 왕위에 관한 약속이 전해지고 다윗은 기도로 응답합니다. 전쟁과 행정, 므비보셋을 향한 호의와 암몬과의 갈등을 기록합니다.",
+      "overview": "사무엘하의 5–6, 7, 8–10 본문을 따라 예루살렘과 다윗의 언약의 내용을 살펴봅니다. 다윗이 왕위에 오른 뒤 예루살렘을 중심으로 왕국을 세웁니다. 왕에게 주어진 약속과 함께 밧세바와 우리아 사건, 왕실의 폭력과 압살롬의 반역이 서사의 중심을 이룹니다.",
+      "heroImage": "/assets/bible/2-samuel.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "예루살렘과 언약궤",
+          "scripture": "2 Samuel 5–6",
+          "description": "다윗이 온 이스라엘의 왕이 되어 예루살렘을 차지하고 언약궤를 옮깁니다."
+        },
+        {
+          "number": "02",
+          "title": "다윗에게 주어진 약속",
+          "scripture": "2 Samuel 7",
+          "description": "나단을 통해 다윗의 집과 왕위에 관한 약속이 전해지고 다윗은 기도로 응답합니다."
+        },
+        {
+          "number": "03",
+          "title": "왕국과 이웃",
+          "scripture": "2 Samuel 8–10",
+          "description": "전쟁과 행정, 므비보셋을 향한 호의와 암몬과의 갈등을 기록합니다."
+        }
+      ],
+      "scripture": [
+        "2 Samuel 5–6",
+        "2 Samuel 7",
+        "2 Samuel 8–10"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "2-samuel",
+          "relationType": "RELATED_BOOK",
+          "label": "사무엘하"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "david",
+          "relationType": "RELATED_PERSON",
+          "label": "다윗"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "nathan",
+          "relationType": "RELATED_PERSON",
+          "label": "나단"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "absalom",
+          "relationType": "RELATED_PERSON",
+          "label": "압살롬"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "hebron",
+          "relationType": "RELATED_PLACE",
+          "label": "헤브론"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "david-sin-and-rebellion",
+      "titleKo": "책망받는 왕과 갈라진 집",
+      "titleEn": "David Sin And Rebellion",
+      "eyebrow": "SCRIPTURE STUDY · 2 SAMUEL",
+      "summary": "다윗이 밧세바를 취하고 우리아를 죽게 하자 나단이 비유로 그를 책망합니다. 암논의 폭력과 압살롬의 복수 이후 왕실의 관계가 무너집니다. 압살롬이 왕권을 빼앗으려 하고 예루살렘을 떠난 다윗은 내전과 아들의 죽음을 겪습니다.",
+      "overview": "사무엘하의 11–12, 13–14, 15–18 본문을 따라 책망받는 왕과 갈라진 집의 내용을 살펴봅니다. 다윗이 왕위에 오른 뒤 예루살렘을 중심으로 왕국을 세웁니다. 왕에게 주어진 약속과 함께 밧세바와 우리아 사건, 왕실의 폭력과 압살롬의 반역이 서사의 중심을 이룹니다.",
+      "heroImage": "/assets/bible/2-samuel.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "왕의 죄와 나단의 책망",
+          "scripture": "2 Samuel 11–12",
+          "description": "다윗이 밧세바를 취하고 우리아를 죽게 하자 나단이 비유로 그를 책망합니다."
+        },
+        {
+          "number": "02",
+          "title": "왕실에 번지는 폭력",
+          "scripture": "2 Samuel 13–14",
+          "description": "암논의 폭력과 압살롬의 복수 이후 왕실의 관계가 무너집니다."
+        },
+        {
+          "number": "03",
+          "title": "압살롬의 반역",
+          "scripture": "2 Samuel 15–18",
+          "description": "압살롬이 왕권을 빼앗으려 하고 예루살렘을 떠난 다윗은 내전과 아들의 죽음을 겪습니다."
+        }
+      ],
+      "scripture": [
+        "2 Samuel 11–12",
+        "2 Samuel 13–14",
+        "2 Samuel 15–18"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "2-samuel",
+          "relationType": "RELATED_BOOK",
+          "label": "사무엘하"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "david",
+          "relationType": "RELATED_PERSON",
+          "label": "다윗"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "nathan",
+          "relationType": "RELATED_PERSON",
+          "label": "나단"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "absalom",
+          "relationType": "RELATED_PERSON",
+          "label": "압살롬"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "hebron",
+          "relationType": "RELATED_PLACE",
+          "label": "헤브론"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "nathan",
+      "titleKo": "나단",
+      "titleEn": "Nathan",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "다윗에게 왕가에 관한 약속을 전하고 왕의 죄를 정면으로 책망한 예언자입니다.",
+      "overview": "다윗에게 왕가에 관한 약속을 전하고 왕의 죄를 정면으로 책망한 예언자입니다. 나단은 다윗의 집과 왕위에 관해 받은 말씀을 전달합니다. 나단은 가난한 이의 양에 관한 비유로 다윗의 죄를 드러냅니다.",
+      "heroImage": "/assets/people/nathan.webp",
+      "scripture": [
+        "2 Samuel 7",
+        "2 Samuel 12"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "2-samuel",
+          "relationType": "RELATED_BOOK",
+          "label": "사무엘하"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "왕가에 관한 약속",
+          "scripture": "2 Samuel 7",
+          "description": "나단은 다윗의 집과 왕위에 관해 받은 말씀을 전달합니다."
+        },
+        {
+          "number": "02",
+          "title": "왕을 책망하다",
+          "scripture": "2 Samuel 12",
+          "description": "나단은 가난한 이의 양에 관한 비유로 다윗의 죄를 드러냅니다."
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "absalom",
+      "titleKo": "압살롬",
+      "titleEn": "Absalom",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "다윗의 아들로 왕실의 폭력과 복수에 얽히고 아버지에게 반역하여 내전을 일으킵니다.",
+      "overview": "다윗의 아들로 왕실의 폭력과 복수에 얽히고 아버지에게 반역하여 내전을 일으킵니다. 다말 사건 후 암논을 죽이고 도망갔다가 예루살렘으로 돌아옵니다. 백성의 마음을 얻어 반역하지만 전투에서 죽고 다윗은 슬퍼합니다.",
+      "heroImage": "/assets/people/absalom.webp",
+      "scripture": [
+        "2 Samuel 13–14",
+        "2 Samuel 15–18"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "2-samuel",
+          "relationType": "RELATED_BOOK",
+          "label": "사무엘하"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "복수와 귀환",
+          "scripture": "2 Samuel 13–14",
+          "description": "다말 사건 후 암논을 죽이고 도망갔다가 예루살렘으로 돌아옵니다."
+        },
+        {
+          "number": "02",
+          "title": "반역과 죽음",
+          "scripture": "2 Samuel 15–18",
+          "description": "백성의 마음을 얻어 반역하지만 전투에서 죽고 다윗은 슬퍼합니다."
+        }
+      ]
+    }
+  ]
+}

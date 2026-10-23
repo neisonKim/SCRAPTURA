@@ -1,0 +1,220 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/ZEP01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "zephaniah",
+      "titleKo": "스바냐",
+      "titleEn": "Zephaniah",
+      "eyebrow": "BIBLE · OLD TESTAMENT",
+      "summary": "다가오는 여호와의 날을 경고하고 겸손히 하나님을 찾는 남은 백성의 회복을 전합니다.",
+      "overview": "다가오는 여호와의 날을 경고하고 겸손히 하나님을 찾는 남은 백성의 회복을 전합니다. 우상 숭배와 하나님께 무관심한 삶을 책망하며 심판의 날을 경고합니다. 회개와 겸손을 요청하고 주변 민족들의 교만과 폭력에 대한 심판을 전합니다. 성읍의 지도자와 예언자, 제사장들의 부패를 드러내고 하나님의 공의를 말합니다. 정결하게 된 백성이 함께 섬기며 흩어진 이들이 돌아오고 두려움 대신 기쁨을 누립니다.",
+      "biblicalContext": "유다의 우상 숭배와 무관심을 책망하며 열방과 예루살렘의 책임을 함께 묻습니다. 심판의 말씀은 정결한 언어와 겸손한 백성, 돌아오는 공동체의 기쁨으로 이어집니다.",
+      "heroImage": "/assets/bible/zephaniah.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "다가오는 날의 경고",
+          "scripture": "Zephaniah 1",
+          "description": "우상 숭배와 하나님께 무관심한 삶을 책망하며 심판의 날을 경고합니다."
+        },
+        {
+          "number": "02",
+          "title": "겸손히 하나님을 찾으라",
+          "scripture": "Zephaniah 2",
+          "description": "회개와 겸손을 요청하고 주변 민족들의 교만과 폭력에 대한 심판을 전합니다."
+        },
+        {
+          "number": "03",
+          "title": "예루살렘의 책임",
+          "scripture": "Zephaniah 3:1–8",
+          "description": "성읍의 지도자와 예언자, 제사장들의 부패를 드러내고 하나님의 공의를 말합니다."
+        },
+        {
+          "number": "04",
+          "title": "남은 백성의 기쁨",
+          "scripture": "Zephaniah 3:9–20",
+          "description": "정결하게 된 백성이 함께 섬기며 흩어진 이들이 돌아오고 두려움 대신 기쁨을 누립니다."
+        }
+      ],
+      "scripture": [
+        "Zephaniah 1–3"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "zephaniah",
+          "relationType": "RELATED_PERSON",
+          "label": "스바냐"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "zephaniah-day-of-the-lord",
+          "relationType": "RELATED_STORY",
+          "label": "심판의 날과 겸손의 요청"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "zephaniah-restored-remnant",
+          "relationType": "RELATED_STORY",
+          "label": "회복된 남은 백성의 노래"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "habakkuk",
+          "relationType": "RELATED_BOOK",
+          "label": "하박국"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "haggai",
+          "relationType": "RELATED_BOOK",
+          "label": "학개"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "zephaniah-day-of-the-lord",
+      "titleKo": "심판의 날과 겸손의 요청",
+      "titleEn": "Zephaniah Day Of The Lord",
+      "eyebrow": "SCRIPTURE STUDY · ZEPHANIAH",
+      "summary": "우상 숭배와 하나님께 무관심한 삶을 책망하며 심판의 날을 경고합니다. 회개와 겸손을 요청하고 주변 민족들의 교만과 폭력에 대한 심판을 전합니다.",
+      "overview": "스바냐의 1, 2 본문을 따라 심판의 날과 겸손의 요청의 내용을 살펴봅니다. 유다의 우상 숭배와 무관심을 책망하며 열방과 예루살렘의 책임을 함께 묻습니다. 심판의 말씀은 정결한 언어와 겸손한 백성, 돌아오는 공동체의 기쁨으로 이어집니다.",
+      "heroImage": "/assets/bible/zephaniah.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "다가오는 날의 경고",
+          "scripture": "Zephaniah 1",
+          "description": "우상 숭배와 하나님께 무관심한 삶을 책망하며 심판의 날을 경고합니다."
+        },
+        {
+          "number": "02",
+          "title": "겸손히 하나님을 찾으라",
+          "scripture": "Zephaniah 2",
+          "description": "회개와 겸손을 요청하고 주변 민족들의 교만과 폭력에 대한 심판을 전합니다."
+        }
+      ],
+      "scripture": [
+        "Zephaniah 1",
+        "Zephaniah 2"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "zephaniah",
+          "relationType": "RELATED_BOOK",
+          "label": "스바냐"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "zephaniah",
+          "relationType": "RELATED_PERSON",
+          "label": "스바냐"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "zephaniah-restored-remnant",
+      "titleKo": "회복된 남은 백성의 노래",
+      "titleEn": "Zephaniah Restored Remnant",
+      "eyebrow": "SCRIPTURE STUDY · ZEPHANIAH",
+      "summary": "성읍의 지도자와 예언자, 제사장들의 부패를 드러내고 하나님의 공의를 말합니다. 정결하게 된 백성이 함께 섬기며 흩어진 이들이 돌아오고 두려움 대신 기쁨을 누립니다.",
+      "overview": "스바냐의 3:1–8, 3:9–20 본문을 따라 회복된 남은 백성의 노래의 내용을 살펴봅니다. 유다의 우상 숭배와 무관심을 책망하며 열방과 예루살렘의 책임을 함께 묻습니다. 심판의 말씀은 정결한 언어와 겸손한 백성, 돌아오는 공동체의 기쁨으로 이어집니다.",
+      "heroImage": "/assets/bible/zephaniah.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "예루살렘의 책임",
+          "scripture": "Zephaniah 3:1–8",
+          "description": "성읍의 지도자와 예언자, 제사장들의 부패를 드러내고 하나님의 공의를 말합니다."
+        },
+        {
+          "number": "02",
+          "title": "남은 백성의 기쁨",
+          "scripture": "Zephaniah 3:9–20",
+          "description": "정결하게 된 백성이 함께 섬기며 흩어진 이들이 돌아오고 두려움 대신 기쁨을 누립니다."
+        }
+      ],
+      "scripture": [
+        "Zephaniah 3:1–8",
+        "Zephaniah 3:9–20"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "zephaniah",
+          "relationType": "RELATED_BOOK",
+          "label": "스바냐"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "zephaniah",
+          "relationType": "RELATED_PERSON",
+          "label": "스바냐"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "zephaniah",
+      "titleKo": "스바냐",
+      "titleEn": "Zephaniah",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "유다의 죄와 여호와의 날을 경고하고 겸손한 남은 백성의 회복을 전한 예언자입니다.",
+      "overview": "유다의 죄와 여호와의 날을 경고하고 겸손한 남은 백성의 회복을 전한 예언자입니다. 유다와 열방의 죄를 경고하며 하나님을 찾으라고 권합니다. 정결해진 백성과 흩어진 이들의 귀환을 말합니다.",
+      "heroImage": "/assets/people/zephaniah.webp",
+      "scripture": [
+        "Zephaniah 1–2",
+        "Zephaniah 3"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "zephaniah",
+          "relationType": "RELATED_BOOK",
+          "label": "스바냐"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "심판과 겸손의 요청",
+          "scripture": "Zephaniah 1–2",
+          "description": "유다와 열방의 죄를 경고하며 하나님을 찾으라고 권합니다."
+        },
+        {
+          "number": "02",
+          "title": "회복의 기쁨",
+          "scripture": "Zephaniah 3",
+          "description": "정결해진 백성과 흩어진 이들의 귀환을 말합니다."
+        }
+      ]
+    }
+  ]
+}

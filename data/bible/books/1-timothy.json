@@ -1,0 +1,228 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/1TI01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "1-timothy",
+      "titleKo": "디모데전서",
+      "titleEn": "1 Timothy",
+      "eyebrow": "BIBLE · NEW TESTAMENT",
+      "summary": "디모데에게 바른 가르침과 예배, 지도자의 성품 및 공동체를 돌보는 책임을 권합니다.",
+      "overview": "디모데에게 바른 가르침과 예배, 지도자의 성품 및 공동체를 돌보는 책임을 권합니다. 헛된 논쟁을 경계하고 깨끗한 마음과 선한 양심에서 나오는 사랑을 가르침의 목적으로 말합니다. 모든 사람과 통치자들을 위한 기도, 공동체 예배의 태도를 다룹니다. 감독과 집사의 자격을 성품과 삶, 가정과 공동체에서의 책임으로 설명합니다. 거짓된 금욕을 경계하고 말과 행실, 사랑과 믿음에서 본이 될 것을 권합니다. 연장자와 젊은이, 과부와 장로를 대하는 구체적인 돌봄과 공정함을 말합니다. 돈을 사랑하는 마음과 헛된 논쟁을 경계하고 경건과 나눔의 삶을 권합니다.",
+      "biblicalContext": "교회를 하나님의 집으로 이해하며 공동체의 가르침과 질서를 다룹니다. 논쟁과 돈에 대한 욕심을 경계하고 과부와 장로 등 구체적인 사람들을 돌보는 기준을 제시합니다.",
+      "heroImage": "/assets/bible/1-timothy.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "사랑을 위한 바른 가르침",
+          "scripture": "1 Timothy 1",
+          "description": "헛된 논쟁을 경계하고 깨끗한 마음과 선한 양심에서 나오는 사랑을 가르침의 목적으로 말합니다."
+        },
+        {
+          "number": "02",
+          "title": "공동체의 기도와 예배",
+          "scripture": "1 Timothy 2",
+          "description": "모든 사람과 통치자들을 위한 기도, 공동체 예배의 태도를 다룹니다."
+        },
+        {
+          "number": "03",
+          "title": "지도자의 성품",
+          "scripture": "1 Timothy 3",
+          "description": "감독과 집사의 자격을 성품과 삶, 가정과 공동체에서의 책임으로 설명합니다."
+        },
+        {
+          "number": "04",
+          "title": "가르침과 삶의 본",
+          "scripture": "1 Timothy 4",
+          "description": "거짓된 금욕을 경계하고 말과 행실, 사랑과 믿음에서 본이 될 것을 권합니다."
+        },
+        {
+          "number": "05",
+          "title": "세대와 돌봄의 책임",
+          "scripture": "1 Timothy 5",
+          "description": "연장자와 젊은이, 과부와 장로를 대하는 구체적인 돌봄과 공정함을 말합니다."
+        },
+        {
+          "number": "06",
+          "title": "만족과 선한 싸움",
+          "scripture": "1 Timothy 6",
+          "description": "돈을 사랑하는 마음과 헛된 논쟁을 경계하고 경건과 나눔의 삶을 권합니다."
+        }
+      ],
+      "scripture": [
+        "1 Timothy 1–6"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "timothy",
+          "relationType": "RELATED_PERSON",
+          "label": "디모데"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "ephesus",
+          "relationType": "RELATED_PLACE",
+          "label": "에베소"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "timothy-teaching-and-leadership",
+          "relationType": "RELATED_STORY",
+          "label": "사랑을 위한 가르침과 지도력"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "timothy-care-and-contentment",
+          "relationType": "RELATED_STORY",
+          "label": "삶의 본과 공동체 돌봄"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-thessalonians",
+          "relationType": "RELATED_BOOK",
+          "label": "데살로니가후서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-timothy",
+          "relationType": "RELATED_BOOK",
+          "label": "디모데후서"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "timothy-teaching-and-leadership",
+      "titleKo": "사랑을 위한 가르침과 지도력",
+      "titleEn": "Timothy Teaching And Leadership",
+      "eyebrow": "SCRIPTURE STUDY · 1 TIMOTHY",
+      "summary": "헛된 논쟁을 경계하고 깨끗한 마음과 선한 양심에서 나오는 사랑을 가르침의 목적으로 말합니다. 모든 사람과 통치자들을 위한 기도, 공동체 예배의 태도를 다룹니다. 감독과 집사의 자격을 성품과 삶, 가정과 공동체에서의 책임으로 설명합니다.",
+      "overview": "디모데전서의 1, 2, 3 본문을 따라 사랑을 위한 가르침과 지도력의 내용을 살펴봅니다. 교회를 하나님의 집으로 이해하며 공동체의 가르침과 질서를 다룹니다. 논쟁과 돈에 대한 욕심을 경계하고 과부와 장로 등 구체적인 사람들을 돌보는 기준을 제시합니다.",
+      "heroImage": "/assets/bible/1-timothy.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "사랑을 위한 바른 가르침",
+          "scripture": "1 Timothy 1",
+          "description": "헛된 논쟁을 경계하고 깨끗한 마음과 선한 양심에서 나오는 사랑을 가르침의 목적으로 말합니다."
+        },
+        {
+          "number": "02",
+          "title": "공동체의 기도와 예배",
+          "scripture": "1 Timothy 2",
+          "description": "모든 사람과 통치자들을 위한 기도, 공동체 예배의 태도를 다룹니다."
+        },
+        {
+          "number": "03",
+          "title": "지도자의 성품",
+          "scripture": "1 Timothy 3",
+          "description": "감독과 집사의 자격을 성품과 삶, 가정과 공동체에서의 책임으로 설명합니다."
+        }
+      ],
+      "scripture": [
+        "1 Timothy 1",
+        "1 Timothy 2",
+        "1 Timothy 3"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "1-timothy",
+          "relationType": "RELATED_BOOK",
+          "label": "디모데전서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "timothy",
+          "relationType": "RELATED_PERSON",
+          "label": "디모데"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "ephesus",
+          "relationType": "RELATED_PLACE",
+          "label": "에베소"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "timothy-care-and-contentment",
+      "titleKo": "삶의 본과 공동체 돌봄",
+      "titleEn": "Timothy Care And Contentment",
+      "eyebrow": "SCRIPTURE STUDY · 1 TIMOTHY",
+      "summary": "거짓된 금욕을 경계하고 말과 행실, 사랑과 믿음에서 본이 될 것을 권합니다. 연장자와 젊은이, 과부와 장로를 대하는 구체적인 돌봄과 공정함을 말합니다. 돈을 사랑하는 마음과 헛된 논쟁을 경계하고 경건과 나눔의 삶을 권합니다.",
+      "overview": "디모데전서의 4, 5, 6 본문을 따라 삶의 본과 공동체 돌봄의 내용을 살펴봅니다. 교회를 하나님의 집으로 이해하며 공동체의 가르침과 질서를 다룹니다. 논쟁과 돈에 대한 욕심을 경계하고 과부와 장로 등 구체적인 사람들을 돌보는 기준을 제시합니다.",
+      "heroImage": "/assets/bible/1-timothy.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "가르침과 삶의 본",
+          "scripture": "1 Timothy 4",
+          "description": "거짓된 금욕을 경계하고 말과 행실, 사랑과 믿음에서 본이 될 것을 권합니다."
+        },
+        {
+          "number": "02",
+          "title": "세대와 돌봄의 책임",
+          "scripture": "1 Timothy 5",
+          "description": "연장자와 젊은이, 과부와 장로를 대하는 구체적인 돌봄과 공정함을 말합니다."
+        },
+        {
+          "number": "03",
+          "title": "만족과 선한 싸움",
+          "scripture": "1 Timothy 6",
+          "description": "돈을 사랑하는 마음과 헛된 논쟁을 경계하고 경건과 나눔의 삶을 권합니다."
+        }
+      ],
+      "scripture": [
+        "1 Timothy 4",
+        "1 Timothy 5",
+        "1 Timothy 6"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "1-timothy",
+          "relationType": "RELATED_BOOK",
+          "label": "디모데전서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "timothy",
+          "relationType": "RELATED_PERSON",
+          "label": "디모데"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "ephesus",
+          "relationType": "RELATED_PLACE",
+          "label": "에베소"
+        }
+      ]
+    }
+  ]
+}

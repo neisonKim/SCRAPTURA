@@ -4,6 +4,7 @@ import type {
 
 import PeopleArchiveFirebase
   from "../../components/PeopleArchiveFirebase";
+import { getLocalArchiveRecords } from "../../data/archive";
 
 
 export const metadata: Metadata = {
@@ -28,6 +29,6 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <PeopleArchiveFirebase />
+    <PeopleArchiveFirebase initialRecords={getLocalArchiveRecords("person")} />
   );
 }

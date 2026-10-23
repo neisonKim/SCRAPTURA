@@ -1,0 +1,246 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/SNG01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "song-of-songs",
+      "titleKo": "아가",
+      "titleEn": "Song of Songs",
+      "eyebrow": "BIBLE · OLD TESTAMENT",
+      "summary": "연인들의 목소리와 정원, 계절과 향기의 이미지로 사랑의 갈망과 기쁨을 노래합니다.",
+      "overview": "연인들의 목소리와 정원, 계절과 향기의 이미지로 사랑의 갈망과 기쁨을 노래합니다. 연인들이 서로의 아름다움을 말하고 봄과 정원, 포도원의 이미지로 만남을 노래합니다. 사랑하는 이를 찾는 밤의 장면과 솔로몬의 행렬을 묘사하는 시가 이어집니다. 사랑하는 이를 묘사하는 말과 닫힌 정원, 향기와 잔치의 이미지가 전개됩니다. 문 앞에서 엇갈린 만남과 연인을 찾는 마음, 사랑하는 이에 대한 묘사가 이어집니다. 서로의 아름다움을 노래하고 들과 포도원으로 함께 가자는 초대가 나옵니다. 죽음처럼 강한 사랑과 꺼지지 않는 불의 이미지로 사랑의 힘을 노래하며 마칩니다.",
+      "biblicalContext": "대화와 서정시로 구성된 사랑의 노래입니다. 화자의 구분과 장면의 연결에는 해석의 여지가 있어 단일한 연대기나 확정된 인물 전기로 단정하지 않고 시의 이미지와 반복을 살핍니다.",
+      "heroImage": "/assets/bible/song-of-songs.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "서로를 찾는 목소리",
+          "scripture": "Song of Songs 1–2",
+          "description": "연인들이 서로의 아름다움을 말하고 봄과 정원, 포도원의 이미지로 만남을 노래합니다."
+        },
+        {
+          "number": "02",
+          "title": "밤의 찾음과 행렬",
+          "scripture": "Song of Songs 3",
+          "description": "사랑하는 이를 찾는 밤의 장면과 솔로몬의 행렬을 묘사하는 시가 이어집니다."
+        },
+        {
+          "number": "03",
+          "title": "정원과 사랑의 초대",
+          "scripture": "Song of Songs 4:1–5:1",
+          "description": "사랑하는 이를 묘사하는 말과 닫힌 정원, 향기와 잔치의 이미지가 전개됩니다."
+        },
+        {
+          "number": "04",
+          "title": "엇갈림과 다시 찾음",
+          "scripture": "Song of Songs 5:2–6:3",
+          "description": "문 앞에서 엇갈린 만남과 연인을 찾는 마음, 사랑하는 이에 대한 묘사가 이어집니다."
+        },
+        {
+          "number": "05",
+          "title": "아름다움과 동행의 초대",
+          "scripture": "Song of Songs 6:4–7:13",
+          "description": "서로의 아름다움을 노래하고 들과 포도원으로 함께 가자는 초대가 나옵니다."
+        },
+        {
+          "number": "06",
+          "title": "사랑의 힘과 기다림",
+          "scripture": "Song of Songs 8",
+          "description": "죽음처럼 강한 사랑과 꺼지지 않는 불의 이미지로 사랑의 힘을 노래하며 마칩니다."
+        }
+      ],
+      "scripture": [
+        "Song of Songs 1–8"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "shulammite",
+          "relationType": "RELATED_PERSON",
+          "label": "술람미 여인"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "song-garden-and-longing",
+          "relationType": "RELATED_STORY",
+          "label": "정원과 봄의 사랑 노래"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "song-search-and-love",
+          "relationType": "RELATED_STORY",
+          "label": "찾음과 사랑의 힘"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "ecclesiastes",
+          "relationType": "RELATED_BOOK",
+          "label": "전도서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "isaiah",
+          "relationType": "RELATED_BOOK",
+          "label": "이사야"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "song-garden-and-longing",
+      "titleKo": "정원과 봄의 사랑 노래",
+      "titleEn": "Song Garden And Longing",
+      "eyebrow": "SCRIPTURE STUDY · SONG OF SONGS",
+      "summary": "연인들이 서로의 아름다움을 말하고 봄과 정원, 포도원의 이미지로 만남을 노래합니다. 사랑하는 이를 찾는 밤의 장면과 솔로몬의 행렬을 묘사하는 시가 이어집니다. 사랑하는 이를 묘사하는 말과 닫힌 정원, 향기와 잔치의 이미지가 전개됩니다.",
+      "overview": "아가의 1–2, 3, 4:1–5:1 본문을 따라 정원과 봄의 사랑 노래의 내용을 살펴봅니다. 대화와 서정시로 구성된 사랑의 노래입니다. 화자의 구분과 장면의 연결에는 해석의 여지가 있어 단일한 연대기나 확정된 인물 전기로 단정하지 않고 시의 이미지와 반복을 살핍니다.",
+      "heroImage": "/assets/bible/song-of-songs.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "서로를 찾는 목소리",
+          "scripture": "Song of Songs 1–2",
+          "description": "연인들이 서로의 아름다움을 말하고 봄과 정원, 포도원의 이미지로 만남을 노래합니다."
+        },
+        {
+          "number": "02",
+          "title": "밤의 찾음과 행렬",
+          "scripture": "Song of Songs 3",
+          "description": "사랑하는 이를 찾는 밤의 장면과 솔로몬의 행렬을 묘사하는 시가 이어집니다."
+        },
+        {
+          "number": "03",
+          "title": "정원과 사랑의 초대",
+          "scripture": "Song of Songs 4:1–5:1",
+          "description": "사랑하는 이를 묘사하는 말과 닫힌 정원, 향기와 잔치의 이미지가 전개됩니다."
+        }
+      ],
+      "scripture": [
+        "Song of Songs 1–2",
+        "Song of Songs 3",
+        "Song of Songs 4:1–5:1"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "song-of-songs",
+          "relationType": "RELATED_BOOK",
+          "label": "아가"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "shulammite",
+          "relationType": "RELATED_PERSON",
+          "label": "술람미 여인"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "song-search-and-love",
+      "titleKo": "찾음과 사랑의 힘",
+      "titleEn": "Song Search And Love",
+      "eyebrow": "SCRIPTURE STUDY · SONG OF SONGS",
+      "summary": "문 앞에서 엇갈린 만남과 연인을 찾는 마음, 사랑하는 이에 대한 묘사가 이어집니다. 서로의 아름다움을 노래하고 들과 포도원으로 함께 가자는 초대가 나옵니다. 죽음처럼 강한 사랑과 꺼지지 않는 불의 이미지로 사랑의 힘을 노래하며 마칩니다.",
+      "overview": "아가의 5:2–6:3, 6:4–7:13, 8 본문을 따라 찾음과 사랑의 힘의 내용을 살펴봅니다. 대화와 서정시로 구성된 사랑의 노래입니다. 화자의 구분과 장면의 연결에는 해석의 여지가 있어 단일한 연대기나 확정된 인물 전기로 단정하지 않고 시의 이미지와 반복을 살핍니다.",
+      "heroImage": "/assets/bible/song-of-songs.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "엇갈림과 다시 찾음",
+          "scripture": "Song of Songs 5:2–6:3",
+          "description": "문 앞에서 엇갈린 만남과 연인을 찾는 마음, 사랑하는 이에 대한 묘사가 이어집니다."
+        },
+        {
+          "number": "02",
+          "title": "아름다움과 동행의 초대",
+          "scripture": "Song of Songs 6:4–7:13",
+          "description": "서로의 아름다움을 노래하고 들과 포도원으로 함께 가자는 초대가 나옵니다."
+        },
+        {
+          "number": "03",
+          "title": "사랑의 힘과 기다림",
+          "scripture": "Song of Songs 8",
+          "description": "죽음처럼 강한 사랑과 꺼지지 않는 불의 이미지로 사랑의 힘을 노래하며 마칩니다."
+        }
+      ],
+      "scripture": [
+        "Song of Songs 5:2–6:3",
+        "Song of Songs 6:4–7:13",
+        "Song of Songs 8"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "song-of-songs",
+          "relationType": "RELATED_BOOK",
+          "label": "아가"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "shulammite",
+          "relationType": "RELATED_PERSON",
+          "label": "술람미 여인"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "shulammite",
+      "titleKo": "술람미 여인",
+      "titleEn": "The Shulammite",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "아가에 등장하는 여성의 목소리로 사랑과 기다림을 노래합니다. 시 속 화자의 구분은 해석의 여지가 있습니다.",
+      "overview": "아가에 등장하는 여성의 목소리로 사랑과 기다림을 노래합니다. 시 속 화자의 구분은 해석의 여지가 있습니다. 시 안에서 술람미라는 호칭이 등장하며 화자들 사이의 대화가 이어집니다. 사랑을 마음의 인과 꺼지지 않는 불의 이미지로 표현합니다.",
+      "heroImage": "/assets/people/shulammite.webp",
+      "scripture": [
+        "Song of Songs 6:13",
+        "Song of Songs 8"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "song-of-songs",
+          "relationType": "RELATED_BOOK",
+          "label": "아가"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "이름으로 불리는 목소리",
+          "scripture": "Song of Songs 6:13",
+          "description": "시 안에서 술람미라는 호칭이 등장하며 화자들 사이의 대화가 이어집니다."
+        },
+        {
+          "number": "02",
+          "title": "사랑의 힘을 노래하다",
+          "scripture": "Song of Songs 8",
+          "description": "사랑을 마음의 인과 꺼지지 않는 불의 이미지로 표현합니다."
+        }
+      ]
+    }
+  ]
+}

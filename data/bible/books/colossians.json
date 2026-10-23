@@ -1,0 +1,357 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/COL01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "colossians",
+      "titleKo": "골로새서",
+      "titleEn": "Colossians",
+      "eyebrow": "BIBLE · NEW TESTAMENT",
+      "summary": "그리스도의 충만함과 화해를 중심으로 다른 의존을 경계하고 새 사람의 삶을 권합니다.",
+      "overview": "그리스도의 충만함과 화해를 중심으로 다른 의존을 경계하고 새 사람의 삶을 권합니다. 공동체의 믿음과 사랑에 감사하며 하나님의 뜻을 아는 삶을 위해 기도합니다. 만물의 창조와 화해에서 그리스도의 중심적 자리를 말하고 복음의 사역을 설명합니다. 여러 규정과 가르침에 사로잡히지 말고 그리스도 안의 충만함을 붙들도록 권합니다. 옛 삶의 악습을 버리고 긍휼과 겸손, 용서와 사랑으로 새 공동체를 살게 합니다. 가정과 노동, 기도와 바깥 사람을 대하는 말에서 책임 있는 삶을 권합니다. 두기고와 오네시모 등 동역자들의 소식을 전하고 편지를 함께 읽도록 부탁합니다.",
+      "biblicalContext": "골로새 공동체를 위한 감사와 기도에서 시작해 그리스도의 우월함을 선포합니다. 음식과 절기, 금욕과 여러 가르침의 압력 속에서 그리스도 안의 새 정체성을 일상에 적용합니다.",
+      "heroImage": "/assets/bible/colossians.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "감사와 지혜의 기도",
+          "scripture": "Colossians 1:1–14",
+          "description": "공동체의 믿음과 사랑에 감사하며 하나님의 뜻을 아는 삶을 위해 기도합니다."
+        },
+        {
+          "number": "02",
+          "title": "그리스도의 충만과 화해",
+          "scripture": "Colossians 1:15–29",
+          "description": "만물의 창조와 화해에서 그리스도의 중심적 자리를 말하고 복음의 사역을 설명합니다."
+        },
+        {
+          "number": "03",
+          "title": "그리스도 안에 뿌리내리라",
+          "scripture": "Colossians 2",
+          "description": "여러 규정과 가르침에 사로잡히지 말고 그리스도 안의 충만함을 붙들도록 권합니다."
+        },
+        {
+          "number": "04",
+          "title": "새 사람을 입다",
+          "scripture": "Colossians 3:1–17",
+          "description": "옛 삶의 악습을 버리고 긍휼과 겸손, 용서와 사랑으로 새 공동체를 살게 합니다."
+        },
+        {
+          "number": "05",
+          "title": "관계와 말의 책임",
+          "scripture": "Colossians 3:18–4:6",
+          "description": "가정과 노동, 기도와 바깥 사람을 대하는 말에서 책임 있는 삶을 권합니다."
+        },
+        {
+          "number": "06",
+          "title": "동역자들의 소식",
+          "scripture": "Colossians 4:7–18",
+          "description": "두기고와 오네시모 등 동역자들의 소식을 전하고 편지를 함께 읽도록 부탁합니다."
+        }
+      ],
+      "scripture": [
+        "Colossians 1–4"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "epaphras",
+          "relationType": "RELATED_PERSON",
+          "label": "에바브라"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "onesimus",
+          "relationType": "RELATED_PERSON",
+          "label": "오네시모"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "colossae",
+          "relationType": "RELATED_PLACE",
+          "label": "골로새"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "christ-and-reconciliation",
+          "relationType": "RELATED_STORY",
+          "label": "만물을 화해시키는 그리스도"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "colossians-new-self",
+          "relationType": "RELATED_STORY",
+          "label": "새 사람의 관계와 동역"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "philippians",
+          "relationType": "RELATED_BOOK",
+          "label": "빌립보서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "1-thessalonians",
+          "relationType": "RELATED_BOOK",
+          "label": "데살로니가전서"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "christ-and-reconciliation",
+      "titleKo": "만물을 화해시키는 그리스도",
+      "titleEn": "Christ And Reconciliation",
+      "eyebrow": "SCRIPTURE STUDY · COLOSSIANS",
+      "summary": "공동체의 믿음과 사랑에 감사하며 하나님의 뜻을 아는 삶을 위해 기도합니다. 만물의 창조와 화해에서 그리스도의 중심적 자리를 말하고 복음의 사역을 설명합니다. 여러 규정과 가르침에 사로잡히지 말고 그리스도 안의 충만함을 붙들도록 권합니다.",
+      "overview": "골로새서의 1:1–14, 1:15–29, 2 본문을 따라 만물을 화해시키는 그리스도의 내용을 살펴봅니다. 골로새 공동체를 위한 감사와 기도에서 시작해 그리스도의 우월함을 선포합니다. 음식과 절기, 금욕과 여러 가르침의 압력 속에서 그리스도 안의 새 정체성을 일상에 적용합니다.",
+      "heroImage": "/assets/bible/colossians.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "감사와 지혜의 기도",
+          "scripture": "Colossians 1:1–14",
+          "description": "공동체의 믿음과 사랑에 감사하며 하나님의 뜻을 아는 삶을 위해 기도합니다."
+        },
+        {
+          "number": "02",
+          "title": "그리스도의 충만과 화해",
+          "scripture": "Colossians 1:15–29",
+          "description": "만물의 창조와 화해에서 그리스도의 중심적 자리를 말하고 복음의 사역을 설명합니다."
+        },
+        {
+          "number": "03",
+          "title": "그리스도 안에 뿌리내리라",
+          "scripture": "Colossians 2",
+          "description": "여러 규정과 가르침에 사로잡히지 말고 그리스도 안의 충만함을 붙들도록 권합니다."
+        }
+      ],
+      "scripture": [
+        "Colossians 1:1–14",
+        "Colossians 1:15–29",
+        "Colossians 2"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "colossians",
+          "relationType": "RELATED_BOOK",
+          "label": "골로새서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "epaphras",
+          "relationType": "RELATED_PERSON",
+          "label": "에바브라"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "onesimus",
+          "relationType": "RELATED_PERSON",
+          "label": "오네시모"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "colossae",
+          "relationType": "RELATED_PLACE",
+          "label": "골로새"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "colossians-new-self",
+      "titleKo": "새 사람의 관계와 동역",
+      "titleEn": "Colossians New Self",
+      "eyebrow": "SCRIPTURE STUDY · COLOSSIANS",
+      "summary": "옛 삶의 악습을 버리고 긍휼과 겸손, 용서와 사랑으로 새 공동체를 살게 합니다. 가정과 노동, 기도와 바깥 사람을 대하는 말에서 책임 있는 삶을 권합니다. 두기고와 오네시모 등 동역자들의 소식을 전하고 편지를 함께 읽도록 부탁합니다.",
+      "overview": "골로새서의 3:1–17, 3:18–4:6, 4:7–18 본문을 따라 새 사람의 관계와 동역의 내용을 살펴봅니다. 골로새 공동체를 위한 감사와 기도에서 시작해 그리스도의 우월함을 선포합니다. 음식과 절기, 금욕과 여러 가르침의 압력 속에서 그리스도 안의 새 정체성을 일상에 적용합니다.",
+      "heroImage": "/assets/bible/colossians.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "새 사람을 입다",
+          "scripture": "Colossians 3:1–17",
+          "description": "옛 삶의 악습을 버리고 긍휼과 겸손, 용서와 사랑으로 새 공동체를 살게 합니다."
+        },
+        {
+          "number": "02",
+          "title": "관계와 말의 책임",
+          "scripture": "Colossians 3:18–4:6",
+          "description": "가정과 노동, 기도와 바깥 사람을 대하는 말에서 책임 있는 삶을 권합니다."
+        },
+        {
+          "number": "03",
+          "title": "동역자들의 소식",
+          "scripture": "Colossians 4:7–18",
+          "description": "두기고와 오네시모 등 동역자들의 소식을 전하고 편지를 함께 읽도록 부탁합니다."
+        }
+      ],
+      "scripture": [
+        "Colossians 3:1–17",
+        "Colossians 3:18–4:6",
+        "Colossians 4:7–18"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "colossians",
+          "relationType": "RELATED_BOOK",
+          "label": "골로새서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "epaphras",
+          "relationType": "RELATED_PERSON",
+          "label": "에바브라"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "onesimus",
+          "relationType": "RELATED_PERSON",
+          "label": "오네시모"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "colossae",
+          "relationType": "RELATED_PLACE",
+          "label": "골로새"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "epaphras",
+      "titleKo": "에바브라",
+      "titleEn": "Epaphras",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "골로새 공동체를 위해 복음을 전하고 신자들이 성숙하게 서도록 기도한 동역자입니다.",
+      "overview": "골로새 공동체를 위해 복음을 전하고 신자들이 성숙하게 서도록 기도한 동역자입니다. 신자들이 그에게 복음을 배웠으며 그는 공동체의 사랑을 전합니다. 골로새와 이웃 공동체들을 위해 힘써 기도하는 사람으로 소개됩니다.",
+      "heroImage": "/assets/people/epaphras.webp",
+      "scripture": [
+        "Colossians 1:7–8",
+        "Colossians 4:12–13"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "colossians",
+          "relationType": "RELATED_BOOK",
+          "label": "골로새서"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "복음을 전한 일꾼",
+          "scripture": "Colossians 1:7–8",
+          "description": "신자들이 그에게 복음을 배웠으며 그는 공동체의 사랑을 전합니다."
+        },
+        {
+          "number": "02",
+          "title": "수고하는 기도",
+          "scripture": "Colossians 4:12–13",
+          "description": "골로새와 이웃 공동체들을 위해 힘써 기도하는 사람으로 소개됩니다."
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "onesimus",
+      "titleKo": "오네시모",
+      "titleEn": "Onesimus",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "빌레몬서에서 바울의 사랑받는 자녀와 형제로 소개되며 골로새서에도 동역의 소식으로 등장합니다.",
+      "overview": "빌레몬서에서 바울의 사랑받는 자녀와 형제로 소개되며 골로새서에도 동역의 소식으로 등장합니다. 바울은 그를 자신에게 유익한 사람이며 형제로 받아들일 인물로 소개합니다. 두기고와 함께 골로새 공동체에 소식을 전할 신실한 형제로 소개됩니다.",
+      "heroImage": "/assets/people/onesimus.webp",
+      "scripture": [
+        "Philemon 1:8–16",
+        "Colossians 4:9"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "colossians",
+          "relationType": "RELATED_BOOK",
+          "label": "골로새서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "philemon",
+          "relationType": "RELATED_BOOK",
+          "label": "빌레몬서"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "사랑받는 형제로",
+          "scripture": "Philemon 1:8–16",
+          "description": "바울은 그를 자신에게 유익한 사람이며 형제로 받아들일 인물로 소개합니다."
+        },
+        {
+          "number": "02",
+          "title": "공동체로 가는 소식",
+          "scripture": "Colossians 4:9",
+          "description": "두기고와 함께 골로새 공동체에 소식을 전할 신실한 형제로 소개됩니다."
+        }
+      ]
+    },
+    {
+      "type": "place",
+      "slug": "colossae",
+      "titleKo": "골로새",
+      "titleEn": "Colossae",
+      "eyebrow": "PLACES · BIBLICAL WORLD",
+      "summary": "골로새서의 수신 공동체가 있던 소아시아의 도시로 에바브라와 여러 동역자의 돌봄이 연결됩니다.",
+      "overview": "골로새서의 수신 공동체가 있던 소아시아의 도시로 에바브라와 여러 동역자의 돌봄이 연결됩니다.",
+      "heroImage": "/assets/scraptura-home-clean.jpg",
+      "scripture": [
+        "Colossians 1; 4"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "colossians",
+          "relationType": "RELATED_BOOK",
+          "label": "골로새서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "philemon",
+          "relationType": "RELATED_BOOK",
+          "label": "빌레몬서"
+        }
+      ],
+      "biblicalContext": "골로새서의 수신 공동체가 있던 소아시아의 도시로 에바브라와 여러 동역자의 돌봄이 연결됩니다.",
+      "keyEvent": {
+        "title": "골로새의 성경 속 배경",
+        "scripture": "Colossians 1; 4",
+        "description": "골로새서의 수신 공동체가 있던 소아시아의 도시로 에바브라와 여러 동역자의 돌봄이 연결됩니다."
+      }
+    }
+  ]
+}

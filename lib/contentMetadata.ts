@@ -1,6 +1,7 @@
 import type {
   Metadata,
 } from "next";
+import { preferDedicatedImage } from "./content-images";
 
 import {
   getNode,
@@ -246,13 +247,7 @@ export async function buildContentMetadata(
     "";
 
 
-  const heroImage =
-    getStringField(
-      firestoreContent,
-      "heroImage"
-    ) ||
-    staticContent?.heroImage ||
-    "";
+  const heroImage = preferDedicatedImage(getStringField(firestoreContent, "heroImage"), staticContent?.heroImage || "");
 
 
   const seoTitle =
@@ -307,9 +302,7 @@ export async function buildContentMetadata(
    * ↓
    * Hero Image
    */
-  const finalImage =
-    ogImage ||
-    heroImage;
+  const finalImage = preferDedicatedImage(ogImage, heroImage);
 
 
   const siteUrl =

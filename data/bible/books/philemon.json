@@ -1,0 +1,250 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/PHM01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "philemon",
+      "titleKo": "빌레몬서",
+      "titleEn": "Philemon",
+      "eyebrow": "BIBLE · NEW TESTAMENT",
+      "summary": "바울이 빌레몬에게 오네시모를 종 이상의 사랑받는 형제로 받아 달라고 호소합니다.",
+      "overview": "바울이 빌레몬에게 오네시모를 종 이상의 사랑받는 형제로 받아 달라고 호소합니다. 빌레몬의 집에 모이는 공동체에 인사하고 믿음과 사랑으로 성도들을 쉼 얻게 한 일을 감사합니다. 명령보다 사랑으로 호소하며 오네시모를 이제 사랑받는 형제로 받아들이도록 요청합니다. 바울은 자신을 대하듯 오네시모를 영접하고 빚이 있다면 자신의 책임으로 돌려 달라고 부탁합니다.",
+      "biblicalContext": "짧은 개인적 편지 안에서 믿음과 사랑이 사회적 신분 관계에 어떤 변화를 요구하는지 묻습니다. 본문이 말하지 않는 오네시모의 과거를 확정하기보다 바울의 중재와 환대의 요청에 집중합니다.",
+      "heroImage": "/assets/bible/philemon.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "감사와 공동체",
+          "scripture": "Philemon 1:1–7",
+          "description": "빌레몬의 집에 모이는 공동체에 인사하고 믿음과 사랑으로 성도들을 쉼 얻게 한 일을 감사합니다."
+        },
+        {
+          "number": "02",
+          "title": "오네시모를 위한 간청",
+          "scripture": "Philemon 1:8–16",
+          "description": "명령보다 사랑으로 호소하며 오네시모를 이제 사랑받는 형제로 받아들이도록 요청합니다."
+        },
+        {
+          "number": "03",
+          "title": "책임지는 환대",
+          "scripture": "Philemon 1:17–25",
+          "description": "바울은 자신을 대하듯 오네시모를 영접하고 빚이 있다면 자신의 책임으로 돌려 달라고 부탁합니다."
+        }
+      ],
+      "scripture": [
+        "Philemon 1"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "philemon",
+          "relationType": "RELATED_PERSON",
+          "label": "빌레몬"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "onesimus",
+          "relationType": "RELATED_PERSON",
+          "label": "오네시모"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "colossae",
+          "relationType": "RELATED_PLACE",
+          "label": "골로새"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "onesimus-as-brother",
+          "relationType": "RELATED_STORY",
+          "label": "종 이상의 형제로 받아들이라"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "philemon-costly-welcome",
+          "relationType": "RELATED_STORY",
+          "label": "책임을 함께 지는 환대"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "titus",
+          "relationType": "RELATED_BOOK",
+          "label": "디도서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "hebrews",
+          "relationType": "RELATED_BOOK",
+          "label": "히브리서"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "onesimus-as-brother",
+      "titleKo": "종 이상의 형제로 받아들이라",
+      "titleEn": "Onesimus As Brother",
+      "eyebrow": "SCRIPTURE STUDY · PHILEMON",
+      "summary": "빌레몬의 집에 모이는 공동체에 인사하고 믿음과 사랑으로 성도들을 쉼 얻게 한 일을 감사합니다. 명령보다 사랑으로 호소하며 오네시모를 이제 사랑받는 형제로 받아들이도록 요청합니다.",
+      "overview": "빌레몬서의 1:1–7, 1:8–16 본문을 따라 종 이상의 형제로 받아들이라의 내용을 살펴봅니다. 짧은 개인적 편지 안에서 믿음과 사랑이 사회적 신분 관계에 어떤 변화를 요구하는지 묻습니다. 본문이 말하지 않는 오네시모의 과거를 확정하기보다 바울의 중재와 환대의 요청에 집중합니다.",
+      "heroImage": "/assets/bible/philemon.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "감사와 공동체",
+          "scripture": "Philemon 1:1–7",
+          "description": "빌레몬의 집에 모이는 공동체에 인사하고 믿음과 사랑으로 성도들을 쉼 얻게 한 일을 감사합니다."
+        },
+        {
+          "number": "02",
+          "title": "오네시모를 위한 간청",
+          "scripture": "Philemon 1:8–16",
+          "description": "명령보다 사랑으로 호소하며 오네시모를 이제 사랑받는 형제로 받아들이도록 요청합니다."
+        }
+      ],
+      "scripture": [
+        "Philemon 1:1–7",
+        "Philemon 1:8–16"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "philemon",
+          "relationType": "RELATED_BOOK",
+          "label": "빌레몬서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "philemon",
+          "relationType": "RELATED_PERSON",
+          "label": "빌레몬"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "onesimus",
+          "relationType": "RELATED_PERSON",
+          "label": "오네시모"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "colossae",
+          "relationType": "RELATED_PLACE",
+          "label": "골로새"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "philemon-costly-welcome",
+      "titleKo": "책임을 함께 지는 환대",
+      "titleEn": "Philemon Costly Welcome",
+      "eyebrow": "SCRIPTURE STUDY · PHILEMON",
+      "summary": "명령보다 사랑으로 호소하며 오네시모를 이제 사랑받는 형제로 받아들이도록 요청합니다. 바울은 자신을 대하듯 오네시모를 영접하고 빚이 있다면 자신의 책임으로 돌려 달라고 부탁합니다.",
+      "overview": "빌레몬서의 1:8–16, 1:17–25 본문을 따라 책임을 함께 지는 환대의 내용을 살펴봅니다. 짧은 개인적 편지 안에서 믿음과 사랑이 사회적 신분 관계에 어떤 변화를 요구하는지 묻습니다. 본문이 말하지 않는 오네시모의 과거를 확정하기보다 바울의 중재와 환대의 요청에 집중합니다.",
+      "heroImage": "/assets/bible/philemon.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "오네시모를 위한 간청",
+          "scripture": "Philemon 1:8–16",
+          "description": "명령보다 사랑으로 호소하며 오네시모를 이제 사랑받는 형제로 받아들이도록 요청합니다."
+        },
+        {
+          "number": "02",
+          "title": "책임지는 환대",
+          "scripture": "Philemon 1:17–25",
+          "description": "바울은 자신을 대하듯 오네시모를 영접하고 빚이 있다면 자신의 책임으로 돌려 달라고 부탁합니다."
+        }
+      ],
+      "scripture": [
+        "Philemon 1:8–16",
+        "Philemon 1:17–25"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "philemon",
+          "relationType": "RELATED_BOOK",
+          "label": "빌레몬서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "philemon",
+          "relationType": "RELATED_PERSON",
+          "label": "빌레몬"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "onesimus",
+          "relationType": "RELATED_PERSON",
+          "label": "오네시모"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "colossae",
+          "relationType": "RELATED_PLACE",
+          "label": "골로새"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "philemon",
+      "titleKo": "빌레몬",
+      "titleEn": "Philemon",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "자신의 집에 모이는 공동체와 함께 편지를 받고 오네시모를 형제로 맞으라는 요청을 받은 신자입니다.",
+      "overview": "자신의 집에 모이는 공동체와 함께 편지를 받고 오네시모를 형제로 맞으라는 요청을 받은 신자입니다. 성도들에게 사랑을 베풀고 쉼을 주는 동역자로 소개됩니다. 바울은 오네시모를 자신처럼 맞아들이고 관계를 새롭게 하도록 부탁합니다.",
+      "heroImage": "/assets/people/philemon.webp",
+      "scripture": [
+        "Philemon 1:1–7",
+        "Philemon 1:17–22"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "philemon",
+          "relationType": "RELATED_BOOK",
+          "label": "빌레몬서"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "사랑과 쉼을 나누다",
+          "scripture": "Philemon 1:1–7",
+          "description": "성도들에게 사랑을 베풀고 쉼을 주는 동역자로 소개됩니다."
+        },
+        {
+          "number": "02",
+          "title": "새로운 환대의 요청",
+          "scripture": "Philemon 1:17–22",
+          "description": "바울은 오네시모를 자신처럼 맞아들이고 관계를 새롭게 하도록 부탁합니다."
+        }
+      ]
+    }
+  ]
+}

@@ -4,6 +4,7 @@ import type {
 
 import BibleArchiveFirebase from
   "../../components/BibleArchiveFirebase";
+import { getLocalArchiveRecords } from "../../data/archive";
 
 
 export const metadata:
@@ -29,6 +30,6 @@ export const metadata:
 
 export default function Page() {
   return (
-    <BibleArchiveFirebase />
+    <BibleArchiveFirebase initialRecords={getLocalArchiveRecords("book")} />
   );
 }

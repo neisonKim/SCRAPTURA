@@ -1,0 +1,238 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/HAG01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "haggai",
+      "titleKo": "학개",
+      "titleEn": "Haggai",
+      "eyebrow": "BIBLE · OLD TESTAMENT",
+      "summary": "귀환 공동체가 멈춘 성전 재건을 다시 시작하도록 우선순위를 돌아보고 용기를 내게 합니다.",
+      "overview": "귀환 공동체가 멈춘 성전 재건을 다시 시작하도록 우선순위를 돌아보고 용기를 내게 합니다. 자기 집을 돌보면서 성전을 황폐하게 둔 공동체에게 삶의 우선순위를 묻습니다. 지도자와 백성이 말씀에 응답하고 하나님이 함께하신다는 격려 속에 공사를 재개합니다. 이전 성전과 비교하며 낙심한 이들에게 담대히 일할 것을 권하고 미래의 영광을 말합니다. 정결의 문제와 수확의 변화를 돌아보게 하고 스룹바벨을 향한 약속으로 마칩니다.",
+      "biblicalContext": "스룹바벨과 대제사장 여호수아가 이끄는 귀환 공동체를 향한 날짜가 있는 말씀들입니다. 재건의 규모에 대한 실망과 현실의 결핍 속에서 하나님이 함께하신다는 약속이 전해집니다.",
+      "heroImage": "/assets/bible/haggai.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "너희의 길을 살피라",
+          "scripture": "Haggai 1:1–11",
+          "description": "자기 집을 돌보면서 성전을 황폐하게 둔 공동체에게 삶의 우선순위를 묻습니다."
+        },
+        {
+          "number": "02",
+          "title": "다시 시작된 공사",
+          "scripture": "Haggai 1:12–15",
+          "description": "지도자와 백성이 말씀에 응답하고 하나님이 함께하신다는 격려 속에 공사를 재개합니다."
+        },
+        {
+          "number": "03",
+          "title": "작아 보이는 시작을 넘어",
+          "scripture": "Haggai 2:1–9",
+          "description": "이전 성전과 비교하며 낙심한 이들에게 담대히 일할 것을 권하고 미래의 영광을 말합니다."
+        },
+        {
+          "number": "04",
+          "title": "정결과 약속",
+          "scripture": "Haggai 2:10–23",
+          "description": "정결의 문제와 수확의 변화를 돌아보게 하고 스룹바벨을 향한 약속으로 마칩니다."
+        }
+      ],
+      "scripture": [
+        "Haggai 1–2"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "haggai",
+          "relationType": "RELATED_PERSON",
+          "label": "학개"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "zerubbabel",
+          "relationType": "RELATED_PERSON",
+          "label": "스룹바벨"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "haggai-rebuild-temple",
+          "relationType": "RELATED_STORY",
+          "label": "삶을 살피고 재건을 시작하다"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "haggai-courage-and-promise",
+          "relationType": "RELATED_STORY",
+          "label": "작은 시작에 주어진 격려"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "zephaniah",
+          "relationType": "RELATED_BOOK",
+          "label": "스바냐"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "zechariah",
+          "relationType": "RELATED_BOOK",
+          "label": "스가랴"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "haggai-rebuild-temple",
+      "titleKo": "삶을 살피고 재건을 시작하다",
+      "titleEn": "Haggai Rebuild Temple",
+      "eyebrow": "SCRIPTURE STUDY · HAGGAI",
+      "summary": "자기 집을 돌보면서 성전을 황폐하게 둔 공동체에게 삶의 우선순위를 묻습니다. 지도자와 백성이 말씀에 응답하고 하나님이 함께하신다는 격려 속에 공사를 재개합니다.",
+      "overview": "학개의 1:1–11, 1:12–15 본문을 따라 삶을 살피고 재건을 시작하다의 내용을 살펴봅니다. 스룹바벨과 대제사장 여호수아가 이끄는 귀환 공동체를 향한 날짜가 있는 말씀들입니다. 재건의 규모에 대한 실망과 현실의 결핍 속에서 하나님이 함께하신다는 약속이 전해집니다.",
+      "heroImage": "/assets/bible/haggai.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "너희의 길을 살피라",
+          "scripture": "Haggai 1:1–11",
+          "description": "자기 집을 돌보면서 성전을 황폐하게 둔 공동체에게 삶의 우선순위를 묻습니다."
+        },
+        {
+          "number": "02",
+          "title": "다시 시작된 공사",
+          "scripture": "Haggai 1:12–15",
+          "description": "지도자와 백성이 말씀에 응답하고 하나님이 함께하신다는 격려 속에 공사를 재개합니다."
+        }
+      ],
+      "scripture": [
+        "Haggai 1:1–11",
+        "Haggai 1:12–15"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "haggai",
+          "relationType": "RELATED_BOOK",
+          "label": "학개"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "haggai",
+          "relationType": "RELATED_PERSON",
+          "label": "학개"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "zerubbabel",
+          "relationType": "RELATED_PERSON",
+          "label": "스룹바벨"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "haggai-courage-and-promise",
+      "titleKo": "작은 시작에 주어진 격려",
+      "titleEn": "Haggai Courage And Promise",
+      "eyebrow": "SCRIPTURE STUDY · HAGGAI",
+      "summary": "이전 성전과 비교하며 낙심한 이들에게 담대히 일할 것을 권하고 미래의 영광을 말합니다. 정결의 문제와 수확의 변화를 돌아보게 하고 스룹바벨을 향한 약속으로 마칩니다.",
+      "overview": "학개의 2:1–9, 2:10–23 본문을 따라 작은 시작에 주어진 격려의 내용을 살펴봅니다. 스룹바벨과 대제사장 여호수아가 이끄는 귀환 공동체를 향한 날짜가 있는 말씀들입니다. 재건의 규모에 대한 실망과 현실의 결핍 속에서 하나님이 함께하신다는 약속이 전해집니다.",
+      "heroImage": "/assets/bible/haggai.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "작아 보이는 시작을 넘어",
+          "scripture": "Haggai 2:1–9",
+          "description": "이전 성전과 비교하며 낙심한 이들에게 담대히 일할 것을 권하고 미래의 영광을 말합니다."
+        },
+        {
+          "number": "02",
+          "title": "정결과 약속",
+          "scripture": "Haggai 2:10–23",
+          "description": "정결의 문제와 수확의 변화를 돌아보게 하고 스룹바벨을 향한 약속으로 마칩니다."
+        }
+      ],
+      "scripture": [
+        "Haggai 2:1–9",
+        "Haggai 2:10–23"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "haggai",
+          "relationType": "RELATED_BOOK",
+          "label": "학개"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "haggai",
+          "relationType": "RELATED_PERSON",
+          "label": "학개"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "zerubbabel",
+          "relationType": "RELATED_PERSON",
+          "label": "스룹바벨"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "haggai",
+      "titleKo": "학개",
+      "titleEn": "Haggai",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "귀환 공동체에게 성전 재건을 재개하고 삶의 우선순위를 돌아보도록 권한 예언자입니다.",
+      "overview": "귀환 공동체에게 성전 재건을 재개하고 삶의 우선순위를 돌아보도록 권한 예언자입니다. 황폐한 성전과 자신의 집을 대비하며 공동체를 깨웁니다. 낙심한 지도자와 백성에게 함께하심과 미래의 소망을 전합니다.",
+      "heroImage": "/assets/people/haggai.webp",
+      "scripture": [
+        "Haggai 1",
+        "Haggai 2"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "haggai",
+          "relationType": "RELATED_BOOK",
+          "label": "학개"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "재건의 촉구",
+          "scripture": "Haggai 1",
+          "description": "황폐한 성전과 자신의 집을 대비하며 공동체를 깨웁니다."
+        },
+        {
+          "number": "02",
+          "title": "담대히 일하라",
+          "scripture": "Haggai 2",
+          "description": "낙심한 지도자와 백성에게 함께하심과 미래의 소망을 전합니다."
+        }
+      ]
+    }
+  ]
+}

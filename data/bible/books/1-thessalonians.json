@@ -1,0 +1,327 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/1TH01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "1-thessalonians",
+      "titleKo": "데살로니가전서",
+      "titleEn": "1 Thessalonians",
+      "eyebrow": "BIBLE · NEW TESTAMENT",
+      "summary": "박해 가운데 있는 공동체를 격려하며 거룩한 삶과 죽은 신자들의 소망, 깨어 기다림을 말합니다.",
+      "overview": "박해 가운데 있는 공동체를 격려하며 거룩한 삶과 죽은 신자들의 소망, 깨어 기다림을 말합니다. 어려움 속에서도 복음을 받아들이고 다른 지역의 본이 된 공동체를 위해 감사합니다. 착취와 아첨 대신 부모처럼 돌보았던 사역을 회고하고 다시 만날 소망을 말합니다. 공동체의 믿음을 확인한 소식에 위로받고 사랑과 거룩함이 자라도록 기도합니다. 성적 거룩함과 형제 사랑, 자신의 일을 하며 살아가는 책임을 권합니다. 죽은 신자들의 소망을 설명하며 주의 날을 깨어 기다리고 서로 격려하도록 말합니다. 약한 이를 돕고 기도와 감사, 분별과 평화 속에서 공동체가 살아가도록 권합니다.",
+      "biblicalContext": "복음을 받아들인 공동체에 대한 감사와 다시 만나고 싶은 마음이 드러납니다. 주의 오심에 관한 가르침은 날짜를 계산하게 하기보다 슬픔 속의 위로와 일상의 충실함으로 이어집니다.",
+      "heroImage": "/assets/bible/1-thessalonians.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "믿음과 사랑의 본",
+          "scripture": "1 Thessalonians 1",
+          "description": "어려움 속에서도 복음을 받아들이고 다른 지역의 본이 된 공동체를 위해 감사합니다."
+        },
+        {
+          "number": "02",
+          "title": "복음을 전한 이들의 마음",
+          "scripture": "1 Thessalonians 2",
+          "description": "착취와 아첨 대신 부모처럼 돌보았던 사역을 회고하고 다시 만날 소망을 말합니다."
+        },
+        {
+          "number": "03",
+          "title": "디모데의 소식과 기도",
+          "scripture": "1 Thessalonians 3",
+          "description": "공동체의 믿음을 확인한 소식에 위로받고 사랑과 거룩함이 자라도록 기도합니다."
+        },
+        {
+          "number": "04",
+          "title": "거룩함과 조용한 수고",
+          "scripture": "1 Thessalonians 4:1–12",
+          "description": "성적 거룩함과 형제 사랑, 자신의 일을 하며 살아가는 책임을 권합니다."
+        },
+        {
+          "number": "05",
+          "title": "부활의 위로와 깨어 있음",
+          "scripture": "1 Thessalonians 4:13–5:11",
+          "description": "죽은 신자들의 소망을 설명하며 주의 날을 깨어 기다리고 서로 격려하도록 말합니다."
+        },
+        {
+          "number": "06",
+          "title": "서로를 돌보는 공동체",
+          "scripture": "1 Thessalonians 5:12–28",
+          "description": "약한 이를 돕고 기도와 감사, 분별과 평화 속에서 공동체가 살아가도록 권합니다."
+        }
+      ],
+      "scripture": [
+        "1 Thessalonians 1–5"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "timothy",
+          "relationType": "RELATED_PERSON",
+          "label": "디모데"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "silas",
+          "relationType": "RELATED_PERSON",
+          "label": "실라"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "thessalonica",
+          "relationType": "RELATED_PLACE",
+          "label": "데살로니가"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "thessalonica-faith-and-care",
+          "relationType": "RELATED_STORY",
+          "label": "박해 속의 믿음과 돌봄"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "thessalonians-hope-and-vigilance",
+          "relationType": "RELATED_STORY",
+          "label": "슬픔 속의 소망과 깨어 있는 삶"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "colossians",
+          "relationType": "RELATED_BOOK",
+          "label": "골로새서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-thessalonians",
+          "relationType": "RELATED_BOOK",
+          "label": "데살로니가후서"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "thessalonica-faith-and-care",
+      "titleKo": "박해 속의 믿음과 돌봄",
+      "titleEn": "Thessalonica Faith And Care",
+      "eyebrow": "SCRIPTURE STUDY · 1 THESSALONIANS",
+      "summary": "어려움 속에서도 복음을 받아들이고 다른 지역의 본이 된 공동체를 위해 감사합니다. 착취와 아첨 대신 부모처럼 돌보았던 사역을 회고하고 다시 만날 소망을 말합니다. 공동체의 믿음을 확인한 소식에 위로받고 사랑과 거룩함이 자라도록 기도합니다.",
+      "overview": "데살로니가전서의 1, 2, 3 본문을 따라 박해 속의 믿음과 돌봄의 내용을 살펴봅니다. 복음을 받아들인 공동체에 대한 감사와 다시 만나고 싶은 마음이 드러납니다. 주의 오심에 관한 가르침은 날짜를 계산하게 하기보다 슬픔 속의 위로와 일상의 충실함으로 이어집니다.",
+      "heroImage": "/assets/bible/1-thessalonians.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "믿음과 사랑의 본",
+          "scripture": "1 Thessalonians 1",
+          "description": "어려움 속에서도 복음을 받아들이고 다른 지역의 본이 된 공동체를 위해 감사합니다."
+        },
+        {
+          "number": "02",
+          "title": "복음을 전한 이들의 마음",
+          "scripture": "1 Thessalonians 2",
+          "description": "착취와 아첨 대신 부모처럼 돌보았던 사역을 회고하고 다시 만날 소망을 말합니다."
+        },
+        {
+          "number": "03",
+          "title": "디모데의 소식과 기도",
+          "scripture": "1 Thessalonians 3",
+          "description": "공동체의 믿음을 확인한 소식에 위로받고 사랑과 거룩함이 자라도록 기도합니다."
+        }
+      ],
+      "scripture": [
+        "1 Thessalonians 1",
+        "1 Thessalonians 2",
+        "1 Thessalonians 3"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "1-thessalonians",
+          "relationType": "RELATED_BOOK",
+          "label": "데살로니가전서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "timothy",
+          "relationType": "RELATED_PERSON",
+          "label": "디모데"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "silas",
+          "relationType": "RELATED_PERSON",
+          "label": "실라"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "thessalonica",
+          "relationType": "RELATED_PLACE",
+          "label": "데살로니가"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "thessalonians-hope-and-vigilance",
+      "titleKo": "슬픔 속의 소망과 깨어 있는 삶",
+      "titleEn": "Thessalonians Hope And Vigilance",
+      "eyebrow": "SCRIPTURE STUDY · 1 THESSALONIANS",
+      "summary": "성적 거룩함과 형제 사랑, 자신의 일을 하며 살아가는 책임을 권합니다. 죽은 신자들의 소망을 설명하며 주의 날을 깨어 기다리고 서로 격려하도록 말합니다. 약한 이를 돕고 기도와 감사, 분별과 평화 속에서 공동체가 살아가도록 권합니다.",
+      "overview": "데살로니가전서의 4:1–12, 4:13–5:11, 5:12–28 본문을 따라 슬픔 속의 소망과 깨어 있는 삶의 내용을 살펴봅니다. 복음을 받아들인 공동체에 대한 감사와 다시 만나고 싶은 마음이 드러납니다. 주의 오심에 관한 가르침은 날짜를 계산하게 하기보다 슬픔 속의 위로와 일상의 충실함으로 이어집니다.",
+      "heroImage": "/assets/bible/1-thessalonians.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "거룩함과 조용한 수고",
+          "scripture": "1 Thessalonians 4:1–12",
+          "description": "성적 거룩함과 형제 사랑, 자신의 일을 하며 살아가는 책임을 권합니다."
+        },
+        {
+          "number": "02",
+          "title": "부활의 위로와 깨어 있음",
+          "scripture": "1 Thessalonians 4:13–5:11",
+          "description": "죽은 신자들의 소망을 설명하며 주의 날을 깨어 기다리고 서로 격려하도록 말합니다."
+        },
+        {
+          "number": "03",
+          "title": "서로를 돌보는 공동체",
+          "scripture": "1 Thessalonians 5:12–28",
+          "description": "약한 이를 돕고 기도와 감사, 분별과 평화 속에서 공동체가 살아가도록 권합니다."
+        }
+      ],
+      "scripture": [
+        "1 Thessalonians 4:1–12",
+        "1 Thessalonians 4:13–5:11",
+        "1 Thessalonians 5:12–28"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "1-thessalonians",
+          "relationType": "RELATED_BOOK",
+          "label": "데살로니가전서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "timothy",
+          "relationType": "RELATED_PERSON",
+          "label": "디모데"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "silas",
+          "relationType": "RELATED_PERSON",
+          "label": "실라"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "thessalonica",
+          "relationType": "RELATED_PLACE",
+          "label": "데살로니가"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "silas",
+      "titleKo": "실라",
+      "titleEn": "Silas",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "예루살렘 공동체의 지도자로서 소식을 전하고 바울의 선교 여정과 고난에 함께한 동역자입니다.",
+      "overview": "예루살렘 공동체의 지도자로서 소식을 전하고 바울의 선교 여정과 고난에 함께한 동역자입니다. 예루살렘에서 결정된 내용을 안디옥에 전하고 신자들을 격려합니다. 바울과 함께 빌립보에서 갇히고 여러 도시에서 복음을 전합니다.",
+      "heroImage": "/assets/people/silas.webp",
+      "scripture": [
+        "Acts 15",
+        "Acts 16–17"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "1-thessalonians",
+          "relationType": "RELATED_BOOK",
+          "label": "데살로니가전서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-thessalonians",
+          "relationType": "RELATED_BOOK",
+          "label": "데살로니가후서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "1-peter",
+          "relationType": "RELATED_BOOK",
+          "label": "베드로전서"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "공동체의 결정을 전하다",
+          "scripture": "Acts 15",
+          "description": "예루살렘에서 결정된 내용을 안디옥에 전하고 신자들을 격려합니다."
+        },
+        {
+          "number": "02",
+          "title": "선교와 고난",
+          "scripture": "Acts 16–17",
+          "description": "바울과 함께 빌립보에서 갇히고 여러 도시에서 복음을 전합니다."
+        }
+      ]
+    },
+    {
+      "type": "place",
+      "slug": "thessalonica",
+      "titleKo": "데살로니가",
+      "titleEn": "Thessalonica",
+      "eyebrow": "PLACES · BIBLICAL WORLD",
+      "summary": "박해 가운데 복음을 받아들인 공동체가 있던 마게도냐의 도시입니다.",
+      "overview": "박해 가운데 복음을 받아들인 공동체가 있던 마게도냐의 도시입니다.",
+      "heroImage": "/assets/scraptura-home-clean.jpg",
+      "scripture": [
+        "Acts 17; 1 Thessalonians 1"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "1-thessalonians",
+          "relationType": "RELATED_BOOK",
+          "label": "데살로니가전서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-thessalonians",
+          "relationType": "RELATED_BOOK",
+          "label": "데살로니가후서"
+        }
+      ],
+      "biblicalContext": "박해 가운데 복음을 받아들인 공동체가 있던 마게도냐의 도시입니다.",
+      "keyEvent": {
+        "title": "데살로니가의 성경 속 배경",
+        "scripture": "Acts 17; 1 Thessalonians 1",
+        "description": "박해 가운데 복음을 받아들인 공동체가 있던 마게도냐의 도시입니다."
+      }
+    }
+  ]
+}

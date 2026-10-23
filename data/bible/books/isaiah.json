@@ -1,0 +1,306 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/ISA01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "isaiah",
+      "titleKo": "이사야",
+      "titleEn": "Isaiah",
+      "eyebrow": "BIBLE · OLD TESTAMENT",
+      "summary": "유다와 열방에 대한 심판, 포로의 위로와 구원, 새 창조의 소망을 폭넓게 전합니다.",
+      "overview": "유다와 열방에 대한 심판, 포로의 위로와 구원, 새 창조의 소망을 폭넓게 전합니다. 유다의 예배와 사회적 불의를 책망하고 이사야가 성전 환상 속에서 부름받습니다. 정치적 위기 가운데 신뢰를 요청하고 다윗의 집과 평화로운 통치에 대한 소망을 전합니다. 바벨론과 여러 민족에 대한 심판의 말씀을 통해 제국의 교만을 드러냅니다. 온 세상의 흔들림과 하나님의 잔치, 죽음과 구원에 관한 노래가 펼쳐집니다. 인간의 동맹을 의지하는 태도를 경계하고 정의로운 통치와 광야의 회복을 바라봅니다. 앗수르의 위협과 히스기야의 기도, 회복 및 바벨론 사절의 방문을 기록합니다. 창조주 하나님의 위대함과 우상의 무능을 대비하고 고레스를 통한 회복을 전합니다. 종의 사명과 고난, 시온의 회복 및 목마른 이들을 향한 은혜의 초대가 이어집니다. 공동체의 배제와 불의, 형식적 금식을 책망하며 정의와 구원의 필요를 말합니다. 시온의 빛과 기쁜 소식, 심판과 새 하늘과 새 땅의 전망으로 책이 마무리됩니다.",
+      "biblicalContext": "앗수르의 위협과 유다의 불의, 바벨론과 귀환의 전망이 책의 여러 부분에 놓입니다. 거룩하신 하나님을 신뢰하는 일과 정의, 종의 사명 및 모든 민족을 향한 소망이 이어집니다.",
+      "heroImage": "/assets/bible/isaiah.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "불의한 성읍과 거룩한 부르심",
+          "scripture": "Isaiah 1–6",
+          "description": "유다의 예배와 사회적 불의를 책망하고 이사야가 성전 환상 속에서 부름받습니다."
+        },
+        {
+          "number": "02",
+          "title": "두려움과 임마누엘의 표징",
+          "scripture": "Isaiah 7–12",
+          "description": "정치적 위기 가운데 신뢰를 요청하고 다윗의 집과 평화로운 통치에 대한 소망을 전합니다."
+        },
+        {
+          "number": "03",
+          "title": "열방을 향한 말씀",
+          "scripture": "Isaiah 13–23",
+          "description": "바벨론과 여러 민족에 대한 심판의 말씀을 통해 제국의 교만을 드러냅니다."
+        },
+        {
+          "number": "04",
+          "title": "온 땅의 심판과 구원",
+          "scripture": "Isaiah 24–27",
+          "description": "온 세상의 흔들림과 하나님의 잔치, 죽음과 구원에 관한 노래가 펼쳐집니다."
+        },
+        {
+          "number": "05",
+          "title": "헛된 의지와 회복",
+          "scripture": "Isaiah 28–35",
+          "description": "인간의 동맹을 의지하는 태도를 경계하고 정의로운 통치와 광야의 회복을 바라봅니다."
+        },
+        {
+          "number": "06",
+          "title": "히스기야의 위기",
+          "scripture": "Isaiah 36–39",
+          "description": "앗수르의 위협과 히스기야의 기도, 회복 및 바벨론 사절의 방문을 기록합니다."
+        },
+        {
+          "number": "07",
+          "title": "포로를 위로하는 말씀",
+          "scripture": "Isaiah 40–48",
+          "description": "창조주 하나님의 위대함과 우상의 무능을 대비하고 고레스를 통한 회복을 전합니다."
+        },
+        {
+          "number": "08",
+          "title": "종의 사명과 초대",
+          "scripture": "Isaiah 49–55",
+          "description": "종의 사명과 고난, 시온의 회복 및 목마른 이들을 향한 은혜의 초대가 이어집니다."
+        },
+        {
+          "number": "09",
+          "title": "정의와 참된 금식",
+          "scripture": "Isaiah 56–59",
+          "description": "공동체의 배제와 불의, 형식적 금식을 책망하며 정의와 구원의 필요를 말합니다."
+        },
+        {
+          "number": "10",
+          "title": "빛과 새 창조",
+          "scripture": "Isaiah 60–66",
+          "description": "시온의 빛과 기쁜 소식, 심판과 새 하늘과 새 땅의 전망으로 책이 마무리됩니다."
+        }
+      ],
+      "scripture": [
+        "Isaiah 1–66"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "isaiah",
+          "relationType": "RELATED_PERSON",
+          "label": "이사야"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "hezekiah",
+          "relationType": "RELATED_PERSON",
+          "label": "히스기야"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "babylon",
+          "relationType": "RELATED_PLACE",
+          "label": "바벨론"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "isaiah-holiness-and-trust",
+          "relationType": "RELATED_STORY",
+          "label": "거룩한 부르심과 신뢰의 요청"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "isaiah-servant-and-restoration",
+          "relationType": "RELATED_STORY",
+          "label": "위로와 종의 사명"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "song-of-songs",
+          "relationType": "RELATED_BOOK",
+          "label": "아가"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "jeremiah",
+          "relationType": "RELATED_BOOK",
+          "label": "예레미야"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "isaiah-holiness-and-trust",
+      "titleKo": "거룩한 부르심과 신뢰의 요청",
+      "titleEn": "Isaiah Holiness And Trust",
+      "eyebrow": "SCRIPTURE STUDY · ISAIAH",
+      "summary": "유다의 예배와 사회적 불의를 책망하고 이사야가 성전 환상 속에서 부름받습니다. 정치적 위기 가운데 신뢰를 요청하고 다윗의 집과 평화로운 통치에 대한 소망을 전합니다. 바벨론과 여러 민족에 대한 심판의 말씀을 통해 제국의 교만을 드러냅니다.",
+      "overview": "이사야의 1–6, 7–12, 13–23 본문을 따라 거룩한 부르심과 신뢰의 요청의 내용을 살펴봅니다. 앗수르의 위협과 유다의 불의, 바벨론과 귀환의 전망이 책의 여러 부분에 놓입니다. 거룩하신 하나님을 신뢰하는 일과 정의, 종의 사명 및 모든 민족을 향한 소망이 이어집니다.",
+      "heroImage": "/assets/bible/isaiah.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "불의한 성읍과 거룩한 부르심",
+          "scripture": "Isaiah 1–6",
+          "description": "유다의 예배와 사회적 불의를 책망하고 이사야가 성전 환상 속에서 부름받습니다."
+        },
+        {
+          "number": "02",
+          "title": "두려움과 임마누엘의 표징",
+          "scripture": "Isaiah 7–12",
+          "description": "정치적 위기 가운데 신뢰를 요청하고 다윗의 집과 평화로운 통치에 대한 소망을 전합니다."
+        },
+        {
+          "number": "03",
+          "title": "열방을 향한 말씀",
+          "scripture": "Isaiah 13–23",
+          "description": "바벨론과 여러 민족에 대한 심판의 말씀을 통해 제국의 교만을 드러냅니다."
+        }
+      ],
+      "scripture": [
+        "Isaiah 1–6",
+        "Isaiah 7–12",
+        "Isaiah 13–23"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "isaiah",
+          "relationType": "RELATED_BOOK",
+          "label": "이사야"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "isaiah",
+          "relationType": "RELATED_PERSON",
+          "label": "이사야"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "hezekiah",
+          "relationType": "RELATED_PERSON",
+          "label": "히스기야"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "babylon",
+          "relationType": "RELATED_PLACE",
+          "label": "바벨론"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "isaiah-servant-and-restoration",
+      "titleKo": "위로와 종의 사명",
+      "titleEn": "Isaiah Servant And Restoration",
+      "eyebrow": "SCRIPTURE STUDY · ISAIAH",
+      "summary": "창조주 하나님의 위대함과 우상의 무능을 대비하고 고레스를 통한 회복을 전합니다. 종의 사명과 고난, 시온의 회복 및 목마른 이들을 향한 은혜의 초대가 이어집니다. 공동체의 배제와 불의, 형식적 금식을 책망하며 정의와 구원의 필요를 말합니다.",
+      "overview": "이사야의 40–48, 49–55, 56–59 본문을 따라 위로와 종의 사명의 내용을 살펴봅니다. 앗수르의 위협과 유다의 불의, 바벨론과 귀환의 전망이 책의 여러 부분에 놓입니다. 거룩하신 하나님을 신뢰하는 일과 정의, 종의 사명 및 모든 민족을 향한 소망이 이어집니다.",
+      "heroImage": "/assets/bible/isaiah.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "포로를 위로하는 말씀",
+          "scripture": "Isaiah 40–48",
+          "description": "창조주 하나님의 위대함과 우상의 무능을 대비하고 고레스를 통한 회복을 전합니다."
+        },
+        {
+          "number": "02",
+          "title": "종의 사명과 초대",
+          "scripture": "Isaiah 49–55",
+          "description": "종의 사명과 고난, 시온의 회복 및 목마른 이들을 향한 은혜의 초대가 이어집니다."
+        },
+        {
+          "number": "03",
+          "title": "정의와 참된 금식",
+          "scripture": "Isaiah 56–59",
+          "description": "공동체의 배제와 불의, 형식적 금식을 책망하며 정의와 구원의 필요를 말합니다."
+        }
+      ],
+      "scripture": [
+        "Isaiah 40–48",
+        "Isaiah 49–55",
+        "Isaiah 56–59"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "isaiah",
+          "relationType": "RELATED_BOOK",
+          "label": "이사야"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "isaiah",
+          "relationType": "RELATED_PERSON",
+          "label": "이사야"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "hezekiah",
+          "relationType": "RELATED_PERSON",
+          "label": "히스기야"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "babylon",
+          "relationType": "RELATED_PLACE",
+          "label": "바벨론"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "isaiah",
+      "titleKo": "이사야",
+      "titleEn": "Isaiah",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "유다와 예루살렘을 향해 하나님의 거룩함과 정의, 심판과 회복의 말씀을 전한 예언자입니다.",
+      "overview": "유다와 예루살렘을 향해 하나님의 거룩함과 정의, 심판과 회복의 말씀을 전한 예언자입니다. 성전 환상 속에서 정결하게 되고 말씀을 전하도록 보냄받습니다. 아하스에게 신뢰를 요청하고 히스기야에게 앗수르의 위협에 관한 말씀을 전합니다.",
+      "heroImage": "/assets/people/isaiah.webp",
+      "scripture": [
+        "Isaiah 6",
+        "Isaiah 7; 37"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "isaiah",
+          "relationType": "RELATED_BOOK",
+          "label": "이사야"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "거룩한 부르심",
+          "scripture": "Isaiah 6",
+          "description": "성전 환상 속에서 정결하게 되고 말씀을 전하도록 보냄받습니다."
+        },
+        {
+          "number": "02",
+          "title": "왕들에게 전한 말씀",
+          "scripture": "Isaiah 7; 37",
+          "description": "아하스에게 신뢰를 요청하고 히스기야에게 앗수르의 위협에 관한 말씀을 전합니다."
+        }
+      ]
+    }
+  ]
+}

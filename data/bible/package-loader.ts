@@ -1,57 +1,20 @@
-import leviticusPackage from "./books/leviticus.json";
+import type { ContentNode, ContentType } from "../content-types";
+import { biblePackages } from "./package-registry";
+import { applyBookCover } from "./images";
+import { applyPersonPortrait } from "../people/images";
 
-export type BiblePackageNodeType =
-  | "book"
-  | "story"
-  | "person"
-  | "place"
-  | "period"
-  | "visual";
+export type BiblePackageNodeType = ContentType;
 
-export type BiblePackageNode =
-  Record<string, unknown> & {
-    type?: unknown;
-    slug?: unknown;
-  };
+export type BiblePackageNode = ContentNode;
 
-type BiblePackage = {
-  nodes?: BiblePackageNode[];
-};
+export const biblePackageNodes: ContentNode[] = biblePackages.flatMap(biblePackage => biblePackage.nodes).map(applyBookCover).map(applyPersonPortrait);
 
-const biblePackages: BiblePackage[] = [
-  leviticusPackage as BiblePackage,
-];
+const nodeIndex = new Map(biblePackageNodes.map(node => [`${node.type}:${node.slug}`, node]));
 
 export function getBiblePackageNode(
   type: BiblePackageNodeType,
   slugValue: string
 ): BiblePackageNode | null {
 
-  const slug =
-    slugValue
-      .trim()
-      .toLowerCase();
-
-  if (!slug) {
-    return null;
-  }
-
-  for (const biblePackage of biblePackages) {
-
-    const node =
-      biblePackage.nodes?.find(
-        (item) =>
-          item.type === type &&
-          typeof item.slug === "string" &&
-          item.slug
-            .trim()
-            .toLowerCase() === slug
-      );
-
-    if (node) {
-      return node;
-    }
-  }
-
-  return null;
+  return nodeIndex.get(`${type}:${slugValue.trim().toLowerCase()}`) ?? null;
 }

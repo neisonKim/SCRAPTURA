@@ -1,0 +1,354 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/JER01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "jeremiah",
+      "titleKo": "예레미야",
+      "titleEn": "Jeremiah",
+      "eyebrow": "BIBLE · OLD TESTAMENT",
+      "summary": "멸망을 앞둔 유다에 회개를 촉구하고 예루살렘의 몰락 속에서도 새 언약의 소망을 전합니다.",
+      "overview": "멸망을 앞둔 유다에 회개를 촉구하고 예루살렘의 몰락 속에서도 새 언약의 소망을 전합니다. 예레미야가 부름받고 언약을 저버린 유다를 향해 회개와 다가올 재난을 선포합니다. 성전에 대한 헛된 안심을 책망하며 예배와 정의, 우상 숭배의 문제를 다룹니다. 상징 행동과 경고 속에서 예레미야가 박해와 내면의 갈등을 토로합니다. 왕들의 책임과 거짓 예언을 비판하고 포로들에게 바벨론에서 살아갈 것을 권합니다. 무너진 공동체의 회복을 약속하며 마음에 기록될 새 언약과 땅을 사는 표징을 전합니다. 말씀이 거부되고 두루마리가 불타며 예레미야의 감금 끝에 예루살렘이 함락됩니다. 그달랴의 죽음과 남은 백성의 이집트 이주, 바룩에게 주어진 말씀이 이어집니다. 이집트와 주변 민족, 바벨론에 대한 심판이 선포됩니다. 성전 파괴와 포로의 역사를 정리하고 여호야긴의 석방을 기록합니다.",
+      "biblicalContext": "유다의 마지막 왕들과 바벨론의 침공을 배경으로 말씀과 예언자의 고난이 교차합니다. 성전과 정치적 낙관론에 대한 거짓 안심을 깨뜨리면서 마음에 새기는 언약을 바라봅니다.",
+      "heroImage": "/assets/bible/jeremiah.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "부르심과 북방의 경고",
+          "scripture": "Jeremiah 1–6",
+          "description": "예레미야가 부름받고 언약을 저버린 유다를 향해 회개와 다가올 재난을 선포합니다."
+        },
+        {
+          "number": "02",
+          "title": "성전 앞에서의 말씀",
+          "scripture": "Jeremiah 7–10",
+          "description": "성전에 대한 헛된 안심을 책망하며 예배와 정의, 우상 숭배의 문제를 다룹니다."
+        },
+        {
+          "number": "03",
+          "title": "깨어진 언약과 예언자의 탄식",
+          "scripture": "Jeremiah 11–20",
+          "description": "상징 행동과 경고 속에서 예레미야가 박해와 내면의 갈등을 토로합니다."
+        },
+        {
+          "number": "04",
+          "title": "왕과 예언자, 포로에게 보낸 편지",
+          "scripture": "Jeremiah 21–29",
+          "description": "왕들의 책임과 거짓 예언을 비판하고 포로들에게 바벨론에서 살아갈 것을 권합니다."
+        },
+        {
+          "number": "05",
+          "title": "회복과 새 언약",
+          "scripture": "Jeremiah 30–33",
+          "description": "무너진 공동체의 회복을 약속하며 마음에 기록될 새 언약과 땅을 사는 표징을 전합니다."
+        },
+        {
+          "number": "06",
+          "title": "거부된 말씀과 성읍의 함락",
+          "scripture": "Jeremiah 34–39",
+          "description": "말씀이 거부되고 두루마리가 불타며 예레미야의 감금 끝에 예루살렘이 함락됩니다."
+        },
+        {
+          "number": "07",
+          "title": "남은 이들의 선택",
+          "scripture": "Jeremiah 40–45",
+          "description": "그달랴의 죽음과 남은 백성의 이집트 이주, 바룩에게 주어진 말씀이 이어집니다."
+        },
+        {
+          "number": "08",
+          "title": "열방에 관한 말씀",
+          "scripture": "Jeremiah 46–51",
+          "description": "이집트와 주변 민족, 바벨론에 대한 심판이 선포됩니다."
+        },
+        {
+          "number": "09",
+          "title": "멸망을 되돌아보다",
+          "scripture": "Jeremiah 52",
+          "description": "성전 파괴와 포로의 역사를 정리하고 여호야긴의 석방을 기록합니다."
+        }
+      ],
+      "scripture": [
+        "Jeremiah 1–52"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "jeremiah",
+          "relationType": "RELATED_PERSON",
+          "label": "예레미야"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "baruch",
+          "relationType": "RELATED_PERSON",
+          "label": "바룩"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "babylon",
+          "relationType": "RELATED_PLACE",
+          "label": "바벨론"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "egypt",
+          "relationType": "RELATED_PLACE",
+          "label": "이집트"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "jeremiah-temple-warning",
+          "relationType": "RELATED_STORY",
+          "label": "성전의 안심을 깨뜨리는 말씀"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "jeremiah-new-covenant",
+          "relationType": "RELATED_STORY",
+          "label": "포로를 향한 편지와 새 언약"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "isaiah",
+          "relationType": "RELATED_BOOK",
+          "label": "이사야"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "lamentations",
+          "relationType": "RELATED_BOOK",
+          "label": "예레미야애가"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "jeremiah-temple-warning",
+      "titleKo": "성전의 안심을 깨뜨리는 말씀",
+      "titleEn": "Jeremiah Temple Warning",
+      "eyebrow": "SCRIPTURE STUDY · JEREMIAH",
+      "summary": "예레미야가 부름받고 언약을 저버린 유다를 향해 회개와 다가올 재난을 선포합니다. 성전에 대한 헛된 안심을 책망하며 예배와 정의, 우상 숭배의 문제를 다룹니다. 상징 행동과 경고 속에서 예레미야가 박해와 내면의 갈등을 토로합니다.",
+      "overview": "예레미야의 1–6, 7–10, 11–20 본문을 따라 성전의 안심을 깨뜨리는 말씀의 내용을 살펴봅니다. 유다의 마지막 왕들과 바벨론의 침공을 배경으로 말씀과 예언자의 고난이 교차합니다. 성전과 정치적 낙관론에 대한 거짓 안심을 깨뜨리면서 마음에 새기는 언약을 바라봅니다.",
+      "heroImage": "/assets/bible/jeremiah.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "부르심과 북방의 경고",
+          "scripture": "Jeremiah 1–6",
+          "description": "예레미야가 부름받고 언약을 저버린 유다를 향해 회개와 다가올 재난을 선포합니다."
+        },
+        {
+          "number": "02",
+          "title": "성전 앞에서의 말씀",
+          "scripture": "Jeremiah 7–10",
+          "description": "성전에 대한 헛된 안심을 책망하며 예배와 정의, 우상 숭배의 문제를 다룹니다."
+        },
+        {
+          "number": "03",
+          "title": "깨어진 언약과 예언자의 탄식",
+          "scripture": "Jeremiah 11–20",
+          "description": "상징 행동과 경고 속에서 예레미야가 박해와 내면의 갈등을 토로합니다."
+        }
+      ],
+      "scripture": [
+        "Jeremiah 1–6",
+        "Jeremiah 7–10",
+        "Jeremiah 11–20"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "jeremiah",
+          "relationType": "RELATED_BOOK",
+          "label": "예레미야"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "jeremiah",
+          "relationType": "RELATED_PERSON",
+          "label": "예레미야"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "baruch",
+          "relationType": "RELATED_PERSON",
+          "label": "바룩"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "babylon",
+          "relationType": "RELATED_PLACE",
+          "label": "바벨론"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "egypt",
+          "relationType": "RELATED_PLACE",
+          "label": "이집트"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "jeremiah-new-covenant",
+      "titleKo": "포로를 향한 편지와 새 언약",
+      "titleEn": "Jeremiah New Covenant",
+      "eyebrow": "SCRIPTURE STUDY · JEREMIAH",
+      "summary": "왕들의 책임과 거짓 예언을 비판하고 포로들에게 바벨론에서 살아갈 것을 권합니다. 무너진 공동체의 회복을 약속하며 마음에 기록될 새 언약과 땅을 사는 표징을 전합니다. 말씀이 거부되고 두루마리가 불타며 예레미야의 감금 끝에 예루살렘이 함락됩니다.",
+      "overview": "예레미야의 21–29, 30–33, 34–39 본문을 따라 포로를 향한 편지와 새 언약의 내용을 살펴봅니다. 유다의 마지막 왕들과 바벨론의 침공을 배경으로 말씀과 예언자의 고난이 교차합니다. 성전과 정치적 낙관론에 대한 거짓 안심을 깨뜨리면서 마음에 새기는 언약을 바라봅니다.",
+      "heroImage": "/assets/bible/jeremiah.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "왕과 예언자, 포로에게 보낸 편지",
+          "scripture": "Jeremiah 21–29",
+          "description": "왕들의 책임과 거짓 예언을 비판하고 포로들에게 바벨론에서 살아갈 것을 권합니다."
+        },
+        {
+          "number": "02",
+          "title": "회복과 새 언약",
+          "scripture": "Jeremiah 30–33",
+          "description": "무너진 공동체의 회복을 약속하며 마음에 기록될 새 언약과 땅을 사는 표징을 전합니다."
+        },
+        {
+          "number": "03",
+          "title": "거부된 말씀과 성읍의 함락",
+          "scripture": "Jeremiah 34–39",
+          "description": "말씀이 거부되고 두루마리가 불타며 예레미야의 감금 끝에 예루살렘이 함락됩니다."
+        }
+      ],
+      "scripture": [
+        "Jeremiah 21–29",
+        "Jeremiah 30–33",
+        "Jeremiah 34–39"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "jeremiah",
+          "relationType": "RELATED_BOOK",
+          "label": "예레미야"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "jeremiah",
+          "relationType": "RELATED_PERSON",
+          "label": "예레미야"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "baruch",
+          "relationType": "RELATED_PERSON",
+          "label": "바룩"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "babylon",
+          "relationType": "RELATED_PLACE",
+          "label": "바벨론"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "egypt",
+          "relationType": "RELATED_PLACE",
+          "label": "이집트"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "jeremiah",
+      "titleKo": "예레미야",
+      "titleEn": "Jeremiah",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "유다의 멸망을 경고하고 거부와 고난 속에서도 회복과 새 언약을 전한 예언자입니다.",
+      "overview": "유다의 멸망을 경고하고 거부와 고난 속에서도 회복과 새 언약을 전한 예언자입니다. 젊음을 염려하던 예레미야가 열방을 향한 말씀을 맡습니다. 성읍의 위기 속에서도 땅을 사고 감금과 함락을 겪습니다.",
+      "heroImage": "/assets/people/jeremiah.webp",
+      "scripture": [
+        "Jeremiah 1",
+        "Jeremiah 32; 37–39"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "jeremiah",
+          "relationType": "RELATED_BOOK",
+          "label": "예레미야"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "말씀을 맡은 부르심",
+          "scripture": "Jeremiah 1",
+          "description": "젊음을 염려하던 예레미야가 열방을 향한 말씀을 맡습니다."
+        },
+        {
+          "number": "02",
+          "title": "무너지는 성읍 속의 증언",
+          "scripture": "Jeremiah 32; 37–39",
+          "description": "성읍의 위기 속에서도 땅을 사고 감금과 함락을 겪습니다."
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "baruch",
+      "titleKo": "바룩",
+      "titleEn": "Baruch",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "예레미야의 말을 기록하고 전달한 서기관으로 위기의 시대에 예언자의 사역을 도왔습니다.",
+      "overview": "예레미야의 말을 기록하고 전달한 서기관으로 위기의 시대에 예언자의 사역을 도왔습니다. 예레미야의 말을 받아 적고 성전에서 읽어 주며 불탄 두루마리를 다시 씁니다. 탄식하던 바룩은 자신을 위한 큰 일을 구하지 말라는 말씀을 듣습니다.",
+      "heroImage": "/assets/people/baruch.webp",
+      "scripture": [
+        "Jeremiah 36",
+        "Jeremiah 45"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "jeremiah",
+          "relationType": "RELATED_BOOK",
+          "label": "예레미야"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "두루마리를 기록하다",
+          "scripture": "Jeremiah 36",
+          "description": "예레미야의 말을 받아 적고 성전에서 읽어 주며 불탄 두루마리를 다시 씁니다."
+        },
+        {
+          "number": "02",
+          "title": "자신을 향한 말씀",
+          "scripture": "Jeremiah 45",
+          "description": "탄식하던 바룩은 자신을 위한 큰 일을 구하지 말라는 말씀을 듣습니다."
+        }
+      ]
+    }
+  ]
+}

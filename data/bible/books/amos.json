@@ -1,0 +1,251 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/AMO01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "amos",
+      "titleKo": "아모스",
+      "titleEn": "Amos",
+      "eyebrow": "BIBLE · OLD TESTAMENT",
+      "summary": "번영 속의 착취와 형식적 예배를 책망하며 정의와 공의를 요구하는 예언을 전합니다.",
+      "overview": "번영 속의 착취와 형식적 예배를 책망하며 정의와 공의를 요구하는 예언을 전합니다. 주변 나라들의 폭력을 고발한 뒤 유다와 이스라엘의 범죄를 지적합니다. 선택받은 백성의 책임과 사마리아의 사치, 회개하지 않는 태도를 책망합니다. 헛된 안심과 축제를 거부하며 공정한 재판과 정의로운 삶을 요구합니다. 메뚜기와 불, 다림줄의 환상 뒤에 아모스가 벧엘의 제사장 아마샤와 충돌합니다. 여름 과일과 제단의 환상으로 심판을 알리고 마지막에는 다윗의 무너진 장막과 땅의 회복을 말합니다.",
+      "biblicalContext": "남유다 출신인 아모스가 북이스라엘의 불의를 드러냅니다. 선택받았다는 자부심이 책임을 피할 근거가 될 수 없으며 가난한 이를 억압하는 예배는 책망을 받습니다.",
+      "heroImage": "/assets/bible/amos.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "열방과 이스라엘의 책임",
+          "scripture": "Amos 1–2",
+          "description": "주변 나라들의 폭력을 고발한 뒤 유다와 이스라엘의 범죄를 지적합니다."
+        },
+        {
+          "number": "02",
+          "title": "특권에 따르는 책임",
+          "scripture": "Amos 3–4",
+          "description": "선택받은 백성의 책임과 사마리아의 사치, 회개하지 않는 태도를 책망합니다."
+        },
+        {
+          "number": "03",
+          "title": "정의를 구하라",
+          "scripture": "Amos 5–6",
+          "description": "헛된 안심과 축제를 거부하며 공정한 재판과 정의로운 삶을 요구합니다."
+        },
+        {
+          "number": "04",
+          "title": "환상과 벧엘의 충돌",
+          "scripture": "Amos 7",
+          "description": "메뚜기와 불, 다림줄의 환상 뒤에 아모스가 벧엘의 제사장 아마샤와 충돌합니다."
+        },
+        {
+          "number": "05",
+          "title": "심판과 남은 회복",
+          "scripture": "Amos 8–9",
+          "description": "여름 과일과 제단의 환상으로 심판을 알리고 마지막에는 다윗의 무너진 장막과 땅의 회복을 말합니다."
+        }
+      ],
+      "scripture": [
+        "Amos 1–9"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "amos",
+          "relationType": "RELATED_PERSON",
+          "label": "아모스"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "samaria",
+          "relationType": "RELATED_PLACE",
+          "label": "사마리아"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "bethel",
+          "relationType": "RELATED_PLACE",
+          "label": "벧엘"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "amos-justice-and-worship",
+          "relationType": "RELATED_STORY",
+          "label": "예배와 정의를 함께 묻다"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "amos-visions",
+          "relationType": "RELATED_STORY",
+          "label": "환상과 회복의 약속"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "joel",
+          "relationType": "RELATED_BOOK",
+          "label": "요엘"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "obadiah",
+          "relationType": "RELATED_BOOK",
+          "label": "오바댜"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "amos-justice-and-worship",
+      "titleKo": "예배와 정의를 함께 묻다",
+      "titleEn": "Amos Justice And Worship",
+      "eyebrow": "SCRIPTURE STUDY · AMOS",
+      "summary": "주변 나라들의 폭력을 고발한 뒤 유다와 이스라엘의 범죄를 지적합니다. 선택받은 백성의 책임과 사마리아의 사치, 회개하지 않는 태도를 책망합니다. 헛된 안심과 축제를 거부하며 공정한 재판과 정의로운 삶을 요구합니다.",
+      "overview": "아모스의 1–2, 3–4, 5–6 본문을 따라 예배와 정의를 함께 묻다의 내용을 살펴봅니다. 남유다 출신인 아모스가 북이스라엘의 불의를 드러냅니다. 선택받았다는 자부심이 책임을 피할 근거가 될 수 없으며 가난한 이를 억압하는 예배는 책망을 받습니다.",
+      "heroImage": "/assets/bible/amos.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "열방과 이스라엘의 책임",
+          "scripture": "Amos 1–2",
+          "description": "주변 나라들의 폭력을 고발한 뒤 유다와 이스라엘의 범죄를 지적합니다."
+        },
+        {
+          "number": "02",
+          "title": "특권에 따르는 책임",
+          "scripture": "Amos 3–4",
+          "description": "선택받은 백성의 책임과 사마리아의 사치, 회개하지 않는 태도를 책망합니다."
+        },
+        {
+          "number": "03",
+          "title": "정의를 구하라",
+          "scripture": "Amos 5–6",
+          "description": "헛된 안심과 축제를 거부하며 공정한 재판과 정의로운 삶을 요구합니다."
+        }
+      ],
+      "scripture": [
+        "Amos 1–2",
+        "Amos 3–4",
+        "Amos 5–6"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "amos",
+          "relationType": "RELATED_BOOK",
+          "label": "아모스"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "amos",
+          "relationType": "RELATED_PERSON",
+          "label": "아모스"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "samaria",
+          "relationType": "RELATED_PLACE",
+          "label": "사마리아"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "bethel",
+          "relationType": "RELATED_PLACE",
+          "label": "벧엘"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "amos-visions",
+      "titleKo": "환상과 회복의 약속",
+      "titleEn": "Amos Visions",
+      "eyebrow": "SCRIPTURE STUDY · AMOS",
+      "summary": "메뚜기와 불, 다림줄의 환상 뒤에 아모스가 벧엘의 제사장 아마샤와 충돌합니다. 여름 과일과 제단의 환상으로 심판을 알리고 마지막에는 다윗의 무너진 장막과 땅의 회복을 말합니다.",
+      "overview": "아모스의 7, 8–9 본문을 따라 환상과 회복의 약속의 내용을 살펴봅니다. 남유다 출신인 아모스가 북이스라엘의 불의를 드러냅니다. 선택받았다는 자부심이 책임을 피할 근거가 될 수 없으며 가난한 이를 억압하는 예배는 책망을 받습니다.",
+      "heroImage": "/assets/bible/amos.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "환상과 벧엘의 충돌",
+          "scripture": "Amos 7",
+          "description": "메뚜기와 불, 다림줄의 환상 뒤에 아모스가 벧엘의 제사장 아마샤와 충돌합니다."
+        },
+        {
+          "number": "02",
+          "title": "심판과 남은 회복",
+          "scripture": "Amos 8–9",
+          "description": "여름 과일과 제단의 환상으로 심판을 알리고 마지막에는 다윗의 무너진 장막과 땅의 회복을 말합니다."
+        }
+      ],
+      "scripture": [
+        "Amos 7",
+        "Amos 8–9"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "amos",
+          "relationType": "RELATED_BOOK",
+          "label": "아모스"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "amos",
+          "relationType": "RELATED_PERSON",
+          "label": "아모스"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "samaria",
+          "relationType": "RELATED_PLACE",
+          "label": "사마리아"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "bethel",
+          "relationType": "RELATED_PLACE",
+          "label": "벧엘"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "amos",
+      "titleKo": "아모스",
+      "titleEn": "Amos",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "북이스라엘의 번영 뒤에 숨은 착취와 형식적 예배를 고발한 예언자입니다.",
+      "overview": "북이스라엘의 번영 뒤에 숨은 착취와 형식적 예배를 고발한 예언자입니다. 하나님을 찾고 공정한 재판과 정의를 행하도록 권합니다. 제사장 아마샤와 충돌하며 하나님이 자신을 보내셨음을 말합니다.",
+      "heroImage": "/assets/people/amos.webp",
+      "scripture": [
+        "Amos 5",
+        "Amos 7"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "amos",
+          "relationType": "RELATED_BOOK",
+          "label": "아모스"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "정의를 요청하다",
+          "scripture": "Amos 5",
+          "description": "하나님을 찾고 공정한 재판과 정의를 행하도록 권합니다."
+        },
+        {
+          "number": "02",
+          "title": "벧엘에서의 충돌",
+          "scripture": "Amos 7",
+          "description": "제사장 아마샤와 충돌하며 하나님이 자신을 보내셨음을 말합니다."
+        }
+      ]
+    }
+  ]
+}

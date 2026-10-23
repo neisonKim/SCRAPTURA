@@ -17,6 +17,7 @@ import Hero
 
 import RelationCards
   from "../../../components/RelationCards";
+import { resolveBookImage } from "../../../data/bible/images";
 
 
 import {
@@ -638,11 +639,7 @@ function getBiblePackageBook(
         ),
 
 
-      heroImage:
-        normalizeString(
-          bookNode.heroImage
-        ) ||
-        "/assets/scraptura-home-clean.jpg",
+      heroImage: resolveBookImage(routeSlug, normalizeString(bookNode.heroImage) || "/assets/scraptura-home-clean.jpg"),
 
 
       overview:

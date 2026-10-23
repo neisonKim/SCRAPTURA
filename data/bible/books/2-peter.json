@@ -1,0 +1,160 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/2PE01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "2-peter",
+      "titleKo": "베드로후서",
+      "titleEn": "2 Peter",
+      "eyebrow": "BIBLE · NEW TESTAMENT",
+      "summary": "신자들이 지식과 성품에서 자라고 거짓 가르침을 분별하며 주의 약속을 인내로 기다리도록 권합니다.",
+      "overview": "신자들이 지식과 성품에서 자라고 거짓 가르침을 분별하며 주의 약속을 인내로 기다리도록 권합니다. 믿음에 덕과 절제를 더하며 사도적 증언과 예언의 말씀을 기억하도록 권합니다. 탐욕과 방종으로 공동체를 해치는 가르침을 경계하고 심판의 사례들을 제시합니다. 주의 날을 조롱하는 태도에 답하며 새 하늘과 새 땅의 소망에 합당하게 살도록 권합니다.",
+      "biblicalContext": "사도적 증언과 예언의 말씀을 기억하게 하며 거짓 교사와 재림을 조롱하는 태도를 다룹니다. 마지막 소망은 무책임한 기다림이 아니라 거룩한 삶과 은혜 안의 성장으로 연결됩니다.",
+      "heroImage": "/assets/bible/2-peter.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "부르심과 증언을 기억하라",
+          "scripture": "2 Peter 1",
+          "description": "믿음에 덕과 절제를 더하며 사도적 증언과 예언의 말씀을 기억하도록 권합니다."
+        },
+        {
+          "number": "02",
+          "title": "거짓 교사의 길",
+          "scripture": "2 Peter 2",
+          "description": "탐욕과 방종으로 공동체를 해치는 가르침을 경계하고 심판의 사례들을 제시합니다."
+        },
+        {
+          "number": "03",
+          "title": "약속과 오래 참으심",
+          "scripture": "2 Peter 3",
+          "description": "주의 날을 조롱하는 태도에 답하며 새 하늘과 새 땅의 소망에 합당하게 살도록 권합니다."
+        }
+      ],
+      "scripture": [
+        "2 Peter 1–3"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "peter",
+          "relationType": "RELATED_PERSON",
+          "label": "베드로"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "peter-growth-and-discernment",
+          "relationType": "RELATED_STORY",
+          "label": "성장과 거짓 가르침의 분별"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "peter-promise-and-patience",
+          "relationType": "RELATED_STORY",
+          "label": "오래 참으심과 새 창조의 소망"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "1-peter",
+          "relationType": "RELATED_BOOK",
+          "label": "베드로전서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "1-john",
+          "relationType": "RELATED_BOOK",
+          "label": "요한일서"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "peter-growth-and-discernment",
+      "titleKo": "성장과 거짓 가르침의 분별",
+      "titleEn": "Peter Growth And Discernment",
+      "eyebrow": "SCRIPTURE STUDY · 2 PETER",
+      "summary": "믿음에 덕과 절제를 더하며 사도적 증언과 예언의 말씀을 기억하도록 권합니다. 탐욕과 방종으로 공동체를 해치는 가르침을 경계하고 심판의 사례들을 제시합니다.",
+      "overview": "베드로후서의 1, 2 본문을 따라 성장과 거짓 가르침의 분별의 내용을 살펴봅니다. 사도적 증언과 예언의 말씀을 기억하게 하며 거짓 교사와 재림을 조롱하는 태도를 다룹니다. 마지막 소망은 무책임한 기다림이 아니라 거룩한 삶과 은혜 안의 성장으로 연결됩니다.",
+      "heroImage": "/assets/bible/2-peter.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "부르심과 증언을 기억하라",
+          "scripture": "2 Peter 1",
+          "description": "믿음에 덕과 절제를 더하며 사도적 증언과 예언의 말씀을 기억하도록 권합니다."
+        },
+        {
+          "number": "02",
+          "title": "거짓 교사의 길",
+          "scripture": "2 Peter 2",
+          "description": "탐욕과 방종으로 공동체를 해치는 가르침을 경계하고 심판의 사례들을 제시합니다."
+        }
+      ],
+      "scripture": [
+        "2 Peter 1",
+        "2 Peter 2"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "2-peter",
+          "relationType": "RELATED_BOOK",
+          "label": "베드로후서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "peter",
+          "relationType": "RELATED_PERSON",
+          "label": "베드로"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "peter-promise-and-patience",
+      "titleKo": "오래 참으심과 새 창조의 소망",
+      "titleEn": "Peter Promise And Patience",
+      "eyebrow": "SCRIPTURE STUDY · 2 PETER",
+      "summary": "탐욕과 방종으로 공동체를 해치는 가르침을 경계하고 심판의 사례들을 제시합니다. 주의 날을 조롱하는 태도에 답하며 새 하늘과 새 땅의 소망에 합당하게 살도록 권합니다.",
+      "overview": "베드로후서의 2, 3 본문을 따라 오래 참으심과 새 창조의 소망의 내용을 살펴봅니다. 사도적 증언과 예언의 말씀을 기억하게 하며 거짓 교사와 재림을 조롱하는 태도를 다룹니다. 마지막 소망은 무책임한 기다림이 아니라 거룩한 삶과 은혜 안의 성장으로 연결됩니다.",
+      "heroImage": "/assets/bible/2-peter.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "거짓 교사의 길",
+          "scripture": "2 Peter 2",
+          "description": "탐욕과 방종으로 공동체를 해치는 가르침을 경계하고 심판의 사례들을 제시합니다."
+        },
+        {
+          "number": "02",
+          "title": "약속과 오래 참으심",
+          "scripture": "2 Peter 3",
+          "description": "주의 날을 조롱하는 태도에 답하며 새 하늘과 새 땅의 소망에 합당하게 살도록 권합니다."
+        }
+      ],
+      "scripture": [
+        "2 Peter 2",
+        "2 Peter 3"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "2-peter",
+          "relationType": "RELATED_BOOK",
+          "label": "베드로후서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "peter",
+          "relationType": "RELATED_PERSON",
+          "label": "베드로"
+        }
+      ]
+    }
+  ]
+}

@@ -6,6 +6,9 @@ import {
 } from "react";
 
 import Link from "next/link";
+import Image from "next/image";
+import styles from "./PeopleArchiveFirebase.module.css";
+import { mergeArchiveRecords } from "../lib/archive-merge";
 
 import {
   collection,
@@ -60,18 +63,18 @@ function normalizeNumber(
 }
 
 
-export default function PeopleArchiveFirebase() {
+export default function PeopleArchiveFirebase({ initialRecords }: { initialRecords: PersonRecord[] }) {
 
   const [
     people,
     setPeople,
-  ] = useState<PersonRecord[]>([]);
+  ] = useState<PersonRecord[]>(initialRecords);
 
 
   const [
     loading,
     setLoading,
-  ] = useState(true);
+  ] = useState(initialRecords.length === 0);
 
 
   const [
@@ -89,7 +92,7 @@ export default function PeopleArchiveFirebase() {
 
       try {
 
-        setLoading(true);
+        setLoading(initialRecords.length === 0);
         setErrorMessage("");
 
 
@@ -238,7 +241,7 @@ export default function PeopleArchiveFirebase() {
 
 
         setPeople(
-          records
+          mergeArchiveRecords(initialRecords, records)
         );
 
 
@@ -255,9 +258,7 @@ export default function PeopleArchiveFirebase() {
         }
 
 
-        setErrorMessage(
-          "인물 데이터를 불러오지 못했습니다."
-        );
+        if (initialRecords.length === 0) setErrorMessage("인물 데이터를 불러오지 못했습니다.");
 
 
       } finally {
@@ -276,7 +277,7 @@ export default function PeopleArchiveFirebase() {
       active = false;
     };
 
-  }, []);
+  }, [initialRecords]);
 
 
   /*
@@ -576,13 +577,16 @@ export default function PeopleArchiveFirebase() {
                   }
                 >
 
-                  <div
-                    className="cardImage"
-                    style={{
-                      backgroundImage:
-                        `url("${person.heroImage}")`,
-                    }}
-                  />
+                  <div className={`cardImage ${styles.portrait}`}>
+                    <Image
+                      src={person.heroImage || "/assets/scraptura-home-clean.jpg"}
+                      alt={`${person.titleKo} 인물 이미지`}
+                      fill
+                      sizes="(max-width: 700px) 100vw, (max-width: 1000px) 50vw, 400px"
+                      loading="lazy"
+                      unoptimized={!person.heroImage.startsWith("/") || person.heroImage.startsWith("//")}
+                    />
+                  </div>
 
                   <small>
                     {person.eyebrow}

@@ -1,0 +1,264 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/ZEC01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "zechariah",
+      "titleKo": "스가랴",
+      "titleEn": "Zechariah",
+      "eyebrow": "BIBLE · OLD TESTAMENT",
+      "summary": "귀환 공동체의 재건을 격려하는 환상과 정의의 권면, 왕과 목자 및 예루살렘의 미래를 전합니다.",
+      "overview": "귀환 공동체의 재건을 격려하는 환상과 정의의 권면, 왕과 목자 및 예루살렘의 미래를 전합니다. 조상들의 실패를 되풀이하지 말고 하나님께 돌아오라는 권면으로 시작합니다. 말과 뿔, 측량줄의 환상 뒤에 대제사장 여호수아가 정결하게 되는 장면이 이어집니다. 등잔대와 감람나무, 두루마리와 에바, 병거의 환상을 통해 정결과 재건을 전합니다. 금식에 관한 질문에 진실한 재판과 약한 이웃 돌봄으로 답하고 회복의 기쁨을 말합니다. 겸손히 오는 왕의 소망과 목자들에 대한 심판이 대비됩니다. 예루살렘의 위기와 애통, 정결의 샘과 열방 가운데 드러나는 하나님의 다스림을 전합니다.",
+      "biblicalContext": "성전 재건기에 주어진 환상들과 더 넓은 미래를 향한 예언이 함께 담깁니다. 외형의 회복과 함께 진실한 재판, 약자 돌봄과 마음의 변화가 요청됩니다.",
+      "heroImage": "/assets/bible/zechariah.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "돌아오라는 부름",
+          "scripture": "Zechariah 1:1–6",
+          "description": "조상들의 실패를 되풀이하지 말고 하나님께 돌아오라는 권면으로 시작합니다."
+        },
+        {
+          "number": "02",
+          "title": "성읍과 제사장의 회복",
+          "scripture": "Zechariah 1:7–3:10",
+          "description": "말과 뿔, 측량줄의 환상 뒤에 대제사장 여호수아가 정결하게 되는 장면이 이어집니다."
+        },
+        {
+          "number": "03",
+          "title": "성령과 재건의 환상",
+          "scripture": "Zechariah 4–6",
+          "description": "등잔대와 감람나무, 두루마리와 에바, 병거의 환상을 통해 정결과 재건을 전합니다."
+        },
+        {
+          "number": "04",
+          "title": "금식과 정의로운 삶",
+          "scripture": "Zechariah 7–8",
+          "description": "금식에 관한 질문에 진실한 재판과 약한 이웃 돌봄으로 답하고 회복의 기쁨을 말합니다."
+        },
+        {
+          "number": "05",
+          "title": "겸손한 왕과 목자",
+          "scripture": "Zechariah 9–11",
+          "description": "겸손히 오는 왕의 소망과 목자들에 대한 심판이 대비됩니다."
+        },
+        {
+          "number": "06",
+          "title": "애통과 정결, 하나님의 왕권",
+          "scripture": "Zechariah 12–14",
+          "description": "예루살렘의 위기와 애통, 정결의 샘과 열방 가운데 드러나는 하나님의 다스림을 전합니다."
+        }
+      ],
+      "scripture": [
+        "Zechariah 1–14"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "zechariah",
+          "relationType": "RELATED_PERSON",
+          "label": "스가랴"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "zerubbabel",
+          "relationType": "RELATED_PERSON",
+          "label": "스룹바벨"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "zechariah-visions",
+          "relationType": "RELATED_STORY",
+          "label": "정결과 재건을 보여 주는 환상"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "zechariah-king-and-justice",
+          "relationType": "RELATED_STORY",
+          "label": "정의로운 삶과 오시는 왕"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "haggai",
+          "relationType": "RELATED_BOOK",
+          "label": "학개"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "malachi",
+          "relationType": "RELATED_BOOK",
+          "label": "말라기"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "zechariah-visions",
+      "titleKo": "정결과 재건을 보여 주는 환상",
+      "titleEn": "Zechariah Visions",
+      "eyebrow": "SCRIPTURE STUDY · ZECHARIAH",
+      "summary": "조상들의 실패를 되풀이하지 말고 하나님께 돌아오라는 권면으로 시작합니다. 말과 뿔, 측량줄의 환상 뒤에 대제사장 여호수아가 정결하게 되는 장면이 이어집니다. 등잔대와 감람나무, 두루마리와 에바, 병거의 환상을 통해 정결과 재건을 전합니다.",
+      "overview": "스가랴의 1:1–6, 1:7–3:10, 4–6 본문을 따라 정결과 재건을 보여 주는 환상의 내용을 살펴봅니다. 성전 재건기에 주어진 환상들과 더 넓은 미래를 향한 예언이 함께 담깁니다. 외형의 회복과 함께 진실한 재판, 약자 돌봄과 마음의 변화가 요청됩니다.",
+      "heroImage": "/assets/bible/zechariah.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "돌아오라는 부름",
+          "scripture": "Zechariah 1:1–6",
+          "description": "조상들의 실패를 되풀이하지 말고 하나님께 돌아오라는 권면으로 시작합니다."
+        },
+        {
+          "number": "02",
+          "title": "성읍과 제사장의 회복",
+          "scripture": "Zechariah 1:7–3:10",
+          "description": "말과 뿔, 측량줄의 환상 뒤에 대제사장 여호수아가 정결하게 되는 장면이 이어집니다."
+        },
+        {
+          "number": "03",
+          "title": "성령과 재건의 환상",
+          "scripture": "Zechariah 4–6",
+          "description": "등잔대와 감람나무, 두루마리와 에바, 병거의 환상을 통해 정결과 재건을 전합니다."
+        }
+      ],
+      "scripture": [
+        "Zechariah 1:1–6",
+        "Zechariah 1:7–3:10",
+        "Zechariah 4–6"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "zechariah",
+          "relationType": "RELATED_BOOK",
+          "label": "스가랴"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "zechariah",
+          "relationType": "RELATED_PERSON",
+          "label": "스가랴"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "zerubbabel",
+          "relationType": "RELATED_PERSON",
+          "label": "스룹바벨"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "zechariah-king-and-justice",
+      "titleKo": "정의로운 삶과 오시는 왕",
+      "titleEn": "Zechariah King And Justice",
+      "eyebrow": "SCRIPTURE STUDY · ZECHARIAH",
+      "summary": "금식에 관한 질문에 진실한 재판과 약한 이웃 돌봄으로 답하고 회복의 기쁨을 말합니다. 겸손히 오는 왕의 소망과 목자들에 대한 심판이 대비됩니다. 예루살렘의 위기와 애통, 정결의 샘과 열방 가운데 드러나는 하나님의 다스림을 전합니다.",
+      "overview": "스가랴의 7–8, 9–11, 12–14 본문을 따라 정의로운 삶과 오시는 왕의 내용을 살펴봅니다. 성전 재건기에 주어진 환상들과 더 넓은 미래를 향한 예언이 함께 담깁니다. 외형의 회복과 함께 진실한 재판, 약자 돌봄과 마음의 변화가 요청됩니다.",
+      "heroImage": "/assets/bible/zechariah.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "금식과 정의로운 삶",
+          "scripture": "Zechariah 7–8",
+          "description": "금식에 관한 질문에 진실한 재판과 약한 이웃 돌봄으로 답하고 회복의 기쁨을 말합니다."
+        },
+        {
+          "number": "02",
+          "title": "겸손한 왕과 목자",
+          "scripture": "Zechariah 9–11",
+          "description": "겸손히 오는 왕의 소망과 목자들에 대한 심판이 대비됩니다."
+        },
+        {
+          "number": "03",
+          "title": "애통과 정결, 하나님의 왕권",
+          "scripture": "Zechariah 12–14",
+          "description": "예루살렘의 위기와 애통, 정결의 샘과 열방 가운데 드러나는 하나님의 다스림을 전합니다."
+        }
+      ],
+      "scripture": [
+        "Zechariah 7–8",
+        "Zechariah 9–11",
+        "Zechariah 12–14"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "zechariah",
+          "relationType": "RELATED_BOOK",
+          "label": "스가랴"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "zechariah",
+          "relationType": "RELATED_PERSON",
+          "label": "스가랴"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "zerubbabel",
+          "relationType": "RELATED_PERSON",
+          "label": "스룹바벨"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "zechariah",
+      "titleKo": "스가랴",
+      "titleEn": "Zechariah",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "귀환 공동체에게 환상과 말씀을 전하여 정결과 재건, 정의로운 삶을 격려한 예언자입니다.",
+      "overview": "귀환 공동체에게 환상과 말씀을 전하여 정결과 재건, 정의로운 삶을 격려한 예언자입니다. 돌아오라는 부름 뒤에 성읍과 성전의 회복을 보여 주는 환상을 전합니다. 금식에 관한 질문을 진실한 재판과 약자 돌봄의 문제로 연결합니다.",
+      "heroImage": "/assets/people/zechariah.webp",
+      "scripture": [
+        "Zechariah 1–6",
+        "Zechariah 7–8"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "zechariah",
+          "relationType": "RELATED_BOOK",
+          "label": "스가랴"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "재건의 환상",
+          "scripture": "Zechariah 1–6",
+          "description": "돌아오라는 부름 뒤에 성읍과 성전의 회복을 보여 주는 환상을 전합니다."
+        },
+        {
+          "number": "02",
+          "title": "예배와 이웃의 책임",
+          "scripture": "Zechariah 7–8",
+          "description": "금식에 관한 질문을 진실한 재판과 약자 돌봄의 문제로 연결합니다."
+        }
+      ]
+    }
+  ]
+}

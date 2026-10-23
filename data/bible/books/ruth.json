@@ -1,0 +1,346 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/RUT01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "ruth",
+      "titleKo": "룻기",
+      "titleEn": "Ruth",
+      "eyebrow": "BIBLE · OLD TESTAMENT",
+      "summary": "모압에서 베들레헴으로 돌아온 나오미와 룻이 돌봄과 기업 무름을 통해 새로운 미래를 맞습니다.",
+      "overview": "모압에서 베들레헴으로 돌아온 나오미와 룻이 돌봄과 기업 무름을 통해 새로운 미래를 맞습니다. 남편과 두 아들을 잃은 나오미가 유다로 돌아가고 룻은 끝까지 동행하기로 합니다. 이삭을 줍던 룻은 보아스의 보호를 받고 나오미는 그가 기업 무를 친족임을 알게 됩니다. 룻은 타작마당에서 보아스에게 보호를 요청하고 보아스는 친족의 책임을 다루겠다고 약속합니다. 보아스가 성문에서 기업 무름을 확정하고 룻의 아들 오벳을 통해 다윗의 가계가 이어집니다.",
+      "biblicalContext": "사사 시대를 배경으로 기근과 상실을 겪은 한 가족을 따라갑니다. 이방 여인 룻의 충성과 보아스의 책임 있는 행동이 다윗의 가계와 연결됩니다.",
+      "heroImage": "/assets/bible/ruth.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "상실과 동행",
+          "scripture": "Ruth 1",
+          "description": "남편과 두 아들을 잃은 나오미가 유다로 돌아가고 룻은 끝까지 동행하기로 합니다."
+        },
+        {
+          "number": "02",
+          "title": "보아스의 밭",
+          "scripture": "Ruth 2",
+          "description": "이삭을 줍던 룻은 보아스의 보호를 받고 나오미는 그가 기업 무를 친족임을 알게 됩니다."
+        },
+        {
+          "number": "03",
+          "title": "타작마당의 요청",
+          "scripture": "Ruth 3",
+          "description": "룻은 타작마당에서 보아스에게 보호를 요청하고 보아스는 친족의 책임을 다루겠다고 약속합니다."
+        },
+        {
+          "number": "04",
+          "title": "성문에서 열린 미래",
+          "scripture": "Ruth 4",
+          "description": "보아스가 성문에서 기업 무름을 확정하고 룻의 아들 오벳을 통해 다윗의 가계가 이어집니다."
+        }
+      ],
+      "scripture": [
+        "Ruth 1–4"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "ruth",
+          "relationType": "RELATED_PERSON",
+          "label": "룻"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "naomi",
+          "relationType": "RELATED_PERSON",
+          "label": "나오미"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "boaz",
+          "relationType": "RELATED_PERSON",
+          "label": "보아스"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "moab",
+          "relationType": "RELATED_PLACE",
+          "label": "모압"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "bethlehem",
+          "relationType": "RELATED_PLACE",
+          "label": "베들레헴"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "ruth-loyalty",
+          "relationType": "RELATED_STORY",
+          "label": "룻의 동행과 보아스의 밭"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "ruth-redemption",
+          "relationType": "RELATED_STORY",
+          "label": "타작마당에서 성문까지"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "judges",
+          "relationType": "RELATED_BOOK",
+          "label": "사사기"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "1-samuel",
+          "relationType": "RELATED_BOOK",
+          "label": "사무엘상"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "ruth-loyalty",
+      "titleKo": "룻의 동행과 보아스의 밭",
+      "titleEn": "Ruth Loyalty",
+      "eyebrow": "SCRIPTURE STUDY · RUTH",
+      "summary": "남편과 두 아들을 잃은 나오미가 유다로 돌아가고 룻은 끝까지 동행하기로 합니다. 이삭을 줍던 룻은 보아스의 보호를 받고 나오미는 그가 기업 무를 친족임을 알게 됩니다.",
+      "overview": "룻기의 1, 2 본문을 따라 룻의 동행과 보아스의 밭의 내용을 살펴봅니다. 사사 시대를 배경으로 기근과 상실을 겪은 한 가족을 따라갑니다. 이방 여인 룻의 충성과 보아스의 책임 있는 행동이 다윗의 가계와 연결됩니다.",
+      "heroImage": "/assets/bible/ruth.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "상실과 동행",
+          "scripture": "Ruth 1",
+          "description": "남편과 두 아들을 잃은 나오미가 유다로 돌아가고 룻은 끝까지 동행하기로 합니다."
+        },
+        {
+          "number": "02",
+          "title": "보아스의 밭",
+          "scripture": "Ruth 2",
+          "description": "이삭을 줍던 룻은 보아스의 보호를 받고 나오미는 그가 기업 무를 친족임을 알게 됩니다."
+        }
+      ],
+      "scripture": [
+        "Ruth 1",
+        "Ruth 2"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "ruth",
+          "relationType": "RELATED_BOOK",
+          "label": "룻기"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "ruth",
+          "relationType": "RELATED_PERSON",
+          "label": "룻"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "naomi",
+          "relationType": "RELATED_PERSON",
+          "label": "나오미"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "boaz",
+          "relationType": "RELATED_PERSON",
+          "label": "보아스"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "moab",
+          "relationType": "RELATED_PLACE",
+          "label": "모압"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "bethlehem",
+          "relationType": "RELATED_PLACE",
+          "label": "베들레헴"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "ruth-redemption",
+      "titleKo": "타작마당에서 성문까지",
+      "titleEn": "Ruth Redemption",
+      "eyebrow": "SCRIPTURE STUDY · RUTH",
+      "summary": "룻은 타작마당에서 보아스에게 보호를 요청하고 보아스는 친족의 책임을 다루겠다고 약속합니다. 보아스가 성문에서 기업 무름을 확정하고 룻의 아들 오벳을 통해 다윗의 가계가 이어집니다.",
+      "overview": "룻기의 3, 4 본문을 따라 타작마당에서 성문까지의 내용을 살펴봅니다. 사사 시대를 배경으로 기근과 상실을 겪은 한 가족을 따라갑니다. 이방 여인 룻의 충성과 보아스의 책임 있는 행동이 다윗의 가계와 연결됩니다.",
+      "heroImage": "/assets/bible/ruth.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "타작마당의 요청",
+          "scripture": "Ruth 3",
+          "description": "룻은 타작마당에서 보아스에게 보호를 요청하고 보아스는 친족의 책임을 다루겠다고 약속합니다."
+        },
+        {
+          "number": "02",
+          "title": "성문에서 열린 미래",
+          "scripture": "Ruth 4",
+          "description": "보아스가 성문에서 기업 무름을 확정하고 룻의 아들 오벳을 통해 다윗의 가계가 이어집니다."
+        }
+      ],
+      "scripture": [
+        "Ruth 3",
+        "Ruth 4"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "ruth",
+          "relationType": "RELATED_BOOK",
+          "label": "룻기"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "ruth",
+          "relationType": "RELATED_PERSON",
+          "label": "룻"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "naomi",
+          "relationType": "RELATED_PERSON",
+          "label": "나오미"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "boaz",
+          "relationType": "RELATED_PERSON",
+          "label": "보아스"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "moab",
+          "relationType": "RELATED_PLACE",
+          "label": "모압"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "bethlehem",
+          "relationType": "RELATED_PLACE",
+          "label": "베들레헴"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "ruth",
+      "titleKo": "룻",
+      "titleEn": "Ruth",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "나오미를 따라 베들레헴으로 온 모압 여인으로, 충성과 새로운 가족의 이야기를 보여 줍니다.",
+      "overview": "나오미를 따라 베들레헴으로 온 모압 여인으로, 충성과 새로운 가족의 이야기를 보여 줍니다. 룻은 나오미와 함께 귀환해 보아스의 밭에서 이삭을 줍습니다. 룻은 보아스에게 친족의 책임을 요청하고 오벳의 어머니가 됩니다.",
+      "heroImage": "/assets/people/ruth.webp",
+      "scripture": [
+        "Ruth 1–2",
+        "Ruth 3–4"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "ruth",
+          "relationType": "RELATED_BOOK",
+          "label": "룻기"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "동행과 이삭 줍기",
+          "scripture": "Ruth 1–2",
+          "description": "룻은 나오미와 함께 귀환해 보아스의 밭에서 이삭을 줍습니다."
+        },
+        {
+          "number": "02",
+          "title": "보호를 구하고 가족이 되다",
+          "scripture": "Ruth 3–4",
+          "description": "룻은 보아스에게 친족의 책임을 요청하고 오벳의 어머니가 됩니다."
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "naomi",
+      "titleKo": "나오미",
+      "titleEn": "Naomi",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "모압에서 남편과 두 아들을 잃은 뒤 룻과 함께 고향으로 돌아오는 베들레헴 여인입니다.",
+      "overview": "모압에서 남편과 두 아들을 잃은 뒤 룻과 함께 고향으로 돌아오는 베들레헴 여인입니다. 나오미는 상실을 안고 베들레헴으로 돌아오며 자신의 고통을 드러냅니다. 룻에게 친족 관계를 설명하고 오벳의 탄생으로 새로운 기쁨을 맞습니다.",
+      "heroImage": "/assets/people/naomi.webp",
+      "scripture": [
+        "Ruth 1",
+        "Ruth 2–4"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "ruth",
+          "relationType": "RELATED_BOOK",
+          "label": "룻기"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "상실과 귀환",
+          "scripture": "Ruth 1",
+          "description": "나오미는 상실을 안고 베들레헴으로 돌아오며 자신의 고통을 드러냅니다."
+        },
+        {
+          "number": "02",
+          "title": "새로운 가족의 돌봄",
+          "scripture": "Ruth 2–4",
+          "description": "룻에게 친족 관계를 설명하고 오벳의 탄생으로 새로운 기쁨을 맞습니다."
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "boaz",
+      "titleKo": "보아스",
+      "titleEn": "Boaz",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "룻을 보호하고 친족으로서 기업 무름의 책임을 맡아 새로운 가족을 이루는 베들레헴 사람입니다.",
+      "overview": "룻을 보호하고 친족으로서 기업 무름의 책임을 맡아 새로운 가족을 이루는 베들레헴 사람입니다. 보아스는 이삭을 줍는 룻을 안전하게 일하게 하고 음식을 나눕니다. 룻의 요청을 듣고 성문에서 기업 무름의 절차를 진행합니다.",
+      "heroImage": "/assets/people/boaz.webp",
+      "scripture": [
+        "Ruth 2",
+        "Ruth 3–4"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "ruth",
+          "relationType": "RELATED_BOOK",
+          "label": "룻기"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "밭에서의 보호",
+          "scripture": "Ruth 2",
+          "description": "보아스는 이삭을 줍는 룻을 안전하게 일하게 하고 음식을 나눕니다."
+        },
+        {
+          "number": "02",
+          "title": "성문에서 책임을 지다",
+          "scripture": "Ruth 3–4",
+          "description": "룻의 요청을 듣고 성문에서 기업 무름의 절차를 진행합니다."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+.portrait {
+  position: relative;
+  overflow: hidden;
+}
+
+.portrait img {
+  object-fit: cover;
+}

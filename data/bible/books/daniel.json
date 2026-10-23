@@ -1,0 +1,259 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/DAN01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "daniel",
+      "titleKo": "다니엘",
+      "titleEn": "Daniel",
+      "eyebrow": "BIBLE · OLD TESTAMENT",
+      "summary": "제국 속에서 신앙을 지키는 다니엘과 동료들의 이야기, 나라들의 흥망에 관한 환상을 담습니다.",
+      "overview": "제국 속에서 신앙을 지키는 다니엘과 동료들의 이야기, 나라들의 흥망에 관한 환상을 담습니다. 포로로 온 다니엘과 동료들이 왕의 음식 앞에서 정체성을 지키며 지혜를 얻습니다. 다니엘이 왕의 꿈을 해석하며 여러 왕국과 하나님이 세우실 나라를 말합니다. 세 동료가 신상 숭배를 거부하고 느부갓네살의 교만이 꺾입니다. 벨사살의 잔치가 끝나고 다니엘은 기도를 지키다 사자 굴에 들어갑니다. 짐승과 인자 같은 이, 숫양과 숫염소의 환상을 통해 제국과 심판을 바라봅니다. 다니엘이 백성을 위해 고백하며 기도하고 예루살렘의 앞날에 관한 말씀을 듣습니다. 열방의 충돌과 고난 속에서 끝까지 견딜 것을 권하고 부활의 소망을 전합니다.",
+      "biblicalContext": "왕궁의 서사와 묵시적 환상이 함께 놓입니다. 제국의 권세가 영원하지 않다는 관점에서 충성과 인내를 다루며 환상의 상징을 현대의 특정 인물이나 날짜와 곧바로 동일시하지 않습니다.",
+      "heroImage": "/assets/bible/daniel.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "왕궁에서 지킨 선택",
+          "scripture": "Daniel 1",
+          "description": "포로로 온 다니엘과 동료들이 왕의 음식 앞에서 정체성을 지키며 지혜를 얻습니다."
+        },
+        {
+          "number": "02",
+          "title": "큰 신상의 꿈",
+          "scripture": "Daniel 2",
+          "description": "다니엘이 왕의 꿈을 해석하며 여러 왕국과 하나님이 세우실 나라를 말합니다."
+        },
+        {
+          "number": "03",
+          "title": "불 속의 충성과 낮아진 왕",
+          "scripture": "Daniel 3–4",
+          "description": "세 동료가 신상 숭배를 거부하고 느부갓네살의 교만이 꺾입니다."
+        },
+        {
+          "number": "04",
+          "title": "벽의 글씨와 사자 굴",
+          "scripture": "Daniel 5–6",
+          "description": "벨사살의 잔치가 끝나고 다니엘은 기도를 지키다 사자 굴에 들어갑니다."
+        },
+        {
+          "number": "05",
+          "title": "짐승들과 왕국들의 환상",
+          "scripture": "Daniel 7–8",
+          "description": "짐승과 인자 같은 이, 숫양과 숫염소의 환상을 통해 제국과 심판을 바라봅니다."
+        },
+        {
+          "number": "06",
+          "title": "기도와 회복의 말씀",
+          "scripture": "Daniel 9",
+          "description": "다니엘이 백성을 위해 고백하며 기도하고 예루살렘의 앞날에 관한 말씀을 듣습니다."
+        },
+        {
+          "number": "07",
+          "title": "충돌과 마지막 소망",
+          "scripture": "Daniel 10–12",
+          "description": "열방의 충돌과 고난 속에서 끝까지 견딜 것을 권하고 부활의 소망을 전합니다."
+        }
+      ],
+      "scripture": [
+        "Daniel 1–12"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "daniel",
+          "relationType": "RELATED_PERSON",
+          "label": "다니엘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "babylon",
+          "relationType": "RELATED_PLACE",
+          "label": "바벨론"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "daniel-faith-in-empire",
+          "relationType": "RELATED_STORY",
+          "label": "제국 한가운데서 지킨 신앙"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "daniel-visions-and-hope",
+          "relationType": "RELATED_STORY",
+          "label": "나라들의 환상과 마지막 소망"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "ezekiel",
+          "relationType": "RELATED_BOOK",
+          "label": "에스겔"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "hosea",
+          "relationType": "RELATED_BOOK",
+          "label": "호세아"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "daniel-faith-in-empire",
+      "titleKo": "제국 한가운데서 지킨 신앙",
+      "titleEn": "Daniel Faith In Empire",
+      "eyebrow": "SCRIPTURE STUDY · DANIEL",
+      "summary": "포로로 온 다니엘과 동료들이 왕의 음식 앞에서 정체성을 지키며 지혜를 얻습니다. 다니엘이 왕의 꿈을 해석하며 여러 왕국과 하나님이 세우실 나라를 말합니다. 세 동료가 신상 숭배를 거부하고 느부갓네살의 교만이 꺾입니다. 벨사살의 잔치가 끝나고 다니엘은 기도를 지키다 사자 굴에 들어갑니다.",
+      "overview": "다니엘의 1, 2, 3–4, 5–6 본문을 따라 제국 한가운데서 지킨 신앙의 내용을 살펴봅니다. 왕궁의 서사와 묵시적 환상이 함께 놓입니다. 제국의 권세가 영원하지 않다는 관점에서 충성과 인내를 다루며 환상의 상징을 현대의 특정 인물이나 날짜와 곧바로 동일시하지 않습니다.",
+      "heroImage": "/assets/bible/daniel.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "왕궁에서 지킨 선택",
+          "scripture": "Daniel 1",
+          "description": "포로로 온 다니엘과 동료들이 왕의 음식 앞에서 정체성을 지키며 지혜를 얻습니다."
+        },
+        {
+          "number": "02",
+          "title": "큰 신상의 꿈",
+          "scripture": "Daniel 2",
+          "description": "다니엘이 왕의 꿈을 해석하며 여러 왕국과 하나님이 세우실 나라를 말합니다."
+        },
+        {
+          "number": "03",
+          "title": "불 속의 충성과 낮아진 왕",
+          "scripture": "Daniel 3–4",
+          "description": "세 동료가 신상 숭배를 거부하고 느부갓네살의 교만이 꺾입니다."
+        },
+        {
+          "number": "04",
+          "title": "벽의 글씨와 사자 굴",
+          "scripture": "Daniel 5–6",
+          "description": "벨사살의 잔치가 끝나고 다니엘은 기도를 지키다 사자 굴에 들어갑니다."
+        }
+      ],
+      "scripture": [
+        "Daniel 1",
+        "Daniel 2",
+        "Daniel 3–4",
+        "Daniel 5–6"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "daniel",
+          "relationType": "RELATED_BOOK",
+          "label": "다니엘"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "daniel",
+          "relationType": "RELATED_PERSON",
+          "label": "다니엘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "babylon",
+          "relationType": "RELATED_PLACE",
+          "label": "바벨론"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "daniel-visions-and-hope",
+      "titleKo": "나라들의 환상과 마지막 소망",
+      "titleEn": "Daniel Visions And Hope",
+      "eyebrow": "SCRIPTURE STUDY · DANIEL",
+      "summary": "짐승과 인자 같은 이, 숫양과 숫염소의 환상을 통해 제국과 심판을 바라봅니다. 다니엘이 백성을 위해 고백하며 기도하고 예루살렘의 앞날에 관한 말씀을 듣습니다. 열방의 충돌과 고난 속에서 끝까지 견딜 것을 권하고 부활의 소망을 전합니다.",
+      "overview": "다니엘의 7–8, 9, 10–12 본문을 따라 나라들의 환상과 마지막 소망의 내용을 살펴봅니다. 왕궁의 서사와 묵시적 환상이 함께 놓입니다. 제국의 권세가 영원하지 않다는 관점에서 충성과 인내를 다루며 환상의 상징을 현대의 특정 인물이나 날짜와 곧바로 동일시하지 않습니다.",
+      "heroImage": "/assets/bible/daniel.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "짐승들과 왕국들의 환상",
+          "scripture": "Daniel 7–8",
+          "description": "짐승과 인자 같은 이, 숫양과 숫염소의 환상을 통해 제국과 심판을 바라봅니다."
+        },
+        {
+          "number": "02",
+          "title": "기도와 회복의 말씀",
+          "scripture": "Daniel 9",
+          "description": "다니엘이 백성을 위해 고백하며 기도하고 예루살렘의 앞날에 관한 말씀을 듣습니다."
+        },
+        {
+          "number": "03",
+          "title": "충돌과 마지막 소망",
+          "scripture": "Daniel 10–12",
+          "description": "열방의 충돌과 고난 속에서 끝까지 견딜 것을 권하고 부활의 소망을 전합니다."
+        }
+      ],
+      "scripture": [
+        "Daniel 7–8",
+        "Daniel 9",
+        "Daniel 10–12"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "daniel",
+          "relationType": "RELATED_BOOK",
+          "label": "다니엘"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "daniel",
+          "relationType": "RELATED_PERSON",
+          "label": "다니엘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "babylon",
+          "relationType": "RELATED_PLACE",
+          "label": "바벨론"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "daniel",
+      "titleKo": "다니엘",
+      "titleEn": "Daniel",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "제국의 왕궁에서 신앙을 지키며 꿈을 해석하고 여러 나라에 관한 환상을 받은 인물입니다.",
+      "overview": "제국의 왕궁에서 신앙을 지키며 꿈을 해석하고 여러 나라에 관한 환상을 받은 인물입니다. 동료들과 함께 정체성을 지키며 왕의 꿈을 설명합니다. 금지 명령에도 기도하고 사자 굴을 지난 뒤 왕국들에 관한 환상을 봅니다.",
+      "heroImage": "/assets/people/daniel.webp",
+      "scripture": [
+        "Daniel 1–2",
+        "Daniel 6–7"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "daniel",
+          "relationType": "RELATED_BOOK",
+          "label": "다니엘"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "왕궁과 꿈의 해석",
+          "scripture": "Daniel 1–2",
+          "description": "동료들과 함께 정체성을 지키며 왕의 꿈을 설명합니다."
+        },
+        {
+          "number": "02",
+          "title": "기도와 환상",
+          "scripture": "Daniel 6–7",
+          "description": "금지 명령에도 기도하고 사자 굴을 지난 뒤 왕국들에 관한 환상을 봅니다."
+        }
+      ]
+    }
+  ]
+}

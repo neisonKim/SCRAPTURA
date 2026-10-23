@@ -1,0 +1,382 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/LUK01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "luke",
+      "titleKo": "누가복음",
+      "titleEn": "Luke",
+      "eyebrow": "BIBLE · NEW TESTAMENT",
+      "summary": "예수의 사역을 가난한 이와 주변부 사람들을 향한 기쁜 소식, 잃은 이를 찾는 여정으로 전합니다.",
+      "overview": "예수의 사역을 가난한 이와 주변부 사람들을 향한 기쁜 소식, 잃은 이를 찾는 여정으로 전합니다. 요한과 예수의 탄생을 알리는 말씀과 마리아의 찬가, 성전의 만남을 기록합니다. 세례와 시험을 거친 예수가 나사렛에서 가난한 이들에게 전할 기쁜 소식을 선포하십니다. 치유와 제자들의 부르심, 안식일 논쟁과 원수 사랑의 가르침이 이어집니다. 백부장과 과부, 죄인으로 불린 여인을 만나고 제자들을 파송하며 고난의 길을 예고하십니다. 선한 사마리아인, 마르다와 마리아, 기도와 재물에 관한 가르침을 전합니다. 회개와 잔치의 초대, 잃은 양과 동전, 두 아들의 비유로 하나님의 기쁨을 보여 줍니다. 부와 가난, 감사와 기도, 삭개오의 만남을 통해 삶의 변화를 묻습니다. 성읍을 향해 우시고 성전에서 가르치며 앞으로 닥칠 일을 말씀하십니다. 마지막 식탁과 겟세마네, 재판과 십자가에서 용서와 신뢰의 모습을 전합니다. 빈 무덤과 엠마오 길의 만남 뒤에 제자들이 성경을 깨닫고 증인의 사명을 받습니다.",
+      "biblicalContext": "사도행전과 이어지는 첫 책으로 예수의 탄생에서 승천까지를 다룹니다. 기도와 성령, 식탁과 자비, 부와 가난 및 예루살렘으로 향하는 길이 반복되는 주제입니다.",
+      "heroImage": "/assets/bible/luke.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "약속과 탄생의 노래",
+          "scripture": "Luke 1–2",
+          "description": "요한과 예수의 탄생을 알리는 말씀과 마리아의 찬가, 성전의 만남을 기록합니다."
+        },
+        {
+          "number": "02",
+          "title": "성령과 기쁜 소식",
+          "scripture": "Luke 3–4",
+          "description": "세례와 시험을 거친 예수가 나사렛에서 가난한 이들에게 전할 기쁜 소식을 선포하십니다."
+        },
+        {
+          "number": "03",
+          "title": "부르심과 새로운 공동체",
+          "scripture": "Luke 5–6",
+          "description": "치유와 제자들의 부르심, 안식일 논쟁과 원수 사랑의 가르침이 이어집니다."
+        },
+        {
+          "number": "04",
+          "title": "만남과 제자의 배움",
+          "scripture": "Luke 7–9",
+          "description": "백부장과 과부, 죄인으로 불린 여인을 만나고 제자들을 파송하며 고난의 길을 예고하십니다."
+        },
+        {
+          "number": "05",
+          "title": "길에서 배우는 사랑과 기도",
+          "scripture": "Luke 10–12",
+          "description": "선한 사마리아인, 마르다와 마리아, 기도와 재물에 관한 가르침을 전합니다."
+        },
+        {
+          "number": "06",
+          "title": "돌아오는 잃은 이들",
+          "scripture": "Luke 13–15",
+          "description": "회개와 잔치의 초대, 잃은 양과 동전, 두 아들의 비유로 하나님의 기쁨을 보여 줍니다."
+        },
+        {
+          "number": "07",
+          "title": "재물과 제자도",
+          "scripture": "Luke 16–19:27",
+          "description": "부와 가난, 감사와 기도, 삭개오의 만남을 통해 삶의 변화를 묻습니다."
+        },
+        {
+          "number": "08",
+          "title": "예루살렘의 마지막 가르침",
+          "scripture": "Luke 19:28–21:38",
+          "description": "성읍을 향해 우시고 성전에서 가르치며 앞으로 닥칠 일을 말씀하십니다."
+        },
+        {
+          "number": "09",
+          "title": "만찬과 수난",
+          "scripture": "Luke 22–23",
+          "description": "마지막 식탁과 겟세마네, 재판과 십자가에서 용서와 신뢰의 모습을 전합니다."
+        },
+        {
+          "number": "10",
+          "title": "엠마오와 증인의 사명",
+          "scripture": "Luke 24",
+          "description": "빈 무덤과 엠마오 길의 만남 뒤에 제자들이 성경을 깨닫고 증인의 사명을 받습니다."
+        }
+      ],
+      "scripture": [
+        "Luke 1–24"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "jesus",
+          "relationType": "RELATED_PERSON",
+          "label": "예수 그리스도"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "mary-mother-of-jesus",
+          "relationType": "RELATED_PERSON",
+          "label": "예수의 어머니 마리아"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "john-the-baptist",
+          "relationType": "RELATED_PERSON",
+          "label": "세례 요한"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "nazareth",
+          "relationType": "RELATED_PLACE",
+          "label": "나사렛"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "emmaus",
+          "relationType": "RELATED_PLACE",
+          "label": "엠마오"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "luke-mercy-and-table",
+          "relationType": "RELATED_STORY",
+          "label": "이웃 사랑과 잃은 이를 찾는 기쁨"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "emmaus-and-resurrection",
+          "relationType": "RELATED_STORY",
+          "label": "십자가 이후 엠마오의 만남"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "mark",
+          "relationType": "RELATED_BOOK",
+          "label": "마가복음"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "john",
+          "relationType": "RELATED_BOOK",
+          "label": "요한복음"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "luke-mercy-and-table",
+      "titleKo": "이웃 사랑과 잃은 이를 찾는 기쁨",
+      "titleEn": "Luke Mercy And Table",
+      "eyebrow": "SCRIPTURE STUDY · LUKE",
+      "summary": "선한 사마리아인, 마르다와 마리아, 기도와 재물에 관한 가르침을 전합니다. 회개와 잔치의 초대, 잃은 양과 동전, 두 아들의 비유로 하나님의 기쁨을 보여 줍니다.",
+      "overview": "누가복음의 10–12, 13–15 본문을 따라 이웃 사랑과 잃은 이를 찾는 기쁨의 내용을 살펴봅니다. 사도행전과 이어지는 첫 책으로 예수의 탄생에서 승천까지를 다룹니다. 기도와 성령, 식탁과 자비, 부와 가난 및 예루살렘으로 향하는 길이 반복되는 주제입니다.",
+      "heroImage": "/assets/bible/luke.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "길에서 배우는 사랑과 기도",
+          "scripture": "Luke 10–12",
+          "description": "선한 사마리아인, 마르다와 마리아, 기도와 재물에 관한 가르침을 전합니다."
+        },
+        {
+          "number": "02",
+          "title": "돌아오는 잃은 이들",
+          "scripture": "Luke 13–15",
+          "description": "회개와 잔치의 초대, 잃은 양과 동전, 두 아들의 비유로 하나님의 기쁨을 보여 줍니다."
+        }
+      ],
+      "scripture": [
+        "Luke 10–12",
+        "Luke 13–15"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "luke",
+          "relationType": "RELATED_BOOK",
+          "label": "누가복음"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "jesus",
+          "relationType": "RELATED_PERSON",
+          "label": "예수 그리스도"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "mary-mother-of-jesus",
+          "relationType": "RELATED_PERSON",
+          "label": "예수의 어머니 마리아"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "john-the-baptist",
+          "relationType": "RELATED_PERSON",
+          "label": "세례 요한"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "nazareth",
+          "relationType": "RELATED_PLACE",
+          "label": "나사렛"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "emmaus",
+          "relationType": "RELATED_PLACE",
+          "label": "엠마오"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "emmaus-and-resurrection",
+      "titleKo": "십자가 이후 엠마오의 만남",
+      "titleEn": "Emmaus And Resurrection",
+      "eyebrow": "SCRIPTURE STUDY · LUKE",
+      "summary": "마지막 식탁과 겟세마네, 재판과 십자가에서 용서와 신뢰의 모습을 전합니다. 빈 무덤과 엠마오 길의 만남 뒤에 제자들이 성경을 깨닫고 증인의 사명을 받습니다.",
+      "overview": "누가복음의 22–23, 24 본문을 따라 십자가 이후 엠마오의 만남의 내용을 살펴봅니다. 사도행전과 이어지는 첫 책으로 예수의 탄생에서 승천까지를 다룹니다. 기도와 성령, 식탁과 자비, 부와 가난 및 예루살렘으로 향하는 길이 반복되는 주제입니다.",
+      "heroImage": "/assets/bible/luke.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "만찬과 수난",
+          "scripture": "Luke 22–23",
+          "description": "마지막 식탁과 겟세마네, 재판과 십자가에서 용서와 신뢰의 모습을 전합니다."
+        },
+        {
+          "number": "02",
+          "title": "엠마오와 증인의 사명",
+          "scripture": "Luke 24",
+          "description": "빈 무덤과 엠마오 길의 만남 뒤에 제자들이 성경을 깨닫고 증인의 사명을 받습니다."
+        }
+      ],
+      "scripture": [
+        "Luke 22–23",
+        "Luke 24"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "luke",
+          "relationType": "RELATED_BOOK",
+          "label": "누가복음"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "jesus",
+          "relationType": "RELATED_PERSON",
+          "label": "예수 그리스도"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "mary-mother-of-jesus",
+          "relationType": "RELATED_PERSON",
+          "label": "예수의 어머니 마리아"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "john-the-baptist",
+          "relationType": "RELATED_PERSON",
+          "label": "세례 요한"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "nazareth",
+          "relationType": "RELATED_PLACE",
+          "label": "나사렛"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "emmaus",
+          "relationType": "RELATED_PLACE",
+          "label": "엠마오"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "mary-mother-of-jesus",
+      "titleKo": "예수의 어머니 마리아",
+      "titleEn": "Mary, Mother of Jesus",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "예수의 탄생을 알리는 말씀에 응답하고 그의 삶과 고난의 자리에 등장하는 인물입니다.",
+      "overview": "예수의 탄생을 알리는 말씀에 응답하고 그의 삶과 고난의 자리에 등장하는 인물입니다. 탄생의 약속에 응답하고 하나님을 찬양하며 예수를 낳습니다. 가나의 잔치와 예수의 십자가 곁에 등장합니다.",
+      "heroImage": "/assets/people/mary-mother-of-jesus.webp",
+      "scripture": [
+        "Luke 1–2",
+        "John 2; 19"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "luke",
+          "relationType": "RELATED_BOOK",
+          "label": "누가복음"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "말씀에 대한 응답",
+          "scripture": "Luke 1–2",
+          "description": "탄생의 약속에 응답하고 하나님을 찬양하며 예수를 낳습니다."
+        },
+        {
+          "number": "02",
+          "title": "가나와 십자가 곁",
+          "scripture": "John 2; 19",
+          "description": "가나의 잔치와 예수의 십자가 곁에 등장합니다."
+        }
+      ]
+    },
+    {
+      "type": "place",
+      "slug": "nazareth",
+      "titleKo": "나사렛",
+      "titleEn": "Nazareth",
+      "eyebrow": "PLACES · BIBLICAL WORLD",
+      "summary": "예수의 성장과 연결되는 갈릴리의 마을로 누가복음에서 기쁜 소식을 선포하는 장면이 기록됩니다.",
+      "overview": "예수의 성장과 연결되는 갈릴리의 마을로 누가복음에서 기쁜 소식을 선포하는 장면이 기록됩니다.",
+      "heroImage": "/assets/scraptura-home-clean.jpg",
+      "scripture": [
+        "Luke 1–2; 4"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "luke",
+          "relationType": "RELATED_BOOK",
+          "label": "누가복음"
+        }
+      ],
+      "biblicalContext": "예수의 성장과 연결되는 갈릴리의 마을로 누가복음에서 기쁜 소식을 선포하는 장면이 기록됩니다.",
+      "keyEvent": {
+        "title": "나사렛의 성경 속 배경",
+        "scripture": "Luke 1–2; 4",
+        "description": "예수의 성장과 연결되는 갈릴리의 마을로 누가복음에서 기쁜 소식을 선포하는 장면이 기록됩니다."
+      }
+    },
+    {
+      "type": "place",
+      "slug": "emmaus",
+      "titleKo": "엠마오",
+      "titleEn": "Emmaus",
+      "eyebrow": "PLACES · BIBLICAL WORLD",
+      "summary": "부활한 예수가 길을 가던 두 제자와 동행하고 떡을 떼실 때 자신을 드러내신 마을입니다.",
+      "overview": "부활한 예수가 길을 가던 두 제자와 동행하고 떡을 떼실 때 자신을 드러내신 마을입니다.",
+      "heroImage": "/assets/scraptura-home-clean.jpg",
+      "scripture": [
+        "Luke 24:13–35"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "luke",
+          "relationType": "RELATED_BOOK",
+          "label": "누가복음"
+        }
+      ],
+      "biblicalContext": "부활한 예수가 길을 가던 두 제자와 동행하고 떡을 떼실 때 자신을 드러내신 마을입니다.",
+      "keyEvent": {
+        "title": "엠마오의 성경 속 배경",
+        "scripture": "Luke 24:13–35",
+        "description": "부활한 예수가 길을 가던 두 제자와 동행하고 떡을 떼실 때 자신을 드러내신 마을입니다."
+      }
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/3JN01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "3-john",
+      "titleKo": "요한삼서",
+      "titleEn": "3 John",
+      "eyebrow": "BIBLE · NEW TESTAMENT",
+      "summary": "가이오의 환대를 격려하고 공동체를 독점하려는 태도와 선한 본을 대비합니다.",
+      "overview": "가이오의 환대를 격려하고 공동체를 독점하려는 태도와 선한 본을 대비합니다. 장로가 가이오의 형편을 위해 기도하고 그가 진리 안에서 걷는다는 소식을 기뻐합니다. 낯선 형제들을 신실하게 도운 일을 칭찬하고 진리를 위해 함께 일하는 환대를 권합니다. 디오드레베의 배타적인 행동을 지적하고 선을 본받으며 데메드리오의 증언을 받아들이도록 합니다. 직접 만나 이야기할 소망과 친구들의 인사로 편지를 마칩니다. 일부 번역은 마지막 인사를 15절로 구분합니다.",
+      "biblicalContext": "순회하는 형제들을 돕는 실제적인 관계가 중심에 놓인 편지입니다. 진리를 위해 동역하는 환대와 지도자의 권력 남용을 대비하며 데메드리오에 대한 좋은 증언을 전합니다.",
+      "heroImage": "/assets/bible/3-john.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "진리 안에 사는 기쁨",
+          "scripture": "3 John 1:1–4",
+          "description": "장로가 가이오의 형편을 위해 기도하고 그가 진리 안에서 걷는다는 소식을 기뻐합니다."
+        },
+        {
+          "number": "02",
+          "title": "나그네를 돕는 동역",
+          "scripture": "3 John 1:5–8",
+          "description": "낯선 형제들을 신실하게 도운 일을 칭찬하고 진리를 위해 함께 일하는 환대를 권합니다."
+        },
+        {
+          "number": "03",
+          "title": "권력의 독점과 선한 본",
+          "scripture": "3 John 1:9–12",
+          "description": "디오드레베의 배타적인 행동을 지적하고 선을 본받으며 데메드리오의 증언을 받아들이도록 합니다."
+        },
+        {
+          "number": "04",
+          "title": "평안과 만남의 소망",
+          "scripture": "3 John 1:13–14",
+          "description": "직접 만나 이야기할 소망과 친구들의 인사로 편지를 마칩니다. 일부 번역은 마지막 인사를 15절로 구분합니다."
+        }
+      ],
+      "scripture": [
+        "3 John 1"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "john-apostle",
+          "relationType": "RELATED_PERSON",
+          "label": "사도 요한"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "gaius",
+          "relationType": "RELATED_PERSON",
+          "label": "가이오"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "gaius-hospitality",
+          "relationType": "RELATED_STORY",
+          "label": "가이오와 진리를 위한 환대"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "third-john-good-example",
+          "relationType": "RELATED_STORY",
+          "label": "권력의 독점 대신 선한 본"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-john",
+          "relationType": "RELATED_BOOK",
+          "label": "요한이서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "jude",
+          "relationType": "RELATED_BOOK",
+          "label": "유다서"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "gaius-hospitality",
+      "titleKo": "가이오와 진리를 위한 환대",
+      "titleEn": "Gaius Hospitality",
+      "eyebrow": "SCRIPTURE STUDY · 3 JOHN",
+      "summary": "장로가 가이오의 형편을 위해 기도하고 그가 진리 안에서 걷는다는 소식을 기뻐합니다. 낯선 형제들을 신실하게 도운 일을 칭찬하고 진리를 위해 함께 일하는 환대를 권합니다.",
+      "overview": "요한삼서의 1:1–4, 1:5–8 본문을 따라 가이오와 진리를 위한 환대의 내용을 살펴봅니다. 순회하는 형제들을 돕는 실제적인 관계가 중심에 놓인 편지입니다. 진리를 위해 동역하는 환대와 지도자의 권력 남용을 대비하며 데메드리오에 대한 좋은 증언을 전합니다.",
+      "heroImage": "/assets/bible/3-john.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "진리 안에 사는 기쁨",
+          "scripture": "3 John 1:1–4",
+          "description": "장로가 가이오의 형편을 위해 기도하고 그가 진리 안에서 걷는다는 소식을 기뻐합니다."
+        },
+        {
+          "number": "02",
+          "title": "나그네를 돕는 동역",
+          "scripture": "3 John 1:5–8",
+          "description": "낯선 형제들을 신실하게 도운 일을 칭찬하고 진리를 위해 함께 일하는 환대를 권합니다."
+        }
+      ],
+      "scripture": [
+        "3 John 1:1–4",
+        "3 John 1:5–8"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "3-john",
+          "relationType": "RELATED_BOOK",
+          "label": "요한삼서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "john-apostle",
+          "relationType": "RELATED_PERSON",
+          "label": "사도 요한"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "gaius",
+          "relationType": "RELATED_PERSON",
+          "label": "가이오"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "third-john-good-example",
+      "titleKo": "권력의 독점 대신 선한 본",
+      "titleEn": "Third John Good Example",
+      "eyebrow": "SCRIPTURE STUDY · 3 JOHN",
+      "summary": "디오드레베의 배타적인 행동을 지적하고 선을 본받으며 데메드리오의 증언을 받아들이도록 합니다. 직접 만나 이야기할 소망과 친구들의 인사로 편지를 마칩니다. 일부 번역은 마지막 인사를 15절로 구분합니다.",
+      "overview": "요한삼서의 1:9–12, 1:13–14 본문을 따라 권력의 독점 대신 선한 본의 내용을 살펴봅니다. 순회하는 형제들을 돕는 실제적인 관계가 중심에 놓인 편지입니다. 진리를 위해 동역하는 환대와 지도자의 권력 남용을 대비하며 데메드리오에 대한 좋은 증언을 전합니다.",
+      "heroImage": "/assets/bible/3-john.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "권력의 독점과 선한 본",
+          "scripture": "3 John 1:9–12",
+          "description": "디오드레베의 배타적인 행동을 지적하고 선을 본받으며 데메드리오의 증언을 받아들이도록 합니다."
+        },
+        {
+          "number": "02",
+          "title": "평안과 만남의 소망",
+          "scripture": "3 John 1:13–14",
+          "description": "직접 만나 이야기할 소망과 친구들의 인사로 편지를 마칩니다. 일부 번역은 마지막 인사를 15절로 구분합니다."
+        }
+      ],
+      "scripture": [
+        "3 John 1:9–12",
+        "3 John 1:13–14"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "3-john",
+          "relationType": "RELATED_BOOK",
+          "label": "요한삼서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "john-apostle",
+          "relationType": "RELATED_PERSON",
+          "label": "사도 요한"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "gaius",
+          "relationType": "RELATED_PERSON",
+          "label": "가이오"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "gaius",
+      "titleKo": "가이오",
+      "titleEn": "Gaius",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "요한삼서의 수신자로 진리 안에서 살아가며 낯선 형제들을 환대한 인물입니다.",
+      "overview": "요한삼서의 수신자로 진리 안에서 살아가며 낯선 형제들을 환대한 인물입니다. 장로는 가이오의 소식을 듣고 기뻐하며 그의 형편을 위해 기도합니다. 낯선 형제들을 도운 일이 진리를 위한 동역으로 칭찬받습니다.",
+      "heroImage": "/assets/people/gaius.webp",
+      "scripture": [
+        "3 John 1:1–4",
+        "3 John 1:5–8"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "3-john",
+          "relationType": "RELATED_BOOK",
+          "label": "요한삼서"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "진리 안에 걷는 사람",
+          "scripture": "3 John 1:1–4",
+          "description": "장로는 가이오의 소식을 듣고 기뻐하며 그의 형편을 위해 기도합니다."
+        },
+        {
+          "number": "02",
+          "title": "신실한 환대",
+          "scripture": "3 John 1:5–8",
+          "description": "낯선 형제들을 도운 일이 진리를 위한 동역으로 칭찬받습니다."
+        }
+      ]
+    }
+  ]
+}

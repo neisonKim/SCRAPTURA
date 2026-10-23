@@ -1,0 +1,321 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/NEH01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "nehemiah",
+      "titleKo": "느헤미야",
+      "titleEn": "Nehemiah",
+      "eyebrow": "BIBLE · OLD TESTAMENT",
+      "summary": "느헤미야가 예루살렘 성벽을 재건하고 백성과 함께 율법을 읽으며 공동체를 정비합니다.",
+      "overview": "느헤미야가 예루살렘 성벽을 재건하고 백성과 함께 율법을 읽으며 공동체를 정비합니다. 예루살렘의 소식을 들은 느헤미야가 기도하고 왕의 허락을 받아 성읍을 살핍니다. 다양한 사람들이 구간을 나누어 성벽을 쌓고 위협 속에서도 경계하며 일합니다. 느헤미야는 빚과 착취를 바로잡고 방해와 음모를 견디며 성벽을 완성합니다. 귀환자 명단을 정리하고 에스라가 율법을 읽어 주자 백성은 말씀을 듣고 절기를 지킵니다. 이스라엘의 역사를 돌아보는 기도 뒤에 지도자들과 백성이 언약의 책임을 확인합니다. 예루살렘의 거주자와 직무를 정리하고 찬양대가 성벽을 돌며 봉헌합니다. 느헤미야는 성전 직무와 안식일, 공동체의 혼인 문제를 다시 바로잡습니다.",
+      "biblicalContext": "페르시아 왕궁의 관원이던 느헤미야는 무너진 예루살렘을 위해 행동합니다. 외부의 반대뿐 아니라 빚과 착취, 예배와 안식일의 문제도 재건의 과제로 드러납니다.",
+      "heroImage": "/assets/bible/nehemiah.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "기도와 파견",
+          "scripture": "Nehemiah 1–2",
+          "description": "예루살렘의 소식을 들은 느헤미야가 기도하고 왕의 허락을 받아 성읍을 살핍니다."
+        },
+        {
+          "number": "02",
+          "title": "함께 쌓는 성벽",
+          "scripture": "Nehemiah 3–4",
+          "description": "다양한 사람들이 구간을 나누어 성벽을 쌓고 위협 속에서도 경계하며 일합니다."
+        },
+        {
+          "number": "03",
+          "title": "안팎의 갈등",
+          "scripture": "Nehemiah 5–6",
+          "description": "느헤미야는 빚과 착취를 바로잡고 방해와 음모를 견디며 성벽을 완성합니다."
+        },
+        {
+          "number": "04",
+          "title": "귀환자와 율법 낭독",
+          "scripture": "Nehemiah 7–8",
+          "description": "귀환자 명단을 정리하고 에스라가 율법을 읽어 주자 백성은 말씀을 듣고 절기를 지킵니다."
+        },
+        {
+          "number": "05",
+          "title": "고백과 언약",
+          "scripture": "Nehemiah 9–10",
+          "description": "이스라엘의 역사를 돌아보는 기도 뒤에 지도자들과 백성이 언약의 책임을 확인합니다."
+        },
+        {
+          "number": "06",
+          "title": "성읍의 사람들과 봉헌",
+          "scripture": "Nehemiah 11–12",
+          "description": "예루살렘의 거주자와 직무를 정리하고 찬양대가 성벽을 돌며 봉헌합니다."
+        },
+        {
+          "number": "07",
+          "title": "계속되는 개혁",
+          "scripture": "Nehemiah 13",
+          "description": "느헤미야는 성전 직무와 안식일, 공동체의 혼인 문제를 다시 바로잡습니다."
+        }
+      ],
+      "scripture": [
+        "Nehemiah 1–13"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "nehemiah",
+          "relationType": "RELATED_PERSON",
+          "label": "느헤미야"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "ezra",
+          "relationType": "RELATED_PERSON",
+          "label": "에스라"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "susa",
+          "relationType": "RELATED_PLACE",
+          "label": "수산"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "nehemiah-wall",
+          "relationType": "RELATED_STORY",
+          "label": "기도에서 성벽 완성까지"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "law-and-renewed-community",
+          "relationType": "RELATED_STORY",
+          "label": "말씀을 듣고 언약을 확인하다"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "ezra",
+          "relationType": "RELATED_BOOK",
+          "label": "에스라"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "esther",
+          "relationType": "RELATED_BOOK",
+          "label": "에스더"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "nehemiah-wall",
+      "titleKo": "기도에서 성벽 완성까지",
+      "titleEn": "Nehemiah Wall",
+      "eyebrow": "SCRIPTURE STUDY · NEHEMIAH",
+      "summary": "예루살렘의 소식을 들은 느헤미야가 기도하고 왕의 허락을 받아 성읍을 살핍니다. 다양한 사람들이 구간을 나누어 성벽을 쌓고 위협 속에서도 경계하며 일합니다. 느헤미야는 빚과 착취를 바로잡고 방해와 음모를 견디며 성벽을 완성합니다.",
+      "overview": "느헤미야의 1–2, 3–4, 5–6 본문을 따라 기도에서 성벽 완성까지의 내용을 살펴봅니다. 페르시아 왕궁의 관원이던 느헤미야는 무너진 예루살렘을 위해 행동합니다. 외부의 반대뿐 아니라 빚과 착취, 예배와 안식일의 문제도 재건의 과제로 드러납니다.",
+      "heroImage": "/assets/bible/nehemiah.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "기도와 파견",
+          "scripture": "Nehemiah 1–2",
+          "description": "예루살렘의 소식을 들은 느헤미야가 기도하고 왕의 허락을 받아 성읍을 살핍니다."
+        },
+        {
+          "number": "02",
+          "title": "함께 쌓는 성벽",
+          "scripture": "Nehemiah 3–4",
+          "description": "다양한 사람들이 구간을 나누어 성벽을 쌓고 위협 속에서도 경계하며 일합니다."
+        },
+        {
+          "number": "03",
+          "title": "안팎의 갈등",
+          "scripture": "Nehemiah 5–6",
+          "description": "느헤미야는 빚과 착취를 바로잡고 방해와 음모를 견디며 성벽을 완성합니다."
+        }
+      ],
+      "scripture": [
+        "Nehemiah 1–2",
+        "Nehemiah 3–4",
+        "Nehemiah 5–6"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "nehemiah",
+          "relationType": "RELATED_BOOK",
+          "label": "느헤미야"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "nehemiah",
+          "relationType": "RELATED_PERSON",
+          "label": "느헤미야"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "ezra",
+          "relationType": "RELATED_PERSON",
+          "label": "에스라"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "susa",
+          "relationType": "RELATED_PLACE",
+          "label": "수산"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "law-and-renewed-community",
+      "titleKo": "말씀을 듣고 언약을 확인하다",
+      "titleEn": "Law And Renewed Community",
+      "eyebrow": "SCRIPTURE STUDY · NEHEMIAH",
+      "summary": "귀환자 명단을 정리하고 에스라가 율법을 읽어 주자 백성은 말씀을 듣고 절기를 지킵니다. 이스라엘의 역사를 돌아보는 기도 뒤에 지도자들과 백성이 언약의 책임을 확인합니다. 예루살렘의 거주자와 직무를 정리하고 찬양대가 성벽을 돌며 봉헌합니다.",
+      "overview": "느헤미야의 7–8, 9–10, 11–12 본문을 따라 말씀을 듣고 언약을 확인하다의 내용을 살펴봅니다. 페르시아 왕궁의 관원이던 느헤미야는 무너진 예루살렘을 위해 행동합니다. 외부의 반대뿐 아니라 빚과 착취, 예배와 안식일의 문제도 재건의 과제로 드러납니다.",
+      "heroImage": "/assets/bible/nehemiah.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "귀환자와 율법 낭독",
+          "scripture": "Nehemiah 7–8",
+          "description": "귀환자 명단을 정리하고 에스라가 율법을 읽어 주자 백성은 말씀을 듣고 절기를 지킵니다."
+        },
+        {
+          "number": "02",
+          "title": "고백과 언약",
+          "scripture": "Nehemiah 9–10",
+          "description": "이스라엘의 역사를 돌아보는 기도 뒤에 지도자들과 백성이 언약의 책임을 확인합니다."
+        },
+        {
+          "number": "03",
+          "title": "성읍의 사람들과 봉헌",
+          "scripture": "Nehemiah 11–12",
+          "description": "예루살렘의 거주자와 직무를 정리하고 찬양대가 성벽을 돌며 봉헌합니다."
+        }
+      ],
+      "scripture": [
+        "Nehemiah 7–8",
+        "Nehemiah 9–10",
+        "Nehemiah 11–12"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "nehemiah",
+          "relationType": "RELATED_BOOK",
+          "label": "느헤미야"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "nehemiah",
+          "relationType": "RELATED_PERSON",
+          "label": "느헤미야"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "ezra",
+          "relationType": "RELATED_PERSON",
+          "label": "에스라"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "susa",
+          "relationType": "RELATED_PLACE",
+          "label": "수산"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "nehemiah",
+      "titleKo": "느헤미야",
+      "titleEn": "Nehemiah",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "페르시아 왕궁에서 일하다 예루살렘으로 가 성벽과 공동체를 재건한 지도자입니다.",
+      "overview": "페르시아 왕궁에서 일하다 예루살렘으로 가 성벽과 공동체를 재건한 지도자입니다. 예루살렘의 소식에 기도하고 반대와 착취 문제를 다루며 성벽을 완성합니다. 율법 낭독과 언약 갱신에 참여하고 공동체의 예배와 삶을 정비합니다.",
+      "heroImage": "/assets/people/nehemiah.webp",
+      "scripture": [
+        "Nehemiah 1–6",
+        "Nehemiah 8–13"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "nehemiah",
+          "relationType": "RELATED_BOOK",
+          "label": "느헤미야"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "기도와 성벽 재건",
+          "scripture": "Nehemiah 1–6",
+          "description": "예루살렘의 소식에 기도하고 반대와 착취 문제를 다루며 성벽을 완성합니다."
+        },
+        {
+          "number": "02",
+          "title": "언약과 계속되는 개혁",
+          "scripture": "Nehemiah 8–13",
+          "description": "율법 낭독과 언약 갱신에 참여하고 공동체의 예배와 삶을 정비합니다."
+        }
+      ]
+    },
+    {
+      "type": "place",
+      "slug": "susa",
+      "titleKo": "수산",
+      "titleEn": "Susa",
+      "eyebrow": "PLACES · BIBLICAL WORLD",
+      "summary": "페르시아의 왕궁이 있던 성읍으로 에스더의 궁정 이야기와 느헤미야의 출발점에 등장합니다.",
+      "overview": "페르시아의 왕궁이 있던 성읍으로 에스더의 궁정 이야기와 느헤미야의 출발점에 등장합니다.",
+      "heroImage": "/assets/scraptura-home-clean.jpg",
+      "scripture": [
+        "Esther 1–2; Nehemiah 1"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "nehemiah",
+          "relationType": "RELATED_BOOK",
+          "label": "느헤미야"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "esther",
+          "relationType": "RELATED_BOOK",
+          "label": "에스더"
+        }
+      ],
+      "biblicalContext": "페르시아의 왕궁이 있던 성읍으로 에스더의 궁정 이야기와 느헤미야의 출발점에 등장합니다.",
+      "keyEvent": {
+        "title": "수산의 성경 속 배경",
+        "scripture": "Esther 1–2; Nehemiah 1",
+        "description": "페르시아의 왕궁이 있던 성읍으로 에스더의 궁정 이야기와 느헤미야의 출발점에 등장합니다."
+      }
+    }
+  ]
+}

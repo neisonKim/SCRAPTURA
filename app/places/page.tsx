@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import PlacesArchiveFirebase
   from "../../components/PlacesArchiveFirebase";
+import { getLocalArchiveRecords } from "../../data/archive";
 
 export const metadata: Metadata = {
   title: "Places",
@@ -20,6 +21,6 @@ export const metadata: Metadata = {
 
 export default function Page() {
 return (
-  <PlacesArchiveFirebase />
+  <PlacesArchiveFirebase initialRecords={getLocalArchiveRecords("place")} />
 );
 }

@@ -1,0 +1,363 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/PHP01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "philippians",
+      "titleKo": "빌립보서",
+      "titleEn": "Philippians",
+      "eyebrow": "BIBLE · NEW TESTAMENT",
+      "summary": "갇힌 자리에서도 복음의 동역을 기뻐하며 그리스도의 겸손과 서로 돌보는 마음을 권합니다.",
+      "overview": "갇힌 자리에서도 복음의 동역을 기뻐하며 그리스도의 겸손과 서로 돌보는 마음을 권합니다. 공동체를 위해 감사하고 자신의 투옥도 복음의 전진에 쓰였음을 전합니다. 자기 유익만 구하지 말고 낮아지신 그리스도의 마음으로 서로를 돌보라고 권합니다. 디모데와 에바브로디도의 수고를 소개하며 동역자를 귀하게 여길 것을 말합니다. 외적 자랑을 내려놓고 그리스도를 아는 것과 부활의 소망을 향해 나아갑니다. 공동체의 화해와 기도, 자족과 후원에 대한 감사를 전하며 편지를 마칩니다.",
+      "biblicalContext": "바울과 빌립보 공동체의 깊은 동역 관계가 드러나는 편지입니다. 고난 속의 기쁨은 현실을 부정하는 태도가 아니라 그리스도를 본받는 겸손과 이웃 돌봄, 감사의 실천으로 나타납니다.",
+      "heroImage": "/assets/bible/philippians.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "감사와 복음의 전진",
+          "scripture": "Philippians 1",
+          "description": "공동체를 위해 감사하고 자신의 투옥도 복음의 전진에 쓰였음을 전합니다."
+        },
+        {
+          "number": "02",
+          "title": "그리스도의 겸손",
+          "scripture": "Philippians 2:1–18",
+          "description": "자기 유익만 구하지 말고 낮아지신 그리스도의 마음으로 서로를 돌보라고 권합니다."
+        },
+        {
+          "number": "03",
+          "title": "함께 섬기는 사람들",
+          "scripture": "Philippians 2:19–30",
+          "description": "디모데와 에바브로디도의 수고를 소개하며 동역자를 귀하게 여길 것을 말합니다."
+        },
+        {
+          "number": "04",
+          "title": "그리스도를 아는 삶",
+          "scripture": "Philippians 3",
+          "description": "외적 자랑을 내려놓고 그리스도를 아는 것과 부활의 소망을 향해 나아갑니다."
+        },
+        {
+          "number": "05",
+          "title": "화해와 감사, 나눔",
+          "scripture": "Philippians 4",
+          "description": "공동체의 화해와 기도, 자족과 후원에 대한 감사를 전하며 편지를 마칩니다."
+        }
+      ],
+      "scripture": [
+        "Philippians 1–4"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "timothy",
+          "relationType": "RELATED_PERSON",
+          "label": "디모데"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "epaphroditus",
+          "relationType": "RELATED_PERSON",
+          "label": "에바브로디도"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "philippi",
+          "relationType": "RELATED_PLACE",
+          "label": "빌립보"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "philippians-humility",
+          "relationType": "RELATED_STORY",
+          "label": "기쁨과 그리스도의 겸손"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "philippians-contentment",
+          "relationType": "RELATED_STORY",
+          "label": "목표를 향한 삶과 감사의 동역"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "ephesians",
+          "relationType": "RELATED_BOOK",
+          "label": "에베소서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "colossians",
+          "relationType": "RELATED_BOOK",
+          "label": "골로새서"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "philippians-humility",
+      "titleKo": "기쁨과 그리스도의 겸손",
+      "titleEn": "Philippians Humility",
+      "eyebrow": "SCRIPTURE STUDY · PHILIPPIANS",
+      "summary": "공동체를 위해 감사하고 자신의 투옥도 복음의 전진에 쓰였음을 전합니다. 자기 유익만 구하지 말고 낮아지신 그리스도의 마음으로 서로를 돌보라고 권합니다. 디모데와 에바브로디도의 수고를 소개하며 동역자를 귀하게 여길 것을 말합니다.",
+      "overview": "빌립보서의 1, 2:1–18, 2:19–30 본문을 따라 기쁨과 그리스도의 겸손의 내용을 살펴봅니다. 바울과 빌립보 공동체의 깊은 동역 관계가 드러나는 편지입니다. 고난 속의 기쁨은 현실을 부정하는 태도가 아니라 그리스도를 본받는 겸손과 이웃 돌봄, 감사의 실천으로 나타납니다.",
+      "heroImage": "/assets/bible/philippians.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "감사와 복음의 전진",
+          "scripture": "Philippians 1",
+          "description": "공동체를 위해 감사하고 자신의 투옥도 복음의 전진에 쓰였음을 전합니다."
+        },
+        {
+          "number": "02",
+          "title": "그리스도의 겸손",
+          "scripture": "Philippians 2:1–18",
+          "description": "자기 유익만 구하지 말고 낮아지신 그리스도의 마음으로 서로를 돌보라고 권합니다."
+        },
+        {
+          "number": "03",
+          "title": "함께 섬기는 사람들",
+          "scripture": "Philippians 2:19–30",
+          "description": "디모데와 에바브로디도의 수고를 소개하며 동역자를 귀하게 여길 것을 말합니다."
+        }
+      ],
+      "scripture": [
+        "Philippians 1",
+        "Philippians 2:1–18",
+        "Philippians 2:19–30"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "philippians",
+          "relationType": "RELATED_BOOK",
+          "label": "빌립보서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "timothy",
+          "relationType": "RELATED_PERSON",
+          "label": "디모데"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "epaphroditus",
+          "relationType": "RELATED_PERSON",
+          "label": "에바브로디도"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "philippi",
+          "relationType": "RELATED_PLACE",
+          "label": "빌립보"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "philippians-contentment",
+      "titleKo": "목표를 향한 삶과 감사의 동역",
+      "titleEn": "Philippians Contentment",
+      "eyebrow": "SCRIPTURE STUDY · PHILIPPIANS",
+      "summary": "외적 자랑을 내려놓고 그리스도를 아는 것과 부활의 소망을 향해 나아갑니다. 공동체의 화해와 기도, 자족과 후원에 대한 감사를 전하며 편지를 마칩니다.",
+      "overview": "빌립보서의 3, 4 본문을 따라 목표를 향한 삶과 감사의 동역의 내용을 살펴봅니다. 바울과 빌립보 공동체의 깊은 동역 관계가 드러나는 편지입니다. 고난 속의 기쁨은 현실을 부정하는 태도가 아니라 그리스도를 본받는 겸손과 이웃 돌봄, 감사의 실천으로 나타납니다.",
+      "heroImage": "/assets/bible/philippians.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "그리스도를 아는 삶",
+          "scripture": "Philippians 3",
+          "description": "외적 자랑을 내려놓고 그리스도를 아는 것과 부활의 소망을 향해 나아갑니다."
+        },
+        {
+          "number": "02",
+          "title": "화해와 감사, 나눔",
+          "scripture": "Philippians 4",
+          "description": "공동체의 화해와 기도, 자족과 후원에 대한 감사를 전하며 편지를 마칩니다."
+        }
+      ],
+      "scripture": [
+        "Philippians 3",
+        "Philippians 4"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "philippians",
+          "relationType": "RELATED_BOOK",
+          "label": "빌립보서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "timothy",
+          "relationType": "RELATED_PERSON",
+          "label": "디모데"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "epaphroditus",
+          "relationType": "RELATED_PERSON",
+          "label": "에바브로디도"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "philippi",
+          "relationType": "RELATED_PLACE",
+          "label": "빌립보"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "timothy",
+      "titleKo": "디모데",
+      "titleEn": "Timothy",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "바울과 함께 여행하고 공동체를 격려하며 가르침과 돌봄의 책임을 맡은 동역자입니다.",
+      "overview": "바울과 함께 여행하고 공동체를 격려하며 가르침과 돌봄의 책임을 맡은 동역자입니다. 루스드라에서 바울의 선교 여정에 합류합니다. 바울은 디모데가 공동체의 사정을 진실하게 염려하는 사람이라고 소개합니다. 담대히 복음을 지키고 신실한 이들에게 가르침을 전하라는 권면을 받습니다.",
+      "heroImage": "/assets/people/timothy.webp",
+      "scripture": [
+        "Acts 16:1–5",
+        "Philippians 2:19–24",
+        "2 Timothy 1–2"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "philippians",
+          "relationType": "RELATED_BOOK",
+          "label": "빌립보서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "1-thessalonians",
+          "relationType": "RELATED_BOOK",
+          "label": "데살로니가전서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-thessalonians",
+          "relationType": "RELATED_BOOK",
+          "label": "데살로니가후서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "1-timothy",
+          "relationType": "RELATED_BOOK",
+          "label": "디모데전서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-timothy",
+          "relationType": "RELATED_BOOK",
+          "label": "디모데후서"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "여정에 참여하다",
+          "scripture": "Acts 16:1–5",
+          "description": "루스드라에서 바울의 선교 여정에 합류합니다."
+        },
+        {
+          "number": "02",
+          "title": "공동체를 진심으로 돌보다",
+          "scripture": "Philippians 2:19–24",
+          "description": "바울은 디모데가 공동체의 사정을 진실하게 염려하는 사람이라고 소개합니다."
+        },
+        {
+          "number": "03",
+          "title": "받은 것을 맡기다",
+          "scripture": "2 Timothy 1–2",
+          "description": "담대히 복음을 지키고 신실한 이들에게 가르침을 전하라는 권면을 받습니다."
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "epaphroditus",
+      "titleKo": "에바브로디도",
+      "titleEn": "Epaphroditus",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "빌립보 공동체가 바울을 돕도록 보냈으며 병에 이를 만큼 수고한 동역자입니다.",
+      "overview": "빌립보 공동체가 바울을 돕도록 보냈으며 병에 이를 만큼 수고한 동역자입니다. 공동체를 대신해 바울을 섬기다 병들었으나 회복하여 돌아갑니다. 빌립보 신자들이 보낸 도움을 바울에게 전달합니다.",
+      "heroImage": "/assets/people/epaphroditus.webp",
+      "scripture": [
+        "Philippians 2:25–30",
+        "Philippians 4:18"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "philippians",
+          "relationType": "RELATED_BOOK",
+          "label": "빌립보서"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "돌봄과 질병",
+          "scripture": "Philippians 2:25–30",
+          "description": "공동체를 대신해 바울을 섬기다 병들었으나 회복하여 돌아갑니다."
+        },
+        {
+          "number": "02",
+          "title": "나눔을 전달하다",
+          "scripture": "Philippians 4:18",
+          "description": "빌립보 신자들이 보낸 도움을 바울에게 전달합니다."
+        }
+      ]
+    },
+    {
+      "type": "place",
+      "slug": "philippi",
+      "titleKo": "빌립보",
+      "titleEn": "Philippi",
+      "eyebrow": "PLACES · BIBLICAL WORLD",
+      "summary": "루디아와 간수의 이야기로 소개되며 바울과 기쁨과 후원의 관계를 맺은 공동체가 있던 도시입니다.",
+      "overview": "루디아와 간수의 이야기로 소개되며 바울과 기쁨과 후원의 관계를 맺은 공동체가 있던 도시입니다.",
+      "heroImage": "/assets/scraptura-home-clean.jpg",
+      "scripture": [
+        "Acts 16; Philippians 1"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "philippians",
+          "relationType": "RELATED_BOOK",
+          "label": "빌립보서"
+        }
+      ],
+      "biblicalContext": "루디아와 간수의 이야기로 소개되며 바울과 기쁨과 후원의 관계를 맺은 공동체가 있던 도시입니다.",
+      "keyEvent": {
+        "title": "빌립보의 성경 속 배경",
+        "scripture": "Acts 16; Philippians 1",
+        "description": "루디아와 간수의 이야기로 소개되며 바울과 기쁨과 후원의 관계를 맺은 공동체가 있던 도시입니다."
+      }
+    }
+  ]
+}

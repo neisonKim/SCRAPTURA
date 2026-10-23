@@ -1,0 +1,578 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/NUM01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "numbers",
+      "titleKo": "민수기",
+      "titleEn": "Numbers",
+      "eyebrow": "BIBLE · OLD TESTAMENT",
+      "summary": "시내산에서 모압 평지까지, 광야를 지나는 이스라엘의 실패와 새로운 세대의 준비를 따라갑니다.",
+      "overview": "시내산에서 모압 평지까지, 광야를 지나는 이스라엘의 실패와 새로운 세대의 준비를 따라갑니다. 이스라엘 지파의 인구를 조사하고 성막을 중심으로 진영을 배치하며 레위인의 임무를 정합니다. 진영의 정결, 배상과 나실인의 서원을 다루고 제사장이 백성에게 전할 축복을 제시합니다. 지파 지도자들의 봉헌과 레위인의 구별, 유월절과 나팔 규례 뒤에 시내산을 떠나는 행진이 시작됩니다. 음식에 대한 불평과 지도력의 부담 속에서 장로들이 세워지고 미리암과 아론의 비방 사건이 일어납니다. 가나안을 살핀 정탐꾼들의 보고가 두려움과 반역으로 이어지고 여호수아와 갈렙은 다른 길을 권합니다. 제사 규정에 이어 고라의 반역과 아론의 싹 난 지팡이, 제사장과 레위인의 책임이 기록됩니다. 므리바의 물 사건, 아론의 죽음과 놋뱀 사건을 지나 이스라엘은 요단 동편으로 이동합니다. 발락이 부른 발람의 말은 이스라엘을 향한 축복으로 바뀌지만 백성은 바알브올 사건에 빠집니다. 새 인구 조사와 슬로브핫의 딸들의 요청, 여호수아의 임명, 절기와 서원 규정이 이어집니다. 미디안 전쟁과 요단 동편 정착, 광야 노정, 경계와 도피성 및 기업 상속 규정으로 여정이 마무리됩니다.",
+      "biblicalContext": "출애굽 이후의 공동체가 약속의 땅 앞에 이르는 여정입니다. 인구 조사와 진영 규례 사이에 불평, 반역, 중재, 다음 세대를 위한 땅 분배 규정이 이어집니다.",
+      "heroImage": "/assets/bible/numbers.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "진영과 섬김의 질서",
+          "scripture": "Numbers 1–4",
+          "description": "이스라엘 지파의 인구를 조사하고 성막을 중심으로 진영을 배치하며 레위인의 임무를 정합니다."
+        },
+        {
+          "number": "02",
+          "title": "공동체의 정결과 축복",
+          "scripture": "Numbers 5–6",
+          "description": "진영의 정결, 배상과 나실인의 서원을 다루고 제사장이 백성에게 전할 축복을 제시합니다."
+        },
+        {
+          "number": "03",
+          "title": "성막에서 길을 떠나다",
+          "scripture": "Numbers 7–10",
+          "description": "지파 지도자들의 봉헌과 레위인의 구별, 유월절과 나팔 규례 뒤에 시내산을 떠나는 행진이 시작됩니다."
+        },
+        {
+          "number": "04",
+          "title": "광야의 불평과 중재",
+          "scripture": "Numbers 11–12",
+          "description": "음식에 대한 불평과 지도력의 부담 속에서 장로들이 세워지고 미리암과 아론의 비방 사건이 일어납니다."
+        },
+        {
+          "number": "05",
+          "title": "열두 정탐꾼",
+          "scripture": "Numbers 13–14",
+          "description": "가나안을 살핀 정탐꾼들의 보고가 두려움과 반역으로 이어지고 여호수아와 갈렙은 다른 길을 권합니다."
+        },
+        {
+          "number": "06",
+          "title": "반역과 제사장 직무",
+          "scripture": "Numbers 15–19",
+          "description": "제사 규정에 이어 고라의 반역과 아론의 싹 난 지팡이, 제사장과 레위인의 책임이 기록됩니다."
+        },
+        {
+          "number": "07",
+          "title": "물이 없는 길과 놋뱀",
+          "scripture": "Numbers 20–21",
+          "description": "므리바의 물 사건, 아론의 죽음과 놋뱀 사건을 지나 이스라엘은 요단 동편으로 이동합니다."
+        },
+        {
+          "number": "08",
+          "title": "발람과 모압",
+          "scripture": "Numbers 22–25",
+          "description": "발락이 부른 발람의 말은 이스라엘을 향한 축복으로 바뀌지만 백성은 바알브올 사건에 빠집니다."
+        },
+        {
+          "number": "09",
+          "title": "새 세대의 준비",
+          "scripture": "Numbers 26–30",
+          "description": "새 인구 조사와 슬로브핫의 딸들의 요청, 여호수아의 임명, 절기와 서원 규정이 이어집니다."
+        },
+        {
+          "number": "10",
+          "title": "모압 평지에서",
+          "scripture": "Numbers 31–36",
+          "description": "미디안 전쟁과 요단 동편 정착, 광야 노정, 경계와 도피성 및 기업 상속 규정으로 여정이 마무리됩니다."
+        }
+      ],
+      "scripture": [
+        "Numbers 1–36"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "moses",
+          "relationType": "RELATED_PERSON",
+          "label": "모세"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "balaam",
+          "relationType": "RELATED_PERSON",
+          "label": "발람"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "joshua",
+          "relationType": "RELATED_PERSON",
+          "label": "여호수아"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "sinai",
+          "relationType": "RELATED_PLACE",
+          "label": "시내산"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "kadesh",
+          "relationType": "RELATED_PLACE",
+          "label": "가데스"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "moab",
+          "relationType": "RELATED_PLACE",
+          "label": "모압"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "twelve-spies",
+          "relationType": "RELATED_STORY",
+          "label": "열두 정탐꾼"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "korah-rebellion",
+          "relationType": "RELATED_STORY",
+          "label": "고라의 반역"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "bronze-serpent",
+          "relationType": "RELATED_STORY",
+          "label": "놋뱀 사건"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "balaam-and-balak",
+          "relationType": "RELATED_STORY",
+          "label": "발람과 발락"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "leviticus",
+          "relationType": "RELATED_BOOK",
+          "label": "레위기"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "deuteronomy",
+          "relationType": "RELATED_BOOK",
+          "label": "신명기"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "twelve-spies",
+      "titleKo": "열두 정탐꾼",
+      "titleEn": "Twelve Spies",
+      "eyebrow": "STORIES · NUMBERS",
+      "summary": "각 지파에서 보낸 사람들이 가나안의 땅과 성읍, 열매를 살핍니다. 같은 땅을 본 정탐꾼들의 보고는 그 땅의 풍요와 주민에 대한 두려움 사이에서 갈립니다. 백성의 반역과 모세의 중재 뒤에 광야에서 한 세대가 지나갈 것이라는 선언이 내려집니다.",
+      "overview": "민수기의 13:1–24, 13:25–33, 14 본문을 따라 열두 정탐꾼의 내용을 살펴봅니다. 출애굽 이후의 공동체가 약속의 땅 앞에 이르는 여정입니다. 인구 조사와 진영 규례 사이에 불평, 반역, 중재, 다음 세대를 위한 땅 분배 규정이 이어집니다.",
+      "heroImage": "/assets/bible/numbers.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "땅을 살피다",
+          "scripture": "Numbers 13:1–24",
+          "description": "각 지파에서 보낸 사람들이 가나안의 땅과 성읍, 열매를 살핍니다."
+        },
+        {
+          "number": "02",
+          "title": "엇갈리는 보고",
+          "scripture": "Numbers 13:25–33",
+          "description": "같은 땅을 본 정탐꾼들의 보고는 그 땅의 풍요와 주민에 대한 두려움 사이에서 갈립니다."
+        },
+        {
+          "number": "03",
+          "title": "광야로 돌아가는 세대",
+          "scripture": "Numbers 14",
+          "description": "백성의 반역과 모세의 중재 뒤에 광야에서 한 세대가 지나갈 것이라는 선언이 내려집니다."
+        }
+      ],
+      "scripture": [
+        "Numbers 13:1–24",
+        "Numbers 13:25–33",
+        "Numbers 14"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "numbers",
+          "relationType": "RELATED_BOOK",
+          "label": "민수기"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "moses",
+          "relationType": "RELATED_PERSON",
+          "label": "모세"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "balaam",
+          "relationType": "RELATED_PERSON",
+          "label": "발람"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "joshua",
+          "relationType": "RELATED_PERSON",
+          "label": "여호수아"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "sinai",
+          "relationType": "RELATED_PLACE",
+          "label": "시내산"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "kadesh",
+          "relationType": "RELATED_PLACE",
+          "label": "가데스"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "moab",
+          "relationType": "RELATED_PLACE",
+          "label": "모압"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "korah-rebellion",
+      "titleKo": "고라의 반역",
+      "titleEn": "Korah Rebellion",
+      "eyebrow": "STORIES · NUMBERS",
+      "summary": "고라와 그 무리가 모세와 아론의 권위를 문제 삼고 회중을 모읍니다. 반역에 대한 심판이 일어나고 아론은 향로를 들고 백성을 위해 속죄합니다. 아론의 지팡이에 싹과 열매가 맺히며 제사장 직무에 관한 표징으로 보존됩니다.",
+      "overview": "민수기의 16:1–19, 16:20–50, 17 본문을 따라 고라의 반역의 내용을 살펴봅니다. 출애굽 이후의 공동체가 약속의 땅 앞에 이르는 여정입니다. 인구 조사와 진영 규례 사이에 불평, 반역, 중재, 다음 세대를 위한 땅 분배 규정이 이어집니다.",
+      "heroImage": "/assets/bible/numbers.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "지도력에 대한 도전",
+          "scripture": "Numbers 16:1–19",
+          "description": "고라와 그 무리가 모세와 아론의 권위를 문제 삼고 회중을 모읍니다."
+        },
+        {
+          "number": "02",
+          "title": "심판과 중재",
+          "scripture": "Numbers 16:20–50",
+          "description": "반역에 대한 심판이 일어나고 아론은 향로를 들고 백성을 위해 속죄합니다."
+        },
+        {
+          "number": "03",
+          "title": "싹이 난 지팡이",
+          "scripture": "Numbers 17",
+          "description": "아론의 지팡이에 싹과 열매가 맺히며 제사장 직무에 관한 표징으로 보존됩니다."
+        }
+      ],
+      "scripture": [
+        "Numbers 16:1–19",
+        "Numbers 16:20–50",
+        "Numbers 17"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "numbers",
+          "relationType": "RELATED_BOOK",
+          "label": "민수기"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "moses",
+          "relationType": "RELATED_PERSON",
+          "label": "모세"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "balaam",
+          "relationType": "RELATED_PERSON",
+          "label": "발람"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "joshua",
+          "relationType": "RELATED_PERSON",
+          "label": "여호수아"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "sinai",
+          "relationType": "RELATED_PLACE",
+          "label": "시내산"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "kadesh",
+          "relationType": "RELATED_PLACE",
+          "label": "가데스"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "moab",
+          "relationType": "RELATED_PLACE",
+          "label": "모압"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "bronze-serpent",
+      "titleKo": "놋뱀 사건",
+      "titleEn": "Bronze Serpent",
+      "eyebrow": "STORIES · NUMBERS",
+      "summary": "백성은 에돔 땅을 우회하는 길에서 마음이 상하고 하나님과 모세를 원망합니다. 불뱀으로 피해를 입은 백성은 잘못을 인정하며 모세에게 중재를 요청합니다. 모세는 지시를 따라 놋뱀을 달고 물린 이들은 그것을 바라보며 살아납니다.",
+      "overview": "민수기의 21:4–5, 21:6–7, 21:8–9 본문을 따라 놋뱀 사건의 내용을 살펴봅니다. 출애굽 이후의 공동체가 약속의 땅 앞에 이르는 여정입니다. 인구 조사와 진영 규례 사이에 불평, 반역, 중재, 다음 세대를 위한 땅 분배 규정이 이어집니다.",
+      "heroImage": "/assets/bible/numbers.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "길에서 낙심하다",
+          "scripture": "Numbers 21:4–5",
+          "description": "백성은 에돔 땅을 우회하는 길에서 마음이 상하고 하나님과 모세를 원망합니다."
+        },
+        {
+          "number": "02",
+          "title": "돌아서는 백성",
+          "scripture": "Numbers 21:6–7",
+          "description": "불뱀으로 피해를 입은 백성은 잘못을 인정하며 모세에게 중재를 요청합니다."
+        },
+        {
+          "number": "03",
+          "title": "놋뱀을 바라보다",
+          "scripture": "Numbers 21:8–9",
+          "description": "모세는 지시를 따라 놋뱀을 달고 물린 이들은 그것을 바라보며 살아납니다."
+        }
+      ],
+      "scripture": [
+        "Numbers 21:4–5",
+        "Numbers 21:6–7",
+        "Numbers 21:8–9"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "numbers",
+          "relationType": "RELATED_BOOK",
+          "label": "민수기"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "moses",
+          "relationType": "RELATED_PERSON",
+          "label": "모세"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "balaam",
+          "relationType": "RELATED_PERSON",
+          "label": "발람"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "joshua",
+          "relationType": "RELATED_PERSON",
+          "label": "여호수아"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "sinai",
+          "relationType": "RELATED_PLACE",
+          "label": "시내산"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "kadesh",
+          "relationType": "RELATED_PLACE",
+          "label": "가데스"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "moab",
+          "relationType": "RELATED_PLACE",
+          "label": "모압"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "balaam-and-balak",
+      "titleKo": "발람과 발락",
+      "titleEn": "Balaam And Balak",
+      "eyebrow": "STORIES · NUMBERS",
+      "summary": "모압 왕 발락이 발람을 초청하고 발람은 길에서 나귀와 천사를 통해 경고를 받습니다. 발락의 기대와 달리 발람은 하나님이 허락한 축복의 말을 전합니다. 발람의 마지막 말들은 이스라엘과 주변 민족의 앞날을 바라봅니다.",
+      "overview": "민수기의 22, 23, 24 본문을 따라 발람과 발락의 내용을 살펴봅니다. 출애굽 이후의 공동체가 약속의 땅 앞에 이르는 여정입니다. 인구 조사와 진영 규례 사이에 불평, 반역, 중재, 다음 세대를 위한 땅 분배 규정이 이어집니다.",
+      "heroImage": "/assets/bible/numbers.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "초청과 길 위의 경고",
+          "scripture": "Numbers 22",
+          "description": "모압 왕 발락이 발람을 초청하고 발람은 길에서 나귀와 천사를 통해 경고를 받습니다."
+        },
+        {
+          "number": "02",
+          "title": "저주 대신 축복",
+          "scripture": "Numbers 23",
+          "description": "발락의 기대와 달리 발람은 하나님이 허락한 축복의 말을 전합니다."
+        },
+        {
+          "number": "03",
+          "title": "이스라엘을 바라보는 말",
+          "scripture": "Numbers 24",
+          "description": "발람의 마지막 말들은 이스라엘과 주변 민족의 앞날을 바라봅니다."
+        }
+      ],
+      "scripture": [
+        "Numbers 22",
+        "Numbers 23",
+        "Numbers 24"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "numbers",
+          "relationType": "RELATED_BOOK",
+          "label": "민수기"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "moses",
+          "relationType": "RELATED_PERSON",
+          "label": "모세"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "balaam",
+          "relationType": "RELATED_PERSON",
+          "label": "발람"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "joshua",
+          "relationType": "RELATED_PERSON",
+          "label": "여호수아"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "sinai",
+          "relationType": "RELATED_PLACE",
+          "label": "시내산"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "kadesh",
+          "relationType": "RELATED_PLACE",
+          "label": "가데스"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "moab",
+          "relationType": "RELATED_PLACE",
+          "label": "모압"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "balaam",
+      "titleKo": "발람",
+      "titleEn": "Balaam",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "모압 왕 발락의 초청을 받았지만 하나님이 허락하신 말만 전해야 했던 인물입니다.",
+      "overview": "모압 왕 발락의 초청을 받았지만 하나님이 허락하신 말만 전해야 했던 인물입니다. 발락은 이스라엘을 저주하게 하려고 발람을 부르고 발람은 길에서 경고를 받습니다. 발람은 발락의 기대와 달리 이스라엘을 향한 축복을 전합니다.",
+      "heroImage": "/assets/people/balaam.webp",
+      "scripture": [
+        "Numbers 22",
+        "Numbers 23–24"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "numbers",
+          "relationType": "RELATED_BOOK",
+          "label": "민수기"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "발락의 초청",
+          "scripture": "Numbers 22",
+          "description": "발락은 이스라엘을 저주하게 하려고 발람을 부르고 발람은 길에서 경고를 받습니다."
+        },
+        {
+          "number": "02",
+          "title": "축복으로 바뀐 말",
+          "scripture": "Numbers 23–24",
+          "description": "발람은 발락의 기대와 달리 이스라엘을 향한 축복을 전합니다."
+        }
+      ]
+    },
+    {
+      "type": "place",
+      "slug": "kadesh",
+      "titleKo": "가데스",
+      "titleEn": "Kadesh",
+      "eyebrow": "PLACES · BIBLICAL WORLD",
+      "summary": "정탐 보고와 광야 세대의 실패, 므리바 사건이 연결되는 광야의 주요 지명입니다.",
+      "overview": "정탐 보고와 광야 세대의 실패, 므리바 사건이 연결되는 광야의 주요 지명입니다.",
+      "heroImage": "/assets/scraptura-home-clean.jpg",
+      "scripture": [
+        "Numbers 13–14; 20"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "numbers",
+          "relationType": "RELATED_BOOK",
+          "label": "민수기"
+        }
+      ],
+      "biblicalContext": "정탐 보고와 광야 세대의 실패, 므리바 사건이 연결되는 광야의 주요 지명입니다.",
+      "keyEvent": {
+        "title": "가데스의 성경 속 배경",
+        "scripture": "Numbers 13–14; 20",
+        "description": "정탐 보고와 광야 세대의 실패, 므리바 사건이 연결되는 광야의 주요 지명입니다."
+      }
+    },
+    {
+      "type": "place",
+      "slug": "moab",
+      "titleKo": "모압",
+      "titleEn": "Moab",
+      "eyebrow": "PLACES · BIBLICAL WORLD",
+      "summary": "요단강 동쪽과 사해 동편에 위치한 지역으로 민수기의 마지막 진영과 룻의 출신지가 연결됩니다.",
+      "overview": "요단강 동쪽과 사해 동편에 위치한 지역으로 민수기의 마지막 진영과 룻의 출신지가 연결됩니다.",
+      "heroImage": "/assets/scraptura-home-clean.jpg",
+      "scripture": [
+        "Numbers 22–36; Ruth 1"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "numbers",
+          "relationType": "RELATED_BOOK",
+          "label": "민수기"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "deuteronomy",
+          "relationType": "RELATED_BOOK",
+          "label": "신명기"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "ruth",
+          "relationType": "RELATED_BOOK",
+          "label": "룻기"
+        }
+      ],
+      "biblicalContext": "요단강 동쪽과 사해 동편에 위치한 지역으로 민수기의 마지막 진영과 룻의 출신지가 연결됩니다.",
+      "keyEvent": {
+        "title": "모압의 성경 속 배경",
+        "scripture": "Numbers 22–36; Ruth 1",
+        "description": "요단강 동쪽과 사해 동편에 위치한 지역으로 민수기의 마지막 진영과 룻의 출신지가 연결됩니다."
+      }
+    }
+  ]
+}

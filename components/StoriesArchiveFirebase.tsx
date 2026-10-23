@@ -6,6 +6,7 @@ import {
 } from "react";
 
 import Link from "next/link";
+import { mergeArchiveRecords } from "../lib/archive-merge";
 
 import {
   collection,
@@ -34,6 +35,7 @@ type StoryRecord = {
 type StoriesArchiveFirebaseProps = {
   title: string;
   subtitle: string;
+  initialRecords: StoryRecord[];
 };
 
 
@@ -58,20 +60,21 @@ function normalizeNumber(
 export default function StoriesArchiveFirebase({
   title,
   subtitle,
+  initialRecords,
 }: StoriesArchiveFirebaseProps) {
 
   const [
     stories,
     setStories,
   ] =
-    useState<StoryRecord[]>([]);
+    useState<StoryRecord[]>(initialRecords);
 
 
   const [
     loading,
     setLoading,
   ] =
-    useState(true);
+    useState(initialRecords.length === 0);
 
 
   const [
@@ -90,7 +93,7 @@ export default function StoriesArchiveFirebase({
 
       try {
 
-        setLoading(true);
+        setLoading(initialRecords.length === 0);
         setErrorMessage("");
 
 
@@ -228,7 +231,7 @@ export default function StoriesArchiveFirebase({
 
 
         setStories(
-          records
+          mergeArchiveRecords(initialRecords, records)
         );
 
 
@@ -245,9 +248,7 @@ export default function StoriesArchiveFirebase({
         }
 
 
-        setErrorMessage(
-          "이야기 데이터를 불러오지 못했습니다."
-        );
+        if (initialRecords.length === 0) setErrorMessage("이야기 데이터를 불러오지 못했습니다.");
 
 
       } finally {
@@ -266,7 +267,7 @@ export default function StoriesArchiveFirebase({
       active = false;
     };
 
-  }, []);
+  }, [initialRecords]);
 
 
   /*

@@ -1,0 +1,269 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/2CH01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "2-chronicles",
+      "titleKo": "역대하",
+      "titleEn": "2 Chronicles",
+      "eyebrow": "BIBLE · OLD TESTAMENT",
+      "summary": "솔로몬의 성전에서 유다 왕들의 개혁과 실패를 지나 포로와 귀환의 가능성에 이릅니다.",
+      "overview": "솔로몬의 성전에서 유다 왕들의 개혁과 실패를 지나 포로와 귀환의 가능성에 이릅니다. 솔로몬이 지혜를 구하고 성전을 건축하여 언약궤를 안치합니다. 성전 봉헌 기도와 하나님의 응답, 솔로몬의 업적을 기록합니다. 왕국 분열 뒤에 르호보암과 아비야, 아사의 통치를 예배와 신뢰의 관점에서 다룹니다. 율법 교육과 재판 개혁, 전쟁에서의 기도와 연합의 문제를 기록합니다. 왕실의 폭력과 우상 숭배, 요아스의 성전 수리 및 아하스의 실패가 이어집니다. 성전 정결과 유월절, 예배 개혁 및 앗수르의 위협을 다룹니다. 므낫세의 회개와 요시야의 율법책 발견, 언약 갱신과 유월절이 기록됩니다. 유다의 마지막 왕들과 성전 파괴, 포로를 거쳐 고레스가 귀환을 허락합니다.",
+      "biblicalContext": "예루살렘 성전과 다윗 왕가를 중심으로 유다의 역사를 돌아봅니다. 회개와 예배의 회복이 반복되며 마지막에는 고레스의 귀환 조서가 등장합니다.",
+      "heroImage": "/assets/bible/2-chronicles.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "솔로몬과 성전 건축",
+          "scripture": "2 Chronicles 1–5",
+          "description": "솔로몬이 지혜를 구하고 성전을 건축하여 언약궤를 안치합니다."
+        },
+        {
+          "number": "02",
+          "title": "봉헌 기도와 왕의 영광",
+          "scripture": "2 Chronicles 6–9",
+          "description": "성전 봉헌 기도와 하나님의 응답, 솔로몬의 업적을 기록합니다."
+        },
+        {
+          "number": "03",
+          "title": "분열과 개혁의 갈림길",
+          "scripture": "2 Chronicles 10–16",
+          "description": "왕국 분열 뒤에 르호보암과 아비야, 아사의 통치를 예배와 신뢰의 관점에서 다룹니다."
+        },
+        {
+          "number": "04",
+          "title": "여호사밧의 통치",
+          "scripture": "2 Chronicles 17–20",
+          "description": "율법 교육과 재판 개혁, 전쟁에서의 기도와 연합의 문제를 기록합니다."
+        },
+        {
+          "number": "05",
+          "title": "왕가와 성전의 위기",
+          "scripture": "2 Chronicles 21–28",
+          "description": "왕실의 폭력과 우상 숭배, 요아스의 성전 수리 및 아하스의 실패가 이어집니다."
+        },
+        {
+          "number": "06",
+          "title": "히스기야의 회복",
+          "scripture": "2 Chronicles 29–32",
+          "description": "성전 정결과 유월절, 예배 개혁 및 앗수르의 위협을 다룹니다."
+        },
+        {
+          "number": "07",
+          "title": "회개와 요시야의 개혁",
+          "scripture": "2 Chronicles 33–35",
+          "description": "므낫세의 회개와 요시야의 율법책 발견, 언약 갱신과 유월절이 기록됩니다."
+        },
+        {
+          "number": "08",
+          "title": "멸망과 귀환의 조서",
+          "scripture": "2 Chronicles 36",
+          "description": "유다의 마지막 왕들과 성전 파괴, 포로를 거쳐 고레스가 귀환을 허락합니다."
+        }
+      ],
+      "scripture": [
+        "2 Chronicles 1–36"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "solomon",
+          "relationType": "RELATED_PERSON",
+          "label": "솔로몬"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "hezekiah",
+          "relationType": "RELATED_PERSON",
+          "label": "히스기야"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "josiah",
+          "relationType": "RELATED_PERSON",
+          "label": "요시야"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "babylon",
+          "relationType": "RELATED_PLACE",
+          "label": "바벨론"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "chronicles-temple-dedication",
+          "relationType": "RELATED_STORY",
+          "label": "성전의 봉헌과 기도"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "chronicles-reform-and-return",
+          "relationType": "RELATED_STORY",
+          "label": "예배 회복과 귀환의 문"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "1-chronicles",
+          "relationType": "RELATED_BOOK",
+          "label": "역대상"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "ezra",
+          "relationType": "RELATED_BOOK",
+          "label": "에스라"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "chronicles-temple-dedication",
+      "titleKo": "성전의 봉헌과 기도",
+      "titleEn": "Chronicles Temple Dedication",
+      "eyebrow": "SCRIPTURE STUDY · 2 CHRONICLES",
+      "summary": "솔로몬이 지혜를 구하고 성전을 건축하여 언약궤를 안치합니다. 성전 봉헌 기도와 하나님의 응답, 솔로몬의 업적을 기록합니다.",
+      "overview": "역대하의 1–5, 6–9 본문을 따라 성전의 봉헌과 기도의 내용을 살펴봅니다. 예루살렘 성전과 다윗 왕가를 중심으로 유다의 역사를 돌아봅니다. 회개와 예배의 회복이 반복되며 마지막에는 고레스의 귀환 조서가 등장합니다.",
+      "heroImage": "/assets/bible/2-chronicles.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "솔로몬과 성전 건축",
+          "scripture": "2 Chronicles 1–5",
+          "description": "솔로몬이 지혜를 구하고 성전을 건축하여 언약궤를 안치합니다."
+        },
+        {
+          "number": "02",
+          "title": "봉헌 기도와 왕의 영광",
+          "scripture": "2 Chronicles 6–9",
+          "description": "성전 봉헌 기도와 하나님의 응답, 솔로몬의 업적을 기록합니다."
+        }
+      ],
+      "scripture": [
+        "2 Chronicles 1–5",
+        "2 Chronicles 6–9"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "2-chronicles",
+          "relationType": "RELATED_BOOK",
+          "label": "역대하"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "solomon",
+          "relationType": "RELATED_PERSON",
+          "label": "솔로몬"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "hezekiah",
+          "relationType": "RELATED_PERSON",
+          "label": "히스기야"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "josiah",
+          "relationType": "RELATED_PERSON",
+          "label": "요시야"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "babylon",
+          "relationType": "RELATED_PLACE",
+          "label": "바벨론"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "chronicles-reform-and-return",
+      "titleKo": "예배 회복과 귀환의 문",
+      "titleEn": "Chronicles Reform And Return",
+      "eyebrow": "SCRIPTURE STUDY · 2 CHRONICLES",
+      "summary": "성전 정결과 유월절, 예배 개혁 및 앗수르의 위협을 다룹니다. 므낫세의 회개와 요시야의 율법책 발견, 언약 갱신과 유월절이 기록됩니다. 유다의 마지막 왕들과 성전 파괴, 포로를 거쳐 고레스가 귀환을 허락합니다.",
+      "overview": "역대하의 29–32, 33–35, 36 본문을 따라 예배 회복과 귀환의 문의 내용을 살펴봅니다. 예루살렘 성전과 다윗 왕가를 중심으로 유다의 역사를 돌아봅니다. 회개와 예배의 회복이 반복되며 마지막에는 고레스의 귀환 조서가 등장합니다.",
+      "heroImage": "/assets/bible/2-chronicles.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "히스기야의 회복",
+          "scripture": "2 Chronicles 29–32",
+          "description": "성전 정결과 유월절, 예배 개혁 및 앗수르의 위협을 다룹니다."
+        },
+        {
+          "number": "02",
+          "title": "회개와 요시야의 개혁",
+          "scripture": "2 Chronicles 33–35",
+          "description": "므낫세의 회개와 요시야의 율법책 발견, 언약 갱신과 유월절이 기록됩니다."
+        },
+        {
+          "number": "03",
+          "title": "멸망과 귀환의 조서",
+          "scripture": "2 Chronicles 36",
+          "description": "유다의 마지막 왕들과 성전 파괴, 포로를 거쳐 고레스가 귀환을 허락합니다."
+        }
+      ],
+      "scripture": [
+        "2 Chronicles 29–32",
+        "2 Chronicles 33–35",
+        "2 Chronicles 36"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "2-chronicles",
+          "relationType": "RELATED_BOOK",
+          "label": "역대하"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "solomon",
+          "relationType": "RELATED_PERSON",
+          "label": "솔로몬"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "hezekiah",
+          "relationType": "RELATED_PERSON",
+          "label": "히스기야"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "josiah",
+          "relationType": "RELATED_PERSON",
+          "label": "요시야"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "babylon",
+          "relationType": "RELATED_PLACE",
+          "label": "바벨론"
+        }
+      ]
+    }
+  ]
+}

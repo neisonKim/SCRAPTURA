@@ -1,0 +1,290 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/DEU01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "deuteronomy",
+      "titleKo": "신명기",
+      "titleEn": "Deuteronomy",
+      "eyebrow": "BIBLE · OLD TESTAMENT",
+      "summary": "모세가 모압 평지에서 지난 여정을 회고하고 새로운 세대에게 언약에 충실한 삶을 권합니다.",
+      "overview": "모세가 모압 평지에서 지난 여정을 회고하고 새로운 세대에게 언약에 충실한 삶을 권합니다. 모세는 정탐 사건과 광야의 우회, 요단 동편의 전투를 돌아보며 백성의 여정을 설명합니다. 우상 숭배를 경계하고 십계명과 하나님을 사랑하라는 명령을 다음 세대에 가르치게 합니다. 땅의 풍요를 자신의 힘으로 여기지 말고 광야에서 받은 돌봄과 언약을 기억하도록 권합니다. 예배의 중심과 음식 규정, 십일조, 빚의 면제 및 절기 준수를 통해 공동체의 삶을 정돈합니다. 재판관, 왕, 제사장과 예언자의 책임을 설명하고 생명과 공정한 재판을 지키는 규정을 제시합니다. 가정과 노동, 약한 이웃과 이방인에 관한 규례 및 첫 열매의 신앙 고백을 다룹니다. 에발산에서의 언약 의식과 순종의 복, 불순종에 따르는 경고를 전합니다. 언약을 새롭게 확인하며 돌아옴의 가능성을 말하고 생명과 죽음 앞에서 선택을 촉구합니다. 여호수아가 후계자로 세워지고 율법을 읽는 규정과 모세의 노래가 전해집니다. 모세가 지파들을 축복하고 느보산에서 땅을 바라본 뒤 죽으며 여호수아의 지도력이 이어집니다.",
+      "biblicalContext": "요단강을 건너기 전이라는 서사적 자리에서 출애굽과 광야의 기억을 되새깁니다. 하나님을 사랑하는 고백이 예배, 재판, 이웃 돌봄과 공동체 질서로 구체화됩니다.",
+      "heroImage": "/assets/bible/deuteronomy.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "지나온 길의 기억",
+          "scripture": "Deuteronomy 1–3",
+          "description": "모세는 정탐 사건과 광야의 우회, 요단 동편의 전투를 돌아보며 백성의 여정을 설명합니다."
+        },
+        {
+          "number": "02",
+          "title": "듣고 사랑하라",
+          "scripture": "Deuteronomy 4–6",
+          "description": "우상 숭배를 경계하고 십계명과 하나님을 사랑하라는 명령을 다음 세대에 가르치게 합니다."
+        },
+        {
+          "number": "03",
+          "title": "기억과 순종",
+          "scripture": "Deuteronomy 7–11",
+          "description": "땅의 풍요를 자신의 힘으로 여기지 말고 광야에서 받은 돌봄과 언약을 기억하도록 권합니다."
+        },
+        {
+          "number": "04",
+          "title": "예배와 공동체",
+          "scripture": "Deuteronomy 12–16",
+          "description": "예배의 중심과 음식 규정, 십일조, 빚의 면제 및 절기 준수를 통해 공동체의 삶을 정돈합니다."
+        },
+        {
+          "number": "05",
+          "title": "재판과 지도자의 책임",
+          "scripture": "Deuteronomy 17–21",
+          "description": "재판관, 왕, 제사장과 예언자의 책임을 설명하고 생명과 공정한 재판을 지키는 규정을 제시합니다."
+        },
+        {
+          "number": "06",
+          "title": "이웃을 돌보는 율례",
+          "scripture": "Deuteronomy 22–26",
+          "description": "가정과 노동, 약한 이웃과 이방인에 관한 규례 및 첫 열매의 신앙 고백을 다룹니다."
+        },
+        {
+          "number": "07",
+          "title": "언약의 복과 경고",
+          "scripture": "Deuteronomy 27–28",
+          "description": "에발산에서의 언약 의식과 순종의 복, 불순종에 따르는 경고를 전합니다."
+        },
+        {
+          "number": "08",
+          "title": "생명을 택하라",
+          "scripture": "Deuteronomy 29–30",
+          "description": "언약을 새롭게 확인하며 돌아옴의 가능성을 말하고 생명과 죽음 앞에서 선택을 촉구합니다."
+        },
+        {
+          "number": "09",
+          "title": "율법과 노래를 전하다",
+          "scripture": "Deuteronomy 31–32",
+          "description": "여호수아가 후계자로 세워지고 율법을 읽는 규정과 모세의 노래가 전해집니다."
+        },
+        {
+          "number": "10",
+          "title": "마지막 축복과 죽음",
+          "scripture": "Deuteronomy 33–34",
+          "description": "모세가 지파들을 축복하고 느보산에서 땅을 바라본 뒤 죽으며 여호수아의 지도력이 이어집니다."
+        }
+      ],
+      "scripture": [
+        "Deuteronomy 1–34"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "moses",
+          "relationType": "RELATED_PERSON",
+          "label": "모세"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "joshua",
+          "relationType": "RELATED_PERSON",
+          "label": "여호수아"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "moab",
+          "relationType": "RELATED_PLACE",
+          "label": "모압"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "mount-nebo",
+          "relationType": "RELATED_PLACE",
+          "label": "느보산"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "shema-and-love",
+          "relationType": "RELATED_STORY",
+          "label": "듣고 사랑하라"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "choose-life",
+          "relationType": "RELATED_STORY",
+          "label": "언약을 새롭게 하고 생명을 택하다"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "numbers",
+          "relationType": "RELATED_BOOK",
+          "label": "민수기"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "joshua",
+          "relationType": "RELATED_BOOK",
+          "label": "여호수아"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "shema-and-love",
+      "titleKo": "듣고 사랑하라",
+      "titleEn": "Shema And Love",
+      "eyebrow": "SCRIPTURE STUDY · DEUTERONOMY",
+      "summary": "우상 숭배를 경계하고 십계명과 하나님을 사랑하라는 명령을 다음 세대에 가르치게 합니다. 땅의 풍요를 자신의 힘으로 여기지 말고 광야에서 받은 돌봄과 언약을 기억하도록 권합니다.",
+      "overview": "신명기의 4–6, 7–11 본문을 따라 듣고 사랑하라의 내용을 살펴봅니다. 요단강을 건너기 전이라는 서사적 자리에서 출애굽과 광야의 기억을 되새깁니다. 하나님을 사랑하는 고백이 예배, 재판, 이웃 돌봄과 공동체 질서로 구체화됩니다.",
+      "heroImage": "/assets/bible/deuteronomy.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "듣고 사랑하라",
+          "scripture": "Deuteronomy 4–6",
+          "description": "우상 숭배를 경계하고 십계명과 하나님을 사랑하라는 명령을 다음 세대에 가르치게 합니다."
+        },
+        {
+          "number": "02",
+          "title": "기억과 순종",
+          "scripture": "Deuteronomy 7–11",
+          "description": "땅의 풍요를 자신의 힘으로 여기지 말고 광야에서 받은 돌봄과 언약을 기억하도록 권합니다."
+        }
+      ],
+      "scripture": [
+        "Deuteronomy 4–6",
+        "Deuteronomy 7–11"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "deuteronomy",
+          "relationType": "RELATED_BOOK",
+          "label": "신명기"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "moses",
+          "relationType": "RELATED_PERSON",
+          "label": "모세"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "joshua",
+          "relationType": "RELATED_PERSON",
+          "label": "여호수아"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "moab",
+          "relationType": "RELATED_PLACE",
+          "label": "모압"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "mount-nebo",
+          "relationType": "RELATED_PLACE",
+          "label": "느보산"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "choose-life",
+      "titleKo": "언약을 새롭게 하고 생명을 택하다",
+      "titleEn": "Choose Life",
+      "eyebrow": "SCRIPTURE STUDY · DEUTERONOMY",
+      "summary": "에발산에서의 언약 의식과 순종의 복, 불순종에 따르는 경고를 전합니다. 언약을 새롭게 확인하며 돌아옴의 가능성을 말하고 생명과 죽음 앞에서 선택을 촉구합니다. 여호수아가 후계자로 세워지고 율법을 읽는 규정과 모세의 노래가 전해집니다.",
+      "overview": "신명기의 27–28, 29–30, 31–32 본문을 따라 언약을 새롭게 하고 생명을 택하다의 내용을 살펴봅니다. 요단강을 건너기 전이라는 서사적 자리에서 출애굽과 광야의 기억을 되새깁니다. 하나님을 사랑하는 고백이 예배, 재판, 이웃 돌봄과 공동체 질서로 구체화됩니다.",
+      "heroImage": "/assets/bible/deuteronomy.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "언약의 복과 경고",
+          "scripture": "Deuteronomy 27–28",
+          "description": "에발산에서의 언약 의식과 순종의 복, 불순종에 따르는 경고를 전합니다."
+        },
+        {
+          "number": "02",
+          "title": "생명을 택하라",
+          "scripture": "Deuteronomy 29–30",
+          "description": "언약을 새롭게 확인하며 돌아옴의 가능성을 말하고 생명과 죽음 앞에서 선택을 촉구합니다."
+        },
+        {
+          "number": "03",
+          "title": "율법과 노래를 전하다",
+          "scripture": "Deuteronomy 31–32",
+          "description": "여호수아가 후계자로 세워지고 율법을 읽는 규정과 모세의 노래가 전해집니다."
+        }
+      ],
+      "scripture": [
+        "Deuteronomy 27–28",
+        "Deuteronomy 29–30",
+        "Deuteronomy 31–32"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "deuteronomy",
+          "relationType": "RELATED_BOOK",
+          "label": "신명기"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "moses",
+          "relationType": "RELATED_PERSON",
+          "label": "모세"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "joshua",
+          "relationType": "RELATED_PERSON",
+          "label": "여호수아"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "moab",
+          "relationType": "RELATED_PLACE",
+          "label": "모압"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "mount-nebo",
+          "relationType": "RELATED_PLACE",
+          "label": "느보산"
+        }
+      ]
+    },
+    {
+      "type": "place",
+      "slug": "mount-nebo",
+      "titleKo": "느보산",
+      "titleEn": "Mount Nebo",
+      "eyebrow": "PLACES · BIBLICAL WORLD",
+      "summary": "모세가 약속의 땅을 바라보고 생을 마친 산으로 신명기에 기록됩니다.",
+      "overview": "모세가 약속의 땅을 바라보고 생을 마친 산으로 신명기에 기록됩니다.",
+      "heroImage": "/assets/scraptura-home-clean.jpg",
+      "scripture": [
+        "Deuteronomy 34"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "deuteronomy",
+          "relationType": "RELATED_BOOK",
+          "label": "신명기"
+        }
+      ],
+      "biblicalContext": "모세가 약속의 땅을 바라보고 생을 마친 산으로 신명기에 기록됩니다.",
+      "keyEvent": {
+        "title": "느보산의 성경 속 배경",
+        "scripture": "Deuteronomy 34",
+        "description": "모세가 약속의 땅을 바라보고 생을 마친 산으로 신명기에 기록됩니다."
+      }
+    }
+  ]
+}

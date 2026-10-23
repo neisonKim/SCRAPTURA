@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import StoriesArchiveFirebase
   from "../../components/StoriesArchiveFirebase";
+import { getLocalArchiveRecords } from "../../data/archive";
 
 export const metadata: Metadata = {
   title: "Stories",
@@ -12,7 +13,8 @@ export default function Page() {
   return (
 <StoriesArchiveFirebase
   title="STORIES"
-  subtitle="현재 사용 중인 문구"
+  subtitle="성경의 이야기와 주제별 본문을 따라 인물과 장소, 각 책의 흐름을 탐험하세요."
+  initialRecords={getLocalArchiveRecords("story")}
 />
   );
 }

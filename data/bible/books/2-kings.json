@@ -1,0 +1,489 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/2KI01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "2-kings",
+      "titleKo": "열왕기하",
+      "titleEn": "2 Kings",
+      "eyebrow": "BIBLE · OLD TESTAMENT",
+      "summary": "엘리사의 사역과 두 왕국의 역사를 따라 사마리아와 예루살렘의 함락에 이릅니다.",
+      "overview": "엘리사의 사역과 두 왕국의 역사를 따라 사마리아와 예루살렘의 함락에 이릅니다. 엘리야의 마지막 활동과 승천 뒤에 엘리사가 예언자의 사역을 이어받습니다. 모압 전쟁과 기름의 기적, 수넴 여인, 나아만과 아람 군대에 관한 이야기들이 이어집니다. 예후가 아합 왕가를 무너뜨리고 바알 숭배를 제거하지만 왕국의 문제는 남습니다. 아달랴의 통치와 요아스의 즉위, 성전 수리 및 엘리사의 마지막 활동을 기록합니다. 왕조 교체와 불안정 속에서 북이스라엘이 앗수르에 정복되고 그 원인이 회고됩니다. 히스기야의 개혁과 앗수르의 위협, 병에서의 회복과 바벨론 사절의 방문을 다룹니다. 므낫세의 악행에 이어 요시야가 율법책을 발견하고 언약과 예배를 개혁합니다. 바벨론의 침공으로 성전과 성읍이 무너지고 포로 생활 속에서 여호야긴이 석방됩니다.",
+      "biblicalContext": "예언자의 말씀과 왕들의 선택이 반복해서 대비됩니다. 북이스라엘의 멸망과 유다의 개혁, 바벨론 포로를 통해 왕국의 실패를 돌아보며 여호야긴의 석방으로 작은 여운을 남깁니다.",
+      "heroImage": "/assets/bible/2-kings.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "엘리야에서 엘리사로",
+          "scripture": "2 Kings 1–2",
+          "description": "엘리야의 마지막 활동과 승천 뒤에 엘리사가 예언자의 사역을 이어받습니다."
+        },
+        {
+          "number": "02",
+          "title": "엘리사의 사역",
+          "scripture": "2 Kings 3–8",
+          "description": "모압 전쟁과 기름의 기적, 수넴 여인, 나아만과 아람 군대에 관한 이야기들이 이어집니다."
+        },
+        {
+          "number": "03",
+          "title": "예후의 정변",
+          "scripture": "2 Kings 9–10",
+          "description": "예후가 아합 왕가를 무너뜨리고 바알 숭배를 제거하지만 왕국의 문제는 남습니다."
+        },
+        {
+          "number": "04",
+          "title": "왕실의 보존과 쇠퇴",
+          "scripture": "2 Kings 11–13",
+          "description": "아달랴의 통치와 요아스의 즉위, 성전 수리 및 엘리사의 마지막 활동을 기록합니다."
+        },
+        {
+          "number": "05",
+          "title": "사마리아의 함락",
+          "scripture": "2 Kings 14–17",
+          "description": "왕조 교체와 불안정 속에서 북이스라엘이 앗수르에 정복되고 그 원인이 회고됩니다."
+        },
+        {
+          "number": "06",
+          "title": "히스기야와 앗수르",
+          "scripture": "2 Kings 18–20",
+          "description": "히스기야의 개혁과 앗수르의 위협, 병에서의 회복과 바벨론 사절의 방문을 다룹니다."
+        },
+        {
+          "number": "07",
+          "title": "므낫세와 요시야",
+          "scripture": "2 Kings 21–23",
+          "description": "므낫세의 악행에 이어 요시야가 율법책을 발견하고 언약과 예배를 개혁합니다."
+        },
+        {
+          "number": "08",
+          "title": "예루살렘의 멸망과 포로",
+          "scripture": "2 Kings 24–25",
+          "description": "바벨론의 침공으로 성전과 성읍이 무너지고 포로 생활 속에서 여호야긴이 석방됩니다."
+        }
+      ],
+      "scripture": [
+        "2 Kings 1–25"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "elisha",
+          "relationType": "RELATED_PERSON",
+          "label": "엘리사"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "hezekiah",
+          "relationType": "RELATED_PERSON",
+          "label": "히스기야"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "josiah",
+          "relationType": "RELATED_PERSON",
+          "label": "요시야"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "samaria",
+          "relationType": "RELATED_PLACE",
+          "label": "사마리아"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "babylon",
+          "relationType": "RELATED_PLACE",
+          "label": "바벨론"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "elisha-ministry",
+          "relationType": "RELATED_STORY",
+          "label": "엘리사가 이어받은 사역"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "judah-reform-and-exile",
+          "relationType": "RELATED_STORY",
+          "label": "개혁에서 포로까지"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "1-kings",
+          "relationType": "RELATED_BOOK",
+          "label": "열왕기상"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "1-chronicles",
+          "relationType": "RELATED_BOOK",
+          "label": "역대상"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "elisha-ministry",
+      "titleKo": "엘리사가 이어받은 사역",
+      "titleEn": "Elisha Ministry",
+      "eyebrow": "SCRIPTURE STUDY · 2 KINGS",
+      "summary": "엘리야의 마지막 활동과 승천 뒤에 엘리사가 예언자의 사역을 이어받습니다. 모압 전쟁과 기름의 기적, 수넴 여인, 나아만과 아람 군대에 관한 이야기들이 이어집니다. 예후가 아합 왕가를 무너뜨리고 바알 숭배를 제거하지만 왕국의 문제는 남습니다.",
+      "overview": "열왕기하의 1–2, 3–8, 9–10 본문을 따라 엘리사가 이어받은 사역의 내용을 살펴봅니다. 예언자의 말씀과 왕들의 선택이 반복해서 대비됩니다. 북이스라엘의 멸망과 유다의 개혁, 바벨론 포로를 통해 왕국의 실패를 돌아보며 여호야긴의 석방으로 작은 여운을 남깁니다.",
+      "heroImage": "/assets/bible/2-kings.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "엘리야에서 엘리사로",
+          "scripture": "2 Kings 1–2",
+          "description": "엘리야의 마지막 활동과 승천 뒤에 엘리사가 예언자의 사역을 이어받습니다."
+        },
+        {
+          "number": "02",
+          "title": "엘리사의 사역",
+          "scripture": "2 Kings 3–8",
+          "description": "모압 전쟁과 기름의 기적, 수넴 여인, 나아만과 아람 군대에 관한 이야기들이 이어집니다."
+        },
+        {
+          "number": "03",
+          "title": "예후의 정변",
+          "scripture": "2 Kings 9–10",
+          "description": "예후가 아합 왕가를 무너뜨리고 바알 숭배를 제거하지만 왕국의 문제는 남습니다."
+        }
+      ],
+      "scripture": [
+        "2 Kings 1–2",
+        "2 Kings 3–8",
+        "2 Kings 9–10"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "2-kings",
+          "relationType": "RELATED_BOOK",
+          "label": "열왕기하"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "elisha",
+          "relationType": "RELATED_PERSON",
+          "label": "엘리사"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "hezekiah",
+          "relationType": "RELATED_PERSON",
+          "label": "히스기야"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "josiah",
+          "relationType": "RELATED_PERSON",
+          "label": "요시야"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "samaria",
+          "relationType": "RELATED_PLACE",
+          "label": "사마리아"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "babylon",
+          "relationType": "RELATED_PLACE",
+          "label": "바벨론"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "judah-reform-and-exile",
+      "titleKo": "개혁에서 포로까지",
+      "titleEn": "Judah Reform And Exile",
+      "eyebrow": "SCRIPTURE STUDY · 2 KINGS",
+      "summary": "히스기야의 개혁과 앗수르의 위협, 병에서의 회복과 바벨론 사절의 방문을 다룹니다. 므낫세의 악행에 이어 요시야가 율법책을 발견하고 언약과 예배를 개혁합니다. 바벨론의 침공으로 성전과 성읍이 무너지고 포로 생활 속에서 여호야긴이 석방됩니다.",
+      "overview": "열왕기하의 18–20, 21–23, 24–25 본문을 따라 개혁에서 포로까지의 내용을 살펴봅니다. 예언자의 말씀과 왕들의 선택이 반복해서 대비됩니다. 북이스라엘의 멸망과 유다의 개혁, 바벨론 포로를 통해 왕국의 실패를 돌아보며 여호야긴의 석방으로 작은 여운을 남깁니다.",
+      "heroImage": "/assets/bible/2-kings.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "히스기야와 앗수르",
+          "scripture": "2 Kings 18–20",
+          "description": "히스기야의 개혁과 앗수르의 위협, 병에서의 회복과 바벨론 사절의 방문을 다룹니다."
+        },
+        {
+          "number": "02",
+          "title": "므낫세와 요시야",
+          "scripture": "2 Kings 21–23",
+          "description": "므낫세의 악행에 이어 요시야가 율법책을 발견하고 언약과 예배를 개혁합니다."
+        },
+        {
+          "number": "03",
+          "title": "예루살렘의 멸망과 포로",
+          "scripture": "2 Kings 24–25",
+          "description": "바벨론의 침공으로 성전과 성읍이 무너지고 포로 생활 속에서 여호야긴이 석방됩니다."
+        }
+      ],
+      "scripture": [
+        "2 Kings 18–20",
+        "2 Kings 21–23",
+        "2 Kings 24–25"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "2-kings",
+          "relationType": "RELATED_BOOK",
+          "label": "열왕기하"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "elisha",
+          "relationType": "RELATED_PERSON",
+          "label": "엘리사"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "hezekiah",
+          "relationType": "RELATED_PERSON",
+          "label": "히스기야"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "josiah",
+          "relationType": "RELATED_PERSON",
+          "label": "요시야"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "samaria",
+          "relationType": "RELATED_PLACE",
+          "label": "사마리아"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "babylon",
+          "relationType": "RELATED_PLACE",
+          "label": "바벨론"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "elisha",
+      "titleKo": "엘리사",
+      "titleEn": "Elisha",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "엘리야를 이어 북이스라엘에서 왕과 백성, 이방인에게까지 말씀과 회복의 사역을 전한 예언자입니다.",
+      "overview": "엘리야를 이어 북이스라엘에서 왕과 백성, 이방인에게까지 말씀과 회복의 사역을 전한 예언자입니다. 엘리야의 뒤를 이어 가난한 과부와 수넴 여인 등 여러 사람을 돕습니다. 나아만의 치유와 아람과의 갈등 속에서 사역합니다.",
+      "heroImage": "/assets/people/elisha.webp",
+      "scripture": [
+        "2 Kings 2–4",
+        "2 Kings 5–8"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "2-kings",
+          "relationType": "RELATED_BOOK",
+          "label": "열왕기하"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "뒤를 잇는 사역",
+          "scripture": "2 Kings 2–4",
+          "description": "엘리야의 뒤를 이어 가난한 과부와 수넴 여인 등 여러 사람을 돕습니다."
+        },
+        {
+          "number": "02",
+          "title": "이방인과 나라 사이에서",
+          "scripture": "2 Kings 5–8",
+          "description": "나아만의 치유와 아람과의 갈등 속에서 사역합니다."
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "hezekiah",
+      "titleKo": "히스기야",
+      "titleEn": "Hezekiah",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "예배 개혁을 시행하고 앗수르의 위협 속에서 기도한 유다 왕입니다.",
+      "overview": "예배 개혁을 시행하고 앗수르의 위협 속에서 기도한 유다 왕입니다. 성전을 정결하게 하고 유월절과 예배의 직무를 정비합니다. 앗수르의 위협과 질병을 겪으며 기도하고 바벨론 사절을 맞습니다.",
+      "heroImage": "/assets/people/hezekiah.webp",
+      "scripture": [
+        "2 Chronicles 29–31",
+        "2 Kings 18–20"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "2-kings",
+          "relationType": "RELATED_BOOK",
+          "label": "열왕기하"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-chronicles",
+          "relationType": "RELATED_BOOK",
+          "label": "역대하"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "isaiah",
+          "relationType": "RELATED_BOOK",
+          "label": "이사야"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "예배를 다시 세우다",
+          "scripture": "2 Chronicles 29–31",
+          "description": "성전을 정결하게 하고 유월절과 예배의 직무를 정비합니다."
+        },
+        {
+          "number": "02",
+          "title": "위협과 기도",
+          "scripture": "2 Kings 18–20",
+          "description": "앗수르의 위협과 질병을 겪으며 기도하고 바벨론 사절을 맞습니다."
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "josiah",
+      "titleKo": "요시야",
+      "titleEn": "Josiah",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "성전에서 발견한 율법책의 말씀에 응답해 언약과 예배를 개혁한 유다 왕입니다.",
+      "overview": "성전에서 발견한 율법책의 말씀에 응답해 언약과 예배를 개혁한 유다 왕입니다. 율법책이 발견되자 말씀을 듣고 옷을 찢으며 하나님의 뜻을 묻습니다. 백성과 언약을 확인하고 우상 숭배를 제거하며 유월절을 지킵니다.",
+      "heroImage": "/assets/people/josiah.webp",
+      "scripture": [
+        "2 Kings 22",
+        "2 Kings 23"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "2-kings",
+          "relationType": "RELATED_BOOK",
+          "label": "열왕기하"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-chronicles",
+          "relationType": "RELATED_BOOK",
+          "label": "역대하"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "율법책 앞에서",
+          "scripture": "2 Kings 22",
+          "description": "율법책이 발견되자 말씀을 듣고 옷을 찢으며 하나님의 뜻을 묻습니다."
+        },
+        {
+          "number": "02",
+          "title": "언약과 유월절",
+          "scripture": "2 Kings 23",
+          "description": "백성과 언약을 확인하고 우상 숭배를 제거하며 유월절을 지킵니다."
+        }
+      ]
+    },
+    {
+      "type": "place",
+      "slug": "babylon",
+      "titleKo": "바벨론",
+      "titleEn": "Babylon",
+      "eyebrow": "PLACES · BIBLICAL WORLD",
+      "summary": "유다를 정복한 제국과 포로지의 중심으로 등장하며 성경의 다른 문맥에서는 상징적 이름으로도 사용됩니다.",
+      "overview": "유다를 정복한 제국과 포로지의 중심으로 등장하며 성경의 다른 문맥에서는 상징적 이름으로도 사용됩니다.",
+      "heroImage": "/assets/scraptura-home-clean.jpg",
+      "scripture": [
+        "2 Kings 24–25; Daniel 1"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "2-kings",
+          "relationType": "RELATED_BOOK",
+          "label": "열왕기하"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-chronicles",
+          "relationType": "RELATED_BOOK",
+          "label": "역대하"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "ezra",
+          "relationType": "RELATED_BOOK",
+          "label": "에스라"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "isaiah",
+          "relationType": "RELATED_BOOK",
+          "label": "이사야"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "jeremiah",
+          "relationType": "RELATED_BOOK",
+          "label": "예레미야"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "ezekiel",
+          "relationType": "RELATED_BOOK",
+          "label": "에스겔"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "daniel",
+          "relationType": "RELATED_BOOK",
+          "label": "다니엘"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "habakkuk",
+          "relationType": "RELATED_BOOK",
+          "label": "하박국"
+        }
+      ],
+      "biblicalContext": "유다를 정복한 제국과 포로지의 중심으로 등장하며 성경의 다른 문맥에서는 상징적 이름으로도 사용됩니다.",
+      "keyEvent": {
+        "title": "바벨론의 성경 속 배경",
+        "scripture": "2 Kings 24–25; Daniel 1",
+        "description": "유다를 정복한 제국과 포로지의 중심으로 등장하며 성경의 다른 문맥에서는 상징적 이름으로도 사용됩니다."
+      }
+    }
+  ]
+}

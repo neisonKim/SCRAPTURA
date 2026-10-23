@@ -1,0 +1,287 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/EST01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "esther",
+      "titleKo": "에스더",
+      "titleEn": "Esther",
+      "eyebrow": "BIBLE · OLD TESTAMENT",
+      "summary": "페르시아 왕궁의 에스더와 모르드개가 유다인 말살의 위기 속에서 행동합니다.",
+      "overview": "페르시아 왕궁의 에스더와 모르드개가 유다인 말살의 위기 속에서 행동합니다. 와스디가 폐위된 뒤 에스더가 왕후가 되고 모르드개는 왕을 해치려는 음모를 알립니다. 하만이 유다인을 해칠 조서를 얻자 모르드개는 에스더에게 행동을 요청하고 에스더는 금식을 청합니다. 에스더가 왕과 하만을 잔치에 초대하고 모르드개의 공로가 뜻밖에 드러납니다. 에스더가 하만의 계획을 밝히고 유다인들이 자신을 방어할 수 있는 조서가 내려집니다. 유다인들이 위기를 넘기고 부림절을 정해 사건을 기억하며 모르드개의 지위가 기록됩니다.",
+      "biblicalContext": "귀환하지 않은 디아스포라 유다인의 생존을 다룹니다. 궁정의 권력 관계와 법령, 잔치의 장면들이 뒤집히며 부림절의 기원을 설명합니다.",
+      "heroImage": "/assets/bible/esther.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "왕궁에 들어간 에스더",
+          "scripture": "Esther 1–2",
+          "description": "와스디가 폐위된 뒤 에스더가 왕후가 되고 모르드개는 왕을 해치려는 음모를 알립니다."
+        },
+        {
+          "number": "02",
+          "title": "하만의 계획과 결단",
+          "scripture": "Esther 3–4",
+          "description": "하만이 유다인을 해칠 조서를 얻자 모르드개는 에스더에게 행동을 요청하고 에스더는 금식을 청합니다."
+        },
+        {
+          "number": "03",
+          "title": "잔치와 뒤집힌 명예",
+          "scripture": "Esther 5–6",
+          "description": "에스더가 왕과 하만을 잔치에 초대하고 모르드개의 공로가 뜻밖에 드러납니다."
+        },
+        {
+          "number": "04",
+          "title": "폭로와 새로운 조서",
+          "scripture": "Esther 7–8",
+          "description": "에스더가 하만의 계획을 밝히고 유다인들이 자신을 방어할 수 있는 조서가 내려집니다."
+        },
+        {
+          "number": "05",
+          "title": "위기 이후의 기억",
+          "scripture": "Esther 9–10",
+          "description": "유다인들이 위기를 넘기고 부림절을 정해 사건을 기억하며 모르드개의 지위가 기록됩니다."
+        }
+      ],
+      "scripture": [
+        "Esther 1–10"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "esther",
+          "relationType": "RELATED_PERSON",
+          "label": "에스더"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "mordecai",
+          "relationType": "RELATED_PERSON",
+          "label": "모르드개"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "susa",
+          "relationType": "RELATED_PLACE",
+          "label": "수산"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "esther-decision",
+          "relationType": "RELATED_STORY",
+          "label": "왕후 에스더의 결단"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "purim-deliverance",
+          "relationType": "RELATED_STORY",
+          "label": "뒤집힌 조서와 부림절"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "nehemiah",
+          "relationType": "RELATED_BOOK",
+          "label": "느헤미야"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "job",
+          "relationType": "RELATED_BOOK",
+          "label": "욥기"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "esther-decision",
+      "titleKo": "왕후 에스더의 결단",
+      "titleEn": "Esther Decision",
+      "eyebrow": "SCRIPTURE STUDY · ESTHER",
+      "summary": "와스디가 폐위된 뒤 에스더가 왕후가 되고 모르드개는 왕을 해치려는 음모를 알립니다. 하만이 유다인을 해칠 조서를 얻자 모르드개는 에스더에게 행동을 요청하고 에스더는 금식을 청합니다. 에스더가 왕과 하만을 잔치에 초대하고 모르드개의 공로가 뜻밖에 드러납니다.",
+      "overview": "에스더의 1–2, 3–4, 5–6 본문을 따라 왕후 에스더의 결단의 내용을 살펴봅니다. 귀환하지 않은 디아스포라 유다인의 생존을 다룹니다. 궁정의 권력 관계와 법령, 잔치의 장면들이 뒤집히며 부림절의 기원을 설명합니다.",
+      "heroImage": "/assets/bible/esther.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "왕궁에 들어간 에스더",
+          "scripture": "Esther 1–2",
+          "description": "와스디가 폐위된 뒤 에스더가 왕후가 되고 모르드개는 왕을 해치려는 음모를 알립니다."
+        },
+        {
+          "number": "02",
+          "title": "하만의 계획과 결단",
+          "scripture": "Esther 3–4",
+          "description": "하만이 유다인을 해칠 조서를 얻자 모르드개는 에스더에게 행동을 요청하고 에스더는 금식을 청합니다."
+        },
+        {
+          "number": "03",
+          "title": "잔치와 뒤집힌 명예",
+          "scripture": "Esther 5–6",
+          "description": "에스더가 왕과 하만을 잔치에 초대하고 모르드개의 공로가 뜻밖에 드러납니다."
+        }
+      ],
+      "scripture": [
+        "Esther 1–2",
+        "Esther 3–4",
+        "Esther 5–6"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "esther",
+          "relationType": "RELATED_BOOK",
+          "label": "에스더"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "esther",
+          "relationType": "RELATED_PERSON",
+          "label": "에스더"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "mordecai",
+          "relationType": "RELATED_PERSON",
+          "label": "모르드개"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "susa",
+          "relationType": "RELATED_PLACE",
+          "label": "수산"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "purim-deliverance",
+      "titleKo": "뒤집힌 조서와 부림절",
+      "titleEn": "Purim Deliverance",
+      "eyebrow": "SCRIPTURE STUDY · ESTHER",
+      "summary": "에스더가 하만의 계획을 밝히고 유다인들이 자신을 방어할 수 있는 조서가 내려집니다. 유다인들이 위기를 넘기고 부림절을 정해 사건을 기억하며 모르드개의 지위가 기록됩니다.",
+      "overview": "에스더의 7–8, 9–10 본문을 따라 뒤집힌 조서와 부림절의 내용을 살펴봅니다. 귀환하지 않은 디아스포라 유다인의 생존을 다룹니다. 궁정의 권력 관계와 법령, 잔치의 장면들이 뒤집히며 부림절의 기원을 설명합니다.",
+      "heroImage": "/assets/bible/esther.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "폭로와 새로운 조서",
+          "scripture": "Esther 7–8",
+          "description": "에스더가 하만의 계획을 밝히고 유다인들이 자신을 방어할 수 있는 조서가 내려집니다."
+        },
+        {
+          "number": "02",
+          "title": "위기 이후의 기억",
+          "scripture": "Esther 9–10",
+          "description": "유다인들이 위기를 넘기고 부림절을 정해 사건을 기억하며 모르드개의 지위가 기록됩니다."
+        }
+      ],
+      "scripture": [
+        "Esther 7–8",
+        "Esther 9–10"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "esther",
+          "relationType": "RELATED_BOOK",
+          "label": "에스더"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "esther",
+          "relationType": "RELATED_PERSON",
+          "label": "에스더"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "mordecai",
+          "relationType": "RELATED_PERSON",
+          "label": "모르드개"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "susa",
+          "relationType": "RELATED_PLACE",
+          "label": "수산"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "esther",
+      "titleKo": "에스더",
+      "titleEn": "Esther",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "페르시아 왕후로서 유다인의 생존 위기 앞에 자신의 안전을 걸고 왕에게 나아간 인물입니다.",
+      "overview": "페르시아 왕후로서 유다인의 생존 위기 앞에 자신의 안전을 걸고 왕에게 나아간 인물입니다. 왕후가 된 에스더는 모르드개의 요청을 받고 금식 후 왕에게 나아가기로 합니다. 왕과 하만을 잔치에 초대해 계획을 밝히고 백성을 위한 새 조서를 얻습니다.",
+      "heroImage": "/assets/people/esther.webp",
+      "scripture": [
+        "Esther 2–4",
+        "Esther 5–8"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "esther",
+          "relationType": "RELATED_BOOK",
+          "label": "에스더"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "왕후와 공동체의 위기",
+          "scripture": "Esther 2–4",
+          "description": "왕후가 된 에스더는 모르드개의 요청을 받고 금식 후 왕에게 나아가기로 합니다."
+        },
+        {
+          "number": "02",
+          "title": "잔치와 폭로",
+          "scripture": "Esther 5–8",
+          "description": "왕과 하만을 잔치에 초대해 계획을 밝히고 백성을 위한 새 조서를 얻습니다."
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "mordecai",
+      "titleKo": "모르드개",
+      "titleEn": "Mordecai",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "에스더를 돌본 유다인으로 왕궁의 음모를 알리고 민족의 위기 앞에 행동한 인물입니다.",
+      "overview": "에스더를 돌본 유다인으로 왕궁의 음모를 알리고 민족의 위기 앞에 행동한 인물입니다. 왕을 해칠 음모를 알리고 하만의 조서 앞에서 에스더에게 호소합니다. 뒤늦게 공로를 인정받고 새로운 조서와 부림절의 기억에 참여합니다.",
+      "heroImage": "/assets/people/mordecai.webp",
+      "scripture": [
+        "Esther 2–4",
+        "Esther 6–10"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "esther",
+          "relationType": "RELATED_BOOK",
+          "label": "에스더"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "왕궁의 문과 위기",
+          "scripture": "Esther 2–4",
+          "description": "왕을 해칠 음모를 알리고 하만의 조서 앞에서 에스더에게 호소합니다."
+        },
+        {
+          "number": "02",
+          "title": "뒤집힌 처지",
+          "scripture": "Esther 6–10",
+          "description": "뒤늦게 공로를 인정받고 새로운 조서와 부림절의 기억에 참여합니다."
+        }
+      ]
+    }
+  ]
+}

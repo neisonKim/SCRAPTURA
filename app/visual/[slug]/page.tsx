@@ -12,6 +12,9 @@ import {
 
 import Hero
   from "../../../components/Hero";
+import Image from "next/image";
+import { visualEntries } from "../../../data/exploration";
+import ExplorationPager from "../../../components/ExplorationPager";
 
 import RelationCards
   from "../../../components/RelationCards";
@@ -283,6 +286,9 @@ const getVisual =
         return null;
       }
 
+      const curated = visualEntries.find(visual => visual.slug === slug);
+      if (curated) return { ...curated, id: `local__visual__${slug}`, scripture: curated.scripture ?? [], relations: curated.relations ?? [] };
+
 
       /*
        * Firestore Document ID
@@ -304,11 +310,14 @@ const getVisual =
           .doc(
             documentId
           )
-          .get();
+          .get().catch(error => {
+            console.error("[Visual] Public content lookup failed", error);
+            return null;
+          });
 
 
       if (
-        !snapshot.exists
+        !snapshot?.exists
       ) {
         return null;
       }
@@ -549,6 +558,8 @@ export default async function Page({
     return notFound();
   }
 
+  const curated = visualEntries.find(item => item.slug === visual.slug);
+
 
   return (
 
@@ -580,6 +591,21 @@ export default async function Page({
       <div
         className="contentWrap"
       >
+        {curated && <figure className="visualDetailGallery">
+          <Image src={visual.heroImage} alt={`${visual.titleKo} — ${visual.summary}`} width={1536} height={1024} sizes="(max-width: 700px) 100vw, 1180px" />
+          <figcaption>{visual.titleKo} · 성경 본문을 바탕으로 재구성한 장면</figcaption>
+        </figure>}
+
+        {curated && (
+          <section className="visualObservations" aria-labelledby="visual-observation-title">
+            <small>LOOK CLOSER</small><h3 id="visual-observation-title">장면을 읽는 세 가지 시선</h3>
+            <div className="visualObservationGrid">
+              {curated.observations.map((point, index) => (
+                <article key={point.title}><small>{String(index + 1).padStart(2, "0")} · {curated.scripture?.[index]}</small><h4>{point.title}</h4><p>{point.description}</p></article>
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* =================================
             OVERVIEW
@@ -678,6 +704,7 @@ export default async function Page({
             visual.relations
           }
         />
+        <ExplorationPager type="visual" slug={visual.slug} />
 
       </div>
 

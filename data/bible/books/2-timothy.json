@@ -1,0 +1,220 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/2TI01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "2-timothy",
+      "titleKo": "디모데후서",
+      "titleEn": "2 Timothy",
+      "eyebrow": "BIBLE · NEW TESTAMENT",
+      "summary": "고난 속에서도 복음을 부끄러워하지 않고 받은 가르침을 다음 사람들에게 전하도록 권합니다.",
+      "overview": "고난 속에서도 복음을 부끄러워하지 않고 받은 가르침을 다음 사람들에게 전하도록 권합니다. 디모데의 믿음을 기억하며 은사를 다시 불붙이고 고난 속에서도 복음을 지킬 것을 권합니다. 신실한 이들에게 가르침을 전하고 군사와 선수, 농부의 비유로 인내와 수고를 말합니다. 거짓된 경건을 경계하고 배운 것에 머물며 성경의 가르침과 훈련을 붙들도록 권합니다. 때를 얻든지 못 얻든지 말씀을 전하라고 부탁하고 자신의 여정과 동역자들의 소식을 전합니다.",
+      "biblicalContext": "바울의 마지막을 바라보는 말투로 디모데에게 신실함과 인내를 부탁하는 편지입니다. 관계의 상실과 동역의 기억, 성경의 유익과 말씀을 전하는 사명이 함께 나타납니다.",
+      "heroImage": "/assets/bible/2-timothy.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "두려움 대신 받은 은사",
+          "scripture": "2 Timothy 1",
+          "description": "디모데의 믿음을 기억하며 은사를 다시 불붙이고 고난 속에서도 복음을 지킬 것을 권합니다."
+        },
+        {
+          "number": "02",
+          "title": "다음 사람에게 맡기라",
+          "scripture": "2 Timothy 2",
+          "description": "신실한 이들에게 가르침을 전하고 군사와 선수, 농부의 비유로 인내와 수고를 말합니다."
+        },
+        {
+          "number": "03",
+          "title": "어려운 때와 성경",
+          "scripture": "2 Timothy 3",
+          "description": "거짓된 경건을 경계하고 배운 것에 머물며 성경의 가르침과 훈련을 붙들도록 권합니다."
+        },
+        {
+          "number": "04",
+          "title": "말씀을 전하고 끝까지 달리라",
+          "scripture": "2 Timothy 4",
+          "description": "때를 얻든지 못 얻든지 말씀을 전하라고 부탁하고 자신의 여정과 동역자들의 소식을 전합니다."
+        }
+      ],
+      "scripture": [
+        "2 Timothy 1–4"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "timothy",
+          "relationType": "RELATED_PERSON",
+          "label": "디모데"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "rome",
+          "relationType": "RELATED_PLACE",
+          "label": "로마"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "ephesus",
+          "relationType": "RELATED_PLACE",
+          "label": "에베소"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "timothy-courage-and-transmission",
+          "relationType": "RELATED_STORY",
+          "label": "두려움을 넘어 다음 사람에게"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "timothy-scripture-and-race",
+          "relationType": "RELATED_STORY",
+          "label": "성경을 붙들고 끝까지 달리다"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "1-timothy",
+          "relationType": "RELATED_BOOK",
+          "label": "디모데전서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "titus",
+          "relationType": "RELATED_BOOK",
+          "label": "디도서"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "timothy-courage-and-transmission",
+      "titleKo": "두려움을 넘어 다음 사람에게",
+      "titleEn": "Timothy Courage And Transmission",
+      "eyebrow": "SCRIPTURE STUDY · 2 TIMOTHY",
+      "summary": "디모데의 믿음을 기억하며 은사를 다시 불붙이고 고난 속에서도 복음을 지킬 것을 권합니다. 신실한 이들에게 가르침을 전하고 군사와 선수, 농부의 비유로 인내와 수고를 말합니다.",
+      "overview": "디모데후서의 1, 2 본문을 따라 두려움을 넘어 다음 사람에게의 내용을 살펴봅니다. 바울의 마지막을 바라보는 말투로 디모데에게 신실함과 인내를 부탁하는 편지입니다. 관계의 상실과 동역의 기억, 성경의 유익과 말씀을 전하는 사명이 함께 나타납니다.",
+      "heroImage": "/assets/bible/2-timothy.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "두려움 대신 받은 은사",
+          "scripture": "2 Timothy 1",
+          "description": "디모데의 믿음을 기억하며 은사를 다시 불붙이고 고난 속에서도 복음을 지킬 것을 권합니다."
+        },
+        {
+          "number": "02",
+          "title": "다음 사람에게 맡기라",
+          "scripture": "2 Timothy 2",
+          "description": "신실한 이들에게 가르침을 전하고 군사와 선수, 농부의 비유로 인내와 수고를 말합니다."
+        }
+      ],
+      "scripture": [
+        "2 Timothy 1",
+        "2 Timothy 2"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "2-timothy",
+          "relationType": "RELATED_BOOK",
+          "label": "디모데후서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "timothy",
+          "relationType": "RELATED_PERSON",
+          "label": "디모데"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "rome",
+          "relationType": "RELATED_PLACE",
+          "label": "로마"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "ephesus",
+          "relationType": "RELATED_PLACE",
+          "label": "에베소"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "timothy-scripture-and-race",
+      "titleKo": "성경을 붙들고 끝까지 달리다",
+      "titleEn": "Timothy Scripture And Race",
+      "eyebrow": "SCRIPTURE STUDY · 2 TIMOTHY",
+      "summary": "거짓된 경건을 경계하고 배운 것에 머물며 성경의 가르침과 훈련을 붙들도록 권합니다. 때를 얻든지 못 얻든지 말씀을 전하라고 부탁하고 자신의 여정과 동역자들의 소식을 전합니다.",
+      "overview": "디모데후서의 3, 4 본문을 따라 성경을 붙들고 끝까지 달리다의 내용을 살펴봅니다. 바울의 마지막을 바라보는 말투로 디모데에게 신실함과 인내를 부탁하는 편지입니다. 관계의 상실과 동역의 기억, 성경의 유익과 말씀을 전하는 사명이 함께 나타납니다.",
+      "heroImage": "/assets/bible/2-timothy.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "어려운 때와 성경",
+          "scripture": "2 Timothy 3",
+          "description": "거짓된 경건을 경계하고 배운 것에 머물며 성경의 가르침과 훈련을 붙들도록 권합니다."
+        },
+        {
+          "number": "02",
+          "title": "말씀을 전하고 끝까지 달리라",
+          "scripture": "2 Timothy 4",
+          "description": "때를 얻든지 못 얻든지 말씀을 전하라고 부탁하고 자신의 여정과 동역자들의 소식을 전합니다."
+        }
+      ],
+      "scripture": [
+        "2 Timothy 3",
+        "2 Timothy 4"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "2-timothy",
+          "relationType": "RELATED_BOOK",
+          "label": "디모데후서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "timothy",
+          "relationType": "RELATED_PERSON",
+          "label": "디모데"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "rome",
+          "relationType": "RELATED_PLACE",
+          "label": "로마"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "ephesus",
+          "relationType": "RELATED_PLACE",
+          "label": "에베소"
+        }
+      ]
+    }
+  ]
+}

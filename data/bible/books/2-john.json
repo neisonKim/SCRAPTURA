@@ -1,0 +1,166 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/2JN01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "2-john",
+      "titleKo": "요한이서",
+      "titleEn": "2 John",
+      "eyebrow": "BIBLE · NEW TESTAMENT",
+      "summary": "진리 안에서 서로 사랑하되 그리스도의 가르침을 왜곡하는 이들을 분별하도록 권합니다.",
+      "overview": "진리 안에서 서로 사랑하되 그리스도의 가르침을 왜곡하는 이들을 분별하도록 권합니다. 장로가 진리 안에서 사랑하는 수신자들에게 은혜와 긍휼, 평강을 빕니다. 진리 안에서 살아가는 이들을 기뻐하며 처음부터 받은 사랑의 계명을 따라 살도록 권합니다. 예수 그리스도에 대한 고백을 왜곡하는 가르침을 경계하고 그것을 지원하지 말 것을 말합니다. 글로만 말하기보다 직접 만나 기쁨을 나누고 싶은 마음과 공동체의 인사를 전합니다.",
+      "biblicalContext": "장로가 택하심을 받은 부인과 그의 자녀들에게 보내는 짧은 편지입니다. 수신자를 개인이나 공동체로 읽는 해석이 있으므로 한쪽으로 단정하지 않고 진리와 사랑, 환대의 책임을 살핍니다.",
+      "heroImage": "/assets/bible/2-john.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "진리와 사랑의 인사",
+          "scripture": "2 John 1:1–3",
+          "description": "장로가 진리 안에서 사랑하는 수신자들에게 은혜와 긍휼, 평강을 빕니다."
+        },
+        {
+          "number": "02",
+          "title": "사랑의 계명으로 걷다",
+          "scripture": "2 John 1:4–6",
+          "description": "진리 안에서 살아가는 이들을 기뻐하며 처음부터 받은 사랑의 계명을 따라 살도록 권합니다."
+        },
+        {
+          "number": "03",
+          "title": "미혹을 분별하라",
+          "scripture": "2 John 1:7–11",
+          "description": "예수 그리스도에 대한 고백을 왜곡하는 가르침을 경계하고 그것을 지원하지 말 것을 말합니다."
+        },
+        {
+          "number": "04",
+          "title": "얼굴을 마주할 소망",
+          "scripture": "2 John 1:12–13",
+          "description": "글로만 말하기보다 직접 만나 기쁨을 나누고 싶은 마음과 공동체의 인사를 전합니다."
+        }
+      ],
+      "scripture": [
+        "2 John 1"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "john-apostle",
+          "relationType": "RELATED_PERSON",
+          "label": "사도 요한"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "second-john-truth-and-love",
+          "relationType": "RELATED_STORY",
+          "label": "진리 안에서 걷는 사랑"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "second-john-discernment",
+          "relationType": "RELATED_STORY",
+          "label": "환대와 가르침의 분별"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "1-john",
+          "relationType": "RELATED_BOOK",
+          "label": "요한일서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "3-john",
+          "relationType": "RELATED_BOOK",
+          "label": "요한삼서"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "second-john-truth-and-love",
+      "titleKo": "진리 안에서 걷는 사랑",
+      "titleEn": "Second John Truth And Love",
+      "eyebrow": "SCRIPTURE STUDY · 2 JOHN",
+      "summary": "장로가 진리 안에서 사랑하는 수신자들에게 은혜와 긍휼, 평강을 빕니다. 진리 안에서 살아가는 이들을 기뻐하며 처음부터 받은 사랑의 계명을 따라 살도록 권합니다.",
+      "overview": "요한이서의 1:1–3, 1:4–6 본문을 따라 진리 안에서 걷는 사랑의 내용을 살펴봅니다. 장로가 택하심을 받은 부인과 그의 자녀들에게 보내는 짧은 편지입니다. 수신자를 개인이나 공동체로 읽는 해석이 있으므로 한쪽으로 단정하지 않고 진리와 사랑, 환대의 책임을 살핍니다.",
+      "heroImage": "/assets/bible/2-john.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "진리와 사랑의 인사",
+          "scripture": "2 John 1:1–3",
+          "description": "장로가 진리 안에서 사랑하는 수신자들에게 은혜와 긍휼, 평강을 빕니다."
+        },
+        {
+          "number": "02",
+          "title": "사랑의 계명으로 걷다",
+          "scripture": "2 John 1:4–6",
+          "description": "진리 안에서 살아가는 이들을 기뻐하며 처음부터 받은 사랑의 계명을 따라 살도록 권합니다."
+        }
+      ],
+      "scripture": [
+        "2 John 1:1–3",
+        "2 John 1:4–6"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "2-john",
+          "relationType": "RELATED_BOOK",
+          "label": "요한이서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "john-apostle",
+          "relationType": "RELATED_PERSON",
+          "label": "사도 요한"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "second-john-discernment",
+      "titleKo": "환대와 가르침의 분별",
+      "titleEn": "Second John Discernment",
+      "eyebrow": "SCRIPTURE STUDY · 2 JOHN",
+      "summary": "예수 그리스도에 대한 고백을 왜곡하는 가르침을 경계하고 그것을 지원하지 말 것을 말합니다. 글로만 말하기보다 직접 만나 기쁨을 나누고 싶은 마음과 공동체의 인사를 전합니다.",
+      "overview": "요한이서의 1:7–11, 1:12–13 본문을 따라 환대와 가르침의 분별의 내용을 살펴봅니다. 장로가 택하심을 받은 부인과 그의 자녀들에게 보내는 짧은 편지입니다. 수신자를 개인이나 공동체로 읽는 해석이 있으므로 한쪽으로 단정하지 않고 진리와 사랑, 환대의 책임을 살핍니다.",
+      "heroImage": "/assets/bible/2-john.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "미혹을 분별하라",
+          "scripture": "2 John 1:7–11",
+          "description": "예수 그리스도에 대한 고백을 왜곡하는 가르침을 경계하고 그것을 지원하지 말 것을 말합니다."
+        },
+        {
+          "number": "02",
+          "title": "얼굴을 마주할 소망",
+          "scripture": "2 John 1:12–13",
+          "description": "글로만 말하기보다 직접 만나 기쁨을 나누고 싶은 마음과 공동체의 인사를 전합니다."
+        }
+      ],
+      "scripture": [
+        "2 John 1:7–11",
+        "2 John 1:12–13"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "2-john",
+          "relationType": "RELATED_BOOK",
+          "label": "요한이서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "john-apostle",
+          "relationType": "RELATED_PERSON",
+          "label": "사도 요한"
+        }
+      ]
+    }
+  ]
+}

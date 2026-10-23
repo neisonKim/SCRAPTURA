@@ -1,0 +1,583 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/ACT01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "acts",
+      "titleKo": "사도행전",
+      "titleEn": "Acts",
+      "eyebrow": "BIBLE · NEW TESTAMENT",
+      "summary": "성령을 받은 공동체가 예루살렘에서 시작해 여러 민족과 도시, 로마에 이르기까지 복음을 전합니다.",
+      "overview": "성령을 받은 공동체가 예루살렘에서 시작해 여러 민족과 도시, 로마에 이르기까지 복음을 전합니다. 승천 후 기다리던 제자들에게 오순절 성령이 임하고 세례와 나눔의 공동체가 생깁니다. 치유와 선포로 공동체가 자라며 지도자들의 위협과 공동체 내부의 문제를 만납니다. 일곱 사람이 세워지고 스데반이 죽은 뒤 사마리아와 에티오피아 사람에게 복음이 전해집니다. 사울이 예수를 만나고 고넬료의 집에 성령이 임하며 안디옥 공동체가 성장합니다. 바나바와 바울이 파송되고 이방인 신자와 율법의 관계를 두고 공동체가 논의합니다. 빌립보, 데살로니가, 아테네와 고린도 등 여러 도시에서 복음이 전해집니다. 에베소에서의 사역과 소요 뒤에 바울이 장로들에게 공동체를 돌볼 것을 부탁합니다. 바울이 예루살렘에서 붙잡혀 자신의 경험을 증언하고 가이사랴로 호송됩니다. 바울은 여러 재판 자리에서 부활의 소망과 자신의 사명을 설명합니다. 항해와 난파, 몰타 체류를 거쳐 로마에서도 하나님의 나라와 예수를 전합니다.",
+      "biblicalContext": "누가복음의 뒤를 이어 예수의 증인들이 겪는 만남과 갈등을 기록합니다. 공동체의 나눔과 박해, 이방인 수용과 선교의 확장, 법정에서의 증언이 함께 전개됩니다.",
+      "heroImage": "/assets/bible/acts.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "성령과 공동체의 시작",
+          "scripture": "Acts 1–2",
+          "description": "승천 후 기다리던 제자들에게 오순절 성령이 임하고 세례와 나눔의 공동체가 생깁니다."
+        },
+        {
+          "number": "02",
+          "title": "성전의 증언과 갈등",
+          "scripture": "Acts 3–5",
+          "description": "치유와 선포로 공동체가 자라며 지도자들의 위협과 공동체 내부의 문제를 만납니다."
+        },
+        {
+          "number": "03",
+          "title": "박해와 흩어지는 복음",
+          "scripture": "Acts 6–8",
+          "description": "일곱 사람이 세워지고 스데반이 죽은 뒤 사마리아와 에티오피아 사람에게 복음이 전해집니다."
+        },
+        {
+          "number": "04",
+          "title": "사울과 이방인의 문",
+          "scripture": "Acts 9–12",
+          "description": "사울이 예수를 만나고 고넬료의 집에 성령이 임하며 안디옥 공동체가 성장합니다."
+        },
+        {
+          "number": "05",
+          "title": "파송과 예루살렘의 회의",
+          "scripture": "Acts 13–15",
+          "description": "바나바와 바울이 파송되고 이방인 신자와 율법의 관계를 두고 공동체가 논의합니다."
+        },
+        {
+          "number": "06",
+          "title": "마게도냐와 아가야",
+          "scripture": "Acts 16–18",
+          "description": "빌립보, 데살로니가, 아테네와 고린도 등 여러 도시에서 복음이 전해집니다."
+        },
+        {
+          "number": "07",
+          "title": "에베소와 작별의 권면",
+          "scripture": "Acts 19–20",
+          "description": "에베소에서의 사역과 소요 뒤에 바울이 장로들에게 공동체를 돌볼 것을 부탁합니다."
+        },
+        {
+          "number": "08",
+          "title": "예루살렘에서의 체포",
+          "scripture": "Acts 21–23",
+          "description": "바울이 예루살렘에서 붙잡혀 자신의 경험을 증언하고 가이사랴로 호송됩니다."
+        },
+        {
+          "number": "09",
+          "title": "총독과 왕 앞의 증언",
+          "scripture": "Acts 24–26",
+          "description": "바울은 여러 재판 자리에서 부활의 소망과 자신의 사명을 설명합니다."
+        },
+        {
+          "number": "10",
+          "title": "풍랑을 지나 로마로",
+          "scripture": "Acts 27–28",
+          "description": "항해와 난파, 몰타 체류를 거쳐 로마에서도 하나님의 나라와 예수를 전합니다."
+        }
+      ],
+      "scripture": [
+        "Acts 1–28"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "peter",
+          "relationType": "RELATED_PERSON",
+          "label": "베드로"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "barnabas",
+          "relationType": "RELATED_PERSON",
+          "label": "바나바"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "stephen",
+          "relationType": "RELATED_PERSON",
+          "label": "스데반"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "antioch",
+          "relationType": "RELATED_PLACE",
+          "label": "안디옥(수리아)"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "rome",
+          "relationType": "RELATED_PLACE",
+          "label": "로마"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "pentecost-and-witness",
+          "relationType": "RELATED_STORY",
+          "label": "오순절에서 흩어진 증인들까지"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "gospel-to-the-nations",
+          "relationType": "RELATED_STORY",
+          "label": "이방인의 문과 선교의 확장"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "john",
+          "relationType": "RELATED_BOOK",
+          "label": "요한복음"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "romans",
+          "relationType": "RELATED_BOOK",
+          "label": "로마서"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "pentecost-and-witness",
+      "titleKo": "오순절에서 흩어진 증인들까지",
+      "titleEn": "Pentecost And Witness",
+      "eyebrow": "SCRIPTURE STUDY · ACTS",
+      "summary": "승천 후 기다리던 제자들에게 오순절 성령이 임하고 세례와 나눔의 공동체가 생깁니다. 치유와 선포로 공동체가 자라며 지도자들의 위협과 공동체 내부의 문제를 만납니다. 일곱 사람이 세워지고 스데반이 죽은 뒤 사마리아와 에티오피아 사람에게 복음이 전해집니다.",
+      "overview": "사도행전의 1–2, 3–5, 6–8 본문을 따라 오순절에서 흩어진 증인들까지의 내용을 살펴봅니다. 누가복음의 뒤를 이어 예수의 증인들이 겪는 만남과 갈등을 기록합니다. 공동체의 나눔과 박해, 이방인 수용과 선교의 확장, 법정에서의 증언이 함께 전개됩니다.",
+      "heroImage": "/assets/bible/acts.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "성령과 공동체의 시작",
+          "scripture": "Acts 1–2",
+          "description": "승천 후 기다리던 제자들에게 오순절 성령이 임하고 세례와 나눔의 공동체가 생깁니다."
+        },
+        {
+          "number": "02",
+          "title": "성전의 증언과 갈등",
+          "scripture": "Acts 3–5",
+          "description": "치유와 선포로 공동체가 자라며 지도자들의 위협과 공동체 내부의 문제를 만납니다."
+        },
+        {
+          "number": "03",
+          "title": "박해와 흩어지는 복음",
+          "scripture": "Acts 6–8",
+          "description": "일곱 사람이 세워지고 스데반이 죽은 뒤 사마리아와 에티오피아 사람에게 복음이 전해집니다."
+        }
+      ],
+      "scripture": [
+        "Acts 1–2",
+        "Acts 3–5",
+        "Acts 6–8"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "acts",
+          "relationType": "RELATED_BOOK",
+          "label": "사도행전"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "peter",
+          "relationType": "RELATED_PERSON",
+          "label": "베드로"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "barnabas",
+          "relationType": "RELATED_PERSON",
+          "label": "바나바"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "stephen",
+          "relationType": "RELATED_PERSON",
+          "label": "스데반"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "antioch",
+          "relationType": "RELATED_PLACE",
+          "label": "안디옥(수리아)"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "rome",
+          "relationType": "RELATED_PLACE",
+          "label": "로마"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "gospel-to-the-nations",
+      "titleKo": "이방인의 문과 선교의 확장",
+      "titleEn": "Gospel To The Nations",
+      "eyebrow": "SCRIPTURE STUDY · ACTS",
+      "summary": "사울이 예수를 만나고 고넬료의 집에 성령이 임하며 안디옥 공동체가 성장합니다. 바나바와 바울이 파송되고 이방인 신자와 율법의 관계를 두고 공동체가 논의합니다. 빌립보, 데살로니가, 아테네와 고린도 등 여러 도시에서 복음이 전해집니다.",
+      "overview": "사도행전의 9–12, 13–15, 16–18 본문을 따라 이방인의 문과 선교의 확장의 내용을 살펴봅니다. 누가복음의 뒤를 이어 예수의 증인들이 겪는 만남과 갈등을 기록합니다. 공동체의 나눔과 박해, 이방인 수용과 선교의 확장, 법정에서의 증언이 함께 전개됩니다.",
+      "heroImage": "/assets/bible/acts.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "사울과 이방인의 문",
+          "scripture": "Acts 9–12",
+          "description": "사울이 예수를 만나고 고넬료의 집에 성령이 임하며 안디옥 공동체가 성장합니다."
+        },
+        {
+          "number": "02",
+          "title": "파송과 예루살렘의 회의",
+          "scripture": "Acts 13–15",
+          "description": "바나바와 바울이 파송되고 이방인 신자와 율법의 관계를 두고 공동체가 논의합니다."
+        },
+        {
+          "number": "03",
+          "title": "마게도냐와 아가야",
+          "scripture": "Acts 16–18",
+          "description": "빌립보, 데살로니가, 아테네와 고린도 등 여러 도시에서 복음이 전해집니다."
+        }
+      ],
+      "scripture": [
+        "Acts 9–12",
+        "Acts 13–15",
+        "Acts 16–18"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "acts",
+          "relationType": "RELATED_BOOK",
+          "label": "사도행전"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "peter",
+          "relationType": "RELATED_PERSON",
+          "label": "베드로"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "paul",
+          "relationType": "RELATED_PERSON",
+          "label": "바울"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "barnabas",
+          "relationType": "RELATED_PERSON",
+          "label": "바나바"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "stephen",
+          "relationType": "RELATED_PERSON",
+          "label": "스데반"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "antioch",
+          "relationType": "RELATED_PLACE",
+          "label": "안디옥(수리아)"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "rome",
+          "relationType": "RELATED_PLACE",
+          "label": "로마"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "paul",
+      "titleKo": "바울",
+      "titleEn": "Paul",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "예수를 따르는 이들을 박해하다 예수를 만난 뒤 여러 민족에게 복음을 전하고 공동체를 돌본 사도입니다.",
+      "overview": "예수를 따르는 이들을 박해하다 예수를 만난 뒤 여러 민족에게 복음을 전하고 공동체를 돌본 사도입니다. 다메섹으로 가던 사울이 예수를 만나고 아나니아의 도움을 받습니다. 안디옥에서 파송되어 여러 도시에서 복음을 전하고 공동체를 세웁니다. 붙잡힌 뒤에도 여러 재판과 항해를 거쳐 로마에서 복음을 전합니다.",
+      "heroImage": "/assets/people/paul.webp",
+      "scripture": [
+        "Acts 9",
+        "Acts 13–20",
+        "Acts 21–28"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "acts",
+          "relationType": "RELATED_BOOK",
+          "label": "사도행전"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "romans",
+          "relationType": "RELATED_BOOK",
+          "label": "로마서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "1-corinthians",
+          "relationType": "RELATED_BOOK",
+          "label": "고린도전서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-corinthians",
+          "relationType": "RELATED_BOOK",
+          "label": "고린도후서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "galatians",
+          "relationType": "RELATED_BOOK",
+          "label": "갈라디아서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "ephesians",
+          "relationType": "RELATED_BOOK",
+          "label": "에베소서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "philippians",
+          "relationType": "RELATED_BOOK",
+          "label": "빌립보서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "colossians",
+          "relationType": "RELATED_BOOK",
+          "label": "골로새서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "1-thessalonians",
+          "relationType": "RELATED_BOOK",
+          "label": "데살로니가전서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-thessalonians",
+          "relationType": "RELATED_BOOK",
+          "label": "데살로니가후서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "1-timothy",
+          "relationType": "RELATED_BOOK",
+          "label": "디모데전서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-timothy",
+          "relationType": "RELATED_BOOK",
+          "label": "디모데후서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "titus",
+          "relationType": "RELATED_BOOK",
+          "label": "디도서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "philemon",
+          "relationType": "RELATED_BOOK",
+          "label": "빌레몬서"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "다메섹 길의 전환",
+          "scripture": "Acts 9",
+          "description": "다메섹으로 가던 사울이 예수를 만나고 아나니아의 도움을 받습니다."
+        },
+        {
+          "number": "02",
+          "title": "파송과 동역",
+          "scripture": "Acts 13–20",
+          "description": "안디옥에서 파송되어 여러 도시에서 복음을 전하고 공동체를 세웁니다."
+        },
+        {
+          "number": "03",
+          "title": "체포와 로마의 증언",
+          "scripture": "Acts 21–28",
+          "description": "붙잡힌 뒤에도 여러 재판과 항해를 거쳐 로마에서 복음을 전합니다."
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "barnabas",
+      "titleKo": "바나바",
+      "titleEn": "Barnabas",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "초기 공동체에서 나눔과 격려로 알려졌으며 사울을 돕고 안디옥과 선교에 참여한 동역자입니다.",
+      "overview": "초기 공동체에서 나눔과 격려로 알려졌으며 사울을 돕고 안디옥과 선교에 참여한 동역자입니다. 재산을 나누고 사울을 사도들에게 소개합니다. 안디옥 공동체를 돌보고 바울과 함께 파송되어 사역합니다.",
+      "heroImage": "/assets/people/barnabas.webp",
+      "scripture": [
+        "Acts 4; 9",
+        "Acts 11–15"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "acts",
+          "relationType": "RELATED_BOOK",
+          "label": "사도행전"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "나눔과 소개",
+          "scripture": "Acts 4; 9",
+          "description": "재산을 나누고 사울을 사도들에게 소개합니다."
+        },
+        {
+          "number": "02",
+          "title": "안디옥과 파송",
+          "scripture": "Acts 11–15",
+          "description": "안디옥 공동체를 돌보고 바울과 함께 파송되어 사역합니다."
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "stephen",
+      "titleKo": "스데반",
+      "titleEn": "Stephen",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "예루살렘 공동체의 돌봄 직무를 위해 세워진 일곱 사람 가운데 하나로 증언하다 죽임당한 인물입니다.",
+      "overview": "예루살렘 공동체의 돌봄 직무를 위해 세워진 일곱 사람 가운데 하나로 증언하다 죽임당한 인물입니다. 공동체의 돌봄 문제를 해결하기 위해 세워지고 말씀과 지혜로 활동합니다. 이스라엘의 역사를 돌아보며 증언한 뒤 돌에 맞아 죽습니다.",
+      "heroImage": "/assets/people/stephen.webp",
+      "scripture": [
+        "Acts 6",
+        "Acts 7"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "acts",
+          "relationType": "RELATED_BOOK",
+          "label": "사도행전"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "섬김을 위해 세워지다",
+          "scripture": "Acts 6",
+          "description": "공동체의 돌봄 문제를 해결하기 위해 세워지고 말씀과 지혜로 활동합니다."
+        },
+        {
+          "number": "02",
+          "title": "공회 앞의 증언",
+          "scripture": "Acts 7",
+          "description": "이스라엘의 역사를 돌아보며 증언한 뒤 돌에 맞아 죽습니다."
+        }
+      ]
+    },
+    {
+      "type": "place",
+      "slug": "antioch",
+      "titleKo": "안디옥(수리아)",
+      "titleEn": "Antioch in Syria",
+      "eyebrow": "PLACES · BIBLICAL WORLD",
+      "summary": "유대인과 이방인이 함께 모인 공동체가 자라 바나바와 바울을 선교로 보낸 도시입니다.",
+      "overview": "유대인과 이방인이 함께 모인 공동체가 자라 바나바와 바울을 선교로 보낸 도시입니다.",
+      "heroImage": "/assets/scraptura-home-clean.jpg",
+      "scripture": [
+        "Acts 11; 13"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "acts",
+          "relationType": "RELATED_BOOK",
+          "label": "사도행전"
+        }
+      ],
+      "biblicalContext": "유대인과 이방인이 함께 모인 공동체가 자라 바나바와 바울을 선교로 보낸 도시입니다.",
+      "keyEvent": {
+        "title": "안디옥(수리아)의 성경 속 배경",
+        "scripture": "Acts 11; 13",
+        "description": "유대인과 이방인이 함께 모인 공동체가 자라 바나바와 바울을 선교로 보낸 도시입니다."
+      }
+    },
+    {
+      "type": "place",
+      "slug": "rome",
+      "titleKo": "로마",
+      "titleEn": "Rome",
+      "eyebrow": "PLACES · BIBLICAL WORLD",
+      "summary": "로마서의 수신 공동체가 있던 제국의 수도이며 사도행전 마지막에 바울이 복음을 전하는 장소입니다.",
+      "overview": "로마서의 수신 공동체가 있던 제국의 수도이며 사도행전 마지막에 바울이 복음을 전하는 장소입니다.",
+      "heroImage": "/assets/scraptura-home-clean.jpg",
+      "scripture": [
+        "Romans 1; Acts 28"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "acts",
+          "relationType": "RELATED_BOOK",
+          "label": "사도행전"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "romans",
+          "relationType": "RELATED_BOOK",
+          "label": "로마서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "2-timothy",
+          "relationType": "RELATED_BOOK",
+          "label": "디모데후서"
+        }
+      ],
+      "biblicalContext": "로마서의 수신 공동체가 있던 제국의 수도이며 사도행전 마지막에 바울이 복음을 전하는 장소입니다.",
+      "keyEvent": {
+        "title": "로마의 성경 속 배경",
+        "scripture": "Romans 1; Acts 28",
+        "description": "로마서의 수신 공동체가 있던 제국의 수도이며 사도행전 마지막에 바울이 복음을 전하는 장소입니다."
+      }
+    }
+  ]
+}

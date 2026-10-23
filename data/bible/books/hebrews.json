@@ -1,0 +1,270 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/HEB01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "hebrews",
+      "titleKo": "히브리서",
+      "titleEn": "Hebrews",
+      "eyebrow": "BIBLE · NEW TESTAMENT",
+      "summary": "그리스도의 대제사장 직무와 새 언약을 설명하며 지친 신자들에게 믿음으로 인내할 것을 권합니다.",
+      "overview": "그리스도의 대제사장 직무와 새 언약을 설명하며 지친 신자들에게 믿음으로 인내할 것을 권합니다. 아들의 탁월함을 말하며 예수가 인간의 고난과 죽음에 참여하셨음을 설명합니다. 광야 세대의 불신을 경계하고 하나님의 말씀을 듣고 은혜의 보좌에 나아가도록 권합니다. 성숙을 요청하며 멜기세덱의 계통을 통해 그리스도의 제사장 직무를 논합니다. 성막과 제사의 모형을 설명하고 그리스도를 통한 새 언약과 완전한 제사를 말합니다. 아벨부터 여러 인물의 이야기를 통해 보이지 않는 약속을 바라보는 믿음을 보여 줍니다. 예수를 바라보며 인내하고 공동체의 평화와 거룩함을 추구하도록 권합니다. 형제 사랑과 손님 대접, 갇힌 이들을 돌보는 삶과 지도자에 대한 책임을 권합니다.",
+      "biblicalContext": "저자를 본문에서 명시하지 않는 권면의 글입니다. 이스라엘 성경과 성막, 제사장과 제사의 언어로 그리스도의 사역을 설명하며 경고와 위로를 반복합니다.",
+      "heroImage": "/assets/bible/hebrews.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "아들을 통해 주신 말씀",
+          "scripture": "Hebrews 1–2",
+          "description": "아들의 탁월함을 말하며 예수가 인간의 고난과 죽음에 참여하셨음을 설명합니다."
+        },
+        {
+          "number": "02",
+          "title": "오늘 듣고 안식에 들어가라",
+          "scripture": "Hebrews 3–4",
+          "description": "광야 세대의 불신을 경계하고 하나님의 말씀을 듣고 은혜의 보좌에 나아가도록 권합니다."
+        },
+        {
+          "number": "03",
+          "title": "대제사장과 멜기세덱",
+          "scripture": "Hebrews 5–7",
+          "description": "성숙을 요청하며 멜기세덱의 계통을 통해 그리스도의 제사장 직무를 논합니다."
+        },
+        {
+          "number": "04",
+          "title": "새 언약과 단번의 제사",
+          "scripture": "Hebrews 8–10",
+          "description": "성막과 제사의 모형을 설명하고 그리스도를 통한 새 언약과 완전한 제사를 말합니다."
+        },
+        {
+          "number": "05",
+          "title": "믿음의 증인들",
+          "scripture": "Hebrews 11",
+          "description": "아벨부터 여러 인물의 이야기를 통해 보이지 않는 약속을 바라보는 믿음을 보여 줍니다."
+        },
+        {
+          "number": "06",
+          "title": "인내로 달리는 경주",
+          "scripture": "Hebrews 12",
+          "description": "예수를 바라보며 인내하고 공동체의 평화와 거룩함을 추구하도록 권합니다."
+        },
+        {
+          "number": "07",
+          "title": "일상으로 이어지는 믿음",
+          "scripture": "Hebrews 13",
+          "description": "형제 사랑과 손님 대접, 갇힌 이들을 돌보는 삶과 지도자에 대한 책임을 권합니다."
+        }
+      ],
+      "scripture": [
+        "Hebrews 1–13"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "jesus",
+          "relationType": "RELATED_PERSON",
+          "label": "예수 그리스도"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "melchizedek",
+          "relationType": "RELATED_PERSON",
+          "label": "멜기세덱"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "hebrews-priest-and-covenant",
+          "relationType": "RELATED_STORY",
+          "label": "대제사장과 새 언약"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "hebrews-witnesses-and-endurance",
+          "relationType": "RELATED_STORY",
+          "label": "믿음의 증인들과 인내의 경주"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "philemon",
+          "relationType": "RELATED_BOOK",
+          "label": "빌레몬서"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "james",
+          "relationType": "RELATED_BOOK",
+          "label": "야고보서"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "hebrews-priest-and-covenant",
+      "titleKo": "대제사장과 새 언약",
+      "titleEn": "Hebrews Priest And Covenant",
+      "eyebrow": "SCRIPTURE STUDY · HEBREWS",
+      "summary": "광야 세대의 불신을 경계하고 하나님의 말씀을 듣고 은혜의 보좌에 나아가도록 권합니다. 성숙을 요청하며 멜기세덱의 계통을 통해 그리스도의 제사장 직무를 논합니다. 성막과 제사의 모형을 설명하고 그리스도를 통한 새 언약과 완전한 제사를 말합니다.",
+      "overview": "히브리서의 3–4, 5–7, 8–10 본문을 따라 대제사장과 새 언약의 내용을 살펴봅니다. 저자를 본문에서 명시하지 않는 권면의 글입니다. 이스라엘 성경과 성막, 제사장과 제사의 언어로 그리스도의 사역을 설명하며 경고와 위로를 반복합니다.",
+      "heroImage": "/assets/bible/hebrews.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "오늘 듣고 안식에 들어가라",
+          "scripture": "Hebrews 3–4",
+          "description": "광야 세대의 불신을 경계하고 하나님의 말씀을 듣고 은혜의 보좌에 나아가도록 권합니다."
+        },
+        {
+          "number": "02",
+          "title": "대제사장과 멜기세덱",
+          "scripture": "Hebrews 5–7",
+          "description": "성숙을 요청하며 멜기세덱의 계통을 통해 그리스도의 제사장 직무를 논합니다."
+        },
+        {
+          "number": "03",
+          "title": "새 언약과 단번의 제사",
+          "scripture": "Hebrews 8–10",
+          "description": "성막과 제사의 모형을 설명하고 그리스도를 통한 새 언약과 완전한 제사를 말합니다."
+        }
+      ],
+      "scripture": [
+        "Hebrews 3–4",
+        "Hebrews 5–7",
+        "Hebrews 8–10"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "hebrews",
+          "relationType": "RELATED_BOOK",
+          "label": "히브리서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "jesus",
+          "relationType": "RELATED_PERSON",
+          "label": "예수 그리스도"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "melchizedek",
+          "relationType": "RELATED_PERSON",
+          "label": "멜기세덱"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "hebrews-witnesses-and-endurance",
+      "titleKo": "믿음의 증인들과 인내의 경주",
+      "titleEn": "Hebrews Witnesses And Endurance",
+      "eyebrow": "SCRIPTURE STUDY · HEBREWS",
+      "summary": "아벨부터 여러 인물의 이야기를 통해 보이지 않는 약속을 바라보는 믿음을 보여 줍니다. 예수를 바라보며 인내하고 공동체의 평화와 거룩함을 추구하도록 권합니다. 형제 사랑과 손님 대접, 갇힌 이들을 돌보는 삶과 지도자에 대한 책임을 권합니다.",
+      "overview": "히브리서의 11, 12, 13 본문을 따라 믿음의 증인들과 인내의 경주의 내용을 살펴봅니다. 저자를 본문에서 명시하지 않는 권면의 글입니다. 이스라엘 성경과 성막, 제사장과 제사의 언어로 그리스도의 사역을 설명하며 경고와 위로를 반복합니다.",
+      "heroImage": "/assets/bible/hebrews.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "믿음의 증인들",
+          "scripture": "Hebrews 11",
+          "description": "아벨부터 여러 인물의 이야기를 통해 보이지 않는 약속을 바라보는 믿음을 보여 줍니다."
+        },
+        {
+          "number": "02",
+          "title": "인내로 달리는 경주",
+          "scripture": "Hebrews 12",
+          "description": "예수를 바라보며 인내하고 공동체의 평화와 거룩함을 추구하도록 권합니다."
+        },
+        {
+          "number": "03",
+          "title": "일상으로 이어지는 믿음",
+          "scripture": "Hebrews 13",
+          "description": "형제 사랑과 손님 대접, 갇힌 이들을 돌보는 삶과 지도자에 대한 책임을 권합니다."
+        }
+      ],
+      "scripture": [
+        "Hebrews 11",
+        "Hebrews 12",
+        "Hebrews 13"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "hebrews",
+          "relationType": "RELATED_BOOK",
+          "label": "히브리서"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "jesus",
+          "relationType": "RELATED_PERSON",
+          "label": "예수 그리스도"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "melchizedek",
+          "relationType": "RELATED_PERSON",
+          "label": "멜기세덱"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "예루살렘"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "melchizedek",
+      "titleKo": "멜기세덱",
+      "titleEn": "Melchizedek",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "아브라함을 축복한 살렘 왕이자 제사장으로, 히브리서에서 그리스도의 제사장 직무를 설명하는 인물로 사용됩니다.",
+      "overview": "아브라함을 축복한 살렘 왕이자 제사장으로, 히브리서에서 그리스도의 제사장 직무를 설명하는 인물로 사용됩니다. 떡과 포도주를 가지고 나와 아브라함을 축복하고 십일조를 받습니다. 멜기세덱의 모습이 레위 계통과 다른 제사장 직무를 설명하는 데 인용됩니다.",
+      "heroImage": "/assets/people/melchizedek.webp",
+      "scripture": [
+        "Genesis 14:18–20",
+        "Hebrews 7"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "hebrews",
+          "relationType": "RELATED_BOOK",
+          "label": "히브리서"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "아브라함을 축복하다",
+          "scripture": "Genesis 14:18–20",
+          "description": "떡과 포도주를 가지고 나와 아브라함을 축복하고 십일조를 받습니다."
+        },
+        {
+          "number": "02",
+          "title": "제사장 직무의 설명",
+          "scripture": "Hebrews 7",
+          "description": "멜기세덱의 모습이 레위 계통과 다른 제사장 직무를 설명하는 데 인용됩니다."
+        }
+      ]
+    }
+  ]
+}

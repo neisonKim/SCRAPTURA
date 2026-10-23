@@ -1,0 +1,372 @@
+{
+  "sources": [
+    {
+      "title": "Biblical text (KJV, public domain)",
+      "url": "https://ebible.org/eng-kjv/REV01.htm"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "book",
+      "slug": "revelation",
+      "titleKo": "요한계시록",
+      "titleEn": "Revelation",
+      "eyebrow": "BIBLE · NEW TESTAMENT",
+      "summary": "일곱 교회를 향한 말씀과 상징적 환상을 통해 고난 중의 신실함과 하나님의 최종적인 회복을 전합니다.",
+      "overview": "일곱 교회를 향한 말씀과 상징적 환상을 통해 고난 중의 신실함과 하나님의 최종적인 회복을 전합니다. 요한이 예수 그리스도의 계시를 받아 교회들에게 전하며 촛대 사이에 계신 이를 봅니다. 일곱 교회의 충성과 타협, 고난과 자기만족을 각각 책망하고 격려합니다. 하늘의 예배와 봉인된 두루마리, 그것을 여실 어린양의 승리가 드러납니다. 인들이 열리며 심판의 장면이 전개되고 인침 받은 이들과 큰 무리가 나타납니다. 나팔 재앙과 작은 두루마리, 두 증인의 이야기 및 하나님의 왕권을 알리는 소리가 이어집니다. 용과 두 짐승의 권세에 맞서 어린양을 따르는 신실한 백성이 대비됩니다. 마지막 재앙을 담은 일곱 대접이 쏟아지며 심판과 깨어 있으라는 요청이 이어집니다. 사치와 폭력의 성읍 바벨론이 무너지고 어린양의 혼인 잔치와 승리가 선포됩니다. 악의 마지막 저항과 심판이 기록되며 생명책의 이미지가 제시됩니다. 새 예루살렘과 생명수의 강, 생명나무가 나타나고 고통 없는 하나님의 임재와 오심의 소망으로 끝납니다.",
+      "biblicalContext": "소아시아 교회들에게 보내는 예언과 묵시의 글로 예배와 제국의 충성이 충돌하는 현실을 다룹니다. 짐승과 바벨론 등의 상징을 현대의 특정 인물이나 날짜에 곧바로 대응시키지 않고 본문의 대비와 반복을 따라 읽습니다.",
+      "heroImage": "/assets/bible/revelation.webp",
+      "bookSections": [
+        {
+          "number": "01",
+          "title": "밧모섬에서의 환상",
+          "scripture": "Revelation 1",
+          "description": "요한이 예수 그리스도의 계시를 받아 교회들에게 전하며 촛대 사이에 계신 이를 봅니다."
+        },
+        {
+          "number": "02",
+          "title": "일곱 교회에 주는 말씀",
+          "scripture": "Revelation 2–3",
+          "description": "일곱 교회의 충성과 타협, 고난과 자기만족을 각각 책망하고 격려합니다."
+        },
+        {
+          "number": "03",
+          "title": "보좌와 어린양",
+          "scripture": "Revelation 4–5",
+          "description": "하늘의 예배와 봉인된 두루마리, 그것을 여실 어린양의 승리가 드러납니다."
+        },
+        {
+          "number": "04",
+          "title": "인과 인침 받은 백성",
+          "scripture": "Revelation 6–7",
+          "description": "인들이 열리며 심판의 장면이 전개되고 인침 받은 이들과 큰 무리가 나타납니다."
+        },
+        {
+          "number": "05",
+          "title": "나팔과 증인들",
+          "scripture": "Revelation 8–11",
+          "description": "나팔 재앙과 작은 두루마리, 두 증인의 이야기 및 하나님의 왕권을 알리는 소리가 이어집니다."
+        },
+        {
+          "number": "06",
+          "title": "용과 짐승, 어린양의 백성",
+          "scripture": "Revelation 12–14",
+          "description": "용과 두 짐승의 권세에 맞서 어린양을 따르는 신실한 백성이 대비됩니다."
+        },
+        {
+          "number": "07",
+          "title": "마지막 대접의 심판",
+          "scripture": "Revelation 15–16",
+          "description": "마지막 재앙을 담은 일곱 대접이 쏟아지며 심판과 깨어 있으라는 요청이 이어집니다."
+        },
+        {
+          "number": "08",
+          "title": "바벨론의 몰락과 잔치",
+          "scripture": "Revelation 17–19",
+          "description": "사치와 폭력의 성읍 바벨론이 무너지고 어린양의 혼인 잔치와 승리가 선포됩니다."
+        },
+        {
+          "number": "09",
+          "title": "마지막 심판",
+          "scripture": "Revelation 20",
+          "description": "악의 마지막 저항과 심판이 기록되며 생명책의 이미지가 제시됩니다."
+        },
+        {
+          "number": "10",
+          "title": "새 하늘과 새 땅",
+          "scripture": "Revelation 21–22",
+          "description": "새 예루살렘과 생명수의 강, 생명나무가 나타나고 고통 없는 하나님의 임재와 오심의 소망으로 끝납니다."
+        }
+      ],
+      "scripture": [
+        "Revelation 1–22"
+      ],
+      "relations": [
+        {
+          "targetType": "person",
+          "targetSlug": "john-of-patmos",
+          "relationType": "RELATED_PERSON",
+          "label": "밧모섬의 요한"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "jesus",
+          "relationType": "RELATED_PERSON",
+          "label": "예수 그리스도"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "patmos",
+          "relationType": "RELATED_PLACE",
+          "label": "밧모섬"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "ephesus",
+          "relationType": "RELATED_PLACE",
+          "label": "에베소"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "new-jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "새 예루살렘"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "seven-churches-and-lamb",
+          "relationType": "RELATED_STORY",
+          "label": "일곱 교회와 어린양의 보좌"
+        },
+        {
+          "targetType": "story",
+          "targetSlug": "new-jerusalem-and-life",
+          "relationType": "RELATED_STORY",
+          "label": "바벨론의 끝과 새 예루살렘"
+        },
+        {
+          "targetType": "book",
+          "targetSlug": "jude",
+          "relationType": "RELATED_BOOK",
+          "label": "유다서"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "seven-churches-and-lamb",
+      "titleKo": "일곱 교회와 어린양의 보좌",
+      "titleEn": "Seven Churches And Lamb",
+      "eyebrow": "SCRIPTURE STUDY · REVELATION",
+      "summary": "요한이 예수 그리스도의 계시를 받아 교회들에게 전하며 촛대 사이에 계신 이를 봅니다. 일곱 교회의 충성과 타협, 고난과 자기만족을 각각 책망하고 격려합니다. 하늘의 예배와 봉인된 두루마리, 그것을 여실 어린양의 승리가 드러납니다.",
+      "overview": "요한계시록의 1, 2–3, 4–5 본문을 따라 일곱 교회와 어린양의 보좌의 내용을 살펴봅니다. 소아시아 교회들에게 보내는 예언과 묵시의 글로 예배와 제국의 충성이 충돌하는 현실을 다룹니다. 짐승과 바벨론 등의 상징을 현대의 특정 인물이나 날짜에 곧바로 대응시키지 않고 본문의 대비와 반복을 따라 읽습니다.",
+      "heroImage": "/assets/bible/revelation.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "밧모섬에서의 환상",
+          "scripture": "Revelation 1",
+          "description": "요한이 예수 그리스도의 계시를 받아 교회들에게 전하며 촛대 사이에 계신 이를 봅니다."
+        },
+        {
+          "number": "02",
+          "title": "일곱 교회에 주는 말씀",
+          "scripture": "Revelation 2–3",
+          "description": "일곱 교회의 충성과 타협, 고난과 자기만족을 각각 책망하고 격려합니다."
+        },
+        {
+          "number": "03",
+          "title": "보좌와 어린양",
+          "scripture": "Revelation 4–5",
+          "description": "하늘의 예배와 봉인된 두루마리, 그것을 여실 어린양의 승리가 드러납니다."
+        }
+      ],
+      "scripture": [
+        "Revelation 1",
+        "Revelation 2–3",
+        "Revelation 4–5"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "revelation",
+          "relationType": "RELATED_BOOK",
+          "label": "요한계시록"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "john-of-patmos",
+          "relationType": "RELATED_PERSON",
+          "label": "밧모섬의 요한"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "jesus",
+          "relationType": "RELATED_PERSON",
+          "label": "예수 그리스도"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "patmos",
+          "relationType": "RELATED_PLACE",
+          "label": "밧모섬"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "ephesus",
+          "relationType": "RELATED_PLACE",
+          "label": "에베소"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "new-jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "새 예루살렘"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "slug": "new-jerusalem-and-life",
+      "titleKo": "바벨론의 끝과 새 예루살렘",
+      "titleEn": "New Jerusalem And Life",
+      "eyebrow": "SCRIPTURE STUDY · REVELATION",
+      "summary": "사치와 폭력의 성읍 바벨론이 무너지고 어린양의 혼인 잔치와 승리가 선포됩니다. 악의 마지막 저항과 심판이 기록되며 생명책의 이미지가 제시됩니다. 새 예루살렘과 생명수의 강, 생명나무가 나타나고 고통 없는 하나님의 임재와 오심의 소망으로 끝납니다.",
+      "overview": "요한계시록의 17–19, 20, 21–22 본문을 따라 바벨론의 끝과 새 예루살렘의 내용을 살펴봅니다. 소아시아 교회들에게 보내는 예언과 묵시의 글로 예배와 제국의 충성이 충돌하는 현실을 다룹니다. 짐승과 바벨론 등의 상징을 현대의 특정 인물이나 날짜에 곧바로 대응시키지 않고 본문의 대비와 반복을 따라 읽습니다.",
+      "heroImage": "/assets/bible/revelation.webp",
+      "scenes": [
+        {
+          "number": "01",
+          "title": "바벨론의 몰락과 잔치",
+          "scripture": "Revelation 17–19",
+          "description": "사치와 폭력의 성읍 바벨론이 무너지고 어린양의 혼인 잔치와 승리가 선포됩니다."
+        },
+        {
+          "number": "02",
+          "title": "마지막 심판",
+          "scripture": "Revelation 20",
+          "description": "악의 마지막 저항과 심판이 기록되며 생명책의 이미지가 제시됩니다."
+        },
+        {
+          "number": "03",
+          "title": "새 하늘과 새 땅",
+          "scripture": "Revelation 21–22",
+          "description": "새 예루살렘과 생명수의 강, 생명나무가 나타나고 고통 없는 하나님의 임재와 오심의 소망으로 끝납니다."
+        }
+      ],
+      "scripture": [
+        "Revelation 17–19",
+        "Revelation 20",
+        "Revelation 21–22"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "revelation",
+          "relationType": "RELATED_BOOK",
+          "label": "요한계시록"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "john-of-patmos",
+          "relationType": "RELATED_PERSON",
+          "label": "밧모섬의 요한"
+        },
+        {
+          "targetType": "person",
+          "targetSlug": "jesus",
+          "relationType": "RELATED_PERSON",
+          "label": "예수 그리스도"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "patmos",
+          "relationType": "RELATED_PLACE",
+          "label": "밧모섬"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "ephesus",
+          "relationType": "RELATED_PLACE",
+          "label": "에베소"
+        },
+        {
+          "targetType": "place",
+          "targetSlug": "new-jerusalem",
+          "relationType": "RELATED_PLACE",
+          "label": "새 예루살렘"
+        }
+      ]
+    },
+    {
+      "type": "person",
+      "slug": "john-of-patmos",
+      "titleKo": "밧모섬의 요한",
+      "titleEn": "John of Patmos",
+      "eyebrow": "PEOPLE · BIBLICAL ARCHIVE",
+      "summary": "요한계시록에서 자신의 이름을 요한이라 밝히며 밧모섬에서 받은 계시를 교회들에 전하는 인물입니다.",
+      "overview": "요한계시록에서 자신의 이름을 요한이라 밝히며 밧모섬에서 받은 계시를 교회들에 전하는 인물입니다. 고난을 함께 겪는 이로 자신을 소개하고 교회들에게 전할 계시를 받습니다. 새 예루살렘과 생명의 강을 보고 마지막 약속을 전합니다.",
+      "heroImage": "/assets/people/john-of-patmos.webp",
+      "scripture": [
+        "Revelation 1",
+        "Revelation 21–22"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "revelation",
+          "relationType": "RELATED_BOOK",
+          "label": "요한계시록"
+        }
+      ],
+      "characterJourney": [
+        {
+          "number": "01",
+          "title": "밧모섬에서 듣다",
+          "scripture": "Revelation 1",
+          "description": "고난을 함께 겪는 이로 자신을 소개하고 교회들에게 전할 계시를 받습니다."
+        },
+        {
+          "number": "02",
+          "title": "새 창조의 증언",
+          "scripture": "Revelation 21–22",
+          "description": "새 예루살렘과 생명의 강을 보고 마지막 약속을 전합니다."
+        }
+      ]
+    },
+    {
+      "type": "place",
+      "slug": "patmos",
+      "titleKo": "밧모섬",
+      "titleEn": "Patmos",
+      "eyebrow": "PLACES · BIBLICAL WORLD",
+      "summary": "요한계시록의 화자가 말씀과 증언 때문에 머물며 계시를 받은 곳이라고 소개하는 섬입니다.",
+      "overview": "요한계시록의 화자가 말씀과 증언 때문에 머물며 계시를 받은 곳이라고 소개하는 섬입니다.",
+      "heroImage": "/assets/scraptura-home-clean.jpg",
+      "scripture": [
+        "Revelation 1:9–11"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "revelation",
+          "relationType": "RELATED_BOOK",
+          "label": "요한계시록"
+        }
+      ],
+      "biblicalContext": "요한계시록의 화자가 말씀과 증언 때문에 머물며 계시를 받은 곳이라고 소개하는 섬입니다.",
+      "keyEvent": {
+        "title": "밧모섬의 성경 속 배경",
+        "scripture": "Revelation 1:9–11",
+        "description": "요한계시록의 화자가 말씀과 증언 때문에 머물며 계시를 받은 곳이라고 소개하는 섬입니다."
+      }
+    },
+    {
+      "type": "place",
+      "slug": "new-jerusalem",
+      "titleKo": "새 예루살렘",
+      "titleEn": "New Jerusalem",
+      "eyebrow": "PLACES · BIBLICAL WORLD",
+      "summary": "요한계시록의 새 창조 환상에서 하나님이 사람들과 함께 거하시는 도성입니다. 현재의 고고학적 장소와 구분되는 묵시적 이미지입니다.",
+      "overview": "요한계시록의 새 창조 환상에서 하나님이 사람들과 함께 거하시는 도성입니다. 현재의 고고학적 장소와 구분되는 묵시적 이미지입니다.",
+      "heroImage": "/assets/scraptura-home-clean.jpg",
+      "scripture": [
+        "Revelation 21–22"
+      ],
+      "relations": [
+        {
+          "targetType": "book",
+          "targetSlug": "revelation",
+          "relationType": "RELATED_BOOK",
+          "label": "요한계시록"
+        }
+      ],
+      "biblicalContext": "요한계시록의 새 창조 환상에서 하나님이 사람들과 함께 거하시는 도성입니다. 현재의 고고학적 장소와 구분되는 묵시적 이미지입니다.",
+      "keyEvent": {
+        "title": "새 예루살렘의 성경 속 배경",
+        "scripture": "Revelation 21–22",
+        "description": "요한계시록의 새 창조 환상에서 하나님이 사람들과 함께 거하시는 도성입니다. 현재의 고고학적 장소와 구분되는 묵시적 이미지입니다."
+      }
+    }
+  ]
+}
