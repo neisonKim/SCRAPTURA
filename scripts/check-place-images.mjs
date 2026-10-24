@@ -1,0 +1,40 @@
+import assert from "node:assert/strict";
+import fs from "node:fs";
+import path from "node:path";
+import crypto from "node:crypto";
+import { fileURLToPath } from "node:url";
+import sharp from "sharp";
+import { placeJobs } from "../data/places/image-prompts.mjs";
+import { loadTypeScript } from "./lib/load-typescript.mjs";
+
+const root = fileURLToPath(new URL("../", import.meta.url));
+const inventory = JSON.parse(fs.readFileSync(path.join(root, "data/places/image-inventory.json"), "utf8"));
+const images = JSON.parse(fs.readFileSync(path.join(root, "data/places/place-images.json"), "utf8"));
+const { nodes } = loadTypeScript(path.join(root, "data/content.ts"));
+const { getLocalArchiveRecords } = loadTypeScript(path.join(root, "data/archive.ts"));
+const { biblePackageNodes } = loadTypeScript(path.join(root, "data/bible/package-loader.ts"));
+const { mergeArchiveRecords } = loadTypeScript(path.join(root, "lib/archive-merge.ts"));
+const hashes = new Set(); let bytes = 0;
+assert.equal(placeJobs.length, 37);
+for (const job of placeJobs) {
+  assert(!inventory.remote.some(item => item.slug === job.slug && item.heroImage), `Existing published image preserved: ${job.slug}`);
+  const filename = path.join(root, "public/assets/places", `${job.slug}.webp`);
+  const buffer = fs.readFileSync(filename); bytes += buffer.length;
+  hashes.add(crypto.createHash("sha256").update(buffer).digest("hex"));
+  const metadata = await sharp(buffer).metadata();
+  assert.equal(metadata.format, "webp");
+  assert(metadata.width >= 1500 && metadata.width > metadata.height);
+  const node = nodes.find(item => item.type === "place" && item.slug === job.slug);
+  assert.equal(node.heroImage, `/assets/places/${job.slug}.webp`);
+}
+assert.equal(hashes.size, 37, "Distinct place images");
+const places = nodes.filter(node => node.type === "place");
+assert.equal(places.length, 46);
+for (const place of places) assert(!/scraptura-(home|david)/.test(place.heroImage), `No default or borrowed battle portrait: ${place.slug}`);
+for (const original of inventory.remote) assert.equal(images[original.slug], original.heroImage, `Published image preserved: ${original.slug}`);
+for (const node of biblePackageNodes.filter(node => node.type === "place")) assert.equal(node.heroImage, images[node.slug], `Bible package place uses current image: ${node.slug}`);
+const records = getLocalArchiveRecords("place");
+assert.equal(records.length, 46);
+const galilee = records.find(item => item.slug === "galilee");
+assert.equal(mergeArchiveRecords([galilee], [{ ...galilee, heroImage: "/assets/scraptura-home-clean.jpg" }])[0].heroImage, images.galilee);
+console.log(`PASS: 37 distinct generated WebP landscapes (${(bytes / 1024 ** 2).toFixed(1)} MiB), 46 complete local places, 10 existing published images preserved, packages/archive/CMS fallback consistent.`);

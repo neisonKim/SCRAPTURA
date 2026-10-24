@@ -45,7 +45,7 @@ for (const previous of inventory.local) {
   const current = getNode("person", previous.slug);
   assert(!isDefaultContentImage(current.heroImage), `Still using generic image: ${previous.slug}`);
   if (!isDefaultContentImage(previous.heroImage)) {
-    assert.equal(current.heroImage, previous.heroImage, `Existing portrait changed: ${previous.slug}`);
+    assert.equal(current.heroImage, previous.slug === "moses" ? "/assets/people/moses-v2-wide.webp" : previous.heroImage, `Only the requested Moses portrait may change: ${previous.slug}`);
     if (previous.heroImage.startsWith("/")) existingPaths.add(previous.heroImage);
   }
   if (current.heroImage.startsWith("/")) assert(fs.existsSync(path.join(root, "public", current.heroImage)));
@@ -66,4 +66,4 @@ assert.equal(preferDedicatedImage(originalRemote.get("david"), images.ruth), ori
 const preserved = { type: "person", slug: "ruth", heroImage: "/custom-existing.jpg" };
 assert.equal(applyPersonPortrait(preserved), preserved);
 console.log(`PASS: 70 distinct generated portraits (${(bytes / 1024 / 1024).toFixed(1)} MiB); all ${people.length} local people have images.`);
-console.log("PASS: all previous local files and published CMS images preserved; 3 existing image connections restored; package/detail/archive/search fallbacks resolve.");
+console.log("PASS: Moses uses the requested new WebP portrait; previous files and other portraits are preserved; package/detail/archive/search fallbacks resolve.");

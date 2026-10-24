@@ -82,7 +82,7 @@ export default function Home() {
           </p>
 
 
-      <Link href="#explore-portal">
+      <Link href="/journeys">
         BEGIN YOUR JOURNEY
       </Link>
 

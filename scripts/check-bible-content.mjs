@@ -14,6 +14,7 @@ const { mergeArchiveRecords } = load("lib/archive-merge.ts");
 const byKey = new Map(nodes.map(node => [`${node.type}:${node.slug}`, node]));
 const packageKeys = new Set();
 const bookCounts = new Map(bibleCatalog.map(book => [book.titleEn, book.chapterCount]));
+const publishedImages = new Set(["people", "places"].flatMap(type => JSON.parse(fs.readFileSync(path.join(root, `data/${type}/image-inventory.json`), "utf8")).remote.map(item => item.heroImage)));
 // English KJV verse numbering; some translations divide 3 John's last verse differently.
 const singleChapterVerses = new Map([["Obadiah", 21], ["Philemon", 25], ["2 John", 13], ["3 John", 14], ["Jude", 25]]);
 
@@ -45,7 +46,7 @@ for (const node of biblePackageNodes) {
   assert(/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(node.slug), `Invalid slug: ${key}`);
   for (const field of ["titleKo", "titleEn", "summary", "overview", "heroImage"]) assert(typeof node[field] === "string" && node[field].trim(), `Missing ${field}: ${key}`);
   assert(!JSON.stringify(node).includes("\ufffd"), `Broken UTF-8: ${key}`);
-  assert(fs.existsSync(path.join(root, "public", node.heroImage)), `Missing image: ${key}`);
+  assert(node.heroImage.startsWith("/") ? fs.existsSync(path.join(root, "public", node.heroImage)) : node.heroImage.startsWith("https://") && publishedImages.has(node.heroImage), `Missing or unrecognized image: ${key}`);
   assert.equal(getBiblePackageNode(node.type, ` ${node.slug.toUpperCase()} `), node, `Package lookup: ${key}`);
   assert(node.scripture?.length, `Missing scripture: ${key}`);
   if (node.type === "story") checkStages(node.scenes, key);

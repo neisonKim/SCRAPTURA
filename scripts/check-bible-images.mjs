@@ -46,7 +46,7 @@ for (const story of stories) {
 }
 assert.equal(getNode("book", "1-samuel").heroImage, "/assets/scraptura-david.jpg");
 assert.equal(getNode("story", "david-and-goliath").heroImage, "/assets/scraptura-david-goliath.jpg");
-assert.equal(getNode("person", "moses").heroImage, "/assets/scraptura-moses.jpg");
+assert.equal(getNode("person", "moses").heroImage, "/assets/people/moses-v2-wide.webp");
 assert.equal(getBookCover("book-of-joshua"), getBookCover("joshua"));
 assert.equal(getNode("story", "twelve-spies").heroImage, getBookCover("numbers"));
 assert.equal(getNode("story", "creation").heroImage, getBookCover("genesis"));

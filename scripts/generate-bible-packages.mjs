@@ -16,6 +16,7 @@ if (outlines.length !== 63 || new Set(outlines.map(book => book.slug)).size !== 
 const image = "/assets/scraptura-home-clean.jpg";
 const covers = JSON.parse(fs.readFileSync(path.join(root, "data/bible/cover-images.json"), "utf8"));
 const portraits = JSON.parse(fs.readFileSync(path.join(root, "data/people/portrait-images.json"), "utf8"));
+const placeImages = JSON.parse(fs.readFileSync(path.join(root, "data/places/place-images.json"), "utf8"));
 const codes = "GEN EXO LEV NUM DEU JOS JDG RUT 1SA 2SA 1KI 2KI 1CH 2CH EZR NEH EST JOB PSA PRO ECC SNG ISA JER LAM EZK DAN HOS JOL AMO OBA JON MIC NAM HAB ZEP HAG ZEC MAL MAT MRK LUK JHN ACT ROM 1CO 2CO GAL EPH PHP COL 1TH 2TH 1TI 2TI TIT PHM HEB JAS 1PE 2PE 1JN 2JN 3JN JUD REV".split(" ");
 const packages = new Map(outlines.map(outline => [outline.slug, { sources: [{ title: "Biblical text (KJV, public domain)", url: `https://ebible.org/eng-kjv/${codes[catalog.findIndex(book => book.slug === outline.slug)]}01.htm` }], nodes: [] }]));
 const relation = (type, slug, label) => ({ targetType: type, targetSlug: slug, relationType: `RELATED_${type === "person" ? "PERSON" : type.toUpperCase()}`, label });
@@ -67,7 +68,7 @@ function attachEntities(type, rows) {
   for (const [slug, titleKo, titleEn, summary, ...references] of rows) {
     const associated = outlines.filter(outline => outline[type === "person" ? "people" : "places"].includes(slug));
     if (!associated.length) throw new Error(`Unused entity: ${type}:${slug}`);
-    const node = { type, slug, titleKo, titleEn, eyebrow: type === "person" ? "PEOPLE · BIBLICAL ARCHIVE" : "PLACES · BIBLICAL WORLD", summary, overview: summary, heroImage: type === "person" ? portraits[slug] ?? image : image, scripture: [], relations: associated.map(book => related("book", book.slug)) };
+    const node = { type, slug, titleKo, titleEn, eyebrow: type === "person" ? "PEOPLE · BIBLICAL ARCHIVE" : "PLACES · BIBLICAL WORLD", summary, overview: summary, heroImage: type === "person" ? portraits[slug] ?? image : placeImages[slug] ?? image, scripture: [], relations: associated.map(book => related("book", book.slug)) };
     if (type === "person") {
       node.characterJourney = references.map((row, index) => {
         const [scripture, title, description] = row.split("|");

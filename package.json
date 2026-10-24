@@ -16,7 +16,11 @@
     "exploration:verify": "node scripts/verify-exploration.mjs",
     "people:images:sync": "node scripts/sync-person-images.mjs",
     "people:images:check": "node scripts/check-person-images.mjs",
-    "people:images:verify": "node scripts/verify-person-images.mjs"
+    "people:images:verify": "node scripts/verify-person-images.mjs",
+    "places:images:sync": "node scripts/sync-place-images.mjs",
+    "places:images:check": "node scripts/check-place-images.mjs",
+    "journeys:check": "node scripts/check-journeys.mjs",
+    "places:journeys:verify": "node scripts/verify-places-journeys.mjs"
   },
   "dependencies": {
     "cloudinary": "^2.11.0",

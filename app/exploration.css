@@ -4,7 +4,6 @@
 .home .homeHero .heroShade {
   background: linear-gradient(180deg, rgba(5,12,11,.1), rgba(5,12,11,.24) 50%, #050c0b), linear-gradient(90deg, rgba(5,12,11,.22), transparent 70%);
 }
-.home .homeHero::after { color: #f2e5cf; text-shadow: 0 1px 8px #050c0b; background: rgba(5,12,11,.52); padding: 14px 18px; font-size: 15px; }
 .home .portal {
   order: 1; position: relative; inset: auto;
   width: min(1320px, calc(100% - 48px)); margin: 0 auto 40px; padding: 0;

@@ -2,6 +2,7 @@ import { biblePackageNodes } from "./bible/package-loader";
 import { applyBookCover } from "./bible/images";
 import { explorationNodes } from "./exploration";
 import { applyPersonPortrait } from "./people/images";
+import { applyPlaceImage } from "./places/images";
 
 export type ContentType =
   | "story"
@@ -4977,7 +4978,7 @@ const legacyNodes: ContentNode[] = [
 
 
     heroImage:
-      "/assets/scraptura-moses.jpg",
+      "/assets/people/moses-v2-wide.webp",
 
 
     scripture: [
@@ -9766,7 +9767,7 @@ const legacyNodes: ContentNode[] = [
 // Keep existing detailed content when a package refers to the same node.
 export const nodes: ContentNode[] = Array.from(
   new Map([...biblePackageNodes, ...legacyNodes, ...explorationNodes].map(node => [`${node.type}:${node.slug}`, node])).values()
-).map(applyBookCover).map(applyPersonPortrait);
+).map(applyBookCover).map(applyPersonPortrait).map(applyPlaceImage);
 
 export const getNode = (
   type: ContentType,

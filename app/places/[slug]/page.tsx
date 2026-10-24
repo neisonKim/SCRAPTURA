@@ -12,6 +12,7 @@ import {
 
 import Hero
   from "../../../components/Hero";
+import { preferDedicatedImage } from "../../../lib/content-images";
 
 import RelationCards
   from "../../../components/RelationCards";
@@ -588,11 +589,7 @@ const getPlace =
             localPlace?.keyEvent,
 
           heroImage:
-            normalizeString(
-              data.heroImage
-            ) ||
-            localPlace?.heroImage ||
-            "",
+            preferDedicatedImage(normalizeString(data.heroImage), localPlace?.heroImage ?? ""),
 
           scripture: (() => {
 

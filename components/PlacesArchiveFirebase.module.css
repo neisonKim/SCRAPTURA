@@ -1,0 +1,8 @@
+.landscape {
+  position: relative;
+  overflow: hidden;
+}
+
+.landscape img {
+  object-fit: cover;
+}

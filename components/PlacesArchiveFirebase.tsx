@@ -6,6 +6,8 @@ import {
 } from "react";
 
 import Link from "next/link";
+import Image from "next/image";
+import styles from "./PlacesArchiveFirebase.module.css";
 import { mergeArchiveRecords } from "../lib/archive-merge";
 
 import {
@@ -605,12 +607,10 @@ export default function PlacesArchiveFirebase({ initialRecords }: { initialRecor
                 >
 
                   <div
-                    className="cardImage"
-                    style={{
-                      backgroundImage:
-                        `url("${place.heroImage}")`,
-                    }}
-                  />
+                    className={`cardImage ${styles.landscape}`}
+                  >
+                    <Image src={place.heroImage} alt={`${place.titleKo}의 성경 속 배경`} fill sizes="(max-width: 700px) 100vw, (max-width: 1000px) 50vw, 400px" loading="lazy" unoptimized={!place.heroImage.startsWith("/") || place.heroImage.startsWith("//")} />
+                  </div>
 
                   <small>
                     {place.eyebrow}

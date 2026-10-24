@@ -1,0 +1,332 @@
+{
+  "local": [
+    {
+      "slug": "kadesh",
+      "titleKo": "가데스",
+      "titleEn": "Kadesh",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "moab",
+      "titleKo": "모압",
+      "titleEn": "Moab",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "mount-nebo",
+      "titleKo": "느보산",
+      "titleEn": "Mount Nebo",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "canaan",
+      "titleKo": "가나안",
+      "titleEn": "Canaan",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "shiloh",
+      "titleKo": "실로",
+      "titleEn": "Shiloh",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "samaria",
+      "titleKo": "사마리아",
+      "titleEn": "Samaria",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "mount-carmel",
+      "titleKo": "갈멜산",
+      "titleEn": "Mount Carmel",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "babylon",
+      "titleKo": "바벨론",
+      "titleEn": "Babylon",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "susa",
+      "titleKo": "수산",
+      "titleEn": "Susa",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "uz",
+      "titleKo": "우스 땅",
+      "titleEn": "Uz",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "edom",
+      "titleKo": "에돔",
+      "titleEn": "Edom",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "nineveh",
+      "titleKo": "니느웨",
+      "titleEn": "Nineveh",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "galilee",
+      "titleKo": "갈릴리",
+      "titleEn": "Galilee",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "nazareth",
+      "titleKo": "나사렛",
+      "titleEn": "Nazareth",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "emmaus",
+      "titleKo": "엠마오",
+      "titleEn": "Emmaus",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "bethany",
+      "titleKo": "베다니",
+      "titleEn": "Bethany",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "antioch",
+      "titleKo": "안디옥(수리아)",
+      "titleEn": "Antioch in Syria",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "rome",
+      "titleKo": "로마",
+      "titleEn": "Rome",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "corinth",
+      "titleKo": "고린도",
+      "titleEn": "Corinth",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "galatia",
+      "titleKo": "갈라디아",
+      "titleEn": "Galatia",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "ephesus",
+      "titleKo": "에베소",
+      "titleEn": "Ephesus",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "philippi",
+      "titleKo": "빌립보",
+      "titleEn": "Philippi",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "colossae",
+      "titleKo": "골로새",
+      "titleEn": "Colossae",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "thessalonica",
+      "titleKo": "데살로니가",
+      "titleEn": "Thessalonica",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "crete",
+      "titleKo": "그레데",
+      "titleEn": "Crete",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "patmos",
+      "titleKo": "밧모섬",
+      "titleEn": "Patmos",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "new-jerusalem",
+      "titleKo": "새 예루살렘",
+      "titleEn": "New Jerusalem",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "valley-of-elah",
+      "titleKo": "엘라 골짜기",
+      "titleEn": "Valley of Elah",
+      "heroImage": "/assets/scraptura-david-goliath.jpg"
+    },
+    {
+      "slug": "bethlehem",
+      "titleKo": "베들레헴",
+      "titleEn": "Bethlehem",
+      "heroImage": "/assets/scraptura-david.jpg"
+    },
+    {
+      "slug": "gath",
+      "titleKo": "가드",
+      "titleEn": "Gath",
+      "heroImage": "/assets/scraptura-david-goliath.jpg"
+    },
+    {
+      "slug": "socoh",
+      "titleKo": "소고",
+      "titleEn": "Socoh",
+      "heroImage": "/assets/scraptura-david-goliath.jpg"
+    },
+    {
+      "slug": "azekah",
+      "titleKo": "아세가",
+      "titleEn": "Azekah",
+      "heroImage": "/assets/scraptura-david-goliath.jpg"
+    },
+    {
+      "slug": "hebron",
+      "titleKo": "헤브론",
+      "titleEn": "Hebron",
+      "heroImage": "/assets/scraptura-david.jpg"
+    },
+    {
+      "slug": "mount-gilboa",
+      "titleKo": "길보아산",
+      "titleEn": "Mount Gilboa",
+      "heroImage": "/assets/scraptura-david-goliath.jpg"
+    },
+    {
+      "slug": "jerusalem",
+      "titleKo": "예루살렘",
+      "titleEn": "Jerusalem",
+      "heroImage": "/assets/scraptura-jerusalem.jpg"
+    },
+    {
+      "slug": "shechem",
+      "titleKo": "세겜",
+      "titleEn": "Shechem",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "bethel",
+      "titleKo": "벧엘",
+      "titleEn": "Bethel",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "egypt",
+      "titleKo": "이집트",
+      "titleEn": "Egypt",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "sinai",
+      "titleKo": "시내산",
+      "titleEn": "Mount Sinai",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "jericho",
+      "titleKo": "여리고",
+      "titleEn": "Jericho",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "jordan-river",
+      "titleKo": "요단강",
+      "titleEn": "Jordan River",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "gilgal",
+      "titleKo": "길갈",
+      "titleEn": "Gilgal",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "ai",
+      "titleKo": "아이 성",
+      "titleEn": "Ai",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "mount-ebal",
+      "titleKo": "에발산",
+      "titleEn": "Mount Ebal",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "mount-gerizim",
+      "titleKo": "그리심산",
+      "titleEn": "Mount Gerizim",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    },
+    {
+      "slug": "gibeon",
+      "titleKo": "기브온",
+      "titleEn": "Gibeon",
+      "heroImage": "/assets/scraptura-home-clean.jpg"
+    }
+  ],
+  "remote": [
+    {
+      "slug": "azekah",
+      "titleKo": "아세가",
+      "heroImage": "https://res.cloudinary.com/yg6rudcn/image/upload/v1790385362/scraptura/content/place/azekah/1790385362430-image-1790385362430.png"
+    },
+    {
+      "slug": "bethlehem",
+      "titleKo": "베들레헴",
+      "heroImage": "https://res.cloudinary.com/yg6rudcn/image/upload/v1790385102/scraptura/content/place/bethlehem/1790385102518-image-1790385102518.png"
+    },
+    {
+      "slug": "canaan",
+      "titleKo": "가나안",
+      "heroImage": "https://res.cloudinary.com/yg6rudcn/image/upload/v1790420262/scraptura/content/place/canaan/1790420259489-image-1790420259489.png"
+    },
+    {
+      "slug": "eden",
+      "titleKo": "에덴",
+      "heroImage": "https://res.cloudinary.com/yg6rudcn/image/upload/v1790420079/scraptura/content/place/eden/1790420076218-image-1790420076218.png"
+    },
+    {
+      "slug": "gath",
+      "titleKo": "가드",
+      "heroImage": "https://res.cloudinary.com/yg6rudcn/image/upload/v1790385194/scraptura/content/place/gath/1790385194431-image-1790385194431.png"
+    },
+    {
+      "slug": "hebron",
+      "titleKo": "헤브론",
+      "heroImage": "https://res.cloudinary.com/yg6rudcn/image/upload/v1790385453/scraptura/content/place/hebron/1790385453139-image-1790385453139.png"
+    },
+    {
+      "slug": "jerusalem",
+      "titleKo": "예루살렘",
+      "heroImage": "https://res.cloudinary.com/yg6rudcn/image/upload/v1790385753/scraptura/content/place/jerusalem/1790385753175-image-1790385753175.png"
+    },
+    {
+      "slug": "mount-gilboa",
+      "titleKo": "길보아산",
+      "heroImage": "https://res.cloudinary.com/yg6rudcn/image/upload/v1790385652/scraptura/content/place/mount-gilboa/1790385652635-image-1790385652635.png"
+    },
+    {
+      "slug": "socoh",
+      "titleKo": "소고",
+      "heroImage": "https://res.cloudinary.com/yg6rudcn/image/upload/v1790385280/scraptura/content/place/socoh/1790385280807-image-1790385280807.png"
+    },
+    {
+      "slug": "valley-of-elah",
+      "titleKo": "엘라 골짜기",
+      "heroImage": "https://res.cloudinary.com/yg6rudcn/image/upload/v1790384994/scraptura/content/place/valley-of-elah/1790384994587--.png"
+    }
+  ]
+}

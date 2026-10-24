@@ -18,3 +18,5 @@ npm run build -- --webpack
 ```
 
 `people:images:check`는 이미지 개수·크기·중복, 인물 전체의 경로, 기존 이미지 파일의 원본 보존, 공개 CMS 이미지의 재사용과 기본 이미지 병합을 검사합니다. `people:images:verify`는 실행 중인 사이트에서 인물 상세 페이지 전체, 실제 이미지 응답, 목록·검색·상세 이동, CMS 연결 유무 및 모바일 표시를 검증합니다.
+
+사용자의 모세 이미지 교체 요청에 따라 모세 노드만 `public/assets/people/moses-v2-wide.webp`로 연결했습니다. 생성 및 최종 구도 수정 프롬프트는 `moses-v2.prompt.txt`에 보관하며, 기존 `scraptura-moses.jpg`와 다른 인물 이미지는 유지합니다. 기본 이미지 70개를 관리하는 일괄 생성 목록과 별도의 교체 이미지입니다.
